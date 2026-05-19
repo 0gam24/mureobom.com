@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# 정식 도메인 확정 후 https://mureobom.com 으로 갱신
+Sitemap: https://mureobom.com/sitemap.xml

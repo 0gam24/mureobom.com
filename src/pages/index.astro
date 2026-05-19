@@ -1,0 +1,59 @@
+---
+import Base from "../layouts/Base.astro";
+import QuestionCard from "../components/QuestionCard.astro";
+import { getCollection } from "astro:content";
+
+const CL: Record<string, string> = { tax:"세금", support:"정부지원금", loan:"대출·신용", insurance:"보험·연금" };
+const all = (await getCollection("answers"))
+  .sort((a,b)=>b.data.updated.valueOf()-a.data.updated.valueOf());
+const latest = all.slice(0, 9);
+const fmt = (d: Date) => new Intl.DateTimeFormat("ko-KR",{dateStyle:"medium"}).format(d);
+---
+<Base title="궁금하면, 물어봄" description="세금·정부지원금·대출·보험, 공식 자료로 확인한 정확한 답.">
+  <section class="hero">
+    <p class="eyebrow">공식 자료로 확인한 답만</p>
+    <h1>궁금한 건 많은데,<br/>믿을 답은 적어서.</h1>
+    <p class="lead">세금·정부지원금·대출·보험. 사람들이 가장 많이 묻는 질문을
+      법령과 정부 자료로 직접 확인해 정리합니다.</p>
+  </section>
+
+  <section class="cats">
+    {Object.entries(CL).map(([id,label])=>(
+      <a class="cat" href={`/${id}/`}>
+        <span>{label}</span><i>→</i>
+      </a>
+    ))}
+  </section>
+
+  <section class="feed">
+    <h2 class="sec">최근 정리된 질문</h2>
+    <div class="grid">
+      {latest.map((p)=>(
+        <QuestionCard href={`/${p.data.cluster}/${p.slug}/`}
+          cluster={p.data.cluster} clusterLabel={CL[p.data.cluster]}
+          title={p.data.title} summary={p.data.summary}
+          updated={fmt(p.data.updated)} />
+      ))}
+    </div>
+  </section>
+
+  <style>
+    .hero{max-width:var(--maxw);margin:3rem auto 0;padding:0 var(--gap);}
+    .eyebrow{color:var(--teal);font-weight:600;font-size:.95rem;letter-spacing:.02em;}
+    .hero h1{font-size:var(--fs-hero);margin:.8rem 0 1.2rem;}
+    .lead{font-size:var(--fs-lead);color:var(--ink-soft);max-width:46ch;}
+    .cats{max-width:var(--maxw);margin:3rem auto;padding:0 var(--gap);
+      display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;}
+    .cat{display:flex;align-items:center;justify-content:space-between;
+      background:var(--paper-2);border:1px solid var(--line);border-radius:var(--r-md);
+      padding:1.3rem 1.4rem;font-weight:600;color:var(--ink);transition:.18s;}
+    .cat:hover{border-color:var(--teal);color:var(--teal);transform:translateY(-2px);}
+    .cat i{color:var(--ink-faint);font-style:normal;}
+    .cat:hover i{color:var(--teal);}
+    .feed{max-width:var(--maxw);margin:0 auto;padding:0 var(--gap);}
+    .sec{font-size:var(--fs-h1);margin-bottom:1.6rem;}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem;}
+    @media(max-width:860px){.cats{grid-template-columns:repeat(2,1fr);}
+      .grid{grid-template-columns:1fr;}}
+  </style>
+</Base>

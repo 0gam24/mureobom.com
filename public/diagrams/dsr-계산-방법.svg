@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="dsr-diagram-title dsr-diagram-desc" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <title id="dsr-diagram-title">DSR 계산 흐름 다이어그램</title>
+  <desc id="dsr-diagram-desc">연간 부채 원리금 합계를 연 소득으로 나누어 DSR 비율을 계산하고, 은행 40% 또는 비은행 50% 한도와 비교하는 흐름</desc>
+
+  <!-- background paper -->
+  <rect x="0" y="0" width="600" height="400" fill="#FBF7F0"/>
+
+  <!-- 좌측: 연간 부채 원리금 합계 컨테이너 -->
+  <rect x="20" y="40" width="220" height="240" rx="12" ry="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="130" y="68" text-anchor="middle" font-size="14" font-weight="700" fill="#1A2B2A">연간 부채 원리금 합계</text>
+
+  <!-- 부채 항목 박스들 -->
+  <rect x="36" y="86" width="188" height="32" rx="6" ry="6" fill="#FBF7F0" stroke="#E3DCCF"/>
+  <text x="130" y="106" text-anchor="middle" font-size="12" fill="#1A2B2A">주택담보대출 원리금</text>
+
+  <rect x="36" y="126" width="188" height="32" rx="6" ry="6" fill="#FBF7F0" stroke="#E3DCCF"/>
+  <text x="130" y="146" text-anchor="middle" font-size="12" fill="#1A2B2A">신용대출 원리금</text>
+
+  <rect x="36" y="166" width="188" height="32" rx="6" ry="6" fill="#FBF7F0" stroke="#E3DCCF"/>
+  <text x="130" y="186" text-anchor="middle" font-size="12" fill="#1A2B2A">전세대출 이자분</text>
+
+  <rect x="36" y="206" width="188" height="32" rx="6" ry="6" fill="#FBF7F0" stroke="#E3DCCF"/>
+  <text x="130" y="226" text-anchor="middle" font-size="12" fill="#1A2B2A">자동차할부·카드론</text>
+
+  <text x="130" y="262" text-anchor="middle" font-size="11" fill="#4A5856">∑ 합산</text>
+
+  <!-- 화살표 1: 합계 → 나누기 기호 -->
+  <line x1="244" y1="160" x2="276" y2="160" stroke="#0E7C72" stroke-width="2" marker-end="url(#arrowTeal)"/>
+
+  <!-- 나누기 기호 -->
+  <circle cx="300" cy="160" r="22" fill="#FBF7F0" stroke="#0E7C72" stroke-width="2"/>
+  <text x="300" y="167" text-anchor="middle" font-size="22" font-weight="700" fill="#0E7C72">÷</text>
+
+  <!-- 화살표 2: 나누기 → 연 소득 -->
+  <line x1="324" y1="160" x2="356" y2="160" stroke="#0E7C72" stroke-width="2" marker-end="url(#arrowTeal)"/>
+
+  <!-- 우측: 연 소득 박스 -->
+  <rect x="360" y="120" width="180" height="80" rx="10" ry="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="450" y="148" text-anchor="middle" font-size="14" font-weight="700" fill="#1A2B2A">연 소득</text>
+  <text x="450" y="172" text-anchor="middle" font-size="11" fill="#4A5856">근로·사업·연금·임대</text>
+  <text x="450" y="190" text-anchor="middle" font-size="11" fill="#4A5856">증빙소득 기준</text>
+
+  <!-- 화살표 3 (꺾어 내려가서 결과로): 연 소득 박스 아래 → DSR 박스 -->
+  <line x1="450" y1="202" x2="450" y2="232" stroke="#0E7C72" stroke-width="2"/>
+  <line x1="450" y1="232" x2="300" y2="232" stroke="#0E7C72" stroke-width="2"/>
+  <line x1="300" y1="232" x2="300" y2="262" stroke="#0E7C72" stroke-width="2" marker-end="url(#arrowTeal)"/>
+
+  <!-- DSR 결과 강조 박스 -->
+  <rect x="180" y="266" width="240" height="56" rx="10" ry="10" fill="#0E7C72" stroke="#0A5F58" stroke-width="1"/>
+  <text x="300" y="291" text-anchor="middle" font-size="14" font-weight="700" fill="#FBF7F0">= DSR (%)</text>
+  <text x="300" y="311" text-anchor="middle" font-size="11" fill="#E3F0EE">= 연간 원리금 ÷ 연 소득 × 100</text>
+
+  <!-- 하단: 한도 텍스트 -->
+  <rect x="20" y="338" width="560" height="44" rx="8" ry="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="300" y="358" text-anchor="middle" font-size="12" font-weight="700" fill="#0A5F58">차주단위 DSR 한도</text>
+  <text x="300" y="374" text-anchor="middle" font-size="12" fill="#1A2B2A">은행권 40% · 비은행권 50% (은행업감독규정·금융위원회 발표 기준)</text>
+
+  <!-- 화살표 마커 정의 -->
+  <defs>
+    <marker id="arrowTeal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0E7C72"/>
+    </marker>
+  </defs>
+</svg>

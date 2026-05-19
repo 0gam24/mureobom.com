@@ -1,0 +1,45 @@
+---
+/* AdSense in-article 광고 슬롯.
+ * - publisher/slot ID는 .env에서만 읽는다 (compliance AD-07).
+ * - PUBLIC_ADSENSE_CLIENT 또는 slot ID 미설정 시 **아무것도 렌더하지 않는다**
+ *   (검색엔진 노이즈·미완성 UX 인상 방지 — 외부 SEO 검토 의견 #4 대응).
+ * - dev 환경에서 슬롯 위치를 시각 확인하려면 .env.local에 PUBLIC_ADSENSE_DEBUG=1.
+ * - 페이지당 최대 2회 사용 (compliance AD-04 — [slug].astro에서 강제).
+ */
+interface Props {
+  slot: string;           // .env의 PUBLIC_ADSENSE_SLOT_TOP/_BOTTOM
+  label?: string;         // 디버그용 (top/bottom)
+}
+const { slot, label = "in-article" } = Astro.props;
+const client = import.meta.env.PUBLIC_ADSENSE_CLIENT;
+const debug  = import.meta.env.PUBLIC_ADSENSE_DEBUG === "1";
+const live   = !!client && !!slot;
+---
+{live ? (
+  <aside class="ad-slot" data-slot={label} aria-label="광고">
+    <p class="ad-tag">광고</p>
+    <ins
+      class="adsbygoogle"
+      style="display:block"
+      data-ad-client={client}
+      data-ad-slot={slot}
+      data-ad-format="fluid"
+      data-ad-layout="in-article"
+    />
+    <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </aside>
+) : debug ? (
+  <aside class="ad-slot placeholder" data-slot={label} aria-label="광고 자리(개발 디버그)">
+    <p class="ad-tag">광고</p>
+    <div class="phbox">[DEBUG] AdSense 슬롯 ({label}) — 위치 확인용</div>
+  </aside>
+) : null}
+
+<style>
+  .ad-slot{margin:2.4rem 0;padding:.6rem 0;}
+  .ad-tag{font-size:var(--fs-meta);color:var(--ink-faint);
+    text-transform:none;letter-spacing:.02em;margin-bottom:.4rem;}
+  .placeholder .phbox{background:var(--paper-2);border:1px dashed var(--line);
+    border-radius:var(--r-sm);padding:1.6rem;text-align:center;
+    color:var(--ink-faint);font-size:var(--fs-meta);}
+</style>

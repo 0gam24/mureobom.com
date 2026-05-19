@@ -1,0 +1,141 @@
+---
+import Base from "../../layouts/Base.astro";
+import AdSlot from "../../components/AdSlot.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("answers");
+  return posts.map((p)=>({ params:{ cluster:p.data.cluster, slug:p.slug }, props:{ p }}));
+}
+const { p } = Astro.props;
+const { Content } = await p.render();
+const CL: Record<string, string> = { tax:"세금", support:"정부지원금", loan:"대출·신용", insurance:"보험·연금" };
+const fmt = (d: Date) => new Intl.DateTimeFormat("ko-KR",{dateStyle:"long"}).format(d);
+
+/* Schema.org @graph — Article + FAQPage + BreadcrumbList 묶음.
+ * Google가 권장하는 다중 타입 결합 방식. Base.astro가 단일 script로 직렬화. */
+const siteBase = Astro.site?.toString().replace(/\/$/, "") ?? "";
+/* 한글 슬러그 percent-encoding (canonical·@id·BreadcrumbList item 모두 통일) */
+const pageUrl  = `${siteBase}/${p.data.cluster}/${encodeURIComponent(p.slug)}/`;
+const clusterUrl = `${siteBase}/${p.data.cluster}/`;
+const ogImage  = p.data.image
+  ? `${siteBase}${p.data.image}`
+  : `${siteBase}/og-default.png`;
+
+const articleNode = {
+  "@type": "Article",
+  "headline": p.data.title,
+  "description": p.data.summary,
+  "datePublished": new Date(p.data.updated).toISOString(),
+  "dateModified":  new Date(p.data.updated).toISOString(),
+  "image": [ogImage],
+  "author":    { "@type": "Organization", "name": "물어봄", "url": siteBase || undefined },
+  "publisher": { "@type": "Organization", "name": "물어봄", "url": siteBase || undefined },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": pageUrl },
+};
+
+const breadcrumbNode = {
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "홈",                 "item": `${siteBase}/` },
+    { "@type": "ListItem", "position": 2, "name": CL[p.data.cluster], "item": clusterUrl },
+    { "@type": "ListItem", "position": 3, "name": p.data.title,         "item": pageUrl },
+  ],
+};
+
+const faqNode = p.data.faq.length ? {
+  "@type": "FAQPage",
+  "mainEntity": p.data.faq.map((f)=>({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+} : null;
+
+const jsonld = {
+  "@context": "https://schema.org",
+  "@graph": [articleNode, breadcrumbNode, ...(faqNode ? [faqNode] : [])],
+};
+
+/* AdSense slot IDs (compliance AD-04: 출처/FAQ 직접 인접 금지)
+ *  - top: 요약과 본문 사이 (휴식 지점)
+ *  - bottom: FAQ 끝 ↔ 고지 사이 (FAQ가 있을 때만 노출, 출처 박스와 분리됨) */
+const slotTop    = import.meta.env.PUBLIC_ADSENSE_SLOT_TOP    ?? "";
+const slotBottom = import.meta.env.PUBLIC_ADSENSE_SLOT_BOTTOM ?? "";
+---
+<Base
+  title={p.data.title}
+  description={p.data.summary}
+  jsonld={jsonld}
+  ogType="article"
+  ogImage={ogImage}
+  canonical={pageUrl}
+>
+  <article class="post">
+    <p class="crumb"><a href={`/${p.data.cluster}/`}>{CL[p.data.cluster]}</a></p>
+    <h1>{p.data.title}</h1>
+    <p class="answer-now">{p.data.summary}</p>
+    <p class="updated">{fmt(p.data.updated)} 기준 · 공식 자료 확인</p>
+
+    <AdSlot slot={slotTop} label="top" />
+
+    <div class="prose"><Content /></div>
+
+    <aside class="sources">
+      <h2>확인한 공식 자료</h2>
+      <ul>
+        {p.data.sources.map((s)=>(
+          <li>{s.url ? <a href={s.url} rel="nofollow">{s.label}</a> : s.label}</li>
+        ))}
+      </ul>
+    </aside>
+
+    {p.data.faq.length>0 && (
+      <section class="faq">
+        <h2>자주 묻는 질문</h2>
+        {p.data.faq.map((f)=>(
+          <details>
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </section>
+    )}
+
+    {p.data.faq.length>0 && <AdSlot slot={slotBottom} label="bottom" />}
+
+    {p.data.disclaimer && (
+      <p class="disc">※ 일반 정보 제공 목적입니다. 개별 사안은 관할 기관·전문가 확인을 권합니다.</p>
+    )}
+  </article>
+
+  <style>
+    .post{max-width:760px;margin:3rem auto;padding:0 var(--gap);}
+    .crumb{font-size:var(--fs-meta);font-weight:600;}
+    .post h1{font-size:var(--fs-h1);margin:.7rem 0 1.2rem;}
+    .answer-now{font-size:var(--fs-lead);background:var(--teal-wash);
+      border-left:3px solid var(--teal);padding:1rem 1.2rem;border-radius:0 var(--r-sm) var(--r-sm) 0;
+      color:var(--ink);}
+    .updated{color:var(--ink-faint);font-size:var(--fs-meta);margin:1rem 0 2.4rem;}
+    .prose{max-width:var(--measure);}
+    .prose :global(h2){font-size:var(--fs-h2);margin:2.4rem 0 .9rem;}
+    .prose :global(p){margin:1rem 0;color:var(--ink);}
+    .prose :global(table){width:100%;border-collapse:collapse;margin:1.4rem 0;font-size:.95rem;}
+    .prose :global(th),.prose :global(td){border:1px solid var(--line);padding:.6rem .8rem;text-align:left;}
+    .prose :global(th){background:var(--paper-2);}
+    .sources{margin:3rem 0;background:var(--paper-2);border:1px solid var(--line);
+      border-radius:var(--r-md);padding:1.4rem 1.6rem;}
+    .sources h2{font-size:1.15rem;margin-bottom:.7rem;}
+    .sources ul{padding-left:1.1rem;color:var(--ink-soft);font-size:.95rem;}
+    .sources li{margin:.35rem 0;}
+    .faq{margin:3rem 0;}
+    .faq h2{font-size:var(--fs-h2);margin-bottom:1rem;}
+    .faq details{border-bottom:1px solid var(--line);padding:1rem 0;}
+    .faq summary{font-weight:600;cursor:pointer;list-style:none;}
+    .faq summary::before{content:"+";color:var(--teal);margin-right:.6rem;font-weight:700;}
+    .faq details[open] summary::before{content:"–";}
+    .faq p{margin-top:.7rem;color:var(--ink-soft);}
+    .disc{margin-top:2.5rem;font-size:var(--fs-meta);color:var(--ink-faint);
+      border-top:1px solid var(--line);padding-top:1rem;}
+  </style>
+</Base>

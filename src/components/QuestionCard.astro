@@ -1,0 +1,25 @@
+---
+const { href, cluster, clusterLabel, title, summary, updated } = Astro.props;
+---
+<a class="qcard" href={href}>
+  <span class="tag" data-c={cluster}>{clusterLabel}</span>
+  <h3 class="q">{title}</h3>
+  <p class="a">{summary}</p>
+  <span class="meta">업데이트 {updated}</span>
+  <style>
+    .qcard{display:block;background:var(--paper-2);border:1px solid var(--line);
+      border-radius:var(--r-md);padding:1.5rem 1.6rem;transition:.18s ease;
+      position:relative;overflow:hidden;}
+    .qcard::before{content:"?";position:absolute;right:-.4rem;bottom:-2.2rem;
+      font-family:var(--font-display);font-size:7rem;color:var(--ink);
+      opacity:.04;pointer-events:none;}
+    .qcard:hover{transform:translateY(-3px);border-color:var(--teal);
+      box-shadow:var(--shadow);}
+    .tag{font-size:var(--fs-meta);font-weight:600;color:var(--teal);
+      background:var(--teal-wash);padding:.2rem .6rem;border-radius:999px;}
+    .q{font-size:var(--fs-h2);margin:.8rem 0 .5rem;color:var(--ink);}
+    .a{color:var(--ink-soft);font-size:.98rem;
+      display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+    .meta{display:block;margin-top:1rem;font-size:var(--fs-meta);color:var(--ink-faint);}
+  </style>
+</a>

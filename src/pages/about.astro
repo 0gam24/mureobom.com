@@ -1,0 +1,68 @@
+---
+import Base from "../layouts/Base.astro";
+const title = "물어봄 소개";
+const description = "물어봄은 세금·정부지원금·대출·보험 분야에서 사람들이 가장 많이 묻는 질문에 법령·정부 자료로 답하는 독립 Q&A 미디어입니다.";
+---
+<Base title={title} description={description}>
+  <article class="page">
+    <h1>물어봄 소개</h1>
+
+    <p class="lead">
+      검색창에 친 질문 그대로의 답을, 공식 1차 출처로 직접 확인해 정리합니다.
+    </p>
+
+    <h2>편집 원칙</h2>
+    <ul>
+      <li><strong>공식 1차 출처만 인용</strong> — 국가법령정보센터, 고용노동부, 국세청,
+        근로복지공단, 금융감독원, 금융결제원 등 정부·공공기관 자료. 블로그·커뮤니티
+        2차 가공은 인용하지 않습니다.</li>
+      <li><strong>원본만 발행</strong> — 다른 사이트의 답변을 요약·재게시하지 않습니다.
+        모든 글은 1차 출처를 직접 읽고 우리 관점으로 새로 씁니다.</li>
+      <li><strong>차별화 각도 명시</strong> — 같은 주제라도 다른 사이트가 놓치는
+        구체 케이스를 골라 다룹니다.</li>
+      <li><strong>연도·금액 기준 명시</strong> — 법령은 자주 바뀌므로 "2026년 기준"
+        등 적용 시점을 본문에 표기합니다.</li>
+      <li><strong>일반정보 고지</strong> — 본 사이트의 글은 법률·세무·금융 자문이
+        아닙니다. 개별 사례는 관할 기관 또는 전문가에게 확인하세요.</li>
+    </ul>
+
+    <h2>다루는 주제</h2>
+    <ul>
+      <li><a href="/tax/">세금</a> — 연말정산, 종합소득세, 부가세, 양도세</li>
+      <li><a href="/support/">정부지원금</a> — 실업급여, 근로장려금, 바우처, 청년지원</li>
+      <li><a href="/loan/">대출·신용</a> — 전세, 주담대, 신용대출, 신용점수</li>
+      <li><a href="/insurance/">보험·연금</a> — 4대보험, 국민연금, 실손, 연금저축</li>
+    </ul>
+
+    <h2>운영</h2>
+    <p>
+      물어봄은 1인 운영 미디어입니다. 토픽 발굴과 자료 검증은 자동화된 파이프라인이
+      처리하고, 편집·검수는 사람이 직접 합니다.
+    </p>
+    <p>
+      문의: <a href="mailto:hello@mureobom.com">hello@mureobom.com</a>
+      (도메인 라이브 전 — 운영자가 추후 갱신)
+    </p>
+
+    <h2>수익화</h2>
+    <p>
+      페이지 일부 영역에 Google AdSense 광고가 노출됩니다. 광고 수익은 사이트 운영
+      비용에 사용되며, 광고가 콘텐츠 신뢰도에 영향을 주지 않도록 광고는 본문 출처
+      박스 위·아래에는 배치하지 않습니다.
+    </p>
+    <p>제휴 마케팅·상품 추천·계산기 딥링크는 운영하지 않습니다.</p>
+  </article>
+
+  <style>
+    .page{max-width:760px;margin:3rem auto 4rem;padding:0 var(--gap);}
+    .page h1{font-size:var(--fs-h1);margin-bottom:1.2rem;}
+    .lead{font-size:var(--fs-lead);color:var(--ink-soft);
+      border-left:3px solid var(--teal);padding:.6rem 1.2rem;
+      background:var(--teal-wash);border-radius:0 var(--r-sm) var(--r-sm) 0;
+      margin-bottom:2.5rem;}
+    .page h2{font-size:var(--fs-h2);margin:2.4rem 0 .9rem;}
+    .page ul{padding-left:1.3rem;margin:1rem 0;color:var(--ink);}
+    .page li{margin:.4rem 0;}
+    .page p{margin:1rem 0;color:var(--ink);}
+  </style>
+</Base>

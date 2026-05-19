@@ -1,0 +1,52 @@
+/* 물어봄 디자인 토큰
+ * 컨셉: 물(신뢰·차분) + 봄(친근·새싹) → 따뜻한 종이 + 명조 + 워터틸
+ * 모든 색/간격은 변수로만. 컴포넌트에서 하드코딩 금지.
+ */
+:root {
+  /* ---- Color ---- */
+  --paper:      #FBF7F0;   /* 본문 배경: 따뜻한 크림 */
+  --paper-2:    #F4EEE2;   /* 카드/구획 배경 */
+  --ink:        #1A2B2A;   /* 본문 텍스트: 워터잉크 블랙 */
+  --ink-soft:   #4A5856;   /* 보조 텍스트 */
+  --ink-faint:  #8A938F;   /* 캡션/메타 */
+  --teal:       #0E7C72;   /* 시그니처 액센트(물) */
+  --teal-deep:  #0A5F58;   /* hover/active */
+  --teal-wash:  #E3F0EE;   /* 강조 배경 */
+  --gold:       #C2873B;   /* 보조 액센트, 아주 절제해서 사용 */
+  --line:       #E3DCCF;   /* 따뜻한 헤어라인 */
+  --danger:     #B5462F;   /* 경고/주의 고지 */
+
+  /* ---- Type ---- */
+  --font-display: "Gowun Batang", "Nanum Myeongjo", serif;
+  --font-body:    "IBM Plex Sans KR", system-ui, sans-serif;
+  --fs-hero:   clamp(2.4rem, 5vw, 4rem);
+  --fs-h1:     clamp(1.9rem, 3.4vw, 2.8rem);
+  --fs-h2:     clamp(1.35rem, 2.2vw, 1.7rem);
+  --fs-lead:   clamp(1.05rem, 1.4vw, 1.2rem);
+  --fs-body:   1.0625rem;
+  --fs-meta:   0.8125rem;
+  --lh-body:   1.85;       /* 한국어 가독성 위해 넉넉히 */
+
+  /* ---- Space / Shape ---- */
+  --maxw: 1180px;
+  --measure: 68ch;         /* 본문 한 줄 길이 */
+  --r-sm: 6px;
+  --r-md: 12px;
+  --r-lg: 20px;
+  --gap: clamp(1rem, 2.5vw, 2rem);
+  --shadow: 0 1px 2px rgba(26,43,42,.04), 0 8px 24px -12px rgba(26,43,42,.18);
+}
+
+* { box-sizing: border-box; margin: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+}
+h1,h2,h3 { font-family: var(--font-display); line-height: 1.25; font-weight: 700; }
+a { color: var(--teal); text-decoration: none; }
+a:hover { color: var(--teal-deep); }

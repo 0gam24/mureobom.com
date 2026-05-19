@@ -1,0 +1,52 @@
+---
+import Base from "../../layouts/Base.astro";
+import QuestionCard from "../../components/QuestionCard.astro";
+import { getCollection } from "astro:content";
+
+type ClusterId = "tax" | "support" | "loan" | "insurance";
+type ClusterMeta = { label: string; desc: string };
+
+export async function getStaticPaths() {
+  const meta: Record<ClusterId, ClusterMeta> = {
+    tax:{label:"세금",desc:"연말정산·종합소득세·부가세·양도세 핵심 답."},
+    support:{label:"정부지원금",desc:"실업급여·근로장려금·바우처 자격과 절차."},
+    loan:{label:"대출·신용",desc:"전세·주담대·신용대출·신용점수 실전 가이드."},
+    insurance:{label:"보험·연금",desc:"4대보험·국민연금·실손·연금저축 정리."},
+  };
+  return (Object.keys(meta) as ClusterId[]).map((c) => ({
+    params: { cluster: c },
+    props:  { meta: meta[c], cluster: c },
+  }));
+}
+const { meta, cluster } = Astro.props;
+const CL: Record<string, string> = { tax:"세금", support:"정부지원금", loan:"대출·신용", insurance:"보험·연금" };
+const posts = (await getCollection("answers"))
+  .filter((p)=>p.data.cluster===cluster)
+  .sort((a,b)=>b.data.updated.valueOf()-a.data.updated.valueOf());
+const fmt = (d: Date) => new Intl.DateTimeFormat("ko-KR",{dateStyle:"medium"}).format(d);
+---
+<Base title={meta.label} description={meta.desc}>
+  <section class="chead">
+    <p class="eyebrow">{meta.label}</p>
+    <h1>{meta.label}, 가장 많이 묻는 것부터.</h1>
+    <p class="lead">{meta.desc}</p>
+  </section>
+  <section class="list">
+    <div class="grid">
+      {posts.map((p)=>(
+        <QuestionCard href={`/${cluster}/${p.slug}/`} cluster={cluster}
+          clusterLabel={CL[cluster]} title={p.data.title}
+          summary={p.data.summary} updated={fmt(p.data.updated)} />
+      ))}
+    </div>
+  </section>
+  <style>
+    .chead{max-width:var(--maxw);margin:3rem auto 2.5rem;padding:0 var(--gap);}
+    .eyebrow{color:var(--teal);font-weight:600;}
+    .chead h1{font-size:var(--fs-h1);margin:.6rem 0 .8rem;}
+    .lead{color:var(--ink-soft);max-width:50ch;}
+    .list{max-width:var(--maxw);margin:0 auto;padding:0 var(--gap);}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.1rem;}
+    @media(max-width:760px){.grid{grid-template-columns:1fr;}}
+  </style>
+</Base>

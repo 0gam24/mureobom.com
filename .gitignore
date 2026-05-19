@@ -1,0 +1,51 @@
+# Node
+node_modules/
+.npm/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Astro
+dist/
+.astro/
+.output/
+
+# Env (secrets — 절대 커밋 X)
+.env
+.env.local
+.env.production
+.env.development
+
+# Researcher 산출은 transient — researcher.md 정책상 미커밋
+automation/research/*
+!automation/research/.gitkeep
+
+# 스캐너 통계 (Phase 3에서 자동 생성)
+automation/_stats.json
+
+# Python (hook 스크립트 캐시)
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+
+# Cloudflare Wrangler (Phase 1 이후)
+.wrangler/
+
+# 사용자 임시 파일 (현재 레포에 있음 — 운영자가 직접 처리)
+# tree.txt

@@ -1,0 +1,73 @@
+폴더 PATH의 목록입니다.
+볼륨 일련 번호는 480A-BAC7입니다.
+C:.
+|   CLAUDE.md
+|   tree.txt
+|   WORKFLOW.md
+|   기획서.md
+|   
++---.claude
+|   |   settings.json
+|   |   
+|   \---agents
+|           brief-generator.md
+|           compliance.md
+|           geo.md
+|           researcher.md
+|           writer.md
+|           
++---.github
+|   \---workflows
+|           topic-scanner.yml
+|           
++---briefs
+|   |   example.brief.yaml
+|   |   _published_slugs.txt
+|   |   _schema.md
+|   |   
+|   +---insurance
+|   |       .gitkeep
+|   |       
+|   +---loan
+|   |       .gitkeep
+|   |       
+|   +---support
+|   |       .gitkeep
+|   |       
+|   \---tax
+|           .gitkeep
+|           
++---compliance
+|       checklist.md
+|       
++---config
+|       scoring.yaml
+|       seed-keywords.yaml
+|       
++---Frontend
+|       Base.astro
+|       cluster.index.astro
+|       config.ts
+|       home.index.astro
+|       preview.html
+|       QuestionCard.astro
+|       tokens.css
+|       [slug].astro
+|       기획서.md
+|       
++---public
+|       llms.txt
+|       
++---scripts
+|   |   topic_scanner.py
+|   |   
+|   +---hooks
+|   |       no_kin_originals.py
+|   |       _test.py
+|   |       
+|   \---__pycache__
+|           topic_scanner.cpython-311.pyc
+|           
+\---templates
+        post.md
+        

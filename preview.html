@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>물어봄 — 디자인 프리뷰</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+:root{
+ --paper:#FBF7F0;--paper-2:#F4EEE2;--ink:#1A2B2A;--ink-soft:#4A5856;
+ --ink-faint:#8A938F;--teal:#0E7C72;--teal-deep:#0A5F58;--teal-wash:#E3F0EE;
+ --line:#E3DCCF;--font-display:"Gowun Batang",serif;--font-body:"IBM Plex Sans KR",sans-serif;
+ --maxw:1180px;--r-md:12px;--r-sm:6px;--gap:clamp(1rem,2.5vw,2rem);
+ --shadow:0 1px 2px rgba(26,43,42,.04),0 8px 24px -12px rgba(26,43,42,.18);}
+*{box-sizing:border-box;margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--font-body);
+ font-size:1.0625rem;line-height:1.85;-webkit-font-smoothing:antialiased;}
+h1,h2,h3{font-family:var(--font-display);line-height:1.25;font-weight:700;}
+a{color:var(--teal);text-decoration:none}a:hover{color:var(--teal-deep)}
+.head{display:flex;align-items:center;justify-content:space-between;
+ max-width:var(--maxw);margin:0 auto;padding:1.4rem var(--gap);}
+.brand{font-family:var(--font-display);font-size:1.5rem;font-weight:700;
+ color:var(--ink);display:inline-flex;align-items:baseline;gap:.1rem;}
+.brand .bom{color:var(--teal)}
+.sprout{width:7px;height:7px;border-radius:0 70% 70% 70%;background:var(--teal);
+ transform:rotate(45deg);margin-left:5px;display:inline-block}
+.nav{display:flex;gap:1.4rem;font-size:.95rem;font-weight:500}
+.nav a{color:var(--ink-soft)}.nav a:hover{color:var(--teal)}
+.hero{max-width:var(--maxw);margin:3rem auto 0;padding:0 var(--gap)}
+.eyebrow{color:var(--teal);font-weight:600;font-size:.95rem}
+.hero h1{font-size:clamp(2.4rem,5vw,4rem);margin:.8rem 0 1.2rem}
+.lead{font-size:1.15rem;color:var(--ink-soft);max-width:46ch}
+.cats{max-width:var(--maxw);margin:3rem auto;padding:0 var(--gap);
+ display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+.cat{display:flex;align-items:center;justify-content:space-between;
+ background:var(--paper-2);border:1px solid var(--line);border-radius:var(--r-md);
+ padding:1.3rem 1.4rem;font-weight:600;color:var(--ink);transition:.18s}
+.cat:hover{border-color:var(--teal);color:var(--teal);transform:translateY(-2px)}
+.cat i{color:var(--ink-faint);font-style:normal}.cat:hover i{color:var(--teal)}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gap)}
+.sec{font-size:clamp(1.9rem,3.4vw,2.8rem);margin:0 0 1.6rem}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
+.qcard{display:block;background:var(--paper-2);border:1px solid var(--line);
+ border-radius:var(--r-md);padding:1.5rem 1.6rem;transition:.18s;position:relative;overflow:hidden}
+.qcard::before{content:"?";position:absolute;right:-.4rem;bottom:-2.2rem;
+ font-family:var(--font-display);font-size:7rem;color:var(--ink);opacity:.04}
+.qcard:hover{transform:translateY(-3px);border-color:var(--teal);box-shadow:var(--shadow)}
+.tag{font-size:.8125rem;font-weight:600;color:var(--teal);background:var(--teal-wash);
+ padding:.2rem .6rem;border-radius:999px}
+.qcard .q{font-size:1.5rem;margin:.8rem 0 .5rem;color:var(--ink)}
+.qcard .a{color:var(--ink-soft);font-size:.98rem}
+.qcard .m{display:block;margin-top:1rem;font-size:.8125rem;color:var(--ink-faint)}
+.divider{max-width:var(--maxw);margin:5rem auto 0;border-top:1px dashed var(--line)}
+.post{max-width:760px;margin:3rem auto;padding:0 var(--gap)}
+.crumb{font-size:.8125rem;font-weight:600}
+.post h1{font-size:clamp(1.9rem,3.4vw,2.8rem);margin:.7rem 0 1.2rem}
+.answer-now{font-size:1.15rem;background:var(--teal-wash);border-left:3px solid var(--teal);
+ padding:1rem 1.2rem;border-radius:0 var(--r-sm) var(--r-sm) 0}
+.updated{color:var(--ink-faint);font-size:.8125rem;margin:1rem 0 2.4rem}
+.prose p{margin:1rem 0}.prose h2{font-size:1.6rem;margin:2.4rem 0 .9rem}
+.sources{margin:3rem 0;background:var(--paper-2);border:1px solid var(--line);
+ border-radius:var(--r-md);padding:1.4rem 1.6rem}
+.sources h2{font-size:1.15rem;margin-bottom:.7rem}
+.sources ul{padding-left:1.1rem;color:var(--ink-soft);font-size:.95rem}
+.faq{margin:3rem 0}.faq h2{font-size:1.6rem;margin-bottom:1rem}
+.faq details{border-bottom:1px solid var(--line);padding:1rem 0}
+.faq summary{font-weight:600;cursor:pointer;list-style:none}
+.faq summary::before{content:"+";color:var(--teal);margin-right:.6rem;font-weight:700}
+.faq details[open] summary::before{content:"–"}
+.faq p{margin-top:.7rem;color:var(--ink-soft)}
+.foot{max-width:var(--maxw);margin:5rem auto 3rem;padding:2rem var(--gap) 0;
+ border-top:1px solid var(--line);color:var(--ink-faint);font-size:.8125rem}
+@media(max-width:860px){.cats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="head">
+ <a class="brand" href="#">물어<span class="bom">봄</span><i class="sprout"></i></a>
+ <nav class="nav"><a>세금</a><a>정부지원금</a><a>대출·신용</a><a>보험·연금</a></nav>
+</header>
+
+<section class="hero">
+ <p class="eyebrow">공식 자료로 확인한 답만</p>
+ <h1>궁금한 건 많은데,<br/>믿을 답은 적어서.</h1>
+ <p class="lead">세금·정부지원금·대출·보험. 사람들이 가장 많이 묻는 질문을
+  법령과 정부 자료로 직접 확인해 정리합니다.</p>
+</section>
+
+<section class="cats">
+ <a class="cat"><span>세금</span><i>→</i></a>
+ <a class="cat"><span>정부지원금</span><i>→</i></a>
+ <a class="cat"><span>대출·신용</span><i>→</i></a>
+ <a class="cat"><span>보험·연금</span><i>→</i></a>
+</section>
+
+<section class="wrap">
+ <h2 class="sec">최근 정리된 질문</h2>
+ <div class="grid">
+  <a class="qcard"><span class="tag">정부지원금</span>
+   <h3 class="q">자발적 퇴사인데 실업급여 받을 수 있나요?</h3>
+   <p class="a">원칙은 비자발적 이직이지만, 인정되는 예외 사유가 있습니다.</p>
+   <span class="m">업데이트 2026. 5. 12.</span></a>
+  <a class="qcard"><span class="tag">세금</span>
+   <h3 class="q">프리랜서 3.3%, 5월에 더 내야 하나요?</h3>
+   <p class="a">원천징수와 종합소득세 정산 구조부터 정리합니다.</p>
+   <span class="m">업데이트 2026. 5. 9.</span></a>
+  <a class="qcard"><span class="tag">대출·신용</span>
+   <h3 class="q">전세대출 한도, 무엇으로 정해지나요?</h3>
+   <p class="a">보증기관·소득·보증금 비율이 한도를 결정합니다.</p>
+   <span class="m">업데이트 2026. 5. 6.</span></a>
+ </div>
+</section>
+
+<div class="divider"></div>
+
+<article class="post">
+ <p class="crumb"><a>정부지원금</a></p>
+ <h1>자발적 퇴사인데 실업급여 받을 수 있나요?</h1>
+ <p class="answer-now">원칙적으로 자발적 퇴사는 수급 대상이 아니지만,
+  법령이 정한 정당한 이직 사유에 해당하면 받을 수 있습니다.</p>
+ <p class="updated">2026년 5월 12일 기준 · 공식 자료 확인</p>
+ <div class="prose">
+  <h2>수급 자격의 기본 원칙</h2>
+  <p>고용보험법상 구직급여는 비자발적 이직을 원칙으로 합니다.
+   다만 시행령에 열거된 정당한 사유가 있으면 자발적 퇴사도 예외로 인정됩니다.</p>
+  <h2>예외로 인정되는 대표 사유</h2>
+  <p>임금 체불, 통근 곤란, 질병, 사업장의 위법 등 구체적 요건이 정해져 있으며,
+   각 사유는 증빙과 함께 판단됩니다.</p>
+ </div>
+ <aside class="sources">
+  <h2>확인한 공식 자료</h2>
+  <ul>
+   <li>고용보험법 / 고용보험법 시행령 (국가법령정보센터)</li>
+   <li>고용노동부 실업급여 안내</li>
+   <li>고용보험 누리집 공식 산정 기준</li>
+  </ul>
+ </aside>
+ <section class="faq">
+  <h2>자주 묻는 질문</h2>
+  <details open><summary>권고사직도 자발적 퇴사인가요?</summary>
+   <p>권고사직은 일반적으로 비자발적 이직으로 분류되어 수급 대상이 될 수 있습니다.</p></details>
+  <details><summary>증빙은 어떤 걸 준비하나요?</summary>
+   <p>사유별로 요구 서류가 다르며, 사실관계를 입증할 수 있는 자료가 필요합니다.</p></details>
+ </section>
+ <p class="updated">※ 일반 정보 제공 목적입니다. 개별 사안은 관할 기관·전문가 확인을 권합니다.</p>
+</article>
+
+<footer class="foot">
+ <p>물어봄 — 공식 자료 기반 금융·생활 답변</p>
+ <p>본 콘텐츠는 일반 정보 제공 목적이며 개별 상황에 대한 자문이 아닙니다.</p>
+</footer>
+</body>
+</html>

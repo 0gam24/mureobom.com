@@ -1,0 +1,44 @@
+id: support-실업급여-조건
+cluster: support
+status: draft            # draft → approved(사람) → published(자동)
+
+target_query: "실업급여 조건 2026 자발적 퇴사"
+search_intent: 절차형     # 자격 확인 + 신청 절차를 함께 원함
+
+signal:                  # 스캐너 산출(읽기 전용, 원문 아님)
+  score: 78.4
+  trend_momentum: 0.62
+  question_volume: 0.41
+  cluster_fit: 1.0
+  freshness: 0.55
+
+must_cover:
+  - 수급 자격 요건(고용보험 가입기간, 비자발적 이직 원칙)
+  - 자발적 퇴사 예외 인정 사유
+  - 2026년 기준 지급액·소정급여일수 산정 방식
+  - 신청 절차와 필요 서류, 실업인정일
+  - 흔한 오해(권고사직 vs 자발적 퇴사) 바로잡기
+
+required_sources:        # 공식 1차 출처만. 지식iN 아님. 0건이면 발행 차단
+  - "고용보험법 / 고용보험법 시행령 (국가법령정보센터)"
+  - "고용노동부 실업급여 안내"
+  - "근로복지공단 / 고용보험 누리집 공식 산정 기준"
+
+internal_links:
+  - support/근로장려금
+  - tax/연말정산        # 실업급여 비과세 관련 연결
+
+# cta 필드는 폐기 — 수익화는 AdSense 단독 (계산기/제휴 CTA 미사용)
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true  # 일반정보 고지 삽입 (AdSense YMYL 정책 친화)
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: 자발적 퇴사 예외의 2026 신규 인정 케이스 + 권고사직 위장 vs 진성 자발적 구분 표.
+  자발적 퇴사 예외 사유는 연도별로 자주 바뀌니 2026 최신 기준 명시.
+  "무조건 못 받는다"는 통념 반박 단락 꼭 포함.

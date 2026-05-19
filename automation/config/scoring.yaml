@@ -1,0 +1,15 @@
+# 토픽 스캐너 점수 가중치 — PoC 후 튜닝
+weights:
+  trend_momentum: 0.40   # 데이터랩 검색 트렌드 상승 모멘텀
+  question_volume: 0.30  # kin API 최근 질문량 프록시
+  cluster_fit: 0.20      # 시드 키워드 매칭 강도
+  freshness: 0.10        # 최신 질문 신선도
+
+duplication_penalty_max: 40   # 기발행/큐 중복 시 최대 감점
+
+scanner:
+  kin_display: 100       # kin API 한 번에 가져올 개수(최대 100)
+  kin_sort: "date"       # 최신순
+  recent_window_days: 14 # question_volume 산정 기준 기간
+  top_n_per_cluster: 5   # 클러스터별 큐에 올릴 상위 개수
+  datalab_lookback_days: 30

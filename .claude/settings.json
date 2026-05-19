@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Edit(./automation/briefs/**)",
+      "Edit(./automation/research/**)",
+      "Edit(./automation/topic-queue.json)",
+      "Edit(./src/**)",
+      "Edit(./public/llms.txt)",
+      "Edit(./templates/**)",
+      "Write(./automation/briefs/**)",
+      "Write(./automation/research/**)",
+      "Write(./automation/topic-queue.json)",
+      "Write(./src/**)",
+      "Write(./public/**)",
+      "WebFetch(domain:law.go.kr)",
+      "WebFetch(domain:www.law.go.kr)",
+      "WebFetch(domain:moel.go.kr)",
+      "WebFetch(domain:www.moel.go.kr)",
+      "WebFetch(domain:nts.go.kr)",
+      "WebFetch(domain:hometax.go.kr)",
+      "WebFetch(domain:nps.or.kr)",
+      "WebFetch(domain:hira.or.kr)",
+      "WebFetch(domain:kcomwel.or.kr)",
+      "WebFetch(domain:hf.go.kr)",
+      "WebFetch(domain:fss.or.kr)",
+      "WebFetch(domain:fsc.go.kr)",
+      "WebFetch(domain:kftc.or.kr)",
+      "WebFetch(domain:data.go.kr)",
+      "WebFetch(domain:open.go.kr)",
+      "WebFetch(domain:bok.or.kr)",
+      "WebFetch(domain:adsense.google.com)",
+      "WebFetch(domain:support.google.com)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(python automation/scripts/topic_scanner.py:*)",
+      "Bash(python scripts/hooks/_test.py)",
+      "Bash(npm run build)",
+      "Bash(npm run dev)",
+      "Bash(npm install)",
+      "Bash(npx astro:*)",
+      "Bash(python -m pytest:*)"
+    ],
+    "deny": [
+      "WebFetch(domain:kin.naver.com)",
+      "WebFetch(domain:m.kin.naver.com)",
+      "WebFetch(domain:blog.naver.com)",
+      "WebFetch(domain:m.blog.naver.com)",
+      "WebFetch(domain:cafe.naver.com)",
+      "WebFetch(domain:m.cafe.naver.com)",
+      "WebFetch(domain:news.naver.com)",
+      "Write(./.env)",
+      "Write(./.env.local)",
+      "Write(./.env.production)",
+      "Edit(./.env)",
+      "Edit(./.env.local)",
+      "Bash(curl *kin.naver.com*)",
+      "Bash(wget *kin.naver.com*)",
+      "Bash(curl *blog.naver.com*)",
+      "Bash(curl *cafe.naver.com*)",
+      "Bash(rm -rf:*)",
+      "Bash(git push --force:*)",
+      "Bash(git reset --hard:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python scripts/hooks/no_kin_originals.py"
+          }
+        ]
+      }
+    ]
+  }
+}

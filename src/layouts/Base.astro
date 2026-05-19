@@ -1,0 +1,120 @@
+---
+import "../styles/tokens.css";
+/* Base props
+ *  - title, description: 필수
+ *  - jsonld: 페이지가 만든 schema.org 객체 (단일 또는 @graph)
+ *  - ogType: "website" (기본) / "article" (글 상세에서 override)
+ *  - ogImage: 절대 URL. 미지정 시 /og-default.png
+ *  - canonical: 절대 URL. 미지정 시 Astro.url 기반 자동
+ */
+const { title, description, jsonld, ogType = "website", ogImage, canonical } = Astro.props;
+const CLUSTERS = [
+  { id: "tax", label: "세금", path: "/tax/" },
+  { id: "support", label: "정부지원금", path: "/support/" },
+  { id: "loan", label: "대출·신용", path: "/loan/" },
+  { id: "insurance", label: "보험·연금", path: "/insurance/" },
+];
+/* env-only IDs (compliance AD-07) */
+const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT;
+const naverVerify   = import.meta.env.PUBLIC_NAVER_SITE_VERIFICATION;
+const googleVerify  = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
+
+/* URL 정규화: 한글 슬러그 percent-encoding 통일 (SEO 검토 #2 대응)
+ *  - `new URL().toString()`은 path 부분 한글을 raw로 유지하므로 별도 인코딩 필요.
+ *  - encodeURI는 `/` `.` `-` 같은 reserved 문자를 보존하면서 한글만 인코딩.
+ *  - canonical과 og:url 둘 다 같은 인코딩 결과 사용 → sitemap.xml과도 일관. */
+function toAbsoluteUrl(path: string): string {
+  const encoded = encodeURI(path);
+  if (Astro.site) return new URL(encoded, Astro.site).toString();
+  return encoded;
+}
+const canonicalUrl = canonical ?? toAbsoluteUrl(Astro.url.pathname);
+
+/* og:image: PNG 기본 — SNS 미리보기 호환 (SEO 검토 #3 대응).
+ *  - og-default.png는 운영자가 1200×630으로 생성 후 public/에 배치.
+ *  - 미생성 시 발행 글 OG 썸네일 깨짐 → finalize 작업 알림.
+ *  - 글 frontmatter `image` 필드로 글별 OG override 가능. */
+const ogImageUrl = ogImage ? toAbsoluteUrl(ogImage)
+                           : toAbsoluteUrl("/og-default.png");
+const siteName = "물어봄";
+---
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title} — {siteName}</title>
+  <meta name="description" content={description} />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href={canonicalUrl} />
+
+  {/* Open Graph */}
+  <meta property="og:type" content={ogType} />
+  <meta property="og:site_name" content={siteName} />
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:image" content={ogImageUrl} />
+
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImageUrl} />
+
+  {/* Favicons — favicon.ico/apple-touch-icon.png는 운영자가 추후 추가(부재 시 silent 404) */}
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="alternate icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  {/* Site verification */}
+  {naverVerify  && <meta name="naver-site-verification"  content={naverVerify} />}
+  {googleVerify && <meta name="google-site-verification" content={googleVerify} />}
+
+  {/* Fonts */}
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  {jsonld && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+  {adsenseClient && (
+    <script is:inline async crossorigin="anonymous"
+      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
+    />
+  )}
+</head>
+<body>
+  <header class="site-head">
+    <a class="brand" href="/">물어<span class="bom">봄</span><i class="sprout" aria-hidden="true"></i></a>
+    <nav class="nav">
+      {CLUSTERS.map((c) => <a href={c.path}>{c.label}</a>)}
+    </nav>
+  </header>
+
+  <main><slot /></main>
+
+  <footer class="site-foot">
+    <p>물어봄 — 공식 자료 기반 금융·생활 답변</p>
+    <p class="fine">본 콘텐츠는 일반 정보 제공 목적이며 개별 상황에 대한 법률·세무·금융 자문이 아닙니다.
+      페이지에는 Google AdSense 광고가 노출될 수 있으며, 광고 수익은 사이트 운영에 사용됩니다.</p>
+  </footer>
+
+  <style>
+    .site-head{display:flex;align-items:center;justify-content:space-between;
+      max-width:var(--maxw);margin:0 auto;padding:1.4rem var(--gap);}
+    .brand{font-family:var(--font-display);font-size:1.5rem;font-weight:700;
+      color:var(--ink);display:inline-flex;align-items:baseline;gap:.1rem;}
+    .brand .bom{color:var(--teal);}
+    .sprout{width:7px;height:7px;border-radius:0 70% 70% 70%;
+      background:var(--teal);transform:rotate(45deg);margin-left:4px;display:inline-block;}
+    .nav{display:flex;gap:1.4rem;font-size:.95rem;font-weight:500;}
+    .nav a{color:var(--ink-soft);}
+    .nav a:hover{color:var(--teal);}
+    .site-foot{max-width:var(--maxw);margin:5rem auto 3rem;padding:2rem var(--gap) 0;
+      border-top:1px solid var(--line);color:var(--ink-faint);font-size:var(--fs-meta);}
+    .site-foot .fine{margin-top:.4rem;}
+    @media(max-width:600px){.nav{gap:.9rem;font-size:.85rem;}}
+  </style>
+</body>
+</html>

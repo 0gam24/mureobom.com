@@ -1,0 +1,51 @@
+---
+import Base from "../layouts/Base.astro";
+const title = "찾는 답이 여기엔 없어요";
+const description = "요청하신 페이지를 찾지 못했습니다. 4개 카테고리에서 비슷한 질문을 찾아보세요.";
+const CL = [
+  { id: "tax",       label: "세금",       desc: "연말정산·종합소득세·부가세·양도세" },
+  { id: "support",   label: "정부지원금", desc: "실업급여·근로장려금·바우처·청년지원" },
+  { id: "loan",      label: "대출·신용",   desc: "전세·주담대·신용대출·신용점수" },
+  { id: "insurance", label: "보험·연금",   desc: "4대보험·국민연금·실손·연금저축" },
+];
+---
+<Base title={title} description={description}>
+  <section class="page">
+    <p class="code">404</p>
+    <h1>찾는 답이 여기엔 없어요</h1>
+    <p class="lead">
+      주소가 잘못됐거나, 아직 정리되지 않은 질문일 수 있어요.<br/>
+      4 카테고리에서 비슷한 질문을 찾아보세요.
+    </p>
+
+    <ul class="cats">
+      {CL.map((c) => (
+        <li>
+          <a href={`/${c.id}/`}>
+            <span class="lbl">{c.label}</span>
+            <span class="desc">{c.desc}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <p class="back"><a href="/">← 홈으로</a></p>
+  </section>
+
+  <style>
+    .page{max-width:680px;margin:5rem auto 4rem;padding:0 var(--gap);text-align:center;}
+    .code{font-family:var(--font-display);font-size:5rem;color:var(--teal);
+      letter-spacing:.04em;font-weight:700;line-height:1;margin-bottom:1rem;}
+    .page h1{font-size:var(--fs-h1);margin-bottom:1rem;}
+    .lead{color:var(--ink-soft);font-size:var(--fs-lead);margin-bottom:2.5rem;}
+    .cats{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,1fr);
+      gap:.9rem;text-align:left;margin:0 0 2.5rem;}
+    .cats a{display:block;padding:1.1rem 1.2rem;background:var(--paper-2);
+      border:1px solid var(--line);border-radius:var(--r-md);transition:.18s;}
+    .cats a:hover{border-color:var(--teal);transform:translateY(-2px);}
+    .lbl{display:block;font-weight:600;color:var(--ink);}
+    .desc{display:block;font-size:var(--fs-meta);color:var(--ink-soft);margin-top:.2rem;}
+    .back{color:var(--ink-faint);}
+    @media(max-width:600px){.cats{grid-template-columns:1fr;}}
+  </style>
+</Base>

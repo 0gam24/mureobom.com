@@ -1,0 +1,49 @@
+id: loan-주택담보대출-ltv-한도-규제지역
+cluster: loan
+status: published   # compliance 통과 후 갱신
+
+target_query: "주택담보대출 LTV 한도 2026 규제지역 생애최초"
+search_intent: 정보형      # LTV 개념 + 규제지역별 한도 + 우대 한도 종합 확인
+
+signal:
+  score: 86.8
+  trend_momentum: 0.71
+  question_volume: 0.58
+  cluster_fit: 1.0
+  freshness: 0.62
+
+must_cover:
+  - LTV(Loan To Value) 정의 — 담보가치 대비 대출비율, DTI/DSR과의 차이 매트릭스
+  - 규제지역(투기지역·투기과열지구·조정대상지역) vs 비규제지역 LTV 차등 표 (2026 기준)
+  - 생애최초·서민 실수요자 우대 LTV 한도와 적용 요건
+  - 보금자리론·디딤돌대출 등 정책모기지 LTV·DTI 한도와 일반 주담대 비교
+  - 다주택자·1주택자·무주택자별 LTV 적용 강화 규정 (2026 최신 기준)
+  - LTV 산정 기준가액 — KB시세·한국부동산원 시세·감정평가액 적용 우선순위
+  - 흔한 오해 바로잡기 — "LTV 70%면 매매가의 70% 전액 대출" 통념, 방공제(소액임차보증금) 차감, MCI/MCG 가입 여부에 따른 실대출액 차이
+
+required_sources:
+  - "주택법 / 은행업감독규정 (국가법령정보센터 law.go.kr)"
+  - "금융위원회 주택담보대출 규제 정책자료 (fsc.go.kr)"
+  - "금융감독원 가계부채 관리 가이드 (fss.or.kr)"
+  - "한국주택금융공사 보금자리론·디딤돌대출 안내 (hf.go.kr)"
+
+internal_links:
+  - loan/dsr-계산-방법
+  - loan/전세자금대출-조건-한도
+  - loan/신용점수-올리는-법
+
+# cta 필드는 폐기 — 수익화는 AdSense 단독
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true  # F-01: "X억 무조건 통과" 단정 표현 금지
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: LTV vs DTI vs DSR 매트릭스 + 규제지역별 LTV 차등 표 + 생애최초·정책대출 한도 비교.
+  2026년 규제지역 지정 현황은 국토부 고시 변동이 잦으니 발행 직전 최신 확인 필수.
+  방공제(소액임차보증금 차감)와 MCI/MCG 가입에 따른 실대출액 차이는 대부분 글이 누락 — 반드시 포함.
+  "LTV 70%면 매매가의 70% 빌릴 수 있다" 단정 표현 금지 (F-01) — 시세 기준·방공제·DSR 동시 적용 명시.

@@ -1,0 +1,46 @@
+name: topic-scanner
+
+on:
+  schedule:
+    - cron: "0 21 * * *"   # UTC 21:00 = KST 06:00 매일
+  workflow_dispatch: {}      # 수동 실행 허용
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Run topic scanner
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: |
+          python automation/scripts/topic_scanner.py \
+            --seeds automation/config/seed-keywords.yaml \
+            --scoring automation/config/scoring.yaml \
+            --published automation/briefs/_published_slugs.txt \
+            --out automation/topic-queue.json
+
+      - name: Open PR with new queue
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: bot/topic-queue
+          title: "🤖 topic-queue 갱신"
+          commit-message: "chore: refresh topic-queue"
+          body: |
+            토픽 스캐너 자동 갱신.
+            상위 후보를 검토 후 brief.yaml 작성/승인하세요.
+          add-paths: |
+            automation/topic-queue.json

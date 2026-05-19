@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="물어봄">
+  <rect width="64" height="64" rx="14" fill="#FBF7F0"/>
+  <text x="32" y="46" font-family="Gowun Batang, Nanum Myeongjo, serif"
+        font-size="42" font-weight="700" text-anchor="middle" fill="#0E7C72">?</text>
+  <!-- sprout glyph (브랜드 모티프) -->
+  <path d="M44 18 q3 -4 7 -2 q-2 4 -7 2 z" fill="#0E7C72"/>
+</svg>

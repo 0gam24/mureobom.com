@@ -1,0 +1,47 @@
+id: support-근로장려금-신청자격
+cluster: support
+status: published        # 2026-05-19 compliance OK — 발행 완료 (모든 차단 룰 통과, AD-01/AD-07만 publisher ID placeholder로 경고 격하)
+
+target_query: "근로장려금 신청자격 2026 단독가구"
+search_intent: 절차형     # 자격 확인 + 신청 절차를 함께 원함
+
+signal:                  # 스캐너 산출(읽기 전용, 원문 아님)
+  score: 72.3
+  trend_momentum: 0.55
+  question_volume: 0.42
+  cluster_fit: 1.0
+  freshness: 0.61
+
+must_cover:
+  - 가구 유형별 지급 자격(단독·홑벌이·맞벌이 정의와 소득 상한)
+  - 2026 기준 재산 요건(가구원 합산 재산 2.4억 미만 등 최신 기준 확인 포인트)
+  - 2026 기준 최대 지급액과 점감 구간(가구 유형별 차등)
+  - 정기 신청 기간(5월)·반기 신청 기간(3월·9월)과 홈택스/손택스 신청 방법
+  - 자녀장려금 동시 신청 시 중복 수령 가능 여부와 합산 한도 처리
+  - 흔한 오해 바로잡기(소득 0원이면 못 받는다·전업주부 단독가구 제외 통념)
+  - 환수 사유와 부적격 통보 시 대응 절차
+
+required_sources:        # 공식 1차 출처만. 지식iN 아님. 0건이면 발행 차단
+  - "조세특례제한법 / 시행령 — 근로장려세제 (국가법령정보센터)"
+  - "국세청 근로·자녀장려금 안내(공식 홈페이지)"
+  - "홈택스 근로장려금 신청 안내 페이지"
+  - "국세청 발간 근로장려금·자녀장려금 책자 (최신 연도)"
+
+internal_links:
+  - support/실업급여-조건       # 발행 시 _published_slugs.txt 확인 후 살림
+  - tax/종합소득세-신고
+
+# cta 필드는 폐기 — 수익화는 AdSense 단독 (계산기/제휴 CTA 미사용)
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true  # 일반정보 고지 삽입 (AdSense YMYL 정책 친화)
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: 2026 단독가구 소득·재산 기준 변화 + 자녀장려금 동시 신청 시 중복 수령 가능 여부 표 + "소득 0원/전업주부면 못 받는다" 통념 반박.
+  연도별로 소득 상한·재산 요건·최대 지급액이 자주 바뀐다 — 반드시 2026 최신 기준(국세청 당해 책자 기준)으로 표 작성.
+  정기 신청과 반기 신청은 대상자(근로/사업/종교인)에 따라 다르므로 가구 유형 × 신청 유형 매트릭스로 정리하면 차별화 강함.

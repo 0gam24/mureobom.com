@@ -1,0 +1,26 @@
+{
+  "name": "mureobom",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "물어봄(mureobom.com) — 공식 자료 기반 Q&A 미디어. 무인 발행 파이프라인 + Astro 정적 사이트.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "build:fast": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "test:hooks": "python -X utf8 scripts/hooks/_test.py"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

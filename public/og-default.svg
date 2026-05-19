@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img"
+     aria-label="물어봄 — 공식 자료 기반 Q&A 미디어">
+  <!-- 워터틸/크림 종이 톤 -->
+  <rect width="1200" height="630" fill="#FBF7F0"/>
+
+  <!-- 좌상단 사이드 강조 막대 (워터틸) -->
+  <rect x="0" y="0" width="14" height="630" fill="#0E7C72"/>
+
+  <!-- 브랜드 로고 — 명조 + 워터틸 -->
+  <text x="90" y="280" font-family="Gowun Batang, Nanum Myeongjo, serif"
+        font-size="140" font-weight="700" fill="#1A2B2A">
+    물어<tspan fill="#0E7C72">봄</tspan>
+  </text>
+
+  <!-- sprout 글리프 (봄 우측) -->
+  <path d="M540 232 q22 -28 50 -14 q-14 28 -50 14 z" fill="#0E7C72"/>
+
+  <!-- 한 줄 설명 — IBM Plex Sans 톤 -->
+  <text x="90" y="370" font-family="IBM Plex Sans KR, system-ui, sans-serif"
+        font-size="42" font-weight="500" fill="#4A5856">
+    세금·정부지원금·대출·보험
+  </text>
+  <text x="90" y="430" font-family="IBM Plex Sans KR, system-ui, sans-serif"
+        font-size="42" font-weight="500" fill="#4A5856">
+    공식 자료로 확인한 답.
+  </text>
+
+  <!-- 도메인 (하단) -->
+  <text x="90" y="560" font-family="IBM Plex Sans KR, system-ui, sans-serif"
+        font-size="28" font-weight="600" fill="#0E7C72">
+    mureobom.com
+  </text>
+
+  <!-- 우하단 큰 "?" (질문형 정체성) -->
+  <circle cx="1050" cy="500" r="80" fill="#0E7C72"/>
+  <text x="1050" y="540" font-family="Gowun Batang, Nanum Myeongjo, serif"
+        font-size="110" font-weight="700" text-anchor="middle" fill="#FBF7F0">?</text>
+</svg>

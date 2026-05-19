@@ -1,0 +1,77 @@
+---
+import Base from "../layouts/Base.astro";
+const title = "개인정보처리방침";
+const description = "물어봄(mureobom.com)이 수집·이용하는 정보, 쿠키 정책, Google AdSense 광고 정책을 안내합니다.";
+const updatedISO = "2026-05-19";
+---
+<Base title={title} description={description}>
+  <article class="page">
+    <h1>개인정보처리방침</h1>
+    <p class="meta">최종 갱신: {updatedISO}</p>
+
+    <h2>1. 수집하는 정보</h2>
+    <p>
+      물어봄은 회원가입·로그인 기능이 없으며 사용자로부터 직접 개인정보를 수집하지
+      않습니다. 다만 다음의 자동 수집이 발생할 수 있습니다.
+    </p>
+    <ul>
+      <li>Cloudflare 엣지 로그 (IP·접속 시간·UA) — 서버 운영·악성 트래픽 차단 목적</li>
+      <li>Google Analytics(추후 도입 시) — 익명 통계</li>
+      <li>Google AdSense — 광고 게재·맞춤화 (다음 섹션 참조)</li>
+    </ul>
+
+    <h2>2. Google AdSense 및 광고 쿠키</h2>
+    <p>
+      본 사이트는 Google AdSense 광고를 표시합니다. Google과 그 파트너 광고 네트워크는
+      쿠키를 사용해 사용자의 본 사이트 및 다른 사이트 방문 기록을 기반으로 맞춤형
+      광고를 게재할 수 있습니다.
+    </p>
+    <ul>
+      <li>맞춤형 광고 비활성화:
+        <a href="https://www.google.com/settings/ads" rel="nofollow noopener" target="_blank">Google 광고 설정</a></li>
+      <li>제3자 쿠키 일괄 옵트아웃:
+        <a href="https://www.aboutads.info/choices/" rel="nofollow noopener" target="_blank">aboutads.info/choices</a></li>
+      <li>Google 광고 정책:
+        <a href="https://policies.google.com/technologies/ads" rel="nofollow noopener" target="_blank">policies.google.com/technologies/ads</a></li>
+    </ul>
+
+    <h2>3. 쿠키 일반</h2>
+    <p>
+      브라우저 설정에서 쿠키를 차단·삭제할 수 있습니다. 단, 일부 기능(맞춤 광고
+      비활성화 등)이 영향을 받을 수 있습니다.
+    </p>
+
+    <h2>4. 외부 링크</h2>
+    <p>
+      본 사이트는 법령·정부·공공기관 등 공식 1차 출처로의 외부 링크를 포함합니다.
+      외부 사이트의 개인정보 처리는 해당 사이트의 정책을 따릅니다.
+    </p>
+
+    <h2>5. 보유·이용 기간</h2>
+    <p>
+      서버 접속 로그는 90일 보관 후 자동 삭제됩니다. 광고 쿠키 보관 기간은 Google
+      정책을 따릅니다.
+    </p>
+
+    <h2>6. 이용자 권리</h2>
+    <p>
+      개인정보 보호 관련 문의는 <a href="mailto:hello@mureobom.com">hello@mureobom.com</a>
+      으로 보내주시기 바랍니다.
+    </p>
+
+    <h2>7. 정책 변경</h2>
+    <p>
+      본 방침이 변경되는 경우 본 페이지 상단의 "최종 갱신" 일자를 갱신합니다.
+    </p>
+  </article>
+
+  <style>
+    .page{max-width:760px;margin:3rem auto 4rem;padding:0 var(--gap);}
+    .page h1{font-size:var(--fs-h1);margin-bottom:.5rem;}
+    .meta{color:var(--ink-faint);font-size:var(--fs-meta);margin-bottom:2.4rem;}
+    .page h2{font-size:var(--fs-h2);margin:2.4rem 0 .9rem;}
+    .page p{margin:1rem 0;color:var(--ink);}
+    .page ul{padding-left:1.3rem;margin:1rem 0;color:var(--ink);}
+    .page li{margin:.4rem 0;}
+  </style>
+</Base>

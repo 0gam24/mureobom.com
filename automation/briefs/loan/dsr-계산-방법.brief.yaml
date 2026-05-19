@@ -1,0 +1,50 @@
+id: loan-dsr-계산-방법
+cluster: loan
+status: published  # 2026-05-19 compliance OK — auto-published # draft → approved(사람) → published(자동)
+
+target_query: "DSR 계산 방법 2026 한도 가계대출"
+search_intent: 정보형     # 정의·계산식·한도 기준을 알고 싶음 (절차형 일부 포함)
+
+signal:                  # 스캐너 산출(읽기 전용, 원문 아님)
+  score: 90.5
+  trend_momentum: 0.78
+  question_volume: 0.72
+  cluster_fit: 1.0
+  freshness: 0.66
+
+must_cover:
+  - DSR 정의(연간 원리금상환액 ÷ 연소득) + DTI·LTV와의 차이를 한 페이지 매트릭스로 정리
+  - 2026년 기준 가계대출 DSR 한도(은행 40% / 비은행 50% — researcher가 최신 보도자료로 재확인)
+  - 산정 대상 부채 종류와 산정 방식(주담대·신용대출·전세대출·자동차할부·카드론·마이너스통장 등) 표로 정리
+  - 산정 대상 소득의 종류와 인정 방식(근로소득·사업소득·연금·임대소득 등) + 증빙 서류
+  - 스트레스 DSR(미래 금리 인상 가산 가정) 개요와 2026 단계별 적용 일정
+  - 흔한 오해 바로잡기(전세대출은 DSR 안 본다는 통념, 마통은 한도 전체가 부채로 잡힌다는 오해 등)
+  - DSR 한도에 걸렸을 때 실무 해결 5단계(만기 연장·고정금리 전환·일부 상환·대환·소득 증빙 보강)
+
+required_sources:        # 공식 1차 출처만. 지식iN 아님. 0건이면 발행 차단
+  - "금융위원회 가계부채 관리 보도자료 (fsc.go.kr)"
+  - "금융감독원 가계대출 DSR 안내 (fss.or.kr)"
+  - "은행연합회 가계대출 모범규준 (kfb.or.kr — researcher가 도메인·문서명 검증)"
+  - "국가법령정보센터 — 은행업감독규정 / 여신전문금융업감독규정 (law.go.kr)"
+
+internal_links:
+  - loan/신용점수-올리는-법
+  - loan/주담대-한도-계산
+
+# cta 필드는 폐기 — 수익화는 AdSense 단독 (계산기/제휴 CTA 미사용)
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true  # 일반정보 고지 삽입 (AdSense YMYL 정책 친화)
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: DSR vs DTI vs LTV 한 페이지 매트릭스 비교 + 부채 종류별 산정 방식 표 + 스트레스 DSR 적용 일정 + 한도 걸렸을 때 실무 해결 5단계.
+  검수 포인트:
+  - 2026 기준 한도(은행 40% / 비은행 50%)와 스트레스 DSR 가산폭은 연중에도 조정되므로 researcher가 최신 보도자료 발행일 확인.
+  - F-01: "DSR 40% 넘으면 무조건 거절" 같은 단정 금지. "은행 자체 심사 결과에 따라 다름" 톤으로 통일.
+  - F-02: 토스·카카오뱅크·케이뱅크 등 민간 앱/상품명 절대 등장 금지. 금융사 비교·추천 금지. 규제 프레임만.
+  - 흔한 오해 단락은 "전세대출 DSR 제외 여부"가 매년 정책 변동 — 2026 최신 기준만 인용.
