@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import AdSlot from "../../components/AdSlot.astro";
+import ShareButtons from "../../components/ShareButtons.astro";
 import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {
@@ -107,6 +108,8 @@ const slotBottom = import.meta.env.PUBLIC_ADSENSE_SLOT_BOTTOM ?? "";
     {p.data.disclaimer && (
       <p class="disc">※ 일반 정보 제공 목적입니다. 개별 사안은 관할 기관·전문가 확인을 권합니다.</p>
     )}
+
+    <ShareButtons url={pageUrl} title={p.data.title} />
   </article>
 
   <style>

@@ -1,0 +1,158 @@
+---
+/* 공유 버튼 — 글 상세 페이지 하단(`disclaimer` 직후, `</article>` 직전)에 단 1회 노출.
+ * 정책 (compliance SH-01):
+ *  - 외부 SDK 로드 금지. Web Share API + 클립보드 + 카카오 share URL만 사용.
+ *  - 복사·공유 대상 URL은 반드시 props로 받은 canonical URL. `location.href` 금지
+ *    (utm/앵커 묻으면 중복 색인 위험 — GEO 가드).
+ *  - 출처 박스 직접 인접 금지 (AD-04 정신 확장).
+ * 측정: 미수집. GA 미도입 상태에서 외부 추적 도입 ROI 없음.
+ */
+interface Props {
+  url: string;     // canonical absolute URL (예: https://mureobom.com/tax/연말정산-환급-시기/)
+  title: string;   // 페이지 제목
+}
+const { url, title } = Astro.props;
+---
+<aside class="share" aria-label="이 글 공유">
+  <div class="share-inner">
+    <span class="share-label">이 글이 도움이 됐다면</span>
+    <div class="share-actions">
+      <button
+        type="button"
+        class="share-btn"
+        data-share-copy
+        data-url={url}
+        aria-label="링크 복사"
+      >
+        <span aria-hidden="true">🔗</span>&nbsp;링크 복사
+      </button>
+      <button
+        type="button"
+        class="share-btn"
+        data-share-native
+        data-url={url}
+        data-title={title}
+        aria-label="공유하기"
+      >
+        <span aria-hidden="true">📤</span>&nbsp;공유하기
+      </button>
+    </div>
+    <p class="share-toast" data-share-toast aria-live="polite"></p>
+  </div>
+</aside>
+
+<script is:inline>
+  (function () {
+    const root = document.currentScript.previousElementSibling;
+    if (!root || !root.classList.contains("share")) return;
+
+    const toast = root.querySelector("[data-share-toast]");
+    const showToast = (msg) => {
+      if (!toast) return;
+      toast.textContent = msg;
+      toast.classList.add("on");
+      window.clearTimeout(toast._t);
+      toast._t = window.setTimeout(() => toast.classList.remove("on"), 2200);
+    };
+
+    /* 링크 복사: clipboard API. 실패 시 우아한 토스트 (prompt 폴백 없음) */
+    const copyBtn = root.querySelector("[data-share-copy]");
+    if (copyBtn) {
+      copyBtn.addEventListener("click", async () => {
+        const url = copyBtn.getAttribute("data-url") || "";
+        try {
+          await navigator.clipboard.writeText(url);
+          showToast("주소가 복사됐어요");
+        } catch (e) {
+          showToast("복사 실패 — 주소창 URL을 직접 복사해 주세요");
+        }
+      });
+    }
+
+    /* 공유: Web Share API 우선(모바일에서 카톡 시트 자동 노출).
+     * 미지원 시 카카오 share URL(SDK 없이 URL 한 줄)로 폴백. */
+    const nativeBtn = root.querySelector("[data-share-native]");
+    if (nativeBtn) {
+      nativeBtn.addEventListener("click", async () => {
+        const url = nativeBtn.getAttribute("data-url") || "";
+        const title = nativeBtn.getAttribute("data-title") || "";
+        if (navigator.share) {
+          try {
+            await navigator.share({ title, url });
+            return;
+          } catch (e) {
+            if (e && e.name === "AbortError") return; /* 사용자 취소 */
+          }
+        }
+        /* PC·미지원 환경 폴백: 카카오 share URL 새 창 (SDK 미사용) */
+        const kakaoUrl =
+          "https://sharer.kakao.com/talk/friends/picker/link?url=" +
+          encodeURIComponent(url);
+        const win = window.open(kakaoUrl, "_blank", "noopener,noreferrer");
+        if (!win) {
+          try {
+            await navigator.clipboard.writeText(url);
+            showToast("새 창이 차단됐어요 — 주소가 대신 복사됐어요");
+          } catch (_) {
+            showToast("새 창이 차단됐어요 — 브라우저 설정을 확인해 주세요");
+          }
+        }
+      });
+    }
+  })();
+</script>
+
+<style>
+  .share {
+    margin: 2.4rem 0 0;
+    padding: 1.4rem 1.6rem;
+    background: var(--paper-2);
+    border: 1px solid var(--line);
+    border-radius: var(--r-md);
+  }
+  .share-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .share-label {
+    font-size: var(--fs-meta);
+    color: var(--ink-faint);
+  }
+  .share-actions {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .share-btn {
+    appearance: none;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: var(--r-sm);
+    padding: 0.55rem 0.9rem;
+    font-family: var(--font-body);
+    font-size: var(--fs-meta);
+    cursor: pointer;
+    transition: border-color 120ms ease, color 120ms ease, background 120ms ease;
+  }
+  .share-btn:hover {
+    color: var(--teal-deep);
+    border-color: var(--teal);
+    background: var(--teal-wash);
+  }
+  .share-btn:focus-visible {
+    outline: 2px solid var(--teal);
+    outline-offset: 2px;
+  }
+  .share-toast {
+    min-height: 1em;
+    font-size: var(--fs-meta);
+    color: var(--teal-deep);
+    opacity: 0;
+    transition: opacity 180ms ease;
+  }
+  .share-toast.on {
+    opacity: 1;
+  }
+</style>
