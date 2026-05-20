@@ -1,3 +1,17 @@
+# 한국 네이버 메인 크롤러 (한국 시장 SEO 친화 신호)
+User-agent: Yeti
+Allow: /
+
+# 구글 일반 크롤러
+User-agent: Googlebot
+Allow: /
+
+# AdSense 광고 매칭용 (AdSense 가이드 권장 명시)
+User-agent: AdsBot-Google
+Allow: /
+
+# 나머지 모든 봇 (Bingbot, ClaudeBot, GPTBot, PerplexityBot 등 LLM 포함)
+# 기본적으로 모두 허용 — mureobom은 GEO 전략(LLM 답변 노출)이라 LLM 봇도 환영
 User-agent: *
 Allow: /
 Disallow: /admin/
