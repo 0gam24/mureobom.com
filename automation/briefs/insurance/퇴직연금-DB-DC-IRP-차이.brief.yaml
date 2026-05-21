@@ -1,0 +1,47 @@
+id: insurance-퇴직연금-DB-DC-IRP-차이
+cluster: insurance
+status: published  # 2026-05-22 운영자 직접 발행
+
+target_query: "퇴직연금 DB DC IRP 차이"
+search_intent: 정보형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.7
+  manual: true
+
+must_cover:
+  - 퇴직연금 제도 개요 — 근로자퇴직급여 보장법, 고용노동부 소관, 금감원 감독
+  - DB(확정급여)형 — 회사 운용, 퇴직 직전 평균임금 × 근속연수
+  - DC(확정기여)형 — 회사가 연 임금총액 1/12 이상 적립, 근로자 운용 책임 (보장법 §20)
+  - IRP — 근로자 본인 명의, 퇴직금 수령 시 의무 이체(2022.4.14), 추가 적립 가능
+  - DB vs DC 선택 — 임금상승률·운용성향에 따라 다름 (중립 서술)
+  - IRP 의무이체 예외 — 55세 이상 퇴직, 퇴직급여 300만원 이하, 사망, 외국인 출국 등
+  - 세제 — 적립 시 세액공제(연금저축 합산 900만 한도, 12%/15%), 수령 시 연금/일시금 세목 차이
+  - 비교공시 — 금감원 통합연금포털 (특정 상품 추천 X)
+
+required_sources:
+  - "근로자퇴직급여 보장법 (제2조 정의) — 국가법령정보센터"
+  - "근로자퇴직급여 보장법 제20조 (DC 부담금)"
+  - "고용노동부 — 퇴직연금제도 안내"
+  - "고용노동부 — 퇴직금 IRP 의무지급 안내"
+  - "고용노동부 — 사용자의 IRP 계좌 이전 의무 안내"
+  - "국세청 — 연금계좌 세액공제 안내"
+  - "금융감독원 통합연금포털"
+  - "국세청 — 퇴직소득의 범위"
+
+internal_links:
+  - insurance/연금저축-irp-세액공제-한도
+  - insurance/국민연금-예상수령액-계산
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 직장인 퇴직금 운용 방식 비교 (DB/DC/IRP). 기존 연금저축IRP 글(세액공제 중심)과 분리. 합산 한도는 두 글 모두 명시해 충돌 회피.
+  검수: 수익률·세율 단정 금지, 특정 운용 상품 추천 금지, DB vs DC는 중립.
