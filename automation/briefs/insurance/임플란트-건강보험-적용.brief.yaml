@@ -1,0 +1,45 @@
+id: insurance-임플란트-건강보험-적용
+cluster: insurance
+status: published  # 2026-05-25 운영자 직접 발행
+
+target_query: "임플란트 건강보험 적용 65세"
+search_intent: 정보형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.7
+  manual: true
+
+must_cover:
+  - 임플란트 건강보험 적용 — 만 65세 이상, 평생 2개, 본인부담 30%
+  - 적용 범위 — 부분 무치악 한정, 완전 무치악 비급여. 분리형 식립재료·PFM crown
+  - 본인부담률 — 건강보험 가입자 30%, 차상위 10~20%, 의료급여 1종 10%·2종 20%
+  - 평생 적용 횟수 — 2개 (의학적 중단 시 횟수 미산입 예외)
+  - 사전등록 — 치과 통해 공단 등록 절차
+  - 노인 틀니 — 만 65세 이상, 7년 1회, 부분틀니/완전틀니
+  - 임플란트 vs 틀니 — 본인 상황별 차이 (단정 X)
+  - 적용 제외 — 비급여 시술, 일부 케이스
+
+required_sources:
+  - "국민건강보험공단 — 치과임플란트 급여안내"
+  - "국민건강보험공단 — 치과임플란트 급여 Q&A"
+  - "국민건강보험공단 — 노인틀니 급여안내(시행령 별표2)"
+  - "국민건강보험공단 — 노인틀니 급여 Q&A"
+  - "보건복지부 — 65세 이상 틀니·임플란트 건강보험 적용 보장성 확대"
+  - "건강보험심사평가원 — 2025 알기 쉬운 의료급여제도"
+
+internal_links:
+  - insurance/건강검진-무료-대상-항목
+  - insurance/4대보험-가입조건-요율
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 시니어 치과 단독. 평생 2개 + 본인부담 30% 핵심.
+  검수: 의료적 단정 금지(AD-05), 비급여 가격 단정 금지, 본인부담률 정확 인용.
