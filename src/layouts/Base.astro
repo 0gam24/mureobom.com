@@ -63,6 +63,9 @@ const siteName = "물어봄";
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={ogImageUrl} />
 
+  {/* RSS — 브라우저·피드 리더 자동 감지용 */}
+  <link rel="alternate" type="application/rss+xml" title="물어봄 RSS" href="/rss.xml" />
+
   {/* Favicons — favicon.ico/apple-touch-icon.png는 운영자가 추후 추가(부재 시 silent 404) */}
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="alternate icon" href="/favicon.ico" />
