@@ -1,0 +1,46 @@
+id: tax-기부금-세액공제
+cluster: tax
+status: published  # 2026-05-31 운영자 직접 발행
+
+target_query: "기부금 세액공제 2026"
+search_intent: 정보형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.8
+  manual: true
+
+must_cover:
+  - 기부금 세액공제 개요 — 소득세법 §59의4
+  - 공제율 — 1천만 이하 15% / 1천만 초과 30%
+  - 기부금 종류 — 특례기부금(구 법정)·일반기부금(구 지정)·우리사주조합기부금
+  - 한도 — 특례 100% / 일반 30%(종교 10%) / 우리사주 30%
+  - 정치자금 — 조특법 §76, 10만원 100/110 환급 + 초과분 세액공제
+  - 고향사랑기부금 — 조특법 §58, 10만원 100/110 + 답례품 30%
+  - 이월 공제 — 한도 초과분 10년
+  - 영수증·홈택스 자동 일부
+
+required_sources:
+  - "소득세법 제59조의4 (law.go.kr)"
+  - "소득세법 시행령 제80조 (law.go.kr)"
+  - "국세청 — 기부금 세액공제 안내"
+  - "조세특례제한법 제76조 정치자금 (law.go.kr)"
+  - "조세특례제한법 제58조 고향사랑 (law.go.kr)"
+  - "국세상담센터 — 정치자금 Q&A"
+  - "국세청 — 고향사랑기부금 답례품"
+
+internal_links:
+  - tax/의료비-세액공제
+  - tax/교육비-세액공제
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 기부금 단독 + 1천만 초과 30% + 정치자금/고향사랑 별도 트랙.
+  검수: 현행 용어 "특례·일반" 메인 + "(구 법정·지정)" 1회 병기. 환급 단정 X.

@@ -1,0 +1,45 @@
+id: insurance-건강보험-임의계속가입
+cluster: insurance
+status: published  # 2026-05-31 운영자 직접 발행
+
+target_query: "건강보험 임의계속가입"
+search_intent: 절차형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.7
+  manual: true
+
+must_cover:
+  - 임의계속가입 개요 — 국민건강보험법 §110, 퇴직 후 직장가입자 자격 유지
+  - 신청 자격 — 퇴직 직전 18개월 중 1년 이상 직장가입자
+  - 유지 기간 — 최대 36개월 (3년)
+  - 보험료 — 직장가입 본인부담 금액 그대로 (회사 부담 없어짐)
+  - 신청 기한 — 지역가입자 첫 보험료 납부 기한 만료 전 (2개월 이내)
+  - 신청 방법 — 공단 지사 방문·우편, 홈페이지
+  - 임의계속가입 vs 피부양자 등재 — 본인 케이스 비교
+  - 36개월 경과 시 자동 지역가입자 전환
+
+required_sources:
+  - "국민건강보험공단 — 임의계속가입자 (직장가입자)"
+  - "국민건강보험공단 — 임의계속가입자 (지역가입자)"
+  - "찾기쉬운 생활법령정보 — 실업자의 직장가입자 자격 유지"
+  - "국민건강보험법 제110조 (law.go.kr)"
+  - "시행규칙 별지 제39호서식 (임의계속 신청서)"
+  - "국민건강보험법 — 공단 법령정보"
+
+internal_links:
+  - insurance/4대보험-가입조건-요율
+  - insurance/건강보험-피부양자-자격
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 퇴직자 보험료 부담 회피 단독 + 36개월 + 피부양자와 비교.
+  검수: 단정 금지, 보험료 금액 단정 X, 신청 기한(2개월) 강조.

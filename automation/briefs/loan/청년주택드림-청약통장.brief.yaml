@@ -1,0 +1,44 @@
+id: loan-청년주택드림-청약통장
+cluster: loan
+status: published  # 2026-05-31 운영자 직접 발행
+
+target_query: "청년 주택드림 청약통장"
+search_intent: 정보형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.85
+  manual: true
+
+must_cover:
+  - 청년 주택드림 청약통장 개요 — 국토교통부, 청년 주거 종합 지원
+  - 가입조건 — 만 19~34세, 무주택, 연소득 5천만 이하
+  - 우대금리 — 최대 연 4.5% (정책 변동 가능)
+  - 비과세 — 이자소득세 비과세 (조건 충족 시)
+  - 일반 청약저축 전환 — 기존 통장 보유자 전환 절차
+  - 소득공제 — 무주택 세대주, 연 300만 한도 40% (조특법 §87, 일반 청약저축과 동일)
+  - 청약 당첨 후 청년 주택드림 대출 연계 — LTV 80%(생애최초)
+  - 디딤돌·보금자리론과의 차이
+
+required_sources:
+  - "주택도시기금 — 청년 주택드림 청약통장 상품안내"
+  - "국토교통부 보도자료 — 최대 연 4.5% 금리 + 이자 비과세"
+  - "주택도시기금 — 청년 주택드림 디딤돌 대출 안내"
+  - "조세특례제한법 제87조 (청약 소득공제)"
+  - "주택도시기금 — 주택청약종합저축 FAQ"
+
+internal_links:
+  - loan/주택청약종합저축-1순위
+  - loan/디딤돌대출-자격-한도-금리
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 청년 단독 + 통장-대출 연계 + 일반 청약저축 전환.
+  검수: 우대금리·비과세 한도 단정 X, 자동 전환 vs 별도 전환 구분, 정책 변동 고지.
