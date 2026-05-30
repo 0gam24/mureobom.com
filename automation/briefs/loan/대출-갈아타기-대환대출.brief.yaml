@@ -1,0 +1,45 @@
+id: loan-대출-갈아타기-대환대출
+cluster: loan
+status: published  # 2026-05-30 운영자 직접 발행
+
+target_query: "대출 갈아타기 대환대출"
+search_intent: 정보형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.85
+  manual: true
+
+must_cover:
+  - 대환대출 개요 — 더 유리한 조건으로 옮기는 것, 금융결제원 대출이동서비스
+  - 신용대출 갈아타기 — 2023.5 시행, 마이데이터 모바일
+  - 주담대·전세 갈아타기 — 2024.1 시행
+  - 신청 — 대환대출 인프라, 4대 비교 플랫폼(네이버페이·카카오페이·토스·뱅크샐러드)
+  - 한도 — 기존 잔액 범위 내
+  - 중도상환수수료 — 2025.1.13 인하 정책
+  - DSR·LTV — 갈아탈 때 재심사
+  - 보이스피싱 사칭 주의 — 1332
+
+required_sources:
+  - "신용대출 갈아타기 2023.5 시행 보도자료"
+  - "주담대·전세 갈아타기 2024.1 시행 보도자료"
+  - "중도상환수수료 인하 2025.1.13 시행"
+  - "대출 갈아타기 개선과제(DSR)"
+  - "금융결제원 — 대출이동서비스"
+  - "금융감독원 — 보이스피싱 지킴이"
+
+internal_links:
+  - loan/신용대출-금리-한도-비교
+  - loan/dsr-계산-방법
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 대환대출 단독 + 신용/주담대 분리 + 중도상환수수료.
+  검수: 특정 플랫폼 추천 금지, 금리 단정 X, 사칭 주의.

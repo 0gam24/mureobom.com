@@ -1,0 +1,47 @@
+id: tax-교육비-세액공제
+cluster: tax
+status: published  # 2026-05-30 운영자 직접 발행
+
+target_query: "교육비 세액공제 2026"
+search_intent: 정보형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.8
+  manual: true
+
+must_cover:
+  - 교육비 세액공제 개요 — 소득세법 §59의4
+  - 공제율 15%
+  - 한도 — 본인: 한도 없음, 영유아·초중고: 1인당 300만, 대학생: 1인당 900만
+  - 대상 — 본인·배우자·직계비속·형제자매(생계 동거)
+  - 학원비 — 영유아만 가능, 초중고·대학생 학원비 X
+  - 장애인 특수교육비 — 한도 없음 별도
+  - 교복 1인당 50만 한도 / 현장체험학습비는 차량·입소료 제외
+  - 학자금대출 상환액 — 본인 한도 없음
+  - 필요 서류 — 연말정산간소화 자동
+
+required_sources:
+  - "소득세법 제59조의4 — 국가법령정보센터"
+  - "소득세법 시행령 제118조의6"
+  - "국세청 — 교육비 세액공제 안내"
+  - "국세청 — 미취학아동 학원비 FAQ"
+  - "국세청 — 교복구입비 FAQ"
+  - "국세상담센터 — 교육비 세액공제"
+  - "국세청 — 교육비 간소화 FAQ"
+
+internal_links:
+  - tax/의료비-세액공제
+  - tax/인적공제-부양가족-소득기준
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 교육비 단독 + 본인 무한도 vs 자녀 한도 + 학원비 영유아만.
+  검수: 한도·학원비 포함/제외 정확, 단정 금지.
