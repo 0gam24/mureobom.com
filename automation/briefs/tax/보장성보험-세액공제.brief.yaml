@@ -1,0 +1,44 @@
+id: tax-보장성보험-세액공제
+cluster: tax
+status: published  # 2026-06-01 운영자 직접 발행
+
+target_query: "보장성보험 세액공제 2026"
+search_intent: 정보형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.75
+  manual: true
+
+must_cover:
+  - 보장성보험 세액공제 개요 — 소득세법 §59의4
+  - 공제율 — 일반 12% / 장애인 전용 15%
+  - 한도 — 연 납입 100만 (장애인 별도 100만)
+  - 보장성보험 정의 — 사망·상해·질병, 만기 환급 적은 보험
+  - 저축성보험 제외
+  - 자동차보험 — 책임보험·종합보험 보장성 부분 포함
+  - 보험계약자·피보험자 — 본인 또는 기본공제 대상 부양가족
+  - 홈택스 자동 자료
+
+required_sources:
+  - "소득세법 제59조의4 — 국가법령정보센터"
+  - "국세청 — 의료비·보험료 세액공제 안내"
+  - "국세청 동영상 — 연말정산 보험료 공제"
+  - "국세청 상담사례 — 보장성보험 Q&A"
+  - "소득세법 시행령 — 국가법령정보센터"
+
+internal_links:
+  - tax/의료비-세액공제
+  - insurance/자동차보험-갱신-할인할증
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 보장성보험 단독 + 일반 12·장애 15 + 한도 별도.
+  검수: 보장성 vs 저축성 명확, 단정 금지, 태아보험 제외 주의.

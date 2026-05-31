@@ -1,0 +1,44 @@
+id: support-평생교육바우처-신청자격
+cluster: support
+status: published  # 2026-06-01 운영자 직접 발행
+
+target_query: "평생교육바우처 신청자격"
+search_intent: 절차형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.85
+  manual: true
+
+must_cover:
+  - 평생교육바우처 개요 — 평생교육법 §16의2, 교육부, 국가평생교육진흥원(NILE) 운영
+  - 지원 대상 — 만 19세 이상, 기초생활수급자·차상위·중위소득 65% 이하
+  - 지원 금액 — 1인당 연 35만 원 (정책 변동)
+  - 사용처 — 평생교육 강좌·온라인 강의·자격증·외국어·취업 준비
+  - 신청 — 평생교육바우처 누리집(voucher.nile.or.kr)
+  - 사용 기간 — 발급 연도 12.31
+  - 평생교육 vs 문화누리카드 — 분야 차이
+
+required_sources:
+  - "평생교육법 — 국가법령정보센터"
+  - "국가평생교육진흥원 — 평생교육이용권 지원"
+  - "교육부 — 2024 평생교육바우처 공고"
+  - "교육부 보도자료 — 평생교육 바우처"
+  - "NILE — 평생교육바우처 홈페이지 안내"
+  - "평생교육바우처 공식 누리집"
+
+internal_links:
+  - support/문화누리카드-신청자격-사용처
+  - support/기초생활수급자-신청자격-생계급여
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 평생교육바우처 단독 + 저소득 만 19세 이상 + 35만.
+  검수: 금액·소득기준 변동 고지, 특정 학원·플랫폼 단정 X, 문화누리와 우열 단정 X.
