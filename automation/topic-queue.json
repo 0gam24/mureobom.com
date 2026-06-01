@@ -1,3 +1,266 @@
-{"generated_at":"2026-05-19T22:00:00Z","count":1,
-"items":[{"cluster":"insurance","path":"/insurance","keyword":"4대보험","slug":"4대보험-가입조건-요율","score":84.3,
-  "signals":{"trend_momentum":0.73,"question_volume":0.79,"cluster_fit":1.0,"freshness":0.69}}]}
+{
+  "generated_at": "2026-06-01T23:05:19.928923Z",
+  "count": 20,
+  "items": [
+    {
+      "cluster": "tax",
+      "path": "/tax",
+      "keyword": "주택임대소득 신고",
+      "slug": "주택임대소득-신고",
+      "score": 55.73,
+      "signals": {
+        "trend_momentum": 0.283,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "tax",
+      "path": "/tax",
+      "keyword": "부가가치세 신고",
+      "slug": "부가가치세-신고",
+      "score": 48.66,
+      "signals": {
+        "trend_momentum": 0.106,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "tax",
+      "path": "/tax",
+      "keyword": "연말정산",
+      "slug": "연말정산",
+      "score": 44.4,
+      "signals": {
+        "trend_momentum": 0.0,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "tax",
+      "path": "/tax",
+      "keyword": "사업소득 경비처리",
+      "slug": "사업소득-경비처리",
+      "score": 44.4,
+      "signals": {
+        "trend_momentum": 0.0,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "tax",
+      "path": "/tax",
+      "keyword": "근로소득 원천징수",
+      "slug": "근로소득-원천징수",
+      "score": 44.4,
+      "signals": {
+        "trend_momentum": 0.0,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "support",
+      "path": "/support",
+      "keyword": "에너지바우처",
+      "slug": "에너지바우처",
+      "score": 50.12,
+      "signals": {
+        "trend_momentum": 0.143,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "support",
+      "path": "/support",
+      "keyword": "근로장려금",
+      "slug": "근로장려금",
+      "score": 44.4,
+      "signals": {
+        "trend_momentum": 0.0,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "support",
+      "path": "/support",
+      "keyword": "청년도약계좌",
+      "slug": "청년도약계좌",
+      "score": 44.4,
+      "signals": {
+        "trend_momentum": 0.0,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "support",
+      "path": "/support",
+      "keyword": "국민취업지원제도",
+      "slug": "국민취업지원제도",
+      "score": 44.4,
+      "signals": {
+        "trend_momentum": 0.0,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "support",
+      "path": "/support",
+      "keyword": "햇살론",
+      "slug": "햇살론",
+      "score": 44.4,
+      "signals": {
+        "trend_momentum": 0.0,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "loan",
+      "path": "/loan",
+      "keyword": "보금자리론",
+      "slug": "보금자리론",
+      "score": 46.64,
+      "signals": {
+        "trend_momentum": 0.056,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "loan",
+      "path": "/loan",
+      "keyword": "마이너스통장",
+      "slug": "마이너스통장",
+      "score": 46.6,
+      "signals": {
+        "trend_momentum": 0.055,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "loan",
+      "path": "/loan",
+      "keyword": "중도상환수수료",
+      "slug": "중도상환수수료",
+      "score": 45.95,
+      "signals": {
+        "trend_momentum": 0.046,
+        "question_volume": 0.47,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "loan",
+      "path": "/loan",
+      "keyword": "신용대출 금리",
+      "slug": "신용대출-금리",
+      "score": 45.52,
+      "signals": {
+        "trend_momentum": 0.028,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "loan",
+      "path": "/loan",
+      "keyword": "신용점수 올리기",
+      "slug": "신용점수-올리기",
+      "score": 44.7,
+      "signals": {
+        "trend_momentum": 0.0,
+        "question_volume": 0.49,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "insurance",
+      "path": "/insurance",
+      "keyword": "실손보험 청구",
+      "slug": "실손보험-청구",
+      "score": 48.95,
+      "signals": {
+        "trend_momentum": 0.136,
+        "question_volume": 0.45,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "insurance",
+      "path": "/insurance",
+      "keyword": "퇴직연금 IRP",
+      "slug": "퇴직연금-IRP",
+      "score": 46.84,
+      "signals": {
+        "trend_momentum": 0.061,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "insurance",
+      "path": "/insurance",
+      "keyword": "국민연금 수령액",
+      "slug": "국민연금-수령액",
+      "score": 45.09,
+      "signals": {
+        "trend_momentum": 0.01,
+        "question_volume": 0.49,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "insurance",
+      "path": "/insurance",
+      "keyword": "국민연금 임의가입",
+      "slug": "국민연금-임의가입",
+      "score": 44.4,
+      "signals": {
+        "trend_momentum": 0.0,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "insurance",
+      "path": "/insurance",
+      "keyword": "건강보험 피부양자",
+      "slug": "건강보험-피부양자",
+      "score": 44.4,
+      "signals": {
+        "trend_momentum": 0.0,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    }
+  ]
+}
