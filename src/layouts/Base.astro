@@ -19,6 +19,10 @@ const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT;
 const naverVerify   = import.meta.env.PUBLIC_NAVER_SITE_VERIFICATION;
 const googleVerify  = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 
+/* Google Analytics 4 — 측정 ID는 시크릿 아님(소스에 노출됨).
+ * env 우선, 없으면 코드 상 기본 ID 사용. Cloudflare Pages env에 PUBLIC_GA_ID 설정 시 거기서 읽음. */
+const gaId = import.meta.env.PUBLIC_GA_ID ?? "G-HRWLK7NCKE";
+
 /* URL 정규화: 한글 슬러그 percent-encoding 통일 (SEO 검토 #2 대응)
  *  - `new URL().toString()`은 path 부분 한글을 raw로 유지하므로 별도 인코딩 필요.
  *  - encodeURI는 `/` `.` `-` 같은 reserved 문자를 보존하면서 한글만 인코딩.
@@ -85,6 +89,19 @@ const siteName = "물어봄";
     <script is:inline async crossorigin="anonymous"
       src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
     />
+  )}
+
+  {/* Google Analytics 4 (gtag.js) — 트래픽·이벤트 측정 */}
+  {gaId && (
+    <>
+      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} />
+      <script is:inline define:vars={{ gaId }}>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', gaId);
+      </script>
+    </>
   )}
 </head>
 <body>
