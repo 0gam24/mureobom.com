@@ -1,0 +1,48 @@
+id: tax-자동차세-연납-환급
+cluster: tax
+status: published  # 2026-06-02 운영자 직접 발행
+
+target_query: "자동차세 연납 환급"
+search_intent: 정보형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.75
+  manual: true
+
+must_cover:
+  - 자동차세 개요 — 지방세, 시·군·구 부과, 행안부 소관
+  - 과세 기준 — 차종(승용·승합·화물)·배기량
+  - 정기분 — 1기분(6월) + 2기분(12월)
+  - 연납 — 1월 일시 납부 시 일정 세액 공제 (2025년 5% 유지, 점진 축소 정책)
+  - 매도·말소 시 환급 — 일할 계산
+  - 위택스 신고·납부
+  - 이륜차는 연납 신청 미지원
+  - 친환경차 감면 — 전기·하이브리드, 일몰 변동
+
+required_sources:
+  - "지방세법 — 국가법령정보센터"
+  - "지방세법 시행령"
+  - "지방세특례제한법"
+  - "행정안전부 — 2025 자동차세 연납 5% 유지"
+  - "행정안전부 — 1기분 자동차세 안내"
+  - "위택스 — 자동차세 신고"
+  - "위택스 — 자동차세 납부 안내"
+  - "위택스 FAQ — 이륜차 연납"
+  - "위택스 환급금 조회"
+
+internal_links:
+  - insurance/자동차보험-갱신-할인할증
+  - tax/부동산-취득세-계산-세율
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 자동차세 단독 + 연납 할인 + 매도·말소 환급.
+  검수: 연납 할인율 정책 변동 명시, 친환경 일몰, 이륜차 별도.
