@@ -1,0 +1,45 @@
+id: support-농지연금-가입조건-월수령액
+cluster: support
+status: published  # 2026-06-02 운영자 직접 발행
+
+target_query: "농지연금 가입조건 월수령액"
+search_intent: 정보형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.75
+  manual: true
+
+must_cover:
+  - 농지연금 개요 — 농어업인 삶의 질 향상법, 한국농어촌공사(KRC) 운영
+  - 가입조건 — 만 60세 이상 농업인, 영농경력 5년 이상 (은퇴직불형 10년)
+  - 대상 농지 — 공부상 전·답·과수원, 본인 소유, 저당권 등 없음
+  - 지급 방식 — 종신형(정액·전후후박)·기간형(5/10/15/20년)·일시인출형
+  - 월 수령액 — 공시지가·가입연령에 따라 차등
+  - 가입 후 농지 — 본인 경작·임대 가능, 소유권 유지
+  - 종료 — 가입자·배우자 사망 시 정산, 잔액 상속
+  - 주택연금과 차이 — 농지 담보 / 농업인 한정
+
+required_sources:
+  - "농림축산식품부 — 농지연금 안내"
+  - "농림축산식품부 보도자료 — 만 60세 농지연금 가입"
+  - "농림축산식품부 보도자료 — 농지연금 개선"
+  - "한국농어촌공사·농지관리기금법 시행령"
+  - "한국농어촌공사·농지관리기금법 본법"
+  - "농지연금지원신청서 별지서식"
+
+internal_links:
+  - loan/주택연금-가입조건-월수령액
+  - support/기초연금-신청자격-금액
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 농지연금 단독 + 농업인 + 주택연금과 비교.
+  검수: 월 수령액 단정 X, fkmrc.or.kr 모의계산 안내, 영농경력 일반 5/은퇴 10 구분.

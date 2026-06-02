@@ -1,0 +1,45 @@
+id: insurance-외국인-건강보험
+cluster: insurance
+status: published  # 2026-06-02 운영자 직접 발행
+
+target_query: "외국인 건강보험 가입자격"
+search_intent: 정보형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.8
+  manual: true
+
+must_cover:
+  - 외국인 건강보험 개요 — 국민건강보험법 §109
+  - 의무가입 — 국내 체류 6개월 이상 외국인 (2019.7~), 일부 비자 예외
+  - 직장가입자 — 외국인 근로자 회사 가입
+  - 지역가입자 — 직장가입 외, 본인 소득·재산 기반
+  - 지역가입자 보험료 — 전년도 평균 보험료 이상 (변동)
+  - 피부양자 등재 — 직장가입자 배우자·자녀
+  - 미납 시 체류 영향 — 보험료 체납 시 비자 연장 제한
+  - 건강검진·진료 — 한국 국민과 동일 본인부담률
+
+required_sources:
+  - "국민건강보험법 제109조"
+  - "장기체류 재외국민·외국인 건강보험 적용기준 (보건복지부 고시)"
+  - "국민건강보험공단 — 외국인·재외국민 지역가입자 자격 취득"
+  - "국민건강보험공단 — 외국인·재외국민 가입자관리"
+  - "법무부 출입국 — 비자 연장 전 체납 확인제도"
+  - "건강보험심사평가원 — 외래진료 본인부담률"
+
+internal_links:
+  - insurance/4대보험-가입조건-요율
+  - insurance/건강보험-피부양자-자격
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 외국인 단독 + 직장/지역 + 6개월 의무가입 + 체납 비자 영향.
+  검수: 보험료 금액 단정 X, 비자별 차이 명시, "비자 연장 거부" 단정 X.

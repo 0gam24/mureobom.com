@@ -1,0 +1,45 @@
+id: loan-마이너스통장-한도-금리
+cluster: loan
+status: published  # 2026-06-02 운영자 직접 발행
+
+target_query: "마이너스통장 한도 금리"
+search_intent: 정보형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.75
+  manual: true
+
+must_cover:
+  - 마이너스통장 개요 — 한도대출, 약정 한도 내 자유 인출·상환
+  - 일반 신용대출 vs 마이너스통장 — 이자 계산 차이
+  - 한도 — 본인 소득·신용점수·DSR
+  - 금리 — 변동금리 기본, 신용대출보다 약간 높은 경우 多
+  - DSR 영향 — 약정 한도 전액 + 10년 분할상환 환산 산입
+  - 신용점수 영향 — 약정 한도·사용률·연체
+  - 약정기간 만료 시 재심사
+  - 이자 — 일별 사용 잔액 기준
+
+required_sources:
+  - "금융감독원 파인 — 대출 상품 안내"
+  - "은행연합회 소비자포털 — 가계대출금리비교"
+  - "은행연합회 소비자포털 — 신용한도대출 신용점수별 금리"
+  - "금융위원회 — DSR 주요정책문답"
+  - "금융위원회 보도자료 — DSR 관련"
+  - "금융감독원 — 이자율계산 안내"
+
+internal_links:
+  - loan/신용대출-금리-한도-비교
+  - loan/dsr-계산-방법
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 마이너스통장 단독 + 신용대출과 이자 계산 차이 + DSR 산입 정확.
+  검수: 특정 은행 추천 X, 금리 단정 X, "수수료 없음" 단정 X(약관 확인).
