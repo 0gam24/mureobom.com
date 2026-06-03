@@ -1,0 +1,44 @@
+id: insurance-응급의료비-대지급
+cluster: insurance
+status: published  # 2026-06-03 운영자 직접 발행
+
+target_query: "응급의료비 대지급 제도"
+search_intent: 정보형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.75
+  manual: true
+
+must_cover:
+  - 응급의료비 대지급 제도 개요 — 응급의료에 관한 법률 §22, **건강보험심사평가원(HIRA) 운영**
+  - 대상 — 응급환자 (자동차사고·산재 등 다른 보험 미적용)
+  - 신청 — 응급의료기관에서 환자 또는 보호자가 신청
+  - 대지급 한도 — 응급의료비 본인부담분 (실비)
+  - 상환 — **48개월 이내** 환자가 HIRA에 분할상환
+  - 미상환 시 — 국세 체납 절차 준용 강제 징수
+  - 대지급 항목 — 응급실 진료비, 응급의료 해당 분
+  - 신청 채널 — 응급실 원무과
+
+required_sources:
+  - "응급의료에 관한 법률 제22조"
+  - "응급의료에 관한 법률 본문"
+  - "응급의료비 대지급제도 — 찾기쉬운 생활법령정보"
+  - "응급대지급제도 — 건강보험심사평가원"
+  - "응급의료비 대지급제도 — 모바일 생활법령"
+
+internal_links:
+  - insurance/실손보험-청구-방법-서류
+  - insurance/의료비-본인부담상한제
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 응급의료비 대지급 단독 + 분할상환 48개월 + HIRA 운영.
+  검수: brief 원문 "12개월/NMC 운영" 오류 정정. AD-05 의료적 단정 X.
