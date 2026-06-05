@@ -1,0 +1,46 @@
+id: support-디딤씨앗통장-신청자격
+cluster: support
+status: published  # 2026-06-05 운영자 직접 발행
+
+target_query: "디딤씨앗통장 신청자격"
+search_intent: 절차형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.9
+  manual: true
+
+must_cover:
+  - 디딤씨앗통장 개요 — 아동복지법, 보건복지부, 아동권리보장원 운영
+  - 지원 대상 — 만 0~17세 보호대상아동·기초생활수급가구 아동·차상위 아동(2025 확대)
+  - 후원자(보호자) 매월 적립 — 월 5만 한도(매칭 대상)
+  - 정부 매칭 — 1:2 (2022 확대, 월 최대 10만 정부 적립)
+  - 본인 적립계좌 별도 한도 — 월 50만 (매칭 미적용)
+  - 사용 시점 — 만 18세 이후 자립 자금 (학자금·주거·창업·취업)
+  - 신청 — 보호자 (주민센터·복지로)
+  - 적립금 펀드 운용
+
+required_sources:
+  - "보건복지부 — 디딤씨앗통장 정책"
+  - "아동권리보장원 — 사업안내"
+  - "아동권리보장원 — 자주하는질문"
+  - "복지로 — 디딤씨앗통장"
+  - "정부24 — 아동발달지원계좌 지원"
+  - "찾기쉬운 생활법령정보 — 자립준비청년 자산형성"
+  - "아동복지법"
+
+internal_links:
+  - support/기초생활수급자-신청자격-생계급여
+  - support/한부모가족-지원금-양육비
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 저소득 아동 자산형성 단독 + 매칭 1:2 + 차상위 확대.
+  검수: 월 5만(매칭) vs 월 50만(본인) 구분, 2022 확대·2025 차상위, 단정 X.
