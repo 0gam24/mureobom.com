@@ -71,3 +71,6 @@ insurance/응급의료비-대지급
 tax/재산세-부과기준-세율
 support/디딤씨앗통장-신청자격
 insurance/정신과-진료비-건강보험
+support/자립준비청년-자립수당
+loan/자동차-할부-리스-비교
+insurance/한방진료-건강보험

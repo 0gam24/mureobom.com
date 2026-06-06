@@ -1,0 +1,48 @@
+id: support-자립준비청년-자립수당
+cluster: support
+status: published  # 2026-06-07 운영자 직접 발행
+
+target_query: "자립준비청년 자립수당"
+search_intent: 절차형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.85
+  manual: true
+
+must_cover:
+  - 자립준비청년 정의 — 아동복지법 §38, 보호종료 후 5년 이내 청년
+  - 자립수당 — 월 50만 수준, 보호종료 후 최대 5년 (정책 변동)
+  - 자립정착금 — 보호종료 시 일시금 (지자체별 차이)
+  - 주거 지원 — LH 자립청년 전세임대 등
+  - 자립지원전담기관 — 자립멘토링·전담요원
+  - 의료비 지원 — 본인부담금 일부 지원
+  - 디딤씨앗통장 연계 — 만 18세 자립 자금
+  - 18세 이전 보호종료자도 대상 (확대)
+  - 신청 — 자립지원전담기관·주민센터
+
+required_sources:
+  - "보건복지부 — 자립수당"
+  - "보건복지부 — 자립준비청년 자립지원"
+  - "보건복지부 — 디딤씨앗통장"
+  - "보건복지부 보도자료 — 공공임대주택 자립청년"
+  - "보건복지부 보도자료 — 18세 이전 보호종료 자립수당 확대"
+  - "아동권리보장원 — 아동자립지원"
+  - "아동권리보장원 — 자립지원 FAQ"
+  - "아동복지법"
+
+internal_links:
+  - support/디딤씨앗통장-신청자격
+  - support/한부모가족-지원금-양육비
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 자립준비청년 단독 + 자립수당·정착금·주거·의료 묶음.
+  검수: 금액 시점 명시, 지자체별 차이, 디딤씨앗 매칭과 분리, 18세 이전 확대.
