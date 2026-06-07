@@ -1,0 +1,48 @@
+id: loan-카드론-현금서비스-비교
+cluster: loan
+status: published  # 2026-06-08 운영자 직접 발행
+
+target_query: "카드론 현금서비스 신용대출 비교"
+search_intent: 정보형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.75
+  manual: true
+
+must_cover:
+  - 카드론 — 신용카드 장기카드대출, 여신전문금융업법
+  - 현금서비스 — 단기카드대출
+  - 신용대출 — 은행·저축은행 일반 신용대출
+  - 금리 비교 — 카드론 > 현금서비스 > 시중은행 신용대출 일반적
+  - 한도 — 카드 회원 등급별 차등
+  - 신용점수 영향 — 카드론·현금서비스는 부정적 영향 가능
+  - DSR 산입 — 모두 산입
+  - 중도상환 — 자유 상환 일반적
+  - 단기 자금 선택 — 마이너스통장과 비교
+
+required_sources:
+  - "여신전문금융업법"
+  - "여신금융협회 — 신용카드 이용가이드"
+  - "여신금융협회 — 카드론 신용점수별 금리"
+  - "여신금융협회 공시"
+  - "금융감독원 — 금융상품한눈에 (개인신용대출)"
+  - "금융위원회 — 차주단위 DSR·카드론"
+  - "금융감독원 서민금융1332"
+  - "금융감독원 — 중도상환 안내"
+
+internal_links:
+  - loan/마이너스통장-한도-금리
+  - loan/신용대출-금리-한도-비교
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 단기 자금 3종 비교 + 마이너스통장과 연계.
+  검수: 특정 카드사 추천 X, 금리 단정 X, 신용점수 영향은 "가능성"으로.
