@@ -1,0 +1,46 @@
+id: insurance-노인장기요양보험-신청자격
+cluster: insurance
+status: published  # 2026-06-08 운영자 직접 발행
+
+target_query: "노인장기요양보험 신청자격 등급"
+search_intent: 절차형
+
+signal:
+  cluster_fit: 1.0
+  freshness: 0.85
+  manual: true
+
+must_cover:
+  - 노인장기요양보험 개요 — 노인장기요양보험법, 국민건강보험공단
+  - 보험료 — 건강보험료의 12.95%(2026 0.9448%), 분리 고지
+  - 신청 대상 — 만 65세 이상 + 만 65세 미만 노인성 질병
+  - 등급 — 1~5등급 + 인지지원등급
+  - 등급 판정 — 인정조사 → 등급판정위원회
+  - 재가급여 — 방문요양·방문목욕·방문간호·주야간보호·단기보호·복지용구
+  - 시설급여 — 노인요양시설·노인요양공동생활가정
+  - 본인부담 — 재가 15%, 시설 20%, 기초생활수급자 무료
+  - 신청 — 공단 지사·홈페이지
+
+required_sources:
+  - "노인장기요양보험법 — 국가법령정보센터"
+  - "보건복지부 — 노인장기요양보험 정책의 이해"
+  - "보건복지부 — 2026년 장기요양보험료율"
+  - "찾기쉬운 생활법령정보 — 등급판정 절차"
+  - "찾기쉬운 생활법령정보 — 본인부담금"
+  - "국민건강보험공단 — 장기요양인정 신청"
+
+internal_links:
+  - support/기초연금-신청자격-금액
+  - insurance/4대보험-가입조건-요율
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 장기요양 단독 + 등급 1~5 + 재가/시설 급여.
+  검수: AD-05 의료적 단정 X, 등급 판정은 공단 결정, 본인부담률 정확.
