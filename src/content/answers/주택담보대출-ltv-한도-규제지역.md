@@ -5,6 +5,7 @@ targetQuery: "주택담보대출 LTV 한도 2026 규제지역 생애최초"
 searchIntent: "정보형"
 summary: "LTV는 담보가치 대비 대출비율이에요. 2026년 기준 규제지역 일반 차주는 40%, 서민·실수요자 60%, 수도권 생애최초 70%까지이고 최대 한도는 주택가격 구간별로 2~6억원이에요."
 updated: 2026-05-19
+published: 2026-05-19
 sources:
   - label: "주택담보대출 관련 Q&A (금융위원회 주요정책문답)"
     url: "https://www.fsc.go.kr/po020201/27351"

@@ -5,6 +5,7 @@ targetQuery: "DSR 계산 방법 2026 한도 가계대출"
 searchIntent: "정보형"
 summary: "DSR은 연간 부채 원리금 합계를 연 소득으로 나눈 비율이에요. 차주단위 한도는 은행권 40%·비은행권 50%이고, 2025년 7월부터 3단계 스트레스 DSR이 적용되고 있어요."
 updated: 2026-05-17
+published: 2026-05-17
 sources:
   - label: "금융위원회 — DSR 정의·산식·DTI/LTV 차이 주요정책문답"
     url: "https://www.fsc.go.kr/po020201/27351"

@@ -1,6 +1,4 @@
 # 발행 완료 슬러그 한 줄에 하나. compliance 에이전트가 자동 추가.
-# 형식: {cluster}/{slug}
-# 예시: support/실업급여-조건
 support/근로장려금-신청자격
 tax/연말정산-환급-시기
 loan/신용점수-올리는-법
@@ -28,7 +26,7 @@ insurance/자동차보험-갱신-할인할증
 tax/부동산-취득세-계산-세율
 support/기초연금-신청자격-금액
 loan/보금자리론-자격-한도-금리
-insurance/퇴직연금-DB-DC-IRP-차이
+insurance/퇴직연금-db-dc-irp-차이
 tax/인적공제-부양가족-소득기준
 support/기초생활수급자-신청자격-생계급여
 insurance/건강검진-무료-대상-항목
