@@ -6,7 +6,8 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
-# AdSense 광고 매칭용 (AdSense 가이드 권장 명시)
+# Google Ads 방문 페이지 품질 검사 봇. AdSense 콘텐츠 매칭 크롤러
+# (Mediapartners-Google)는 아래 와일드카드(*) 규칙으로 전체 허용됨
 User-agent: AdsBot-Google
 Allow: /
 
@@ -17,5 +18,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-# 정식 도메인 확정 후 https://mureobom.com 으로 갱신
 Sitemap: https://mureobom.com/sitemap.xml

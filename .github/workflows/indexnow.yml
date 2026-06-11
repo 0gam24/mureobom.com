@@ -1,0 +1,98 @@
+name: indexnow
+
+# main에 답변 글이 추가/수정되면 변경된 글 URL만 IndexNow로 제출.
+# 키 파일: public/627cc8bad1a0b2ba6f72a5f52e339137.txt (사이트 루트에 배포됨)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/content/answers/**"
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # push 범위(before..after) diff에 전체 이력 필요
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Submit changed posts to IndexNow
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+        run: |
+          python - <<'EOF'
+          import json
+          import os
+          import re
+          import subprocess
+          import sys
+          import urllib.error
+          import urllib.request
+          from pathlib import Path
+          from urllib.parse import quote
+
+          HOST = "mureobom.com"
+          KEY = "627cc8bad1a0b2ba6f72a5f52e339137"
+          ENDPOINT = "https://api.indexnow.org/indexnow"
+          CLUSTER_RE = re.compile(
+              r'^cluster:\s*["\']?(tax|support|loan|insurance)["\']?\s*$',
+              re.MULTILINE,
+          )
+
+          before = os.environ["BEFORE_SHA"]
+          after = os.environ["AFTER_SHA"]
+          if not before or set(before) == {"0"}:  # 새 브랜치/강제 푸시 폴백
+              before = f"{after}~1"
+
+          diff = subprocess.run(
+              ["git", "-c", "core.quotepath=false", "diff",
+               "--name-only", "--diff-filter=AMR",
+               before, after, "--", "src/content/answers"],
+              capture_output=True, text=True, encoding="utf-8", check=True,
+          )
+          changed = [f for f in diff.stdout.splitlines() if f.endswith(".md")]
+
+          urls = []
+          for f in changed:
+              path = Path(f)
+              if not path.exists():  # 안전망 (deleted는 diff-filter로 이미 제외)
+                  continue
+              m = CLUSTER_RE.search(path.read_text(encoding="utf-8"))
+              if not m:
+                  print(f"[WARN] cluster 필드 없음, 건너뜀: {f}")
+                  continue
+              slug = quote(path.stem.lower(), safe="")  # Astro 슬러그 소문자 정규화 일치
+              urls.append(f"https://{HOST}/{m.group(1)}/{slug}/")
+
+          if not urls:
+              print("[SKIP] 변경된 답변 글 없음 — IndexNow 제출 생략")
+              sys.exit(0)
+
+          payload = json.dumps(
+              {"host": HOST, "key": KEY, "urlList": urls},
+              ensure_ascii=True,
+          ).encode("utf-8")
+          req = urllib.request.Request(
+              ENDPOINT,
+              data=payload,
+              headers={"Content-Type": "application/json; charset=utf-8"},
+              method="POST",
+          )
+          try:
+              with urllib.request.urlopen(req, timeout=30) as res:
+                  print(f"[OK] IndexNow {res.status} — {len(urls)}건 제출")
+          except urllib.error.HTTPError as e:
+              print(f"[ERROR] IndexNow {e.code}: {e.read().decode('utf-8', 'replace')}")
+              sys.exit(1)
+          for u in urls:
+              print(" ", u)
+          EOF

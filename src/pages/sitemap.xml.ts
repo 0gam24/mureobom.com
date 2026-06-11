@@ -30,6 +30,9 @@ export const GET: APIRoute = async ({ site }) => {
       changefreq: "daily",
       priority: "0.8",
     })),
+    /* 정적 고지 페이지 — AdSense 정책·신뢰 신호용 (소개·개인정보처리방침) */
+    { loc: new URL("/about/",   site).toString(), lastmod: today, changefreq: "yearly", priority: "0.3" },
+    { loc: new URL("/privacy/", site).toString(), lastmod: today, changefreq: "yearly", priority: "0.3" },
     ...posts.map((p) => ({
       loc: new URL(`/${p.data.cluster}/${p.slug}/`, site).toString(),
       lastmod: toW3CDate(p.data.updated),

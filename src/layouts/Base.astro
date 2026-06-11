@@ -70,9 +70,9 @@ const siteName = "물어봄";
   {/* RSS — 브라우저·피드 리더 자동 감지용 */}
   <link rel="alternate" type="application/rss+xml" title="물어봄 RSS" href="/rss.xml" />
 
-  {/* Favicons — favicon.ico/apple-touch-icon.png는 운영자가 추후 추가(부재 시 silent 404) */}
+  {/* Favicons — favicon.ico는 scripts/gen_favicon_ico.py, apple-touch-icon.png는 scripts/gen_apple_touch_icon.py로 생성 */}
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <link rel="alternate icon" href="/favicon.ico" />
+  <link rel="alternate icon" href="/favicon.ico" sizes="32x32" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
   {/* Site verification */}
@@ -116,6 +116,7 @@ const siteName = "물어봄";
 
   <footer class="site-foot">
     <p>물어봄 — 공식 자료 기반 금융·생활 답변</p>
+    <p class="foot-nav"><a href="/about/">소개</a> · <a href="/privacy/">개인정보처리방침</a></p>
     <p class="fine">본 콘텐츠는 일반 정보 제공 목적이며 개별 상황에 대한 법률·세무·금융 자문이 아닙니다.
       페이지에는 Google AdSense 광고가 노출될 수 있으며, 광고 수익은 사이트 운영에 사용됩니다.</p>
   </footer>
@@ -133,6 +134,9 @@ const siteName = "물어봄";
     .nav a:hover{color:var(--teal);}
     .site-foot{max-width:var(--maxw);margin:5rem auto 3rem;padding:2rem var(--gap) 0;
       border-top:1px solid var(--line);color:var(--ink-faint);font-size:var(--fs-meta);}
+    .site-foot .foot-nav{margin-top:.4rem;}
+    .site-foot .foot-nav a{color:var(--ink-soft);}
+    .site-foot .foot-nav a:hover{color:var(--teal);}
     .site-foot .fine{margin-top:.4rem;}
     @media(max-width:600px){.nav{gap:.9rem;font-size:.85rem;}}
   </style>

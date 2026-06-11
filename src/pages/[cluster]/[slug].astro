@@ -13,6 +13,28 @@ const { Content } = await p.render();
 const CL: Record<string, string> = { tax:"세금", support:"정부지원금", loan:"대출·신용", insurance:"보험·연금" };
 const fmt = (d: Date) => new Intl.DateTimeFormat("ko-KR",{dateStyle:"long"}).format(d);
 
+/* internalLinks("cluster/slug")를 실제 '함께 보면 좋은 글' 링크로 해석 (CNT-01).
+ * 발행 글 슬러그와 매칭 실패 항목은 조용히 건너뜀 — 빌드는 깨지지 않는다. */
+const allPosts = await getCollection("answers");
+const bySlug = new Map(allPosts.map((a) => [a.slug, a]));
+const related = (p.data.internalLinks ?? [])
+  .map((entry: string) => {
+    const slug = entry.split("/").pop()?.toLowerCase() ?? "";
+    const target = bySlug.get(slug);
+    return target && target.slug !== p.slug
+      ? { href: `/${target.data.cluster}/${target.slug}/`, title: target.data.title }
+      : null;
+  })
+  .filter((x): x is { href: string; title: string } => x !== null);
+
+/* FAQ 답변의 마크다운 링크/강조를 HTML로 — 평문 노출 방지 (Google FAQ rich result는 <a>·<strong> 허용) */
+function faqHtml(text: string): string {
+  return text
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, '<a href="$2">$1</a>');
+}
+
 /* Schema.org @graph — Article + FAQPage + BreadcrumbList 묶음.
  * Google가 권장하는 다중 타입 결합 방식. Base.astro가 단일 script로 직렬화. */
 const siteBase = Astro.site?.toString().replace(/\/$/, "") ?? "";
@@ -23,15 +45,37 @@ const ogImage  = p.data.image
   ? `${siteBase}${p.data.image}`
   : `${siteBase}/og-default.png`;
 
+/* datePublished/dateModified 분리 — published 미지정 글은 updated로 폴백 (SEO-04) */
+const publishedDate = p.data.published ?? p.data.updated;
+
+/* 출처 링크 rel — 정부·공공기관(go.kr/or.kr/gov.kr/korea.kr)은 nofollow 제거(신뢰 출처 시그널),
+ * 그 외 도메인은 nofollow 유지 (GAP-02) */
+function sourceRel(url: string): string | undefined {
+  try {
+    const host = new URL(url).hostname;
+    if (
+      host.endsWith(".go.kr") || host.endsWith(".or.kr") ||
+      host === "gov.kr" || host.endsWith(".gov.kr") ||
+      host === "korea.kr" || host.endsWith(".korea.kr")
+    ) return undefined;
+  } catch { /* 비정상 URL은 보수적으로 nofollow */ }
+  return "nofollow";
+}
+
 const articleNode = {
   "@type": "Article",
   "headline": p.data.title,
   "description": p.data.summary,
-  "datePublished": new Date(p.data.updated).toISOString(),
+  "datePublished": new Date(publishedDate).toISOString(),
   "dateModified":  new Date(p.data.updated).toISOString(),
   "image": [ogImage],
-  "author":    { "@type": "Organization", "name": "물어봄", "url": siteBase || undefined },
-  "publisher": { "@type": "Organization", "name": "물어봄", "url": siteBase || undefined },
+  "author":    { "@type": "Organization", "name": "물어봄", "url": siteBase ? `${siteBase}/about/` : undefined },
+  "publisher": {
+    "@type": "Organization",
+    "name": "물어봄",
+    "url": siteBase || undefined,
+    "logo": { "@type": "ImageObject", "url": `${siteBase}/apple-touch-icon.png` },
+  },
   "mainEntityOfPage": { "@type": "WebPage", "@id": pageUrl },
 };
 
@@ -49,7 +93,7 @@ const faqNode = p.data.faq.length ? {
   "mainEntity": p.data.faq.map((f)=>({
     "@type": "Question",
     "name": f.q,
-    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+    "acceptedAnswer": { "@type": "Answer", "text": faqHtml(f.a) },
   })),
 } : null;
 
@@ -76,7 +120,7 @@ const slotBottom = import.meta.env.PUBLIC_ADSENSE_SLOT_BOTTOM ?? "";
     <p class="crumb"><a href={`/${p.data.cluster}/`}>{CL[p.data.cluster]}</a></p>
     <h1>{p.data.title}</h1>
     <p class="answer-now">{p.data.summary}</p>
-    <p class="updated">{fmt(p.data.updated)} 기준 · 공식 자료 확인</p>
+    <p class="updated">물어봄 편집부 · {fmt(p.data.updated)} 기준 공식 자료 확인</p>
 
     <AdSlot slot={slotTop} label="top" />
 
@@ -86,10 +130,21 @@ const slotBottom = import.meta.env.PUBLIC_ADSENSE_SLOT_BOTTOM ?? "";
       <h2>확인한 공식 자료</h2>
       <ul>
         {p.data.sources.map((s)=>(
-          <li>{s.url ? <a href={s.url} rel="nofollow">{s.label}</a> : s.label}</li>
+          <li>{s.url ? <a href={s.url} rel={sourceRel(s.url)}>{s.label}</a> : s.label}</li>
         ))}
       </ul>
     </aside>
+
+    {related.length>0 && (
+      <nav class="related" aria-label="관련 글">
+        <h2>함께 보면 좋은 글</h2>
+        <ul>
+          {related.map((r)=>(
+            <li><a href={r.href}>{r.title}</a></li>
+          ))}
+        </ul>
+      </nav>
+    )}
 
     {p.data.faq.length>0 && (
       <section class="faq">
@@ -97,7 +152,7 @@ const slotBottom = import.meta.env.PUBLIC_ADSENSE_SLOT_BOTTOM ?? "";
         {p.data.faq.map((f)=>(
           <details>
             <summary>{f.q}</summary>
-            <p>{f.a}</p>
+            <p set:html={faqHtml(f.a)} />
           </details>
         ))}
       </section>
@@ -123,7 +178,8 @@ const slotBottom = import.meta.env.PUBLIC_ADSENSE_SLOT_BOTTOM ?? "";
     .prose{max-width:var(--measure);}
     .prose :global(h2){font-size:var(--fs-h2);margin:2.4rem 0 .9rem;}
     .prose :global(p){margin:1rem 0;color:var(--ink);}
-    .prose :global(table){width:100%;border-collapse:collapse;margin:1.4rem 0;font-size:.95rem;}
+    .prose :global(table){width:100%;border-collapse:collapse;margin:1.4rem 0;font-size:.95rem;
+      display:block;overflow-x:auto;max-width:100%;}
     .prose :global(th),.prose :global(td){border:1px solid var(--line);padding:.6rem .8rem;text-align:left;}
     .prose :global(th){background:var(--paper-2);}
     .sources{margin:3rem 0;background:var(--paper-2);border:1px solid var(--line);
@@ -131,6 +187,10 @@ const slotBottom = import.meta.env.PUBLIC_ADSENSE_SLOT_BOTTOM ?? "";
     .sources h2{font-size:1.15rem;margin-bottom:.7rem;}
     .sources ul{padding-left:1.1rem;color:var(--ink-soft);font-size:.95rem;}
     .sources li{margin:.35rem 0;}
+    .related{margin:3rem 0;}
+    .related h2{font-size:var(--fs-h2);margin-bottom:.8rem;}
+    .related ul{padding-left:1.1rem;font-size:.97rem;}
+    .related li{margin:.45rem 0;}
     .faq{margin:3rem 0;}
     .faq h2{font-size:var(--fs-h2);margin-bottom:1rem;}
     .faq details{border-bottom:1px solid var(--line);padding:1rem 0;}

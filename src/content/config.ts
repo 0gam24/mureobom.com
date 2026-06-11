@@ -15,6 +15,9 @@ const answers = defineCollection({
      * 짧은 답 케이스 허용 위해 min은 30자로 완화. */
     summary: z.string().min(30).max(160),
     updated: z.coerce.date(),
+    /* 최초 발행일(선택). JSON-LD datePublished에 사용 — 미지정 시 updated로 폴백.
+     * 기존 글 소급 불필요: updated만 있으면 종전 동작 유지. */
+    published: z.coerce.date().optional(),
     sources: z.array(z.object({                 // 공식 1차 출처(0건이면 빌드 차단)
       label: z.string(),
       url: z.string().url().optional(),

@@ -37,6 +37,8 @@ const live   = !!client && !!slot;
 
 <style>
   .ad-slot{margin:2.4rem 0;padding:.6rem 0;}
+  /* AdSense가 채우지 못한 슬롯(unfilled)은 '광고' 라벨·여백째 숨김 — 빈 박스 UX 방지 */
+  .ad-slot:has(ins[data-ad-status="unfilled"]){display:none;}
   .ad-tag{font-size:var(--fs-meta);color:var(--ink-faint);
     text-transform:none;letter-spacing:.02em;margin-bottom:.4rem;}
   .placeholder .phbox{background:var(--paper-2);border:1px dashed var(--line);

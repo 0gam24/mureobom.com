@@ -1,0 +1,7 @@
+# Cloudflare Pages 응답 헤더 — 보안 기본값 (GAP-01)
+# 형식: https://developers.cloudflare.com/pages/configuration/headers/
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
