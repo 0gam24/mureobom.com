@@ -7,6 +7,16 @@ weights:
 
 duplication_penalty_max: 40   # 기발행/큐 중복 시 최대 감점
 
+# 클러스터별 cluster_fit 보정 계수 — D-2026-06-11-3 (AdSense RPM 높은 loan·tax 우선)
+# 1.0 = 보정 없음. topic_scanner.py는 아직 이 키를 읽지 않음(읽어도 무해) —
+# 현재는 publish-daily 스킬의 클러스터 배분과 brief 선정 우선순위 근거로 사용.
+# 스캐너 반영 시 cluster_fit 항에 곱셈 적용 + 1주 실측 후 재튜닝.
+cluster_fit_boost:
+  loan: 1.15
+  tax: 1.10
+  support: 1.0
+  insurance: 1.0
+
 scanner:
   kin_display: 100       # kin API 한 번에 가져올 개수(최대 100)
   kin_sort: "date"       # 최신순

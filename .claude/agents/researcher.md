@@ -21,25 +21,23 @@ tools: WebFetch, WebSearch, Read, Write, Grep
 `automation/briefs/{cluster}/{slug}.brief.yaml` (status: approved)
 
 # 출력 (커밋하지 않는 임시 파일)
-`automation/research/{cluster}/{slug}.bundle.json` 형식:
-```json
-{
-  "brief_id": "support-실업급여-조건",
-  "fetched_at": "2026-05-19T03:00:00Z",
-  "sources": [
-    {
-      "title": "고용보험법 제40조",
-      "url": "https://www.law.go.kr/...",
-      "domain": "law.go.kr",
-      "type": "법령",
-      "key_passages": [
-        {"quote": "...", "context": "어떤 must_cover 항목을 뒷받침하는지"}
-      ],
-      "retrieved_at": "2026-05-19T03:00:01Z"
-    }
-  ],
-  "gaps": ["must_cover 중 출처 미확보 항목"]
-}
+`automation/research/{cluster}/{slug}.research.yaml` 형식:
+```yaml
+brief_id: support-실업급여-조건
+cluster: support
+fetched_at: "2026-05-19T03:00:00Z"
+
+sources:
+  - title: "고용보험법 제40조"
+    url: "https://www.law.go.kr/..."
+    domain: law.go.kr
+    type: 법령
+    retrieved_at: "2026-05-19T03:00:01Z"
+    key_passages:
+      - quote: "..."
+        context: "어떤 must_cover 항목을 뒷받침하는지"
+
+gaps: []   # must_cover 중 출처 미확보 항목
 ```
 
 # 규칙
@@ -51,4 +49,4 @@ tools: WebFetch, WebSearch, Read, Write, Grep
    bundle에 들어가면 compliance가 발행 차단한다.
 
 # 산출 보고 형식
-한 줄: `bundle ready: automation/research/{cluster}/{slug}.bundle.json — N sources, M gaps`.
+한 줄: `research ready: automation/research/{cluster}/{slug}.research.yaml — N sources, M gaps`.

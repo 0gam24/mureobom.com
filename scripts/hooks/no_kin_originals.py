@@ -30,6 +30,20 @@ FORBIDDEN_URLS = re.compile(
 )
 FORBIDDEN_TOKENS = ("지식iN", "지식인", "네이버 지식")
 
+# 시크릿 패턴 — 본문 산출물에 절대 노출되면 안 되는 키 형식
+SECRET_PATTERNS = [
+    re.compile(r"ca-pub-\d{15,17}"),                       # Google AdSense publisher
+    re.compile(r"gho_[A-Za-z0-9]{30,}"),                   # GitHub Personal Access Token
+    re.compile(r"ghp_[A-Za-z0-9]{30,}"),                   # GitHub PAT (classic)
+    re.compile(r"ghs_[A-Za-z0-9]{30,}"),                   # GitHub Apps secret
+    re.compile(r"AKIA[A-Z0-9]{16,}"),                      # AWS Access Key
+    re.compile(r"sk-[A-Za-z0-9]{30,}"),                    # OpenAI / Anthropic style
+    re.compile(r"AIza[A-Za-z0-9_\-]{30,}"),                # Google API Key
+    re.compile(r"NAVER_CLIENT_SECRET\s*[:=]"),             # env-style 노출
+    re.compile(r"NAVER_CLIENT_ID\s*[:=]\s*['\"]?[A-Za-z0-9]{10,}"),
+    re.compile(r"client_secret\s*[:=]\s*['\"]?[A-Za-z0-9]{10,}", re.IGNORECASE),
+]
+
 
 def _norm(path: str) -> str:
     return path.replace("\\", "/").lower()
@@ -73,12 +87,19 @@ def violations(text: str) -> list[str]:
     for tok in FORBIDDEN_TOKENS:
         if tok in text:
             found.append(f"forbidden token: {tok!r}")
+    for pat in SECRET_PATTERNS:
+        m = pat.search(text)
+        if m:
+            # 실값 stderr 노출 회피 — 패턴 종류만 보고
+            found.append(f"secret pattern: {pat.pattern[:40]}...")
     return found
 
 
 def main() -> None:
     try:
-        payload = json.load(sys.stdin)
+        # 바이트 기반 읽기 — Windows cp949 콘솔에서 '지식iN' 한글이 깨져
+        # 차단이 무력화되는 것을 방지 (stdin 텍스트 모드 인코딩 의존 제거).
+        payload = json.loads(sys.stdin.buffer.read().decode("utf-8", "replace"))
     except json.JSONDecodeError:
         sys.exit(0)  # 훅 입력이 깨졌으면 통과(다른 안전망에 위임)
 

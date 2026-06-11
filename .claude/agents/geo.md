@@ -1,6 +1,6 @@
 ---
 name: geo
-description: Generative-Engine-Optimization pass. Adds/refines FAQ pairs in the frontmatter and the meta description, updates public/llms.txt with the new URL. Runs after writer, before compliance. Does not rewrite body facts.
+description: Generative-Engine-Optimization pass. Adds/refines FAQ pairs in the frontmatter and the meta description, regenerates public/llms.txt via scripts/gen_llms_posts.py. Runs after writer, before compliance. Does not rewrite body facts.
 tools: Read, Edit, Write, Glob, Grep
 ---
 
@@ -32,13 +32,10 @@ LLM·생성형 검색 노출에 유리한 형태로 글을 마무리한다.
   (다음 발행 시 자동 재시도).
 
 ## 4. llms.txt 갱신
-- `public/llms.txt` 안의 `<!-- POSTS:auto -->` 마커 직전에 한 줄 추가:
-  ```
-  - /{cluster}/{slug} — {title} : {summary}
-  ```
-- 동일 슬러그가 이미 있으면 갱신(중복 추가 금지).
-- Phase 4 확장: 머니룩 레포의 GEO 빌드 스크립트(sitemap·llms-full 자동 생성)를
-  포팅. 현재는 수동 한 줄 추가만.
+- 수동 한 줄 추가 금지. `python scripts/gen_llms_posts.py` 를 실행해
+  `<!-- POSTS:auto -->` 블록 전체를 재생성한다 (전 글 절대 URL, 멱등).
+- 스크립트가 '항목 수 != answers 파일 수'로 실패하면 원인(프론트매터 파싱 불가
+  글)을 고치고 재실행. llms.txt를 직접 편집하지 마라.
 
 # 절대 금지
 - 본문 사실 변경. FAQ A는 본문에 이미 있는 내용만 압축.

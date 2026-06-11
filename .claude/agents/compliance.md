@@ -10,7 +10,7 @@ tools: Read, Grep, Glob, Edit, Bash
 # 입력
 - `src/content/answers/{slug}.md` (writer + geo 거친 발행 후보)
 - `automation/briefs/{cluster}/{slug}.brief.yaml` (status: approved)
-- `automation/research/{cluster}/{slug}.bundle.json`
+- `automation/research/{cluster}/{slug}.research.yaml`
 - [compliance/checklist.md](../../compliance/checklist.md) (모든 룰 정의)
 - `automation/briefs/_published_slugs.txt` + `src/content/answers/**` (자체 코퍼스 유사도)
 - `public/ads.txt` (AdSense AD-01 검사용)

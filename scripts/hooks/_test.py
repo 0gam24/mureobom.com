@@ -34,6 +34,12 @@ cases = [
      {'tool_name':'Read','tool_input':{'file_path':'src/content/answers/x.md'}}, 0),
     ('src/layouts/ Astro file - allow (not protected)',
      {'tool_name':'Edit','tool_input':{'file_path':'src/layouts/Base.astro','new_string':'<!-- 지식iN 참고 -->'}}, 0),
+    ('answers w/ ca-pub secret - BLOCK',
+     {'tool_name':'Write','tool_input':{'file_path':'src/content/answers/x.md','content':'광고 코드 ca-pub-1234567890123456 노출'}}, 2),
+    ('brief.yaml w/ NAVER_CLIENT_SECRET - BLOCK',
+     {'tool_name':'Write','tool_input':{'file_path':'automation/briefs/tax/foo.brief.yaml','content':'NAVER_CLIENT_SECRET=x'}}, 2),
+    ('agent def w/ ca-pub - allow (non-protected)',
+     {'tool_name':'Write','tool_input':{'file_path':'.claude/agents/x.md','content':'ca-pub-1234567890123456 검사 룰 설명'}}, 0),
 ]
 
 all_ok = True

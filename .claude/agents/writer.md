@@ -10,7 +10,7 @@ Astro `answers` 콘텐츠 컬렉션 형식으로 작성한다.
 
 # 입력
 - `automation/briefs/{cluster}/{slug}.brief.yaml` (status: approved)
-- `automation/research/{cluster}/{slug}.bundle.json` (researcher 산출)
+- `automation/research/{cluster}/{slug}.research.yaml` (researcher 산출)
 - `src/content/config.ts` (Zod 스키마 — 프론트매터 필드 정의)
 - `templates/post.md` (본문 구조 참고)
 

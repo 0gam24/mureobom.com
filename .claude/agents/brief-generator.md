@@ -1,6 +1,6 @@
 ---
 name: brief-generator
-description: Convert one row of topic-queue.json into a draft automation/briefs/{cluster}/{slug}.brief.yaml ready for 15-minute human review. Invoke once per queue item, never in batch — the human reviewer needs single-file diffs. Never reads zhirikiN(kin) raw text; only the aggregated signal dict.
+description: Convert one row of topic-queue.json into a draft automation/briefs/{cluster}/{slug}.brief.yaml ready for 15-minute human review. Invoke once per queue item, never in batch — the human reviewer needs single-file diffs. Never reads 지식iN(kin) raw text; only the aggregated signal dict.
 tools: Read, Write, Edit, Grep, Glob
 ---
 

@@ -67,18 +67,26 @@ mureobom/                       ← 레포 루트 = Astro 프로젝트 루트
 │  │  ├─ _published_slugs.txt   발행 완료 슬러그
 │  │  ├─ example.brief.yaml     참조용
 │  │  └─ {cluster}/{slug}.brief.yaml
+│  ├─ research/{cluster}/       researcher 산출 (.research.yaml, gitignore)
 │  ├─ ooda/                     Macro OODA 산출
 │  │  ├─ observations.template.md  주간 메트릭 스냅샷 양식
 │  │  ├─ observations/{YYYY-WW}.md 실제 주차별 (.gitkeep로 폴더만)
+│  │  ├─ calendar-2026-06.md    14일 발행 캘린더 (6/12~6/25)
 │  │  └─ decisions.log.md       결정 로그 (역시간순 ADR)
 │  └─ topic-queue.json          스캐너 산출 (처음엔 없음)
-├─ .github/workflows/topic-scanner.yml
+├─ .github/workflows/
+│  ├─ topic-scanner.yml
+│  └─ indexnow.yml              새 글 push 시 Bing·Naver 색인 ping
 ├─ .claude/
 │  ├─ settings.json             permissions + PreToolUse 훅
-│  └─ agents/                   5개 파이프라인 에이전트
-├─ scripts/hooks/
-│  ├─ no_kin_originals.py       본문 산출물의 kin 유입 차단
-│  └─ _test.py                  훅 단위 테스트
+│  ├─ agents/                   6개 파이프라인 에이전트
+│  └─ skills/publish-daily/     일 3편 발행 원커맨드 체인
+├─ scripts/
+│  ├─ gen_llms_posts.py         llms.txt POSTS 블록 재생성 (geo가 호출)
+│  ├─ backfill_published.py     published: 백필 (updated 캡)
+│  └─ hooks/
+│     ├─ no_kin_originals.py    본문 산출물의 kin 유입 차단
+│     └─ _test.py               훅 단위 테스트
 ├─ compliance/checklist.md      KFTC + FSS 체크리스트
 ├─ templates/post.md            본문 구조 템플릿
 ├─ public/
@@ -108,7 +116,8 @@ mureobom/                       ← 레포 루트 = Astro 프로젝트 루트
 ```
 cron 스캐너 → automation/topic-queue.json → brief 초안 → 사람 15분 검수(approved)
   → researcher → writer(src/content/answers/{slug}.md 직접 작성)
-  → GEO → compliance → auto-PR → CI 통과 시 auto-merge
+  → quality-gate(85점 게이트, REVISE 1회) → GEO → compliance
+  → auto-PR → CI 통과 시 auto-merge
 ```
 
 각 단계 에이전트의 입출력 계약은 [.claude/agents/](.claude/agents/) 내 정의 참조.
