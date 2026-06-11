@@ -1,4 +1,2 @@
-# Google AdSense ads.txt
-# AdSense 승인 후 PUBLISHER_ID를 실값으로 치환.
-# 형식: domain, publisher_id, account_type, certification_authority_id
+# Google AdSense publisher 검증
 google.com, pub-7830821732287404, DIRECT, f08c47fec0942fa0
