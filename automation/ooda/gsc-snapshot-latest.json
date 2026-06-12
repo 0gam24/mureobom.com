@@ -1,0 +1,535 @@
+{
+  "site": "https://mureobom.com/\n",
+  "period": {
+    "start": "2026-05-15",
+    "end": "2026-06-11",
+    "days": 28
+  },
+  "total": {
+    "clicks": 0,
+    "impressions": 1685,
+    "ctr": 0,
+    "position": 9.070029673590504
+  },
+  "top_queries": [
+    {
+      "keys": [
+        "\"업무용승용차 세무처리 안내\" pdf"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "\"피부양자 자격의 인정기준 중 소득 및 재산요건\" \"2,000만원\""
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 9.666666666666666
+    },
+    {
+      "keys": [
+        "\"피부양자 자격의 인정기준 중 소득 및 재산요건\" \"연간 2천만원 이하\""
+      ],
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0,
+      "position": 8.055555555555555
+    },
+    {
+      "keys": [
+        "2026 주택 취득세 1주택 9억 초과 3% 지방교육세 농어촌특별세"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "keys": [
+        "2026 주택 취득세 6억원 이하 1% 지방교육세 0.1%"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "2026 주택 취득세 6억원 이하 1% 지방교육세 농어촌특별세"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "2026 주택 취득세 9억 초과 3% 지방교육세 농어촌특별세"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "2026 주택 취득세 9억원 초과 1주택 3% 지방교육세 농어촌특별세"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "2026 주택 취득세 9억원 초과 1주택 세율 지방교육세 농어촌특별세"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "2026 주택 취득세 9억원 초과 3% 지방교육세 농어촌특별세"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 9.25
+    },
+    {
+      "keys": [
+        "2026 주택 취득세율 9억 초과 1주택 3% 지방교육세 농어촌특별세"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "2026 주택 취득세율 9억원 초과 3% 지방교육세 농어촌특별세"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "hf 보금자리론 금리 2026 5월"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "국민건강보험법 시행규칙 별표 1의2 소득 및 재산요건 2026"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "국민건강보험법 시행규칙 별표 1의2 피부양자 소득 및 재산요건"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "국민건강보험법 시행규칙 별표 1의2 피부양자 소득 및 재산요건 2026"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "법인 주택 취득세 12% 지방교육세 농어촌특별세 2026"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "keys": [
+        "위택스 주택 취득세 6억원 이하 1% 2026"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "위택스 주택 취득세 9억원 초과 3% 지방교육세 농어촌특별세"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "위택스 주택 취득세 세율 2026 공식"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "위택스 취득세 주택 유상취득 세율"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "주택 취득세 6억 이하 1% 지방교육세 0.1% 2026"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "keys": [
+        "주택 취득세 6억원 이하 1% 지방교육세 0.1% 2026"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10.5
+    },
+    {
+      "keys": [
+        "주택 취득세 9억원 초과 3% 지방교육세 농어촌특별세 2026"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "주택 취득세율 6억원 이하 1% 지방교육세 0.1% 2026"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    }
+  ],
+  "top_pages": [
+    {
+      "keys": [
+        "https://mureobom.com/"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 1.6
+    },
+    {
+      "keys": [
+        "https://mureobom.com/insurance/"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 1.875
+    },
+    {
+      "keys": [
+        "https://mureobom.com/insurance/%EA%B1%B4%EA%B0%95%EA%B2%80%EC%A7%84-%EB%AC%B4%EB%A3%8C-%EB%8C%80%EC%83%81-%ED%95%AD%EB%AA%A9/"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 16.166666666666664
+    },
+    {
+      "keys": [
+        "https://mureobom.com/insurance/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98-%EC%9E%84%EC%9D%98%EA%B3%84%EC%86%8D%EA%B0%80%EC%9E%85/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "keys": [
+        "https://mureobom.com/insurance/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98-%ED%94%BC%EB%B6%80%EC%96%91%EC%9E%90-%EC%9E%90%EA%B2%A9/"
+      ],
+      "clicks": 0,
+      "impressions": 229,
+      "ctr": 0,
+      "position": 7.388646288209607
+    },
+    {
+      "keys": [
+        "https://mureobom.com/insurance/%EA%B5%AD%EB%AF%BC%EC%97%B0%EA%B8%88-%EC%B6%94%EB%82%A9-%EC%B6%94%ED%9B%84%EB%82%A9%EB%B6%80-%EC%8B%A0%EC%B2%AD/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 19
+    },
+    {
+      "keys": [
+        "https://mureobom.com/insurance/%EB%85%B8%EB%9E%80%EC%9A%B0%EC%82%B0%EA%B3%B5%EC%A0%9C-%EA%B0%80%EC%9E%85%EC%9E%90%EA%B2%A9-%EC%84%B8%EC%95%A1%EA%B3%B5%EC%A0%9C/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 19
+    },
+    {
+      "keys": [
+        "https://mureobom.com/insurance/%EC%82%B0%EC%9E%AC%EB%B3%B4%ED%97%98-%EC%8B%A0%EC%B2%AD-%EB%B3%B4%EC%83%81/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "https://mureobom.com/insurance/%EC%9A%B4%EC%A0%84%EC%9E%90%EB%B3%B4%ED%97%98-%EA%B0%80%EC%9E%85%EC%A1%B0%EA%B1%B4-%EB%B3%B4%EC%9E%A5%EB%B2%94%EC%9C%84/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 37
+    },
+    {
+      "keys": [
+        "https://mureobom.com/insurance/%EC%9D%91%EA%B8%89%EC%9D%98%EB%A3%8C%EB%B9%84-%EB%8C%80%EC%A7%80%EA%B8%89/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "keys": [
+        "https://mureobom.com/insurance/%EC%9E%84%ED%94%8C%EB%9E%80%ED%8A%B8-%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98-%EC%A0%81%EC%9A%A9/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "https://mureobom.com/loan/"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 3.25
+    },
+    {
+      "keys": [
+        "https://mureobom.com/loan/%EB%8C%80%EC%B6%9C-%EA%B0%88%EC%95%84%ED%83%80%EA%B8%B0-%EB%8C%80%ED%99%98%EB%8C%80%EC%B6%9C/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 29
+    },
+    {
+      "keys": [
+        "https://mureobom.com/loan/%EB%B3%B4%EA%B8%88%EC%9E%90%EB%A6%AC%EB%A1%A0-%EC%9E%90%EA%B2%A9-%ED%95%9C%EB%8F%84-%EA%B8%88%EB%A6%AC/"
+      ],
+      "clicks": 0,
+      "impressions": 108,
+      "ctr": 0,
+      "position": 8.907407407407408
+    },
+    {
+      "keys": [
+        "https://mureobom.com/loan/%EC%8B%A0%EC%9A%A9%ED%9A%8C%EB%B3%B5%EC%9C%84%EC%9B%90%ED%9A%8C-%EC%B1%84%EB%AC%B4%EC%A1%B0%EC%A0%95/"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 13.307692307692308
+    },
+    {
+      "keys": [
+        "https://mureobom.com/loan/%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80-%EC%A0%84%EC%84%B8%EC%9E%90%EA%B8%88%EB%8C%80%EC%B6%9C/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "keys": [
+        "https://mureobom.com/loan/%EC%9E%90%EB%8F%99%EC%B0%A8-%ED%95%A0%EB%B6%80-%EB%A6%AC%EC%8A%A4-%EB%B9%84%EA%B5%90/"
+      ],
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 7.636363636363637
+    },
+    {
+      "keys": [
+        "https://mureobom.com/loan/%EC%A3%BC%ED%83%9D%EC%97%B0%EA%B8%88-%EA%B0%80%EC%9E%85%EC%A1%B0%EA%B1%B4-%EC%9B%94%EC%88%98%EB%A0%B9%EC%95%A1/"
+      ],
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0,
+      "position": 11.1875
+    },
+    {
+      "keys": [
+        "https://mureobom.com/loan/%EC%B2%AD%EB%85%84%EC%A3%BC%ED%83%9D%EB%93%9C%EB%A6%BC-%EC%B2%AD%EC%95%BD%ED%86%B5%EC%9E%A5/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 31
+    },
+    {
+      "keys": [
+        "https://mureobom.com/loan/%EC%B9%B4%EB%93%9C%EB%A1%A0-%ED%98%84%EA%B8%88%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%B9%84%EA%B5%90/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "keys": [
+        "https://mureobom.com/loan/%ED%95%99%EC%9E%90%EA%B8%88%EB%8C%80%EC%B6%9C-%EC%9E%90%EA%B2%A9-%EC%83%81%ED%99%98/"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 9.285714285714286
+    },
+    {
+      "keys": [
+        "https://mureobom.com/loan/%ED%96%87%EC%82%B4%EB%A1%A0-%EC%9E%90%EA%B2%A9-%ED%95%9C%EB%8F%84-%EA%B8%88%EB%A6%AC/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "https://mureobom.com/loan/dsr-%EA%B3%84%EC%82%B0-%EB%B0%A9%EB%B2%95/"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 5.3
+    },
+    {
+      "keys": [
+        "https://mureobom.com/support/%EA%B8%B0%EC%B4%88%EC%83%9D%ED%99%9C%EC%88%98%EA%B8%89%EC%9E%90-%EC%8B%A0%EC%B2%AD%EC%9E%90%EA%B2%A9-%EC%83%9D%EA%B3%84%EA%B8%89%EC%97%AC/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 39
+    },
+    {
+      "keys": [
+        "https://mureobom.com/support/%EC%B6%9C%EC%82%B0%EC%A7%80%EC%9B%90%EA%B8%88-%EB%B6%80%EB%AA%A8%EA%B8%89%EC%97%AC-%EC%B2%AB%EB%A7%8C%EB%82%A8%EC%9D%B4%EC%9A%A9%EA%B6%8C/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 38
+    }
+  ],
+  "devices": [
+    {
+      "keys": [
+        "DESKTOP"
+      ],
+      "clicks": 0,
+      "impressions": 1672,
+      "ctr": 0,
+      "position": 9.089114832535886
+    },
+    {
+      "keys": [
+        "MOBILE"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 6.615384615384615
+    }
+  ],
+  "countries": [
+    {
+      "keys": [
+        "bra"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "can"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 3.7142857142857144
+    },
+    {
+      "keys": [
+        "deu"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "gbr"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "idn"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    }
+  ]
+}
