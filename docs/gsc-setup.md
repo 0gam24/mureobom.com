@@ -8,7 +8,69 @@
 
 ---
 
-## 1단계 — Google Cloud Project + 서비스 계정 (5분)
+## 인증 방식 선택
+
+| 방식 | 설치 시간 | 권한 부여 | 권장 상황 |
+|---|---|---|---|
+| **A. OAuth (ADC)** ⭐ | 3분 | 본인 Google 계정으로 OAuth 동의만 | "사용자 추가 실패: 이메일 찾을 수 없음" 등 서비스 계정 권한 부여가 막힐 때 |
+| B. 서비스 계정 | 8분 | GSC 속성에 서비스 계정 이메일 추가 | 다중 계정·팀 운영, 또는 본인 계정과 분리하고 싶을 때 |
+
+→ **권장은 A**. mureobom 단일 운영자 + 본인 GSC 권한이면 OAuth가 가장 빠름.
+
+---
+
+## A. OAuth(ADC) 방식 — Cloud Shell 한 번 실행 (3분)
+
+별도 OAuth 클라이언트 ID를 만들 필요 없이 `gcloud` 자체 OAuth 앱으로
+ADC(Application Default Credentials) 파일을 발급받아 GitHub Secret에 넣는다.
+
+### A-1. Cloud Shell 열기
+
+[console.cloud.google.com](https://console.cloud.google.com) 우상단 **`>_` 아이콘(Cloud Shell 활성화)** 클릭.
+
+### A-2. 다음 명령 실행 (Cloud Shell 안)
+
+```bash
+gcloud auth application-default login \
+  --scopes="https://www.googleapis.com/auth/webmasters.readonly,openid"
+```
+
+- 브라우저에 동의 화면이 뜨면 **본인 Google 계정** (GSC 소유 계정)으로 로그인 → **허용**.
+- 완료되면 Cloud Shell에 ADC 파일 경로가 출력됨:
+  `Credentials saved to file: [/tmp/tmp.xxxx/application_default_credentials.json]` 또는
+  `~/.config/gcloud/application_default_credentials.json`
+
+### A-3. ADC 파일 내용 출력 (복사용)
+
+```bash
+cat ~/.config/gcloud/application_default_credentials.json
+```
+
+이 JSON 전체(`{ "client_id": "...", "client_secret": "...", "refresh_token": "...", "type": "authorized_user" }`)를 복사.
+
+> **⚠ 채팅창·공개 PR에 절대 붙여넣지 말 것.** GitHub Secrets에만 넣는다.
+
+### A-4. GitHub Secrets 등록
+
+GitHub 리포 → **Settings → Secrets and variables → Actions** → **New repository secret**
+
+| 이름 | 값 |
+|---|---|
+| `GSC_OAUTH_JSON` | A-3에서 복사한 ADC JSON 전체 |
+| `GSC_SITE_URL` | `sc-domain:mureobom.com` (도메인 속성) 또는 `https://mureobom.com/` (URL 속성) |
+
+### A-5. 첫 실행
+
+Actions 탭 → **GSC Weekly Snapshot** → **Run workflow** → 성공하면 `chore(ooda): refresh GSC snapshot ...` 커밋이 자동 생성됨.
+
+> refresh_token은 본인이 [myaccount.google.com/permissions](https://myaccount.google.com/permissions)
+> 에서 "Google Cloud SDK" 접근 권한을 해제하기 전까지 만료되지 않음 (장기 무인 운영 OK).
+
+---
+
+## B. 서비스 계정 방식 (대안)
+
+### B-1단계 — Google Cloud Project + 서비스 계정 (5분)
 
 1. [console.cloud.google.com](https://console.cloud.google.com) 접속
 2. 상단 프로젝트 선택 → **새 프로젝트** (이름 예: `mureobom-gsc`)
@@ -23,7 +85,7 @@
 
 ---
 
-## 2단계 — GSC에 서비스 계정 권한 부여 (1분)
+## B-2단계 — GSC에 서비스 계정 권한 부여 (1분)
 
 1. [search.google.com/search-console](https://search.google.com/search-console) → `mureobom.com` 속성 선택
 2. 좌측 하단 **설정 → 사용자 및 권한** → **사용자 추가**
@@ -33,7 +95,7 @@
 
 ---
 
-## 3단계 — GitHub Secrets 등록 (2분)
+## B-3단계 — GitHub Secrets 등록 (2분)
 
 GitHub `mureobom.com` 리포 → **Settings → Secrets and variables → Actions** → **New repository secret**
 
@@ -48,7 +110,7 @@ GitHub `mureobom.com` 리포 → **Settings → Secrets and variables → Action
 
 ---
 
-## 4단계 — 첫 실행 (수동, 1분)
+## B-4단계 — 첫 실행 (수동, 1분)
 
 1. GitHub 리포 → **Actions** 탭 → 좌측 **GSC Weekly Snapshot** 워크플로
 2. 우상단 **Run workflow** → 기본값 그대로 → **Run workflow**
@@ -76,8 +138,10 @@ python automation/scripts/gsc_reader.py
 
 | 증상 | 원인 / 해결 |
 |---|---|
-| `User does not have sufficient permission for site` | 2단계 GSC 권한 부여 누락 또는 이메일 오타 |
-| `GSC_CREDS_JSON 환경변수도 없고 gsc-creds.json 파일도 없습니다` | Secret 미등록 또는 로컬 키 파일 없음 |
+| `User does not have sufficient permission for site` | OAuth: 잘못된 Google 계정으로 동의함 / 서비스 계정: B-2단계 권한 부여 누락 |
+| `사용자 추가 실패: 이메일 찾을 수 없음` (GSC UI) | 서비스 계정 이메일을 GSC가 거부 → **A 방식(OAuth)으로 전환** |
+| `GSC_OAUTH_JSON 환경변수도 없고 ...` | Secret 미등록. A-4 또는 B-3 다시 확인 |
+| `Token has been expired or revoked` | OAuth refresh_token 만료 — A-2 재실행 후 새 ADC로 Secret 갱신 |
 | `Quota exceeded` | GSC API 일 한도 초과 — 다음 날 재시도 (보통 안 걸림) |
 | 빈 결과 | 속성 식별자(`GSC_SITE_URL`)가 도메인/URL 속성 매칭 안 됨 — 형식 확인 |
 

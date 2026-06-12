@@ -30,6 +30,8 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from google.oauth2 import service_account
+from google.oauth2.credentials import Credentials as UserCredentials
+from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 
 SITE_URL = os.environ.get("GSC_SITE_URL", "sc-domain:mureobom.com")
@@ -43,24 +45,70 @@ REPO_ROOT = SCRIPT_DIR.parent.parent
 OUT_DIR = REPO_ROOT / "automation" / "ooda"
 
 
+def _load_user_creds(info: dict):
+    """ADC/OAuth user credential을 그대로 받아 자동 갱신.
+    필수 키: refresh_token, client_id, client_secret. 없으면 None.
+    """
+    if not all(k in info for k in ("refresh_token", "client_id", "client_secret")):
+        return None
+    creds = UserCredentials(
+        token=info.get("token") or info.get("access_token"),
+        refresh_token=info["refresh_token"],
+        client_id=info["client_id"],
+        client_secret=info["client_secret"],
+        token_uri=info.get("token_uri", "https://oauth2.googleapis.com/token"),
+        scopes=info.get("scopes") or SCOPES,
+    )
+    if not creds.valid:
+        creds.refresh(Request())
+    return creds
+
+
 def get_service():
+    """우선순위:
+      1) GSC_OAUTH_JSON  — 사용자 OAuth/ADC (refresh_token 포함)
+      2) GSC_CREDS_JSON  — 서비스 계정 키
+      3) 로컬 파일 fallback
+    """
+    oauth_json = os.environ.get("GSC_OAUTH_JSON")
+    if oauth_json:
+        info = json.loads(oauth_json)
+        creds = _load_user_creds(info)
+        if creds:
+            return build("searchconsole", "v1", credentials=creds, cache_discovery=False)
+        # OAuth 형식이 아니면 서비스 계정 시도
+        creds = service_account.Credentials.from_service_account_info(info, scopes=SCOPES)
+        return build("searchconsole", "v1", credentials=creds, cache_discovery=False)
+
     creds_json = os.environ.get("GSC_CREDS_JSON")
     if creds_json:
         info = json.loads(creds_json)
         creds = service_account.Credentials.from_service_account_info(
             info, scopes=SCOPES
         )
-    else:
-        path = REPO_ROOT / CREDS_FILE if not Path(CREDS_FILE).is_absolute() else Path(CREDS_FILE)
-        if not path.exists():
-            sys.exit(
-                f"[gsc_reader] 인증 실패: GSC_CREDS_JSON 환경변수도 없고 "
-                f"{path} 파일도 없습니다."
-            )
-        creds = service_account.Credentials.from_service_account_file(
-            str(path), scopes=SCOPES
+        return build("searchconsole", "v1", credentials=creds, cache_discovery=False)
+
+    # 로컬 파일 fallback (서비스 계정 또는 ADC)
+    path = REPO_ROOT / CREDS_FILE if not Path(CREDS_FILE).is_absolute() else Path(CREDS_FILE)
+    adc_path = Path.home() / ".config" / "gcloud" / "application_default_credentials.json"
+
+    if path.exists():
+        info = json.loads(path.read_text(encoding="utf-8"))
+        creds = _load_user_creds(info) or service_account.Credentials.from_service_account_info(
+            info, scopes=SCOPES
         )
-    return build("searchconsole", "v1", credentials=creds, cache_discovery=False)
+        return build("searchconsole", "v1", credentials=creds, cache_discovery=False)
+
+    if adc_path.exists():
+        info = json.loads(adc_path.read_text(encoding="utf-8"))
+        creds = _load_user_creds(info)
+        if creds:
+            return build("searchconsole", "v1", credentials=creds, cache_discovery=False)
+
+    sys.exit(
+        "[gsc_reader] 인증 실패: GSC_OAUTH_JSON · GSC_CREDS_JSON · "
+        f"{path} · {adc_path} 어디에도 자격증명이 없습니다."
+    )
 
 
 def sa_query(service, start_date: date, end_date: date, dimensions: list[str], row_limit: int = 100):

@@ -33,6 +33,8 @@ jobs:
 
       - name: Run GSC reader
         env:
+          # 둘 중 하나만 등록되어도 동작: OAuth(ADC) 우선, 없으면 서비스 계정 폴백
+          GSC_OAUTH_JSON: ${{ secrets.GSC_OAUTH_JSON }}
           GSC_CREDS_JSON: ${{ secrets.GSC_CREDS_JSON }}
           GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
           GSC_DAYS: ${{ inputs.days || '28' }}
