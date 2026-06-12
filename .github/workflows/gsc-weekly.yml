@@ -1,0 +1,51 @@
+name: GSC Weekly Snapshot
+
+# 매주 월요일 00:00 KST(=일요일 15:00 UTC)에 지난 28일치 GSC 데이터를 수집해
+# automation/ooda/gsc-snapshot-latest.json 과 gsc-summary-latest.md 를 갱신·커밋한다.
+# observations 작성 시 §2(트래픽 셀)의 1차 소스로 활용.
+
+on:
+  schedule:
+    - cron: "0 15 * * 0"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "집계 기간(일)"
+        default: "28"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r automation/scripts/requirements.txt
+
+      - name: Run GSC reader
+        env:
+          GSC_CREDS_JSON: ${{ secrets.GSC_CREDS_JSON }}
+          GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
+          GSC_DAYS: ${{ inputs.days || '28' }}
+        run: python automation/scripts/gsc_reader.py
+
+      - name: Commit snapshot
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add automation/ooda/gsc-snapshot-latest.json automation/ooda/gsc-summary-latest.md
+          if git diff --staged --quiet; then
+            echo "[gsc] no changes"
+          else
+            git commit -m "chore(ooda): refresh GSC snapshot ($(date -u +%Y-%m-%d))"
+            git push
+          fi

@@ -18,6 +18,10 @@ dist/
 .env.production
 .env.development
 
+# GSC service account JSON key (절대 커밋 X — automation/scripts/gsc_reader.py가 읽음)
+gsc-creds.json
+**/gsc-creds.json
+
 # Researcher 산출은 transient — researcher.md 정책상 미커밋
 automation/research/*
 !automation/research/.gitkeep
