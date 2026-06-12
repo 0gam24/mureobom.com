@@ -48,6 +48,9 @@ OUT_DIR = REPO_ROOT / "automation" / "ooda"
 def _load_user_creds(info: dict):
     """ADC/OAuth user credential을 그대로 받아 자동 갱신.
     필수 키: refresh_token, client_id, client_secret. 없으면 None.
+
+    User OAuth credential은 Google API 호출 시 quota project가 필수.
+    우선순위: GSC_QUOTA_PROJECT env → JSON 안의 quota_project_id.
     """
     if not all(k in info for k in ("refresh_token", "client_id", "client_secret")):
         return None
@@ -61,6 +64,9 @@ def _load_user_creds(info: dict):
     )
     if not creds.valid:
         creds.refresh(Request())
+    quota_project = os.environ.get("GSC_QUOTA_PROJECT") or info.get("quota_project_id")
+    if quota_project and hasattr(creds, "with_quota_project"):
+        creds = creds.with_quota_project(quota_project)
     return creds
 
 

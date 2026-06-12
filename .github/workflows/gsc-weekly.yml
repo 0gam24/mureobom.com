@@ -36,6 +36,8 @@ jobs:
           # 둘 중 하나만 등록되어도 동작: OAuth(ADC) 우선, 없으면 서비스 계정 폴백
           GSC_OAUTH_JSON: ${{ secrets.GSC_OAUTH_JSON }}
           GSC_CREDS_JSON: ${{ secrets.GSC_CREDS_JSON }}
+          # OAuth user credential은 quota project 필수 (서비스 계정은 불필요)
+          GSC_QUOTA_PROJECT: ${{ secrets.GSC_QUOTA_PROJECT }}
           GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
           GSC_DAYS: ${{ inputs.days || '28' }}
         run: python automation/scripts/gsc_reader.py

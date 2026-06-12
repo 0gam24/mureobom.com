@@ -58,6 +58,7 @@ GitHub 리포 → **Settings → Secrets and variables → Actions** → **New r
 |---|---|
 | `GSC_OAUTH_JSON` | A-3에서 복사한 ADC JSON 전체 |
 | `GSC_SITE_URL` | `sc-domain:mureobom.com` (도메인 속성) 또는 `https://mureobom.com/` (URL 속성) |
+| `GSC_QUOTA_PROJECT` | A-1 Cloud Shell 좌측 상단의 GCP 프로젝트 ID (예: `mureobom`). User OAuth는 quota project가 필수. 또한 해당 프로젝트에서 **Search Console API가 활성화**돼 있어야 함 — Cloud Shell에서 한 줄: `gcloud services enable searchconsole.googleapis.com` |
 
 ### A-5. 첫 실행
 
@@ -142,6 +143,7 @@ python automation/scripts/gsc_reader.py
 | `사용자 추가 실패: 이메일 찾을 수 없음` (GSC UI) | 서비스 계정 이메일을 GSC가 거부 → **A 방식(OAuth)으로 전환** |
 | `GSC_OAUTH_JSON 환경변수도 없고 ...` | Secret 미등록. A-4 또는 B-3 다시 확인 |
 | `Token has been expired or revoked` | OAuth refresh_token 만료 — A-2 재실행 후 새 ADC로 Secret 갱신 |
+| `accessNotConfigured` / `quota project ... not set` | OAuth 인증 + `GSC_QUOTA_PROJECT` Secret 누락 또는 그 프로젝트에서 Search Console API 미활성화 — Cloud Shell `gcloud services enable searchconsole.googleapis.com --project=<프로젝트ID>` |
 | `Quota exceeded` | GSC API 일 한도 초과 — 다음 날 재시도 (보통 안 걸림) |
 | 빈 결과 | 속성 식별자(`GSC_SITE_URL`)가 도메인/URL 속성 매칭 안 됨 — 형식 확인 |
 
