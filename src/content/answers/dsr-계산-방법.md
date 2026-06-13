@@ -4,7 +4,7 @@ cluster: "loan"
 targetQuery: "DSR 계산 방법 2026 한도 가계대출"
 searchIntent: "정보형"
 summary: "DSR 한도는 은행권 40%·비은행권 50%이고, 연간 부채 원리금 합계를 연 소득으로 나눈 비율이에요. 2025년 7월부터 3단계 스트레스 DSR(가산금리)이 적용돼서 한도가 더 빡빡해졌어요."
-updated: 2026-06-12
+updated: 2026-06-13
 published: 2026-05-17
 sources:
   - label: "금융위원회 — DSR 정의·산식·DTI/LTV 차이 주요정책문답"
