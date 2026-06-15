@@ -145,12 +145,58 @@ def cluster_fit(candidate: str, seeds: list[str], aliases: list[str]) -> float:
     return 0.3
 
 
-def dup_penalty(slug: str, published: set[str], max_pen: float) -> float:
-    return max_pen if slug in published else 0.0
-
-
 def slugify(text: str) -> str:
     return "-".join(text.split())[:60]
+
+
+def _norm(text: str) -> str:
+    """슬러그 의미비교용 정규화 — 하이픈/공백 제거."""
+    return text.replace("-", "").replace(" ", "")
+
+
+def is_covered(slug: str, cluster: str, covered: dict[str, set[str]]) -> bool:
+    """후보가 같은 클러스터에서 이미 발행됐거나 의미상 포함되는가.
+    발행 슬러그는 시드보다 구체적이라(예: '마이너스통장-한도-금리') 시드형
+    후보('마이너스통장')는 그 부분 문자열이다. 정확 매칭만 하던 구버전
+    dup_penalty가 이런 후보를 전부 놓쳐 큐가 기발행 주제로만 가득 차던
+    문제를 막는다. 같은 클러스터 안에서만 비교한다."""
+    cand = _norm(slug)
+    if not cand:
+        return False
+    for pub in covered.get(cluster, ()):
+        p = _norm(pub)
+        if cand in p or p in cand:
+            return True
+    return False
+
+
+# ---------- 파생 질의 마이닝 (Phase 4 진입점) ----------
+# kin 질문 '제목'에서 시드와 함께 자주 등장하는 명사형 토큰을 뽑아
+# '시드 + 토큰' 롱테일 후보를 만든다. 제목 원문은 버리고 토큰 빈도(집계)만
+# 남긴다 — CLAUDE.md 절대 원칙 1(지식iN은 신호로만). 산출물은 짧은 키워드
+# 구(句)이지 질문 문장이 아니다.
+_TOKEN_RE = re.compile(r"[가-힣]{2,}")
+_DERIVE_STOP = {
+    "방법", "신청", "얼마", "경우", "관련", "문의", "질문", "궁금", "어떻게",
+    "있나요", "하나요", "인가요", "받나요", "되나요", "가능", "지금", "오늘",
+    "그리고", "그런데", "혹시", "정도", "이번", "최근", "요즘", "에서", "한테",
+}
+
+
+def derive_queries(items: list[dict], seed: str, max_derived: int) -> list[str]:
+    """시드 kin 결과 제목에서 ≥2회 등장한 명사형 토큰을 빈도순으로 뽑아
+    '{seed} {token}' 롱테일 후보를 반환. 제목 문장은 보관하지 않는다."""
+    seed_tokens = set(_TOKEN_RE.findall(seed))
+    freq: dict[str, int] = {}
+    for it in items:
+        title = it.get("title") or ""        # 태그/엔티티 섞인 짧은 스니펫
+        toks = {t for t in _TOKEN_RE.findall(title)
+                if t not in _DERIVE_STOP and t not in seed_tokens}
+        for t in toks:                        # 제목당 1회만 카운트
+            freq[t] = freq.get(t, 0) + 1
+    ranked = sorted((t for t, c in freq.items() if c >= 2),
+                    key=lambda t: freq[t], reverse=True)
+    return [f"{seed} {t}" for t in ranked[:max_derived]]
 
 
 # ---------- 메인 ----------
@@ -170,10 +216,22 @@ def main():
     published = set()
     if a.published and os.path.exists(a.published):
         published = {l.strip() for l in open(a.published, encoding="utf-8") if l.strip()}
+    # 발행 슬러그를 클러스터별로 분해 — 의미 중복 차단용. _published_slugs.txt는
+    # '{cluster}/{slug}' 형식이고 발행 슬러그가 시드보다 구체적이다.
+    covered: dict[str, set[str]] = {}
+    for line in published:
+        if "/" in line:
+            cl, sl = line.split("/", 1)
+            covered.setdefault(cl, set()).add(sl)
+
+    boosts = sc.get("cluster_fit_boost", {})
+    max_derived = s.get("max_derived_per_seed", 3)
 
     queue = []
     for cname, c in seeds_cfg["clusters"].items():
+        boost = boosts.get(cname, 1.0)
         scored = []
+        seen_slugs: set[str] = set()
         for kw in c["seed"]:
             try:
                 series = datalab_trend(kw, s["datalab_lookback_days"])
@@ -182,30 +240,51 @@ def main():
                 print(f"[warn] {kw}: {e}", file=sys.stderr)
                 continue
 
-            tm = trend_momentum(series)
-            vol, fresh = question_volume(items, s["recent_window_days"], s["kin_sort"])
-            fit = cluster_fit(kw, c["seed"], c.get("aliases", []))
-            slug = slugify(kw)
-            pen = dup_penalty(slug, published, sc["duplication_penalty_max"])
+            # 시드 + kin 제목에서 마이닝한 롱테일 파생 질의를 함께 후보로.
+            # 파생 질의는 자체 kin_search로 실측 신호를 얻는다(트렌드는 미측정).
+            candidates = [(kw, series, items)]
+            for dq in derive_queries(items, kw, max_derived):
+                try:
+                    dq_items = kin_search(dq, s["kin_display"], s["kin_sort"])
+                except Exception as e:
+                    print(f"[warn] {dq}: {e}", file=sys.stderr)
+                    continue
+                candidates.append((dq, None, dq_items))
 
-            score = 100 * (
-                w["trend_momentum"] * tm
-                + w["question_volume"] * vol
-                + w["cluster_fit"] * fit
-                + w["freshness"] * fresh
-            ) - pen
+            for cand_kw, cand_series, cand_items in candidates:
+                slug = slugify(cand_kw)
+                if slug in seen_slugs or is_covered(slug, cname, covered):
+                    continue  # 큐 내 중복 + 기발행/의미중복 제외
+                seen_slugs.add(slug)
 
-            scored.append({
-                "cluster": cname,
-                "path": c["path"],
-                "keyword": kw,
-                "slug": slug,
-                "score": round(score, 2),
-                "signals": {"trend_momentum": round(tm, 3),
-                            "question_volume": round(vol, 3),
-                            "cluster_fit": fit,
-                            "freshness": round(fresh, 3)},
-            })
+                is_seed = cand_series is not None
+                tm = trend_momentum(cand_series) if is_seed else 0.0
+                vol, fresh = question_volume(
+                    cand_items, s["recent_window_days"], s["kin_sort"])
+                base_fit = cluster_fit(cand_kw, c["seed"], c.get("aliases", []))
+                if not is_seed:
+                    base_fit = max(base_fit, 0.6)  # 시드 kin 파생 → 적합 하한
+                fit = base_fit * boost             # loan·tax RPM 우선 가중
+
+                score = 100 * (
+                    w["trend_momentum"] * tm
+                    + w["question_volume"] * vol
+                    + w["cluster_fit"] * fit
+                    + w["freshness"] * fresh
+                )
+
+                scored.append({
+                    "cluster": cname,
+                    "path": c["path"],
+                    "keyword": cand_kw,
+                    "slug": slug,
+                    "derived": not is_seed,
+                    "score": round(score, 2),
+                    "signals": {"trend_momentum": round(tm, 3),
+                                "question_volume": round(vol, 3),
+                                "cluster_fit": round(fit, 3),
+                                "freshness": round(fresh, 3)},
+                })
 
         scored.sort(key=lambda x: x["score"], reverse=True)
         queue.extend(scored[: s["top_n_per_cluster"]])

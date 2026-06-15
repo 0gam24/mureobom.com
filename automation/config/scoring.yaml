@@ -5,12 +5,13 @@ weights:
   cluster_fit: 0.20      # 시드 키워드 매칭 강도
   freshness: 0.10        # 최신 질문 신선도
 
-duplication_penalty_max: 40   # 기발행/큐 중복 시 최대 감점
+duplication_penalty_max: 40   # (구) 정확 슬러그 매칭 감점. 현재 미사용 —
+                              # topic_scanner.is_covered()가 의미중복(부분문자열)을
+                              # 같은 클러스터 안에서 하드 스킵으로 처리한다.
 
 # 클러스터별 cluster_fit 보정 계수 — D-2026-06-11-3 (AdSense RPM 높은 loan·tax 우선)
-# 1.0 = 보정 없음. topic_scanner.py는 아직 이 키를 읽지 않음(읽어도 무해) —
-# 현재는 publish-daily 스킬의 클러스터 배분과 brief 선정 우선순위 근거로 사용.
-# 스캐너 반영 시 cluster_fit 항에 곱셈 적용 + 1주 실측 후 재튜닝.
+# 1.0 = 보정 없음. topic_scanner.py가 cluster_fit 항에 곱셈으로 반영한다
+# (fit = cluster_fit * boost). 1주 실측 후 재튜닝.
 cluster_fit_boost:
   loan: 1.15
   tax: 1.10
@@ -18,8 +19,11 @@ cluster_fit_boost:
   insurance: 1.0
 
 scanner:
-  kin_display: 100       # kin API 한 번에 가져올 개수(최대 100)
-  kin_sort: "date"       # 최신순
-  recent_window_days: 14 # question_volume 산정 기준 기간
-  top_n_per_cluster: 5   # 클러스터별 큐에 올릴 상위 개수
+  kin_display: 100         # kin API 한 번에 가져올 개수(최대 100)
+  kin_sort: "date"         # 최신순
+  recent_window_days: 14   # question_volume 산정 기준 기간
+  top_n_per_cluster: 5     # 클러스터별 큐에 올릴 상위 개수
   datalab_lookback_days: 30
+  max_derived_per_seed: 3  # 시드당 kin 제목에서 마이닝할 롱테일 파생 질의 수.
+                           # API 호출 = 시드(datalab+kin) + 파생(kin)×N.
+                           # 현재 4클러스터×10시드×(1+1+3) ≈ 200회/일 (한도 25k 여유).

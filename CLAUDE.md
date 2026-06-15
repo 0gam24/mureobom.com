@@ -128,11 +128,11 @@ cron 스캐너 → automation/topic-queue.json → brief 초안 → 사람 15분
 ```
 score = 100 * ( 0.40·trend_momentum
               + 0.30·question_volume
-              + 0.20·cluster_fit
+              + 0.20·(cluster_fit · cluster_fit_boost)   # loan 1.15 / tax 1.10
               + 0.10·freshness )
-      - duplication_penalty   (최대 -40)
 ```
 
+의미중복(기발행 포함) 후보는 점수 감점이 아니라 `is_covered()`로 **큐에서 하드 스킵**.
 가중치 변경은 [automation/config/scoring.yaml](automation/config/scoring.yaml)에서만.
 1주차 PoC 데이터로 튜닝.
 
@@ -142,18 +142,24 @@ score = 100 * ( 0.40·trend_momentum
   [automation/scripts/topic_scanner.py](automation/scripts/topic_scanner.py)의
   `_estimate_age_days`는 postdate → description 정규식 → 위치 프록시 순으로 폴백.
   1주차 실측에서 (1)/(2)가 잡히는 비율이 충분하면 위치 프록시 가중치를 낮춰라.
-- **API 일일 한도 ~25,000회**. 스캐너는 클러스터×시드만큼 데이터랩+kin 2회씩
-  호출(현재 4×10×2 = 80회/일). 파생 질의·세분 시드 추가 시 재계산.
+- **API 일일 한도 ~25,000회**. 시드당 데이터랩+kin 2회 + 파생 질의당 kin 1회.
+  현재 4×10×(2 + 최대 3) ≈ 200회/일 (한도 대비 여유). `max_derived_per_seed` 상향·
+  세분 시드 추가 시 재계산.
   → 한도 압박 시 **시드 묶음 / 결과 캐싱 / 동일 키워드 N일 재호출 금지** 도입
   (현재 미구현). 1주차 실측이 ~30% 이상이면 즉시 캐싱 추가.
-- **중복 발행 방지**는 `automation/briefs/_published_slugs.txt`로 단순 매칭.
-  의미 중복은 compliance 에이전트가 임베딩/유사도로 별도 검사.
+- **중복 발행 방지는 2단**. (1) 스캐너 `is_covered()`가 `_published_slugs.txt`에 대해
+  **같은 클러스터 내 부분문자열(의미중복)**을 하드 스킵 — 시드형 후보(`마이너스통장`)가
+  구체 발행 슬러그(`마이너스통장-한도-금리`)에 포함되면 큐에서 제외. (2) compliance
+  에이전트의 임베딩/유사도 최종 검사. (구 정확 슬러그 매칭 dup_penalty는 폐기.)
 - **클러스터는 폴더 아닌 프론트매터 필드**. Astro `answers` 컬렉션은 평면이고
   라우팅은 [src/pages/[cluster]/[slug].astro](src/pages/[cluster]/[slug].astro)가
   `cluster` 필드로 필터한다.
-- **파생 질의는 아직 미구현**. 기획서 §3에서 "시드 키워드 **또는** 파생 질의"로
-  열어뒀지만 현 스캐너는 시드만 돈다. Phase 4 확장 항목 — kin 결과 제목에서
-  공통 N-gram을 뽑아 차회 시드로 회귀하는 루프가 자연스러운 진입점.
+- **파생 질의 구현됨 (D-2026-06-15)**. `topic_scanner.derive_queries()`가 시드 kin
+  제목에서 ≥2회 등장한 명사 토큰을 뽑아 `{시드} {토큰}` 롱테일 후보를 만들고 자체
+  kin_search로 실측 신호를 얻는다(트렌드 미측정, cluster_fit 하한 0.6). **제목 원문은
+  보관하지 않고 토큰 빈도만 집계** — 절대 원칙 1 유지. 한도는 scoring.yaml
+  `max_derived_per_seed`(현 3). 이게 "요즘 많이 묻는 신규 질문"을 자동 발굴하는
+  핵심 — 큐가 시드 40개에 갇히지 않고 롱테일로 확장된다.
 
 ## 개발 시 주의
 
