@@ -1,0 +1,111 @@
+---
+/* 구독 허브 — 전체/카테고리별 RSS·Atom·JSON·llms.txt·sitemap을 한 곳에.
+ * 각 피드 라우트(rss.xml·atom.xml·feed.json·[cluster]/rss.xml)와 짝. */
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+import { CLUSTERS } from "../../lib/feeds";
+
+const posts = await getCollection("answers");
+const total = posts.length;
+const countByCluster: Record<string, number> = {};
+for (const p of posts) {
+  countByCluster[p.data.cluster] = (countByCluster[p.data.cluster] ?? 0) + 1;
+}
+
+const allFeeds = [
+  { label: "RSS 2.0", href: "/rss.xml", note: "표준 RSS — 피드 리더·네이버 서치어드바이저 제출" },
+  { label: "Atom 1.0", href: "/atom.xml", note: "Atom 표준 피드" },
+  { label: "JSON Feed 1.1", href: "/feed.json", note: "JSON 기반 최신 피드 포맷" },
+];
+
+const desc =
+  "물어봄의 새 질문답변을 RSS·Atom·JSON Feed·llms.txt로 구독하세요. 세금·정부지원금·대출·보험 카테고리별 피드도 제공합니다.";
+---
+<Base title="구독 — RSS·Atom·JSON Feed·llms.txt" description={desc}>
+  <section class="fhead">
+    <p class="eyebrow">구독</p>
+    <h1>새 답변을 원하는 방식으로 받아보세요.</h1>
+    <p class="lead">{desc} 현재 발행 글 <strong>{total}편</strong>.</p>
+  </section>
+
+  <section class="block">
+    <h2>전체 피드</h2>
+    <div class="grid">
+      {allFeeds.map((f) => (
+        <a class="card" href={f.href}>
+          <span class="card-title">{f.label}</span>
+          <span class="card-note">{f.note}</span>
+          <span class="card-url">{f.href}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>AI 답변 엔진용</h2>
+    <div class="grid">
+      <a class="card" href="/llms.txt">
+        <span class="card-title">llms.txt</span>
+        <span class="card-note">생성형 AI가 사이트 구조·전체 글을 읽도록 정리한 인덱스</span>
+        <span class="card-url">/llms.txt</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>카테고리별 피드</h2>
+    <div class="grid">
+      {CLUSTERS.map((c) => (
+        <div class="card cat">
+          <span class="card-title">{c.emoji} {c.label}<span class="cnt">{countByCluster[c.id] ?? 0}편</span></span>
+          <span class="card-links">
+            <a href={`/${c.id}/rss.xml`}>RSS</a>
+            <a href={`/${c.id}/`}>카테고리 페이지</a>
+          </span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>검색엔진·사이트맵</h2>
+    <div class="grid">
+      <a class="card" href="/sitemap.xml">
+        <span class="card-title">sitemap.xml</span>
+        <span class="card-note">전체 페이지 색인 — 구글·네이버·빙 제출용</span>
+        <span class="card-url">/sitemap.xml</span>
+      </a>
+      <a class="card" href="/robots.txt">
+        <span class="card-title">robots.txt</span>
+        <span class="card-note">크롤러 허용 규칙 + 사이트맵 위치</span>
+        <span class="card-url">/robots.txt</span>
+      </a>
+    </div>
+  </section>
+
+  <style>
+    .fhead{max-width:var(--maxw);margin:3rem auto 2.5rem;padding:0 var(--gap);}
+    .eyebrow{color:var(--teal);font-weight:600;}
+    .fhead h1{font-size:var(--fs-h1);margin:.6rem 0 .8rem;}
+    .lead{color:var(--ink-soft);max-width:60ch;}
+    .lead strong{color:var(--ink);}
+    .block{max-width:var(--maxw);margin:0 auto 2.4rem;padding:0 var(--gap);}
+    .block h2{font-size:var(--fs-h2);margin:0 0 1rem;}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;}
+    @media(max-width:760px){.grid{grid-template-columns:1fr;}}
+    .card{display:flex;flex-direction:column;gap:.35rem;background:var(--paper-2);
+      border:1px solid var(--line);border-radius:var(--r-md);padding:1.1rem 1.2rem;
+      transition:border-color .15s,transform .15s;}
+    a.card:hover{border-color:var(--teal);transform:translateY(-2px);}
+    .card-title{font-family:var(--font-display);font-weight:700;font-size:1.15rem;color:var(--ink);
+      display:flex;align-items:baseline;gap:.5rem;}
+    .cnt{font-family:var(--font-body);font-size:var(--fs-meta);color:var(--ink-faint);font-weight:500;}
+    .card-note{color:var(--ink-soft);font-size:.9rem;}
+    .card-url{color:var(--ink-faint);font-size:var(--fs-meta);font-family:ui-monospace,monospace;}
+    .card.cat{gap:.6rem;}
+    .card-links{display:flex;gap:.8rem;flex-wrap:wrap;}
+    .card-links a{color:var(--teal);font-weight:500;font-size:.95rem;
+      border:1px solid var(--line);border-radius:var(--r-sm);padding:.2rem .7rem;background:var(--paper);}
+    .card-links a:hover{border-color:var(--teal);color:var(--teal-deep);}
+  </style>
+</Base>
