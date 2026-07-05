@@ -1,13 +1,13 @@
-# GSC 스냅샷 — 2026-05-31 ~ 2026-06-27 (28일)
+# GSC 스냅샷 — 2026-06-07 ~ 2026-07-04 (28일)
 
 속성: `https://mureobom.com/
 `
 
 ## 총계
 - 클릭: **0**
-- 노출: **187**
+- 노출: **235**
 - CTR: **0.00%**
-- 평균 게재순위: **9.5**
+- 평균 게재순위: **10.2**
 
 ## 상위 검색어 (Top 10)
 | 검색어 | 클릭 | 노출 | CTR | 순위 |
@@ -18,31 +18,31 @@
 | "업무용승용차 세무처리 안내" 국세청 pdf | 0 | 3 | 0.00% | 9.0 |
 | 산재 보상금 | 0 | 2 | 0.00% | 69.0 |
 | 산재보상 금액 | 0 | 1 | 0.00% | 68.0 |
-| 산재보상금 | 0 | 3 | 0.00% | 76.0 |
+| 산재보상금 | 0 | 4 | 0.00% | 75.2 |
 
 ## 상위 페이지 (Top 10)
 | 페이지 | 클릭 | 노출 | CTR | 순위 |
 |---|---|---|---|---|
-| / | 0 | 3 | 0.00% | 3.0 |
+| / | 0 | 3 | 0.00% | 4.0 |
 | /insurance/ | 0 | 3 | 0.00% | 1.7 |
 | /insurance/%EA%B1%B4%EA%B0%95%EA%B2%80%EC%A7%84-%EB%AC%B4%EB%A3%8C-%EB%8C%80%EC%83%81-%ED%95%AD%EB%AA%A9/ | 0 | 2 | 0.00% | 11.5 |
 | /insurance/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98-%EC%9E%84%EC%9D%98%EA%B3%84%EC%86%8D%EA%B0%80%EC%9E%85/ | 0 | 1 | 0.00% | 30.0 |
-| /insurance/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98-%ED%94%BC%EB%B6%80%EC%96%91%EC%9E%90-%EC%9E%90%EA%B2%A9/ | 0 | 83 | 0.00% | 9.0 |
-| /insurance/%EA%B5%AD%EB%AF%BC%EC%97%B0%EA%B8%88-%EC%B6%94%EB%82%A9-%EC%B6%94%ED%9B%84%EB%82%A9%EB%B6%80-%EC%8B%A0%EC%B2%AD/ | 0 | 4 | 0.00% | 12.5 |
+| /insurance/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98-%ED%94%BC%EB%B6%80%EC%96%91%EC%9E%90-%EC%9E%90%EA%B2%A9/ | 0 | 93 | 0.00% | 8.8 |
+| /insurance/%EA%B5%AD%EB%AF%BC%EC%97%B0%EA%B8%88-%EC%B6%94%EB%82%A9-%EC%B6%94%ED%9B%84%EB%82%A9%EB%B6%80-%EC%8B%A0%EC%B2%AD/ | 0 | 5 | 0.00% | 11.0 |
 | /insurance/%EB%85%B8%EB%9E%80%EC%9A%B0%EC%82%B0%EA%B3%B5%EC%A0%9C-%EA%B0%80%EC%9E%85%EC%9E%90%EA%B2%A9-%EC%84%B8%EC%95%A1%EA%B3%B5%EC%A0%9C/ | 0 | 1 | 0.00% | 21.0 |
-| /insurance/%EC%82%B0%EC%9E%AC%EB%B3%B4%ED%97%98-%EC%8B%A0%EC%B2%AD-%EB%B3%B4%EC%83%81/ | 0 | 8 | 0.00% | 56.5 |
+| /insurance/%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%83%81%ED%95%9C%EC%A0%9C-%ED%99%98%EA%B8%89%EA%B8%88-%EC%A1%B0%ED%9A%8C-%EC%8B%A0%EC%B2%AD/ | 0 | 1 | 0.00% | 9.0 |
+| /insurance/%EC%82%B0%EC%9E%AC%EB%B3%B4%ED%97%98-%EC%8B%A0%EC%B2%AD-%EB%B3%B4%EC%83%81/ | 0 | 9 | 0.00% | 58.3 |
 | /insurance/%EC%8B%A4%EC%86%90%EB%B3%B4%ED%97%98-%EC%B2%AD%EA%B5%AC-%EB%B0%A9%EB%B2%95-%EC%84%9C%EB%A5%98/ | 0 | 1 | 0.00% | 9.0 |
-| /insurance/%EC%9A%B4%EC%A0%84%EC%9E%90%EB%B3%B4%ED%97%98-%EA%B0%80%EC%9E%85%EC%A1%B0%EA%B1%B4-%EB%B3%B4%EC%9E%A5%EB%B2%94%EC%9C%84/ | 0 | 1 | 0.00% | 37.0 |
 
 ## 트랙 2(재공유) 후보 — 노출 ≥10 + 클릭 0
 | 페이지 | 노출 | 순위 |
 |---|---|---|
-| /insurance/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98-%ED%94%BC%EB%B6%80%EC%96%91%EC%9E%90-%EC%9E%90%EA%B2%A9/ | 83 | 9.0 |
-| /insurance/4%EB%8C%80%EB%B3%B4%ED%97%98-%EA%B0%80%EC%9E%85%EC%A1%B0%EA%B1%B4-%EC%9A%94%EC%9C%A8/ | 25 | 6.8 |
+| /insurance/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98-%ED%94%BC%EB%B6%80%EC%96%91%EC%9E%90-%EC%9E%90%EA%B2%A9/ | 93 | 8.8 |
+| /insurance/4%EB%8C%80%EB%B3%B4%ED%97%98-%EA%B0%80%EC%9E%85%EC%A1%B0%EA%B1%B4-%EC%9A%94%EC%9C%A8/ | 28 | 6.9 |
 | /loan/%EC%9E%90%EB%8F%99%EC%B0%A8-%ED%95%A0%EB%B6%80-%EB%A6%AC%EC%8A%A4-%EB%B9%84%EA%B5%90/ | 15 | 8.1 |
 
 ## 디바이스 분포
 | 디바이스 | 클릭 | 노출 | CTR |
 |---|---|---|---|
-| DESKTOP | 0 | 183 | 0.00% |
-| MOBILE | 0 | 4 | 0.00% |
+| DESKTOP | 0 | 224 | 0.00% |
+| MOBILE | 0 | 11 | 0.00% |
