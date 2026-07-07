@@ -62,14 +62,21 @@ function sourceRel(url: string): string | undefined {
   return "nofollow";
 }
 
+/* 확인한 공식 자료를 schema.org citation으로 노출 — E-E-A-T 신뢰 신호(GAP-03) */
+const citations = (p.data.sources ?? [])
+  .filter((s) => s.url)
+  .map((s) => ({ "@type": "CreativeWork", "name": s.label, "url": s.url }));
+
 const articleNode = {
   "@type": "Article",
   "headline": p.data.title,
   "description": p.data.summary,
+  "inLanguage": "ko",
+  "isAccessibleForFree": true,
   "datePublished": new Date(publishedDate).toISOString(),
   "dateModified":  new Date(p.data.updated).toISOString(),
   "image": [ogImage],
-  "author":    { "@type": "Organization", "name": "물어봄", "url": siteBase ? `${siteBase}/about/` : undefined },
+  "author":    { "@type": "Organization", "name": p.data.author, "url": siteBase ? `${siteBase}/about/` : undefined },
   "publisher": {
     "@type": "Organization",
     "name": "물어봄",
@@ -77,6 +84,7 @@ const articleNode = {
     "logo": { "@type": "ImageObject", "url": `${siteBase}/apple-touch-icon.png` },
   },
   "mainEntityOfPage": { "@type": "WebPage", "@id": pageUrl },
+  ...(citations.length ? { "citation": citations } : {}),
 };
 
 const breadcrumbNode = {
@@ -120,7 +128,10 @@ const slotBottom = import.meta.env.PUBLIC_ADSENSE_SLOT_BOTTOM ?? "";
     <p class="crumb"><a href={`/${p.data.cluster}/`}>{CL[p.data.cluster]}</a></p>
     <h1>{p.data.title}</h1>
     <p class="answer-now">{p.data.summary}</p>
-    <p class="updated">물어봄 편집부 · {fmt(p.data.updated)} 기준 공식 자료 확인</p>
+    <div class="byline">
+      <p class="by-who"><strong>{p.data.author}</strong> 작성 · 공식 1차 출처 대조 검수</p>
+      <p class="by-meta">발행 {fmt(publishedDate)} · 최종 확인 {fmt(p.data.updated)} · 근거 {p.data.sources.length}건 · <a href="/about/#how">이 글은 어떻게 만드나요?</a></p>
+    </div>
 
     <AdSlot slot={slotTop} label="top" />
 
@@ -174,7 +185,11 @@ const slotBottom = import.meta.env.PUBLIC_ADSENSE_SLOT_BOTTOM ?? "";
     .answer-now{font-size:var(--fs-lead);background:var(--teal-wash);
       border-left:3px solid var(--teal);padding:1rem 1.2rem;border-radius:0 var(--r-sm) var(--r-sm) 0;
       color:var(--ink);}
-    .updated{color:var(--ink-faint);font-size:var(--fs-meta);margin:1rem 0 2.4rem;}
+    .byline{margin:1rem 0 2.4rem;font-size:var(--fs-meta);
+      border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:.8rem 0;}
+    .byline .by-who{color:var(--ink-soft);}
+    .byline .by-who strong{color:var(--ink);font-weight:600;}
+    .byline .by-meta{color:var(--ink-faint);margin-top:.25rem;}
     .prose{max-width:var(--measure);}
     .prose :global(h2){font-size:var(--fs-h2);margin:2.4rem 0 .9rem;}
     .prose :global(p){margin:1rem 0;color:var(--ink);}
@@ -182,6 +197,13 @@ const slotBottom = import.meta.env.PUBLIC_ADSENSE_SLOT_BOTTOM ?? "";
       display:block;overflow-x:auto;max-width:100%;}
     .prose :global(th),.prose :global(td){border:1px solid var(--line);padding:.6rem .8rem;text-align:left;}
     .prose :global(th){background:var(--paper-2);}
+    /* 인포그래픽/다이어그램 — /diagrams/{slug}.svg 를 figure 또는 단독 img로 삽입 */
+    .prose :global(figure){margin:1.8rem 0;}
+    .prose :global(figure img),.prose :global(p > img){display:block;max-width:100%;height:auto;
+      margin:.4rem auto 0;background:var(--paper-2);border:1px solid var(--line);
+      border-radius:var(--r-md);padding:1rem;}
+    .prose :global(figcaption){text-align:center;font-size:var(--fs-meta);
+      color:var(--ink-faint);margin-top:.6rem;}
     .sources{margin:3rem 0;background:var(--paper-2);border:1px solid var(--line);
       border-radius:var(--r-md);padding:1.4rem 1.6rem;}
     .sources h2{font-size:1.15rem;margin-bottom:.7rem;}

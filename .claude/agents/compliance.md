@@ -14,6 +14,7 @@ tools: Read, Grep, Glob, Edit, Bash
 - [compliance/checklist.md](../../compliance/checklist.md) (모든 룰 정의)
 - `automation/briefs/_published_slugs.txt` + `src/content/answers/**` (자체 코퍼스 유사도)
 - `public/ads.txt` (AdSense AD-01 검사용)
+- `public/diagrams/{slug}.svg` (인포그래픽 V-01·V-02 검사용)
 
 # 검사 항목 (모두 통과해야 발행)
 
@@ -62,6 +63,30 @@ tools: Read, Grep, Glob, Edit, Bash
 - 본문 산출물에 `<script>` 직접 삽입 또는 `googlesyndication` 문자열 노출 금지 (AD-06).
 - publisher/slot ID 하드코딩 검사 (`ca-pub-` 패턴 본문/컴포넌트 grep, AD-07).
 - AdSense 승인 전엔 AD-01·AD-07을 경고로 격하 가능.
+
+## 8. 작성 주체 · E-E-A-T 가드 (E-01~03)
+- `author`가 정직한 편집 조직 라벨(`물어봄 편집부` 또는 `물어봄 {세금/대출/지원/보험}팀`,
+  3~20자)인지 확인. 아니면 **차단** (E-01).
+- **가짜 전문가 차단** (E-02): author·본문·바이라인에서 "세무사·변호사·노무사·회계사·
+  감정평가사·전문가 검수" 등 자격 표현이 특정 개인명과 함께 나타나면 **차단**.
+  `grep -nE '(세무사|변호사|노무사|회계사|감정평가사|전문가 검수)'`로 본문+프론트매터
+  스캔 후, 매치 라인에 사람 이름/개인 주체가 붙었는지 검토(실재 자격자 협업 근거가
+  레포에 없으면 위반). 조직 차원 '공식 1차 출처 대조 검수' 표현은 허용.
+- 바이라인·JSON-LD `author`는 레이아웃이 자동 렌더 — 본문에 중복 작성자 마크업
+  (`저자:`, `writer`, `<address>` 등) 있으면 **차단** (E-03).
+
+## 9. 인포그래픽 · 시각자료 가드 (V-01~04)
+- **인포그래픽 존재 검증** (V-01): `public/diagrams/{slug}.svg` 파일이 실재하고
+  (`test -f public/diagrams/{slug}.svg`), 본문이 `/diagrams/{slug}.svg`를
+  `![alt](...)`로 참조하는지 grep. 둘 중 하나라도 없으면 **차단**. (기존 글 소급 예외.)
+- **팔레트 검증** (V-02): SVG에서 `grep -oiE '#[0-9a-f]{6}'`로 모든 hex를 추출해
+  브랜드 팔레트 11색(`#FBF7F0`·`#F4EEE2`·`#1A2B2A`·`#4A5856`·`#8A938F`·`#0E7C72`·
+  `#0A5F58`·`#E3F0EE`·`#C2873B`·`#E3DCCF`·`#B5462F`) 밖의 값이 있으면 **차단**
+  (D-01 정신의 SVG 확장). 명명색(`red`·`blue` 등)·`rgb(...)`도 grep로 잔존 여부 확인.
+- SVG에 외부 폰트/외부 이미지/raster(`<image>`)/`<script>` 삽입 시 **경고**,
+  alt 텍스트에 도표 핵심 정보 미포함 시 **경고** (V-03).
+- 인포그래픽이 정보 전달용(흐름·비교·타임라인·체크리스트)이 아닌 순수 장식이면
+  **경고** (V-04).
 
 # 통과 시
 1. `automation/briefs/{cluster}/{slug}.brief.yaml`의 `status`를 `published`로 변경.

@@ -20,6 +20,10 @@ LLM·생성형 검색 노출에 유리한 형태로 글을 마무리한다.
 - FAQPage JSON-LD는 페이지 컴포넌트
   [`src/pages/[cluster]/[slug].astro`](../../src/pages/[cluster]/[slug].astro)가
   `p.data.faq`에서 자동 생성하므로 별도 삽입 불필요.
+- FAQ 보강 시 본문 인포그래픽(`![alt](/diagrams/{slug}.svg)`)·바이라인·JSON-LD
+  citation 구조를 건드리지 않는다. `author` 필드가 있으면 그대로 보존(임의 변경·
+  삭제 금지). 바이라인·citation·방법론(`/about/#how`) 같은 E-E-A-T 신호는
+  compliance·레이아웃 담당이므로 geo는 이 구조를 훼손만 하지 않으면 된다.
 
 ## 2. summary / title 다듬기
 - `summary` 140자 이내, 검색 결과 한 줄 노출 가독성 우선.

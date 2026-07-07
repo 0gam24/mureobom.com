@@ -31,6 +31,10 @@ const answers = defineCollection({
     /* OG/Twitter Card 이미지(선택). 절대경로 권장(`/og/{slug}.png` 또는 외부 URL).
      * 미지정 시 [slug].astro가 `/og-default.png` 사용. */
     image: z.string().optional(),
+    /* E-E-A-T 작성 주체(정직한 편집 조직 라벨만). 기본 "물어봄 편집부".
+     * 섹션 편집팀 라벨(예: "물어봄 세금팀")까지만 허용 — 실재하지 않는 개인 전문가·
+     * 자격(세무사·변호사 등) 사칭 금지(compliance E-02가 차단). */
+    author: z.string().default("물어봄 편집부"),
   }),
 });
 
