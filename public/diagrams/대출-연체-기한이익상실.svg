@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420" role="img" aria-labelledby="loan-default-title loan-default-desc" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <title id="loan-default-title">대출 연체 진행 단계 다이어그램</title>
+  <desc id="loan-default-desc">대출 연체가 연체이자 발생, 기한이익상실 사전통지, 기한이익상실 발생, 연체정보 등록, 추심·법적조치 순으로 진행되며 각 단계마다 상환·채무조정 대응 창구가 있음을 보여주는 흐름</desc>
+
+  <!-- background paper -->
+  <rect x="0" y="0" width="620" height="420" fill="#FBF7F0"/>
+
+  <!-- 세로 타임라인 축 -->
+  <line x1="46" y1="40" x2="46" y2="356" stroke="#0E7C72" stroke-width="2"/>
+
+  <!-- ① 연체이자 발생 -->
+  <circle cx="46" cy="60" r="8" fill="#0E7C72"/>
+  <text x="46" y="65" text-anchor="middle" font-size="10" font-weight="700" fill="#FBF7F0">1</text>
+  <rect x="72" y="40" width="380" height="44" rx="8" ry="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="88" y="60" font-size="13" font-weight="700" fill="#1A2B2A">① 연체이자 발생</text>
+  <text x="88" y="77" font-size="11" fill="#4A5856">상환일 다음 날부터 약정금리 + 연체가산이자</text>
+  <rect x="464" y="46" width="140" height="32" rx="6" ry="6" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+  <text x="534" y="66" text-anchor="middle" font-size="10" fill="#0A5F58">상환·상환유예 문의</text>
+
+  <!-- ② 기한이익상실 사전통지 -->
+  <circle cx="46" cy="128" r="8" fill="#0E7C72"/>
+  <text x="46" y="133" text-anchor="middle" font-size="10" font-weight="700" fill="#FBF7F0">2</text>
+  <rect x="72" y="108" width="380" height="44" rx="8" ry="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="88" y="128" font-size="13" font-weight="700" fill="#1A2B2A">② 기한이익상실 사전통지</text>
+  <text x="88" y="145" font-size="11" fill="#4A5856">상실 예정일·채무조정 사항 미리 통지 (개인채무자보호법)</text>
+  <rect x="464" y="114" width="140" height="32" rx="6" ry="6" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+  <text x="534" y="134" text-anchor="middle" font-size="10" fill="#0A5F58">통지 확인·채무조정 요청</text>
+
+  <!-- ③ 기한이익상실 발생 -->
+  <circle cx="46" cy="196" r="8" fill="#0E7C72"/>
+  <text x="46" y="201" text-anchor="middle" font-size="10" font-weight="700" fill="#FBF7F0">3</text>
+  <rect x="72" y="176" width="380" height="44" rx="8" ry="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="88" y="196" font-size="13" font-weight="700" fill="#1A2B2A">③ 기한이익상실 발생</text>
+  <text x="88" y="213" font-size="11" fill="#4A5856">남은 원금 전액 상환 의무가 앞당겨짐</text>
+  <rect x="464" y="182" width="140" height="32" rx="6" ry="6" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+  <text x="534" y="202" text-anchor="middle" font-size="10" fill="#0A5F58">신복위 1600-5500</text>
+
+  <!-- ④ 연체정보 등록 -->
+  <circle cx="46" cy="264" r="8" fill="#0E7C72"/>
+  <text x="46" y="269" text-anchor="middle" font-size="10" font-weight="700" fill="#FBF7F0">4</text>
+  <rect x="72" y="244" width="380" height="44" rx="8" ry="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="88" y="264" font-size="13" font-weight="700" fill="#1A2B2A">④ 연체정보 등록</text>
+  <text x="88" y="281" font-size="11" fill="#4A5856">한국신용정보원 집중 · 신용평점(NICE·KCB) 하락</text>
+  <rect x="464" y="250" width="140" height="32" rx="6" ry="6" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+  <text x="534" y="270" text-anchor="middle" font-size="10" fill="#0A5F58">파인에서 본인정보 확인</text>
+
+  <!-- ⑤ 추심·법적조치 -->
+  <circle cx="46" cy="332" r="8" fill="#0E7C72"/>
+  <text x="46" y="337" text-anchor="middle" font-size="10" font-weight="700" fill="#FBF7F0">5</text>
+  <rect x="72" y="312" width="380" height="44" rx="8" ry="8" fill="#0E7C72" stroke="#0A5F58" stroke-width="1"/>
+  <text x="88" y="332" font-size="13" font-weight="700" fill="#FBF7F0">⑤ 추심·법적조치</text>
+  <text x="88" y="349" font-size="11" fill="#E3F0EE">장기 연체 시 채권추심 · 경우에 따라 법적 절차</text>
+  <rect x="464" y="318" width="140" height="32" rx="6" ry="6" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+  <text x="534" y="338" text-anchor="middle" font-size="10" fill="#0A5F58">개인워크아웃·개인회생</text>
+
+  <!-- 하단 안내 -->
+  <rect x="20" y="374" width="580" height="34" rx="8" ry="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="310" y="395" text-anchor="middle" font-size="11" fill="#1A2B2A">빠를수록 선택지가 많아요 — ①~③ 사이 대응 시 신용정보 등록까지 가지 않을 여지가 커요</text>
+</svg>
