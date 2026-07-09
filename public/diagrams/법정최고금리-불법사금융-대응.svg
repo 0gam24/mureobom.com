@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 470" role="img" aria-labelledby="usury-title usury-desc" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <title id="usury-title">불법사금융 판별·대응 5단계 흐름</title>
+  <desc id="usury-desc">등록 여부 확인(파인 조회), 금리·대가 점검(연 20% 초과분 무효), 추심 적법성 점검(야간·협박·제3자 고지 위법), 증거 확보, 금융감독원 1332·불법금융신고센터·경찰 112 신고 순으로 이어지는 대응 흐름</desc>
+
+  <!-- background paper -->
+  <rect x="0" y="0" width="660" height="470" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="48" y="34" font-size="16" font-weight="700" fill="#1A2B2A">불법사금융 판별 → 대응 5단계</text>
+  <text x="48" y="54" font-size="11" fill="#8A938F">미등록·연 20% 초과·불법추심을 확인하고 공식 창구로 신고하세요</text>
+
+  <!-- 세로 타임라인 축 -->
+  <line x1="48" y1="72" x2="48" y2="386" stroke="#0E7C72" stroke-width="2"/>
+
+  <!-- ① 등록 여부 확인 -->
+  <circle cx="48" cy="97" r="9" fill="#0E7C72"/>
+  <text x="48" y="101" text-anchor="middle" font-size="10" font-weight="700" fill="#FBF7F0">1</text>
+  <rect x="76" y="72" width="424" height="50" rx="8" ry="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="92" y="93" font-size="13" font-weight="700" fill="#1A2B2A">① 등록 여부 확인</text>
+  <text x="92" y="111" font-size="10.5" fill="#4A5856">금융소비자정보포털 파인에서 대부업체 등록 조회</text>
+  <rect x="516" y="81" width="120" height="32" rx="6" ry="6" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+  <text x="576" y="101" text-anchor="middle" font-size="10" fill="#0A5F58">미등록=불법</text>
+
+  <!-- ② 금리·대가 점검 -->
+  <circle cx="48" cy="163" r="9" fill="#0E7C72"/>
+  <text x="48" y="167" text-anchor="middle" font-size="10" font-weight="700" fill="#FBF7F0">2</text>
+  <rect x="76" y="138" width="424" height="50" rx="8" ry="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="92" y="159" font-size="13" font-weight="700" fill="#1A2B2A">② 금리·대가 점검</text>
+  <text x="92" y="177" font-size="10.5" fill="#4A5856">이자+수수료·선이자·공제금 합산이 연 20% 초과면 무효</text>
+  <rect x="516" y="147" width="120" height="32" rx="6" ry="6" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+  <text x="576" y="167" text-anchor="middle" font-size="10" fill="#0A5F58">간주이자 합산</text>
+
+  <!-- ③ 추심 적법성 점검 -->
+  <circle cx="48" cy="229" r="9" fill="#0E7C72"/>
+  <text x="48" y="233" text-anchor="middle" font-size="10" font-weight="700" fill="#FBF7F0">3</text>
+  <rect x="76" y="204" width="424" height="50" rx="8" ry="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="92" y="225" font-size="13" font-weight="700" fill="#1A2B2A">③ 추심 적법성 점검</text>
+  <text x="92" y="243" font-size="10.5" fill="#4A5856">야간(21~08시)·반복·협박·제3자 고지는 위법</text>
+  <rect x="516" y="213" width="120" height="32" rx="6" ry="6" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+  <text x="576" y="233" text-anchor="middle" font-size="10" fill="#0A5F58">채권추심법</text>
+
+  <!-- ④ 증거 확보 -->
+  <circle cx="48" cy="295" r="9" fill="#0E7C72"/>
+  <text x="48" y="299" text-anchor="middle" font-size="10" font-weight="700" fill="#FBF7F0">4</text>
+  <rect x="76" y="270" width="424" height="50" rx="8" ry="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="92" y="291" font-size="13" font-weight="700" fill="#1A2B2A">④ 증거 확보</text>
+  <text x="92" y="309" font-size="10.5" fill="#4A5856">계약서·입금내역·문자·통화 녹음 등을 보관</text>
+  <rect x="516" y="279" width="120" height="32" rx="6" ry="6" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+  <text x="576" y="299" text-anchor="middle" font-size="10" fill="#0A5F58">제출 대비</text>
+
+  <!-- ⑤ 신고·상담 -->
+  <circle cx="48" cy="361" r="9" fill="#0E7C72"/>
+  <text x="48" y="365" text-anchor="middle" font-size="10" font-weight="700" fill="#FBF7F0">5</text>
+  <rect x="76" y="336" width="424" height="50" rx="8" ry="8" fill="#0E7C72" stroke="#0A5F58" stroke-width="1"/>
+  <text x="92" y="357" font-size="13" font-weight="700" fill="#FBF7F0">⑤ 신고·상담</text>
+  <text x="92" y="375" font-size="10.5" fill="#E3F0EE">금감원 1332 · 불법금융신고센터 · 경찰 112</text>
+  <rect x="516" y="345" width="120" height="32" rx="6" ry="6" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+  <text x="576" y="365" text-anchor="middle" font-size="10" fill="#0A5F58">채무자대리인</text>
+
+  <!-- 하단 안내 -->
+  <rect x="24" y="404" width="612" height="42" rx="8" ry="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="330" y="430" text-anchor="middle" font-size="11" fill="#1A2B2A">초과 이자만 무효예요 — 원금·적법 이자는 유효, 신고·법률지원으로 대응하세요</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 566" role="img" aria-label="장애 정도·연령별 현금급여 갈림길: 등록 18세 이상 장애인 중 중증은 장애인연금(기초급여 월 349,700원 더하기 부가급여 월 3만~43만9700원), 경증은 장애수당(기초수급·차상위 월 6만원, 보장시설 월 3만원). 65세가 되면 기초급여는 기초연금으로 전환되고 부가급여는 계속 지급.">
+  <rect x="0" y="0" width="860" height="566" fill="#FBF7F0"/>
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#1A2B2A">장애 정도·연령에 따른 현금급여 갈림길 (2026년 기준)</text>
+  <text x="40" y="74" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">같은 등록 장애인이라도 장애정도(중증/경증)와 65세 도달 여부에 따라 받는 급여가 달라져요</text>
+
+  <!-- 출발 노드 -->
+  <rect x="250" y="96" width="360" height="62" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="430" y="122" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">등록 장애인 · 만 18세 이상</text>
+  <text x="430" y="145" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">본인+배우자 소득인정액 ≤ 선정기준액</text>
+
+  <!-- 분기 커넥터 -->
+  <line x1="430" y1="158" x2="430" y2="176" stroke="#0E7C72" stroke-width="2"/>
+  <line x1="230" y1="176" x2="630" y2="176" stroke="#0E7C72" stroke-width="2"/>
+  <line x1="230" y1="176" x2="230" y2="200" stroke="#0E7C72" stroke-width="2"/>
+  <line x1="630" y1="176" x2="630" y2="200" stroke="#0E7C72" stroke-width="2"/>
+
+  <!-- 좌측 분기 라벨: 중증 -->
+  <rect x="60" y="200" width="340" height="52" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="230" y="224" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">중증 — 장애정도가 심한 장애인</text>
+  <text x="230" y="244" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">→ 장애인연금 대상</text>
+
+  <!-- 우측 분기 라벨: 경증 -->
+  <rect x="460" y="200" width="340" height="52" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="630" y="224" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">경증 — 심하지 않은 장애인</text>
+  <text x="630" y="244" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">→ 장애수당 대상 (기초수급·차상위)</text>
+
+  <!-- 라벨 → 급여 커넥터 -->
+  <line x1="230" y1="252" x2="230" y2="272" stroke="#0E7C72" stroke-width="2"/>
+  <line x1="630" y1="252" x2="630" y2="272" stroke="#C2873B" stroke-width="2"/>
+
+  <!-- 좌측 급여 박스: 장애인연금 -->
+  <rect x="60" y="272" width="340" height="150" rx="10" fill="#0E7C72"/>
+  <text x="230" y="300" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#FBF7F0">장애인연금 = 기초급여 + 부가급여</text>
+  <rect x="76" y="316" width="308" height="44" rx="6" fill="#E3F0EE"/>
+  <text x="92" y="343" text-anchor="start" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">기초급여</text>
+  <text x="368" y="343" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1A2B2A">월 349,700원</text>
+  <rect x="76" y="368" width="308" height="44" rx="6" fill="#E3F0EE"/>
+  <text x="92" y="395" text-anchor="start" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">부가급여</text>
+  <text x="368" y="395" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1A2B2A">월 30,000~439,700원</text>
+
+  <!-- 우측 급여 박스: 장애수당 -->
+  <rect x="460" y="272" width="340" height="150" rx="10" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="630" y="300" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#C2873B">장애수당 (경증)</text>
+  <rect x="476" y="316" width="308" height="44" rx="6" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="492" y="343" text-anchor="start" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#4A5856">기초생활수급자·차상위</text>
+  <text x="768" y="343" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1A2B2A">월 6만원</text>
+  <rect x="476" y="368" width="308" height="44" rx="6" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="492" y="395" text-anchor="start" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#4A5856">보장시설 수급자</text>
+  <text x="768" y="395" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1A2B2A">월 3만원</text>
+
+  <!-- 65세 전환 패널 -->
+  <rect x="60" y="446" width="740" height="64" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="80" y="475" text-anchor="start" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#0A5F58">65세가 되면?</text>
+  <text x="80" y="497" text-anchor="start" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">장애인연금의 기초급여 → 기초연금으로 전환(중복 지급 안 함) · 부가급여는 계속 받을 수 있어요</text>
+
+  <text x="40" y="540" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">선정기준액·급여액은 매년 보건복지부 고시로 변동돼요 — 정확한 금액은 복지로 또는 보건복지상담센터 129에서 확인하세요.</text>
+</svg>
