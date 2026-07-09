@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-label="구직급여 계산 구조: ① 이직 전 평균임금(기초일액)에 60%를 곱해 ② 구직급여일액을 구하고, 이 값은 1일 상한 66,000원과 하한(최저임금 80% × 1일 소정근로시간) 사이로 제한돼요. 여기에 ③ 소정급여일수 120~270일(나이·가입기간별)을 곱하면 ④ 총 예상 수급액이 나와요.">
+  <rect x="0" y="0" width="760" height="600" fill="#FBF7F0"/>
+  <text x="40" y="44" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#1A2B2A">구직급여, 이렇게 계산해요 (2026년 기준)</text>
+  <text x="40" y="72" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">하루치 금액(구직급여일액)에 받는 일수(소정급여일수)를 곱하면 총 예상 수급액이 나와요</text>
+
+  <!-- ① 평균임금 -->
+  <rect x="200" y="94" width="360" height="56" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="380" y="118" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">① 이직 전 평균임금 (기초일액)</text>
+  <text x="380" y="139" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">퇴직 전 3개월간의 1일 평균임금</text>
+
+  <!-- 커넥터 ×60% -->
+  <line x1="380" y1="150" x2="380" y2="196" stroke="#0E7C72" stroke-width="2"/>
+  <rect x="344" y="161" width="72" height="26" rx="13" fill="#C2873B"/>
+  <text x="380" y="179" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">× 60%</text>
+
+  <!-- ② 구직급여일액 -->
+  <rect x="200" y="196" width="360" height="58" rx="10" fill="#0E7C72"/>
+  <text x="380" y="221" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">② 구직급여일액</text>
+  <text x="380" y="243" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#E3F0EE">= 평균임금의 60% (하루 단위 금액)</text>
+
+  <!-- 상·하한 브래킷 -->
+  <line x1="380" y1="254" x2="380" y2="263" stroke="#8A938F" stroke-width="1.5"/>
+  <line x1="215" y1="263" x2="545" y2="263" stroke="#8A938F" stroke-width="1.5"/>
+  <line x1="215" y1="263" x2="215" y2="272" stroke="#8A938F" stroke-width="1.5"/>
+  <line x1="545" y1="263" x2="545" y2="272" stroke="#8A938F" stroke-width="1.5"/>
+
+  <!-- 상한 칩 -->
+  <rect x="60" y="272" width="310" height="66" rx="8" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="76" y="300" text-anchor="start" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#C2873B">1일 상한액</text>
+  <text x="354" y="300" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">66,000원</text>
+  <text x="76" y="324" text-anchor="start" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">2019년 이후 동결 · 매년 고시로 변동 가능</text>
+
+  <!-- 하한 칩 -->
+  <rect x="390" y="272" width="310" height="66" rx="8" fill="#F4EEE2" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="406" y="300" text-anchor="start" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#0A5F58">1일 하한액</text>
+  <text x="684" y="300" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5462F">매년 변동</text>
+  <text x="406" y="324" text-anchor="start" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#4A5856">= 최저임금 × 80% × 1일 소정근로시간(최대 8h)</text>
+
+  <!-- 커넥터 × 소정급여일수 -->
+  <line x1="380" y1="338" x2="380" y2="384" stroke="#0E7C72" stroke-width="2"/>
+  <rect x="316" y="349" width="128" height="26" rx="13" fill="#C2873B"/>
+  <text x="380" y="367" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">× 소정급여일수</text>
+
+  <!-- ③ 소정급여일수 -->
+  <rect x="200" y="384" width="360" height="58" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="380" y="409" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">③ 소정급여일수 120 ~ 270일</text>
+  <text x="380" y="431" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">나이 · 고용보험 가입기간에 따라 결정</text>
+
+  <!-- 커넥터 = -->
+  <line x1="380" y1="442" x2="380" y2="486" stroke="#0E7C72" stroke-width="2"/>
+  <rect x="362" y="451" width="36" height="26" rx="13" fill="#C2873B"/>
+  <text x="380" y="469" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#FBF7F0">=</text>
+
+  <!-- ④ 총 예상 수급액 -->
+  <rect x="170" y="486" width="420" height="62" rx="10" fill="#0A5F58"/>
+  <text x="380" y="513" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#FBF7F0">④ 총 예상 수급액</text>
+  <text x="380" y="535" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#E3F0EE">= 구직급여일액 × 소정급여일수</text>
+
+  <text x="40" y="580" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">상·하한액은 매년 최저임금 고시로 달라져요 — 2026년 정확한 금액은 고용보험(고용24) 실업급여 모의계산에서 확인하세요.</text>
+</svg>

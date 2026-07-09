@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" role="img" aria-label="조기재취업수당 요건·지급 타임라인: 1단계 실업신고 후 구직급여 수급 시작(신고일부터 14일 경과 후 재취업), 2단계 소정급여일수를 2분의 1 이상 남기고 재취업·창업(취업사실 신고 시 그날부터 구직급여 중단), 3단계 재취업일부터 12개월 이상 계속 근무·사업 유지(65세 이상은 6개월), 4단계 12개월 경과 후 조기재취업수당 신청으로 남은 구직급여일수의 2분의 1을 일시금 지급(소멸시효 3년). 지급액은 미지급 잔여 소정급여일수 곱하기 구직급여일액 곱하기 2분의 1이며 요건 충족 시 지급.">
+  <rect x="0" y="0" width="820" height="620" fill="#FBF7F0"/>
+  <text x="40" y="44" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#1A2B2A">조기재취업수당 요건·지급 타임라인 (2026년 기준)</text>
+  <text x="40" y="73" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">소정급여일수 1/2 이상 남기고 재취업 → 12개월 계속 근무·사업 → 잔여 1/2 신청</text>
+
+  <!-- 세로 타임라인 스파인 -->
+  <line x1="72" y1="152" x2="72" y2="428" stroke="#E3DCCF" stroke-width="3"/>
+
+  <!-- 1단계 -->
+  <line x1="90" y1="152" x2="110" y2="152" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="110" y="112" width="670" height="80" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="132" y="144" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">실업신고 · 구직급여 수급 시작</text>
+  <text x="132" y="171" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">실업신고일부터 14일이 지난 뒤 재취업해야 조기재취업수당 대상이 돼요</text>
+  <circle cx="72" cy="152" r="17" fill="#0E7C72"/>
+  <text x="72" y="158" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">1</text>
+
+  <!-- 2단계 -->
+  <line x1="90" y1="244" x2="110" y2="244" stroke="#0E7C72" stroke-width="2"/>
+  <rect x="110" y="204" width="670" height="80" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <text x="132" y="236" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">소정급여일수 1/2 이상 남기고 재취업 · 창업</text>
+  <text x="132" y="263" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">취업사실을 신고하면 취업한 날부터 구직급여는 멈춰요 (고용보험법 제47조)</text>
+  <circle cx="72" cy="244" r="17" fill="#0E7C72"/>
+  <text x="72" y="250" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">2</text>
+
+  <!-- 3단계 -->
+  <line x1="90" y1="336" x2="110" y2="336" stroke="#C2873B" stroke-width="2"/>
+  <rect x="110" y="296" width="670" height="80" rx="10" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="132" y="328" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#C2873B">재취업일부터 12개월 이상 계속 근무 · 사업</text>
+  <text x="132" y="355" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">근로 · 사업을 단절 없이 유지 (65세 이상은 6개월 이상 인정)</text>
+  <circle cx="72" cy="336" r="17" fill="#C2873B"/>
+  <text x="72" y="342" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">3</text>
+
+  <!-- 4단계 -->
+  <line x1="90" y1="428" x2="110" y2="428" stroke="#0A5F58" stroke-width="2"/>
+  <rect x="110" y="388" width="670" height="80" rx="10" fill="#0A5F58"/>
+  <text x="132" y="420" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">12개월 경과 후 조기재취업수당 신청</text>
+  <text x="132" y="447" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#E3F0EE">남은 구직급여일수의 1/2을 일시금으로 지급 · 소멸시효 3년</text>
+  <circle cx="72" cy="428" r="17" fill="#0A5F58"/>
+  <text x="72" y="434" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">4</text>
+
+  <!-- 지급액 공식 밴드 -->
+  <rect x="40" y="492" width="740" height="60" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="62" y="518" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#0A5F58">지급액 (요건 충족 시)</text>
+  <text x="62" y="541" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">= 미지급 잔여 소정급여일수 × 구직급여일액 × 1/2  을 일시금 지급</text>
+
+  <!-- 캡션 -->
+  <text x="40" y="580" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">근거: 고용보험법 제64조 · 시행령 제84조(2026년 시행) · 제47조. 지급은 요건을 모두 충족한 경우에만 이뤄져요.</text>
+  <text x="40" y="600" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">실업신고 후 14일 이내 취업 · 잔여 1/2 미만 · 최근 2년 내 조기재취업수당 수급 이력 등은 지급 제외예요.</text>
+</svg>

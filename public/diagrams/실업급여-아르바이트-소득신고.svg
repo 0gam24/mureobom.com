@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 662" role="img" aria-label="아르바이트 취업 간주 판별 후 신고 흐름: 실업급여 수급 중 근로가 생기면 시행규칙 제92조의 취업 기준(1개월 소정근로시간 60시간 또는 주 15시간 이상, 3개월 이상 계속 근로, 일용·단기예술인·단기노무제공자, 하루 대가가 구직급여일액 이상) 중 하나라도 해당하면 그날은 취업으로 보아 구직급여 미지급, 해당하지 않는 경미한 근로는 소득 신고 후 감액 여부 판단. 어느 쪽이든 실업인정일에 실업인정신청서로 근로 사실과 소득을 신고하면 적법하고, 미신고·허위신고만 부정수급으로 반환과 추가징수(최대 2배, 공모 시 5배) 대상.">
+  <rect x="0" y="0" width="880" height="662" fill="#FBF7F0"/>
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#1A2B2A">아르바이트, '취업'으로 보나요? 판별 → 신고 흐름 (2026년 기준)</text>
+  <text x="40" y="74" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">알바하면 무조건 끊기는 게 아니라, 취업 기준 해당 여부와 신고로 갈려요</text>
+
+  <!-- 출발 노드 -->
+  <rect x="280" y="96" width="320" height="54" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="440" y="129" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">실업급여 수급 중 근로·소득 발생</text>
+  <line x1="440" y1="150" x2="440" y2="170" stroke="#0E7C72" stroke-width="2"/>
+
+  <!-- 취업 기준 판별 패널 -->
+  <rect x="110" y="172" width="660" height="140" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="130" y="200" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">다음 '취업' 기준(시행규칙 제92조) 중 하나라도 해당하나요?</text>
+  <circle cx="136" cy="225" r="4" fill="#0E7C72"/>
+  <text x="150" y="230" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">1개월 소정근로시간 60시간 이상 (주 15시간 이상 포함)</text>
+  <circle cx="136" cy="251" r="4" fill="#0E7C72"/>
+  <text x="150" y="256" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">3개월 이상 계속 근로 제공</text>
+  <circle cx="136" cy="277" r="4" fill="#0E7C72"/>
+  <text x="150" y="282" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">일용근로자·단기예술인·단기노무제공자로 근로·노무 제공</text>
+  <circle cx="136" cy="303" r="4" fill="#0E7C72"/>
+  <text x="150" y="308" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">하루 근로 대가가 구직급여일액 이상</text>
+
+  <!-- 분기 커넥터 -->
+  <line x1="440" y1="312" x2="440" y2="330" stroke="#4A5856" stroke-width="2"/>
+  <line x1="260" y1="330" x2="620" y2="330" stroke="#4A5856" stroke-width="2"/>
+  <line x1="260" y1="330" x2="260" y2="352" stroke="#B5462F" stroke-width="2"/>
+  <line x1="620" y1="330" x2="620" y2="352" stroke="#0E7C72" stroke-width="2"/>
+
+  <!-- 좌측 박스: 예 → 취업 인정 -->
+  <rect x="110" y="354" width="300" height="104" rx="10" fill="#FBF7F0" stroke="#B5462F" stroke-width="2"/>
+  <text x="260" y="384" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15.5" font-weight="700" fill="#B5462F">예 — '취업'으로 인정</text>
+  <text x="260" y="411" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">그날은 실업이 아니에요</text>
+  <text x="260" y="433" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1A2B2A">→ 그날치 구직급여 미지급</text>
+
+  <!-- 우측 박스: 아니오 → 경미한 근로 -->
+  <rect x="470" y="354" width="300" height="104" rx="10" fill="#FBF7F0" stroke="#0E7C72" stroke-width="2"/>
+  <text x="620" y="384" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15.5" font-weight="700" fill="#0A5F58">아니오 — 경미한 근로</text>
+  <text x="620" y="411" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">소득을 신고하면</text>
+  <text x="620" y="433" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1A2B2A">→ 고용센터가 감액 여부 판단</text>
+
+  <!-- 수렴 커넥터 -->
+  <line x1="260" y1="458" x2="260" y2="476" stroke="#4A5856" stroke-width="2"/>
+  <line x1="620" y1="458" x2="620" y2="476" stroke="#4A5856" stroke-width="2"/>
+  <line x1="260" y1="476" x2="620" y2="476" stroke="#4A5856" stroke-width="2"/>
+  <line x1="440" y1="476" x2="440" y2="494" stroke="#4A5856" stroke-width="2"/>
+
+  <!-- 신고 액션 박스 -->
+  <rect x="110" y="496" width="660" height="62" rx="10" fill="#0E7C72"/>
+  <text x="440" y="524" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">어느 쪽이든 → 실업인정일에 실업인정신청서로 근로 사실·소득 신고</text>
+  <text x="440" y="546" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#E3F0EE">고용24(work24.go.kr) 온라인 신고 가능</text>
+
+  <!-- 하단 배너 -->
+  <rect x="110" y="572" width="660" height="52" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+  <text x="440" y="595" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">기준 안에서 신고하면 적법하게 수급</text>
+  <text x="440" y="614" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">미신고·허위신고만 부정수급 — 반환 + 추가징수(최대 2배, 공모 시 5배)</text>
+
+  <text x="40" y="650" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">취업 기준·금액은 고용보험법 시행규칙 제92조 등 개정으로 바뀔 수 있어요 — 최신 내용은 고용24·고용센터 1350에서 확인하세요.</text>
+</svg>
