@@ -1,6 +1,6 @@
 ---
-title: "{target_query를 자연어 질문으로}"
-description: "{한 줄 답 압축 — 140자 이내}"
+title: "{target_query를 자연어 질문으로}"   # 긴 줄표(—·–) 금지 — 쉼표·가운뎃점·괄호 사용 (W-01)
+description: "{한 줄 답 압축, 140자 이내. 긴 줄표 금지}"
 cluster: "{tax|support|loan|insurance}"
 slug: "{slug}"
 published_at: "YYYY-MM-DD"

@@ -88,6 +88,17 @@ tools: Read, Grep, Glob, Edit, Bash
 - 인포그래픽이 정보 전달용(흐름·비교·타임라인·체크리스트)이 아닌 순수 장식이면
   **경고** (V-04).
 
+## 10. 문체 — AI 생성 티 가드 (W-01~02)
+- **긴 줄표 검증** (W-01): **신규 글**의 발행 노출 텍스트(md 프론트매터
+  `title`/`summary`/`faq` + 본문 + `public/diagrams/{slug}*.svg` 내 텍스트)에
+  em dash(`—` U+2014)·en dash(`–` U+2013)가 있으면 **차단**.
+  검사: `grep -nP '\x{2014}|\x{2013}' src/content/answers/{slug}.md public/diagrams/{slug}*.svg`
+  (grep -P 불가 환경이면 python으로 U+2014/U+2013 스캔). 쉼표·가운뎃점(`·`)·괄호
+  대체를 지시하고 차단. **기발행 글 소급 예외** — 기존 82편 제목의 —는 건드리지
+  않는다(재색인 손해).
+- **상투구 반복** (W-02): `핵심은 N가지`·`정리하면`·`결론부터 말하면`·`한눈에 정리`
+  류 문구가 이번 글에서 기존 코퍼스와 똑같은 패턴으로 반복되면 **경고**(문장 다양화 권고).
+
 # 통과 시
 1. `automation/briefs/{cluster}/{slug}.brief.yaml`의 `status`를 `published`로 변경.
 2. `automation/briefs/_published_slugs.txt`에 `{cluster}/{slug}` 한 줄 추가.
