@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" role="img" aria-label="종합소득세 중간예납 흐름과 선택 경로. 타임라인: 전년 5월 확정신고로 작년 세액 확정, 올해 11월 1일부터 30일까지 작년 세액의 2분의 1을 중간예납으로 선납, 다음 해 5월 확정신고 때 그 금액을 기납부세액으로 공제하므로 다시 내지 않음(이중과세 아님). 11월 중간예납은 두 갈래. 고지 방식(기본)은 국세청이 작년 세액의 2분의 1을 자동 계산해 11월 1일부터 15일까지 고지서를 발급하고 그대로 납부. 추계액 신고(선택)는 상반기 실적 세액이 중간예납기준액의 30퍼센트에 미달할 때 직접 추계액을 신고하고 납부. 체크: 중간예납세액 50만원 미만이면 소액부징수로 고지하지 않음. 1천만원 초과면 분납 가능. 홈택스와 손택스, 계좌이체, 금융기관 납부. 개별 세액은 홈택스와 관할 세무서에서 확인.">
+  <rect x="0" y="0" width="900" height="680" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="36" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#1A2B2A">종합소득세 중간예납, 5월에 냈는데 11월에 또?</text>
+  <text x="36" y="74" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">선납이라 이중과세가 아니에요 · 2026년 기준, 소득세법 제65조·국세청 안내 근거</text>
+
+  <!-- 타임라인 3단계 -->
+  <rect x="36" y="98" width="256" height="118" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <rect x="322" y="98" width="256" height="118" rx="10" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.8"/>
+  <rect x="608" y="98" width="256" height="118" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+
+  <!-- 화살표 -->
+  <polygon points="296,157 314,148 314,166" fill="#8A938F"/>
+  <polygon points="582,157 600,148 600,166" fill="#8A938F"/>
+
+  <!-- 박스1 -->
+  <text x="52" y="128" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">전년 5월</text>
+  <text x="52" y="158" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">종합소득세 확정신고로</text>
+  <text x="52" y="180" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">작년 세액이 확정돼요</text>
+
+  <!-- 박스2 -->
+  <text x="338" y="128" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">올해 11월 1일~30일</text>
+  <text x="338" y="158" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">작년 세액의 1/2을</text>
+  <text x="338" y="180" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1A2B2A">중간예납으로 선납</text>
+
+  <!-- 박스3 -->
+  <text x="624" y="128" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">다음 해 5월</text>
+  <text x="624" y="158" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">확정신고 때 기납부세액</text>
+  <text x="624" y="180" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">으로 공제(다시 안 냄)</text>
+
+  <text x="608" y="205" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">= 미리 낸 세금이라 이중과세 아님</text>
+
+  <!-- 중간 섹션 제목 -->
+  <text x="36" y="262" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1A2B2A">11월 중간예납, 두 갈래 길</text>
+
+  <!-- 좌: 고지 방식 -->
+  <rect x="36" y="280" width="405" height="152" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="36" y="280" width="405" height="34" rx="10" fill="#0E7C72"/>
+  <rect x="36" y="296" width="405" height="18" fill="#0E7C72"/>
+  <text x="56" y="303" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#FBF7F0">고지 방식 (기본)</text>
+  <text x="56" y="342" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">국세청이 작년 세액의 1/2을 자동 계산</text>
+  <text x="56" y="366" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">11월 1일~15일 고지서 발급</text>
+  <text x="56" y="390" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">고지서 금액 그대로 납부하면 끝</text>
+  <text x="56" y="414" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">따로 계산·신고서 작성 필요 없어요</text>
+
+  <!-- 우: 추계액 신고 -->
+  <rect x="459" y="280" width="405" height="152" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="459" y="280" width="405" height="34" rx="10" fill="#C2873B"/>
+  <rect x="459" y="296" width="405" height="18" fill="#C2873B"/>
+  <text x="479" y="303" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#FBF7F0">추계액 신고 (선택)</text>
+  <text x="479" y="342" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">상반기 실적 세액이 중간예납기준액의</text>
+  <text x="479" y="366" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#B5462F">30%에 미달할 때</text>
+  <text x="479" y="390" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">직접 추계액을 신고하고 납부(~11.30)</text>
+  <text x="479" y="414" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">고지 대신 실제 실적으로 줄여 내는 길</text>
+
+  <!-- 체크 패널 -->
+  <rect x="36" y="454" width="828" height="188" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="56" y="484" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">함께 챙길 기준</text>
+
+  <text x="56" y="516" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">· 소액부징수: 중간예납세액이 <tspan font-weight="700" fill="#0A5F58">50만원 미만</tspan>이면 고지하지 않아요(안 내도 됨).</text>
+  <text x="56" y="546" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">· 분납: 세액이 <tspan font-weight="700" fill="#0A5F58">1천만원 초과</tspan>면 일부를 다음 해 1월 말까지 나눠 낼 수 있어요.</text>
+  <text x="56" y="576" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">· 납부: 홈택스·손택스, 고지서 가상계좌·국세계좌 이체, 금융기관 창구.</text>
+  <text x="56" y="606" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">· 미납: 다음 해 1월 재고지 등 절차가 있고 가산세가 붙을 수 있어요.</text>
+  <text x="56" y="632" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">개별 세액·가산세는 사람마다 달라요. 홈택스(손택스)·관할 세무서에서 확인하세요.</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-label="국민연금 반환일시금과 반납금 비교: 반환일시금은 공단이 나에게 지급하는 돈, 반납금은 내가 공단에 되돌려 내는 돈. 방향이 반대인 두 제도.">
+  <rect x="0" y="0" width="720" height="560" fill="#FBF7F0"/>
+
+  <text x="360" y="40" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#1A2B2A">반환일시금 vs 반납금, 돈이 흐르는 방향이 반대예요</text>
+  <text x="360" y="66" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">받는 것(반환일시금)과 되돌려 내는 것(반납금)을 헷갈리지 마세요</text>
+
+  <line x1="40" y1="86" x2="680" y2="86" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 반환일시금 패널 -->
+  <rect x="40" y="106" width="290" height="230" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="185" y="140" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">반환일시금 (받는 것)</text>
+
+  <!-- 공단 -> 나 방향 -->
+  <rect x="62" y="158" width="90" height="40" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="107" y="183" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">공단</text>
+  <line x1="156" y1="178" x2="212" y2="178" stroke="#0E7C72" stroke-width="3"/>
+  <polygon points="212,171 226,178 212,185" fill="#0E7C72"/>
+  <rect x="228" y="158" width="80" height="40" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="268" y="183" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">나</text>
+
+  <text x="60" y="228" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">낸 보험료 + 이자를 일시 지급</text>
+  <text x="60" y="254" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">사유: 60세 도달 · 가입 10년 미만</text>
+  <text x="60" y="278" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">국적상실 · 국외이주, 사망(유족연금 미해당)</text>
+  <text x="60" y="308" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#B5462F">청구 소멸시효: 원칙 5년</text>
+  <text x="60" y="328" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">단, 60세 도달 반환일시금은 10년</text>
+
+  <!-- 반납금 패널 -->
+  <rect x="390" y="106" width="290" height="230" rx="12" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="535" y="140" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#C2873B">반납금 (되돌려 내는 것)</text>
+
+  <!-- 나 -> 공단 방향 -->
+  <rect x="412" y="158" width="80" height="40" rx="8" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="452" y="183" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">나</text>
+  <line x1="496" y1="178" x2="552" y2="178" stroke="#C2873B" stroke-width="3"/>
+  <polygon points="552,171 566,178 552,185" fill="#C2873B"/>
+  <rect x="568" y="158" width="90" height="40" rx="8" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="613" y="183" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">공단</text>
+
+  <text x="410" y="228" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">과거 받은 반환일시금 + 이자를 반납</text>
+  <text x="410" y="254" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">효과: 그 기간을 가입기간으로 복원</text>
+  <text x="410" y="278" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">노령연금 수급요건(10년) 채우기에 유리</text>
+  <text x="410" y="308" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#0A5F58">2회부터 24회까지 분할 가능</text>
+  <text x="410" y="328" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">전제: 다시 가입자 자격을 취득한 경우</text>
+
+  <!-- 연결 관계 -->
+  <rect x="40" y="360" width="640" height="80" rx="12" fill="#FBF7F0" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="360" y="392" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">두 제도의 관계</text>
+  <text x="360" y="418" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">한 번 받은 반환일시금을 다시 반납하면, 사라졌던 그 가입기간이 되살아나요</text>
+
+  <!-- 하단 안내 -->
+  <text x="360" y="478" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">개별 금액·이자율은 납부 이력에 따라 달라요</text>
+  <text x="360" y="500" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#0E7C72">정확한 금액은 국민연금공단(국번없이 1355)에서 확인하세요</text>
+  <line x1="40" y1="522" x2="680" y2="522" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="360" y="544" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">출처: 국민연금법 제77조·제78조·제115조, 국민연금공단 안내 (2026년 기준)</text>
+</svg>

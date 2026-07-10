@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" role="img" aria-label="보험계약대출 구조: 해지환급금 담보, 신용조회 없이 실행, 금리는 기준이율에 가산금리, 만기 없이 수시상환하되 미상환 누적 시 실효 위험">
+  <rect x="0" y="0" width="820" height="620" fill="#FBF7F0"/>
+  <text x="40" y="52" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#1A2B2A">보험계약대출(약관대출) 한눈에 보기</text>
+  <text x="40" y="80" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">내 해지환급금을 담보로, 신용조회 없이 받는 대출</text>
+
+  <!-- Row 1: 4 pillars -->
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <rect x="40" y="105" width="175" height="110" rx="12" fill="#E3F0EE"/>
+    <text x="127" y="140" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">담보</text>
+    <text x="127" y="167" font-size="14" fill="#1A2B2A" text-anchor="middle">내 해지환급금</text>
+    <text x="127" y="190" font-size="12.5" fill="#4A5856" text-anchor="middle">(이미 쌓인 내 돈)</text>
+
+    <rect x="228" y="105" width="175" height="110" rx="12" fill="#E3F0EE"/>
+    <text x="315" y="140" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">심사</text>
+    <text x="315" y="167" font-size="14" fill="#1A2B2A" text-anchor="middle">신용조회 없음</text>
+    <text x="315" y="190" font-size="12.5" fill="#4A5856" text-anchor="middle">신용점수 영향 없음</text>
+
+    <rect x="416" y="105" width="175" height="110" rx="12" fill="#E3F0EE"/>
+    <text x="503" y="140" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">만기</text>
+    <text x="503" y="167" font-size="14" fill="#1A2B2A" text-anchor="middle">없음, 수시상환</text>
+    <text x="503" y="190" font-size="12.5" fill="#4A5856" text-anchor="middle">중도상환수수료 없음</text>
+
+    <rect x="604" y="105" width="176" height="110" rx="12" fill="#E3F0EE"/>
+    <text x="692" y="140" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">대상 상품</text>
+    <text x="692" y="167" font-size="14" fill="#1A2B2A" text-anchor="middle">해지환급금 있는</text>
+    <text x="692" y="190" font-size="12.5" fill="#B5462F" text-anchor="middle">실손 · 순수보장성 불가</text>
+  </g>
+
+  <!-- Row 2: 금리 구조 -->
+  <text x="40" y="262" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#1A2B2A">금리 구조: 기준이율 + 가산금리</text>
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <rect x="40" y="280" width="360" height="120" rx="12" fill="#F4EEE2"/>
+    <text x="60" y="310" font-size="15" font-weight="700" fill="#0E7C72">금리확정형</text>
+    <text x="60" y="338" font-size="14" fill="#1A2B2A">예정이율(확정)</text>
+    <text x="60" y="360" font-size="20" font-weight="700" fill="#C2873B">+ 가산금리</text>
+    <text x="60" y="386" font-size="12.5" fill="#4A5856">기준이 고정</text>
+
+    <rect x="420" y="280" width="360" height="120" rx="12" fill="#F4EEE2"/>
+    <text x="440" y="310" font-size="15" font-weight="700" fill="#0E7C72">금리연동형</text>
+    <text x="440" y="338" font-size="14" fill="#1A2B2A">공시이율(변동)</text>
+    <text x="440" y="360" font-size="20" font-weight="700" fill="#C2873B">+ 가산금리</text>
+    <text x="440" y="386" font-size="12.5" fill="#4A5856">기준이 매월 변동</text>
+  </g>
+  <text x="40" y="424" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">구체 금리·가산금리는 보험사 · 상품 · 시점별로 다름. 각 보험사 공시 · 금감원 파인에서 확인</text>
+
+  <!-- Row 3: 미상환 위험 흐름 -->
+  <text x="40" y="470" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#1A2B2A">이자 미상환이 쌓이면?</text>
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <rect x="40" y="488" width="170" height="72" rx="10" fill="#F4EEE2"/>
+    <text x="125" y="520" font-size="13.5" fill="#1A2B2A" text-anchor="middle">이자 미납</text>
+    <text x="125" y="542" font-size="12" fill="#4A5856" text-anchor="middle">연체이자는 없음</text>
+
+    <rect x="245" y="488" width="170" height="72" rx="10" fill="#F4EEE2"/>
+    <text x="330" y="520" font-size="13.5" fill="#1A2B2A" text-anchor="middle">미납이자가</text>
+    <text x="330" y="542" font-size="13.5" fill="#1A2B2A" text-anchor="middle">원금에 가산</text>
+
+    <rect x="450" y="488" width="170" height="72" rx="10" fill="#F4EEE2"/>
+    <text x="535" y="520" font-size="13.5" fill="#1A2B2A" text-anchor="middle">원금이 해지</text>
+    <text x="535" y="542" font-size="13.5" fill="#1A2B2A" text-anchor="middle">환급금 초과</text>
+
+    <rect x="655" y="488" width="125" height="72" rx="10" fill="#B5462F"/>
+    <text x="717" y="520" font-size="13.5" font-weight="700" fill="#FBF7F0" text-anchor="middle">계약 실효</text>
+    <text x="717" y="542" font-size="12" fill="#FBF7F0" text-anchor="middle">보장 상실</text>
+
+    <path d="M212 524 L243 524" stroke="#8A938F" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+    <path d="M417 524 L448 524" stroke="#8A938F" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+    <path d="M622 524 L653 524" stroke="#8A938F" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+  </g>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8A938F"/>
+    </marker>
+  </defs>
+  <text x="40" y="592" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">대출 중에도 보장은 유지. 보장이 사라지는 건 장기 미상환으로 계약이 실효될 때예요.</text>
+  <text x="40" y="612" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">출처: 국가법령정보센터 · 금융감독원 · 금융위원회 · 손해보험협회 공시 (2026-07 기준)</text>
+</svg>
