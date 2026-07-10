@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="가산세 감면율 타임라인. 국세기본법 제48조에 따라 법정신고기한이 지난 뒤 스스로 신고하면 가산세를 감면한다. 수정신고는 과소신고가산세를 1개월 이내 90퍼센트, 1에서 3개월 75퍼센트, 3에서 6개월 50퍼센트, 6개월에서 1년 30퍼센트, 1년에서 1년6개월 20퍼센트, 1년6개월에서 2년 10퍼센트 감면한다. 기한후신고는 무신고가산세를 1개월 이내 50퍼센트, 1에서 3개월 30퍼센트, 3에서 6개월 20퍼센트 감면하고 6개월 초과 시 감면이 없다. 납부지연가산세는 감면 대상이 아니다.">
+  <rect x="0" y="0" width="900" height="520" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="36" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#1A2B2A">가산세 감면율: 빨리 신고할수록 많이 깎여요</text>
+  <text x="36" y="72" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">국세기본법 제48조 · 세무서가 고지하기 전에 스스로 신고하면 감면 (2026년 기준)</text>
+
+  <!-- ===== 트랙 1: 수정신고 ===== -->
+  <text x="36" y="112" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">① 수정신고 — 과소신고가산세 감면 (이미 신고한 사람)</text>
+
+  <!-- 6개 박스 -->
+  <!-- box1 -->
+  <rect x="36" y="126" width="128" height="94" rx="9" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <rect x="36" y="126" width="128" height="26" rx="9" fill="#0E7C72"/>
+  <rect x="36" y="140" width="128" height="12" fill="#0E7C72"/>
+  <text x="100" y="144" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#FBF7F0">1개월 이내</text>
+  <text x="100" y="196" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#0A5F58">90%</text>
+
+  <!-- box2 -->
+  <rect x="172" y="126" width="128" height="94" rx="9" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <rect x="172" y="126" width="128" height="26" rx="9" fill="#0E7C72"/>
+  <rect x="172" y="140" width="128" height="12" fill="#0E7C72"/>
+  <text x="236" y="144" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#FBF7F0">1~3개월</text>
+  <text x="236" y="196" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#0A5F58">75%</text>
+
+  <!-- box3 -->
+  <rect x="308" y="126" width="128" height="94" rx="9" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <rect x="308" y="126" width="128" height="26" rx="9" fill="#0E7C72"/>
+  <rect x="308" y="140" width="128" height="12" fill="#0E7C72"/>
+  <text x="372" y="144" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#FBF7F0">3~6개월</text>
+  <text x="372" y="196" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#0A5F58">50%</text>
+
+  <!-- box4 -->
+  <rect x="444" y="126" width="128" height="94" rx="9" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.2"/>
+  <rect x="444" y="126" width="128" height="26" rx="9" fill="#C2873B"/>
+  <rect x="444" y="140" width="128" height="12" fill="#C2873B"/>
+  <text x="508" y="144" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#FBF7F0">6개월~1년</text>
+  <text x="508" y="196" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#C2873B">30%</text>
+
+  <!-- box5 -->
+  <rect x="580" y="126" width="128" height="94" rx="9" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.2"/>
+  <rect x="580" y="126" width="128" height="26" rx="9" fill="#C2873B"/>
+  <rect x="580" y="140" width="128" height="12" fill="#C2873B"/>
+  <text x="644" y="144" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#FBF7F0">1년~1년6개월</text>
+  <text x="644" y="196" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#C2873B">20%</text>
+
+  <!-- box6 -->
+  <rect x="716" y="126" width="128" height="94" rx="9" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.2"/>
+  <rect x="716" y="126" width="128" height="26" rx="9" fill="#C2873B"/>
+  <rect x="716" y="140" width="128" height="12" fill="#C2873B"/>
+  <text x="780" y="144" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#FBF7F0">1년6개월~2년</text>
+  <text x="780" y="196" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#C2873B">10%</text>
+
+  <!-- ===== 트랙 2: 기한후신고 ===== -->
+  <text x="36" y="272" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">② 기한후신고 — 무신고가산세 감면 (신고 자체를 안 한 사람)</text>
+
+  <!-- 4개 박스 -->
+  <!-- b1 -->
+  <rect x="36" y="286" width="190" height="94" rx="9" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <rect x="36" y="286" width="190" height="26" rx="9" fill="#0E7C72"/>
+  <rect x="36" y="300" width="190" height="12" fill="#0E7C72"/>
+  <text x="131" y="304" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF7F0">1개월 이내</text>
+  <text x="131" y="356" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#0A5F58">50%</text>
+
+  <!-- b2 -->
+  <rect x="238" y="286" width="190" height="94" rx="9" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <rect x="238" y="286" width="190" height="26" rx="9" fill="#0E7C72"/>
+  <rect x="238" y="300" width="190" height="12" fill="#0E7C72"/>
+  <text x="333" y="304" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF7F0">1~3개월</text>
+  <text x="333" y="356" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#0A5F58">30%</text>
+
+  <!-- b3 -->
+  <rect x="440" y="286" width="190" height="94" rx="9" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.2"/>
+  <rect x="440" y="286" width="190" height="26" rx="9" fill="#C2873B"/>
+  <rect x="440" y="300" width="190" height="12" fill="#C2873B"/>
+  <text x="535" y="304" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF7F0">3~6개월</text>
+  <text x="535" y="356" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#C2873B">20%</text>
+
+  <!-- b4 -->
+  <rect x="642" y="286" width="202" height="94" rx="9" fill="#FBF7F0" stroke="#B5462F" stroke-width="1.5"/>
+  <rect x="642" y="286" width="202" height="26" rx="9" fill="#B5462F"/>
+  <rect x="642" y="300" width="202" height="12" fill="#B5462F"/>
+  <text x="743" y="304" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF7F0">6개월 초과</text>
+  <text x="743" y="350" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#B5462F">감면 없음</text>
+  <text x="743" y="372" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#B5462F">0%</text>
+
+  <!-- 하단 경고 박스 -->
+  <rect x="36" y="416" width="808" height="72" rx="10" fill="#FBF7F0" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="56" y="448" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#B5462F">주의 — 납부지연가산세는 감면 대상이 아니에요</text>
+  <text x="56" y="472" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">감면은 무신고·과소신고 가산세에만 적용돼요. 늦게 낸 기간만큼 쌓인 납부지연가산세는 그대로 부담하니 세액도 서둘러 납부하세요.</text>
+</svg>

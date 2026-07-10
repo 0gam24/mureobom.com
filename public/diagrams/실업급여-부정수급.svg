@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 574" role="img" aria-label="실업급여 부정수급 유형과 제재 단계, 자진신고 구제 경로: 취업·근로·소득을 신고하지 않거나 이직 사유를 거짓 기재, 위장 고용, 이직확인서·구직활동 확인서 위조가 부정수급이에요. 미신고·허위 신고일 때만 제재하며 적발되면 1단계 지급 중단(고용보험법 제61조), 2단계 전액 반환(제62조 제1항), 3단계 추가징수 부정수급액 최대 2배·사업주 공모 시 최대 5배(제62조 제2항), 4단계 형사처벌 3년 이하 징역 또는 3천만원 이하 벌금(제116조)으로 커져요. 조사 시작 전 자진신고하면 추가징수와 형사처벌 두 단계가 면제될 수 있고 실제 부정수급분만 반환해요. 수치는 모두 상한이라 사안에 따라 감경될 수 있어요.">
+  <rect x="0" y="0" width="900" height="574" fill="#FBF7F0"/>
+  <text x="40" y="44" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#1A2B2A">실업급여 부정수급 — 제재 4단계와 자진신고 구제 경로 (2026년 기준)</text>
+  <text x="40" y="72" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">미신고·허위일 때만 제재가 커져요. 자진신고하면 뒤 두 단계가 면제될 수 있어요</text>
+
+  <!-- 유형 패널 -->
+  <rect x="40" y="100" width="820" height="112" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="64" y="128" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">이런 행위가 '부정수급'이에요 (미신고·허위·위조)</text>
+  <circle cx="64" cy="157" r="4" fill="#0E7C72"/>
+  <text x="78" y="162" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">취업·근로 사실을 신고하지 않음</text>
+  <circle cx="64" cy="187" r="4" fill="#0E7C72"/>
+  <text x="78" y="192" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">이직 사유를 거짓으로 기재</text>
+  <circle cx="470" cy="157" r="4" fill="#0E7C72"/>
+  <text x="484" y="162" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">위장 고용 (실제 근무 없이 고용된 것처럼)</text>
+  <circle cx="470" cy="187" r="4" fill="#0E7C72"/>
+  <text x="484" y="192" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">이직확인서·구직활동 확인서 위조</text>
+
+  <!-- 적발 커넥터 -->
+  <line x1="450" y1="212" x2="450" y2="220" stroke="#4A5856" stroke-width="2"/>
+  <rect x="305" y="220" width="290" height="28" rx="14" fill="#F4EEE2" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="450" y="239" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#B5462F">적발되면 — 미신고·허위 신고일 때만</text>
+  <line x1="450" y1="248" x2="450" y2="266" stroke="#4A5856" stroke-width="2"/>
+  <polygon points="444,264 450,270 456,264" fill="#4A5856"/>
+
+  <!-- 제재 4단계 -->
+  <rect x="40" y="272" width="190" height="108" rx="10" fill="#F4EEE2" stroke="#0E7C72" stroke-width="2"/>
+  <text x="135" y="300" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">1. 지급 중단</text>
+  <text x="135" y="328" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">남은 구직급여</text>
+  <text x="135" y="350" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">지급이 정지돼요</text>
+  <text x="135" y="372" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">고용보험법 제61조</text>
+
+  <rect x="250" y="272" width="190" height="108" rx="10" fill="#F4EEE2" stroke="#0E7C72" stroke-width="2"/>
+  <text x="345" y="300" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">2. 전액 반환</text>
+  <text x="345" y="328" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">부정하게 받은 급여</text>
+  <text x="345" y="350" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">전부 반환 명령</text>
+  <text x="345" y="372" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">제62조 제1항</text>
+
+  <rect x="460" y="272" width="190" height="108" rx="10" fill="#FBF7F0" stroke="#C2873B" stroke-width="2"/>
+  <text x="555" y="300" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">3. 추가징수</text>
+  <text x="555" y="328" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">부정수급액 최대 2배</text>
+  <text x="555" y="350" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#1A2B2A">공모 시 최대 5배</text>
+  <text x="555" y="372" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">제62조 제2항</text>
+
+  <rect x="670" y="272" width="190" height="108" rx="10" fill="#FBF7F0" stroke="#B5462F" stroke-width="2"/>
+  <text x="765" y="300" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#B5462F">4. 형사처벌</text>
+  <text x="765" y="328" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">3년 이하 징역 또는</text>
+  <text x="765" y="350" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">3천만원 이하 벌금</text>
+  <text x="765" y="372" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">제116조</text>
+
+  <!-- 단계 화살표 -->
+  <line x1="230" y1="326" x2="246" y2="326" stroke="#4A5856" stroke-width="2"/>
+  <polygon points="244,321 250,326 244,331" fill="#4A5856"/>
+  <line x1="440" y1="326" x2="456" y2="326" stroke="#4A5856" stroke-width="2"/>
+  <polygon points="454,321 460,326 454,331" fill="#C2873B"/>
+  <line x1="650" y1="326" x2="666" y2="326" stroke="#4A5856" stroke-width="2"/>
+  <polygon points="664,321 670,326 664,331" fill="#B5462F"/>
+
+  <!-- 자진신고 브레이스 -->
+  <text x="660" y="396" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#0A5F58">자진신고 시 이 두 단계 면제 가능</text>
+  <line x1="460" y1="402" x2="860" y2="402" stroke="#0E7C72" stroke-width="1.5"/>
+  <line x1="660" y1="402" x2="660" y2="424" stroke="#0E7C72" stroke-width="2"/>
+  <polygon points="654,422 660,428 666,422" fill="#0E7C72"/>
+
+  <!-- 구제 경로 박스 -->
+  <rect x="40" y="430" width="820" height="94" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="450" y="459" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">구제 경로 — 조사 시작 전에 '자진신고'하면?</text>
+  <text x="450" y="486" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1A2B2A">추가징수 면제 + 형사처벌도 면제될 수 있어요</text>
+  <text x="450" y="508" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">실제 부정수급분만 반환 — 겁먹기보다 스스로 알리는 게 유리해요</text>
+
+  <text x="40" y="552" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">추가징수·벌금은 모두 '이하'(상한)라 사안·횟수에 따라 감경·면제될 수 있어요. 2026년 고용보험법 제61·62·116조, 고용노동부 안내 기준.</text>
+</svg>

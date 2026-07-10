@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" role="img" aria-label="종합소득세 가산세 4종 비교표. 무신고가산세는 신고 자체를 안 했을 때 납부세액의 일반 20퍼센트, 부정행위 40퍼센트(역외 60퍼센트). 과소신고가산세는 줄여서 신고했을 때 과소세액의 일반 10퍼센트, 부정행위 40퍼센트. 납부지연가산세는 세금을 안 냈거나 덜 냈을 때 미납세액 곱하기 경과일수 곱하기 2026년 기준 하루 0.022퍼센트로 일반과 부정 구분 없이 동일. 무기장가산세는 장부의무자가 장부 없이 신고했을 때 산출세액 곱하기 무기장소득 나누기 종합소득 곱하기 20퍼센트이며 소규모 사업자는 제외.">
+  <rect x="0" y="0" width="900" height="580" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="36" y="48" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#1A2B2A">종합소득세 가산세 4종 한눈에 보기</text>
+  <text x="36" y="76" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">2026년 시행 기준 · 국세기본법·소득세법·시행령 근거 (율은 개정될 수 있어요)</text>
+
+  <!-- 표 외곽 -->
+  <rect x="36" y="100" width="828" height="430" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 행 배경 (교대) -->
+  <rect x="36" y="140" width="828" height="95" fill="#F4EEE2"/>
+  <rect x="36" y="330" width="828" height="100" fill="#F4EEE2"/>
+
+  <!-- 헤더 배경 -->
+  <rect x="36" y="100" width="828" height="40" rx="10" fill="#0E7C72"/>
+  <rect x="36" y="118" width="828" height="22" fill="#0E7C72"/>
+
+  <!-- 세로 구분선 -->
+  <line x1="176" y1="100" x2="176" y2="530" stroke="#E3DCCF" stroke-width="1.2"/>
+  <line x1="392" y1="100" x2="392" y2="530" stroke="#E3DCCF" stroke-width="1.2"/>
+  <line x1="636" y1="100" x2="636" y2="530" stroke="#E3DCCF" stroke-width="1.2"/>
+
+  <!-- 가로 구분선 -->
+  <line x1="36" y1="140" x2="864" y2="140" stroke="#E3DCCF" stroke-width="1.2"/>
+  <line x1="36" y1="235" x2="864" y2="235" stroke="#E3DCCF" stroke-width="1.2"/>
+  <line x1="36" y1="330" x2="864" y2="330" stroke="#E3DCCF" stroke-width="1.2"/>
+  <line x1="36" y1="430" x2="864" y2="430" stroke="#E3DCCF" stroke-width="1.2"/>
+
+  <!-- 헤더 텍스트 -->
+  <text x="106" y="125" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">가산세 종류</text>
+  <text x="284" y="125" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">언제 붙나요</text>
+  <text x="514" y="125" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">세율 — 일반</text>
+  <text x="750" y="125" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">세율 — 부정행위</text>
+
+  <!-- ROW 1 무신고 (140~235) -->
+  <text x="48" y="181" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">무신고</text>
+  <text x="48" y="203" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">신고 자체를 안 함</text>
+  <text x="188" y="179" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">법정신고기한까지</text>
+  <text x="188" y="200" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">신고서를 안 냈을 때</text>
+  <text x="404" y="192" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">납부세액 × 20%</text>
+  <text x="648" y="182" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#B5462F">× 40%</text>
+  <text x="648" y="203" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">(역외 부정 60%)</text>
+
+  <!-- ROW 2 과소신고 (235~330) -->
+  <text x="48" y="276" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">과소신고</text>
+  <text x="48" y="298" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">줄여서 신고</text>
+  <text x="188" y="274" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">신고했지만 소득·세액을</text>
+  <text x="188" y="295" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">적게 신고했을 때</text>
+  <text x="404" y="287" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">과소세액 × 10%</text>
+  <text x="648" y="287" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#B5462F">× 40%</text>
+
+  <!-- ROW 3 납부지연 (330~430) -->
+  <text x="48" y="373" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">납부지연</text>
+  <text x="48" y="395" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">늦게·덜 납부</text>
+  <text x="188" y="371" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">세금을 기한까지 안 냈거나</text>
+  <text x="188" y="392" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">덜 냈을 때</text>
+  <text x="404" y="371" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">미납세액 × 경과일수</text>
+  <text x="404" y="392" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">× 0.022%/일 (2026년)</text>
+  <text x="648" y="371" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">일반·부정 구분 없이</text>
+  <text x="648" y="392" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">동일 적용</text>
+
+  <!-- ROW 4 무기장 (430~530) -->
+  <text x="48" y="473" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">무기장</text>
+  <text x="48" y="495" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">장부 미작성</text>
+  <text x="188" y="471" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">장부의무자가 장부 없이</text>
+  <text x="188" y="492" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">신고했을 때</text>
+  <text x="404" y="471" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#0A5F58">산출세액 ×</text>
+  <text x="404" y="492" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#0A5F58">(무기장소득÷종합소득) × 20%</text>
+  <text x="648" y="471" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">소규모 사업자는</text>
+  <text x="648" y="492" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">제외</text>
+
+  <!-- 하단 캡션 -->
+  <text x="36" y="558" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">납부지연 1일 이자율(0.022%)과 부정행위 판단은 매년/개정에 따라 달라져요 — 신고 시점에 국세기본법·시행령을 확인하세요.</text>
+</svg>
