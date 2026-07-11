@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 640" role="img" aria-label="중도퇴사자 연말정산 두 갈래 흐름. 공통: 퇴직하는 달 급여 지급 시 회사가 기본공제 위주 약식 연말정산을 함. 이후 재취업하면 새 직장에 전 직장 근로소득 원천징수영수증을 제출해 두 소득을 합산 연말정산으로 다음 해 2월에 정산. 연말까지 재취업하지 않으면 다음 해 5월 종합소득세 확정신고로 의료비·신용카드·기부금 등 빠진 공제를 반영해 환급받음.">
+  <rect x="0" y="0" width="860" height="640" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#1A2B2A">중도퇴사자 연말정산, 재취업 여부로 갈리는 두 갈래</text>
+  <text x="40" y="74" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">퇴직 달의 약식정산은 기본공제 위주라, 빠진 공제는 아래 두 경로 중 하나로 마무리해요</text>
+
+  <!-- 공통 시작 박스 -->
+  <rect x="180" y="96" width="500" height="66" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="430" y="124" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">퇴직하는 달 급여 지급 시 회사가 약식 연말정산</text>
+  <text x="430" y="147" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">기본공제 위주 (소득세법 제137조) · 의료비·신용카드·기부금 등은 대개 빠짐</text>
+
+  <!-- 갈림 화살표 -->
+  <line x1="360" y1="162" x2="235" y2="188" stroke="#0E7C72" stroke-width="2"/>
+  <polygon points="235,188 246,182 244,193" fill="#0E7C72"/>
+  <line x1="500" y1="162" x2="625" y2="188" stroke="#C2873B" stroke-width="2"/>
+  <polygon points="625,188 614,182 616,193" fill="#C2873B"/>
+  <text x="290" y="182" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#0E7C72">재취업 O</text>
+  <text x="570" y="182" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#C2873B">재취업 X</text>
+
+  <!-- ===== 왼쪽 패널: 재취업한 경우 ===== -->
+  <rect x="40" y="194" width="375" height="382" rx="12" fill="#F4EEE2"/>
+  <rect x="60" y="212" width="240" height="34" rx="17" fill="#0E7C72"/>
+  <text x="180" y="235" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">재취업한 경우: 합산 연말정산</text>
+
+  <text x="60" y="278" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">1단계</text>
+  <text x="60" y="300" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">전 직장 원천징수영수증을</text>
+  <text x="60" y="321" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">홈택스에서 발급</text>
+
+  <line x1="60" y1="338" x2="395" y2="338" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <text x="60" y="364" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">2단계</text>
+  <text x="60" y="386" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">새 직장에 제출</text>
+  <text x="60" y="407" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">소득·세액 공제신고서에 종전 소득 포함</text>
+
+  <line x1="60" y1="424" x2="395" y2="424" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <text x="60" y="450" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">3단계</text>
+  <rect x="60" y="462" width="335" height="96" rx="8" fill="#E3F0EE"/>
+  <text x="78" y="490" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">두 소득 합산해 다음 해 2월 정산</text>
+  <text x="78" y="514" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">소득세법 제138조 (재취직자 연말정산)</text>
+  <text x="78" y="537" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">이때 각종 공제를 다시 반영해요</text>
+
+  <!-- ===== 오른쪽 패널: 재취업 안 한 경우 ===== -->
+  <rect x="445" y="194" width="375" height="382" rx="12" fill="#F4EEE2"/>
+  <rect x="465" y="212" width="270" height="34" rx="17" fill="#C2873B"/>
+  <text x="600" y="235" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">재취업 안 한 경우: 5월 종소세</text>
+
+  <text x="465" y="278" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">1단계</text>
+  <text x="465" y="300" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">원천징수영수증·공제 증빙 준비</text>
+  <text x="465" y="321" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">홈택스 연말정산 간소화 자료 활용</text>
+
+  <line x1="465" y1="338" x2="800" y2="338" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <text x="465" y="364" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">2단계</text>
+  <text x="465" y="386" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">다음 해 5월 종합소득세 확정신고</text>
+  <text x="465" y="407" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">홈택스 신고·납부 → 종합소득세</text>
+
+  <line x1="465" y1="424" x2="800" y2="424" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <text x="465" y="450" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">3단계</text>
+  <rect x="465" y="462" width="335" height="96" rx="8" fill="#FBF7F0" stroke="#C2873B" stroke-width="1.3"/>
+  <text x="483" y="490" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">빠진 공제 반영해 환급</text>
+  <text x="483" y="514" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">의료비·신용카드·기부금·보험료 등</text>
+  <text x="483" y="537" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">더 낸 세금이 있으면 돌려받아요</text>
+
+  <!-- 하단 캡션 -->
+  <text x="40" y="604" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">두 경우 모두 전 직장 근로소득 원천징수영수증이 출발점이에요. 회사가 지급명세서를 제출한 뒤 홈택스에서 직접 조회·발급할 수 있어요.</text>
+  <text x="40" y="626" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">환급 여부·금액은 개인의 소득과 공제 항목에 따라 달라져요.</text>
+</svg>

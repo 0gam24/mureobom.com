@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-label="두루누리 사회보험료 지원 보험 구분: 국민연금과 고용보험 2종은 부담분의 80%를 월 상한 내에서 지원하고, 건강보험과 산재보험은 지원 대상에서 제외됨. 신청은 근로자가 아니라 사업주가 함.">
+  <rect x="0" y="0" width="720" height="540" fill="#FBF7F0"/>
+
+  <text x="360" y="42" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#1A2B2A">두루누리, 4대보험 중 두 가지만 지원해요</text>
+  <text x="360" y="68" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">고용보험·국민연금은 지원, 건강보험·산재보험은 제외</text>
+
+  <line x1="40" y1="88" x2="680" y2="88" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 지원되는 보험 패널 -->
+  <rect x="40" y="108" width="310" height="270" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="195" y="142" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">지원되는 보험</text>
+  <text x="195" y="166" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">부담분의 80%, 월 상한 내</text>
+
+  <rect x="62" y="186" width="266" height="76" rx="10" fill="#FBF7F0" stroke="#0E7C72" stroke-width="1"/>
+  <text x="80" y="214" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">국민연금</text>
+  <text x="80" y="240" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">근로자·사업주 각각 월 최대 87,400원</text>
+
+  <rect x="62" y="272" width="266" height="76" rx="10" fill="#FBF7F0" stroke="#0E7C72" stroke-width="1"/>
+  <text x="80" y="300" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">고용보험</text>
+  <text x="80" y="326" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">근로자 월 최대 16,560원 · 사업주 21,160원</text>
+
+  <!-- 제외되는 보험 패널 -->
+  <rect x="370" y="108" width="310" height="270" rx="12" fill="#F4EEE2" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="525" y="142" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#B5462F">지원 제외</text>
+  <text x="525" y="166" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">평소대로 본인이 부담</text>
+
+  <rect x="392" y="186" width="266" height="76" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="410" y="214" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#8A938F">건강보험</text>
+  <text x="410" y="240" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">두루누리 지원 대상 아님</text>
+
+  <rect x="392" y="272" width="266" height="76" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="410" y="300" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#8A938F">산재보험</text>
+  <text x="410" y="326" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">두루누리 지원 대상 아님</text>
+
+  <!-- 대상·신청 요약 박스 -->
+  <rect x="40" y="398" width="640" height="76" rx="12" fill="#FBF7F0" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="60" y="426" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#0A5F58">대상: 근로자 10명 미만 사업장 · 월평균보수 270만원 미만 신규가입</text>
+  <text x="60" y="452" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#C2873B">신청: 근로자가 아니라 사업주가 · 합산 최대 36개월</text>
+
+  <line x1="40" y1="496" x2="680" y2="496" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="360" y="518" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">출처: 두루누리 공식 안내, 국민연금법 제100조의3·보험료징수법 제21조 (2025년 지침 기준, 수치는 연도별 변동)</text>
+</svg>

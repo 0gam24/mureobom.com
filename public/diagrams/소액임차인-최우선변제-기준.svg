@@ -1,0 +1,50 @@
+<svg viewBox="0 0 760 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="소액임차인 최우선변제 지역별 기준: 서울 보증금 1억6,500만원 이하면 5,500만원, 과밀억제권역·세종·용인·화성·김포 1억4,500만원 이하면 4,800만원, 광역시·안산·광주·파주·이천·평택 8,500만원 이하면 2,800만원, 그 밖의 지역 7,500만원 이하면 2,500만원까지 최우선변제. 2023년 2월 21일 시행령 기준.">
+  <rect x="0" y="0" width="760" height="500" fill="#FBF7F0"/>
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#1A2B2A">지역별 소액임차인 최우선변제 기준</text>
+  <text x="40" y="72" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">보증금이 상한 이하일 때, 상한액까지 다른 담보권자보다 먼저 배당 (2023-02-21 시행령 기준)</text>
+
+  <!-- header row -->
+  <rect x="40" y="96" width="360" height="46" fill="#0A5F58"/>
+  <rect x="400" y="96" width="320" height="46" fill="#0E7C72"/>
+  <text x="60" y="125" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#FBF7F0">지역 구분</text>
+  <text x="420" y="118" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF7F0">보증금 상한 (이하)</text>
+  <text x="600" y="118" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#FBF7F0">최우선변제액</text>
+  <text x="420" y="134" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11" fill="#E3F0EE">소액임차인 자격 기준</text>
+  <text x="600" y="134" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11" fill="#E3F0EE">먼저 배당받는 한도</text>
+
+  <!-- row 1 서울 -->
+  <rect x="40" y="142" width="360" height="72" fill="#F4EEE2"/>
+  <rect x="400" y="142" width="320" height="72" fill="#E3F0EE"/>
+  <text x="60" y="176" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">서울특별시</text>
+  <text x="60" y="198" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">가장 높은 기준</text>
+  <text x="420" y="185" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#4A5856">1억 6,500만원</text>
+  <text x="600" y="185" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">5,500만원</text>
+
+  <!-- row 2 과밀 -->
+  <rect x="40" y="216" width="360" height="72" fill="#FBF7F0"/>
+  <rect x="400" y="216" width="320" height="72" fill="#F4EEE2"/>
+  <text x="60" y="248" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">과밀억제권역(서울 제외)</text>
+  <text x="60" y="270" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">세종·용인·화성·김포</text>
+  <text x="420" y="259" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#4A5856">1억 4,500만원</text>
+  <text x="600" y="259" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">4,800만원</text>
+
+  <!-- row 3 광역시 -->
+  <rect x="40" y="290" width="360" height="72" fill="#F4EEE2"/>
+  <rect x="400" y="290" width="320" height="72" fill="#E3F0EE"/>
+  <text x="60" y="322" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">광역시(군 제외 등)</text>
+  <text x="60" y="344" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">안산·광주·파주·이천·평택</text>
+  <text x="420" y="333" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#4A5856">8,500만원</text>
+  <text x="600" y="333" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">2,800만원</text>
+
+  <!-- row 4 그 밖 -->
+  <rect x="40" y="364" width="360" height="60" fill="#FBF7F0"/>
+  <rect x="400" y="364" width="320" height="60" fill="#F4EEE2"/>
+  <text x="60" y="400" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">그 밖의 지역</text>
+  <text x="420" y="400" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#4A5856">7,500만원</text>
+  <text x="600" y="400" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">2,500만원</text>
+
+  <!-- footnote -->
+  <rect x="40" y="446" width="680" height="34" fill="#E3F0EE"/>
+  <text x="56" y="468" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#B5462F" font-weight="700">주의</text>
+  <text x="96" y="468" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#1A2B2A">최우선변제액은 주택가액(대지 포함)의 1/2 한도 안에서만 배당돼요. 상한 전액을 못 받을 수 있어요.</text>
+</svg>
