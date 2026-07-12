@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 620" role="img" aria-label="분할연금 지급요건 4가지(혼인 중 가입 5년 이상, 이혼, 배우자였던 사람이 노령연금 수급권자, 본인이 지급개시연령 도달)와 청구기한 5년, 지급연령 전 이혼 시 선청구 흐름">
+  <rect x="0" y="0" width="840" height="620" fill="#FBF7F0"/>
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#1A2B2A">국민연금 분할연금, 이렇게 받아요</text>
+  <text x="40" y="75" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">지급요건 4가지 모두 충족 + 요건 갖춘 때부터 5년 이내 청구 (국민연금법 제64조)</text>
+
+  <!-- 요건 4가지 패널 -->
+  <rect x="40" y="96" width="760" height="270" rx="10" fill="#F4EEE2"/>
+  <text x="60" y="128" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">지급요건 4가지 (하나라도 빠지면 지급 안 돼요)</text>
+
+  <!-- 항목 1 -->
+  <circle cx="76" cy="160" r="13" fill="#0E7C72"/>
+  <text x="76" y="165" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">1</text>
+  <text x="102" y="158" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">혼인기간 중 국민연금 가입기간 5년 이상</text>
+  <text x="102" y="180" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">실질적 혼인관계가 없던 기간은 제외해요</text>
+
+  <!-- 항목 2 -->
+  <circle cx="76" cy="216" r="13" fill="#0E7C72"/>
+  <text x="76" y="221" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">2</text>
+  <text x="102" y="214" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">배우자와 이혼한 상태</text>
+  <text x="102" y="236" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">협의이혼 또는 재판상 이혼으로 혼인이 해소돼야 해요</text>
+
+  <!-- 항목 3 -->
+  <circle cx="76" cy="272" r="13" fill="#0E7C72"/>
+  <text x="76" y="277" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">3</text>
+  <text x="102" y="270" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">배우자였던 사람이 노령연금 수급권자</text>
+  <text x="102" y="292" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">상대방이 노령연금을 받을 수 있는 자격을 갖춰야 해요</text>
+
+  <!-- 항목 4 -->
+  <circle cx="76" cy="328" r="13" fill="#0E7C72"/>
+  <text x="76" y="333" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">4</text>
+  <text x="102" y="326" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">본인이 지급개시연령 도달</text>
+  <text x="102" y="348" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">조문은 60세이나 실제는 출생연도별 61세부터 65세예요</text>
+
+  <!-- 청구기한 배지 (골드) -->
+  <rect x="560" y="150" width="220" height="196" rx="10" fill="#E3F0EE"/>
+  <text x="670" y="185" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">청구기한</text>
+  <text x="670" y="240" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="52" font-weight="700" fill="#C2873B">5년</text>
+  <text x="670" y="272" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">요건 모두 갖춘 때부터</text>
+  <text x="670" y="292" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">5년 안에 청구해야 해요</text>
+  <text x="670" y="322" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#B5462F">놓치면 소멸 (제64조 제3항)</text>
+
+  <!-- 선청구 흐름 패널 -->
+  <rect x="40" y="386" width="760" height="192" rx="10" fill="#F4EEE2"/>
+  <text x="60" y="418" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">지급연령 전에 이혼했다면, 선청구로 기한을 지켜요 (제64조의3)</text>
+
+  <!-- 단계 박스 -->
+  <rect x="60" y="440" width="150" height="88" rx="8" fill="#E3F0EE"/>
+  <text x="135" y="472" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1A2B2A">이혼 효력 발생</text>
+  <text x="135" y="496" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">지급개시연령</text>
+  <text x="135" y="512" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">도달 전 시점</text>
+
+  <text x="222" y="490" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#8A938F">&#8594;</text>
+
+  <rect x="234" y="440" width="150" height="88" rx="8" fill="#0E7C72"/>
+  <text x="309" y="472" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">선청구</text>
+  <text x="309" y="496" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#E3F0EE">서면으로 미리 청구</text>
+  <text x="309" y="512" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#E3F0EE">도달 전 취소 가능</text>
+
+  <text x="396" y="490" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#8A938F">&#8594;</text>
+
+  <rect x="408" y="440" width="150" height="88" rx="8" fill="#E3F0EE"/>
+  <text x="483" y="472" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1A2B2A">지급연령 도달</text>
+  <text x="483" y="496" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">요건 충족 확인</text>
+
+  <text x="570" y="490" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#8A938F">&#8594;</text>
+
+  <rect x="582" y="440" width="196" height="88" rx="8" fill="#C2873B"/>
+  <text x="680" y="480" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">분할연금 지급 개시</text>
+  <text x="680" y="504" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#FBF7F0">공단이 직접 매월 지급</text>
+
+  <text x="60" y="556" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">선청구는 5년 제척기간을 놓치지 않으려는 안전장치예요. 청구를 미리 걸어두는 개념이에요.</text>
+
+  <text x="40" y="605" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">근거: 국민연금법 제64조·제64조의2·제64조의3, 국민연금공단 분할연금 안내. 2026년 기준. 개별 금액은 가입이력에 따라 달라요.</text>
+</svg>

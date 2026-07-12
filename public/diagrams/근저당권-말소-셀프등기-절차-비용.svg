@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-label="근저당권 말소 셀프 비용 분해와 셀프 대 대행 비교. 셀프 실비는 등록면허세 6천원, 지방교육세 1천2백원, 등기신청수수료 4천원을 합해 부동산 1건당 약 1만1천2백원. 법무사 또는 은행 대행은 이 실비에 자율 책정 보수가 별도로 가산됨. 2026년 기준." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="520" fill="#FBF7F0"/>
+
+  <text x="32" y="46" font-size="24" font-weight="700" fill="#1A2B2A">근저당권 말소, 셀프 비용은 얼마?</text>
+  <text x="32" y="72" font-size="14" fill="#4A5856">부동산 1건당 실비 항목 분해 (2026년 기준, 예규 개정 시 변동)</text>
+
+  <!-- Left panel: cost breakdown stacked -->
+  <rect x="32" y="96" width="360" height="392" rx="12" fill="#F4EEE2"/>
+  <text x="52" y="128" font-size="16" font-weight="700" fill="#0A5F58">셀프 실비 항목</text>
+
+  <!-- item 1 -->
+  <rect x="52" y="146" width="320" height="58" rx="8" fill="#E3F0EE"/>
+  <text x="70" y="172" font-size="15" font-weight="700" fill="#1A2B2A">등록면허세</text>
+  <text x="70" y="192" font-size="12" fill="#4A5856">지방세법 제28조 '그 밖의 등기' 정액</text>
+  <text x="354" y="182" font-size="17" font-weight="700" fill="#0E7C72" text-anchor="end">6,000원</text>
+
+  <!-- item 2 -->
+  <rect x="52" y="214" width="320" height="58" rx="8" fill="#E3F0EE"/>
+  <text x="70" y="240" font-size="15" font-weight="700" fill="#1A2B2A">지방교육세</text>
+  <text x="70" y="260" font-size="12" fill="#4A5856">등록면허세의 20%</text>
+  <text x="354" y="250" font-size="17" font-weight="700" fill="#0E7C72" text-anchor="end">1,200원</text>
+
+  <!-- item 3 -->
+  <rect x="52" y="282" width="320" height="58" rx="8" fill="#E3F0EE"/>
+  <text x="70" y="308" font-size="15" font-weight="700" fill="#1A2B2A">등기신청수수료</text>
+  <text x="70" y="328" font-size="12" fill="#4A5856">말소 기준 4,000원, 신청 방식별 차등</text>
+  <text x="354" y="318" font-size="17" font-weight="700" fill="#0E7C72" text-anchor="end">4,000원</text>
+
+  <!-- total -->
+  <line x1="52" y1="360" x2="372" y2="360" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="52" y="372" width="320" height="64" rx="8" fill="#0A5F58"/>
+  <text x="70" y="400" font-size="15" font-weight="700" fill="#FBF7F0">셀프 합계</text>
+  <text x="70" y="420" font-size="12" fill="#E3F0EE">부동산 1건당 실비 총액</text>
+  <text x="354" y="412" font-size="20" font-weight="700" fill="#FBF7F0" text-anchor="end">약 11,200원</text>
+
+  <text x="52" y="464" font-size="12" fill="#8A938F">부동산이 2건이면 항목별 금액이 건마다 각각 부과돼요.</text>
+
+  <!-- Right panel: self vs agent -->
+  <rect x="408" y="96" width="320" height="392" rx="12" fill="#F4EEE2"/>
+  <text x="428" y="128" font-size="16" font-weight="700" fill="#0A5F58">셀프 vs 대행</text>
+
+  <rect x="428" y="146" width="280" height="130" rx="8" fill="#E3F0EE"/>
+  <text x="446" y="174" font-size="15" font-weight="700" fill="#1A2B2A">셀프(직접 신청)</text>
+  <text x="446" y="200" font-size="20" font-weight="700" fill="#0E7C72">실비만</text>
+  <text x="446" y="222" font-size="13" fill="#4A5856">약 1만1천원대</text>
+  <text x="446" y="248" font-size="12" fill="#4A5856">서류 준비와 등기소 방문 또는</text>
+  <text x="446" y="266" font-size="12" fill="#4A5856">인터넷등기소 전자신청을 직접</text>
+
+  <rect x="428" y="288" width="280" height="146" rx="8" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+  <text x="446" y="316" font-size="15" font-weight="700" fill="#1A2B2A">법무사·은행 대행</text>
+  <text x="446" y="342" font-size="18" font-weight="700" fill="#C2873B">실비 + 보수</text>
+  <text x="446" y="364" font-size="12" fill="#4A5856">법무사 보수는 2003년 자율화로</text>
+  <text x="446" y="382" font-size="12" fill="#4A5856">공식 고정 요금표가 없어요.</text>
+  <text x="446" y="400" font-size="12" fill="#4A5856">사무소·건별로 달라 금액 단정 곤란,</text>
+  <text x="446" y="418" font-size="12" fill="#4A5856">맡기기 전 실비와 보수 분리 견적 권장</text>
+
+  <text x="428" y="464" font-size="12" fill="#8A938F">완제해도 근저당권은 자동 소멸 안 됨. 말소 신청은 소유자 몫.</text>
+</svg>

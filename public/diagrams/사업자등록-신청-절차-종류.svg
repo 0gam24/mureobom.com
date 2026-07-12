@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-label="부가가치세 과세유형 3종 비교. 일반과세자는 매출 1억400만원 이상 예상 또는 배제 업종, 부가세율 10퍼센트, 세금계산서 발급 가능, 매입세액 전액 공제. 간이과세자는 직전연도 공급대가 1억400만원 미만 개인, 업종별 부가가치율 1.5에서 4퍼센트, 4800만원 미만이면 세금계산서 발급 불가, 매입액 0.5퍼센트 공제. 면세사업자는 법령에 열거된 면세 대상만 영위, 부가세 신고납부 의무 없음. 법인은 모두 일반과세 방식이며 간이과세는 개인 전용." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="560" fill="#FBF7F0"/>
+  <text x="32" y="46" font-size="26" font-weight="700" fill="#1A2B2A">부가가치세 과세유형 3종 (2026년 기준)</text>
+  <text x="32" y="74" font-size="15" fill="#4A5856">사업자등록 신청 때 고르는 유형. 간이과세는 개인사업자만 가능해요.</text>
+
+  <!-- Column headers -->
+  <rect x="32" y="96" width="220" height="46" rx="6" fill="#0E7C72"/>
+  <text x="142" y="125" font-size="17" font-weight="700" fill="#FBF7F0" text-anchor="middle">일반과세자</text>
+  <rect x="264" y="96" width="220" height="46" rx="6" fill="#0A5F58"/>
+  <text x="374" y="125" font-size="17" font-weight="700" fill="#FBF7F0" text-anchor="middle">간이과세자</text>
+  <rect x="496" y="96" width="232" height="46" rx="6" fill="#C2873B"/>
+  <text x="612" y="125" font-size="17" font-weight="700" fill="#FBF7F0" text-anchor="middle">면세사업자</text>
+
+  <!-- Row 1: 대상 -->
+  <text x="32" y="172" font-size="13" font-weight="700" fill="#8A938F">누가 해당하나요</text>
+  <rect x="32" y="182" width="220" height="72" rx="6" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="44" y="208" font-size="14" fill="#1A2B2A">연 매출 1억400만원</text>
+  <text x="44" y="228" font-size="14" fill="#1A2B2A">이상 예상 또는</text>
+  <text x="44" y="248" font-size="14" fill="#1A2B2A">간이 배제 업종·지역</text>
+  <rect x="264" y="182" width="220" height="72" rx="6" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="276" y="208" font-size="14" fill="#1A2B2A">직전연도 공급대가</text>
+  <text x="276" y="228" font-size="14" fill="#1A2B2A">1억400만원 미만인</text>
+  <text x="276" y="248" font-size="14" fill="#1A2B2A">개인사업자</text>
+  <rect x="496" y="182" width="232" height="72" rx="6" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="508" y="208" font-size="14" fill="#1A2B2A">법령에 열거된 면세</text>
+  <text x="508" y="228" font-size="14" fill="#1A2B2A">대상(생필품·의료·</text>
+  <text x="508" y="248" font-size="14" fill="#1A2B2A">교육 등)만 영위</text>
+
+  <!-- Row 2: 부가세율 -->
+  <text x="32" y="284" font-size="13" font-weight="700" fill="#8A938F">부가세 부담</text>
+  <rect x="32" y="294" width="220" height="58" rx="6" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="44" y="320" font-size="14" fill="#1A2B2A">세율 10퍼센트</text>
+  <text x="44" y="340" font-size="13" fill="#4A5856">매출세액 그대로 계산</text>
+  <rect x="264" y="294" width="220" height="58" rx="6" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="276" y="320" font-size="14" fill="#1A2B2A">업종별 부가가치율</text>
+  <text x="276" y="340" font-size="13" fill="#4A5856">1.5에서 4퍼센트 적용</text>
+  <rect x="496" y="294" width="232" height="58" rx="6" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="508" y="320" font-size="14" fill="#1A2B2A">부가세 신고·납부</text>
+  <text x="508" y="340" font-size="13" fill="#4A5856">의무 없음</text>
+
+  <!-- Row 3: 세금계산서 -->
+  <text x="32" y="382" font-size="13" font-weight="700" fill="#8A938F">세금계산서 발급</text>
+  <rect x="32" y="392" width="220" height="58" rx="6" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="44" y="418" font-size="14" fill="#0A5F58" font-weight="700">발급 가능</text>
+  <text x="44" y="438" font-size="13" fill="#4A5856">거래처가 요구해도 대응</text>
+  <rect x="264" y="392" width="220" height="58" rx="6" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="276" y="418" font-size="14" fill="#B5462F" font-weight="700">4,800만원 미만은 불가</text>
+  <text x="276" y="438" font-size="13" fill="#4A5856">이상이면 발급 대상</text>
+  <rect x="496" y="392" width="232" height="58" rx="6" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="508" y="418" font-size="14" fill="#1A2B2A">계산서 발급</text>
+  <text x="508" y="438" font-size="13" fill="#4A5856">(세금계산서 아님)</text>
+
+  <!-- Row 4: 매입공제 -->
+  <text x="32" y="480" font-size="13" font-weight="700" fill="#8A938F">매입세액 공제</text>
+  <rect x="32" y="490" width="220" height="46" rx="6" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="44" y="518" font-size="14" fill="#1A2B2A">전액 공제</text>
+  <rect x="264" y="490" width="220" height="46" rx="6" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="276" y="518" font-size="14" fill="#1A2B2A">매입액의 0.5퍼센트</text>
+  <rect x="496" y="490" width="232" height="46" rx="6" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="508" y="518" font-size="14" fill="#1A2B2A">해당 없음</text>
+
+  <line x1="32" y1="548" x2="728" y2="548" stroke="#E3DCCF"/>
+</svg>
