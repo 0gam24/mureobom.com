@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 580" role="img" aria-label="육아기 근로시간 단축 급여 산정 구조: 단축한 시간을 두 층으로 나눠 매주 최초 10시간 단축분은 통상임금 100%(월 상한 250만원), 나머지 단축분은 통상임금 80%(월 상한 160만원)로 계산해 더한다. 단축 전 소정근로시간 대비 비례 산정, 2026년 7월 1일 시행.">
+  <rect x="0" y="0" width="720" height="580" fill="#FBF7F0"/>
+
+  <text x="360" y="44" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#1A2B2A">육아기 근로시간 단축 급여, 두 층으로 나눠 계산해요</text>
+  <text x="360" y="72" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">단축한 시간을 최초 10시간과 나머지로 구분해 각각 산정한 뒤 더해요</text>
+
+  <line x1="40" y1="92" x2="680" y2="92" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 최초 10시간 단축분 -->
+  <rect x="36" y="112" width="300" height="214" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="186" y="150" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#0A5F58">1</text>
+  <text x="186" y="188" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">매주 최초 10시간</text>
+  <text x="186" y="212" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">단축분</text>
+  <text x="186" y="262" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#0A5F58">통상임금 100%</text>
+  <text x="186" y="298" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">월 상한 250만원</text>
+
+  <!-- 더하기 -->
+  <text x="360" y="228" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="34" font-weight="700" fill="#4A5856">+</text>
+
+  <!-- 나머지 단축분 -->
+  <rect x="384" y="112" width="300" height="214" rx="12" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="534" y="150" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#C2873B">2</text>
+  <text x="534" y="188" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">나머지 단축분</text>
+  <text x="534" y="212" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">(10시간 초과분)</text>
+  <text x="534" y="262" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#C2873B">통상임금 80%</text>
+  <text x="534" y="298" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">월 상한 160만원</text>
+
+  <!-- 결과 바 -->
+  <rect x="36" y="348" width="648" height="52" rx="12" fill="#FBF7F0" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="360" y="381" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#0A5F58">두 층을 더한 금액을 매달 지급 · 단축 전 소정근로시간 대비 비례 산정 · 2026.7.1 시행</text>
+
+  <!-- 예시 박스 -->
+  <rect x="36" y="418" width="648" height="118" rx="12" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="56" y="446" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1A2B2A">예시) 주 40시간에서 주 20시간으로 단축, 통상임금 월 300만원 가정</text>
+  <text x="56" y="474" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">1) 최초 10시간분: 상한 250만원 × 10/40 = 62.5만원</text>
+  <text x="56" y="498" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">2) 나머지 10시간분: 상한 160만원 × 10/40 = 40만원</text>
+  <text x="56" y="524" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#0A5F58">합계 약 102.5만원 (실제 금액은 고용센터·고용보험에서 확인하세요)</text>
+
+  <line x1="40" y1="552" x2="680" y2="552" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="360" y="572" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">출처: 고용보험법 시행령 제104조의2, 고용노동부 보도자료 (2026.7.1 기준, 상한·통상임금 수치는 연도별 변동)</text>
+</svg>

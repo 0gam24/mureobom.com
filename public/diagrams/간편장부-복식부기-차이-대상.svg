@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" role="img" aria-label="업종별 기준수입금액 장부 의무 판정표. 직전연도 수입금액이 도매소매업, 농림어업, 광업, 부동산매매업 등은 3억원, 제조업, 숙박음식점업, 건설업, 운수창고업, 정보통신업, 금융보험업 등은 1억 5천만원, 부동산임대업, 전문과학기술서비스업, 교육서비스업, 보건업, 개인서비스업 등은 7천500만원 미만이면 간편장부대상자, 이상이면 복식부기의무자예요. 이 기준은 외부조정 대상 소득세법 제131조의2의 6억, 3억, 1억5천만원과 다른 시행령 제208조 기준이고, 신규사업자는 첫해 간편장부대상자, 변호사 세무사 등 전문직은 수입금액과 무관하게 복식부기의무자예요.">
+  <rect x="0" y="0" width="860" height="560" fill="#FBF7F0"/>
+
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#1A2B2A">업종별 기준수입금액으로 보는 장부 의무 판정</text>
+  <text x="40" y="74" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">직전연도 수입금액이 기준 이상이면 복식부기의무자, 미만이면 간편장부대상자예요 (소득세법 시행령 제208조 제5항)</text>
+
+  <text x="64" y="104" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">업종 예시</text>
+  <text x="505" y="104" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">기준수입금액</text>
+  <text x="704" y="104" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">직전연도 수입금액 판정</text>
+
+  <!-- Row 1 -->
+  <rect x="40" y="116" width="780" height="116" rx="12" fill="#F4EEE2"/>
+  <text x="64" y="150" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">도소매 · 농림어업 등</text>
+  <text x="64" y="176" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">도매·소매업, 농업·임업·어업, 광업,</text>
+  <text x="64" y="198" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">부동산매매업 등</text>
+  <line x1="418" y1="128" x2="418" y2="220" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="505" y="182" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#0A5F58">3억원</text>
+  <line x1="592" y1="128" x2="592" y2="220" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="606" y="138" width="196" height="36" rx="18" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.3"/>
+  <text x="704" y="161" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#0A5F58">미만 → 간편장부대상자</text>
+  <rect x="606" y="182" width="196" height="36" rx="18" fill="#FBF7F0" stroke="#C2873B" stroke-width="1.3"/>
+  <text x="704" y="205" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#C2873B">이상 → 복식부기의무자</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="244" width="780" height="116" rx="12" fill="#F4EEE2"/>
+  <text x="64" y="278" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">제조 · 음식 · 건설 등</text>
+  <text x="64" y="304" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">제조업, 숙박·음식점업, 건설업,</text>
+  <text x="64" y="326" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">운수·창고업, 정보통신업, 금융·보험업 등</text>
+  <line x1="418" y1="256" x2="418" y2="348" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="505" y="310" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#0A5F58">1억 5,000만원</text>
+  <line x1="592" y1="256" x2="592" y2="348" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="606" y="266" width="196" height="36" rx="18" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.3"/>
+  <text x="704" y="289" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#0A5F58">미만 → 간편장부대상자</text>
+  <rect x="606" y="310" width="196" height="36" rx="18" fill="#FBF7F0" stroke="#C2873B" stroke-width="1.3"/>
+  <text x="704" y="333" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#C2873B">이상 → 복식부기의무자</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="372" width="780" height="116" rx="12" fill="#F4EEE2"/>
+  <text x="64" y="406" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">서비스 · 부동산임대 등</text>
+  <text x="64" y="432" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">부동산임대업, 전문·과학·기술서비스업,</text>
+  <text x="64" y="454" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">교육서비스업, 보건업, 개인서비스업 등</text>
+  <line x1="418" y1="384" x2="418" y2="476" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="505" y="438" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#0A5F58">7,500만원</text>
+  <line x1="592" y1="384" x2="592" y2="476" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="606" y="394" width="196" height="36" rx="18" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.3"/>
+  <text x="704" y="417" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#0A5F58">미만 → 간편장부대상자</text>
+  <rect x="606" y="438" width="196" height="36" rx="18" fill="#FBF7F0" stroke="#C2873B" stroke-width="1.3"/>
+  <text x="704" y="461" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#C2873B">이상 → 복식부기의무자</text>
+
+  <text x="40" y="512" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">※ 이 기준은 외부조정 대상(소득세법 제131조의2, 6억·3억·1억5천만원)과 다른 조항이에요. 장부 판정은 시행령 제208조 값을 쓰세요.</text>
+  <text x="40" y="534" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">※ 신규사업자는 개업 첫해 간편장부대상자, 변호사·세무사 등 전문직은 수입금액과 무관하게 복식부기의무자예요.</text>
+</svg>

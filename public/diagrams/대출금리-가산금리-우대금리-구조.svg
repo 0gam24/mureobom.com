@@ -1,0 +1,53 @@
+<svg viewBox="0 0 820 484" xmlns="http://www.w3.org/2000/svg" role="img" font-family="'IBM Plex Sans KR', system-ui, sans-serif" aria-label="대출금리 3층 구조 분해도: 지표금리에 가산금리를 더하고 우대금리를 빼서 최종 대출금리가 정해진다">
+  <rect x="0" y="0" width="820" height="484" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="40" y="46" font-size="27" font-weight="700" fill="#1A2B2A">대출금리 3층 구조 분해</text>
+  <text x="40" y="74" font-size="14.5" fill="#4A5856">지표금리에 가산금리를 더하고, 우대금리를 빼서 최종 금리가 정해져요</text>
+
+  <!-- 공식 배너 -->
+  <rect x="40" y="94" width="740" height="54" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="410" y="127" font-size="19" font-weight="700" fill="#0A5F58" text-anchor="middle">지표금리   +   가산금리   −   우대금리   =   최종 대출금리</text>
+
+  <!-- 카드 1: 지표금리 -->
+  <rect x="40" y="172" width="234" height="186" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <rect x="60" y="188" width="7" height="20" rx="1.5" fill="#0E7C72"/>
+  <text x="74" y="204" font-size="17" font-weight="700" fill="#0E7C72">지표금리</text>
+  <text x="60" y="228" font-size="12" fill="#8A938F">대출 기준금리(시장에서 형성)</text>
+  <line x1="60" y1="238" x2="254" y2="238" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="60" y="264" font-size="14.5" fill="#1A2B2A">· 코픽스(COFIX)</text>
+  <text x="60" y="288" font-size="14.5" fill="#1A2B2A">· CD금리</text>
+  <text x="60" y="312" font-size="14.5" fill="#1A2B2A">· 금융채금리</text>
+  <text x="60" y="342" font-size="12" fill="#8A938F">은행 자금조달비용 지표</text>
+
+  <!-- 카드 2: 가산금리 -->
+  <rect x="292" y="172" width="234" height="186" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <rect x="312" y="188" width="7" height="20" rx="1.5" fill="#C2873B"/>
+  <text x="326" y="204" font-size="17" font-weight="700" fill="#C2873B">+ 가산금리</text>
+  <text x="312" y="228" font-size="12" fill="#8A938F">은행이 원가·위험을 얹는 부분</text>
+  <line x1="312" y1="238" x2="506" y2="238" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="312" y="262" font-size="14" fill="#1A2B2A">· 업무원가</text>
+  <text x="312" y="283" font-size="14" fill="#1A2B2A">· 법적비용</text>
+  <text x="312" y="304" font-size="14" fill="#1A2B2A">· 신용(리스크)프리미엄</text>
+  <text x="312" y="325" font-size="14" fill="#1A2B2A">· 자본비용</text>
+  <text x="312" y="346" font-size="14" fill="#1A2B2A">· 목표이익률</text>
+
+  <!-- 카드 3: 우대금리 -->
+  <rect x="544" y="172" width="234" height="186" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <rect x="564" y="188" width="7" height="20" rx="1.5" fill="#0A5F58"/>
+  <text x="578" y="204" font-size="17" font-weight="700" fill="#0A5F58">− 우대금리</text>
+  <text x="564" y="228" font-size="12" fill="#8A938F">거래실적에 따라 차감</text>
+  <line x1="564" y1="238" x2="758" y2="238" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="564" y="264" font-size="14.5" fill="#1A2B2A">· 급여이체</text>
+  <text x="564" y="288" font-size="14.5" fill="#1A2B2A">· 카드실적</text>
+  <text x="564" y="312" font-size="14.5" fill="#1A2B2A">· 자동이체</text>
+  <text x="564" y="342" font-size="12" fill="#8A938F">부수 거래실적 예시</text>
+
+  <!-- 결과 배너 -->
+  <rect x="40" y="376" width="740" height="56" rx="12" fill="#0E7C72"/>
+  <text x="410" y="403" font-size="18" font-weight="700" fill="#FBF7F0" text-anchor="middle">＝ 내가 실제로 내는 최종 대출금리</text>
+  <text x="410" y="423" font-size="12.5" fill="#E3F0EE" text-anchor="middle">같은 사람이어도 시점·개인 신용·은행·상품에 따라 달라져요</text>
+
+  <!-- 각주 -->
+  <text x="40" y="460" font-size="12" fill="#8A938F">구조 개념도입니다. 표시한 항목은 예시이며 실제 금리·수치는 시점·신용도·은행별로 다릅니다.</text>
+</svg>

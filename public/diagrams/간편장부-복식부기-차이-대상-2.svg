@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" role="img" aria-label="장부를 안 쓰고 추계신고할 때와 복식부기를 자발적으로 작성할 때의 세금 비교. 추계신고는 무기장가산세가 산출세액 곱하기 무기장 소득금액 나누기 종합소득금액 곱하기 20퍼센트로 부과되고, 소득금액을 단순경비율이나 기준경비율로 추계하며, 복식부기의무자면 무신고가산세와 비교해 큰 금액을 부담해요. 복식부기 자발 작성은 간편장부대상자가 산출세액의 20퍼센트를 기장세액공제 한도 100만원 받고, 실제 장부로 소득금액을 계산하며 성실 기장으로 가산세 위험을 낮춰요.">
+  <rect x="0" y="0" width="860" height="470" fill="#FBF7F0"/>
+
+  <text x="40" y="44" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#1A2B2A">장부를 안 쓰면(추계) vs 복식부기 자발 작성</text>
+  <text x="40" y="70" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">같은 소득이라도 장부를 어떻게 하느냐에 따라 가산세와 세액공제가 갈려요</text>
+
+  <!-- Left panel: 추계 -->
+  <rect x="40" y="92" width="375" height="328" rx="12" fill="#F4EEE2"/>
+  <rect x="60" y="110" width="230" height="34" rx="17" fill="#B5462F"/>
+  <text x="175" y="133" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">장부 안 씀 · 추계신고</text>
+
+  <text x="60" y="178" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">무기장가산세 20% 부과</text>
+  <rect x="60" y="188" width="335" height="52" rx="8" fill="#FBF7F0" stroke="#B5462F" stroke-width="1.3"/>
+  <text x="76" y="212" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">산출세액 × (무기장 소득금액 ÷</text>
+  <text x="76" y="230" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">종합소득금액) × 20%</text>
+
+  <text x="60" y="276" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">· 소득금액을 단순·기준경비율로 추계</text>
+  <text x="60" y="306" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">· 실제 경비가 축소 반영될 수 있어요</text>
+  <text x="60" y="336" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">· 복식부기의무자면 무신고가산세와</text>
+  <text x="72" y="358" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">비교해 큰 금액을 부담</text>
+
+  <!-- Right panel: 복식부기 자발 -->
+  <rect x="445" y="92" width="375" height="328" rx="12" fill="#F4EEE2"/>
+  <rect x="465" y="110" width="230" height="34" rx="17" fill="#0E7C72"/>
+  <text x="580" y="133" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">복식부기 자발 작성</text>
+
+  <text x="465" y="178" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">기장세액공제 (요건 충족 시)</text>
+  <rect x="465" y="188" width="335" height="52" rx="8" fill="#E3F0EE"/>
+  <text x="481" y="212" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#0A5F58">산출세액 × 20%</text>
+  <text x="481" y="230" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#0A5F58">(공제 한도 100만원)</text>
+
+  <text x="465" y="276" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">· 실제 장부로 소득금액을 정확히 계산</text>
+  <text x="465" y="306" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">· 결손금 이월공제 등 장부 혜택 적용</text>
+  <text x="465" y="336" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">· 성실 기장으로 가산세 위험을 낮춤</text>
+
+  <text x="40" y="450" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">기장세액공제는 간편장부대상자만 대상이에요. 복식부기의무자는 복식부기로 신고해야 무신고·무기장가산세를 피할 수 있어요.</text>
+</svg>
