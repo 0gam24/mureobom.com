@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-label="일용근로소득 원천징수 5단계 계산: 일당에서 1일 15만원 공제, 남은 금액에 6퍼센트로 산출세액, 근로소득세액공제 55퍼센트 차감해 결정세액 45퍼센트, 결정세액이 1000원 미만이면 소액부징수로 0원, 지방소득세는 소득세의 10퍼센트. 일당 18만7천원까지는 소득세 0원." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="560" fill="#FBF7F0"/>
+  <text x="32" y="46" font-size="24" font-weight="700" fill="#1A2B2A">일용근로소득 원천징수 계산 5단계</text>
+  <text x="32" y="74" font-size="14" fill="#4A5856">2026년 기준 (소득세법 제129조·제47조·제86조·제14조)</text>
+
+  <!-- Step 1 -->
+  <rect x="32" y="98" width="696" height="60" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="64" cy="128" r="16" fill="#0E7C72"/>
+  <text x="64" y="133" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+  <text x="94" y="122" font-size="16" font-weight="700" fill="#1A2B2A">1일 근로소득공제 15만원 차감</text>
+  <text x="94" y="146" font-size="14" fill="#4A5856">과세대상 = 일당 빼기 150,000원 (15만원 이하면 세금 0원)</text>
+
+  <!-- Step 2 -->
+  <rect x="32" y="170" width="696" height="60" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="64" cy="200" r="16" fill="#0E7C72"/>
+  <text x="64" y="205" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+  <text x="94" y="194" font-size="16" font-weight="700" fill="#1A2B2A">산출세액 = 과세대상 곱하기 6%</text>
+  <text x="94" y="218" font-size="14" fill="#4A5856">일용근로자 단일세율 6% 적용</text>
+
+  <!-- Step 3 -->
+  <rect x="32" y="242" width="696" height="60" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+  <circle cx="64" cy="272" r="16" fill="#0A5F58"/>
+  <text x="64" y="277" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+  <text x="94" y="266" font-size="16" font-weight="700" fill="#1A2B2A">근로소득세액공제 55% 차감</text>
+  <text x="94" y="290" font-size="14" fill="#0A5F58">결정세액(소득세) = 산출세액 곱하기 45%</text>
+
+  <!-- Step 4 -->
+  <rect x="32" y="314" width="696" height="60" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="64" cy="344" r="16" fill="#0E7C72"/>
+  <text x="64" y="349" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">4</text>
+  <text x="94" y="338" font-size="16" font-weight="700" fill="#1A2B2A">소액부징수: 소득세 1,000원 미만이면 0원</text>
+  <text x="94" y="362" font-size="14" fill="#4A5856">일당 약 187,000원까지 소득세 실제 징수 없음</text>
+
+  <!-- Step 5 -->
+  <rect x="32" y="386" width="696" height="60" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="64" cy="416" r="16" fill="#C2873B"/>
+  <text x="64" y="421" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">5</text>
+  <text x="94" y="410" font-size="16" font-weight="700" fill="#1A2B2A">지방소득세 = 소득세의 10% 추가</text>
+  <text x="94" y="434" font-size="14" fill="#4A5856">소득세를 뗄 때만 함께 특별징수</text>
+
+  <!-- No tax zone bar -->
+  <text x="32" y="484" font-size="15" font-weight="700" fill="#1A2B2A">일당 구간별 소득세</text>
+  <rect x="32" y="498" width="430" height="34" rx="6" fill="#E3F0EE" stroke="#0E7C72"/>
+  <rect x="462" y="498" width="266" height="34" rx="6" fill="#F4EEE2" stroke="#C2873B"/>
+  <text x="247" y="520" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">약 187,000원 이하: 소득세 0원</text>
+  <text x="595" y="520" font-size="14" font-weight="700" fill="#B5462F" text-anchor="middle">초과분 실효 2.7%</text>
+  <text x="32" y="552" font-size="12" fill="#8A938F">지방소득세 포함 시 15만원 초과분 실효 약 2.97%. 조문값은 개정 시 변동될 수 있어요.</text>
+</svg>

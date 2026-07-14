@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" role="img" aria-label="국민연금 장애등급별 급여 비교. 1급은 기본연금액 100퍼센트에 부양가족연금액을 더해 매월 장애연금, 2급은 80퍼센트에 부양가족연금액을 더해 매월, 3급은 60퍼센트에 부양가족연금액을 더해 매월, 4급은 기본연금액 225퍼센트를 한 번에 장애일시보상금으로 지급">
+  <rect x="0" y="0" width="820" height="520" fill="#FBF7F0"/>
+  <text x="40" y="44" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#1A2B2A">국민연금 장애등급별 급여 (기본연금액 기준)</text>
+  <text x="40" y="73" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">1~3급은 매월 장애연금 · 4급만 한 번에 장애일시보상금 (국민연금법 제68조)</text>
+
+  <!-- 표 헤더 -->
+  <rect x="40" y="92" width="740" height="46" rx="8" fill="#0E7C72"/>
+  <text x="110" y="121" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">장애등급</text>
+  <text x="300" y="121" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">급여 형태</text>
+  <text x="500" y="121" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">지급 수준</text>
+  <text x="690" y="121" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">부양가족연금액</text>
+
+  <!-- 1급 -->
+  <rect x="40" y="144" width="740" height="70" rx="8" fill="#E3F0EE"/>
+  <text x="110" y="187" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#0A5F58">1급</text>
+  <text x="300" y="187" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">매월 장애연금</text>
+  <text x="500" y="187" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0E7C72">기본연금액 100%</text>
+  <text x="690" y="187" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">가산</text>
+
+  <!-- 2급 -->
+  <rect x="40" y="220" width="740" height="70" rx="8" fill="#F4EEE2"/>
+  <text x="110" y="263" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#0A5F58">2급</text>
+  <text x="300" y="263" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">매월 장애연금</text>
+  <text x="500" y="263" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0E7C72">기본연금액 80%</text>
+  <text x="690" y="263" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">가산</text>
+
+  <!-- 3급 -->
+  <rect x="40" y="296" width="740" height="70" rx="8" fill="#E3F0EE"/>
+  <text x="110" y="339" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#0A5F58">3급</text>
+  <text x="300" y="339" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">매월 장애연금</text>
+  <text x="500" y="339" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0E7C72">기본연금액 60%</text>
+  <text x="690" y="339" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">가산</text>
+
+  <!-- 4급 (강조: 일시보상금) -->
+  <rect x="40" y="372" width="740" height="70" rx="8" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+  <text x="110" y="415" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#C2873B">4급</text>
+  <text x="300" y="415" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#C2873B">장애일시보상금 (한 번)</text>
+  <text x="500" y="415" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#C2873B">기본연금액 225%</text>
+  <text x="690" y="415" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#8A938F">해당 없음</text>
+
+  <!-- 캡션 -->
+  <text x="40" y="475" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">4급 일시보상금 225%(1천분의 2천250)의 근거는 국민연금법 제68조 제2항입니다.</text>
+  <text x="40" y="497" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">기본연금액은 개인 가입이력에 따라 달라 실제 수령액은 사람마다 다릅니다. 정확한 금액은 국민연금공단에서 조회하세요.</text>
+</svg>

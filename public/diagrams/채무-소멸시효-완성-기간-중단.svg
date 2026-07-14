@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-label="채권 종류별 소멸시효 기간 비교와 시효 중단 개념. 1년 단기 채권(숙박료 음식료 등), 3년 단기 채권(이자 급료 등), 상사채권 5년(상행위로 인한 채권), 일반 민사채권 10년, 판결로 확정된 채권은 단기라도 10년. 시효는 청구 압류 승인이 있으면 중단되고 그때까지 지난 기간은 사라진 뒤 다시 처음부터 진행됩니다." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="800" height="640" fill="#FBF7F0"/>
+
+  <text x="40" y="48" font-size="24" font-weight="700" fill="#1A2B2A">채권 종류별 소멸시효 기간과 중단 개념</text>
+  <text x="40" y="74" font-size="14" fill="#8A938F">민법 제162조 제163조 제164조 제165조, 상법 제64조 기준 (2026년)</text>
+
+  <!-- Section A: 기간 비교 -->
+  <rect x="40" y="96" width="720" height="272" rx="12" fill="#F4EEE2"/>
+  <text x="60" y="126" font-size="16" font-weight="700" fill="#0A5F58">1. 얼마나 지나야 시효가 완성되나요</text>
+
+  <!-- axis reference -->
+  <line x1="220" y1="150" x2="220" y2="344" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="470" y1="150" x2="470" y2="344" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="720" y1="150" x2="720" y2="344" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="220" y="362" font-size="11" fill="#8A938F" text-anchor="middle">5년</text>
+  <text x="470" y="362" font-size="11" fill="#8A938F" text-anchor="middle">10년</text>
+
+  <!-- 1년 -->
+  <text x="60" y="170" font-size="13" fill="#4A5856">1년 단기 (숙박료·음식료 등)</text>
+  <rect x="60" y="176" width="50" height="20" rx="4" fill="#C2873B"/>
+  <text x="120" y="191" font-size="12" fill="#1A2B2A">1년</text>
+
+  <!-- 3년 -->
+  <text x="60" y="214" font-size="13" fill="#4A5856">3년 단기 (이자·급료 등)</text>
+  <rect x="60" y="220" width="150" height="20" rx="4" fill="#C2873B"/>
+  <text x="220" y="235" font-size="12" fill="#1A2B2A">3년</text>
+
+  <!-- 상사 5년 -->
+  <text x="60" y="258" font-size="13" fill="#4A5856">상사채권 (상행위로 인한 채권)</text>
+  <rect x="60" y="264" width="250" height="20" rx="4" fill="#0E7C72"/>
+  <text x="320" y="279" font-size="12" fill="#1A2B2A">5년</text>
+
+  <!-- 민사 10년 -->
+  <text x="60" y="302" font-size="13" fill="#4A5856">일반 민사채권</text>
+  <rect x="60" y="308" width="500" height="20" rx="4" fill="#0A5F58"/>
+  <text x="570" y="323" font-size="12" fill="#1A2B2A">10년</text>
+
+  <!-- 판결 확정 -->
+  <text x="60" y="346" font-size="12" fill="#B5462F">판결로 확정되면 단기 채권도 10년으로 연장 (제165조)</text>
+
+  <!-- Section B: 중단 -->
+  <rect x="40" y="384" width="720" height="224" rx="12" fill="#E3F0EE"/>
+  <text x="60" y="414" font-size="16" font-weight="700" fill="#0A5F58">2. 청구·압류·승인이 있으면 시효가 다시 처음부터</text>
+
+  <!-- timeline -->
+  <line x1="70" y1="470" x2="730" y2="470" stroke="#E3DCCF" stroke-width="2"/>
+
+  <!-- phase 1 progress -->
+  <rect x="70" y="458" width="230" height="24" rx="4" fill="#0E7C72"/>
+  <text x="185" y="475" font-size="12" fill="#FBF7F0" text-anchor="middle">시효 진행 (예: 3년 경과)</text>
+
+  <!-- 중단 point -->
+  <circle cx="330" cy="470" r="12" fill="#B5462F"/>
+  <text x="330" y="510" font-size="12" font-weight="700" fill="#B5462F" text-anchor="middle">중단사유 발생</text>
+  <text x="330" y="528" font-size="11" fill="#4A5856" text-anchor="middle">청구·압류·가압류·승인 (제168조)</text>
+
+  <!-- phase 2 reset -->
+  <rect x="360" y="458" width="370" height="24" rx="4" fill="#0A5F58"/>
+  <text x="545" y="475" font-size="12" fill="#FBF7F0" text-anchor="middle">지난 기간 사라지고 0부터 다시 시작 (제178조)</text>
+
+  <text x="60" y="566" font-size="12" fill="#4A5856">단순 독촉(최고)만으로는 6개월 안에 재판상 청구가 없으면 중단 효력이 없어요 (제174조).</text>
+  <text x="60" y="588" font-size="12" fill="#4A5856">일부 변제나 "갚겠다"는 각서는 승인에 해당해 시효가 다시 처음부터 진행될 수 있어요.</text>
+
+  <text x="40" y="628" font-size="11" fill="#8A938F">개별 채무의 시효 완성 여부는 사안마다 다를 수 있어요. 자세한 내용은 본문과 출처를 확인하세요.</text>
+</svg>
