@@ -27,6 +27,29 @@
 
 ---
 
+## D-2026-07-18-1: 일일 발행 보류 — 클라우드 egress 정책이 공식 1차 출처 도메인 차단
+
+- **층위**: 긴급(즉시) — 발행 파이프라인 중단
+- **변경**: 2026-07-18 KST 자동 발행 런에서 3편(loan·tax·insurance) brief를
+  즉석 승인(approved)까지 진행했으나, **본문 발행은 보류**하고 승인 brief만 커밋.
+  - loan/전월세전환율-계산-법정한도
+  - tax/부가가치세-조기환급-대상-신청-기간
+  - insurance/국민연금-출산크레딧-군복무크레딧-가입기간
+- **근거 (Orient)**: 이 클라우드 세션의 egress 정책 프록시가 공식 1차 출처
+  도메인을 CONNECT 403(policy denial)로 전면 차단. 실측(재시도 포함):
+  `www.law.go.kr`·`www.nts.go.kr`·`www.nps.or.kr`·`www.bok.or.kr` 전부
+  `connect_rejected / policy denial`. `raw.githubusercontent.com`은 200
+  (그래서 github push는 정상) — 즉 광범위 웹 차단 + 허용목록 정책.
+  researcher가 sources[].url을 HTTP 200으로 검증 불가 →
+  **절대 원칙 2(공식 1차 출처 검증 필수)** 위반을 피하기 위해 발행 차단.
+- **기대 효과**: 다음 런(로컬 또는 egress 허용 환경)에서 이 3개 승인 brief를
+  소진해 정상 발행. brief는 이미 승인 상태라 researcher부터 재개 가능.
+- **롤백 기준**: N/A (환경 제약). egress 정책에 gov.kr/law.go.kr/nts.go.kr/
+  nps.or.kr/bok.or.kr 허용이 추가되면 클라우드 런 재개.
+- **연관 PR**: (이 커밋 — 브리프 승인만, 발행 보류)
+
+---
+
 ## D-2026-06-15-1: 토픽 엔진 — 스캐너 큐 주도 발행 + 파생 질의/의미중복 차단
 
 - **층위**: 긴급(즉시) — 토픽 소스 구조 변경
