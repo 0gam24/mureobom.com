@@ -1,6 +1,6 @@
 id: support-차상위계층-기준-혜택-신청방법
 cluster: support
-status: approved          # 운영자 일일 자동 발행 지시에 따른 즉석 승인
+status: published         # 2026-07-17 compliance 게이트 통과 (운영자 일일 자동 발행 지시 즉석 승인분)
 
 target_query: "차상위계층 기준 소득 조건 혜택 신청 방법"
 search_intent: 절차형     # 선정 기준 확인 + 유형별 혜택 + 신청 절차를 함께 원함

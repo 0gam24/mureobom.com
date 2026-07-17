@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 640" role="img" aria-label="2026년 기준 중위소득 대비 급여별 선정 기준선: 생계급여 32%, 의료급여 40%, 주거급여 48%, 교육급여 50%. 차상위계층은 기초생활 수급자가 아니면서 소득인정액이 기준 중위소득 50% 이하인 경우로, 1인 가구 월 1,282,119원, 4인 가구 3,247,369원 이하.">
+  <rect x="0" y="0" width="720" height="640" fill="#FBF7F0"/>
+
+  <text x="360" y="42" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#1A2B2A">2026년 급여별 선정 기준선과 차상위 구간</text>
+  <text x="360" y="68" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">소득인정액이 기준 중위소득의 몇 % 이하인지로 구간이 나뉘어요</text>
+
+  <line x1="40" y1="88" x2="680" y2="88" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 중위 50% 상한 기준선 -->
+  <text x="520" y="104" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" font-weight="700" fill="#C2873B">중위 50%</text>
+  <line x1="520" y1="110" x2="520" y2="498" stroke="#C2873B" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- 생계급여 32% -->
+  <text x="40" y="132" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">생계급여 선정기준</text>
+  <rect x="40" y="140" width="480" height="18" rx="4" fill="#F4EEE2"/>
+  <rect x="40" y="140" width="307" height="18" rx="4" fill="#0E7C72"/>
+  <text x="357" y="154" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">32%</text>
+  <text x="40" y="176" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">1인 820,556원 · 4인 2,078,316원 이하</text>
+
+  <!-- 의료급여 40% -->
+  <text x="40" y="208" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">의료급여 선정기준</text>
+  <rect x="40" y="216" width="480" height="18" rx="4" fill="#F4EEE2"/>
+  <rect x="40" y="216" width="384" height="18" rx="4" fill="#0E7C72"/>
+  <text x="434" y="230" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">40%</text>
+  <text x="40" y="252" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">1인 1,025,695원 · 4인 2,597,895원 이하</text>
+
+  <!-- 주거급여 48% -->
+  <text x="40" y="284" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">주거급여 선정기준</text>
+  <rect x="40" y="292" width="480" height="18" rx="4" fill="#F4EEE2"/>
+  <rect x="40" y="292" width="461" height="18" rx="4" fill="#0E7C72"/>
+  <text x="530" y="306" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">48%</text>
+  <text x="40" y="328" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">1인 1,230,834원 · 4인 3,117,474원 이하</text>
+
+  <!-- 교육급여 50% -->
+  <text x="40" y="360" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">교육급여 선정기준</text>
+  <rect x="40" y="368" width="480" height="18" rx="4" fill="#F4EEE2"/>
+  <rect x="40" y="368" width="480" height="18" rx="4" fill="#0E7C72"/>
+  <text x="530" y="382" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">50%</text>
+  <text x="40" y="404" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">1인 1,282,119원 · 4인 3,247,369원 이하</text>
+
+  <!-- 차상위 상한 50% -->
+  <text x="40" y="436" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">차상위계층 상한</text>
+  <rect x="40" y="444" width="480" height="18" rx="4" fill="#F4EEE2"/>
+  <rect x="40" y="444" width="480" height="18" rx="4" fill="#C2873B"/>
+  <text x="530" y="458" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#C2873B">50%</text>
+  <text x="40" y="480" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">1인 1,282,119원 · 4인 3,247,369원 이하 (기초생활 수급자는 제외)</text>
+
+  <!-- 요약 패널 -->
+  <rect x="40" y="508" width="640" height="88" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="60" y="540" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#0A5F58">차상위계층: 기초생활 수급자가 아니면서 소득인정액이 중위소득 50% 이하 (시행령 제3조)</text>
+  <text x="60" y="568" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">소득인정액 = 소득평가액 + 재산의 소득환산액 (국민기초생활 보장법 제6조의3)</text>
+
+  <line x1="40" y1="612" x2="680" y2="612" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="360" y="630" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">출처: 보건복지부 고시 제2025-135호(2026년 1월 1일 시행) · 국민기초생활 보장법 및 시행령</text>
+</svg>

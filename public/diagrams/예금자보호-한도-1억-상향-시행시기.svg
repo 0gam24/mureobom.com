@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" role="img" aria-label="예금 보호 주체별 구분. 은행, 상호저축은행, 보험회사, 투자매매·투자중개업자, 종합금융회사는 예금보험공사가 1인당 금융회사별 1억원까지 보호. 새마을금고, 신협, 농협·수협 지역조합, 산림조합은 각 중앙회 자체 기금이 1억원까지 보호하며 2025년 9월 1일 동시 상향. 우체국 예금과 보험은 국가가 전액 보장. 펀드, 증권사 CMA, 변액보험 등 실적배당형 상품은 보호 대상 아님">
+  <rect x="0" y="0" width="820" height="600" fill="#FBF7F0"/>
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#1A2B2A">예금 보호 주체별 구분 (2025.9.1.부터 현행 기준)</text>
+  <text x="40" y="74" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">1인당, 금융회사(조합)별로 원금과 소정 이자를 합산해 한도를 적용해요</text>
+
+  <!-- 카드 1: 예금보험공사 보호 -->
+  <rect x="40" y="96" width="240" height="384" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="160" y="130" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">예금보험공사가 보호</text>
+  <text x="160" y="152" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">예금자보호법</text>
+  <line x1="60" y1="166" x2="260" y2="166" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="160" y="196" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">은행</text>
+  <text x="160" y="226" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">상호저축은행</text>
+  <text x="160" y="256" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">보험회사</text>
+  <text x="160" y="286" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">투자매매·투자중개업자</text>
+  <text x="160" y="316" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">종합금융회사</text>
+  <text x="160" y="344" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">(부보금융회사 5종)</text>
+  <text x="160" y="412" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="28" font-weight="700" fill="#0E7C72">1억원</text>
+  <text x="160" y="436" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">1인당 금융회사별</text>
+  <text x="160" y="456" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">원금과 소정 이자 합산</text>
+
+  <!-- 카드 2: 중앙회 자체 기금 보호 -->
+  <rect x="290" y="96" width="240" height="384" rx="12" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+  <text x="410" y="130" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#C2873B">중앙회 자체 기금 보호</text>
+  <text x="410" y="152" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">새마을금고법 등 개별 법률</text>
+  <line x1="310" y1="166" x2="510" y2="166" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="410" y="196" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">새마을금고</text>
+  <text x="410" y="226" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">신용협동조합(신협)</text>
+  <text x="410" y="256" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">농협·수협 지역조합</text>
+  <text x="410" y="286" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">산림조합</text>
+  <text x="410" y="330" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#B5462F">예금보험공사 대상 아님</text>
+  <text x="410" y="412" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="28" font-weight="700" fill="#C2873B">1억원</text>
+  <text x="410" y="436" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">2025.9.1. 동시 상향</text>
+  <text x="410" y="456" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">각 개별법 자체 기금으로 보호</text>
+
+  <!-- 카드 3: 국가 전액 보장 -->
+  <rect x="540" y="96" width="240" height="384" rx="12" fill="#F4EEE2" stroke="#0A5F58" stroke-width="2"/>
+  <text x="660" y="130" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">국가가 전액 보장</text>
+  <text x="660" y="152" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">우체국예금·보험법 제4조</text>
+  <line x1="560" y1="166" x2="760" y2="166" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="660" y="196" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">우체국 예금</text>
+  <text x="660" y="226" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">우체국 보험</text>
+  <text x="660" y="330" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">예금보험공사 제도와 별개</text>
+  <text x="660" y="412" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="28" font-weight="700" fill="#0A5F58">전액 보장</text>
+  <text x="660" y="436" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">별도 한도 없음</text>
+  <text x="660" y="456" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">국가가 지급 책임</text>
+
+  <!-- 하단 주석 -->
+  <text x="40" y="518" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#B5462F">펀드·증권사 CMA·변액보험 등 실적배당형 상품은 보호 대상이 아니에요.</text>
+  <text x="40" y="544" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">같은 금융회사 안의 예·적금은 합산해 1억원, 다른 금융회사 예금은 각각 별도로 1억원까지 보호돼요.</text>
+  <text x="40" y="568" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">개별 상품의 보호 여부는 해당 금융회사와 예금보험공사에서 확인하세요.</text>
+</svg>

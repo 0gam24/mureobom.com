@@ -1,6 +1,6 @@
 id: tax-전자세금계산서-의무발급-대상-가산세
 cluster: tax
-status: approved         # 운영자 일일 자동 발행 즉석 승인 (2026-07-17 KST)
+status: published        # compliance 게이트 통과 (2026-07-17 KST)
 
 target_query: "전자세금계산서 의무발급 대상 기준 가산세 발급기한"
 search_intent: 절차형     # 내 사업자 유형이 의무인지 확인 + 발급·전송 절차/기한을 함께 원함

@@ -1,6 +1,6 @@
 id: loan-예금자보호-한도-1억-상향-시행시기
 cluster: loan
-status: approved          # 운영자 일일 자동 발행 스케줄 = 즉석 승인
+status: published         # compliance 게이트 통과 (2026-07-17 KST)
 
 target_query: "예금자보호 한도 1억 상향 언제부터 대상 은행 저축은행"
 search_intent: 정보형      # 제도 변경 사실·시기·적용 대상 확인 목적

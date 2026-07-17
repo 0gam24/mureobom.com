@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 668" role="img" aria-label="전자세금계산서 의무발급 판정 흐름과 가산세 5종 비교. 법인사업자는 전원 의무 발급, 개인사업자는 직전연도 공급가액 합계(면세 포함)가 8천만원 이상이면 다음 해 7월 1일부터 의무이고 이후 매출이 줄어도 계속된다. 가산세는 공급가액 대비 미발급 2퍼센트, 지연발급 1퍼센트, 종이 발급 1퍼센트, 미전송 0.5퍼센트, 지연전송 0.3퍼센트." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="668" fill="#FBF7F0"/>
+  <text x="32" y="44" font-size="24" font-weight="700" fill="#1A2B2A">전자세금계산서 의무발급 판정과 가산세</text>
+  <text x="32" y="72" font-size="13" fill="#4A5856">2026년 기준, 부가가치세법 제32조·제60조, 같은 법 시행령 제68조</text>
+
+  <!-- 판정 흐름 -->
+  <text x="32" y="110" font-size="15" font-weight="700" fill="#1A2B2A">의무발급 대상 판정</text>
+
+  <!-- 법인 행 -->
+  <rect x="32" y="122" width="180" height="56" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="122" y="146" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">법인사업자</text>
+  <text x="122" y="166" font-size="12" fill="#4A5856" text-anchor="middle">규모·업종 무관</text>
+  <line x1="216" y1="150" x2="248" y2="150" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="248,144 260,150 248,156" fill="#8A938F"/>
+  <rect x="264" y="122" width="464" height="56" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="496" y="146" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">전원 의무 발급 (2011년부터 전면 시행)</text>
+  <text x="496" y="166" font-size="12" fill="#4A5856" text-anchor="middle">기준금액 판정 없이 전자로만 발급</text>
+
+  <!-- 개인 행 -->
+  <rect x="32" y="194" width="180" height="72" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="122" y="220" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">개인사업자</text>
+  <text x="122" y="238" font-size="11" fill="#4A5856" text-anchor="middle">직전연도 공급가액 합계</text>
+  <text x="122" y="254" font-size="11" fill="#4A5856" text-anchor="middle">(면세공급가액 포함)</text>
+  <line x1="216" y1="230" x2="248" y2="230" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="248,224 260,230 248,236" fill="#8A938F"/>
+  <rect x="264" y="194" width="190" height="72" rx="10" fill="#F4EEE2" stroke="#C2873B"/>
+  <text x="359" y="226" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">8천만원 이상?</text>
+  <text x="359" y="246" font-size="11" fill="#4A5856" text-anchor="middle">사업장별 합계 기준</text>
+
+  <text x="472" y="204" font-size="12" font-weight="700" fill="#0A5F58" text-anchor="middle">예</text>
+  <line x1="454" y1="212" x2="492" y2="212" stroke="#0E7C72" stroke-width="2"/>
+  <polygon points="492,206 504,212 492,218" fill="#0E7C72"/>
+  <rect x="508" y="186" width="220" height="52" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="618" y="208" font-size="13" font-weight="700" fill="#0A5F58" text-anchor="middle">다음 해 7월 1일부터 의무</text>
+  <text x="618" y="226" font-size="11" fill="#4A5856" text-anchor="middle">이후 매출이 줄어도 계속</text>
+
+  <text x="472" y="272" font-size="12" font-weight="700" fill="#8A938F" text-anchor="middle">아니오</text>
+  <line x1="454" y1="252" x2="492" y2="252" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="492,246 504,252 492,258" fill="#8A938F"/>
+  <rect x="508" y="246" width="220" height="44" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="618" y="272" font-size="13" font-weight="700" fill="#4A5856" text-anchor="middle">의무 아님 (선택 발급 가능)</text>
+
+  <text x="32" y="312" font-size="12" fill="#8A938F">의무 시작 1개월 전까지 관할 세무서장이 대상자에게 통지 (시행령 제68조 제3항)</text>
+
+  <!-- 가산세 비교 -->
+  <text x="32" y="348" font-size="15" font-weight="700" fill="#1A2B2A">가산세 5종 비교 (공급가액 대비, 부가가치세법 제60조)</text>
+
+  <!-- 미발급 2% -->
+  <text x="32" y="382" font-size="14" font-weight="700" fill="#1A2B2A">미발급</text>
+  <text x="32" y="400" font-size="11" fill="#8A938F">확정신고 기한까지 미발급</text>
+  <rect x="185" y="370" width="480" height="28" rx="4" fill="#B5462F"/>
+  <text x="675" y="390" font-size="15" font-weight="700" fill="#B5462F">2%</text>
+
+  <!-- 지연발급 1% -->
+  <text x="32" y="432" font-size="14" font-weight="700" fill="#1A2B2A">지연발급</text>
+  <text x="32" y="450" font-size="11" fill="#8A938F">발급시기 지나 기한 내 발급</text>
+  <rect x="185" y="420" width="240" height="28" rx="4" fill="#C2873B"/>
+  <text x="435" y="440" font-size="15" font-weight="700" fill="#C2873B">1%</text>
+
+  <!-- 종이 발급 1% -->
+  <text x="32" y="482" font-size="14" font-weight="700" fill="#1A2B2A">종이 발급</text>
+  <text x="32" y="500" font-size="11" fill="#8A938F">전자 의무자가 종이로 발급</text>
+  <rect x="185" y="470" width="240" height="28" rx="4" fill="#C2873B"/>
+  <text x="435" y="490" font-size="15" font-weight="700" fill="#C2873B">1%</text>
+
+  <!-- 미전송 0.5% -->
+  <text x="32" y="532" font-size="14" font-weight="700" fill="#1A2B2A">미전송</text>
+  <text x="32" y="550" font-size="11" fill="#8A938F">확정신고 기한까지 미전송</text>
+  <rect x="185" y="520" width="120" height="28" rx="4" fill="#0E7C72"/>
+  <text x="315" y="540" font-size="15" font-weight="700" fill="#0A5F58">0.5%</text>
+
+  <!-- 지연전송 0.3% -->
+  <text x="32" y="582" font-size="14" font-weight="700" fill="#1A2B2A">지연전송</text>
+  <text x="32" y="600" font-size="11" fill="#8A938F">발급일 다음 날 지나 전송</text>
+  <rect x="185" y="570" width="72" height="28" rx="4" fill="#0E7C72"/>
+  <text x="267" y="590" font-size="15" font-weight="700" fill="#0A5F58">0.3%</text>
+
+  <text x="32" y="630" font-size="12" fill="#8A938F">발급 기한: 원칙은 공급시기, 월합계 등 특례는 다음 달 10일 · 전송 기한: 발급일의 다음 날</text>
+  <text x="32" y="650" font-size="12" fill="#8A938F">기준금액·가산세율은 법 개정으로 달라질 수 있어요. 적용 시점의 현행 조문을 확인해 주세요.</text>
+</svg>
