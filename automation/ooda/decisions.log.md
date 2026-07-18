@@ -27,6 +27,35 @@
 
 ---
 
+## D-2026-07-19-1: 일일 발행 보류(3일 연속) — 클라우드 egress 차단 지속, 04:30 + 06:00 재시도 모두 실패
+
+- **층위**: 긴급(즉시) — 발행 파이프라인 중단
+- **변경**: 2026-07-19 KST 자동 발행. **04:30 런**이 3편 brief를 즉석 승인(approved)까지
+  진행하고 egress 차단으로 본문 발행을 보류한 뒤 승인 brief만 커밋(`252ac72`).
+  **06:00 재시도 런**(이 항목)은 egress 복구 여부만 재확인 → 여전히 차단이라
+  추가 작업 없이 보류 유지. 신규 brief 생성 안 함(중복 방지, §0).
+  - loan/전세-계약갱신청구권-전월세상한제
+  - tax/생애최초-취득세-감면-조건-한도
+  - support/노인맞춤돌봄서비스-신청자격-내용
+- **근거 (Orient)**: 06:00 재시도 실측 — `www.law.go.kr` 60초 간격 3회 + `example.com`
+  단발 프로브 전부 `CONNECT tunnel failed, response 403`(gateway policy denial).
+  프록시 status의 `recentRelayFailures`도 `connect_rejected / policy denial`로
+  law.go.kr·support.google.com·example.com 기록. 즉 특정 도메인이 아니라
+  **아웃바운드 HTTPS 전면 차단**(허용목록에 github push 경로만 열림).
+  researcher가 sources[].url을 HTTP 200 + 실내용으로 검증 불가 →
+  **절대 원칙 2(공식 1차 출처 검증 필수)** 위반 회피 위해 발행 차단 유지.
+- **패턴 경보**: KST 07-17→07-18→07-19 **3일 연속** 클라우드 04:30 런이 egress로 보류.
+  종전 2일은 이후 로컬(egress 허용) 런이 승인 brief를 소진해 정상 발행(07-18분 = `ef3de02`).
+  일시 장애가 아니라 이 클라우드 환경의 **고정 egress 정책 문제**로 판단.
+- **기대 효과 / 권고**:
+  - 단기: 07-19 3편을 로컬 또는 egress 허용 환경에서 소진 발행(brief 이미 approved라 researcher부터 재개).
+  - 근본: 클라우드 환경 네트워크 정책에 gov.kr·law.go.kr·nts.go.kr·nps.or.kr·bok.or.kr·fss.or.kr
+    허용 추가 여부를 운영자가 확인/조정해야 무인 클라우드 발행 재개 가능.
+- **롤백 기준**: N/A (환경 제약).
+- **연관 PR**: (이 커밋 — decisions.log ADR 보강만. brief 승인·발행 보류는 `252ac72`)
+
+---
+
 ## D-2026-07-18-1: 일일 발행 보류 — 클라우드 egress 정책이 공식 1차 출처 도메인 차단
 
 - **층위**: 긴급(즉시) — 발행 파이프라인 중단
