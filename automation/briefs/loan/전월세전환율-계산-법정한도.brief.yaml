@@ -1,6 +1,6 @@
 id: loan-전월세전환율-계산-법정한도
 cluster: loan
-status: approved       # 운영자 즉석 승인 (일일 자동 발행 스케줄 지시)
+status: published      # compliance 게이트 통과 발행 (2026-07-18)
 
 target_query: "전세 월세 전환율 계산 법정 한도"
 search_intent: 절차형     # 계산 방법 + 법정 상한 확인을 함께 원함

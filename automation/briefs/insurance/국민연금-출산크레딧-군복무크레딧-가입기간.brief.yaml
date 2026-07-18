@@ -1,6 +1,6 @@
 id: insurance-국민연금-출산크레딧-군복무크레딧-가입기간
 cluster: insurance
-status: approved       # 운영자 즉석 승인 (일일 자동 발행 스케줄 지시)
+status: published      # compliance 게이트 통과 (2026-07-18)
 
 target_query: "국민연금 출산크레딧 군복무크레딧 가입기간 인정"
 search_intent: 정보형     # 제도 원리·인정 방식·반영 시점을 확인하려는 의도

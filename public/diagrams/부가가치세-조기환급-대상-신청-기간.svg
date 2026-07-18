@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 536" role="img" aria-label="부가가치세 조기환급 요약. 일반환급은 확정신고 기한이 지난 후 30일 이내, 조기환급은 신고 기한이 지난 후 15일 이내에 환급한다. 조기환급 대상은 영세율 적용, 사업설비 신설·취득·확장·증축, 재무구조개선계획 이행 세 가지다. 신고 단위는 예정신고기간·과세기간 종료 후 또는 매월·매 2월 단위 선택이며, 조기환급기간이 끝난 날부터 25일 이내에 신고한다. 확정신고만으로 자동 환급되지 않고 조기환급 신고를 따로 해야 한다." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="536" fill="#FBF7F0"/>
+  <text x="32" y="44" font-size="24" font-weight="700" fill="#1A2B2A">부가가치세 조기환급 한눈에 보기</text>
+  <text x="32" y="70" font-size="13" fill="#4A5856">2026년 기준, 부가가치세법 제59조 · 같은 법 시행령 제107조</text>
+
+  <!-- 환급 시기 비교 -->
+  <text x="32" y="104" font-size="15" font-weight="700" fill="#1A2B2A">환급 시기 비교 (신고·확정신고 기한 이후)</text>
+
+  <text x="32" y="135" font-size="14" font-weight="700" fill="#1A2B2A">일반환급</text>
+  <text x="32" y="153" font-size="11" fill="#8A938F">확정신고 기한 후</text>
+  <rect x="210" y="122" width="430" height="26" rx="4" fill="#8A938F"/>
+  <text x="648" y="141" font-size="14" font-weight="700" fill="#4A5856">30일 이내</text>
+
+  <text x="32" y="185" font-size="14" font-weight="700" fill="#1A2B2A">조기환급</text>
+  <text x="32" y="203" font-size="11" fill="#8A938F">신고 기한 후</text>
+  <rect x="210" y="172" width="215" height="26" rx="4" fill="#0E7C72"/>
+  <text x="433" y="191" font-size="14" font-weight="700" fill="#0A5F58">15일 이내</text>
+
+  <!-- 대상 3요건 -->
+  <text x="32" y="232" font-size="15" font-weight="700" fill="#1A2B2A">조기환급 대상 세 가지 (부가가치세법 제59조 제2항)</text>
+
+  <rect x="32" y="244" width="222" height="104" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="143" y="272" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">1. 영세율 적용</text>
+  <text x="143" y="298" font-size="11" fill="#4A5856" text-anchor="middle">수출 등 영세율 매출로</text>
+  <text x="143" y="316" font-size="11" fill="#4A5856" text-anchor="middle">매입세액이 커진 경우</text>
+  <text x="143" y="334" font-size="11" fill="#8A938F" text-anchor="middle">(법 제21조~제24조)</text>
+
+  <rect x="269" y="244" width="222" height="104" rx="10" fill="#F4EEE2" stroke="#C2873B"/>
+  <text x="380" y="272" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">2. 사업설비 투자</text>
+  <text x="380" y="298" font-size="11" fill="#4A5856" text-anchor="middle">기계·건물 등 감가상각</text>
+  <text x="380" y="316" font-size="11" fill="#4A5856" text-anchor="middle">자산을 신설·취득·</text>
+  <text x="380" y="334" font-size="11" fill="#4A5856" text-anchor="middle">확장·증축</text>
+
+  <rect x="506" y="244" width="222" height="104" rx="10" fill="#F4EEE2" stroke="#C2873B"/>
+  <text x="617" y="272" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">3. 재무구조개선</text>
+  <text x="617" y="298" font-size="11" fill="#4A5856" text-anchor="middle">재무구조개선계획을</text>
+  <text x="617" y="316" font-size="11" fill="#4A5856" text-anchor="middle">이행 중인 사업자</text>
+  <text x="617" y="334" font-size="11" fill="#8A938F" text-anchor="middle">(계획서 첨부)</text>
+
+  <!-- 신고 단위 -->
+  <text x="32" y="384" font-size="15" font-weight="700" fill="#1A2B2A">조기환급 신고 단위 (시행령 제107조 제4항)</text>
+
+  <rect x="32" y="396" width="340" height="64" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="52" y="422" font-size="13" font-weight="700" fill="#1A2B2A">예정신고기간·과세기간 종료 후</text>
+  <text x="52" y="444" font-size="11" fill="#4A5856">정기 신고 때 함께 신고</text>
+
+  <rect x="388" y="396" width="340" height="64" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="408" y="422" font-size="13" font-weight="700" fill="#0A5F58">매월 또는 매 2월 단위 선택</text>
+  <text x="408" y="444" font-size="11" fill="#4A5856">조기환급기간 끝난 날부터 25일 이내 신고</text>
+
+  <text x="32" y="492" font-size="12" fill="#8A938F">확정신고만으로 자동 환급되지 않아요. 조기환급 신고를 따로 해야 신고기한 후 15일 이내에 환급돼요.</text>
+  <text x="32" y="512" font-size="12" fill="#8A938F">환급 시기·대상은 법 개정으로 달라질 수 있어요. 적용 시점의 현행 조문을 확인해 주세요.</text>
+</svg>

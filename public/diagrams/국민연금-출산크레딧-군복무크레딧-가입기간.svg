@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 640" role="img" aria-label="출산크레딧 자녀 수별 누적 인정 개월수 구법 대 현행 비교. 현행(2026년 이후 출생·입양)은 첫째 12개월, 둘째 24개월, 셋째 42개월, 넷째 60개월, 다섯째 78개월이며 상한이 폐지됐어요. 구법은 둘째부터 인정하고 상한 50개월이에요. 군복무크레딧은 일률 6개월에서 실제 복무기간 최대 12개월로 확대됐어요.">
+  <rect x="0" y="0" width="760" height="640" fill="#FBF7F0"/>
+
+  <text x="380" y="42" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#1A2B2A">출산·군복무크레딧, 가입기간이 이만큼 늘어나요</text>
+  <text x="380" y="70" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">2026년 개정으로 출산크레딧은 첫째부터, 군복무크레딧은 최대 12개월로 확대</text>
+
+  <line x1="40" y1="90" x2="720" y2="90" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 범례 -->
+  <rect x="200" y="106" width="18" height="18" rx="4" fill="#C2873B"/>
+  <text x="226" y="120" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">구법 (2025.12.31.까지 출생·입양)</text>
+  <rect x="470" y="106" width="18" height="18" rx="4" fill="#0E7C72"/>
+  <text x="496" y="120" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">현행 (2026.1.1. 이후 출생·입양)</text>
+
+  <text x="40" y="152" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">출산크레딧 누적 인정 개월수</text>
+
+  <!-- 막대 차트: 1행당 구법(골드)·현행(틸), 척도 5px/개월, 기준 x=170 -->
+  <!-- 자녀 1명 -->
+  <text x="150" y="192" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">자녀 1명</text>
+  <rect x="170" y="174" width="2" height="16" fill="#C2873B"/>
+  <text x="178" y="187" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">인정 없음</text>
+  <rect x="170" y="194" width="60" height="16" fill="#0E7C72"/>
+  <text x="238" y="207" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#0A5F58">12개월</text>
+
+  <!-- 자녀 2명 -->
+  <text x="150" y="252" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">자녀 2명</text>
+  <rect x="170" y="234" width="60" height="16" fill="#C2873B"/>
+  <text x="238" y="247" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">12개월</text>
+  <rect x="170" y="254" width="120" height="16" fill="#0E7C72"/>
+  <text x="298" y="267" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#0A5F58">24개월</text>
+
+  <!-- 자녀 3명 -->
+  <text x="150" y="312" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">자녀 3명</text>
+  <rect x="170" y="294" width="150" height="16" fill="#C2873B"/>
+  <text x="328" y="307" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">30개월</text>
+  <rect x="170" y="314" width="210" height="16" fill="#0E7C72"/>
+  <text x="388" y="327" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#0A5F58">42개월</text>
+
+  <!-- 자녀 4명 -->
+  <text x="150" y="372" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">자녀 4명</text>
+  <rect x="170" y="354" width="240" height="16" fill="#C2873B"/>
+  <text x="418" y="367" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">48개월</text>
+  <rect x="170" y="374" width="300" height="16" fill="#0E7C72"/>
+  <text x="478" y="387" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#0A5F58">60개월</text>
+
+  <!-- 자녀 5명 -->
+  <text x="150" y="432" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">자녀 5명</text>
+  <rect x="170" y="414" width="250" height="16" fill="#C2873B"/>
+  <text x="428" y="427" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">50개월(상한)</text>
+  <rect x="170" y="434" width="390" height="16" fill="#0E7C72"/>
+  <text x="568" y="447" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#0A5F58">78개월</text>
+
+  <text x="170" y="472" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#B5462F">구법은 상한 50개월, 현행은 상한 폐지 (자녀 수 늘수록 격차가 벌어져요)</text>
+
+  <!-- 군복무크레딧 패널 -->
+  <rect x="40" y="492" width="680" height="66" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="60" y="520" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">군복무크레딧</text>
+  <rect x="60" y="530" width="80" height="18" rx="5" fill="#C2873B"/>
+  <text x="100" y="543" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#FBF7F0">구법 6개월</text>
+  <line x1="150" y1="539" x2="182" y2="539" stroke="#0A5F58" stroke-width="2.5"/>
+  <polygon points="182,533 196,539 182,545" fill="#0A5F58"/>
+  <rect x="202" y="530" width="150" height="18" rx="5" fill="#0E7C72"/>
+  <text x="277" y="543" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#FBF7F0">현행 실제 복무 최대 12개월</text>
+  <text x="372" y="543" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">6개월 이상 복무자, 현역병·사회복무요원·상근예비역 등</text>
+
+  <!-- 하단 안내 -->
+  <text x="380" y="586" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">반영 시점: 노령연금 받을 때 자동 (출산·병역 즉시 아님) · 재원: 국가·지자체 (본인 추가 납부 없음)</text>
+  <line x1="40" y1="606" x2="720" y2="606" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="380" y="628" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">출처: 국민연금법 제18조·제19조, 국민연금공단·보건복지부 안내 (2026년 개정 기준)</text>
+</svg>
