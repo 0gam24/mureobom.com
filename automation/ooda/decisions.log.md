@@ -27,7 +27,7 @@
 
 ---
 
-## D-2026-07-20-1: 일일 발행 보류(4일 연속) — 클라우드 egress 차단 지속, 04:30 런 재시도 전부 실패
+## D-2026-07-20-1: 일일 발행 보류(4일 연속) — 클라우드 egress 차단 지속, 04:30 + 06:00 재시도 모두 실패
 
 - **층위**: 긴급(즉시) — 발행 파이프라인 중단
 - **변경**: 2026-07-20 KST **04:30 클라우드 런**이 3편(loan·tax·insurance) brief를
@@ -43,6 +43,11 @@
   `connect_rejected / policy denial`로 law.go.kr·nts.go.kr·nhis.or.kr 기록.
   github push 경로만 열린 허용목록 정책 유지. researcher가 sources[].url을
   HTTP 200 + 실내용으로 검증 불가 → **절대 원칙 2 위반 회피 위해 발행 차단**.
+  **06:00 재시도 런(이 항목 갱신)**: egress 복구만 재확인 → `www.law.go.kr`·
+  `www.nts.go.kr`·`www.mohw.go.kr`·`www.hf.go.kr` 초기 CONNECT 4회 + 60초 간격
+  재시도 3회(총 16 프로브) 전부 `CONNECT tunnel failed, response 403`(HTTP 000).
+  프록시 status `recentRelayFailures` 비어 있으나 CONNECT 단계에서 정책 거부.
+  차단 지속 확인 → 신규 brief 생성 안 함(중복 방지 §0), 보류 유지.
 - **패턴 경보**: KST 07-17→07-18→07-19→07-20 **4일 연속** 클라우드 04:30 런이 egress로 보류.
   종전 3일은 이후 로컬(egress 허용) 런이 승인 brief를 소진해 정상 발행
   (07-18=`ef3de02`, 07-19=`690d98a`). 일시 장애 아닌 **고정 egress 정책 문제** 확정.
