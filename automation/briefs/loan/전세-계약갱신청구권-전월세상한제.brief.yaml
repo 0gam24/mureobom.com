@@ -1,6 +1,6 @@
 id: loan-전세-계약갱신청구권-전월세상한제
 cluster: loan
-status: approved            # 스케줄 런 즉석 승인 (운영자 '오늘 3편' 지시 = brief 승인 권한)
+status: published           # 2026-07-19 compliance 전 게이트 PASS (스케줄 런 즉석 승인 후 발행)
 
 target_query: "전세 계약갱신청구권 전월세상한제 5% 조건"
 search_intent: 절차형        # 갱신 요구 권리 행사 + 인상 상한 계산을 함께 원함

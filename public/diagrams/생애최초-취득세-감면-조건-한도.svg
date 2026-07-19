@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 668" role="img" aria-label="생애최초 주택 취득세 감면 판정 흐름과 한도. 요건은 본인과 배우자의 주택 보유 이력이 없을 것, 유상거래 취득일 것, 취득 당시 가액 12억원 이하일 것, 지방세법상 주택일 것 네 가지. 한도는 일반 주택 200만원, 아파트를 제외한 전용 60제곱미터 이하 소형주택 300만원. 취득일부터 60일 이내 신고와 감면 신청, 3년 이내 매각·증여·임대 등 다른 용도 사용 시 추징." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="668" fill="#FBF7F0"/>
+  <text x="32" y="44" font-size="24" font-weight="700" fill="#1A2B2A">생애최초 주택 취득세 감면, 요건과 한도</text>
+  <text x="32" y="72" font-size="13" fill="#4A5856">2026년 기준, 지방세특례제한법 제36조의3 (시행 2026.6.2.)</text>
+
+  <!-- 1. 감면 요건 4가지 -->
+  <text x="32" y="108" font-size="15" font-weight="700" fill="#1A2B2A">1. 감면 요건, 네 가지를 모두 충족해야 해요</text>
+
+  <rect x="32" y="122" width="158" height="84" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="111" y="150" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">생애 최초 취득</text>
+  <text x="111" y="172" font-size="11" fill="#4A5856" text-anchor="middle">본인·배우자 모두</text>
+  <text x="111" y="188" font-size="11" fill="#4A5856" text-anchor="middle">주택 보유 이력 없음</text>
+  <line x1="192" y1="164" x2="202" y2="164" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="202,158 210,164 202,170" fill="#8A938F"/>
+
+  <rect x="212" y="122" width="158" height="84" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="291" y="150" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">유상거래 취득</text>
+  <text x="291" y="172" font-size="11" fill="#4A5856" text-anchor="middle">매매 등 유상취득만</text>
+  <text x="291" y="188" font-size="11" fill="#4A5856" text-anchor="middle">(부담부증여 제외)</text>
+  <line x1="372" y1="164" x2="382" y2="164" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="382,158 390,164 382,170" fill="#8A938F"/>
+
+  <rect x="392" y="122" width="158" height="84" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="471" y="150" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">가액 12억원 이하</text>
+  <text x="471" y="172" font-size="11" fill="#4A5856" text-anchor="middle">취득 당시 가액 기준</text>
+  <text x="471" y="188" font-size="11" fill="#4A5856" text-anchor="middle">2028.12.31.까지 취득</text>
+  <line x1="552" y1="164" x2="562" y2="164" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="562,158 570,164 562,170" fill="#8A938F"/>
+
+  <rect x="572" y="122" width="158" height="84" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="651" y="150" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">지방세법상 주택</text>
+  <text x="651" y="172" font-size="11" fill="#4A5856" text-anchor="middle">건축물대장상 주택</text>
+  <text x="651" y="188" font-size="11" fill="#4A5856" text-anchor="middle">(오피스텔 제외)</text>
+
+  <!-- 2. 한도 2트랙 -->
+  <text x="32" y="242" font-size="15" font-weight="700" fill="#1A2B2A">2. 한도는 주택 유형에 따라 2트랙이에요</text>
+
+  <rect x="32" y="258" width="344" height="158" rx="12" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="204" y="286" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">소형주택 트랙 (아파트 제외)</text>
+  <text x="204" y="308" font-size="11" fill="#4A5856" text-anchor="middle">전용 60㎡ 이하, 가액 3억원(수도권 6억원) 이하</text>
+  <text x="204" y="326" font-size="11" fill="#4A5856" text-anchor="middle">공동주택·도시형 생활주택·다가구 호수 등</text>
+  <text x="204" y="364" font-size="22" font-weight="700" fill="#0A5F58" text-anchor="middle">최대 300만원 면제</text>
+  <rect x="64" y="380" width="280" height="12" rx="4" fill="#0E7C72"/>
+
+  <rect x="384" y="258" width="344" height="158" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="556" y="286" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">일반 주택 트랙 (아파트 포함)</text>
+  <text x="556" y="308" font-size="11" fill="#4A5856" text-anchor="middle">소형주택 요건에 해당하지 않는 그 밖의 주택</text>
+  <text x="556" y="326" font-size="11" fill="#4A5856" text-anchor="middle">면적 제한 없음, 가액 12억원 이하</text>
+  <text x="556" y="364" font-size="22" font-weight="700" fill="#1A2B2A" text-anchor="middle">최대 200만원 면제</text>
+  <rect x="416" y="380" width="187" height="12" rx="4" fill="#C2873B"/>
+
+  <text x="32" y="442" font-size="12" fill="#8A938F">공동취득(부부 공동명의 포함)이어도 한도는 사람 수가 아니라 주택 1채 기준 총액이에요 (제36조의3 제2항)</text>
+
+  <!-- 3. 신청과 사후관리 -->
+  <text x="32" y="478" font-size="15" font-weight="700" fill="#1A2B2A">3. 신청과 사후관리</text>
+
+  <rect x="32" y="492" width="210" height="78" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="137" y="518" font-size="13" font-weight="700" fill="#0A5F58" text-anchor="middle">취득일부터 60일 이내</text>
+  <text x="137" y="538" font-size="11" fill="#4A5856" text-anchor="middle">취득세 신고와 함께 감면 신청</text>
+  <text x="137" y="554" font-size="11" fill="#4A5856" text-anchor="middle">(위택스·시군구청)</text>
+  <line x1="246" y1="531" x2="258" y2="531" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="258,525 268,531 258,537" fill="#8A938F"/>
+
+  <rect x="274" y="492" width="210" height="78" rx="10" fill="#F4EEE2" stroke="#B5462F"/>
+  <text x="379" y="518" font-size="13" font-weight="700" fill="#B5462F" text-anchor="middle">취득일부터 3년 이내 주의</text>
+  <text x="379" y="538" font-size="11" fill="#4A5856" text-anchor="middle">매각·증여·임대 등 다른 용도</text>
+  <text x="379" y="554" font-size="11" fill="#4A5856" text-anchor="middle">사용 시 감면세액 추징</text>
+  <line x1="488" y1="531" x2="500" y2="531" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="500,525 510,531 500,537" fill="#8A938F"/>
+
+  <rect x="516" y="492" width="212" height="78" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="622" y="518" font-size="13" font-weight="700" fill="#1A2B2A" text-anchor="middle">추징 사유가 생기면</text>
+  <text x="622" y="538" font-size="11" fill="#4A5856" text-anchor="middle">사유 발생일부터 60일 이내</text>
+  <text x="622" y="554" font-size="11" fill="#4A5856" text-anchor="middle">자진 신고·납부</text>
+
+  <text x="32" y="602" font-size="12" fill="#8A938F">배우자에게 지분을 매각·증여하는 경우는 추징 대상에서 제외돼요 (제36조의3 제4항)</text>
+  <text x="32" y="622" font-size="12" fill="#8A938F">세입자가 있는 집을 산 경우, 남은 임대차기간이 1년 이내면 3년 기산일을 만료일부터 세는 특례가 있어요</text>
+  <text x="32" y="642" font-size="12" fill="#8A938F">출산·양육 취득세 감면(최대 500만원)과는 중복 적용이 안 되고 감면액이 큰 쪽 하나만 적용돼요 (제180조)</text>
+</svg>

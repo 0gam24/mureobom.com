@@ -1,6 +1,6 @@
 id: support-노인맞춤돌봄서비스-신청자격-내용
 cluster: support
-status: approved            # 스케줄 런 즉석 승인
+status: published           # compliance 게이트 통과 (2026-07-19 KST)
 
 target_query: "노인맞춤돌봄서비스 신청자격 내용 2026"
 search_intent: 절차형        # 대상 자격 확인 + 서비스 내용·신청 절차를 함께 원함

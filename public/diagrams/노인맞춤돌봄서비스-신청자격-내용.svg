@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 640" role="img" aria-label="노인맞춤돌봄서비스 신청 자격과 제공 시간(2026년 기준): 만 65세 이상이면서 기초생활수급자·차상위계층·기초연금 수급자 중 하나이고 돌봄이 필요하면 신청 가능. 장기요양등급 판정자와 가사간병·보훈재가·장애인활동지원 이용자는 제외. 선정되면 중점돌봄군은 월 20시간 이상 40시간 미만, 일반돌봄군은 월 16시간 미만의 직접서비스를 받음.">
+  <rect x="0" y="0" width="720" height="640" fill="#FBF7F0"/>
+
+  <text x="360" y="40" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">노인맞춤돌봄서비스 신청 자격, 2026년 기준</text>
+  <text x="360" y="66" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">아래 세 요건을 모두 갖추고, 제외 사유가 없어야 신청할 수 있어요</text>
+
+  <line x1="40" y1="84" x2="680" y2="84" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 자격 3요건 카드 -->
+  <rect x="40" y="102" width="196" height="132" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <text x="138" y="130" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#0A5F58">① 연령</text>
+  <text x="138" y="176" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1A2B2A">만 65세 이상</text>
+  <text x="138" y="222" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">노인복지법 제27조의2 근거</text>
+
+  <text x="249" y="176" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#C2873B">+</text>
+
+  <rect x="262" y="102" width="196" height="132" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <text x="360" y="130" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#0A5F58">② 소득·수급 자격</text>
+  <text x="360" y="158" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">국민기초생활수급자</text>
+  <text x="360" y="178" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">차상위계층</text>
+  <text x="360" y="198" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">기초연금 수급자</text>
+  <text x="360" y="222" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">셋 중 하나에 해당하면 충족</text>
+
+  <text x="471" y="176" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#C2873B">+</text>
+
+  <rect x="484" y="102" width="196" height="132" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <text x="582" y="130" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#0A5F58">③ 돌봄 필요</text>
+  <text x="582" y="158" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#1A2B2A">독거·조손·고령부부 가구,</text>
+  <text x="582" y="178" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#1A2B2A">신체·정신 기능 저하 등</text>
+  <text x="582" y="198" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#1A2B2A">돌봄이 필요한 상황</text>
+  <text x="582" y="222" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">상담·조사로 확인</text>
+
+  <!-- 제외 대상 패널 -->
+  <rect x="40" y="252" width="640" height="158" rx="12" fill="#F4EEE2" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="60" y="282" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15.5" font-weight="700" fill="#B5462F">요건을 갖춰도 제외되는 경우 (유사중복사업)</text>
+  <text x="60" y="304" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">다른 제도에서 비슷한 돌봄을 이미 받는 경우에는 신청 대상이 아니에요</text>
+
+  <rect x="68" y="329" width="9" height="9" rx="2" fill="#B5462F"/>
+  <text x="86" y="338" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">노인장기요양보험 등급 판정자</text>
+  <rect x="380" y="329" width="9" height="9" rx="2" fill="#B5462F"/>
+  <text x="398" y="338" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">가사·간병 방문지원사업 이용자</text>
+  <rect x="68" y="367" width="9" height="9" rx="2" fill="#B5462F"/>
+  <text x="86" y="376" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">보훈재가복지서비스 이용자</text>
+  <rect x="380" y="367" width="9" height="9" rx="2" fill="#B5462F"/>
+  <text x="398" y="376" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">장애인 활동지원 사업 이용자</text>
+
+  <!-- 제공 시간 비교 -->
+  <text x="40" y="444" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15.5" font-weight="700" fill="#1A2B2A">선정 후 직접서비스 제공 시간</text>
+  <text x="680" y="444" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">2026년 사업안내 기준</text>
+
+  <text x="40" y="482" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1A2B2A">일반돌봄군</text>
+  <rect x="150" y="468" width="480" height="18" rx="4" fill="#F4EEE2"/>
+  <rect x="150" y="468" width="192" height="18" rx="4" fill="#C2873B"/>
+  <text x="352" y="482" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#C2873B">월 16시간 미만</text>
+
+  <text x="40" y="518" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1A2B2A">중점돌봄군</text>
+  <rect x="150" y="504" width="480" height="18" rx="4" fill="#F4EEE2"/>
+  <rect x="390" y="504" width="240" height="18" rx="4" fill="#0E7C72"/>
+  <text x="380" y="518" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#0A5F58">월 20시간 이상 40시간 미만</text>
+
+  <line x1="150" y1="528" x2="150" y2="536" stroke="#8A938F" stroke-width="1"/>
+  <line x1="342" y1="528" x2="342" y2="536" stroke="#8A938F" stroke-width="1"/>
+  <line x1="390" y1="528" x2="390" y2="536" stroke="#8A938F" stroke-width="1"/>
+  <line x1="630" y1="528" x2="630" y2="536" stroke="#8A938F" stroke-width="1"/>
+  <text x="150" y="550" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">0시간</text>
+  <text x="342" y="550" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">16시간</text>
+  <text x="390" y="565" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">20시간</text>
+  <text x="630" y="550" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">40시간</text>
+
+  <text x="40" y="586" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">제공 내용·시간·주기는 돌봄 욕구와 필요 정도에 따라 개인별로 결정, 필요시 연계·특화서비스 추가</text>
+
+  <line x1="40" y1="604" x2="680" y2="604" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="360" y="626" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">출처: 2026년 노인맞춤돌봄서비스 사업안내(보건복지부) · 정부24 · 찾기쉬운 생활법령정보(법제처)</text>
+</svg>
