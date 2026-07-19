@@ -1,0 +1,49 @@
+id: loan-주택담보대출-방공제-mci-mcg-한도
+cluster: loan
+status: approved          # draft → approved(사람) → published(자동)
+
+target_query: "주택담보대출 방공제 얼마 MCI MCG 한도 늘리기"
+search_intent: 정보형     # LTV 외에 실제 대출가능액을 깎는 방공제 원리를 알고 싶음
+
+signal:                  # 오케스트레이터 수동 선정(스캐너 큐 stale, 2026-06-11) — 추정 시그널
+  score: 47.0
+  trend_momentum: 0.10
+  question_volume: 0.47
+  cluster_fit: 1.0
+  freshness: 1.0
+
+must_cover:
+  - 방공제(소액임차보증금 공제) 개념 — LTV 한도와 별개로 대출가능액이 깎이는 이유
+  - 지역별 최우선변제 소액임차보증금 기준액(주택임대차보호법 시행령) = 방공제액
+  - MCI(모기지신용보험)·MCG(모기지신용보증)로 방공제분을 되살리는 원리와 차이
+  - MCI/MCG 이용 조건·한도(세대당 건수 제한)·보험료 부담 주체
+  - 방공제가 적용되는 대출(은행 주담대)과 적용 안 되는 경우(보금자리론 등 정책모기지) 구분
+  - 흔한 오해: "LTV 70%면 시세의 70% 다 나온다" 바로잡기(방공제 차감 예시)
+
+required_sources:        # 공식 1차 출처만(법령·기관). 0건이면 발행 차단
+  - "주택임대차보호법 시행령 제10조(보증금 중 일정액의 범위 등) · 제11조 (국가법령정보센터 law.go.kr 조문 렌더)"
+  - "한국주택금융공사(HF) 모기지신용보증(MCG) 안내 (hf.go.kr)"
+  - "금융위원회·금융감독원 주택담보대출 LTV·여신심사 안내 (fsc.go.kr / fss.or.kr)"
+
+internal_links:
+  - loan/주택담보대출-ltv-한도-규제지역
+  - loan/소액임차인-최우선변제-기준
+  - loan/디딤돌대출-자격-한도-금리
+
+# cta 필드는 폐기 — 수익화는 AdSense 단독 (계산기/제휴 CTA 미사용)
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true  # 일반정보 고지 삽입 (AdSense YMYL 정책 친화)
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: "LTV는 아는데 왜 대출이 그만큼 안 나오지?"의 진짜 원인인 방공제를
+  지역별 소액임차보증금 표로 수치화하고, MCI/MCG로 되살리는 실무 경로까지 한 흐름으로.
+  기발행 loan/소액임차인-최우선변제-기준(임차인 관점)과 각도가 반대 — 여기선 대출자(집주인)
+  관점의 한도 차감. 의미중복 아님.
+  방공제액=최우선변제 소액보증금 기준액이므로 시행령 제10조 최신 금액을 반드시 대조.
+  단정적 금리·승인 약속 금지(F-*). MCI/MCG는 보험/보증이라 세대당 건수·중복 제한 명시.

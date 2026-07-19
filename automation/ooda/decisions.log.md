@@ -27,6 +27,36 @@
 
 ---
 
+## D-2026-07-20-1: 일일 발행 보류(4일 연속) — 클라우드 egress 차단 지속, 04:30 런 재시도 전부 실패
+
+- **층위**: 긴급(즉시) — 발행 파이프라인 중단
+- **변경**: 2026-07-20 KST **04:30 클라우드 런**이 3편(loan·tax·insurance) brief를
+  즉석 승인(approved)까지 진행하고 egress 차단으로 본문 발행을 보류. 승인 brief만 커밋.
+  스캐너 큐(topic-queue.json)가 stale(2026-06-11)이고 상위 항목이 전부 기발행이라
+  사이트 공백을 메우는 3편을 수동 선정(의미중복 없음 확인):
+  - loan/주택담보대출-방공제-mci-mcg-한도 (LTV와 별개로 한도를 깎는 방공제 + MCI/MCG 복원)
+  - tax/폐업-부가가치세-확정신고-절차 (폐업 부가세 확정신고 → 잔존재화 간주공급 → 다음해 종소세)
+  - insurance/기초연금-수급자격-소득인정액 (소득인정액·선정기준액 + 국민연금 연계 감액 오해 반박)
+- **근거 (Orient)**: 04:30 런 실측 — `www.law.go.kr`·`www.nts.go.kr`·`www.moel.go.kr`·
+  `www.nhis.or.kr` WebFetch/curl 초기 4회 + 60초 간격 재시도 3회 전부
+  `CONNECT 403 / policy denial`(HTTP 000). 프록시 status `recentRelayFailures`도
+  `connect_rejected / policy denial`로 law.go.kr·nts.go.kr·nhis.or.kr 기록.
+  github push 경로만 열린 허용목록 정책 유지. researcher가 sources[].url을
+  HTTP 200 + 실내용으로 검증 불가 → **절대 원칙 2 위반 회피 위해 발행 차단**.
+- **패턴 경보**: KST 07-17→07-18→07-19→07-20 **4일 연속** 클라우드 04:30 런이 egress로 보류.
+  종전 3일은 이후 로컬(egress 허용) 런이 승인 brief를 소진해 정상 발행
+  (07-18=`ef3de02`, 07-19=`690d98a`). 일시 장애 아닌 **고정 egress 정책 문제** 확정.
+- **기대 효과 / 권고**:
+  - 단기: 07-20 3편을 로컬 아침 인계 크론(08:07 KST) 또는 egress 허용 환경에서
+    소진 발행(brief 이미 approved라 researcher부터 재개).
+  - 근본: 클라우드 네트워크 정책에 law.go.kr·nts.go.kr·moel.go.kr·mohw.go.kr·
+    nps.or.kr·hf.go.kr·fss.or.kr·fsc.go.kr 허용 추가를 운영자가 조정해야
+    무인 클라우드 발행 재개 가능.
+- **롤백 기준**: N/A (환경 제약).
+- **연관 PR**: (이 커밋 — brief 승인 + ADR. 발행은 후속 로컬 런에서 소진).
+
+---
+
 ## D-2026-07-19-1: 일일 발행 보류(3일 연속) — 클라우드 egress 차단 지속, 04:30 + 06:00 재시도 모두 실패
 
 - **층위**: 긴급(즉시) — 발행 파이프라인 중단
