@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" role="img" aria-label="조기수령과 연기연금 대칭 비교: 정상 100퍼센트 기준선 아래로 조기수령이 1개월 0.5퍼센트씩 감액되어 5년 전 70퍼센트까지, 위로 연기연금이 1개월 0.6퍼센트씩 가산되어 1년 후 107.2퍼센트, 2년 후 114.4퍼센트, 3년 후 121.6퍼센트, 4년 후 128.8퍼센트, 5년 후 136퍼센트까지 벌어짐">
+  <rect x="0" y="0" width="860" height="560" fill="#FBF7F0"/>
+  <text x="40" y="44" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#1A2B2A">조기수령(감액) vs 연기연금(가산) 대칭 비교</text>
+  <text x="40" y="73" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">정상 100%를 기준으로 조기는 아래로 감액, 연기는 위로 가산 · 최대 각 5년</text>
+
+  <rect x="30" y="92" width="800" height="360" rx="10" fill="#F4EEE2"/>
+
+  <!-- 정상 100% 기준선 -->
+  <line x1="50" y1="260" x2="810" y2="260" stroke="#8A938F" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="56" y="252" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">정상 100% 기준선</text>
+
+  <!-- 조기수령 막대 (기준선 아래, 틸) -->
+  <rect x="72"  y="260" width="42" height="120" rx="3" fill="#0E7C72"/>
+  <rect x="138" y="260" width="42" height="96"  rx="3" fill="#0E7C72"/>
+  <rect x="204" y="260" width="42" height="72"  rx="3" fill="#0E7C72"/>
+  <rect x="270" y="260" width="42" height="48"  rx="3" fill="#0E7C72"/>
+  <rect x="336" y="260" width="42" height="24"  rx="3" fill="#0E7C72"/>
+  <!-- 정상수령 마커 (딥틸) -->
+  <rect x="402" y="256" width="42" height="8"   rx="3" fill="#0A5F58"/>
+  <!-- 연기연금 막대 (기준선 위, 골드) -->
+  <rect x="468" y="231" width="42" height="29"  rx="3" fill="#C2873B"/>
+  <rect x="534" y="202" width="42" height="58"  rx="3" fill="#C2873B"/>
+  <rect x="600" y="174" width="42" height="86"  rx="3" fill="#C2873B"/>
+  <rect x="666" y="145" width="42" height="115" rx="3" fill="#C2873B"/>
+  <rect x="732" y="116" width="42" height="144" rx="3" fill="#C2873B"/>
+
+  <!-- 조기수령 지급률 라벨 (막대 아래) -->
+  <text x="93"  y="398" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">70%</text>
+  <text x="159" y="374" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">76%</text>
+  <text x="225" y="350" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">82%</text>
+  <text x="291" y="326" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">88%</text>
+  <text x="357" y="302" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">94%</text>
+  <!-- 정상 100% 라벨 -->
+  <text x="423" y="248" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">100%</text>
+  <!-- 연기연금 지급률 라벨 (막대 위) -->
+  <text x="489" y="224" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">107.2%</text>
+  <text x="555" y="195" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">114.4%</text>
+  <text x="621" y="166" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">121.6%</text>
+  <text x="687" y="137" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">128.8%</text>
+  <text x="753" y="108" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">136%</text>
+
+  <!-- x축 라벨 -->
+  <text x="93"  y="434" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#0E7C72">5년 전</text>
+  <text x="159" y="434" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#0E7C72">4년 전</text>
+  <text x="225" y="434" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#0E7C72">3년 전</text>
+  <text x="291" y="434" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#0E7C72">2년 전</text>
+  <text x="357" y="434" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#0E7C72">1년 전</text>
+  <text x="423" y="434" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#0A5F58">정상</text>
+  <text x="489" y="434" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#C2873B">1년 후</text>
+  <text x="555" y="434" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#C2873B">2년 후</text>
+  <text x="621" y="434" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#C2873B">3년 후</text>
+  <text x="687" y="434" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#C2873B">4년 후</text>
+  <text x="753" y="434" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#C2873B">5년 후</text>
+
+  <!-- 범례 -->
+  <rect x="40" y="470" width="16" height="16" rx="3" fill="#0E7C72"/>
+  <text x="64" y="483" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">조기수령: 1개월 0.5% 감액 (연 6% · 최대 5년 30% 감액)</text>
+  <rect x="40" y="496" width="16" height="16" rx="3" fill="#C2873B"/>
+  <text x="64" y="509" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">연기연금: 1개월 0.6% 가산 (연 7.2% · 최대 5년 36% 가산)</text>
+
+  <!-- 캡션 -->
+  <text x="40" y="536" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">요율이 달라 방향만 반대일 뿐 완전한 대칭은 아니에요. 실제 나이는 출생연도별 개시연령(60~65세)에 따라 달라져요.</text>
+</svg>

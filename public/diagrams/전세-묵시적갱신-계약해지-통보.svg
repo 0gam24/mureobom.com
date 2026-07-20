@@ -1,0 +1,39 @@
+<svg viewBox="0 0 760 452" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="묵시적 갱신 후 해지 통보의 3개월 효력 비대칭. 임대인은 종료 6개월 전부터 2개월 전까지, 임차인은 종료 2개월 전까지 통지가 없으면 종전 조건대로 2년 자동 연장. 갱신 뒤 임차인은 언제든 해지를 통지하면 임대인이 받은 날부터 3개월 뒤 효력이 발생하고 계약이 종료되지만, 임대인에게는 이 중도 해지권이 없음. 2기 차임 연체 시 묵시적 갱신 자체가 성립하지 않음.">
+  <rect x="0" y="0" width="760" height="452" fill="#FBF7F0"/>
+  <text x="40" y="42" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">묵시적 갱신 후 해지 통보, 3개월 효력의 비대칭</text>
+  <text x="40" y="68" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">주택임대차보호법 제6조·제6조의2 기준 (2026-07-21)</text>
+
+  <!-- 1단계 자동 연장 -->
+  <text x="40" y="104" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">1단계 · 통지가 없으면 계약은 자동으로 연장돼요</text>
+  <rect x="40" y="118" width="680" height="64" fill="#E3F0EE"/>
+  <text x="58" y="145" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">임대인 종료 6개월 전부터 2개월 전까지, 임차인 종료 2개월 전까지 서로 아무 통지가 없으면</text>
+  <text x="58" y="169" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#0A5F58">종전 조건 그대로 2년 자동 연장 (묵시적 갱신 · 제6조 제1항·제2항)</text>
+
+  <!-- 2단계 비대칭 -->
+  <text x="40" y="210" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">2단계 · 갱신을 끝내는 힘은 임차인에게만 있어요 (비대칭)</text>
+
+  <!-- 임차인 행 -->
+  <rect x="40" y="228" width="96" height="64" fill="#0E7C72"/>
+  <text x="88" y="266" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#FBF7F0">임차인</text>
+  <rect x="148" y="239" width="158" height="42" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="227" y="265" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">언제든 해지 통지</text>
+  <polygon points="306,254 320,260 306,266" fill="#8A938F"/>
+  <rect x="322" y="239" width="150" height="42" fill="#E3F0EE"/>
+  <text x="397" y="265" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">받은 날부터 3개월</text>
+  <polygon points="472,254 486,260 472,266" fill="#8A938F"/>
+  <rect x="488" y="239" width="232" height="42" fill="#0A5F58"/>
+  <text x="604" y="265" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#FBF7F0">3개월 뒤 효력 발생, 계약 종료</text>
+
+  <!-- 임대인 행 -->
+  <rect x="40" y="300" width="96" height="56" fill="#8A938F"/>
+  <text x="88" y="334" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#FBF7F0">임대인</text>
+  <rect x="148" y="300" width="572" height="56" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="166" y="324" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#B5462F">이 중도 해지권이 없어요</text>
+  <text x="166" y="345" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">해지 통지로는 계약을 끝낼 수 없고, 제6조의2는 임차인에게만 부여돼요</text>
+
+  <!-- 유의 -->
+  <rect x="40" y="372" width="680" height="60" fill="#F4EEE2"/>
+  <text x="58" y="396" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#B5462F">유의</text>
+  <text x="94" y="396" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#1A2B2A">2기 차임 연체 등 의무를 현저히 위반하면 묵시적 갱신이 성립하지 않아요 (제6조 제3항).</text>
+  <text x="58" y="418" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">해지 통지는 시점이 확인되는 방법으로 남겨두면 3개월 기산의 근거가 돼요.</text>
+</svg>

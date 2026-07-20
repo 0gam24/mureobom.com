@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 590" role="img" aria-label="장기주택저당차입금 이자상환액 소득공제 한도표. 공통 대상 요건은 근로소득자, 과세기간 종료일 12월 31일 현재 무주택 또는 1주택 세대의 세대주, 취득 당시 기준시가 6억원 이하 주택, 그 주택에 저당권 설정. 상환기간 15년 이상은 고정금리이면서 비거치식 분할상환이면 연 2,000만원, 고정금리 또는 비거치식이면 연 1,800만원, 그 밖의 방식은 연 800만원. 상환기간 10년 이상 15년 미만은 고정금리 또는 비거치식이면 연 600만원. 상환기간 10년 미만과, 10년 이상 15년 미만의 그 밖 방식은 공제 대상이 아님. 한도는 주택청약저축, 주택임차차입금 공제와 합산해 적용." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="590" fill="#FBF7F0"/>
+  <text x="32" y="44" font-size="24" font-weight="700" fill="#1A2B2A">장기주택저당차입금 이자상환액 소득공제 한도</text>
+  <text x="32" y="72" font-size="13" fill="#4A5856">2026년 기준, 소득세법 제52조 제5항. 상환기간과 금리·상환 방식의 조합으로 한도가 정해져요</text>
+
+  <!-- 공통 대상 요건 -->
+  <rect x="32" y="90" width="696" height="70" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="48" y="114" font-size="13" font-weight="700" fill="#0A5F58">공통 대상 요건 (네 가지를 모두 충족해야 해요)</text>
+  <text x="48" y="136" font-size="12" fill="#4A5856">근로소득자 · 과세기간 종료일(12/31) 현재 무주택 또는 1주택 세대의 세대주</text>
+  <text x="48" y="153" font-size="12" fill="#4A5856">취득 당시 기준시가 6억원 이하 주택 · 그 주택에 저당권을 설정하고 금융회사에서 차입</text>
+
+  <!-- 상환기간 15년 이상 -->
+  <text x="32" y="192" font-size="15" font-weight="700" fill="#1A2B2A">상환기간 15년 이상</text>
+
+  <rect x="32" y="206" width="221" height="150" rx="12" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="142" y="240" font-size="13" font-weight="700" fill="#0A5F58" text-anchor="middle">고정금리이면서</text>
+  <text x="142" y="260" font-size="13" font-weight="700" fill="#0A5F58" text-anchor="middle">비거치식 분할상환</text>
+  <line x1="56" y1="278" x2="229" y2="278" stroke="#0E7C72"/>
+  <text x="142" y="320" font-size="27" font-weight="700" fill="#0A5F58" text-anchor="middle">2,000만원</text>
+  <text x="142" y="344" font-size="11" fill="#4A5856" text-anchor="middle">연간 공제 한도(최대)</text>
+
+  <rect x="269" y="206" width="221" height="150" rx="12" fill="#F4EEE2" stroke="#C2873B"/>
+  <text x="379" y="240" font-size="13" font-weight="700" fill="#1A2B2A" text-anchor="middle">고정금리 또는</text>
+  <text x="379" y="260" font-size="13" font-weight="700" fill="#1A2B2A" text-anchor="middle">비거치식 분할상환</text>
+  <line x1="293" y1="278" x2="466" y2="278" stroke="#E3DCCF"/>
+  <text x="379" y="320" font-size="27" font-weight="700" fill="#C2873B" text-anchor="middle">1,800만원</text>
+  <text x="379" y="344" font-size="11" fill="#4A5856" text-anchor="middle">연간 공제 한도(최대)</text>
+
+  <rect x="506" y="206" width="221" height="150" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="616" y="240" font-size="13" font-weight="700" fill="#1A2B2A" text-anchor="middle">그 밖의 방식</text>
+  <text x="616" y="260" font-size="12" fill="#4A5856" text-anchor="middle">(변동금리·거치식 등)</text>
+  <line x1="530" y1="278" x2="703" y2="278" stroke="#E3DCCF"/>
+  <text x="616" y="320" font-size="27" font-weight="700" fill="#1A2B2A" text-anchor="middle">800만원</text>
+  <text x="616" y="344" font-size="11" fill="#4A5856" text-anchor="middle">연간 공제 한도(최대)</text>
+
+  <!-- 상환기간 10년 이상 15년 미만 -->
+  <text x="32" y="394" font-size="15" font-weight="700" fill="#1A2B2A">상환기간 10년 이상 15년 미만</text>
+
+  <rect x="32" y="408" width="340" height="110" rx="12" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="56" y="440" font-size="13" font-weight="700" fill="#0A5F58">고정금리 또는 비거치식 분할상환</text>
+  <text x="56" y="462" font-size="11" fill="#4A5856">둘 중 하나 이상을 갖춰야 공제 대상이에요</text>
+  <text x="56" y="500" font-size="24" font-weight="700" fill="#0A5F58">연 600만원</text>
+
+  <rect x="388" y="408" width="340" height="110" rx="12" fill="#F4EEE2" stroke="#B5462F"/>
+  <text x="412" y="436" font-size="13" font-weight="700" fill="#B5462F">공제 대상이 아니에요</text>
+  <text x="412" y="460" font-size="11" fill="#4A5856">· 상환기간 10년 미만</text>
+  <text x="412" y="480" font-size="11" fill="#4A5856">· 10년 이상 15년 미만이면서 그 밖의 방식</text>
+  <text x="412" y="498" font-size="11" fill="#4A5856">  (변동금리이면서 거치식 등)</text>
+
+  <!-- 하단 주석 -->
+  <text x="32" y="548" font-size="12" fill="#8A938F">한도 금액은 이 공제만의 별도 한도가 아니라, 주택청약저축·주택임차차입금 원리금상환 공제와 합산해 적용해요</text>
+  <text x="32" y="570" font-size="12" fill="#8A938F">무주택 또는 1주택 판정은 세대원 소유분을 포함해 12월 31일 현재로 봐요. 주거용 오피스텔은 주택법상 주택이 아니라 대상에서 빠져요</text>
+</svg>

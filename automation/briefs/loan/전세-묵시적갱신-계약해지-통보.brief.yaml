@@ -1,6 +1,6 @@
 id: loan-전세-묵시적갱신-계약해지-통보
 cluster: loan
-status: approved         # 수동 gap-fill 선정 → 스케줄 운영자 즉석 승인 (KST 2026-07-21)
+status: published        # 수동 gap-fill 선정 → 승인 후 compliance 게이트 통과 발행 (KST 2026-07-21)
 
 target_query: "전세 묵시적 갱신 계약 해지 통보 효력 2026"
 search_intent: 정보형     # 묵시적 갱신이 뭔지 + 언제 나가야/통보해야 하는지
