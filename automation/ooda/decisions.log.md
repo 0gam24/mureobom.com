@@ -51,6 +51,12 @@
 - **패턴 경보**: KST 07-18→07-19→07-20→**07-21** 연속 클라우드 04:30 런이 egress로 보류.
   마지막 정상 클라우드 발행은 07-17. 인프라(네트워크 정책/프록시 허용목록) 점검 필요 —
   gov.kr·law.go.kr·nts.go.kr 등 공식 도메인이 WebFetch 경로에서 열려야 무인 발행 재개 가능.
+- **06:00 재시도 런 (동일 결론)**: 07-21 KST 06:00 재시도 런도 egress 전역 차단 재확인.
+  프록시 상태(`__agentproxy/status`)는 `enabled:true`·`recentRelayFailures:[]`이나, 실제
+  CONNECT은 law.go.kr·nts.go.kr·nps.or.kr·**example.com까지** 전부 `CONNECT tunnel
+  failed, 403`. §retry(60초 대기 ×3) 충족 후에도 동일 403, WebFetch(law.go.kr)도 403.
+  승인 brief는 04:30 런이 이미 커밋(ab220c1)했으므로 재커밋 없이 본 로그로만 흔적 남김.
+  발행 없음 — 절대 원칙 2 준수. egress 복구 시 3개 승인 brief 즉시 소진.
 
 ---
 
