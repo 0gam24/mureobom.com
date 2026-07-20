@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" role="img" aria-label="기초연금 감액 세 가지 비교. 국민연금 연계 감액은 국민연금 수령액이 기준연금액의 150퍼센트인 52만 4550원을 넘을 때 최대 50퍼센트 감액, 부부 동시 수급 감액은 각자 산정액에서 20퍼센트 감액해 합계 상한 55만 9520원, 소득역전방지 감액은 소득인정액과 기초연금액의 합이 선정기준액을 넘는 초과분만큼 감액">
+  <rect x="0" y="0" width="860" height="470" fill="#FBF7F0"/>
+
+  <text x="40" y="44" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#1A2B2A">기초연금액이 깎이는 세 가지 사유</text>
+  <text x="40" y="72" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">셋 다 지급 배제가 아니라 금액 조정입니다 (2026년 기준연금액 월 349,700원 기준)</text>
+
+  <!-- 카드 1: 국민연금 연계 -->
+  <rect x="40" y="96" width="246" height="44" rx="8" fill="#0E7C72"/>
+  <text x="163" y="125" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">① 국민연금 연계</text>
+  <rect x="40" y="140" width="246" height="216" rx="8" fill="#E3F0EE"/>
+  <text x="163" y="178" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">국민연금 월 수령액이</text>
+  <text x="163" y="202" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">기준연금액의 150% 초과 시</text>
+  <text x="163" y="226" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">(2026년 524,550원 기준)</text>
+  <text x="163" y="266" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">최대 50% 감액</text>
+  <text x="163" y="304" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">배제가 아니라 일부 감액</text>
+  <text x="163" y="330" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">근거: 기초연금법 제5조</text>
+
+  <!-- 카드 2: 부부 동시 수급 -->
+  <rect x="307" y="96" width="246" height="44" rx="8" fill="#0E7C72"/>
+  <text x="430" y="125" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">② 부부 동시 수급</text>
+  <rect x="307" y="140" width="246" height="216" rx="8" fill="#E3F0EE"/>
+  <text x="430" y="178" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">부부 두 사람이 모두</text>
+  <text x="430" y="202" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">기초연금을 받는 경우</text>
+  <text x="430" y="226" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">각자 산정된 금액에서</text>
+  <text x="430" y="266" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">각각 20% 감액</text>
+  <text x="430" y="304" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">부부 합계 상한 559,520원</text>
+  <text x="430" y="330" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">근거: 기초연금 공식 안내</text>
+
+  <!-- 카드 3: 소득역전방지 -->
+  <rect x="574" y="96" width="246" height="44" rx="8" fill="#C2873B"/>
+  <text x="697" y="125" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">③ 소득역전방지</text>
+  <rect x="574" y="140" width="246" height="216" rx="8" fill="#F4EEE2"/>
+  <text x="697" y="178" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">소득인정액 + 기초연금액이</text>
+  <text x="697" y="202" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">선정기준액을 넘을 때</text>
+  <text x="697" y="226" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">수급자와 비수급자 사이</text>
+  <text x="697" y="266" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#C2873B">초과분만큼 감액</text>
+  <text x="697" y="304" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">탈락자보다 총소득이</text>
+  <text x="697" y="330" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">높아지지 않도록 조정</text>
+
+  <!-- 하단 안내 -->
+  <rect x="40" y="376" width="780" height="58" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="60" y="402" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">세 감액은 사유가 서로 다릅니다. 어떤 감액이 적용되는지는 개인별 소득 · 재산 · 국민연금 수령액에 따라 달라집니다.</text>
+  <text x="60" y="424" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">내 예상 금액은 복지로 모의계산 또는 국민연금공단 상담(국번 없이 1355)으로 확인하세요.</text>
+</svg>

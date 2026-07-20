@@ -1,6 +1,6 @@
 id: loan-주택담보대출-방공제-mci-mcg-한도
 cluster: loan
-status: approved          # draft → approved(사람) → published(자동)
+status: published         # draft → approved(사람) → published(자동)
 
 target_query: "주택담보대출 방공제 얼마 MCI MCG 한도 늘리기"
 search_intent: 정보형     # LTV 외에 실제 대출가능액을 깎는 방공제 원리를 알고 싶음

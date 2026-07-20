@@ -1,6 +1,6 @@
 id: insurance-기초연금-수급자격-소득인정액
 cluster: insurance
-status: approved          # draft → approved(사람) → published(자동)
+status: published         # draft → approved(사람) → published(자동)
 
 target_query: "기초연금 수급자격 소득인정액 선정기준액 2026 감액"
 search_intent: 정보형     # 내가 받을 수 있는지(소득요건)와 얼마 받는지를 알고 싶음

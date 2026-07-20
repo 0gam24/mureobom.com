@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" role="img" aria-label="폐업 후 세금 신고 타임라인. 폐업일에 홈택스 또는 관할 세무서에 폐업신고를 하고, 부가가치세 확정신고서에 폐업 연월일과 사유를 적으면 폐업신고를 갈음할 수 있어요. 폐업일이 속한 달의 다음 달 25일까지 부가가치세 확정신고와 납부를 해요. 예를 들어 5월 13일 폐업이면 6월 25일까지이고, 남은 재고와 비품의 간주공급이 포함되며 간이과세자도 같은 기한이 적용돼요. 무실적이어도 신고해야 해요. 폐업한 해의 다음 해 5월 1일부터 31일까지는 폐업 연도 사업소득을 포함한 종합소득세 확정신고를 해요." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="440" fill="#FBF7F0"/>
+  <text x="32" y="44" font-size="24" font-weight="700" fill="#1A2B2A">폐업 후 세금 신고 타임라인</text>
+  <text x="32" y="72" font-size="13" fill="#4A5856">2026년 기준, 부가가치세법 제49조·제67조, 소득세법 제70조</text>
+
+  <!-- 타임라인 라벨 -->
+  <text x="138" y="112" font-size="13" font-weight="700" fill="#1A2B2A" text-anchor="middle">폐업일</text>
+  <text x="380" y="112" font-size="13" font-weight="700" fill="#0A5F58" text-anchor="middle">다음 달 25일까지</text>
+  <text x="621" y="112" font-size="13" font-weight="700" fill="#1A2B2A" text-anchor="middle">다음 해 5월 1일~31일</text>
+
+  <!-- 타임라인 축 -->
+  <line x1="60" y1="132" x2="692" y2="132" stroke="#E3DCCF" stroke-width="3"/>
+  <polygon points="692,125 706,132 692,139" fill="#8A938F"/>
+  <circle cx="138" cy="132" r="10" fill="#C2873B"/>
+  <circle cx="380" cy="132" r="10" fill="#0E7C72"/>
+  <circle cx="621" cy="132" r="10" fill="#0A5F58"/>
+
+  <!-- 1단계: 폐업신고 -->
+  <rect x="32" y="162" width="213" height="168" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="138" y="190" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">1. 폐업신고</text>
+  <text x="138" y="214" font-size="11" fill="#4A5856" text-anchor="middle">홈택스 또는 관할 세무서</text>
+  <text x="138" y="232" font-size="11" fill="#4A5856" text-anchor="middle">폐업신고서 + 사업자등록증</text>
+  <text x="138" y="254" font-size="11" fill="#4A5856" text-anchor="middle">부가세 확정신고서에 폐업</text>
+  <text x="138" y="270" font-size="11" fill="#4A5856" text-anchor="middle">연월일·사유 기재 시 갈음 가능</text>
+  <text x="138" y="294" font-size="11" fill="#8A938F" text-anchor="middle">인허가 138개 업종은</text>
+  <text x="138" y="310" font-size="11" fill="#8A938F" text-anchor="middle">통합폐업신고서 1장으로 가능</text>
+
+  <!-- 2단계: 부가세 확정신고 (강조) -->
+  <rect x="273" y="162" width="214" height="168" rx="12" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="380" y="190" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">2. 부가가치세 확정신고</text>
+  <text x="380" y="214" font-size="11" fill="#4A5856" text-anchor="middle">폐업일이 속한 달의</text>
+  <text x="380" y="230" font-size="11" fill="#4A5856" text-anchor="middle">다음 달 25일까지 신고·납부</text>
+  <text x="380" y="252" font-size="12" font-weight="700" fill="#0A5F58" text-anchor="middle">예: 5.13. 폐업이면 6.25.까지</text>
+  <text x="380" y="274" font-size="11" fill="#4A5856" text-anchor="middle">남은 재고·비품 간주공급 포함</text>
+  <text x="380" y="290" font-size="11" fill="#4A5856" text-anchor="middle">간이과세자도 같은 기한</text>
+  <text x="380" y="312" font-size="11" fill="#B5462F" text-anchor="middle">무실적이어도 신고해야 해요</text>
+
+  <!-- 3단계: 종합소득세 -->
+  <rect x="515" y="162" width="213" height="168" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="621" y="190" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">3. 종합소득세 확정신고</text>
+  <text x="621" y="214" font-size="11" fill="#4A5856" text-anchor="middle">폐업한 해의 다음 해</text>
+  <text x="621" y="230" font-size="11" fill="#4A5856" text-anchor="middle">5월 1일~5월 31일</text>
+  <text x="621" y="252" font-size="11" fill="#4A5856" text-anchor="middle">폐업 연도 사업소득을 포함한</text>
+  <text x="621" y="268" font-size="11" fill="#4A5856" text-anchor="middle">종합소득 전체를 신고</text>
+  <text x="621" y="294" font-size="11" fill="#8A938F" text-anchor="middle">기한이 토요일·공휴일이면</text>
+  <text x="621" y="310" font-size="11" fill="#8A938F" text-anchor="middle">그 다음 날까지</text>
+
+  <!-- 하단 메모 -->
+  <text x="32" y="366" font-size="12" fill="#8A938F">폐업일은 사업을 실질적으로 폐업하는 날이에요. 불분명하면 폐업신고서 접수일을 폐업일로 봐요 (시행령 제7조)</text>
+  <text x="32" y="388" font-size="12" fill="#8A938F">폐업하면 과세기간이 개시일부터 폐업일까지로 짧아져요 (부가가치세법 제5조 제3항)</text>
+  <text x="32" y="410" font-size="12" fill="#8A938F">매출·매입 실적이 없어도 확정신고 의무는 그대로예요. 홈택스 무실적 신고로 간편하게 할 수 있어요</text>
+</svg>

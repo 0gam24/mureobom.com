@@ -1,6 +1,6 @@
 id: tax-폐업-부가가치세-확정신고-절차
 cluster: tax
-status: approved          # draft → approved(사람) → published(자동)
+status: published         # draft → approved(사람) → published(자동)
 
 target_query: "폐업 부가가치세 확정신고 기한 종합소득세 폐업신고"
 search_intent: 절차형     # 폐업 시 무엇을 언제까지 신고해야 하는지 순서를 원함

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 760 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="지역별 방공제액(최우선변제 소액임차보증금): 서울특별시 5,500만원, 과밀억제권역(서울 제외)과 세종·용인·화성·김포 4,800만원, 광역시(군 제외)와 안산·광주·파주·이천·평택 2,800만원, 그 밖의 지역 2,500만원. 주택임대차보호법 시행령 제10조 2026년 7월 1일 시행판 기준이며, 이 금액만큼 주택담보대출 한도에서 빠집니다.">
+  <rect x="0" y="0" width="760" height="470" fill="#FBF7F0"/>
+
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#1A2B2A">지역별 방공제액, 한도에서 빠지는 금액</text>
+  <text x="40" y="72" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">주택임대차보호법 시행령 제10조 최우선변제 일정액 기준 (2026-07-01 시행판)</text>
+
+  <!-- header -->
+  <rect x="40" y="96" width="450" height="42" fill="#0A5F58"/>
+  <rect x="490" y="96" width="230" height="42" fill="#0E7C72"/>
+  <text x="60" y="123" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#FBF7F0">지역 구분</text>
+  <text x="510" y="123" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#FBF7F0">한도에서 빠지는 금액</text>
+
+  <!-- row 1 -->
+  <rect x="40" y="138" width="450" height="66" fill="#F4EEE2"/>
+  <rect x="490" y="138" width="230" height="66" fill="#E3F0EE"/>
+  <text x="60" y="168" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">서울특별시</text>
+  <text x="60" y="190" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">공제액이 가장 커서 한도 체감도 가장 큼</text>
+  <text x="510" y="180" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#0A5F58">5,500만원</text>
+
+  <!-- row 2 -->
+  <rect x="40" y="206" width="450" height="66" fill="#FBF7F0"/>
+  <rect x="490" y="206" width="230" height="66" fill="#F4EEE2"/>
+  <text x="60" y="236" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">과밀억제권역(서울 제외)</text>
+  <text x="60" y="258" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">세종·용인·화성·김포 포함</text>
+  <text x="510" y="248" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#0A5F58">4,800만원</text>
+
+  <!-- row 3 -->
+  <rect x="40" y="274" width="450" height="66" fill="#F4EEE2"/>
+  <rect x="490" y="274" width="230" height="66" fill="#E3F0EE"/>
+  <text x="60" y="304" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">광역시(과밀억제권역·군 제외)</text>
+  <text x="60" y="326" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">안산·광주·파주·이천·평택 포함</text>
+  <text x="510" y="316" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#0A5F58">2,800만원</text>
+
+  <!-- row 4 -->
+  <rect x="40" y="342" width="450" height="60" fill="#FBF7F0"/>
+  <rect x="490" y="342" width="230" height="60" fill="#F4EEE2"/>
+  <text x="60" y="378" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">그 밖의 지역</text>
+  <text x="510" y="380" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#0A5F58">2,500만원</text>
+
+  <!-- note -->
+  <rect x="40" y="416" width="680" height="36" fill="#E3F0EE"/>
+  <text x="58" y="439" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#C2873B">확인</text>
+  <text x="98" y="439" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#1A2B2A">같은 시라도 인천 강화·옹진, 시흥 반월특수지역처럼 구역별로 다르게 적용되는 곳이 있어요.</text>
+</svg>
