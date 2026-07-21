@@ -27,6 +27,30 @@
 
 ---
 
+## D-2026-07-22-1: 일일 발행 보류(연속 지속) — 클라우드 egress 차단, 공식 도메인 CONNECT 403
+
+- **층위**: 긴급(즉시) — 발행 파이프라인 중단
+- **변경**: 2026-07-22 KST 04:30 클라우드 런이 3편(loan·tax·support) brief를 즉석 승인(approved)까지
+  진행하고 egress 차단으로 본문 발행을 보류. 승인 brief만 커밋. 스캐너 큐(topic-queue.json)가
+  stale(2026-07-17)이라 사이트 공백을 메우는 3편을 수동 선정(의미중복 없음 확인, _published_slugs 대조).
+  격일 교대는 직전 발행 커밋(c837ef5 = 07-21 loan·tax·**insurance**) 기준 반대쪽 **support** 선택:
+  - loan/연체정보-등록-해제-신용도-영향 (신용정보법 — 단기/장기 연체 등록 기준 × 상환 후 기록 보존 기간 분리)
+  - tax/자경농지-양도소득세-감면-요건-한도 (조특법 §69 — 8년 자경 + 재촌 요건 × 연간·5년 합산 감면 한도)
+  - support/자활근로-자활사업-참여-자활급여 (국민기초생활보장법 — 참여 대상은 수급자 한정 아님 + 자활근로 유급)
+- **근거 (Orient)**: 실측 — 프록시 status `recentRelayFailures`가 `www.nts.go.kr`·`www.law.go.kr`·
+  `www.moel.go.kr`에 대해 `connect_rejected / gateway answered 403 to CONNECT (policy denial)`
+  기록(타임스탬프 2026-07-21T19:32Z = 04:32 KST). curl `www.law.go.kr` §retry(60초 대기 ×2, 3회차는
+  대기 중 타임아웃) 전부 `CONNECT tunnel failed, response 403`. WebFetch(law.go.kr)도 HTTP 403.
+  → sources[].url을 HTTP 200 + 실내용으로 검증 불가 → **절대 원칙 2 준수 위해 발행 차단**.
+- **기대 효과**: egress 복구 시 이 3개 승인 brief를 즉시 소진(researcher URL 라이브 대조만 남음).
+  로컬 발행 경로가 열려 있으면 운영자가 로컬에서 발행 가능(07-14·07-21 선례 — 07-21 briefs는 c837ef5로 발행 완료).
+- **롤백 기준**: 해당 없음(임시 인프라 이슈). egress 복구 확인 시 정상 발행 복귀.
+- **패턴 경보**: KST 07-18→07-19→07-20→07-21→**07-22** 클라우드 04:30 런이 egress로 반복 보류.
+  단, 07-21 briefs는 이후 발행(c837ef5)됨 — 로컬/후속 런 발행 경로는 살아 있음. 마지막 정상 클라우드
+  04:30 발행은 07-17. 네트워크 정책(프록시 허용목록)에 gov.kr·law.go.kr·nts.go.kr 등록 필요.
+
+---
+
 ## D-2026-07-21-1: 일일 발행 보류(연속 지속) — 클라우드 egress 차단, WebFetch 전역 403(example.com 포함)
 
 - **층위**: 긴급(즉시) — 발행 파이프라인 중단
