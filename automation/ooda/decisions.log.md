@@ -27,6 +27,31 @@
 
 ---
 
+## D-2026-07-24-1: 일일 발행 보류(연속 지속·7일째) — 클라우드 egress 차단 지속, WebFetch 전 도메인 403
+
+- **층위**: 긴급(즉시) — 발행 파이프라인 중단, 운영자 개입 필요(네트워크 정책)
+- **변경**: 2026-07-24 KST 06:00 클라우드 런. egress 진단을 강화: WebFetch로 law.go.kr·nts.go.kr·
+  moel.go.kr **및 중립 도메인(en.wikipedia.org)까지 전부 403** 확인 → 사이트별 봇차단이 아니라
+  조직 egress 정책의 전면 차단으로 확정(/root/.ccr/README.md: "403/407 = 조직 egress 정책 거부,
+  재시도·우회 금지"). 프록시 status의 recentRelayFailures는 비어 있음. WebSearch는 동작하나 절대원칙2가
+  요구하는 sources[].url의 WebFetch 200 검증을 대체 못 함 → **발행 불가**. 승인 brief 3편만 커밋.
+  큐(topic-queue.json) 여전히 stale(07-17). 07-23 held(loan·tax·insurance)와의 의미중복을 피해 신규
+  3편 수동 선정(클러스터는 오늘 배분 loan+tax+insurance 그대로):
+  - loan/전세보증금-반환-지급명령-신청-절차 (민사소송법 독촉절차 — 기발행 임차권등기명령과 역할 분리: 집행권원 확보)
+  - tax/청년형-소득공제-장기펀드-가입조건-혜택 (조세특례제한법 — 청년 한정 소득공제형, ISA/연금저축과 성격 구분)
+  - insurance/국민연금-실업크레딧-신청자격-지원기간 (국민연금법 — 구직급여 수급 중 보험료 75% 지원, support↔insurance 크로스)
+- **근거 (Orient)**: WebFetch 4개 호스트(3 gov + wikipedia) 전부 403. 프록시 README가 명시적으로
+  정책 거부로 규정. 07-21~07-24 4일 연속(누적 held brief: 07-22 3편 + 07-23 3편 + 07-24 3편 = 9편).
+- **기대 효과**:
+  - egress 복구 즉시: held 9편을 researcher→writer→gate→compliance로 소진, 하루 3편 이상 배출 가능
+- **롤백 기준**: 해당 없음(외부 인프라 이슈). **운영자 액션 필요**: 클라우드 실행 환경의
+  egress 네트워크 정책에 공식 출처 도메인(law.go.kr·nts.go.kr·moel.go.kr·fss.or.kr·nps.or.kr·
+  fsc.go.kr·scourt.go.kr 등) 허용 추가. 그전까지 무인 발행 불가.
+- **연관 PR**: (없음, main 직접 커밋)
+- **Outcome (1주 후 작성)**:
+
+---
+
 ## D-2026-07-23-1: 일일 발행 보류(연속 지속·6일째) — 클라우드 egress 차단 지속, 공식 도메인 CONNECT 403
 
 - **층위**: 긴급(즉시) — 발행 파이프라인 중단
