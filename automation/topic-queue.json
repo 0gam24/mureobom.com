@@ -1,116 +1,83 @@
 {
-  "generated_at": "2026-06-11T08:12:07.863239Z",
+  "generated_at": "2026-07-23T22:11:07.832468Z",
   "count": 20,
   "items": [
     {
       "cluster": "tax",
       "path": "/tax",
-      "keyword": "4대보험 세금",
-      "slug": "4대보험-세금",
-      "score": 46.46,
+      "keyword": "양도소득세 주식",
+      "slug": "양도소득세-주식",
+      "derived": true,
+      "score": 46.7,
       "signals": {
-        "trend_momentum": 0.052,
-        "question_volume": 0.48,
-        "cluster_fit": 1.0,
+        "trend_momentum": 0.0,
+        "question_volume": 0.49,
+        "cluster_fit": 1.1,
         "freshness": 1.0
       }
     },
     {
       "cluster": "tax",
       "path": "/tax",
-      "keyword": "종합소득세 환급",
-      "slug": "종합소득세-환급",
-      "score": 46.45,
-      "signals": {
-        "trend_momentum": 0.051,
-        "question_volume": 0.48,
-        "cluster_fit": 1.0,
-        "freshness": 1.0
-      }
-    },
-    {
-      "cluster": "tax",
-      "path": "/tax",
-      "keyword": "부가가치세 신고",
-      "slug": "부가가치세-신고",
-      "score": 44.4,
+      "keyword": "연말정산 산후조리원",
+      "slug": "연말정산-산후조리원",
+      "derived": true,
+      "score": 46.4,
       "signals": {
         "trend_momentum": 0.0,
         "question_volume": 0.48,
-        "cluster_fit": 1.0,
+        "cluster_fit": 1.1,
         "freshness": 1.0
       }
     },
     {
       "cluster": "tax",
       "path": "/tax",
-      "keyword": "사업소득 경비처리",
-      "slug": "사업소득-경비처리",
-      "score": 44.4,
+      "keyword": "부가가치세 신고 개인회생",
+      "slug": "부가가치세-신고-개인회생",
+      "derived": true,
+      "score": 46.4,
       "signals": {
         "trend_momentum": 0.0,
         "question_volume": 0.48,
-        "cluster_fit": 1.0,
+        "cluster_fit": 1.1,
         "freshness": 1.0
       }
     },
     {
       "cluster": "tax",
       "path": "/tax",
-      "keyword": "프리랜서 종합소득세",
-      "slug": "프리랜서-종합소득세",
-      "score": 44.4,
+      "keyword": "종합소득세 환급 월세",
+      "slug": "종합소득세-환급-월세",
+      "derived": true,
+      "score": 46.4,
       "signals": {
         "trend_momentum": 0.0,
         "question_volume": 0.48,
-        "cluster_fit": 1.0,
+        "cluster_fit": 1.1,
         "freshness": 1.0
       }
     },
     {
-      "cluster": "support",
-      "path": "/support",
-      "keyword": "실업급여 신청방법",
-      "slug": "실업급여-신청방법",
-      "score": 53.46,
+      "cluster": "tax",
+      "path": "/tax",
+      "keyword": "종합소득세 환급 소득세",
+      "slug": "종합소득세-환급-소득세",
+      "derived": true,
+      "score": 46.4,
       "signals": {
-        "trend_momentum": 0.227,
+        "trend_momentum": 0.0,
         "question_volume": 0.48,
-        "cluster_fit": 1.0,
+        "cluster_fit": 1.1,
         "freshness": 1.0
       }
     },
     {
       "cluster": "support",
       "path": "/support",
-      "keyword": "국민취업지원제도",
-      "slug": "국민취업지원제도",
-      "score": 50.9,
-      "signals": {
-        "trend_momentum": 0.17,
-        "question_volume": 0.47,
-        "cluster_fit": 1.0,
-        "freshness": 1.0
-      }
-    },
-    {
-      "cluster": "support",
-      "path": "/support",
-      "keyword": "실업급여 조건",
-      "slug": "실업급여-조건",
-      "score": 46.19,
-      "signals": {
-        "trend_momentum": 0.045,
-        "question_volume": 0.48,
-        "cluster_fit": 1.0,
-        "freshness": 1.0
-      }
-    },
-    {
-      "cluster": "support",
-      "path": "/support",
-      "keyword": "근로장려금",
-      "slug": "근로장려금",
+      "keyword": "국민취업지원제도 지원",
+      "slug": "국민취업지원제도-지원",
+      "derived": true,
       "score": 44.7,
       "signals": {
         "trend_momentum": 0.0,
@@ -122,8 +89,9 @@
     {
       "cluster": "support",
       "path": "/support",
-      "keyword": "자녀장려금",
-      "slug": "자녀장려금",
+      "keyword": "국민취업지원제도 취업",
+      "slug": "국민취업지원제도-취업",
+      "derived": true,
       "score": 44.7,
       "signals": {
         "trend_momentum": 0.0,
@@ -133,13 +101,42 @@
       }
     },
     {
-      "cluster": "loan",
-      "path": "/loan",
-      "keyword": "마이너스통장",
-      "slug": "마이너스통장",
-      "score": 49.78,
+      "cluster": "support",
+      "path": "/support",
+      "keyword": "청년도약계좌 미래적금",
+      "slug": "청년도약계좌-미래적금",
+      "derived": true,
+      "score": 44.4,
       "signals": {
-        "trend_momentum": 0.134,
+        "trend_momentum": 0.0,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "support",
+      "path": "/support",
+      "keyword": "국민취업지원제도 유형",
+      "slug": "국민취업지원제도-유형",
+      "derived": true,
+      "score": 44.4,
+      "signals": {
+        "trend_momentum": 0.0,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "support",
+      "path": "/support",
+      "keyword": "햇살론",
+      "slug": "햇살론",
+      "derived": false,
+      "score": 44.4,
+      "signals": {
+        "trend_momentum": 0.0,
         "question_volume": 0.48,
         "cluster_fit": 1.0,
         "freshness": 1.0
@@ -148,51 +145,83 @@
     {
       "cluster": "loan",
       "path": "/loan",
-      "keyword": "신용대출 금리",
-      "slug": "신용대출-금리",
-      "score": 47.12,
+      "keyword": "신용점수 올리기",
+      "slug": "신용점수-올리기",
+      "derived": false,
+      "score": 53.35,
       "signals": {
-        "trend_momentum": 0.068,
+        "trend_momentum": 0.149,
         "question_volume": 0.48,
-        "cluster_fit": 1.0,
+        "cluster_fit": 1.15,
         "freshness": 1.0
       }
     },
     {
       "cluster": "loan",
       "path": "/loan",
-      "keyword": "대출 갈아타기",
-      "slug": "대출-갈아타기",
-      "score": 46.98,
+      "keyword": "전세자금대출 조건 버팀목",
+      "slug": "전세자금대출-조건-버팀목",
+      "derived": true,
+      "score": 47.7,
       "signals": {
-        "trend_momentum": 0.065,
-        "question_volume": 0.48,
-        "cluster_fit": 1.0,
+        "trend_momentum": 0.0,
+        "question_volume": 0.49,
+        "cluster_fit": 1.15,
         "freshness": 1.0
       }
     },
     {
       "cluster": "loan",
       "path": "/loan",
-      "keyword": "보금자리론",
-      "slug": "보금자리론",
-      "score": 45.67,
+      "keyword": "보금자리론 대출",
+      "slug": "보금자리론-대출",
+      "derived": true,
+      "score": 47.7,
       "signals": {
-        "trend_momentum": 0.032,
-        "question_volume": 0.48,
-        "cluster_fit": 1.0,
+        "trend_momentum": 0.0,
+        "question_volume": 0.49,
+        "cluster_fit": 1.15,
         "freshness": 1.0
       }
     },
     {
       "cluster": "loan",
       "path": "/loan",
-      "keyword": "전세자금대출 조건",
-      "slug": "전세자금대출-조건",
-      "score": 45.09,
+      "keyword": "보금자리론 생애최초",
+      "slug": "보금자리론-생애최초",
+      "derived": true,
+      "score": 47.7,
       "signals": {
-        "trend_momentum": 0.017,
-        "question_volume": 0.48,
+        "trend_momentum": 0.0,
+        "question_volume": 0.49,
+        "cluster_fit": 1.15,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "loan",
+      "path": "/loan",
+      "keyword": "대출 갈아타기 아파트",
+      "slug": "대출-갈아타기-아파트",
+      "derived": true,
+      "score": 47.7,
+      "signals": {
+        "trend_momentum": 0.0,
+        "question_volume": 0.49,
+        "cluster_fit": 1.15,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "insurance",
+      "path": "/insurance",
+      "keyword": "연금저축 세액공제 계좌",
+      "slug": "연금저축-세액공제-계좌",
+      "derived": true,
+      "score": 44.7,
+      "signals": {
+        "trend_momentum": 0.0,
+        "question_volume": 0.49,
         "cluster_fit": 1.0,
         "freshness": 1.0
       }
@@ -200,38 +229,13 @@
     {
       "cluster": "insurance",
       "path": "/insurance",
-      "keyword": "실손보험 청구",
-      "slug": "실손보험-청구",
-      "score": 47.99,
+      "keyword": "국민연금 추납 임의가입",
+      "slug": "국민연금-추납-임의가입",
+      "derived": true,
+      "score": 44.7,
       "signals": {
-        "trend_momentum": 0.097,
-        "question_volume": 0.47,
-        "cluster_fit": 1.0,
-        "freshness": 1.0
-      }
-    },
-    {
-      "cluster": "insurance",
-      "path": "/insurance",
-      "keyword": "자동차보험 할증",
-      "slug": "자동차보험-할증",
-      "score": 47.5,
-      "signals": {
-        "trend_momentum": 0.077,
-        "question_volume": 0.48,
-        "cluster_fit": 1.0,
-        "freshness": 1.0
-      }
-    },
-    {
-      "cluster": "insurance",
-      "path": "/insurance",
-      "keyword": "4대보험 가입",
-      "slug": "4대보험-가입",
-      "score": 45.05,
-      "signals": {
-        "trend_momentum": 0.024,
-        "question_volume": 0.47,
+        "trend_momentum": 0.0,
+        "question_volume": 0.49,
         "cluster_fit": 1.0,
         "freshness": 1.0
       }
@@ -241,6 +245,7 @@
       "path": "/insurance",
       "keyword": "국민연금 수령액",
       "slug": "국민연금-수령액",
+      "derived": false,
       "score": 44.4,
       "signals": {
         "trend_momentum": 0.0,
@@ -252,8 +257,23 @@
     {
       "cluster": "insurance",
       "path": "/insurance",
-      "keyword": "건강보험 피부양자",
-      "slug": "건강보험-피부양자",
+      "keyword": "국민연금 수령액 연금",
+      "slug": "국민연금-수령액-연금",
+      "derived": true,
+      "score": 44.4,
+      "signals": {
+        "trend_momentum": 0.0,
+        "question_volume": 0.48,
+        "cluster_fit": 1.0,
+        "freshness": 1.0
+      }
+    },
+    {
+      "cluster": "insurance",
+      "path": "/insurance",
+      "keyword": "국민연금 수령액 기초",
+      "slug": "국민연금-수령액-기초",
+      "derived": true,
       "score": 44.4,
       "signals": {
         "trend_momentum": 0.0,
