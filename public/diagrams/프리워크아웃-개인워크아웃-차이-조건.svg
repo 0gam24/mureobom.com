@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="연체 경과일수별 신용회복위원회 채무조정 3단계와 감면 수준 비교">
+  <rect x="0" y="0" width="900" height="600" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="60" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#1A2B2A">연체 경과일수로 갈리는 신용회복위원회 채무조정 3단계</text>
+  <text x="60" y="74" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">연체 일수 구간에 따라 적용 제도와 감면 수준이 달라져요</text>
+
+  <!-- 축 라벨 -->
+  <text x="60" y="112" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="600" fill="#4A5856">연체 경과일수</text>
+
+  <!-- 타임라인 바 -->
+  <rect x="60" y="124" width="260" height="56" fill="#E3F0EE"/>
+  <rect x="320" y="124" width="260" height="56" fill="#0E7C72"/>
+  <rect x="580" y="124" width="260" height="56" fill="#0A5F58"/>
+
+  <text x="190" y="148" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">신속채무조정</text>
+  <text x="190" y="168" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">연체 우려 ~ 30일 이하</text>
+
+  <text x="450" y="148" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">프리워크아웃</text>
+  <text x="450" y="168" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#E3F0EE">연체 31일 ~ 89일</text>
+
+  <text x="710" y="148" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0">개인워크아웃</text>
+  <text x="710" y="168" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#E3F0EE">연체 90일 이상</text>
+
+  <!-- 눈금 -->
+  <line x1="60" y1="180" x2="60" y2="192" stroke="#8A938F" stroke-width="1.5"/>
+  <line x1="320" y1="180" x2="320" y2="192" stroke="#8A938F" stroke-width="1.5"/>
+  <line x1="580" y1="180" x2="580" y2="192" stroke="#8A938F" stroke-width="1.5"/>
+  <text x="60" y="208" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">0일</text>
+  <text x="320" y="208" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">31일</text>
+  <text x="580" y="208" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">90일</text>
+
+  <!-- 감면 폭 화살표 -->
+  <line x1="70" y1="234" x2="820" y2="234" stroke="#C2873B" stroke-width="2"/>
+  <polygon points="820,228 834,234 820,240" fill="#C2873B"/>
+  <text x="70" y="256" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="600" fill="#C2873B">연체가 길어질수록 감면 폭은 커지지만, 신용상 부담과 상환 관리 기간도 함께 늘어나요</text>
+
+  <!-- 패널 1: 신속채무조정 -->
+  <rect x="60" y="278" width="250" height="212" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="80" y="310" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">신속채무조정</text>
+  <text x="80" y="330" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">공식 명칭: 연체전 채무조정</text>
+  <line x1="80" y1="342" x2="290" y2="342" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="80" y="366" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">· 연체이자 감면</text>
+  <text x="80" y="388" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">· 상환유예 최장 3년</text>
+  <text x="80" y="410" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">· 유예·기간 연장 중심 지원</text>
+  <text x="80" y="432" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">· 최장 10년 분할상환</text>
+  <text x="80" y="462" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#B5462F">원금 감면 없음</text>
+
+  <!-- 패널 2: 프리워크아웃 -->
+  <rect x="325" y="278" width="250" height="212" rx="10" fill="#F4EEE2" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="345" y="310" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0E7C72">프리워크아웃</text>
+  <text x="345" y="330" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">공식 명칭: 사전채무조정</text>
+  <line x1="345" y1="342" x2="555" y2="342" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="345" y="366" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">· 연체이자 전액 감면</text>
+  <text x="345" y="388" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1A2B2A">· 약정이자율 30~70% 인하</text>
+  <text x="345" y="410" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">&#160;&#160;(최고 연 8%, 최저 3.25%)</text>
+  <text x="345" y="432" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">· 최장 10년 분할, 유예 최장 3년</text>
+  <text x="345" y="462" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#B5462F">원금 감면 없음</text>
+
+  <!-- 패널 3: 개인워크아웃 -->
+  <rect x="590" y="278" width="250" height="212" rx="10" fill="#F4EEE2" stroke="#0A5F58" stroke-width="1.5"/>
+  <text x="610" y="310" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">개인워크아웃</text>
+  <text x="610" y="330" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">공식 명칭: 채무조정</text>
+  <line x1="610" y1="342" x2="820" y2="342" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="610" y="366" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">· 이자·연체이자 전액 감면</text>
+  <text x="610" y="388" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1A2B2A">· 원금 감면 심사로 가능</text>
+  <text x="610" y="410" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">&#160;&#160;미상각 최대 30% · 상각 20~70%</text>
+  <text x="610" y="432" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">· 무담보 최장 8년 상환</text>
+  <text x="610" y="462" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#0E7C72">원금 일부 감면 가능</text>
+
+  <!-- 하단 공통 조건 -->
+  <text x="60" y="528" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="600" fill="#4A5856">공통 신청 자격: 총 채무액 15억원 이하(무담보 5억원, 담보 10억원) · 신청 다음 날부터 추심 중단</text>
+  <text x="60" y="554" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">자료: 신용회복위원회 채무조정 안내, 서민금융법 시행령 제53조 (2026년 7월 확인)</text>
+</svg>

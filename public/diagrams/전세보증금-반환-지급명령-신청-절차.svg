@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 660" role="img" aria-label="전세보증금 지급명령 절차 흐름. 1단계 내용증명 발송과 증빙 정리(법정 필수 아님), 2단계 채무자 주소지 관할 법원에 지급명령 신청(제463조 전속관할, 전자독촉 가능), 3단계 법원 서면심리 후 채무자에게 송달, 4단계 채무자 이의신청 여부 분기(송달 후 2주 불변기간, 제470조). 이의가 없으면 확정되어 집행권원(제474조)이 되고 강제집행(압류·경매)으로 이어지고, 이의가 있으면 신청 시점에 소 제기된 것으로 보아(제472조) 본안소송으로 자동 이행됨. 2026년 기준." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0E7C72"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="660" fill="#FBF7F0"/>
+
+  <text x="40" y="48" font-size="24" font-weight="700" fill="#1A2B2A">전세보증금 지급명령, 이렇게 진행돼요</text>
+  <text x="40" y="74" font-size="14" fill="#4A5856">내용증명 준비부터 확정·강제집행까지 (2026년 기준, 민사소송법 독촉절차)</text>
+
+  <!-- Step 1 -->
+  <rect x="160" y="96" width="480" height="58" rx="12" fill="#F4EEE2"/>
+  <text x="184" y="124" font-size="16" font-weight="700" fill="#0A5F58">1  내용증명 발송·증빙 정리</text>
+  <text x="184" y="144" font-size="12" fill="#4A5856">법정 필수 아님. 반환청구 의사·시점 입증, 지연손해금 근거</text>
+  <line x1="400" y1="154" x2="400" y2="171" stroke="#0E7C72" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 2 -->
+  <rect x="160" y="172" width="480" height="58" rx="12" fill="#F4EEE2"/>
+  <text x="184" y="200" font-size="16" font-weight="700" fill="#0A5F58">2  지급명령 신청 (채무자 주소지 관할)</text>
+  <text x="184" y="220" font-size="12" fill="#4A5856">제463조 전속관할 · 전자독촉 온라인 접수 가능</text>
+  <line x1="400" y1="230" x2="400" y2="247" stroke="#0E7C72" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 3 -->
+  <rect x="160" y="248" width="480" height="58" rx="12" fill="#F4EEE2"/>
+  <text x="184" y="276" font-size="16" font-weight="700" fill="#0A5F58">3  법원 서면심리·채무자에게 송달</text>
+  <text x="184" y="296" font-size="12" fill="#4A5856">변론 없이 서류만 심사, 지급명령 정본 송달</text>
+  <line x1="400" y1="306" x2="400" y2="323" stroke="#0E7C72" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 4 decision -->
+  <rect x="160" y="324" width="480" height="64" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="184" y="352" font-size="16" font-weight="700" fill="#1A2B2A">4  채무자 이의신청?</text>
+  <text x="184" y="374" font-size="12" fill="#4A5856">송달받은 날부터 2주(14일) 이내 · 불변기간(제470조)</text>
+
+  <!-- Branch connectors -->
+  <line x1="400" y1="388" x2="400" y2="404" stroke="#0E7C72" stroke-width="2"/>
+  <line x1="215" y1="404" x2="585" y2="404" stroke="#0E7C72" stroke-width="2"/>
+  <line x1="215" y1="404" x2="215" y2="417" stroke="#0E7C72" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="585" y1="404" x2="585" y2="417" stroke="#0E7C72" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Left column: no objection -->
+  <rect x="95" y="418" width="240" height="28" rx="14" fill="#E3F0EE"/>
+  <text x="215" y="437" font-size="13" font-weight="700" fill="#0A5F58" text-anchor="middle">이의신청 없음 (2주 경과)</text>
+  <line x1="215" y1="446" x2="215" y2="461" stroke="#0E7C72" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="55" y="462" width="320" height="64" rx="10" fill="#F4EEE2"/>
+  <text x="75" y="490" font-size="15" font-weight="700" fill="#1A2B2A">확정 = 집행권원</text>
+  <text x="75" y="512" font-size="12" fill="#4A5856">제474조, 확정판결과 같은 효력</text>
+  <line x1="215" y1="526" x2="215" y2="541" stroke="#0E7C72" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="55" y="544" width="320" height="60" rx="10" fill="#0A5F58"/>
+  <text x="75" y="572" font-size="15" font-weight="700" fill="#FBF7F0">강제집행 (압류·경매)</text>
+  <text x="75" y="592" font-size="12" fill="#E3F0EE">채무자 재산에 대해 회수 절차 진행</text>
+
+  <!-- Right column: objection filed -->
+  <rect x="425" y="418" width="240" height="28" rx="14" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="545" y="437" font-size="13" font-weight="700" fill="#C2873B" text-anchor="middle">이의신청 있음 (2주 이내)</text>
+  <line x1="545" y1="446" x2="545" y2="461" stroke="#0E7C72" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="425" y="462" width="320" height="64" rx="10" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="445" y="490" font-size="15" font-weight="700" fill="#1A2B2A">본안소송 자동이행</text>
+  <text x="445" y="512" font-size="12" fill="#4A5856">제472조, 신청 시 소 제기 간주</text>
+
+  <rect x="425" y="544" width="320" height="60" rx="10" fill="#E3F0EE"/>
+  <text x="445" y="570" font-size="13" font-weight="700" fill="#0A5F58">'처음부터 다시'가 아니에요</text>
+  <text x="445" y="590" font-size="12" fill="#4A5856">소송으로 전환, 제소시점은 신청 때로 소급</text>
+
+  <text x="40" y="636" font-size="12" fill="#8A938F">확정돼도 채무자 재산이 없으면 회수가 어려울 수 있어요. 임차권등기명령(임차주택 소재지)은 병행 가능.</text>
+</svg>

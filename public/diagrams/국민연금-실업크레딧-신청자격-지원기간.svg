@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" role="img" aria-label="국민연금 실업크레딧 보험료 부담 구조와 지원 조건: 월 연금보험료는 인정소득의 9%이며 국가가 75%, 본인이 25%를 부담. 인정소득 상한 월 70만원, 생애 최대 12개월 지원. 대상은 18에서 60세 가입 이력이 있는 구직급여 수급자. 재산세 과세표준 합산 6억원 초과 또는 종합소득 1,680만원 초과 시 제외.">
+  <rect x="0" y="0" width="820" height="560" fill="#FBF7F0"/>
+
+  <text x="410" y="48" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#1A2B2A">국민연금 실업크레딧 지원 구조</text>
+  <text x="410" y="76" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#8A938F">구직급여 수급 중 연금보험료 지원 (2026년 기준)</text>
+
+  <line x1="60" y1="94" x2="760" y2="94" stroke="#E3DCCF" stroke-width="1"/>
+
+  <text x="60" y="122" text-anchor="start" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#4A5856">월 연금보험료 = 인정소득 × 9%</text>
+
+  <rect x="60" y="136" width="525" height="60" fill="#0E7C72"/>
+  <rect x="585" y="136" width="175" height="60" fill="#C2873B"/>
+  <rect x="60" y="136" width="700" height="60" fill="none" stroke="#0A5F58" stroke-width="1.5"/>
+  <text x="322" y="164" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#FBF7F0">국가 지원 75%</text>
+  <text x="322" y="185" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#E3F0EE">국민연금공단이 대신 납부</text>
+  <text x="672" y="164" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#FBF7F0">본인 25%</text>
+  <text x="672" y="185" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#F4EEE2">직접 납부</text>
+
+  <text x="60" y="220" text-anchor="start" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">본인이 25%를 납부해야 국가 지원 75%가 시작돼요.</text>
+
+  <!-- Card 1 -->
+  <rect x="60" y="246" width="335" height="118" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="82" y="280" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0E7C72">인정소득 상한</text>
+  <text x="82" y="316" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">월 70만원</text>
+  <text x="82" y="344" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">실직 전 3개월 평균소득의 50%</text>
+
+  <!-- Card 2 -->
+  <rect x="425" y="246" width="335" height="118" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="447" y="280" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0E7C72">지원 한도</text>
+  <text x="447" y="316" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">생애 최대 12개월</text>
+  <text x="447" y="344" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">지급일수를 30일 단위로 산정</text>
+
+  <!-- Card 3 -->
+  <rect x="60" y="384" width="335" height="118" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="82" y="418" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0E7C72">지원 대상</text>
+  <text x="82" y="454" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#1A2B2A">18~60세 가입 이력자</text>
+  <text x="82" y="482" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">구직급여 수급 중 본인이 직접 신청</text>
+
+  <!-- Card 4 (warning) -->
+  <rect x="425" y="384" width="335" height="118" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="447" y="418" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#B5462F">지원 제외 기준</text>
+  <text x="447" y="446" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">재산세 과세표준 합산 6억원 초과</text>
+  <text x="447" y="470" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">또는 종합소득 1,680만원 초과</text>
+  <text x="447" y="490" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">(근로·사업소득은 제외한 금액 기준)</text>
+
+  <text x="410" y="534" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">근거: 국민연금법 제19조의2 · 국민연금공단 · 정부24 실업크레딧 안내</text>
+</svg>

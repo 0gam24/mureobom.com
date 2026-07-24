@@ -1,6 +1,6 @@
 id: loan-프리워크아웃-개인워크아웃-차이-조건
 cluster: loan
-status: approved         # 운영자 일일 자동 발행 지시(스케줄 실행) = 즉석 승인 (2026-07-23 KST). 단, egress 차단으로 발행 보류
+status: published        # 로컬 발행 완료 (2026-07-24 KST, 원안 07-23) — 클라우드 egress 차단 우회, 운영자 세션에서 커밋·푸시
 
 target_query: "프리워크아웃 개인워크아웃 차이 조건 신용회복위원회 채무조정 연체기간"
 search_intent: 정보형      # 연체 단계별 신용회복위 채무조정 프로그램 선택 기준 확인 목적
