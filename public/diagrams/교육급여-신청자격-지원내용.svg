@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 640" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="2026년 교육급여 한눈에 보기: 선정 기준 기준 중위소득 50퍼센트 이하, 4인 가구 월 소득인정액 324만 7,369원 이하. 학교급별 교육활동지원비 초등 50만 2천원, 중학 69만 9천원, 고교 86만원. 신청은 주민센터 방문 또는 복지로 온라인, 집중신청기간 3월.">
+  <rect width="820" height="640" fill="#FBF7F0"/>
+
+  <!-- Title -->
+  <text x="40" y="52" font-size="27" font-weight="700" fill="#1A2B2A">2026년 교육급여 한눈에 보기</text>
+  <text x="40" y="80" font-size="15" fill="#4A5856">국민기초생활 보장법 제12조 · 교육부 소관 4대 급여 중 하나</text>
+  <line x1="40" y1="96" x2="780" y2="96" stroke="#E3DCCF" stroke-width="2"/>
+
+  <!-- Panel 1: 선정 기준 -->
+  <rect x="40" y="118" width="355" height="196" rx="12" fill="#E3F0EE"/>
+  <text x="62" y="150" font-size="17" font-weight="700" fill="#0A5F58">1. 선정 기준</text>
+  <text x="62" y="178" font-size="15" fill="#1A2B2A">기준 중위소득 50% 이하</text>
+  <text x="62" y="200" font-size="13" fill="#4A5856">가구 소득인정액이 아래 선 이하면 대상</text>
+
+  <text x="62" y="232" font-size="13" fill="#4A5856">4인 가구 기준선(월)</text>
+  <text x="62" y="264" font-size="30" font-weight="700" fill="#0E7C72">324만 7,369원</text>
+  <text x="62" y="292" font-size="13" fill="#8A938F">1인 128만 · 2인 210만 · 6인 428만 (월)</text>
+
+  <!-- Panel 2: 신청 -->
+  <rect x="415" y="118" width="365" height="196" rx="12" fill="#F4EEE2"/>
+  <text x="437" y="150" font-size="17" font-weight="700" fill="#C2873B">2. 신청 방법</text>
+  <text x="437" y="180" font-size="15" fill="#1A2B2A">주민센터 방문 또는 복지로 온라인</text>
+  <text x="437" y="204" font-size="13" fill="#4A5856">bokjiro.go.kr · 연중 신청 가능</text>
+
+  <rect x="437" y="222" width="322" height="34" rx="8" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="453" y="244" font-size="14" fill="#1A2B2A">집중신청기간: 매년 3월 초 (한 번에 처리)</text>
+  <text x="437" y="284" font-size="13" fill="#4A5856">가구·소득 서류 안내는 복지로·주민센터에서</text>
+
+  <!-- Panel 3: 학교급별 교육활동지원비 -->
+  <rect x="40" y="334" width="740" height="180" rx="12" fill="#F4EEE2"/>
+  <text x="62" y="366" font-size="17" font-weight="700" fill="#0A5F58">3. 교육활동지원비 (연 1회, 학교급별 차등)</text>
+
+  <!-- 초 -->
+  <rect x="62" y="386" width="220" height="104" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="172" y="418" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">초등학교</text>
+  <text x="172" y="456" font-size="26" font-weight="700" fill="#0E7C72" text-anchor="middle">50만 2,000원</text>
+  <text x="172" y="478" font-size="12" fill="#8A938F" text-anchor="middle">연간</text>
+
+  <!-- 중 -->
+  <rect x="300" y="386" width="220" height="104" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="410" y="418" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">중학교</text>
+  <text x="410" y="456" font-size="26" font-weight="700" fill="#0E7C72" text-anchor="middle">69만 9,000원</text>
+  <text x="410" y="478" font-size="12" fill="#8A938F" text-anchor="middle">연간</text>
+
+  <!-- 고 -->
+  <rect x="538" y="386" width="220" height="104" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="648" y="418" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">고등학교</text>
+  <text x="648" y="456" font-size="26" font-weight="700" fill="#0A5F58" text-anchor="middle">86만원</text>
+  <text x="648" y="478" font-size="12" fill="#8A938F" text-anchor="middle">연간 + 학비 실비(무상교육 제외 시)</text>
+
+  <!-- Footer note -->
+  <rect x="40" y="534" width="740" height="70" rx="12" fill="#E3F0EE"/>
+  <text x="62" y="564" font-size="14" font-weight="700" fill="#0A5F58">교육급여(교육부) vs 교육비(시도교육청)</text>
+  <text x="62" y="588" font-size="13" fill="#4A5856">교육급여는 중위소득 50% 이하 전국 공통, 교육비는 교육청 자체 기준(중위 50~80% 등). 창구가 같아 함께 신청.</text>
+
+  <text x="40" y="628" font-size="12" fill="#8A938F">2026년 기준. 소득 기준선과 금액은 매년 고시로 바뀌므로 신청 전 복지로에서 최신 값을 확인하세요.</text>
+</svg>

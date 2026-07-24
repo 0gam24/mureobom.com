@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" role="img" aria-label="개인파산 면책 2단계 절차: 1단계 파산선고(신청·첨부서류 제출, 지급불능 심리, 파산재단 청산, 자유재산·면제재산 제외), 2단계 면책결정(면책심리, 면책불허가 사유 없으면 허가, 이의기간 후 14일 내 결정, 확정 시 당연복권)" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="560" fill="#FBF7F0"/>
+  <text x="410" y="44" text-anchor="middle" font-size="25" font-weight="700" fill="#1A2B2A">개인파산·면책은 2단계로 진행돼요</text>
+  <text x="410" y="72" text-anchor="middle" font-size="15" fill="#4A5856">파산선고(재산 청산)와 면책결정(남은 빚 면제)은 별개의 재판이에요</text>
+
+  <!-- Stage 1 panel -->
+  <rect x="40" y="100" width="345" height="380" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="40" y="100" width="345" height="52" rx="14" fill="#0E7C72"/>
+  <rect x="40" y="130" width="345" height="22" fill="#0E7C72"/>
+  <text x="66" y="133" font-size="19" font-weight="700" fill="#FBF7F0">1단계  파산선고</text>
+  <text x="66" y="146" font-size="0" fill="#FBF7F0"> </text>
+
+  <g font-size="15" fill="#1A2B2A">
+    <circle cx="72" cy="192" r="14" fill="#E3F0EE"/>
+    <text x="72" y="197" text-anchor="middle" font-size="14" font-weight="700" fill="#0A5F58">1</text>
+    <text x="98" y="190" font-size="16" font-weight="700">신청서·첨부서류 제출</text>
+    <text x="98" y="212" font-size="13.5" fill="#4A5856">채권자목록·재산목록·수입지출목록·</text>
+    <text x="98" y="230" font-size="13.5" fill="#4A5856">진술서 (주소지 관할 회생법원)</text>
+
+    <circle cx="72" cy="272" r="14" fill="#E3F0EE"/>
+    <text x="72" y="277" text-anchor="middle" font-size="14" font-weight="700" fill="#0A5F58">2</text>
+    <text x="98" y="270" font-size="16" font-weight="700">지급불능 심리</text>
+    <text x="98" y="292" font-size="13.5" fill="#4A5856">자기 재산으로 모든 빚을 갚을 수</text>
+    <text x="98" y="310" font-size="13.5" fill="#4A5856">없는 상태인지 법원이 판단</text>
+
+    <circle cx="72" cy="352" r="14" fill="#E3F0EE"/>
+    <text x="72" y="357" text-anchor="middle" font-size="14" font-weight="700" fill="#0A5F58">3</text>
+    <text x="98" y="350" font-size="16" font-weight="700">파산선고·재단 청산</text>
+    <text x="98" y="372" font-size="13.5" fill="#4A5856">남은 재산을 채권자에게 배당</text>
+  </g>
+
+  <rect x="62" y="398" width="300" height="62" rx="9" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+  <text x="76" y="420" font-size="13.5" font-weight="700" fill="#0A5F58">자유재산·면제재산은 청산 대상 아님</text>
+  <text x="76" y="440" font-size="12.5" fill="#4A5856">압류금지재산, 6개월 생계비·주거 일부는</text>
+  <text x="76" y="454" font-size="12.5" fill="#4A5856">그대로 보호돼요 (법 제383조)</text>
+
+  <!-- Arrow -->
+  <g>
+    <line x1="392" y1="290" x2="428" y2="290" stroke="#C2873B" stroke-width="3"/>
+    <polygon points="428,282 444,290 428,298" fill="#C2873B"/>
+  </g>
+
+  <!-- Stage 2 panel -->
+  <rect x="452" y="100" width="328" height="380" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="452" y="100" width="328" height="52" rx="14" fill="#0A5F58"/>
+  <rect x="452" y="130" width="328" height="22" fill="#0A5F58"/>
+  <text x="478" y="133" font-size="19" font-weight="700" fill="#FBF7F0">2단계  면책결정</text>
+
+  <g font-size="15" fill="#1A2B2A">
+    <circle cx="484" cy="192" r="14" fill="#E3F0EE"/>
+    <text x="484" y="197" text-anchor="middle" font-size="14" font-weight="700" fill="#0A5F58">4</text>
+    <text x="510" y="190" font-size="16" font-weight="700">면책심리</text>
+    <text x="510" y="212" font-size="13.5" fill="#4A5856">사기파산·낭비·도박 등 불허가</text>
+    <text x="510" y="230" font-size="13.5" fill="#4A5856">사유가 있는지 심사 (법 제564조)</text>
+
+    <circle cx="484" cy="272" r="14" fill="#E3F0EE"/>
+    <text x="484" y="277" text-anchor="middle" font-size="14" font-weight="700" fill="#0A5F58">5</text>
+    <text x="510" y="270" font-size="16" font-weight="700">면책 여부 결정</text>
+    <text x="510" y="292" font-size="13.5" fill="#4A5856">이의기간 지난 뒤 특별한 사정 없으면</text>
+    <text x="510" y="310" font-size="13.5" fill="#4A5856">14일 이내 결정 (재량면책 가능)</text>
+
+    <circle cx="484" cy="352" r="14" fill="#E3F0EE"/>
+    <text x="484" y="357" text-anchor="middle" font-size="14" font-weight="700" fill="#0A5F58">6</text>
+    <text x="510" y="350" font-size="16" font-weight="700">면책결정 확정·당연복권</text>
+    <text x="510" y="372" font-size="13.5" fill="#4A5856">남은 빚 면제, 자격제한도 소멸</text>
+  </g>
+
+  <rect x="474" y="398" width="284" height="62" rx="9" fill="#F4EEE2" stroke="#B5462F" stroke-width="1"/>
+  <text x="488" y="420" font-size="13.5" font-weight="700" fill="#B5462F">면책돼도 남는 빚(비면책채권)</text>
+  <text x="488" y="440" font-size="12.5" fill="#4A5856">조세·벌금·양육비·고의 불법행위</text>
+  <text x="488" y="454" font-size="12.5" fill="#4A5856">손해배상은 그대로 (법 제566조)</text>
+
+  <text x="410" y="516" text-anchor="middle" font-size="12.5" fill="#8A938F">2026년 7월 기준 · 근거: 채무자 회생 및 파산에 관한 법률 (법제처 찾기쉬운 생활법령정보)</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" role="img" aria-label="사업소득 필요경비 3분류: 전액 인정(인건비·임차료·이자비용·감가상각비·소모품·복리후생), 한도 내 인정(기업업무추진비·기부금), 불인정(가사관련경비·업무무관비용·벌금과태료). 판단 기준은 사업 관련성과 통상성, 적격증빙이며 소득금액은 총수입금액에서 필요경비를 뺀 값." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="560" fill="#FBF7F0"/>
+  <text x="40" y="52" font-size="26" fill="#1A2B2A" font-weight="700">사업소득 필요경비, 3가지로 나눠보기</text>
+  <text x="40" y="80" font-size="15" fill="#4A5856">판단 기준: 사업 관련성 + 통상성 + 적격증빙 (소득세법 제27조)</text>
+
+  <!-- 인정 -->
+  <rect x="40" y="104" width="240" height="322" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <rect x="40" y="104" width="240" height="44" rx="12" fill="#0E7C72"/>
+  <text x="160" y="133" font-size="18" fill="#FBF7F0" font-weight="700" text-anchor="middle">전액 인정</text>
+  <text x="60" y="180" font-size="15" fill="#1A2B2A">· 매출원가(매입가격)</text>
+  <text x="60" y="212" font-size="15" fill="#1A2B2A">· 인건비(종업원 급여)</text>
+  <text x="60" y="244" font-size="15" fill="#1A2B2A">· 임차료·수선비·관리비</text>
+  <text x="60" y="276" font-size="15" fill="#1A2B2A">· 이자비용(사업용 차입)</text>
+  <text x="60" y="308" font-size="15" fill="#1A2B2A">· 감가상각비</text>
+  <text x="60" y="340" font-size="15" fill="#1A2B2A">· 제세공과금·보험료</text>
+  <text x="60" y="372" font-size="15" fill="#1A2B2A">· 소모품·복리후생비</text>
+  <text x="60" y="408" font-size="13" fill="#4A5856">시행령 제55조 열거 항목</text>
+
+  <!-- 한도 -->
+  <rect x="296" y="104" width="228" height="322" rx="12" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+  <rect x="296" y="104" width="228" height="44" rx="12" fill="#C2873B"/>
+  <text x="410" y="133" font-size="18" fill="#FBF7F0" font-weight="700" text-anchor="middle">한도 내 인정</text>
+  <text x="316" y="184" font-size="15" fill="#1A2B2A" font-weight="700">기업업무추진비(접대비)</text>
+  <text x="316" y="210" font-size="14" fill="#4A5856">한도 초과분은 불산입</text>
+  <text x="316" y="236" font-size="14" fill="#4A5856">(소득세법 제35조)</text>
+  <text x="316" y="286" font-size="15" fill="#1A2B2A" font-weight="700">기부금</text>
+  <text x="316" y="312" font-size="14" fill="#4A5856">한도 초과분 불산입,</text>
+  <text x="316" y="338" font-size="14" fill="#4A5856">10년 이월 가능</text>
+  <text x="316" y="364" font-size="14" fill="#4A5856">(소득세법 제34조)</text>
+
+  <!-- 불인정 -->
+  <rect x="540" y="104" width="240" height="322" rx="12" fill="#F4EEE2" stroke="#B5462F" stroke-width="2"/>
+  <rect x="540" y="104" width="240" height="44" rx="12" fill="#B5462F"/>
+  <text x="660" y="133" font-size="18" fill="#FBF7F0" font-weight="700" text-anchor="middle">불인정</text>
+  <text x="560" y="184" font-size="15" fill="#1A2B2A">· 가사관련경비</text>
+  <text x="560" y="210" font-size="13" fill="#4A5856">(개인 생활비성 지출)</text>
+  <text x="560" y="248" font-size="15" fill="#1A2B2A">· 업무무관 비용</text>
+  <text x="560" y="286" font-size="15" fill="#1A2B2A">· 벌금·과료·과태료</text>
+  <text x="560" y="324" font-size="15" fill="#1A2B2A">· 사업용·가사용 혼용분</text>
+  <text x="560" y="350" font-size="13" fill="#4A5856">중 가사 사용분</text>
+  <text x="560" y="408" font-size="13" fill="#4A5856">소득세법 제33조</text>
+
+  <line x1="40" y1="454" x2="780" y2="454" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="40" y="486" font-size="15" fill="#1A2B2A" font-weight="700">소득금액 = 총수입금액 빼기 필요경비</text>
+  <text x="40" y="514" font-size="14" fill="#4A5856">장부(복식·간편) 기장 시 실제 지출을 경비로 공제 · 미기장 시 경비율로 추계</text>
+  <text x="40" y="540" font-size="14" fill="#4A5856">세금계산서·신용카드·현금영수증 등 적격증빙을 갖춰야 경비 인정이 안전해요</text>
+</svg>
