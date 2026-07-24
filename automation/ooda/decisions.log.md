@@ -27,6 +27,35 @@
 
 ---
 
+## D-2026-07-24-2: 로컬 세션에서 보류분 4편 수동 발행 + 스케줄 트리거 정상 확정(egress만이 유일 병목)
+
+- **층위**: 긴급(즉시) — 운영자(로컬) 개입으로 3일 공백 해소
+- **변경**: 운영자 로컬 세션(egress 정상)에서 완성 드래프트 4편을 커밋·푸시해 발행(commit 396b6d1).
+  loan/전세보증금-반환-지급명령-신청-절차 · tax/청년형-소득공제-장기펀드-가입조건-혜택 ·
+  insurance/국민연금-실업크레딧-신청자격-지원기간 (오늘치 3편) + loan/프리워크아웃-개인워크아웃-차이-조건
+  (원안 07-23 잔여). 4편 모두 quality-gate/compliance **정식 게이트 없이** 발행(운영자 지시 "최종 확인
+  생략, 바로 발행") — 단 프론트매터 Zod·인포그래픽 존재·출처 min1은 `npm run build`(203p) 통과로 확인.
+  brief 4건 status→published, _published_slugs.txt·llms.txt 갱신.
+- **근거 (Orient) — 스케줄 트리거 실측 진단**: RemoteTrigger get(trig_01Fe8HhS6HSHFrCqWv9zdyyK) 결과
+  **트리거 자체는 완전 정상**임을 확정 → 미래 세션은 스케줄을 재의심하지 말 것:
+  - `enabled: true`, `cron_expression: "0 21 * * *"` (UTC 21:00 = KST 06:00, 서머타임 없어 연중 고정) ✓
+  - `last_fired_at: 2026-07-23T21:01:57Z` = **07-24 06:01 KST 정상 발화** (오늘치 브리프 커밋 2b465ac가 그 산출)
+  - `next_run_at: 2026-07-24T21:01:44Z` = 07-25 06:01 KST 예약됨 ✓
+  - 즉, "스케줄 포스팅 안 됨"의 원인은 스케줄이 아니라 **클라우드 환경(env_01M3Ju5zzPBpEZM8B3aSN5n7)의
+    egress 정책이 모든 외부 WebFetch를 403 차단**하는 것 하나뿐. 절대원칙2(sources[].url WebFetch 200
+    검증)를 못 지켜 발행 보류가 **의도된 안전 동작**으로 발생. 레포에는 egress 관련 설정 파일이 없음
+    (launch.json은 Astro dev/preview 전용) → **코드로 수정 불가, 환경 측 네트워크 정책 문제**.
+- **필요 운영자 액션(유일한 근본 해결)**: claude.ai 클라우드 환경 `env_01M3Ju5zzPBpEZM8B3aSN5n7`의
+  네트워크 egress 허용목록에 공식 출처 도메인 추가 — law.go.kr·nts.go.kr·moel.go.kr·fss.or.kr·fsc.go.kr·
+  nps.or.kr·nhis/hira.or.kr·kcomwel.or.kr·hf.go.kr·gov.kr·bokjiro.go.kr·scourt.go.kr. 그 전까지는
+  본 건처럼 **로컬 세션 수동 발행**이 유일한 배출 경로.
+- **기대 효과**: egress 허용 즉시 무인 발행 재개, 잔여 held 브리프 소진 하루 3편+ 가능.
+- **롤백 기준**: 해당 없음(외부 인프라).
+- **연관 커밋**: 396b6d1 (직접 main)
+- **Outcome (1주 후 작성)**:
+
+---
+
 ## D-2026-07-24-1: 일일 발행 보류(연속 지속·7일째) — 클라우드 egress 차단 지속, WebFetch 전 도메인 403
 
 - **층위**: 긴급(즉시) — 발행 파이프라인 중단, 운영자 개입 필요(네트워크 정책)
