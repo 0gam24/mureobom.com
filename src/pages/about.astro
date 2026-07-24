@@ -2,8 +2,25 @@
 import Base from "../layouts/Base.astro";
 const title = "물어봄 소개";
 const description = "물어봄은 세금·정부지원금·대출·보험 분야에서 사람들이 가장 많이 묻는 질문에 법령·정부 자료로 답하는 독립 Q&A 미디어입니다.";
+
+/* ProfilePage — Article.author.url이 가리키는 저자 소개 페이지의 공식 마크업
+ * (article.md author.url + profile-page.md: 조직 mainEntity 허용). */
+const siteBase = Astro.site?.toString().replace(/\/$/, "") ?? "https://mureobom.com";
+const jsonld = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Organization",
+    "@id": `${siteBase}/#organization`,
+    "name": "물어봄",
+    "url": `${siteBase}/`,
+    "description": description,
+    "email": "hello@mureobom.com",
+    "logo": { "@type": "ImageObject", "url": `${siteBase}/apple-touch-icon.png` },
+  },
+};
 ---
-<Base title={title} description={description}>
+<Base title={title} description={description} jsonld={jsonld}>
   <article class="page">
     <h1>물어봄 소개</h1>
 

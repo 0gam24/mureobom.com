@@ -8,8 +8,46 @@ const all = (await getCollection("answers"))
   .sort((a,b)=>b.data.updated.valueOf()-a.data.updated.valueOf());
 const latest = all.slice(0, 9);
 const fmt = (d: Date) => new Intl.DateTimeFormat("ko-KR",{dateStyle:"medium"}).format(d);
+
+/* WebSite + Organization JSON-LD — 홈페이지 1곳에만 삽입.
+ * WebSite: Google 사이트 이름 표시 제어(site-names 공식 요건 — name·url·alternateName).
+ * Organization: 지식패널·로고 + Article.publisher 참조 일관성(organization 공식 요건). */
+const siteBase = Astro.site?.toString().replace(/\/$/, "") ?? "https://mureobom.com";
+const homeJsonld = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${siteBase}/#website`,
+      "name": "물어봄",
+      "alternateName": ["mureobom", "mureobom.com"],
+      "url": `${siteBase}/`,
+      "inLanguage": "ko",
+      "publisher": { "@id": `${siteBase}/#organization` },
+    },
+    {
+      "@type": "Organization",
+      "@id": `${siteBase}/#organization`,
+      "name": "물어봄",
+      "url": `${siteBase}/`,
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${siteBase}/apple-touch-icon.png`,
+        "width": 180,
+        "height": 180,
+      },
+      "description": "세금·정부지원금·대출·보험 질문에 법령·정부 공식 자료로 답하는 독립 Q&A 미디어",
+      "email": "hello@mureobom.com",
+    },
+  ],
+};
 ---
-<Base title="궁금하면, 물어봄" description="세금·정부지원금·대출·보험, 공식 자료로 확인한 정확한 답.">
+<Base
+  title="물어봄 — 세금·지원금·대출·보험, 공식 자료로 확인한 답"
+  fullTitle={true}
+  description="세금·정부지원금·대출·보험, 공식 자료로 확인한 정확한 답."
+  jsonld={homeJsonld}
+>
   <section class="hero">
     <p class="eyebrow">공식 자료로 확인한 답만</p>
     <h1>궁금한 건 많은데,<br/>믿을 답은 적어서.</h1>

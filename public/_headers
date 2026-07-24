@@ -1,7 +1,26 @@
-# Cloudflare Pages 응답 헤더 — 보안 기본값 (GAP-01)
+# Cloudflare Pages 응답 헤더 — 보안 + 캐싱 (GAP-01, C5 캐싱·전송)
 # 형식: https://developers.cloudflare.com/pages/configuration/headers/
+# CSP는 AdSense(googlesyndication 다수 도메인 + 동적 iframe)·GA4와 충돌해 도입하지 않음 (E2 §3-3).
 /*
-  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  Strict-Transport-Security: max-age=63072000; includeSubDomains
   X-Frame-Options: SAMEORIGIN
   X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# 해시 파일명 번들(JS·CSS·셀프호스팅 폰트 woff2) — 내용 변경 시 파일명이 바뀌므로 영구 캐시
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# 슬러그 기반 파일명(해시 없음) — 재생성 가능성이 있어 immutable 금지, 하루 + SWR 1주
+/diagrams/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+/og/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/favicon.svg
+  Cache-Control: public, max-age=86400
+/apple-touch-icon.png
+  Cache-Control: public, max-age=86400
+/og-default.png
+  Cache-Control: public, max-age=86400

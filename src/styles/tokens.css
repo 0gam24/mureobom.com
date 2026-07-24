@@ -50,3 +50,5 @@ body {
 h1,h2,h3 { font-family: var(--font-display); line-height: 1.25; font-weight: 700; }
 a { color: var(--teal); text-decoration: none; }
 a:hover { color: var(--teal-deep); }
+/* 키보드 포커스 표시 — WCAG 2.4.7. outline 제거 금지, 대비 3:1 이상 */
+:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; }

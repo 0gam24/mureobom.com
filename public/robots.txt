@@ -6,16 +6,14 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
-# Google Ads 방문 페이지 품질 검사 봇. AdSense 콘텐츠 매칭 크롤러
-# (Mediapartners-Google)는 아래 와일드카드(*) 규칙으로 전체 허용됨
+# Google Ads 방문 페이지 품질 검사 봇
 User-agent: AdsBot-Google
 Allow: /
 
-# 나머지 모든 봇 (Bingbot, ClaudeBot, GPTBot, PerplexityBot 등 LLM 포함)
-# 기본적으로 모두 허용 — mureobom은 GEO 전략(LLM 답변 노출)이라 LLM 봇도 환영
+# 나머지 모든 봇 — Bingbot·Mediapartners-Google(AdSense)·Google-Extended(AI 그라운딩)·
+# ClaudeBot·GPTBot·PerplexityBot 등 전부 허용. mureobom은 GEO 전략(LLM 답변 노출)이라
+# AI 크롤러 환영 — Google-Extended 차단은 AI 인용 노출 상실이므로 금지.
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /api/
 
 Sitemap: https://mureobom.com/sitemap.xml

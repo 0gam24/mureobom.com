@@ -48,6 +48,15 @@ const ogImage  = p.data.image
 /* datePublished/dateModified 분리 — published 미지정 글은 updated로 폴백 (SEO-04) */
 const publishedDate = p.data.published ?? p.data.updated;
 
+/* KST(+09:00) ISO 8601 — Google article.md: 시간대 명시 권장.
+ * frontmatter date-only는 UTC 자정으로 파싱되므로 날짜 문자열만 취해 KST 자정으로 조립
+ * (toISOString() UTC 표기 시 KST 발행일과 달력 날짜가 어긋나는 문제 방지). */
+function toKstIso(d: Date | string): string {
+  return `${new Date(d).toISOString().slice(0, 10)}T00:00:00+09:00`;
+}
+const publishedIso = toKstIso(publishedDate);
+const modifiedIso  = toKstIso(p.data.updated);
+
 /* 출처 링크 rel — 정부·공공기관(go.kr/or.kr/gov.kr/korea.kr)은 nofollow 제거(신뢰 출처 시그널),
  * 그 외 도메인은 nofollow 유지 (GAP-02) */
 function sourceRel(url: string): string | undefined {
@@ -73,12 +82,13 @@ const articleNode = {
   "description": p.data.summary,
   "inLanguage": "ko",
   "isAccessibleForFree": true,
-  "datePublished": new Date(publishedDate).toISOString(),
-  "dateModified":  new Date(p.data.updated).toISOString(),
+  "datePublished": publishedIso,
+  "dateModified":  modifiedIso,
   "image": [ogImage],
   "author":    { "@type": "Organization", "name": p.data.author, "url": siteBase ? `${siteBase}/about/` : undefined },
   "publisher": {
     "@type": "Organization",
+    "@id": `${siteBase}/#organization`,   /* 홈 Organization 노드와 동일 식별자 — 참조 일관성 */
     "name": "물어봄",
     "url": siteBase || undefined,
     "logo": { "@type": "ImageObject", "url": `${siteBase}/apple-touch-icon.png` },
@@ -87,12 +97,15 @@ const articleNode = {
   ...(citations.length ? { "citation": citations } : {}),
 };
 
+/* BreadcrumbList — 네이버·구글 겸용:
+ * 네이버는 name에 "홈"·"top" 등 일반 단어 금지 + item을 {@id, name} 객체로 요구,
+ * 구글은 두 형태 모두 인식(breadcrumb.md). 첫 항목명은 사이트명 "물어봄". */
 const breadcrumbNode = {
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "홈",                 "item": `${siteBase}/` },
-    { "@type": "ListItem", "position": 2, "name": CL[p.data.cluster], "item": clusterUrl },
-    { "@type": "ListItem", "position": 3, "name": p.data.title,         "item": pageUrl },
+    { "@type": "ListItem", "position": 1, "name": "물어봄",           "item": { "@id": `${siteBase}/`, "name": "물어봄" } },
+    { "@type": "ListItem", "position": 2, "name": CL[p.data.cluster], "item": { "@id": clusterUrl, "name": CL[p.data.cluster] } },
+    { "@type": "ListItem", "position": 3, "name": p.data.title,       "item": { "@id": pageUrl, "name": p.data.title } },
   ],
 };
 
@@ -123,6 +136,8 @@ const slotBottom = import.meta.env.PUBLIC_ADSENSE_SLOT_BOTTOM ?? "";
   ogType="article"
   ogImage={ogImage}
   canonical={pageUrl}
+  articlePublished={publishedIso}
+  articleModified={modifiedIso}
 >
   <article class="post">
     <p class="crumb"><a href={`/${p.data.cluster}/`}>{CL[p.data.cluster]}</a></p>

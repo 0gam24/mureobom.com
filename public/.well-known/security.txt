@@ -1,0 +1,4 @@
+Contact: mailto:hello@mureobom.com
+Expires: 2027-07-24T00:00:00.000Z
+Preferred-Languages: ko, en
+Canonical: https://mureobom.com/.well-known/security.txt
