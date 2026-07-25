@@ -33,6 +33,9 @@ const googleVerify  = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
  * env 우선, 없으면 코드 상 기본 ID 사용. Cloudflare Pages env에 PUBLIC_GA_ID 설정 시 거기서 읽음. */
 const gaId = import.meta.env.PUBLIC_GA_ID ?? "G-HRWLK7NCKE";
 
+/* 네이버 애널리틱스(wcs) — GA4와 동일 정책(측정 ID는 시크릿 아님, env 우선·기본 ID 폴백). */
+const naverWcsId = import.meta.env.PUBLIC_NAVER_ANALYTICS_ID ?? "261b61b4859844";
+
 /* URL 정규화: 한글 슬러그 percent-encoding 통일 (SEO 검토 #2 대응)
  *  - `new URL().toString()`은 path 부분 한글을 raw로 유지하므로 별도 인코딩 필요.
  *  - encodeURI는 `/` `.` `-` 같은 reserved 문자를 보존하면서 한글만 인코딩.
@@ -138,6 +141,24 @@ const appleTouchUrl = toAbsoluteUrl("/apple-touch-icon.png");
         };
         if ('requestIdleCallback' in window) requestIdleCallback(load, {timeout: 3000});
         else setTimeout(load, 1500);
+      })();
+    </script>
+  )}
+
+  {/* 네이버 애널리틱스(wcs) — 실시간 방문 집계. 공식 스니펫은 동기 로드라
+   *  async + onload 방식으로 전환(추적 동일, 렌더 블로킹 없음). */}
+  {naverWcsId && (
+    <script is:inline define:vars={{ naverWcsId }}>
+      (function(){
+        var s = document.createElement('script');
+        s.src = 'https://wcs.pstatic.net/wcslog.js';
+        s.async = true;
+        s.onload = function(){
+          if (!window.wcs_add) window.wcs_add = {};
+          window.wcs_add.wa = naverWcsId;
+          if (window.wcs) window.wcs_do();
+        };
+        document.head.appendChild(s);
       })();
     </script>
   )}
