@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" role="img" aria-label="주택연금 중도해지 정산금 구성과 재가입 제한. 중도해지하면 갚아야 하는 대출잔액은 세 가지로 구성돼요. 첫째 그동안 받은 연금지급액으로 월수령금 누계와 개별인출금, 둘째 보증료로 초기보증료는 주택가격의 1.0%이고 연보증료는 보증잔액의 연 0.95%이며 대출상환우대방식은 1.0%, 셋째 대출이자로 기준금리에 가산금리를 더해 매월 잔액에 쌓여요. 초기보증료는 상환액에 이미 포함되어 별도로 돌려받지 못하고, 동일주택은 3년간 재가입이 제한되며 재가입 시 초기보증료를 다시 부담해요." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="500" fill="#FBF7F0"/>
+  <text x="32" y="44" font-size="24" font-weight="700" fill="#1A2B2A">주택연금 중도해지, 갚는 돈은 어떻게 정해질까</text>
+  <text x="32" y="72" font-size="13" fill="#4A5856">2026년 7월 기준, 한국주택금융공사 안내 · 한국주택금융공사법 제2조·제43조의2</text>
+
+  <text x="32" y="108" font-size="15" font-weight="700" fill="#0A5F58">상환할 대출잔액 = 아래 세 가지의 합</text>
+
+  <!-- 요소 1: 연금지급액 -->
+  <rect x="32" y="124" width="226" height="150" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="145" y="152" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">1. 그동안 받은 연금</text>
+  <text x="145" y="180" font-size="12" fill="#4A5856" text-anchor="middle">월수령금 누계</text>
+  <text x="145" y="200" font-size="12" fill="#4A5856" text-anchor="middle">+ 개별인출금</text>
+  <text x="145" y="234" font-size="11" fill="#8A938F" text-anchor="middle">실제로 손에 받은 금액이</text>
+  <text x="145" y="252" font-size="11" fill="#8A938F" text-anchor="middle">그대로 상환 대상이 돼요</text>
+
+  <!-- 요소 2: 보증료 (강조) -->
+  <rect x="267" y="124" width="226" height="150" rx="12" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="380" y="152" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">2. 보증료</text>
+  <text x="380" y="180" font-size="12" fill="#4A5856" text-anchor="middle">초기보증료 주택가격 1.0%</text>
+  <text x="380" y="200" font-size="12" fill="#4A5856" text-anchor="middle">연보증료 보증잔액 연 0.95%</text>
+  <text x="380" y="218" font-size="11" fill="#4A5856" text-anchor="middle">(대출상환우대방식 1.0%)</text>
+  <text x="380" y="248" font-size="11" font-weight="700" fill="#B5462F" text-anchor="middle">초기보증료는 돌려받지 못해요</text>
+
+  <!-- 요소 3: 대출이자 -->
+  <rect x="502" y="124" width="226" height="150" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="615" y="152" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">3. 대출이자</text>
+  <text x="615" y="180" font-size="12" fill="#4A5856" text-anchor="middle">기준금리 + 가산금리</text>
+  <text x="615" y="200" font-size="12" fill="#4A5856" text-anchor="middle">매월 잔액에 쌓여요</text>
+  <text x="615" y="234" font-size="11" fill="#8A938F" text-anchor="middle">오래 이용할수록 이자</text>
+  <text x="615" y="252" font-size="11" fill="#8A938F" text-anchor="middle">부담이 함께 늘어요</text>
+
+  <!-- 미환급 강조 박스 -->
+  <rect x="32" y="298" width="696" height="76" rx="12" fill="#FBF7F0" stroke="#B5462F"/>
+  <text x="52" y="328" font-size="14" font-weight="700" fill="#B5462F">흔한 오해</text>
+  <text x="52" y="352" font-size="12.5" fill="#1A2B2A">"해지하면 그동안 낸 돈을 다 돌려받는다"는 오해예요. 실제로는 받은 돈에 비용을 더해 갚는 구조이고,</text>
+  <text x="52" y="370" font-size="12.5" fill="#1A2B2A">초기보증료는 지급보증 대가로 이미 쓰인 비용이라 상환액에 포함될 뿐 별도 환급이 없어요.</text>
+
+  <!-- 재가입 제한 -->
+  <rect x="32" y="398" width="340" height="76" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="52" y="428" font-size="14" font-weight="700" fill="#0A5F58">재가입 제한</text>
+  <text x="52" y="452" font-size="12" fill="#4A5856">동일주택은 3년간 재가입 제한,</text>
+  <text x="52" y="469" font-size="12" fill="#4A5856">재가입 시 초기보증료를 다시 부담해요</text>
+
+  <!-- 승계 -->
+  <rect x="388" y="398" width="340" height="76" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="408" y="428" font-size="14" font-weight="700" fill="#C2873B">배우자 승계</text>
+  <text x="408" y="452" font-size="12" fill="#4A5856">가입자만 사망 시 배우자가 6개월 안에</text>
+  <text x="408" y="469" font-size="12" fill="#4A5856">소유권이전·채무인수하면 계속 이용 가능</text>
+</svg>

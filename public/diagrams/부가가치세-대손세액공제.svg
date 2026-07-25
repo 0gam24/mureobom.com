@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" role="img" aria-label="부가가치세 대손세액공제 요건과 절차. 1단계 대손 확정: 소멸시효 완성, 파산·강제집행, 부도 6개월 경과 어음·수표, 회수기일 6개월 경과 30만원 이하 소액채권 등 법정 사유로 채권이 회수 불능으로 확정되어야 해요. 2단계 공제 시기: 공급일부터 10년이 지난 날이 속하는 과세기간 확정신고 기한까지, 예정신고는 안 되고 확정신고에서만, 대손세액공제신고서와 증명서류를 제출해요. 3단계 공제액 계산: 대손금액 곱하기 110분의 10, 매출세액에서 차감. 이후 대손금을 회수하면 회수한 과세기간 매출세액에 다시 가산해요." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="500" fill="#FBF7F0"/>
+  <text x="32" y="44" font-size="24" font-weight="700" fill="#1A2B2A">부가가치세 대손세액공제 요건과 절차</text>
+  <text x="32" y="72" font-size="13" fill="#4A5856">2026년 기준, 부가가치세법 제45조·시행령 제87조, 법인세법 시행령 제19조의2</text>
+
+  <!-- 1단계: 대손 확정 사유 -->
+  <rect x="32" y="96" width="696" height="120" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="58" cy="122" r="12" fill="#C2873B"/>
+  <text x="58" y="127" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+  <text x="80" y="127" font-size="15" font-weight="700" fill="#1A2B2A">대손이 법정 사유로 확정</text>
+  <text x="80" y="152" font-size="12" fill="#4A5856">소멸시효 완성 채권 · 채무자 파산·강제집행·사업폐지·사망·실종</text>
+  <text x="80" y="174" font-size="12" fill="#4A5856">부도발생일부터 6개월 이상 지난 어음·수표 및 중소기업 외상매출금</text>
+  <text x="80" y="196" font-size="12" fill="#4A5856">회수기일 6개월 경과 + 채무자별 30만원 이하 소액채권 · 회생계획 출자전환</text>
+
+  <!-- 화살표 -->
+  <polygon points="380,220 372,232 388,232" fill="#8A938F"/>
+
+  <!-- 2단계: 공제 시기 -->
+  <rect x="32" y="238" width="696" height="104" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="58" cy="264" r="12" fill="#0E7C72"/>
+  <text x="58" y="269" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+  <text x="80" y="269" font-size="15" font-weight="700" fill="#1A2B2A">공급일부터 10년 안, 확정신고에서만</text>
+  <text x="80" y="294" font-size="12" fill="#4A5856">공급일부터 10년이 지난 날이 속하는 과세기간 확정신고 기한까지</text>
+  <text x="80" y="316" font-size="12" fill="#B5462F">예정신고 불가 (1월·7월 확정신고 전용)</text>
+  <text x="80" y="336" font-size="12" fill="#4A5856">대손세액공제신고서 + 대손 사실 증명서류 제출</text>
+
+  <!-- 화살표 -->
+  <polygon points="380,346 372,358 388,358" fill="#8A938F"/>
+
+  <!-- 3단계: 공제액 계산 (강조) -->
+  <rect x="32" y="364" width="696" height="72" rx="12" fill="#E3F0EE" stroke="#0E7C72"/>
+  <circle cx="58" cy="390" r="12" fill="#0A5F58"/>
+  <text x="58" y="395" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+  <text x="80" y="395" font-size="15" font-weight="700" fill="#0A5F58">공제액 = 대손금액 × 110분의 10</text>
+  <text x="80" y="422" font-size="12" fill="#4A5856">대손금액은 부가세 포함 공급대가. 매출세액에서 이 금액을 차감해요</text>
+
+  <!-- 하단 회수 재가산 메모 -->
+  <rect x="32" y="452" width="696" height="34" rx="8" fill="#FBF7F0" stroke="#E3DCCF"/>
+  <text x="48" y="474" font-size="12" fill="#8A938F">회수 시: 공제받은 뒤 대손금을 회수하면 회수한 과세기간 매출세액에 다시 가산 (제45조 제2항). 공급받은 자는 매입세액에서 차감</text>
+</svg>
