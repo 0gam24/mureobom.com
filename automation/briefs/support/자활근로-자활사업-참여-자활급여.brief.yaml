@@ -1,6 +1,6 @@
 id: support-자활근로-자활사업-참여-자활급여
 cluster: support
-status: approved         # 운영자 일일 자동 발행 지시(스케줄 실행) = 즉석 승인 (2026-07-22 KST). 단, egress 차단으로 발행 보류
+status: published        # compliance 재검수 통과 (2026-07-26 KST, E-01 author 수정 후). _published_slugs.txt는 오케스트레이터 일괄 처리
 
 target_query: "자활근로 자활사업 참여 자격 자활급여 얼마 신청 방법"
 search_intent: 정보형      # 자활사업 참여 대상·급여·신청 절차 확인 목적

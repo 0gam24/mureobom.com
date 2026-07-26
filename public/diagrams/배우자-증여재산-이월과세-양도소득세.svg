@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="620" fill="#FBF7F0"/>
+
+  <!-- Title -->
+  <text x="40" y="46" font-size="24" font-weight="700" fill="#1A2B2A">배우자·직계존비속 증여 후 양도 이월과세</text>
+  <text x="40" y="72" font-size="14" fill="#4A5856">기준: 소득세법 제97조의2 · 2026년 7월 현행</text>
+
+  <!-- Panel 1: 증여 시점별 적용기간 -->
+  <rect x="40" y="96" width="740" height="196" rx="12" fill="#F4EEE2"/>
+  <text x="64" y="128" font-size="17" font-weight="700" fill="#0A5F58">1. 언제 증여했느냐로 적용기간이 갈려요 (기준은 양도일이 아니라 증여받은 날)</text>
+
+  <!-- timeline line -->
+  <line x1="80" y1="196" x2="740" y2="196" stroke="#E3DCCF" stroke-width="3"/>
+  <circle cx="410" cy="196" r="8" fill="#C2873B"/>
+  <text x="410" y="176" font-size="13" font-weight="700" fill="#1A2B2A" text-anchor="middle">2023. 1. 1 시행</text>
+  <text x="410" y="228" font-size="12" fill="#8A938F" text-anchor="middle">법률 제19196호 (2022.12.31 공포)</text>
+
+  <!-- left segment -->
+  <rect x="80" y="240" width="300" height="36" rx="8" fill="#E3F0EE"/>
+  <text x="230" y="263" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">2022.12.31 이전 증여분 → 종전 5년</text>
+  <!-- right segment -->
+  <rect x="440" y="240" width="300" height="36" rx="8" fill="#0E7C72"/>
+  <text x="590" y="263" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">2023.1.1 이후 증여분 → 10년</text>
+
+  <!-- Panel 2: 취득가액 이월 메커니즘 -->
+  <rect x="40" y="308" width="740" height="196" rx="12" fill="#F4EEE2"/>
+  <text x="64" y="340" font-size="17" font-weight="700" fill="#0A5F58">2. 이월과세가 걸리면 취득가액이 '증여자 당초 취득가액'으로 되돌아가요</text>
+
+  <!-- box A: 증여자 취득 -->
+  <rect x="70" y="360" width="200" height="110" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="170" y="388" font-size="13" font-weight="700" fill="#4A5856" text-anchor="middle">증여자 당초 취득</text>
+  <text x="170" y="418" font-size="22" font-weight="700" fill="#1A2B2A" text-anchor="middle">3억원</text>
+  <text x="170" y="446" font-size="12" fill="#8A938F" text-anchor="middle">양도차익 계산의 취득가액</text>
+
+  <!-- arrow -->
+  <text x="300" y="420" font-size="26" fill="#C2873B" text-anchor="middle">→</text>
+
+  <!-- box B: 증여 (건너뜀) -->
+  <rect x="330" y="360" width="200" height="110" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="430" y="388" font-size="13" font-weight="700" fill="#4A5856" text-anchor="middle">배우자에게 증여</text>
+  <text x="430" y="418" font-size="22" font-weight="700" fill="#8A938F" text-anchor="middle">8억원</text>
+  <text x="430" y="446" font-size="12" fill="#B5462F" text-anchor="middle">취득가액으로 인정 안 됨</text>
+
+  <!-- arrow -->
+  <text x="560" y="420" font-size="26" fill="#C2873B" text-anchor="middle">→</text>
+
+  <!-- box C: 양도 -->
+  <rect x="590" y="360" width="160" height="110" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="670" y="388" font-size="13" font-weight="700" fill="#0A5F58" text-anchor="middle">기간 내 양도</text>
+  <text x="670" y="418" font-size="22" font-weight="700" fill="#1A2B2A" text-anchor="middle">10억원</text>
+  <text x="670" y="446" font-size="12" fill="#8A938F" text-anchor="middle">차익 = 10억 − 3억</text>
+
+  <!-- Note bar -->
+  <rect x="40" y="520" width="740" height="72" rx="12" fill="#E3F0EE"/>
+  <text x="64" y="550" font-size="14" font-weight="700" fill="#0A5F58">냈던 증여세는 필요경비로 산입 · 세액이 오히려 더 적어지면 이월과세 미적용</text>
+  <text x="64" y="576" font-size="13" fill="#4A5856">배우자·직계존비속은 제97조의2로, 그 밖의 특수관계인은 제101조(부당행위계산)로 이원 차단</text>
+</svg>

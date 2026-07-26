@@ -1,6 +1,6 @@
 id: loan-연체정보-등록-해제-신용도-영향
 cluster: loan
-status: approved         # 운영자 일일 자동 발행 지시(스케줄 실행) = 즉석 승인 (2026-07-22 KST). 단, egress 차단으로 발행 보류
+status: published        # compliance 전 게이트 PASS (2026-07-26 KST). 단일 1년/반복 3년 정정 반영 확인. _published_slugs.txt는 오케스트레이터 일괄 처리.
 
 target_query: "연체정보 등록 기준 며칠 해제 신용점수 영향 삭제 기간"
 search_intent: 정보형      # 연체 등록·해제 기준과 신용도 영향 확인 목적

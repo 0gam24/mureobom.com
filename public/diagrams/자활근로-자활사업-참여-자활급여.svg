@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" role="img" aria-label="자활사업 참여 구조: 근로능력 있는 저소득층(조건부수급자·자활급여특례·차상위계층)이 주민센터 상담과 근로능력·자활역량 평가를 거쳐 지역자활센터로 연계되고, 자활근로 4유형(시장진입형·사회서비스형·인턴도우미형·근로유지형)에서 유급으로 일하며 자활급여를 받고 자산형성지원으로 이어지는 흐름" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="620" fill="#FBF7F0"/>
+  <text x="40" y="46" font-size="26" font-weight="700" fill="#1A2B2A">자활사업 참여 구조 한눈에 보기</text>
+  <text x="40" y="74" font-size="15" fill="#8A938F">2026년 7월 기준 · 국민기초생활보장법 · 보건복지부 자활사업 안내 대조</text>
+
+  <!-- 1. 참여 대상 -->
+  <text x="40" y="118" font-size="17" font-weight="700" fill="#0A5F58">1. 참여 대상 (근로능력 있는 저소득층)</text>
+  <g>
+    <rect x="40" y="132" width="240" height="70" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="160" y="162" font-size="16" font-weight="700" fill="#1A2B2A" text-anchor="middle">조건부수급자</text>
+    <text x="160" y="186" font-size="13" fill="#4A5856" text-anchor="middle">18~64세 근로능력 인정</text>
+
+    <rect x="290" y="132" width="240" height="70" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="410" y="162" font-size="16" font-weight="700" fill="#1A2B2A" text-anchor="middle">자활급여특례 가구</text>
+    <text x="410" y="186" font-size="13" fill="#4A5856" text-anchor="middle">자활 참여로 소득 발생</text>
+
+    <rect x="540" y="132" width="240" height="70" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="660" y="162" font-size="16" font-weight="700" fill="#1A2B2A" text-anchor="middle">차상위계층</text>
+    <text x="660" y="186" font-size="13" fill="#4A5856" text-anchor="middle">수급자 아니어도 참여</text>
+  </g>
+
+  <!-- arrow down -->
+  <line x1="410" y1="208" x2="410" y2="238" stroke="#C2873B" stroke-width="2.5"/>
+  <polygon points="410,248 404,236 416,236" fill="#C2873B"/>
+
+  <!-- 2. 참여 경로 -->
+  <text x="40" y="278" font-size="17" font-weight="700" fill="#0A5F58">2. 참여 경로 (신청 절차)</text>
+  <g>
+    <rect x="40" y="292" width="220" height="58" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+    <text x="150" y="326" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">주민센터 상담·신청</text>
+
+    <rect x="300" y="292" width="220" height="58" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+    <text x="410" y="318" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">근로능력·자활역량</text>
+    <text x="410" y="338" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">평가</text>
+
+    <rect x="560" y="292" width="220" height="58" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+    <text x="670" y="326" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">지역자활센터 연계</text>
+  </g>
+  <line x1="260" y1="321" x2="296" y2="321" stroke="#C2873B" stroke-width="2.5"/>
+  <polygon points="300,321 288,315 288,327" fill="#C2873B"/>
+  <line x1="520" y1="321" x2="556" y2="321" stroke="#C2873B" stroke-width="2.5"/>
+  <polygon points="560,321 548,315 548,327" fill="#C2873B"/>
+
+  <line x1="410" y1="356" x2="410" y2="386" stroke="#C2873B" stroke-width="2.5"/>
+  <polygon points="410,396 404,384 416,384" fill="#C2873B"/>
+
+  <!-- 3. 자활근로 유형 -->
+  <text x="40" y="426" font-size="17" font-weight="700" fill="#0A5F58">3. 자활근로 유형 (모두 유급)</text>
+  <g>
+    <rect x="40" y="440" width="176" height="66" rx="10" fill="#FBF7F0" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="128" y="470" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">시장진입형</text>
+    <text x="128" y="492" font-size="12" fill="#4A5856" text-anchor="middle">창업·취업 지향</text>
+
+    <rect x="228" y="440" width="176" height="66" rx="10" fill="#FBF7F0" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="316" y="470" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">사회서비스형</text>
+    <text x="316" y="492" font-size="12" fill="#4A5856" text-anchor="middle">공익형 서비스</text>
+
+    <rect x="416" y="440" width="176" height="66" rx="10" fill="#FBF7F0" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="504" y="466" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">인턴·도우미형</text>
+    <text x="504" y="488" font-size="12" fill="#4A5856" text-anchor="middle">현장 인턴</text>
+
+    <rect x="604" y="440" width="176" height="66" rx="10" fill="#FBF7F0" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="692" y="470" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">근로유지형</text>
+    <text x="692" y="492" font-size="12" fill="#4A5856" text-anchor="middle">근로능력 유지</text>
+  </g>
+
+  <line x1="410" y1="512" x2="410" y2="540" stroke="#C2873B" stroke-width="2.5"/>
+  <polygon points="410,550 404,538 416,538" fill="#C2873B"/>
+
+  <!-- 4. 급여 + 자산형성 -->
+  <rect x="40" y="556" width="360" height="48" rx="10" fill="#0E7C72"/>
+  <text x="220" y="586" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">자활급여(유급) 지급</text>
+
+  <rect x="420" y="556" width="360" height="48" rx="10" fill="#C2873B"/>
+  <text x="600" y="586" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">자산형성지원 연계</text>
+</svg>

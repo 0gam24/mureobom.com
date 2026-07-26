@@ -1,6 +1,6 @@
 id: tax-배우자-증여재산-이월과세-양도소득세
 cluster: tax
-status: approved         # 운영자 일일 자동 발행 지시(스케줄 실행) = 즉석 승인 (2026-07-23 KST). 단, egress 차단으로 발행 보류
+status: published        # compliance 전 게이트 통과 (2026-07-26 KST). 발행 확정
 
 target_query: "배우자 증여 후 양도 이월과세 5년 10년 취득가액 양도소득세 절세"
 search_intent: 정보형      # 배우자·직계존비속 증여 후 양도 시 이월과세 적용 여부·기간 확인 목적
