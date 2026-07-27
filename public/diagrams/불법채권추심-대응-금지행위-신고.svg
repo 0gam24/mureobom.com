@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620" role="img" aria-labelledby="titleId descId" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <title id="titleId">채권추심법 금지행위와 불법추심 대응 신고 절차</title>
+  <desc id="descId">왼쪽은 채권추심법이 금지하는 대표 행위 6가지(폭행·협박, 야간 오후 9시부터 오전 8시 방문·연락, 반복 연락, 제3자에게 채무사실 고지, 법원·검찰 사칭, 대리인 선임 후 직접 연락), 오른쪽은 대응 4단계(증거 확보, 등록 여부 조회, 금융감독원 1332 신고, 협박·폭행은 112 병행)를 보여주는 인포그래픽.</desc>
+
+  <rect x="0" y="0" width="860" height="620" fill="#FBF7F0"/>
+
+  <text x="40" y="48" font-size="26" font-weight="700" fill="#1A2B2A">불법 채권추심, 무엇이 금지되고 어디에 신고하나요</text>
+  <text x="40" y="76" font-size="14" fill="#8A938F">채권의 공정한 추심에 관한 법률 · 2026년 기준</text>
+
+  <!-- 왼쪽 패널: 금지행위 -->
+  <rect x="40" y="100" width="400" height="480" rx="14" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="40" y="100" width="400" height="46" rx="14" fill="#0A5F58"/>
+  <rect x="40" y="128" width="400" height="18" fill="#0A5F58"/>
+  <text x="60" y="130" font-size="18" font-weight="700" fill="#FBF7F0">법이 금지하는 대표 행위</text>
+
+  <g font-size="14.5" fill="#1A2B2A">
+    <circle cx="66" cy="184" r="12" fill="#B5462F"/><text x="66" y="189" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+    <text x="90" y="182" font-weight="700">폭행·협박·감금·위력</text>
+    <text x="90" y="203" font-size="13" fill="#4A5856">제9조 · 형사처벌 대상</text>
+
+    <circle cx="66" cy="244" r="12" fill="#C2873B"/><text x="66" y="249" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+    <text x="90" y="242" font-weight="700">야간 방문·연락</text>
+    <text x="90" y="263" font-size="13" fill="#4A5856">오후 9시~다음 날 오전 8시 · 반복 연락</text>
+
+    <circle cx="66" cy="304" r="12" fill="#0E7C72"/><text x="66" y="309" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+    <text x="90" y="302" font-weight="700">제3자에게 채무사실 고지</text>
+    <text x="90" y="323" font-size="13" fill="#4A5856">가족·직장 등 관계인 압박 · 제10조</text>
+
+    <circle cx="66" cy="364" r="12" fill="#0E7C72"/><text x="66" y="369" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">4</text>
+    <text x="90" y="362" font-weight="700">법원·검찰 사칭, 거짓 표시</text>
+    <text x="90" y="383" font-size="13" fill="#4A5856">소송 진행 거짓 안내 · 제11조</text>
+
+    <circle cx="66" cy="424" r="12" fill="#0E7C72"/><text x="66" y="429" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">5</text>
+    <text x="90" y="422" font-weight="700">관계인 접촉·공개 압박</text>
+    <text x="90" y="443" font-size="13" fill="#4A5856">엽서 등 채무 공개 · 제12조</text>
+
+    <circle cx="66" cy="484" r="12" fill="#0E7C72"/><text x="66" y="489" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">6</text>
+    <text x="90" y="482" font-weight="700">대리인 선임 후 직접 연락</text>
+    <text x="90" y="503" font-size="13" fill="#4A5856">서면 통지 시 채무자 접촉 금지 · 제8조의2</text>
+  </g>
+  <rect x="60" y="528" width="360" height="36" rx="8" fill="#E3F0EE"/>
+  <text x="76" y="551" font-size="13" fill="#0A5F58">빚이 있어도 추심 '방식'은 법으로 제한돼요</text>
+
+  <!-- 오른쪽 패널: 대응 절차 -->
+  <rect x="460" y="100" width="360" height="480" rx="14" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="460" y="100" width="360" height="46" rx="14" fill="#0E7C72"/>
+  <rect x="460" y="128" width="360" height="18" fill="#0E7C72"/>
+  <text x="480" y="130" font-size="18" font-weight="700" fill="#FBF7F0">당했을 때 대응 4단계</text>
+
+  <g>
+    <rect x="482" y="172" width="316" height="70" rx="10" fill="#FBF7F0" stroke="#E3DCCF"/>
+    <text x="500" y="200" font-size="15" font-weight="700" fill="#1A2B2A">1. 증거 확보</text>
+    <text x="500" y="223" font-size="13" fill="#4A5856">통화 녹음·문자·방문 일시 기록</text>
+
+    <rect x="482" y="262" width="316" height="70" rx="10" fill="#FBF7F0" stroke="#E3DCCF"/>
+    <text x="500" y="290" font-size="15" font-weight="700" fill="#1A2B2A">2. 등록 여부 조회</text>
+    <text x="500" y="313" font-size="13" fill="#4A5856">파인에서 등록대부업체 확인</text>
+
+    <rect x="482" y="352" width="316" height="70" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+    <text x="500" y="380" font-size="15" font-weight="700" fill="#0A5F58">3. 금융감독원 1332 신고</text>
+    <text x="500" y="403" font-size="13" fill="#4A5856">불법사금융·불법채권추심 신고·상담</text>
+
+    <rect x="482" y="442" width="316" height="70" rx="10" fill="#FBF7F0" stroke="#B5462F"/>
+    <text x="500" y="470" font-size="15" font-weight="700" fill="#B5462F">4. 협박·폭행은 112 병행</text>
+    <text x="500" y="493" font-size="13" fill="#4A5856">신변 위협 시 경찰에 함께 신고</text>
+  </g>
+  <line x1="640" y1="242" x2="640" y2="262" stroke="#8A938F" stroke-width="2"/>
+  <line x1="640" y1="332" x2="640" y2="352" stroke="#8A938F" stroke-width="2"/>
+  <line x1="640" y1="422" x2="640" y2="442" stroke="#8A938F" stroke-width="2"/>
+  <rect x="482" y="528" width="316" height="36" rx="8" fill="#E3F0EE"/>
+  <text x="498" y="551" font-size="13" fill="#0A5F58">미등록(불법) 업자는 대부업법 위반 자체로 처벌</text>
+</svg>

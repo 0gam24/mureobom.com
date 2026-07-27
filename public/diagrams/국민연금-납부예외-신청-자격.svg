@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 560" role="img" aria-labelledby="title desc" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <title id="title">국민연금 납부예외 흐름과 예외·미납·면제 개념 구분</title>
+  <desc id="desc">소득이 없어 신청하면 납부예외로 보험료 납부가 유예되지만 그 기간은 가입기간에 산입되지 않고, 사유가 소멸하면 납부재개 신고, 나중에 추납으로 가입기간을 회복하는 흐름. 아래는 납부예외와 미납, 면제 개념의 차이를 비교한 표.</desc>
+
+  <rect x="0" y="0" width="840" height="560" fill="#FBF7F0"/>
+
+  <text x="32" y="46" font-size="24" font-weight="700" fill="#1A2B2A">국민연금 납부예외, 신청에서 회복까지</text>
+  <text x="32" y="72" font-size="14" fill="#4A5856">소득이 없을 때 신청으로 납부를 미루되, 그 기간은 가입기간에 들어가지 않아요 (2026년 기준)</text>
+
+  <!-- Flow -->
+  <g font-size="13.5">
+    <!-- Step 1 -->
+    <rect x="32" y="96" width="168" height="88" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="116" y="126" text-anchor="middle" font-size="14" font-weight="700" fill="#0A5F58">1. 소득 없음 사유</text>
+    <text x="116" y="148" text-anchor="middle" fill="#1A2B2A">실직·휴직·사업중단</text>
+    <text x="116" y="166" text-anchor="middle" fill="#1A2B2A">재학·수감·재해</text>
+
+    <!-- arrow -->
+    <path d="M204 140 L232 140" stroke="#C2873B" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+    <!-- Step 2 -->
+    <rect x="236" y="96" width="168" height="88" rx="12" fill="#F4EEE2" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="320" y="126" text-anchor="middle" font-size="14" font-weight="700" fill="#0A5F58">2. 납부예외 신청</text>
+    <text x="320" y="148" text-anchor="middle" fill="#1A2B2A">공단 방문·1355·홈페이지</text>
+    <text x="320" y="166" text-anchor="middle" fill="#1A2B2A">우편·팩스, 소득 없음 확인</text>
+
+    <path d="M408 140 L436 140" stroke="#C2873B" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+    <!-- Step 3 -->
+    <rect x="440" y="96" width="168" height="88" rx="12" fill="#F4EEE2" stroke="#B5462F" stroke-width="1.5"/>
+    <text x="524" y="126" text-anchor="middle" font-size="14" font-weight="700" fill="#B5462F">3. 예외 기간</text>
+    <text x="524" y="148" text-anchor="middle" fill="#1A2B2A">보험료 납부 유예</text>
+    <text x="524" y="166" text-anchor="middle" fill="#1A2B2A">가입기간에 산입 안 됨</text>
+
+    <path d="M612 140 L640 140" stroke="#C2873B" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+    <!-- Step 4 -->
+    <rect x="644" y="96" width="164" height="88" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="726" y="126" text-anchor="middle" font-size="14" font-weight="700" fill="#0A5F58">4. 사유 소멸 시</text>
+    <text x="726" y="148" text-anchor="middle" fill="#1A2B2A">납부재개 신고</text>
+    <text x="726" y="166" text-anchor="middle" fill="#1A2B2A">다시 보험료 납부</text>
+  </g>
+
+  <!-- recover arrow down to 추납 -->
+  <path d="M524 184 L524 214" stroke="#C2873B" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+  <rect x="236" y="218" width="372" height="70" rx="12" fill="#E3F0EE" stroke="#0A5F58" stroke-width="1.5"/>
+  <text x="422" y="246" text-anchor="middle" font-size="14" font-weight="700" fill="#0A5F58">5. 추납(추후납부)으로 가입기간 회복</text>
+  <text x="422" y="270" text-anchor="middle" font-size="13.5" fill="#1A2B2A">나중에 예외 기간 보험료를 메우면 그만큼 가입기간으로 인정 (한도는 공단 확인)</text>
+
+  <!-- divider -->
+  <line x1="32" y1="316" x2="808" y2="316" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="32" y="346" font-size="17" font-weight="700" fill="#1A2B2A">예외 · 미납 · 면제, 뭐가 다른가요</text>
+
+  <!-- comparison table -->
+  <g font-size="13">
+    <!-- header row -->
+    <rect x="32" y="360" width="180" height="40" fill="#0E7C72"/>
+    <rect x="212" y="360" width="298" height="40" fill="#0E7C72"/>
+    <rect x="510" y="360" width="298" height="40" fill="#0E7C72"/>
+    <text x="52" y="385" fill="#FBF7F0" font-weight="700">구분</text>
+    <text x="232" y="385" fill="#FBF7F0" font-weight="700">성격</text>
+    <text x="530" y="385" fill="#FBF7F0" font-weight="700">가입기간·연금 영향</text>
+
+    <!-- row 1 -->
+    <rect x="32" y="400" width="180" height="46" fill="#F4EEE2"/>
+    <rect x="212" y="400" width="298" height="46" fill="#F4EEE2"/>
+    <rect x="510" y="400" width="298" height="46" fill="#F4EEE2"/>
+    <text x="52" y="428" fill="#0A5F58" font-weight="700">납부예외</text>
+    <text x="232" y="428" fill="#1A2B2A">신청으로 납부를 잠시 유예</text>
+    <text x="530" y="428" fill="#1A2B2A">기간 미산입, 추납으로 회복 가능</text>
+
+    <!-- row 2 -->
+    <rect x="32" y="446" width="180" height="46" fill="#FBF7F0"/>
+    <rect x="212" y="446" width="298" height="46" fill="#FBF7F0"/>
+    <rect x="510" y="446" width="298" height="46" fill="#FBF7F0"/>
+    <text x="52" y="474" fill="#B5462F" font-weight="700">미납·체납</text>
+    <text x="232" y="474" fill="#1A2B2A">신고 없이 안 냄</text>
+    <text x="530" y="474" fill="#1A2B2A">연체금·독촉, 기간도 안 채워짐</text>
+
+    <!-- row 3 -->
+    <rect x="32" y="492" width="180" height="46" fill="#F4EEE2"/>
+    <rect x="212" y="492" width="298" height="46" fill="#F4EEE2"/>
+    <rect x="510" y="492" width="298" height="46" fill="#F4EEE2"/>
+    <text x="52" y="520" fill="#4A5856" font-weight="700">면제</text>
+    <text x="232" y="520" fill="#1A2B2A">국민연금엔 일반적 면제 없음</text>
+    <text x="530" y="520" fill="#1A2B2A">소득 없으면 예외로 처리</text>
+  </g>
+
+  <text x="32" y="552" font-size="11.5" fill="#8A938F">자료: 국민연금법 제91조·제92조, 국민연금공단 안내. 2026년 기준 일반 정보.</text>
+
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0 0 L9 4.5 L0 9 Z" fill="#C2873B"/>
+    </marker>
+  </defs>
+</svg>
