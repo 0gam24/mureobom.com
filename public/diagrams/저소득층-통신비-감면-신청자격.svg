@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" role="img" aria-label="저소득층 통신비 감면 대상별 월 최대 감면액 비교: 생계·의료급여 33,500원, 주거·교육급여 및 차상위 21,500원, 기초연금 11,000원, 장애인·국가유공자 한도 없음" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="560" fill="#FBF7F0"/>
+  <rect x="24" y="24" width="772" height="512" rx="16" fill="#F4EEE2"/>
+
+  <text x="48" y="70" font-size="26" font-weight="700" fill="#1A2B2A">통신비 감면, 대상별 월 최대 금액</text>
+  <text x="48" y="100" font-size="15" fill="#4A5856">2026년 기준 이동전화 요금감면 (신청 시점부터 적용, 소급 없음)</text>
+
+  <!-- Bar 1: 생계·의료급여 -->
+  <text x="48" y="152" font-size="16" font-weight="700" fill="#1A2B2A">생계·의료급여 수급자</text>
+  <rect x="48" y="166" width="500" height="34" rx="6" fill="#E3DCCF"/>
+  <rect x="48" y="166" width="500" height="34" rx="6" fill="#0A5F58"/>
+  <text x="60" y="188" font-size="15" font-weight="700" fill="#FBF7F0">기본감면 26,000원 + 통화료 50% 감면</text>
+  <text x="560" y="188" font-size="16" font-weight="700" fill="#0A5F58">월 최대 33,500원</text>
+
+  <!-- Bar 2: 주거·교육·차상위 -->
+  <text x="48" y="238" font-size="16" font-weight="700" fill="#1A2B2A">주거·교육급여 수급자 및 차상위계층</text>
+  <rect x="48" y="252" width="321" height="34" rx="6" fill="#E3DCCF"/>
+  <rect x="48" y="252" width="321" height="34" rx="6" fill="#0E7C72"/>
+  <text x="60" y="274" font-size="15" font-weight="700" fill="#FBF7F0">기본감면 11,000원 + 초과 35%</text>
+  <text x="381" y="274" font-size="16" font-weight="700" fill="#0E7C72">월 최대 21,500원</text>
+  <text x="48" y="306" font-size="13" fill="#8A938F">가구당 4회선까지 감면</text>
+
+  <!-- Bar 3: 기초연금 (별도 트랙) -->
+  <text x="48" y="350" font-size="16" font-weight="700" fill="#1A2B2A">기초연금 수급자</text>
+  <rect x="48" y="364" width="164" height="34" rx="6" fill="#E3DCCF"/>
+  <rect x="48" y="364" width="164" height="34" rx="6" fill="#C2873B"/>
+  <text x="60" y="386" font-size="15" font-weight="700" fill="#FBF7F0">청구요금 50%</text>
+  <text x="224" y="386" font-size="16" font-weight="700" fill="#C2873B">월 최대 11,000원</text>
+  <text x="48" y="418" font-size="13" fill="#B5462F">저소득층 감면과 별개 트랙, 별도 신청 필요</text>
+
+  <!-- Bar 4: 장애인·국가유공자 -->
+  <text x="48" y="462" font-size="16" font-weight="700" fill="#1A2B2A">장애인·국가유공자 (참고)</text>
+  <rect x="48" y="476" width="500" height="34" rx="6" fill="#E3F0EE"/>
+  <text x="60" y="498" font-size="15" font-weight="700" fill="#0A5F58">기본료 + 통화료 35% 감면, 월 한도 없음</text>
+
+  <text x="48" y="530" font-size="12" fill="#8A938F">근거: 전기통신사업법 시행령 보편적 역무 요금감면 · 자료: 복지로, KAIT 보편역무정보</text>
+</svg>

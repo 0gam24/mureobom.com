@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-label="집주인이 바뀌면 보증금 반환의무자 판단 흐름: 전입신고와 점유로 대항력을 갖췄으면 새 소유자가 반환, 못 갖췄으면 새 소유자에게 대항 불가" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="560" fill="#FBF7F0"/>
+  <text x="380" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1A2B2A">집주인이 바뀌면 보증금은 누가 돌려주나요?</text>
+  <text x="380" y="70" text-anchor="middle" font-size="14" fill="#4A5856">대항력 유무로 갈리는 반환의무자 판단 흐름</text>
+
+  <!-- Start box -->
+  <rect x="230" y="92" width="300" height="66" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="380" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#1A2B2A">매매·상속·경매로 소유자 변경</text>
+  <text x="380" y="142" text-anchor="middle" font-size="13" fill="#4A5856">주임법 제3조 4항: 새 소유자가 임대인 지위 당연 승계</text>
+
+  <!-- arrow down -->
+  <line x1="380" y1="158" x2="380" y2="188" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="380,196 374,186 386,186" fill="#8A938F"/>
+
+  <!-- Decision -->
+  <rect x="240" y="196" width="280" height="70" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="380" y="224" text-anchor="middle" font-size="15" font-weight="700" fill="#0A5F58">대항력을 갖췄나요?</text>
+  <text x="380" y="248" text-anchor="middle" font-size="12.5" fill="#4A5856">전입신고 + 점유(입주), 전입 다음 날 0시 발생</text>
+
+  <!-- branch lines -->
+  <line x1="380" y1="266" x2="380" y2="288" stroke="#8A938F" stroke-width="2"/>
+  <line x1="200" y1="288" x2="560" y2="288" stroke="#8A938F" stroke-width="2"/>
+  <line x1="200" y1="288" x2="200" y2="312" stroke="#0E7C72" stroke-width="2"/>
+  <polygon points="200,320 194,310 206,310" fill="#0E7C72"/>
+  <line x1="560" y1="288" x2="560" y2="312" stroke="#B5462F" stroke-width="2"/>
+  <polygon points="560,320 554,310 566,310" fill="#B5462F"/>
+
+  <text x="230" y="304" text-anchor="middle" font-size="13" font-weight="700" fill="#0A5F58">예</text>
+  <text x="530" y="304" text-anchor="middle" font-size="13" font-weight="700" fill="#B5462F">아니오</text>
+
+  <!-- Left (yes) -->
+  <rect x="55" y="320" width="290" height="132" rx="10" fill="#F4EEE2" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="200" y="348" text-anchor="middle" font-size="15" font-weight="700" fill="#0A5F58">새 소유자(양수인)가 반환의무자</text>
+  <text x="200" y="374" text-anchor="middle" font-size="12.5" fill="#4A5856">보증금반환채무가 소유권과 함께 이전</text>
+  <text x="200" y="396" text-anchor="middle" font-size="12.5" fill="#4A5856">종전 임대인은 원칙적으로 면책</text>
+  <text x="200" y="418" text-anchor="middle" font-size="12" fill="#8A938F">대법원 95다35616 판례 법리</text>
+  <text x="200" y="440" text-anchor="middle" font-size="12" fill="#8A938F">계약기간·조건 그대로 새 주인에게 승계</text>
+
+  <!-- Right (no) -->
+  <rect x="415" y="320" width="290" height="132" rx="10" fill="#F4EEE2" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="560" y="348" text-anchor="middle" font-size="15" font-weight="700" fill="#B5462F">새 소유자에게 대항 불가</text>
+  <text x="560" y="374" text-anchor="middle" font-size="12.5" fill="#4A5856">전입 전 근저당·경매 시 순위 밀림</text>
+  <text x="560" y="396" text-anchor="middle" font-size="12.5" fill="#4A5856">보증금 회수 위험이 커짐</text>
+  <text x="560" y="418" text-anchor="middle" font-size="12" fill="#8A938F">우선변제(배당)는 확정일자가 별도 필요</text>
+  <text x="560" y="440" text-anchor="middle" font-size="12" fill="#8A938F">등기부로 선순위 채권 확인 필수</text>
+
+  <!-- footnote -->
+  <rect x="55" y="474" width="650" height="60" rx="10" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="72" y="498" font-size="12.5" fill="#4A5856">이의(승계 거부) 선택: 임차인이 원하지 않으면 계약을 해지하고 우선변제를 청구할 수 있다는 판례 법리가 있어요.</text>
+  <text x="72" y="520" font-size="12.5" fill="#C2873B">2026년 기준 주택임대차보호법·법제처 생활법령. 개별 사안은 전문가 상담 권장.</text>
+</svg>
