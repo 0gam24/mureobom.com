@@ -1,0 +1,43 @@
+id: insurance-건강보험-소득월액보험료-보수외소득-기준
+cluster: insurance
+status: published            # 스케줄 실행 = 운영자 즉석 승인 (2026-07-30)
+
+target_query: "직장인 보수외소득 건강보험료 소득월액보험료"
+search_intent: 정보형     # 월급 외 소득에 붙는 추가 건보료 기준·계산
+
+signal:
+  score: 46.7
+  trend_momentum: 0.55
+  question_volume: 0.50
+  cluster_fit: 1.0
+  freshness: 0.57
+
+must_cover:
+  - 소득월액보험료 개념(직장가입자의 보수 외 소득에 부과되는 추가 건강보험료)
+  - 부과 기준(연간 보수외소득 합계가 기준 금액 초과 시 부과)
+  - 보수외소득의 범위(이자·배당·사업·근로·연금·기타소득)
+  - 산정 방식(초과분 기준, 보험료율 적용, 상한 존재)
+  - 부과·정산 시기와 조정 절차
+  - 직장가입자 본인 부담(사업주 분담 없음)과 지역가입자 보험료와의 차이
+  - 흔한 오해(월급에만 건보료 붙는다, 소액 부업도 무조건 부과 등) 바로잡기
+
+required_sources:
+  - "국민건강보험공단 소득월액보험료 안내 (nhis.or.kr)"
+  - "국민건강보험법 시행령 보험료 부과 관련 조문 (국가법령정보센터 또는 공단 호스팅 법령 본문)"
+  - "국민건강보험공단 보험료 부과체계 안내"
+
+internal_links:
+  - insurance/건강보험료-지역가입자-계산
+  - insurance/건강보험-피부양자-자격
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+
+human_notes: |
+  차별화: 보수외소득 초과분 기준 계산 예시 + 지역가입자 보험료와 구분 표.
+  기준 금액(연 2,000만원 초과)·보험료율은 2026 현행을 공식 출처로 확인해 명시.
+  단정적 금액 약속 금지, 개인별 상이·공단 확인 권고. 네이버 원문 금지, 공식 1차 출처만.

@@ -1,0 +1,43 @@
+id: loan-전세자금대출-임대인-동의-질권설정
+cluster: loan
+status: published            # 스케줄 실행 = 운영자 즉석 승인 (2026-07-30)
+
+target_query: "전세자금대출 임대인 동의 질권설정 거부"
+search_intent: 정보형     # 임대인 동의·질권설정 구조 이해 + 거부 시 대응
+
+signal:
+  score: 47.2
+  trend_momentum: 0.56
+  question_volume: 0.50
+  cluster_fit: 1.15
+  freshness: 0.58
+
+must_cover:
+  - 전세자금대출 보증 구조 개요(보증기관 HF·HUG·SGI, 반환채권 담보)
+  - 임대인 동의가 필요한 경우와 필요 없는 경우(보증 방식별 차이)
+  - 질권설정과 채권양도 방식의 차이(임대인 통지·승낙 의미)
+  - 임대인이 동의를 거부할 때 실무 대응(보증서 종류 변경, 다른 보증 활용)
+  - 보증금 반환 시 은행이 개입하는 절차(질권설정 시 은행에 직접 상환)
+  - 세입자가 확인해야 할 체크포인트(대항력·확정일자와의 관계)
+  - 흔한 오해(임대인 동의 없으면 무조건 불가, 질권설정=근저당 등) 바로잡기
+
+required_sources:
+  - "한국주택금융공사(HF) 전세자금보증 안내 (hf.go.kr)"
+  - "주택도시보증공사(HUG) 전세보증금반환보증·전세자금대출 관련 안내 (khug.or.kr)"
+  - "주택도시기금 버팀목 전세자금대출 안내 (nhuf.molit.go.kr)"
+
+internal_links:
+  - loan/전세자금대출-조건-한도
+  - loan/전세권설정-확정일자-차이
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+
+human_notes: |
+  차별화: 질권설정 vs 채권양도 방식 차이 표 + 임대인 동의 거부 시 대응 플로우.
+  보증기관별(HF/HUG/SGI) 임대인 동의 요건 차이를 공식 출처로 확인해 명시.
+  단정적 승인 약속 금지. 법률자문 아님 고지. 네이버 원문 금지, 공식 1차 출처만.

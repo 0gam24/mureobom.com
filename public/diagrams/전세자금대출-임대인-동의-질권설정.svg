@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">전세대출 임대인 동의와 질권설정 구조</title>
+  <desc id="d">질권설정과 채권양도 두 방식의 담보 대상과 임대인 관여 차이, 그리고 임대인 동의가 어려울 때의 대응 흐름을 정리한 인포그래픽.</desc>
+
+  <rect x="0" y="0" width="860" height="560" fill="#FBF7F0"/>
+
+  <text x="32" y="46" font-size="26" font-weight="700" fill="#1A2B2A">전세대출 담보 구조: 질권설정 vs 채권양도</text>
+  <text x="32" y="74" font-size="15" fill="#4A5856">은행·보증기관이 임차보증금반환채권을 담보로 확보하는 방식 (HF·HUG 공식 안내 기준)</text>
+
+  <!-- flow row -->
+  <rect x="32" y="98" width="180" height="60" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="122" y="124" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">세입자</text>
+  <text x="122" y="145" font-size="12.5" fill="#4A5856" text-anchor="middle">전세대출 신청</text>
+
+  <rect x="340" y="98" width="180" height="60" rx="10" fill="#F4EEE2" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="430" y="124" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">은행</text>
+  <text x="430" y="145" font-size="12.5" fill="#4A5856" text-anchor="middle">대출 실행</text>
+
+  <rect x="648" y="98" width="180" height="60" rx="10" fill="#F4EEE2" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="738" y="124" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">보증기관</text>
+  <text x="738" y="145" font-size="12.5" fill="#4A5856" text-anchor="middle">보증서 제공</text>
+
+  <line x1="212" y1="128" x2="336" y2="128" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="336,128 326,123 326,133" fill="#8A938F"/>
+  <line x1="520" y1="128" x2="644" y2="128" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="644,128 634,123 634,133" fill="#8A938F"/>
+  <text x="430" y="182" font-size="12.5" fill="#8A938F" text-anchor="middle">담보: 임차보증금반환채권에 채권보전조치(질권설정·채권양도 등)</text>
+
+  <!-- two method panels -->
+  <rect x="32" y="204" width="390" height="184" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="32" y="204" width="390" height="40" rx="12" fill="#0E7C72"/>
+  <text x="52" y="230" font-size="17" font-weight="700" fill="#FBF7F0">질권설정</text>
+  <text x="52" y="272" font-size="13.5" fill="#1A2B2A">담보 대상: 보증금 반환채권(채권)</text>
+  <text x="52" y="300" font-size="13.5" fill="#1A2B2A">성격: 반환채권 위에 담보권(질권) 설정</text>
+  <text x="52" y="328" font-size="13.5" fill="#1A2B2A">임대인 관여: 방식·약관에 따라 통지·인지</text>
+  <text x="52" y="362" font-size="13" fill="#B5462F">근저당(부동산 물권)과 대상이 다름</text>
+
+  <rect x="438" y="204" width="390" height="184" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="438" y="204" width="390" height="40" rx="12" fill="#0A5F58"/>
+  <text x="458" y="230" font-size="17" font-weight="700" fill="#FBF7F0">채권양도(특약형)</text>
+  <text x="458" y="272" font-size="13.5" fill="#1A2B2A">담보 대상: 보증금 반환채권(채권)</text>
+  <text x="458" y="300" font-size="13.5" fill="#1A2B2A">성격: 반환채권 자체를 넘김</text>
+  <text x="458" y="328" font-size="13.5" fill="#1A2B2A">임대인 관여: 통지 또는 확정일자부</text>
+  <text x="458" y="348" font-size="13.5" fill="#1A2B2A">양도계약 체결</text>
+  <text x="458" y="378" font-size="13" fill="#4A5856">임대인 인지·협력이 관여하는 지점</text>
+
+  <!-- 동의 거부 대응 -->
+  <rect x="32" y="414" width="796" height="118" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="52" y="444" font-size="16" font-weight="700" fill="#0A5F58">집주인 동의·협력이 어려울 때</text>
+  <text x="52" y="472" font-size="13.5" fill="#1A2B2A">1) 무조건 불가로 단정 못함: 담보 방식·보증서 종류에 따라 가부가 달라져요.</text>
+  <text x="52" y="496" font-size="13.5" fill="#1A2B2A">2) 기존에 다른 금융기관 질권설정·채권양도 제한이 있으면 HUG 전세금안심대출보증은 이용 불가.</text>
+  <text x="52" y="520" font-size="13.5" fill="#C2873B">3) 가능한 방식 전환은 취급은행·보증기관 상담으로 확인 (구체 우회법은 공식 명문 없음).</text>
+</svg>
