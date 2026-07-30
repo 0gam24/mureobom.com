@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="소득구간별 발달재활서비스 바우처 지원액과 본인부담금. 총액은 모두 월 26만원이며 지원액과 본인부담금 비중만 소득에 따라 달라진다.">
+  <rect x="0" y="0" width="720" height="470" fill="#FBF7F0"/>
+  <text x="36" y="46" font-size="23" font-weight="700" fill="#1A2B2A">소득구간별 발달재활 바우처 (월 기준)</text>
+  <text x="36" y="72" font-size="14" fill="#4A5856">총액은 모두 월 26만원, 소득이 낮을수록 지원액이 커지고 본인부담금이 줄어요.</text>
+
+  <!-- legend -->
+  <rect x="430" y="86" width="16" height="16" rx="3" fill="#0E7C72"/>
+  <text x="452" y="99" font-size="13" fill="#1A2B2A">바우처 지원액</text>
+  <rect x="560" y="86" width="16" height="16" rx="3" fill="#C2873B"/>
+  <text x="582" y="99" font-size="13" fill="#1A2B2A">본인부담금</text>
+
+  <!-- rows: bar x 260..690 (width 430) = 26만원, 16.538 px/만원 -->
+  <!-- Row 1: 생계의료 26 / 면제 -->
+  <text x="248" y="141" font-size="13.5" fill="#1A2B2A" text-anchor="end">생계·의료급여</text>
+  <rect x="260" y="122" width="430" height="30" rx="4" fill="#0E7C72"/>
+  <text x="270" y="142" font-size="13" font-weight="700" fill="#FBF7F0">지원 26만원</text>
+  <text x="682" y="142" font-size="12.5" fill="#4A5856" text-anchor="end">본인부담 면제</text>
+
+  <!-- Row 2: 차상위 24 / 2 -->
+  <text x="248" y="189" font-size="13.5" fill="#1A2B2A" text-anchor="end">차상위계층</text>
+  <rect x="260" y="170" width="397" height="30" rx="4" fill="#0E7C72"/>
+  <rect x="657" y="170" width="33" height="30" fill="#C2873B"/>
+  <text x="270" y="190" font-size="13" font-weight="700" fill="#FBF7F0">지원 24만원</text>
+  <text x="682" y="190" font-size="12" fill="#FBF7F0" text-anchor="end">2만</text>
+
+  <!-- Row 3: 중위 65 이하 22 / 4 -->
+  <text x="248" y="237" font-size="13.5" fill="#1A2B2A" text-anchor="end">기준중위 65% 이하</text>
+  <rect x="260" y="218" width="364" height="30" rx="4" fill="#0E7C72"/>
+  <rect x="624" y="218" width="66" height="30" fill="#C2873B"/>
+  <text x="270" y="238" font-size="13" font-weight="700" fill="#FBF7F0">지원 22만원</text>
+  <text x="682" y="238" font-size="12" fill="#FBF7F0" text-anchor="end">4만</text>
+
+  <!-- Row 4: 중위 120 이하 20 / 6 -->
+  <text x="248" y="285" font-size="13.5" fill="#1A2B2A" text-anchor="end">기준중위 120% 이하</text>
+  <rect x="260" y="266" width="331" height="30" rx="4" fill="#0E7C72"/>
+  <rect x="591" y="266" width="99" height="30" fill="#C2873B"/>
+  <text x="270" y="286" font-size="13" font-weight="700" fill="#FBF7F0">지원 20만원</text>
+  <text x="682" y="286" font-size="12" fill="#FBF7F0" text-anchor="end">6만</text>
+
+  <!-- Row 5: 중위 180 이하 18 / 8 -->
+  <text x="248" y="333" font-size="13.5" fill="#1A2B2A" text-anchor="end">기준중위 180% 이하</text>
+  <rect x="260" y="314" width="297" height="30" rx="4" fill="#0E7C72"/>
+  <rect x="557" y="314" width="133" height="30" fill="#C2873B"/>
+  <text x="270" y="334" font-size="13" font-weight="700" fill="#FBF7F0">지원 18만원</text>
+  <text x="682" y="334" font-size="12" fill="#FBF7F0" text-anchor="end">8만</text>
+
+  <!-- footnote panel -->
+  <rect x="36" y="368" width="648" height="76" rx="8" fill="#E3F0EE"/>
+  <text x="52" y="394" font-size="13.5" font-weight="700" fill="#0A5F58">기억해두세요</text>
+  <text x="52" y="416" font-size="13" fill="#1A2B2A">대상은 만 18세 미만 장애아동(만 9세 미만은 진단자료로 등록 전 신청 가능),</text>
+  <text x="52" y="434" font-size="13" fill="#1A2B2A">소득 상한은 기준중위소득 180% 이하예요. 금액은 연도별 보건복지부 고시로 바뀔 수 있어요.</text>
+</svg>

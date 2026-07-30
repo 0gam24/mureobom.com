@@ -1,0 +1,44 @@
+<svg viewBox="0 0 760 548" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="상가 환산보증금 계산식과 지역별 기준금액. 환산보증금은 보증금에 월차임 곱하기 100을 더해 계산하고, 지역별 기준금액은 서울 9억원, 과밀억제권역과 부산 6억9천만원, 광역시와 세종 및 경기 일부 5억4천만원, 그 밖의 지역 3억7천만원. 총 임대차기간 10년까지 계약갱신요구권을 행사할 수 있고, 환산보증금이 기준금액을 초과해도 갱신요구권과 10년 보장은 유지돼요.">
+  <rect x="0" y="0" width="760" height="548" fill="#FBF7F0"/>
+  <text x="40" y="42" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#1A2B2A">상가 환산보증금 계산식과 지역별 기준금액</text>
+  <text x="40" y="68" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">상가건물 임대차보호법 제2조·제10조, 시행령 제2조 기준 (2026-07-31)</text>
+
+  <!-- 계산식 -->
+  <text x="40" y="104" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">환산보증금 계산식</text>
+  <rect x="40" y="116" width="680" height="58" fill="#E3F0EE"/>
+  <text x="380" y="152" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">환산보증금 = 보증금 + (월차임 × 100)</text>
+
+  <!-- 지역별 기준금액 -->
+  <text x="40" y="212" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">지역별 기준금액 (시행령 제2조 제1항)</text>
+
+  <!-- 서울 -->
+  <text x="40" y="250" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#1A2B2A">서울특별시</text>
+  <rect x="250" y="234" width="380" height="26" fill="#0A5F58"/>
+  <text x="640" y="252" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1A2B2A">9억원</text>
+
+  <!-- 과밀·부산 -->
+  <text x="40" y="290" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#1A2B2A">과밀억제권역·부산</text>
+  <rect x="250" y="274" width="291" height="26" fill="#0E7C72"/>
+  <text x="551" y="292" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1A2B2A">6억9천만원</text>
+
+  <!-- 광역시·세종·경기 일부 -->
+  <text x="40" y="330" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#1A2B2A">광역시·세종·경기 일부</text>
+  <rect x="250" y="314" width="228" height="26" fill="#0E7C72"/>
+  <text x="488" y="332" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1A2B2A">5억4천만원</text>
+
+  <!-- 그 밖의 지역 -->
+  <text x="40" y="370" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#1A2B2A">그 밖의 지역</text>
+  <rect x="250" y="354" width="156" height="26" fill="#0E7C72"/>
+  <text x="416" y="372" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1A2B2A">3억7천만원</text>
+
+  <text x="250" y="400" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11.5" fill="#8A938F">경기 일부: 파주·화성·안산·용인·김포·광주시 (자세한 범위는 본문 표 참고)</text>
+
+  <!-- 유의 -->
+  <rect x="40" y="420" width="680" height="98" fill="#F4EEE2"/>
+  <text x="58" y="446" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#0A5F58">10년 보장</text>
+  <text x="128" y="446" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#1A2B2A">최초 기간 포함 전체 임대차기간 10년까지 갱신요구권을 행사할 수 있어요 (제10조 제2항).</text>
+  <text x="58" y="474" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#C2873B">초과해도</text>
+  <text x="128" y="474" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#1A2B2A">환산보증금이 기준금액을 넘어도 갱신요구권과 10년 보장은 유지돼요 (제2조 제3항).</text>
+  <text x="58" y="502" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#B5462F">유의</text>
+  <text x="128" y="502" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#1A2B2A">다만 5% 증액 상한(제11조) 등 일부 조항은 초과 임대차에 적용되지 않아요.</text>
+</svg>
