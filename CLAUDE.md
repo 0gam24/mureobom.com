@@ -276,6 +276,7 @@ score = 100 * ( 0.40·trend_momentum
 | `human_notes` | — | 검수 메모, 프론트엔드 노출 X |
 | (writer 신규) | `title` | 질문형 제목, **Zod 10~60자** (Google `<title>` 권장) |
 | (writer 신규) | `summary` | 한 문장 핵심 답, **Zod 30~160자** (SERP 절단 회피) |
+| (writer 신규) | `keyPoints` | "한눈에 핵심" 불릿 3~6개(선택, 신규 글은 작성). 상세 페이지가 요약 아래 박스로 자동 렌더. 목차(H2 수집)·읽기시간은 페이지가 자동 생성 |
 | (writer 신규) | `updated` | 발행 일자 (ISO date) |
 | (writer 신규) | `disclaimer` | 기본 true — 일반정보 고지 노출 |
 | (writer 선택) | `image` | OG/Twitter 이미지 절대경로. 미지정 시 `/og-default.png` |

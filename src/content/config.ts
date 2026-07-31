@@ -14,6 +14,10 @@ const answers = defineCollection({
     /* Google 권장 description 50~160자 (SERP 절단 회피 + 정보성).
      * 짧은 답 케이스 허용 위해 min은 30자로 완화. */
     summary: z.string().min(30).max(160),
+    /* "한눈에 핵심" 불릿(선택, 3~6개). 요약 문장(summary)과 별도로 핵심 사실을
+     * 개별 불릿으로 — 상세 페이지가 요약 아래 박스로 자동 렌더.
+     * 기존 글 소급 불필요(미지정 시 박스 미노출), 신규 글부터 writer가 채운다. */
+    keyPoints: z.array(z.string().min(8).max(120)).min(3).max(6).optional(),
     updated: z.coerce.date(),
     /* 최초 발행일(선택). JSON-LD datePublished에 사용 — 미지정 시 updated로 폴백.
      * 기존 글 소급 불필요: updated만 있으면 종전 동작 유지. */

@@ -9,9 +9,16 @@ export async function getStaticPaths() {
   return posts.map((p)=>({ params:{ cluster:p.data.cluster, slug:p.slug }, props:{ p }}));
 }
 const { p } = Astro.props;
-const { Content } = await p.render();
+const { Content, headings } = await p.render();
 const CL: Record<string, string> = { tax:"세금", support:"정부지원금", loan:"대출·신용", insurance:"보험·연금" };
 const fmt = (d: Date) => new Intl.DateTimeFormat("ko-KR",{dateStyle:"long"}).format(d);
+
+/* 목차 — 본문 H2를 자동 수집(Astro가 부여한 heading id와 동일한 slug 앵커).
+ * 기존 글 포함 전 글 자동 적용. H2가 2개 미만이면 노출하지 않는다. */
+const toc = headings.filter((h) => h.depth === 2);
+
+/* 읽기시간 — 한국어 분당 약 500자(공백 제외) 기준, 최소 1분 */
+const readMinutes = Math.max(1, Math.round((p.body ?? "").replace(/\s/g, "").length / 500));
 
 /* internalLinks("cluster/slug")를 실제 '함께 보면 좋은 글' 링크로 해석 (CNT-01).
  * 발행 글 슬러그와 매칭 실패 항목은 조용히 건너뜀 — 빌드는 깨지지 않는다. */
@@ -143,12 +150,31 @@ const slotBottom = import.meta.env.PUBLIC_ADSENSE_SLOT_BOTTOM ?? "";
     <p class="crumb"><a href={`/${p.data.cluster}/`}>{CL[p.data.cluster]}</a></p>
     <h1>{p.data.title}</h1>
     <p class="answer-now">{p.data.summary}</p>
+
+    {p.data.keyPoints && p.data.keyPoints.length > 0 && (
+      <aside class="key-points" aria-label="한눈에 핵심">
+        <h2>한눈에 핵심</h2>
+        <ul>
+          {p.data.keyPoints.map((k) => <li>{k}</li>)}
+        </ul>
+      </aside>
+    )}
+
     <div class="byline">
       <p class="by-who"><strong>{p.data.author}</strong> 작성 · 공식 1차 출처 대조 검수</p>
-      <p class="by-meta">발행 {fmt(publishedDate)} · 최종 확인 {fmt(p.data.updated)} · 근거 {p.data.sources.length}건 · <a href="/about/#how">이 글은 어떻게 만드나요?</a></p>
+      <p class="by-meta">발행 {fmt(publishedDate)} · 최종 확인 {fmt(p.data.updated)} · 근거 {p.data.sources.length}건 · {readMinutes}분 읽기 · <a href="/about/#how">이 글은 어떻게 만드나요?</a></p>
     </div>
 
     <AdSlot slot={slotTop} label="top" />
+
+    {toc.length >= 2 && (
+      <nav class="toc" aria-label="목차">
+        <h2>목차</h2>
+        <ol>
+          {toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}
+        </ol>
+      </nav>
+    )}
 
     <div class="prose"><Content /></div>
 
@@ -200,6 +226,21 @@ const slotBottom = import.meta.env.PUBLIC_ADSENSE_SLOT_BOTTOM ?? "";
     .answer-now{font-size:var(--fs-lead);background:var(--teal-wash);
       border-left:3px solid var(--teal);padding:1rem 1.2rem;border-radius:0 var(--r-sm) var(--r-sm) 0;
       color:var(--ink);}
+    /* 한눈에 핵심 — 요약 아래 핵심 사실 불릿 박스 */
+    .key-points{margin:1.4rem 0;background:var(--paper-2);border:1px solid var(--line);
+      border-radius:var(--r-md);padding:1.2rem 1.5rem;}
+    .key-points h2{font-size:1.05rem;margin-bottom:.6rem;color:var(--teal-deep);}
+    .key-points ul{padding-left:1.15rem;margin:0;}
+    .key-points li{margin:.4rem 0;color:var(--ink);}
+    .key-points li::marker{color:var(--teal);}
+    /* 목차 — 본문 H2 자동 수집, 앵커 이동 */
+    .toc{margin:2rem 0;background:var(--teal-wash);border:1px solid var(--line);
+      border-radius:var(--r-md);padding:1.1rem 1.5rem;}
+    .toc h2{font-size:1.05rem;margin-bottom:.6rem;}
+    .toc ol{padding-left:1.3rem;margin:0;}
+    .toc li{margin:.35rem 0;}
+    .toc a{color:var(--ink-soft);}
+    .toc a:hover{color:var(--teal);}
     .byline{margin:1rem 0 2.4rem;font-size:var(--fs-meta);
       border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:.8rem 0;}
     .byline .by-who{color:var(--ink-soft);}
