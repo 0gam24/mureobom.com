@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 640" role="img" aria-label="상가 권리금 회수기회 보호 구조: 임대인의 방해금지 4가지 행위와 손해배상 한도(신규임차인 약정 권리금과 종료 당시 권리금 중 낮은 금액), 임대차 종료 후 3년 이내 청구" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="640" fill="#FBF7F0"/>
+
+  <text x="30" y="42" font-size="25" font-weight="700" fill="#1A2B2A">상가 권리금 회수기회 보호 구조</text>
+  <text x="30" y="66" font-size="15" fill="#4A5856">상가건물 임대차보호법 제10조의4 · 임대차 종료 6개월 전부터 종료 시까지</text>
+
+  <!-- 방해금지 4행위 헤더 -->
+  <rect x="30" y="88" width="760" height="34" fill="#0E7C72"/>
+  <text x="46" y="111" font-size="16" font-weight="700" fill="#FBF7F0">임대인이 하면 안 되는 방해행위 4가지 (제1항)</text>
+
+  <!-- 4 boxes -->
+  <rect x="30" y="130" width="185" height="96" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="52" cy="154" r="12" fill="#0A5F58"/>
+  <text x="52" y="159" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+  <text x="74" y="159" font-size="14" font-weight="700" fill="#1A2B2A">권리금 요구</text>
+  <text x="46" y="184" font-size="12.5" fill="#4A5856">신규임차인에게</text>
+  <text x="46" y="203" font-size="12.5" fill="#4A5856">임대인이 권리금을</text>
+  <text x="46" y="222" font-size="12.5" fill="#4A5856">요구·수수</text>
+
+  <rect x="221" y="130" width="185" height="96" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="243" cy="154" r="12" fill="#0A5F58"/>
+  <text x="243" y="159" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+  <text x="265" y="159" font-size="14" font-weight="700" fill="#1A2B2A">지급 방해</text>
+  <text x="237" y="184" font-size="12.5" fill="#4A5856">신규임차인이</text>
+  <text x="237" y="203" font-size="12.5" fill="#4A5856">임차인에게 권리금</text>
+  <text x="237" y="222" font-size="12.5" fill="#4A5856">못 내게 방해</text>
+
+  <rect x="412" y="130" width="185" height="96" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="434" cy="154" r="12" fill="#0A5F58"/>
+  <text x="434" y="159" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+  <text x="456" y="159" font-size="14" font-weight="700" fill="#1A2B2A">고액 요구</text>
+  <text x="428" y="184" font-size="12.5" fill="#4A5856">주변 시세보다</text>
+  <text x="428" y="203" font-size="12.5" fill="#4A5856">현저히 높은 차임·</text>
+  <text x="428" y="222" font-size="12.5" fill="#4A5856">보증금 요구</text>
+
+  <rect x="603" y="130" width="187" height="96" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="625" cy="154" r="12" fill="#0A5F58"/>
+  <text x="625" y="159" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">4</text>
+  <text x="647" y="159" font-size="14" font-weight="700" fill="#1A2B2A">계약 거절</text>
+  <text x="619" y="184" font-size="12.5" fill="#4A5856">정당한 사유 없이</text>
+  <text x="619" y="203" font-size="12.5" fill="#4A5856">임차인이 주선한</text>
+  <text x="619" y="222" font-size="12.5" fill="#4A5856">신규임차인 거절</text>
+
+  <!-- 흐름 화살표 -->
+  <text x="410" y="262" font-size="14" fill="#8A938F" text-anchor="middle">방해로 손해가 생기면 임대인에게 손해배상 청구 (제3항)</text>
+  <path d="M410 270 L410 288" stroke="#C2873B" stroke-width="2"/>
+  <path d="M410 288 l-6 -8 l12 0 z" fill="#C2873B"/>
+
+  <!-- 손해배상 한도 -->
+  <rect x="30" y="298" width="760" height="34" fill="#C2873B"/>
+  <text x="46" y="321" font-size="16" font-weight="700" fill="#FBF7F0">손해배상 한도: 둘 중 낮은 금액 (제3항)</text>
+
+  <rect x="30" y="340" width="360" height="78" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="210" y="368" font-size="14" fill="#4A5856" text-anchor="middle">신규임차인이 지급하기로 한</text>
+  <text x="210" y="392" font-size="20" font-weight="700" fill="#0E7C72" text-anchor="middle">약정 권리금</text>
+
+  <text x="410" y="386" font-size="24" font-weight="700" fill="#1A2B2A" text-anchor="middle">vs</text>
+
+  <rect x="430" y="340" width="360" height="78" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="610" y="368" font-size="14" fill="#4A5856" text-anchor="middle">임대차 종료 당시의</text>
+  <text x="610" y="392" font-size="20" font-weight="700" fill="#0A5F58" text-anchor="middle">감정 권리금</text>
+
+  <text x="410" y="440" font-size="14" font-weight="700" fill="#B5462F" text-anchor="middle">→ 더 낮은 금액을 넘지 못함 · 종료일부터 3년 지나면 청구권 소멸 (제4항)</text>
+
+  <!-- 적용 제외 -->
+  <rect x="30" y="464" width="760" height="34" fill="#4A5856"/>
+  <text x="46" y="487" font-size="16" font-weight="700" fill="#FBF7F0">보호 적용 제외 (제10조의5)</text>
+
+  <rect x="30" y="506" width="375" height="60" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="46" y="532" font-size="13.5" fill="#1A2B2A">대규모점포·준대규모점포 일부</text>
+  <text x="46" y="552" font-size="12" fill="#8A938F">(대형마트·SSM 등 · 전통시장은 보호 대상)</text>
+
+  <rect x="415" y="506" width="375" height="60" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="431" y="532" font-size="13.5" fill="#1A2B2A">국유재산·공유재산인 상가</text>
+  <text x="431" y="552" font-size="12" fill="#8A938F">(국공유지 위 상가는 권리금 보호 배제)</text>
+
+  <text x="30" y="600" font-size="11" fill="#8A938F">2026년 기준. 개별 사안은 대한법률구조공단·관할 법원 등으로 확인하세요.</text>
+</svg>

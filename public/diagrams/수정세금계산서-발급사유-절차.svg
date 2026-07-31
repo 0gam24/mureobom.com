@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 632" role="img" aria-label="수정세금계산서 발급사유별 작성방법과 작성일자·발급기한 정리표" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="860" height="632" fill="#FBF7F0"/>
+
+  <text x="30" y="44" font-size="25" font-weight="700" fill="#1A2B2A">수정세금계산서 발급사유별 작성방법</text>
+  <text x="30" y="68" font-size="14" fill="#4A5856">부가가치세법 시행령 제70조 제1항 · 당초분 음(-) 발급인지 증감분 1장인지, 작성일자 기준이 사유마다 달라요</text>
+
+  <!-- column headers -->
+  <rect x="20" y="86" width="200" height="40" fill="#0E7C72"/>
+  <rect x="220" y="86" width="360" height="40" fill="#0A5F58"/>
+  <rect x="580" y="86" width="260" height="40" fill="#0E7C72"/>
+  <text x="120" y="112" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">발급사유</text>
+  <text x="400" y="112" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">작성방법 (장수·표시)</text>
+  <text x="710" y="112" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">작성일자 · 기한</text>
+
+  <!-- row 1 환입 -->
+  <rect x="20" y="130" width="200" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="220" y="130" width="360" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="580" y="130" width="260" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="36" y="160" font-size="15" font-weight="700" fill="#1A2B2A">환입</text>
+  <text x="36" y="181" font-size="11" fill="#8A938F">처음 공급 재화 반품</text>
+  <text x="236" y="167" font-size="13" fill="#4A5856">환입액을 음(-)의 표시로 1장</text>
+  <text x="596" y="167" font-size="13" fill="#1A2B2A">환입된 날</text>
+
+  <!-- row 2 계약 해제 -->
+  <rect x="20" y="198" width="200" height="64" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <rect x="220" y="198" width="360" height="64" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <rect x="580" y="198" width="260" height="64" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="36" y="228" font-size="15" font-weight="700" fill="#1A2B2A">계약 해제</text>
+  <text x="36" y="249" font-size="11" fill="#8A938F">공급 자체가 무효</text>
+  <text x="236" y="235" font-size="13" fill="#4A5856">당초분 전체를 음(-)의 표시로 1장</text>
+  <text x="596" y="228" font-size="13" font-weight="700" fill="#0A5F58">계약해제일</text>
+  <text x="596" y="249" font-size="11" fill="#8A938F">증감과 헷갈리기 쉬운 지점</text>
+
+  <!-- row 3 공급가액 증감 -->
+  <rect x="20" y="266" width="200" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="220" y="266" width="360" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="580" y="266" width="260" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="36" y="296" font-size="15" font-weight="700" fill="#1A2B2A">공급가액 증감</text>
+  <text x="36" y="317" font-size="11" fill="#8A938F">해지 등 금액 변동</text>
+  <text x="236" y="303" font-size="13" fill="#4A5856">증감분만 1장 (증액 정+/감액 음-)</text>
+  <text x="596" y="296" font-size="13" font-weight="700" fill="#0A5F58">증감사유 발생일</text>
+  <text x="596" y="317" font-size="11" fill="#8A938F">당초분 취소가 아니에요</text>
+
+  <!-- row 4 내국신용장 -->
+  <rect x="20" y="334" width="200" height="64" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <rect x="220" y="334" width="360" height="64" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <rect x="580" y="334" width="260" height="64" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="36" y="364" font-size="15" font-weight="700" fill="#1A2B2A">내국신용장</text>
+  <text x="36" y="385" font-size="11" fill="#8A938F">사후 개설·발급</text>
+  <text x="236" y="371" font-size="13" fill="#4A5856">당초분 음(-) + 영세율분 각 1장</text>
+  <text x="596" y="371" font-size="13" fill="#1A2B2A">과세기간 종료 후 25일 이내</text>
+
+  <!-- row 5 착오 정정 -->
+  <rect x="20" y="402" width="200" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="220" y="402" width="360" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="580" y="402" width="260" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="36" y="432" font-size="15" font-weight="700" fill="#1A2B2A">착오 정정</text>
+  <text x="36" y="453" font-size="11" fill="#8A938F">기재사항 오기</text>
+  <text x="236" y="439" font-size="13" fill="#4A5856">당초 음(-) 1장 + 정확분 1장</text>
+  <text x="596" y="439" font-size="13" fill="#1A2B2A">착오 확인 시</text>
+
+  <!-- row 6 착오 외 사유 -->
+  <rect x="20" y="470" width="200" height="64" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <rect x="220" y="470" width="360" height="64" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <rect x="580" y="470" width="260" height="64" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="36" y="500" font-size="15" font-weight="700" fill="#1A2B2A">착오 외 사유</text>
+  <text x="36" y="521" font-size="11" fill="#8A938F">착오가 아닌 오기</text>
+  <text x="236" y="507" font-size="13" fill="#4A5856">당초 음(-) 1장 + 정확분 1장</text>
+  <text x="596" y="500" font-size="13" font-weight="700" fill="#C2873B">확정신고기한 다음날</text>
+  <text x="596" y="521" font-size="12" fill="#4A5856">부터 1년 이내</text>
+
+  <!-- row 7 이중발급·면세 -->
+  <rect x="20" y="538" width="200" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="220" y="538" width="360" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="580" y="538" width="260" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="36" y="568" font-size="14" font-weight="700" fill="#1A2B2A">이중발급·면세</text>
+  <text x="36" y="589" font-size="11" fill="#8A938F">잘못 발급한 건</text>
+  <text x="236" y="575" font-size="13" fill="#4A5856">당초 내용대로 음(-)의 표시로 1장</text>
+  <text x="596" y="575" font-size="13" fill="#1A2B2A">착오 확인 시</text>
+
+  <text x="30" y="622" font-size="11" fill="#8A938F">2026년 기준 · 부가가치세법 시행령 제70조 제1항 제1~7호. 개별 사례는 홈택스·관할 세무서로 확인하세요.</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 660" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="노인장기요양 등급별 점수구간과 이용 급여, 월 한도액 표">
+  <rect x="0" y="0" width="820" height="660" fill="#FBF7F0"/>
+  <text x="24" y="40" font-size="24" font-weight="700" fill="#1A2B2A">노인장기요양 등급별 점수구간과 급여</text>
+  <text x="24" y="66" font-size="14" fill="#4A5856">장기요양인정 점수(높을수록 도움 필요) · 2026년 재가급여 월 한도액 기준</text>
+
+  <!-- header row -->
+  <rect x="24" y="84" width="772" height="40" fill="#0A5F58"/>
+  <text x="40" y="110" font-size="14" font-weight="700" fill="#FBF7F0">등급</text>
+  <text x="150" y="110" font-size="14" font-weight="700" fill="#FBF7F0">인정점수</text>
+  <text x="300" y="110" font-size="14" font-weight="700" fill="#FBF7F0">심신상태</text>
+  <text x="470" y="110" font-size="14" font-weight="700" fill="#FBF7F0">이용 급여</text>
+  <text x="660" y="110" font-size="14" font-weight="700" fill="#FBF7F0">월 한도액</text>
+
+  <!-- row 1 -->
+  <rect x="24" y="124" width="772" height="72" fill="#E3F0EE"/>
+  <text x="40" y="165" font-size="15" font-weight="700" fill="#0A5F58">1등급</text>
+  <text x="150" y="165" font-size="14" fill="#1A2B2A">95점 이상</text>
+  <text x="300" y="158" font-size="13" fill="#1A2B2A">전적으로</text>
+  <text x="300" y="176" font-size="13" fill="#1A2B2A">도움 필요</text>
+  <text x="470" y="158" font-size="13" fill="#1A2B2A">재가급여 6종</text>
+  <text x="470" y="176" font-size="13" fill="#1A2B2A">+ 시설급여(원칙)</text>
+  <text x="660" y="165" font-size="14" font-weight="700" fill="#1A2B2A">2,512,900원</text>
+
+  <!-- row 2 -->
+  <rect x="24" y="196" width="772" height="72" fill="#F4EEE2"/>
+  <text x="40" y="237" font-size="15" font-weight="700" fill="#0A5F58">2등급</text>
+  <text x="150" y="237" font-size="14" fill="#1A2B2A">75~95점 미만</text>
+  <text x="300" y="230" font-size="13" fill="#1A2B2A">상당 부분</text>
+  <text x="300" y="248" font-size="13" fill="#1A2B2A">도움 필요</text>
+  <text x="470" y="230" font-size="13" fill="#1A2B2A">재가급여 6종</text>
+  <text x="470" y="248" font-size="13" fill="#1A2B2A">+ 시설급여(원칙)</text>
+  <text x="660" y="237" font-size="14" font-weight="700" fill="#1A2B2A">2,331,200원</text>
+
+  <!-- row 3 -->
+  <rect x="24" y="268" width="772" height="72" fill="#E3F0EE"/>
+  <text x="40" y="309" font-size="15" font-weight="700" fill="#0A5F58">3등급</text>
+  <text x="150" y="309" font-size="14" fill="#1A2B2A">60~75점 미만</text>
+  <text x="300" y="302" font-size="13" fill="#1A2B2A">부분적</text>
+  <text x="300" y="320" font-size="13" fill="#1A2B2A">도움 필요</text>
+  <text x="470" y="302" font-size="13" fill="#1A2B2A">재가급여 6종</text>
+  <text x="470" y="320" font-size="13" fill="#4A5856">(시설급여는 예외 인정)</text>
+  <text x="660" y="309" font-size="14" font-weight="700" fill="#1A2B2A">1,528,200원</text>
+
+  <!-- row 4 -->
+  <rect x="24" y="340" width="772" height="72" fill="#F4EEE2"/>
+  <text x="40" y="381" font-size="15" font-weight="700" fill="#0A5F58">4등급</text>
+  <text x="150" y="381" font-size="14" fill="#1A2B2A">51~60점 미만</text>
+  <text x="300" y="374" font-size="13" fill="#1A2B2A">일정 부분</text>
+  <text x="300" y="392" font-size="13" fill="#1A2B2A">도움 필요</text>
+  <text x="470" y="374" font-size="13" fill="#1A2B2A">재가급여 6종</text>
+  <text x="470" y="392" font-size="13" fill="#4A5856">(시설급여는 예외 인정)</text>
+  <text x="660" y="381" font-size="14" font-weight="700" fill="#1A2B2A">1,409,700원</text>
+
+  <!-- row 5 -->
+  <rect x="24" y="412" width="772" height="72" fill="#E3F0EE"/>
+  <text x="40" y="447" font-size="15" font-weight="700" fill="#0A5F58">5등급</text>
+  <text x="40" y="465" font-size="11" fill="#4A5856">(치매)</text>
+  <text x="150" y="453" font-size="14" fill="#1A2B2A">45~51점 미만</text>
+  <text x="300" y="446" font-size="13" fill="#1A2B2A">치매환자</text>
+  <text x="300" y="464" font-size="12" fill="#4A5856">(노인성 질병)</text>
+  <text x="470" y="446" font-size="13" fill="#1A2B2A">재가급여 중심</text>
+  <text x="470" y="464" font-size="13" fill="#4A5856">(시설급여는 예외 인정)</text>
+  <text x="660" y="453" font-size="14" font-weight="700" fill="#1A2B2A">1,208,900원</text>
+
+  <!-- row 6 -->
+  <rect x="24" y="484" width="772" height="72" fill="#F4EEE2"/>
+  <text x="40" y="519" font-size="15" font-weight="700" fill="#C2873B">인지지원</text>
+  <text x="40" y="537" font-size="11" fill="#4A5856">(경증치매)</text>
+  <text x="150" y="525" font-size="14" fill="#1A2B2A">45점 미만</text>
+  <text x="300" y="518" font-size="13" fill="#1A2B2A">경증치매</text>
+  <text x="300" y="536" font-size="12" fill="#4A5856">(인지 기능 저하)</text>
+  <text x="470" y="518" font-size="13" fill="#1A2B2A">주야간보호 등</text>
+  <text x="470" y="536" font-size="13" fill="#4A5856">일부 급여로 제한</text>
+  <text x="660" y="525" font-size="14" font-weight="700" fill="#1A2B2A">676,320원</text>
+
+  <!-- footer -->
+  <line x1="24" y1="572" x2="796" y2="572" stroke="#E3DCCF" stroke-width="1"/>
+  <rect x="24" y="586" width="16" height="16" fill="#0E7C72"/>
+  <text x="48" y="599" font-size="13" fill="#1A2B2A">본인부담률: 재가급여 15% · 시설급여 20% (감경 대상은 60% 또는 40% 감경)</text>
+  <text x="24" y="632" font-size="12" fill="#8A938F">근거: 노인장기요양보험법 시행령 제7조(등급판정기준) · 국민건강보험공단 2026년 급여비용 안내</text>
+  <text x="24" y="652" font-size="12" fill="#8A938F">인정 유효기간 최소 2년 · 급여 종류·한도액은 연도별로 변동될 수 있어요</text>
+</svg>
