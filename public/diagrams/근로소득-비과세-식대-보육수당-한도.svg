@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" role="img" aria-label="근로소득 비과세 항목별 월 한도 막대그래프" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="600" fill="#FBF7F0"/>
+  <rect x="24" y="24" width="772" height="552" rx="16" fill="#F4EEE2"/>
+
+  <text x="48" y="66" font-size="26" font-weight="700" fill="#1A2B2A">근로소득 비과세 항목별 한도</text>
+  <text x="48" y="94" font-size="15" fill="#4A5856">소득세법 제12조 제3호·시행령 기준, 월 단위 비과세 한도 (단위: 만원)</text>
+
+  <!-- 축 눈금 -->
+  <line x1="300" y1="120" x2="300" y2="470" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="404" y1="120" x2="404" y2="470" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="508" y1="120" x2="508" y2="470" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="612" y1="120" x2="612" y2="470" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="716" y1="120" x2="716" y2="470" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="300" y="490" font-size="11" fill="#8A938F" text-anchor="middle">100</text>
+  <text x="404" y="490" font-size="11" fill="#8A938F" text-anchor="middle">200</text>
+  <text x="508" y="490" font-size="11" fill="#8A938F" text-anchor="middle">300</text>
+  <text x="612" y="490" font-size="11" fill="#8A938F" text-anchor="middle">400</text>
+  <text x="716" y="490" font-size="11" fill="#8A938F" text-anchor="middle">500</text>
+
+  <!-- 식대 -->
+  <text x="284" y="146" font-size="14" fill="#1A2B2A" text-anchor="end">식대</text>
+  <rect x="288" y="132" width="21" height="24" rx="4" fill="#0E7C72"/>
+  <text x="318" y="149" font-size="13" font-weight="600" fill="#0E7C72">월 20</text>
+
+  <!-- 보육수당 -->
+  <text x="284" y="186" font-size="14" fill="#1A2B2A" text-anchor="end">보육수당(6세 이하)</text>
+  <rect x="288" y="172" width="21" height="24" rx="4" fill="#0E7C72"/>
+  <text x="318" y="189" font-size="13" font-weight="600" fill="#0E7C72">월 20 (자녀 1명당)</text>
+
+  <!-- 자가운전보조금 -->
+  <text x="284" y="226" font-size="14" fill="#1A2B2A" text-anchor="end">자가운전보조금</text>
+  <rect x="288" y="212" width="21" height="24" rx="4" fill="#0E7C72"/>
+  <text x="318" y="229" font-size="13" font-weight="600" fill="#0E7C72">월 20</text>
+
+  <!-- 연구보조비 -->
+  <text x="284" y="266" font-size="14" fill="#1A2B2A" text-anchor="end">연구보조비</text>
+  <rect x="288" y="252" width="21" height="24" rx="4" fill="#0E7C72"/>
+  <text x="318" y="269" font-size="13" font-weight="600" fill="#0E7C72">월 20</text>
+
+  <!-- 취재수당 -->
+  <text x="284" y="306" font-size="14" fill="#1A2B2A" text-anchor="end">취재수당</text>
+  <rect x="288" y="292" width="21" height="24" rx="4" fill="#0E7C72"/>
+  <text x="318" y="309" font-size="13" font-weight="600" fill="#0E7C72">월 20</text>
+
+  <!-- 생산직 야간근로수당 -->
+  <text x="284" y="346" font-size="14" fill="#1A2B2A" text-anchor="end">생산직 야간근로수당</text>
+  <rect x="288" y="332" width="21" height="24" rx="4" fill="#8A938F"/>
+  <text x="318" y="349" font-size="13" font-weight="600" fill="#4A5856">연 240 (월 20 상당)</text>
+
+  <!-- 국외근로 일반 -->
+  <text x="284" y="386" font-size="14" fill="#1A2B2A" text-anchor="end">국외근로 일반</text>
+  <rect x="288" y="372" width="104" height="24" rx="4" fill="#0A5F58"/>
+  <text x="400" y="389" font-size="13" font-weight="600" fill="#0A5F58">월 100</text>
+
+  <!-- 국외 외항·원양·건설 -->
+  <text x="284" y="426" font-size="14" fill="#1A2B2A" text-anchor="end">국외 외항·원양·건설</text>
+  <rect x="288" y="412" width="500" height="24" rx="4" fill="#C2873B"/>
+  <text x="540" y="429" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">월 500</text>
+
+  <!-- 하단 안내 -->
+  <rect x="48" y="516" width="724" height="44" rx="8" fill="#E3F0EE"/>
+  <text x="64" y="537" font-size="13" fill="#0A5F58" font-weight="600">한도 초과분은 과세됩니다.</text>
+  <text x="64" y="555" font-size="12" fill="#4A5856">비과세는 세액공제·소득공제(연말정산 공제)와 다른 개념이며, 4대보험 보수 산정에도 영향을 줄 수 있어요.</text>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" role="img" aria-labelledby="title desc" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <title id="title">압류금지 범위와 범위변경 신청 절차</title>
+  <desc id="desc">예금 잔액 250만원, 급여 1/2, 현금 생계비 250만원까지 압류가 금지되며, 이미 묶인 돈은 법원에 압류금지채권 범위변경을 신청해 되찾는다는 정보 도표</desc>
+
+  <rect x="0" y="0" width="760" height="620" fill="#FBF7F0"/>
+
+  <text x="40" y="52" font-size="27" font-weight="700" fill="#1A2B2A">통장이 압류돼도 지켜지는 돈</text>
+  <text x="40" y="80" font-size="15" fill="#4A5856">민사집행법·같은 법 시행령 (2026년 2월 1일 시행 기준)</text>
+
+  <!-- 3 protection cards -->
+  <g>
+    <rect x="40" y="104" width="220" height="150" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <text x="60" y="136" font-size="15" font-weight="700" fill="#0A5F58">예금(통장) 잔액</text>
+    <text x="60" y="178" font-size="34" font-weight="700" fill="#0E7C72">250만원</text>
+    <text x="60" y="206" font-size="13" fill="#4A5856">개인별 잔액(모든 금융</text>
+    <text x="60" y="224" font-size="13" fill="#4A5856">기관 합산)까지 압류금지</text>
+    <text x="60" y="244" font-size="12" fill="#8A938F">시행령 제7조</text>
+  </g>
+  <g>
+    <rect x="270" y="104" width="220" height="150" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <text x="290" y="136" font-size="15" font-weight="700" fill="#0A5F58">급여채권</text>
+    <text x="290" y="178" font-size="34" font-weight="700" fill="#0E7C72">1/2</text>
+    <text x="290" y="206" font-size="13" fill="#4A5856">원칙 절반 압류금지,</text>
+    <text x="290" y="224" font-size="13" fill="#4A5856">하한 월 250만원 보호</text>
+    <text x="290" y="244" font-size="12" fill="#8A938F">법 제246조·시행령 제3조</text>
+  </g>
+  <g>
+    <rect x="500" y="104" width="220" height="150" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <text x="520" y="136" font-size="15" font-weight="700" fill="#0A5F58">현금 생계비</text>
+    <text x="520" y="178" font-size="34" font-weight="700" fill="#0E7C72">250만원</text>
+    <text x="520" y="206" font-size="13" fill="#4A5856">1개월 생계비 현금은</text>
+    <text x="520" y="224" font-size="13" fill="#4A5856">압류금지 (종전 185만원)</text>
+    <text x="520" y="244" font-size="12" fill="#8A938F">법 제195조·시행령 제2조</text>
+  </g>
+
+  <!-- note strip -->
+  <rect x="40" y="272" width="680" height="40" rx="8" fill="#E3F0EE"/>
+  <text x="60" y="297" font-size="13.5" fill="#0A5F58">예금·현금 생계비의 총 보호 상한은 250만원입니다. 이미 현금으로 보호받은 금액은 예금 한도에서 차감돼요.</text>
+
+  <!-- procedure -->
+  <text x="40" y="356" font-size="20" font-weight="700" fill="#1A2B2A">이미 묶였다면, 되찾는 절차</text>
+  <text x="40" y="380" font-size="14" fill="#4A5856">압류금지채권 범위변경 신청 (민사집행법 제246조 제3항, 법원 결정 사항)</text>
+
+  <g>
+    <rect x="40" y="400" width="150" height="118" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <circle cx="65" cy="426" r="13" fill="#0E7C72"/>
+    <text x="65" y="431" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+    <text x="88" y="431" font-size="14" font-weight="700" fill="#1A2B2A">압류 확인</text>
+    <text x="60" y="462" font-size="12.5" fill="#4A5856">압류·추심명령서로</text>
+    <text x="60" y="480" font-size="12.5" fill="#4A5856">사건번호·법원 확인</text>
+  </g>
+  <path d="M198 459 h20" stroke="#C2873B" stroke-width="2.5" marker-end="url(#a)"/>
+  <g>
+    <rect x="228" y="400" width="150" height="118" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <circle cx="253" cy="426" r="13" fill="#0E7C72"/>
+    <text x="253" y="431" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+    <text x="276" y="431" font-size="14" font-weight="700" fill="#1A2B2A">서류 준비</text>
+    <text x="248" y="462" font-size="12.5" fill="#4A5856">급여명세·거래내역</text>
+    <text x="248" y="480" font-size="12.5" fill="#4A5856">생활형편 소명자료</text>
+  </g>
+  <path d="M386 459 h20" stroke="#C2873B" stroke-width="2.5" marker-end="url(#a)"/>
+  <g>
+    <rect x="416" y="400" width="150" height="118" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <circle cx="441" cy="426" r="13" fill="#0E7C72"/>
+    <text x="441" y="431" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+    <text x="464" y="431" font-size="14" font-weight="700" fill="#1A2B2A">법원 신청</text>
+    <text x="436" y="462" font-size="12.5" fill="#4A5856">범위변경 신청서를</text>
+    <text x="436" y="480" font-size="12.5" fill="#4A5856">집행법원에 제출</text>
+  </g>
+  <path d="M574 459 h20" stroke="#C2873B" stroke-width="2.5" marker-end="url(#a)"/>
+  <g>
+    <rect x="604" y="400" width="116" height="118" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+    <circle cx="629" cy="426" r="13" fill="#0A5F58"/>
+    <text x="629" y="431" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">4</text>
+    <text x="652" y="431" font-size="14" font-weight="700" fill="#0A5F58">법원 결정</text>
+    <text x="624" y="462" font-size="12.5" fill="#4A5856">사정 고려해</text>
+    <text x="624" y="480" font-size="12.5" fill="#4A5856">전부·일부 취소</text>
+  </g>
+
+  <text x="40" y="556" font-size="12.5" fill="#B5462F">범위변경은 법원이 생활형편 등을 고려해 결정하는 사항으로, 신청이 늘 인용되는 것은 아니에요.</text>
+  <text x="40" y="592" font-size="12" fill="#8A938F">출처: 국가법령정보센터 민사집행법 제227조·제229조·제246조, 같은 법 시행령 제2조·제3조·제7조</text>
+
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#C2873B"/>
+    </marker>
+  </defs>
+</svg>
