@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="출퇴근 재해 산재 인정 판단 흐름: 출퇴근 중 사고인지, 통상적 경로와 방법인지, 경로 일탈·중단이 있었는지, 일상생활 필요행위 예외인지에 따라 인정 여부가 갈린다">
+  <rect x="0" y="0" width="760" height="620" fill="#FBF7F0"/>
+  <text x="30" y="44" font-size="24" font-weight="700" fill="#1A2B2A">출퇴근 재해 산재 인정 판단 흐름</text>
+  <text x="30" y="70" font-size="14" fill="#4A5856">산업재해보상보험법 제37조 제1항 제3호, 시행령 제35조 기준</text>
+
+  <!-- Step 1 -->
+  <rect x="240" y="92" width="280" height="56" rx="10" fill="#0E7C72"/>
+  <text x="380" y="118" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">출퇴근 중 사고인가요?</text>
+  <text x="380" y="138" font-size="12" fill="#E3F0EE" text-anchor="middle">집과 일터 사이 이동 중 발생</text>
+
+  <!-- arrow -->
+  <line x1="380" y1="148" x2="380" y2="176" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="380,182 375,172 385,172" fill="#8A938F"/>
+
+  <!-- Step 2 : two types -->
+  <rect x="60" y="184" width="300" height="86" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="76" y="210" font-size="14" font-weight="700" fill="#0A5F58">(가) 사업주 지배·관리 하 출퇴근</text>
+  <text x="76" y="234" font-size="12.5" fill="#4A5856">회사가 제공한 통근버스·차량 등을</text>
+  <text x="76" y="252" font-size="12.5" fill="#4A5856">이용하다 발생한 사고</text>
+
+  <rect x="400" y="184" width="300" height="86" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="416" y="210" font-size="14" font-weight="700" fill="#0A5F58">(나) 통상적 경로와 방법</text>
+  <text x="416" y="234" font-size="12.5" fill="#4A5856">자가용·대중교통·도보·자전거 등</text>
+  <text x="416" y="252" font-size="12.5" fill="#4A5856">합리적 경로로 오가다 발생한 사고</text>
+
+  <line x1="550" y1="270" x2="550" y2="298" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="550,304 545,294 555,294" fill="#8A938F"/>
+
+  <!-- Step 3 : deviation -->
+  <rect x="400" y="306" width="300" height="56" rx="10" fill="#0E7C72"/>
+  <text x="550" y="331" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">경로의 일탈·중단이 있었나요?</text>
+  <text x="550" y="350" font-size="12" fill="#E3F0EE" text-anchor="middle">평소 길을 벗어나거나 멈췄는지</text>
+
+  <!-- branch NO left -->
+  <line x1="470" y1="362" x2="470" y2="404" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="470,410 465,400 475,400" fill="#8A938F"/>
+  <text x="440" y="386" font-size="12" font-weight="700" fill="#0A5F58" text-anchor="middle">아니오</text>
+
+  <!-- branch YES right -->
+  <line x1="630" y1="362" x2="630" y2="404" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="630,410 625,400 635,400" fill="#8A938F"/>
+  <text x="660" y="386" font-size="12" font-weight="700" fill="#B5462F" text-anchor="middle">예</text>
+
+  <!-- result inclusion (no deviation) -->
+  <rect x="360" y="412" width="220" height="52" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="470" y="437" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">출퇴근 재해 인정</text>
+  <text x="470" y="455" font-size="11.5" fill="#4A5856" text-anchor="middle">요양급여 등 신청 가능</text>
+
+  <!-- deviation exception check -->
+  <rect x="588" y="412" width="150" height="52" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="663" y="434" font-size="12.5" font-weight="700" fill="#1A2B2A" text-anchor="middle">일상생활에</text>
+  <text x="663" y="452" font-size="12.5" font-weight="700" fill="#1A2B2A" text-anchor="middle">필요한 행위인가?</text>
+
+  <!-- exception yes/no -->
+  <line x1="663" y1="464" x2="663" y2="492" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="663,498 658,488 668,488" fill="#8A938F"/>
+
+  <rect x="360" y="500" width="220" height="66" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="470" y="524" font-size="13" font-weight="700" fill="#0A5F58" text-anchor="middle">필요행위면 예외 인정</text>
+  <text x="470" y="543" font-size="11" fill="#4A5856" text-anchor="middle">생필품 구입·병원 진료·자녀 등하교</text>
+  <text x="470" y="558" font-size="11" fill="#4A5856" text-anchor="middle">직업훈련·선거·가족 간병 등</text>
+
+  <rect x="588" y="500" width="150" height="66" rx="10" fill="#F4EEE2" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="663" y="528" font-size="13" font-weight="700" fill="#B5462F" text-anchor="middle">그 밖의 일탈은</text>
+  <text x="663" y="547" font-size="13" font-weight="700" fill="#B5462F" text-anchor="middle">원칙적 불인정</text>
+
+  <text x="30" y="598" font-size="11.5" fill="#8A938F">개인 심부름·유흥 등 사적 목적의 일탈·중단 중 사고는 출퇴근 재해로 보지 않아요. 최종 판단은 근로복지공단이 경위를 확인해 결정해요.</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" role="img" aria-label="개인채무자보호법 채무조정 요청권 5단계 흐름과 연체이자 제한" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="620" fill="#FBF7F0"/>
+
+  <text x="40" y="48" font-size="26" font-weight="700" fill="#1A2B2A">채무조정 요청권, 이렇게 진행돼요</text>
+  <text x="40" y="76" font-size="15" fill="#4A5856">개인채무자보호법 시행 2024.10.17 · 대출원금 3천만원 미만 연체자 대상</text>
+
+  <!-- Step 1 -->
+  <rect x="40" y="100" width="680" height="66" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <circle cx="78" cy="133" r="20" fill="#0E7C72"/>
+  <text x="78" y="140" font-size="20" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+  <text x="116" y="128" font-size="17" font-weight="700" fill="#1A2B2A">연체 발생</text>
+  <text x="116" y="151" font-size="14" fill="#4A5856">대출원금 3천만원 미만을 연체 중인 개인채무자</text>
+
+  <!-- Step 2 -->
+  <rect x="40" y="182" width="680" height="66" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <circle cx="78" cy="215" r="20" fill="#0E7C72"/>
+  <text x="78" y="222" font-size="20" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+  <text x="116" y="210" font-size="17" font-weight="700" fill="#1A2B2A">금융회사에 직접 요청</text>
+  <text x="116" y="233" font-size="14" fill="#4A5856">신복위·법원 아닌, 돈을 빌린 금융회사에 채무조정 요청</text>
+
+  <!-- Step 3 -->
+  <rect x="40" y="264" width="680" height="66" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <circle cx="78" cy="297" r="20" fill="#0A5F58"/>
+  <text x="78" y="304" font-size="20" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+  <text x="116" y="292" font-size="17" font-weight="700" fill="#1A2B2A">10영업일 내 수용 여부 통지</text>
+  <text x="116" y="315" font-size="14" fill="#4A5856">금융회사가 상환 능력 등 심사 후 결정 (자동 성립 아님)</text>
+
+  <!-- Step 4 -->
+  <rect x="40" y="346" width="680" height="66" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <circle cx="78" cy="379" r="20" fill="#0E7C72"/>
+  <text x="78" y="386" font-size="20" font-weight="700" fill="#FBF7F0" text-anchor="middle">4</text>
+  <text x="116" y="374" font-size="17" font-weight="700" fill="#1A2B2A">수용 시, 통지 후 10영업일 내 조정서 작성</text>
+  <text x="116" y="397" font-size="14" fill="#4A5856">합의된 상환 조건으로 채무조정서 확정</text>
+
+  <!-- Step 5 -->
+  <rect x="40" y="428" width="680" height="66" rx="12" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <circle cx="78" cy="461" r="20" fill="#C2873B"/>
+  <text x="78" y="468" font-size="20" font-weight="700" fill="#FBF7F0" text-anchor="middle">5</text>
+  <text x="116" y="456" font-size="17" font-weight="700" fill="#1A2B2A">거절 시, 다른 경로 안내 의무</text>
+  <text x="116" y="479" font-size="14" fill="#4A5856">법원 회생 또는 신용회복위원회 채무조정 절차 안내</text>
+
+  <!-- connectors -->
+  <g fill="#8A938F">
+    <polygon points="78,166 72,176 84,176"/>
+    <polygon points="78,248 72,258 84,258"/>
+    <polygon points="78,330 72,340 84,340"/>
+    <polygon points="78,412 72,422 84,422"/>
+  </g>
+
+  <!-- bottom note: 연체이자 제한 -->
+  <rect x="40" y="516" width="680" height="76" rx="12" fill="#E3F0EE" stroke="#0A5F58" stroke-width="1.5"/>
+  <text x="60" y="546" font-size="16" font-weight="700" fill="#0A5F58">함께 바뀐 연체이자 규칙</text>
+  <text x="60" y="571" font-size="14" fill="#1A2B2A">대출원금 5천만원 미만 연체 시, 기한이익 상실 뒤에도</text>
+  <text x="60" y="590" font-size="14" fill="#1A2B2A">아직 상환일이 안 온 원금에는 연체이자(지연배상금)를 못 부과해요.</text>
+</svg>
