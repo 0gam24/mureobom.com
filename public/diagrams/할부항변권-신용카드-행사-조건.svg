@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="신용카드 할부항변권 행사 요건과 서면 통지 절차">
+  <rect x="0" y="0" width="820" height="620" fill="#FBF7F0"/>
+  <text x="40" y="52" font-size="26" font-weight="700" fill="#1A2B2A">신용카드 할부항변권 행사</text>
+  <text x="40" y="80" font-size="15" fill="#4A5856">성립 요건 세 가지를 모두 갖추고 서면으로 통지하면 나머지 할부금 지급을 거절할 수 있어요</text>
+
+  <!-- 요건 3박스 -->
+  <text x="40" y="122" font-size="17" font-weight="700" fill="#0A5F58">성립 요건 (모두 충족)</text>
+
+  <g>
+    <rect x="40" y="138" width="240" height="118" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+    <circle cx="66" cy="168" r="14" fill="#0E7C72"/>
+    <text x="66" y="173" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+    <text x="90" y="173" font-size="15" font-weight="700" fill="#1A2B2A">거래금액</text>
+    <text x="60" y="204" font-size="20" font-weight="700" fill="#B5462F">20만원 이상</text>
+    <text x="60" y="229" font-size="13" fill="#4A5856">신용카드 할부 기준</text>
+    <text x="60" y="247" font-size="12" fill="#8A938F">(일반 직접할부는 10만원)</text>
+  </g>
+
+  <g>
+    <rect x="296" y="138" width="240" height="118" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+    <circle cx="322" cy="168" r="14" fill="#0E7C72"/>
+    <text x="322" y="173" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+    <text x="346" y="173" font-size="15" font-weight="700" fill="#1A2B2A">할부계약</text>
+    <text x="316" y="204" font-size="18" font-weight="700" fill="#0A5F58">2개월 이상</text>
+    <text x="316" y="229" font-size="18" font-weight="700" fill="#0A5F58">3회 이상 분할</text>
+    <text x="316" y="248" font-size="12" fill="#8A938F">'3개월 이상'은 오해</text>
+  </g>
+
+  <g>
+    <rect x="552" y="138" width="228" height="118" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+    <circle cx="578" cy="168" r="14" fill="#0E7C72"/>
+    <text x="578" y="173" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+    <text x="602" y="173" font-size="15" font-weight="700" fill="#1A2B2A">법정 사유</text>
+    <text x="572" y="200" font-size="13" fill="#4A5856">미인도 · 하자 · 해제</text>
+    <text x="572" y="221" font-size="13" fill="#4A5856">무효 · 취소 · 채무불이행</text>
+    <text x="572" y="245" font-size="12" fill="#8A938F">중 하나 발생</text>
+  </g>
+
+  <!-- 절차 흐름 -->
+  <text x="40" y="308" font-size="17" font-weight="700" fill="#0A5F58">서면 통지 절차</text>
+
+  <g>
+    <rect x="40" y="326" width="172" height="96" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="126" y="356" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">1. 사유 확인</text>
+    <text x="126" y="380" font-size="12" fill="#4A5856" text-anchor="middle">판매처 문제 발생</text>
+    <text x="126" y="399" font-size="12" fill="#4A5856" text-anchor="middle">잔여 할부금 파악</text>
+  </g>
+  <path d="M216 374 L246 374" stroke="#C2873B" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <g>
+    <rect x="252" y="326" width="172" height="96" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="338" y="356" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">2. 서면 통지</text>
+    <text x="338" y="380" font-size="12" fill="#4A5856" text-anchor="middle">카드사에 지급거절</text>
+    <text x="338" y="399" font-size="12" fill="#4A5856" text-anchor="middle">의사 서면 발송</text>
+  </g>
+  <path d="M428 374 L458 374" stroke="#C2873B" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <g>
+    <rect x="464" y="326" width="172" height="96" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="550" y="356" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">3. 효력 발생</text>
+    <text x="550" y="380" font-size="12" fill="#4A5856" text-anchor="middle">발송한 날</text>
+    <text x="550" y="399" font-size="12" fill="#4A5856" text-anchor="middle">즉시 효력</text>
+  </g>
+  <path d="M640 374 L670 374" stroke="#C2873B" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <g>
+    <rect x="676" y="326" width="104" height="96" rx="12" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+    <text x="728" y="352" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">4. 카드사</text>
+    <text x="728" y="371" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">확인</text>
+    <text x="728" y="393" font-size="12" fill="#B5462F" text-anchor="middle">7영업일 내</text>
+    <text x="728" y="410" font-size="11" fill="#8A938F" text-anchor="middle">미통지=수용</text>
+  </g>
+
+  <!-- 핵심 구분 박스 -->
+  <rect x="40" y="452" width="740" height="126" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="60" y="482" font-size="16" font-weight="700" fill="#0A5F58">꼭 구분하세요</text>
+  <line x1="410" y1="470" x2="410" y2="560" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="60" y="512" font-size="14" font-weight="700" fill="#1A2B2A">지급 거절 (항변권)</text>
+  <text x="60" y="536" font-size="13" fill="#4A5856">아직 안 낸 '나머지 할부금'만</text>
+  <text x="60" y="558" font-size="13" fill="#4A5856">지급을 멈출 수 있어요</text>
+  <text x="430" y="512" font-size="14" font-weight="700" fill="#1A2B2A">기납부금 환급 (별개)</text>
+  <text x="430" y="536" font-size="13" fill="#4A5856">이미 낸 금액 돌려받기는</text>
+  <text x="430" y="558" font-size="13" fill="#4A5856">판매처 상대 별도 절차예요</text>
+
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#C2873B"/>
+    </marker>
+  </defs>
+</svg>

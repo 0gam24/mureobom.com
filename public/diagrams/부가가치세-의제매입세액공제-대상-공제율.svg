@@ -1,0 +1,64 @@
+<svg viewBox="0 0 720 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="의제매입세액공제 업종별 공제율 비교표: 과세유흥장소 2/102, 음식점 개인 8/108, 음식점 개인 과세표준 2억원 이하 현행 한시 9/109, 음식점 법인 6/106, 제조업 중소 개인 4/104, 제조업 중 과자점 도정 제분 등 6/106, 그 밖의 사업자 2/102" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="720" height="560" fill="#FBF7F0"/>
+  <text x="40" y="46" font-size="26" font-weight="700" fill="#1A2B2A">의제매입세액공제 업종별 공제율</text>
+  <text x="40" y="74" font-size="15" fill="#4A5856">면세 농·축·수·임산물 매입가액에 아래 율을 곱해 매입세액으로 의제 공제 (일반과세자 기준)</text>
+
+  <!-- header -->
+  <rect x="40" y="96" width="430" height="42" fill="#0A5F58"/>
+  <rect x="470" y="96" width="210" height="42" fill="#0E7C72"/>
+  <text x="60" y="123" font-size="16" font-weight="700" fill="#FBF7F0">업종 구분</text>
+  <text x="575" y="123" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">공제율</text>
+
+  <!-- rows -->
+  <g font-size="15" fill="#1A2B2A">
+    <!-- row 1 -->
+    <rect x="40" y="138" width="430" height="46" fill="#F4EEE2"/>
+    <rect x="470" y="138" width="210" height="46" fill="#F4EEE2"/>
+    <text x="60" y="166" >과세유흥장소 경영 사업자</text>
+    <text x="575" y="167" font-size="17" font-weight="700" fill="#4A5856" text-anchor="middle">2/102</text>
+
+    <!-- row 2 -->
+    <rect x="40" y="184" width="430" height="46" fill="#E3F0EE"/>
+    <rect x="470" y="184" width="210" height="46" fill="#E3F0EE"/>
+    <text x="60" y="212">음식점업 개인사업자 (일반)</text>
+    <text x="575" y="213" font-size="17" font-weight="700" fill="#0A5F58" text-anchor="middle">8/108</text>
+
+    <!-- row 3 highlight -->
+    <rect x="40" y="230" width="430" height="46" fill="#F4EEE2"/>
+    <rect x="470" y="230" width="210" height="46" fill="#F4EEE2"/>
+    <rect x="40" y="230" width="6" height="46" fill="#C2873B"/>
+    <text x="60" y="252">음식점업 개인 (과세표준 2억원 이하)</text>
+    <text x="60" y="270" font-size="12" fill="#8A938F">현행 한시 우대율 · 적용기한 확인 필요</text>
+    <text x="575" y="259" font-size="17" font-weight="700" fill="#C2873B" text-anchor="middle">9/109</text>
+
+    <!-- row 4 -->
+    <rect x="40" y="276" width="430" height="46" fill="#E3F0EE"/>
+    <rect x="470" y="276" width="210" height="46" fill="#E3F0EE"/>
+    <text x="60" y="304">음식점업 법인사업자</text>
+    <text x="575" y="305" font-size="17" font-weight="700" fill="#0A5F58" text-anchor="middle">6/106</text>
+
+    <!-- row 5 -->
+    <rect x="40" y="322" width="430" height="46" fill="#F4EEE2"/>
+    <rect x="470" y="322" width="210" height="46" fill="#F4EEE2"/>
+    <text x="60" y="350">제조업 중 중소기업 및 개인사업자</text>
+    <text x="575" y="351" font-size="17" font-weight="700" fill="#0A5F58" text-anchor="middle">4/104</text>
+
+    <!-- row 6 -->
+    <rect x="40" y="368" width="430" height="46" fill="#E3F0EE"/>
+    <rect x="470" y="368" width="210" height="46" fill="#E3F0EE"/>
+    <text x="60" y="390">제조업 중 과자점·도정·제분 등</text>
+    <text x="60" y="408" font-size="12" fill="#8A938F">시행령으로 정하는 사업</text>
+    <text x="575" y="397" font-size="17" font-weight="700" fill="#0A5F58" text-anchor="middle">6/106</text>
+
+    <!-- row 7 -->
+    <rect x="40" y="414" width="430" height="46" fill="#F4EEE2"/>
+    <rect x="470" y="414" width="210" height="46" fill="#F4EEE2"/>
+    <text x="60" y="442">그 밖의 사업자 (대기업 제조업 등)</text>
+    <text x="575" y="443" font-size="17" font-weight="700" fill="#4A5856" text-anchor="middle">2/102</text>
+  </g>
+
+  <line x1="40" y1="460" x2="680" y2="460" stroke="#E3DCCF" stroke-width="1"/>
+  <rect x="40" y="478" width="640" height="60" fill="#F4EEE2"/>
+  <text x="58" y="503" font-size="13" fill="#B5462F" font-weight="700">간이과세자는 2021.7.1 이후 매입분부터 의제매입세액공제 적용 배제</text>
+  <text x="58" y="525" font-size="13" fill="#4A5856">2026년 신고 기준 · 우대율·한도율은 개정이 잦으니 국세청·현행 조문으로 재확인하세요</text>
+</svg>

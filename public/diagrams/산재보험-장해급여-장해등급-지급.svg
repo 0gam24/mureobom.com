@@ -1,0 +1,71 @@
+<svg viewBox="0 0 860 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="산재 장해급여 등급대별 지급방식: 제1~3급 연금만, 제4~7급 연금 또는 일시금 선택, 제8~14급 일시금만. 장해보상연금은 제1급 329일분부터 제7급 138일분, 장해보상일시금은 제1급 1474일분부터 제14급 55일분 평균임금 기준.">
+  <rect x="0" y="0" width="860" height="620" fill="#FBF7F0"/>
+
+  <text x="40" y="52" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#1A2B2A">산재 장해급여, 장해등급대별 지급방식</text>
+  <text x="40" y="82" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">치유(증상 고정) 후 남은 장해를 제1급부터 제14급으로 나눠 평균임금 기준으로 지급해요</text>
+
+  <!-- 3 band cards -->
+  <!-- Band 1: 1~3급 연금만 -->
+  <rect x="40" y="110" width="248" height="200" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="164" y="146" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">제1급 ~ 제3급</text>
+  <rect x="72" y="160" width="184" height="34" rx="17" fill="#0E7C72"/>
+  <text x="164" y="183" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#FBF7F0">장해보상연금만</text>
+  <text x="164" y="222" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">노동력을 거의 상실한 중증</text>
+  <text x="164" y="246" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">일시금 선택 불가</text>
+  <text x="164" y="284" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">해마다 연금 지급</text>
+
+  <!-- Band 2: 4~7급 선택 -->
+  <rect x="306" y="110" width="248" height="200" rx="12" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+  <text x="430" y="146" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#1A2B2A">제4급 ~ 제7급</text>
+  <rect x="338" y="160" width="184" height="34" rx="17" fill="#C2873B"/>
+  <text x="430" y="183" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#FBF7F0">연금 또는 일시금 선택</text>
+  <text x="430" y="222" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">수급권자가 직접 선택</text>
+  <text x="430" y="246" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">한 번 정하면 원칙상 변경 제한</text>
+  <text x="430" y="284" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">두 방식 중 택1</text>
+
+  <!-- Band 3: 8~14급 일시금 -->
+  <rect x="572" y="110" width="248" height="200" rx="12" fill="#F4EEE2" stroke="#4A5856" stroke-width="2"/>
+  <text x="696" y="146" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#1A2B2A">제8급 ~ 제14급</text>
+  <rect x="604" y="160" width="184" height="34" rx="17" fill="#4A5856"/>
+  <text x="696" y="183" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#FBF7F0">장해보상일시금만</text>
+  <text x="696" y="222" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">비교적 경미한 장해</text>
+  <text x="696" y="246" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">연금 선택 불가</text>
+  <text x="696" y="284" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">일시금 한 번 지급</text>
+
+  <!-- divider -->
+  <line x1="40" y1="340" x2="820" y2="340" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 지급일수 endpoints panel -->
+  <text x="40" y="374" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1A2B2A">평균임금 × 등급별 지급일수 (별표2 기준)</text>
+
+  <rect x="40" y="392" width="380" height="96" rx="10" fill="#E3F0EE"/>
+  <text x="60" y="424" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">장해보상연금 (해마다 지급)</text>
+  <text x="60" y="452" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">제1급 329일분 → 제7급 138일분</text>
+  <text x="60" y="475" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">연금은 제7급까지, 제8급 이상은 없어요</text>
+
+  <rect x="440" y="392" width="380" height="96" rx="10" fill="#F4EEE2"/>
+  <text x="460" y="424" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">장해보상일시금 (한 번에 지급)</text>
+  <text x="460" y="452" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">제1급 1,474일분 → 제14급 55일분</text>
+  <text x="460" y="475" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">본인 평균임금에 따라 실수령액은 달라요</text>
+
+  <!-- flow strip -->
+  <text x="40" y="524" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1A2B2A">신청 흐름</text>
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">
+    <rect x="40" y="538" width="140" height="44" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="110" y="565" text-anchor="middle">치유(증상 고정)</text>
+    <text x="192" y="565" text-anchor="middle" fill="#0E7C72" font-size="18">›</text>
+    <rect x="204" y="538" width="140" height="44" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="274" y="565" text-anchor="middle">장해진단서 발급</text>
+    <text x="356" y="565" text-anchor="middle" fill="#0E7C72" font-size="18">›</text>
+    <rect x="368" y="538" width="150" height="44" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="443" y="565" text-anchor="middle">공단에 청구서 제출</text>
+    <text x="530" y="565" text-anchor="middle" fill="#0E7C72" font-size="18">›</text>
+    <rect x="542" y="538" width="130" height="44" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="607" y="565" text-anchor="middle">장해등급 심사</text>
+    <text x="684" y="565" text-anchor="middle" fill="#0E7C72" font-size="18">›</text>
+    <rect x="696" y="538" width="124" height="44" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="758" y="565" text-anchor="middle" font-weight="700" fill="#0A5F58">급여 지급</text>
+  </g>
+
+  <text x="40" y="606" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#8A938F">기준: 산업재해보상보험법 제57조·시행령 별표6·별표2 (2026년 기준). 구체 금액은 개인 평균임금에 따라 달라져요.</text>
+</svg>
