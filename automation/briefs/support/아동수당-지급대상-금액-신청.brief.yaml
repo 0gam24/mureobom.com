@@ -1,0 +1,46 @@
+id: support-아동수당-지급대상-금액-신청
+cluster: support
+status: published        # draft → approved(사람) → published(자동)
+
+target_query: "아동수당 지급대상 금액 신청방법"
+search_intent: 절차형     # 자격 확인 + 신청 방법을 함께 원함
+
+signal:                  # 수동 선정(스캐너 미경유) 집계 추정치. 원문 아님
+  score: 73.0
+  trend_momentum: 0.52
+  question_volume: 0.52
+  cluster_fit: 1.0
+  freshness: 0.5
+
+must_cover:
+  - 아동수당 개념과 근거(아동수당법)
+  - 지급대상(만 8세 미만, 0~95개월 대한민국 국적 아동, 소득·재산 무관 보편지급)
+  - 지급액(아동 1인당 월 10만원)과 지급 방식(현금 원칙, 일부 지자체 지역화폐 선택)
+  - 부모급여·가정양육수당과의 차이 및 중복수급 가능 여부 명확화(가장 큰 혼동 지점)
+  - 신청 방법(복지로 온라인·정부24·읍면동 주민센터 방문·출생신고 시 행복출산 원스톱)과 필요 서류
+  - 지급 시작·소급 적용 원칙과 이의신청 절차 간략
+  - 만 8세(96개월) 도달 시 지급 종료 시점
+
+required_sources:        # 공식 1차 출처만(법령·정부·공단). 0건이면 발행 차단
+  - "아동수당법 / 아동수당법 시행령 (국가법령정보센터 law.go.kr)"
+  - "복지로 아동수당 안내 (bokjiro.go.kr)"
+  - "정부24 아동수당 (gov.kr)"
+
+internal_links:
+  - support/출산지원금-부모급여-첫만남이용권
+  - support/아이돌봄서비스-신청-비용-지원
+
+# cta 필드는 폐기 — 수익화는 AdSense 단독 (계산기/제휴 CTA 미사용)
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true  # 일반정보 고지 삽입 (AdSense YMYL 정책 친화)
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: 아동수당 vs 부모급여 vs 가정양육수당 중복수급 대조표(가장 큰 혼동 지점) + 출생신고 행복출산 원스톱 신청 동선 + 만 8세 도달 종료 시점.
+  부모급여(기발행 support/출산지원금-부모급여-첫만남이용권)와 중복 글이 아니라 '차이·중복수급 명확화'로 차별화 — 세 수당은 요건이 달라 동시 수급 가능하다는 점을 표로 정리.
+  검수 포인트: 지급액(월 10만원)·대상 연령(만 8세 미만=0~95개월) 최신 기준 확인, "소득 높으면 못 받는다"는 통념 반박(보편지급), 출생신고 원스톱 신청 시 별도 방문 불필요 동선 명시.

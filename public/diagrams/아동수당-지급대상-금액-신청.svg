@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" role="img"
+     aria-label="아동수당 지급대상 만 8세 미만 월 10만원, 부모급여·가정양육수당과 동시 수급 가능, 출생신고 원스톱 신청부터 만 8세 종료까지 흐름">
+  <rect x="0" y="0" width="820" height="600" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="40" y="52" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="28" font-weight="700" fill="#1A2B2A">아동수당 한눈에 보기</text>
+  <text x="40" y="80" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">현행 운영 기준 (2026년 정부24 안내)</text>
+  <line x1="40" y1="98" x2="780" y2="98" stroke="#E3DCCF" stroke-width="2"/>
+
+  <!-- 대상·금액 카드 3개 -->
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <rect x="40" y="120" width="230" height="120" rx="12" fill="#E3F0EE"/>
+    <text x="155" y="158" text-anchor="middle" font-size="15" fill="#0A5F58">지급 대상</text>
+    <text x="155" y="192" text-anchor="middle" font-size="26" font-weight="700" fill="#0E7C72">만 8세 미만</text>
+    <text x="155" y="218" text-anchor="middle" font-size="14" fill="#4A5856">0~95개월 국적 아동</text>
+
+    <rect x="295" y="120" width="230" height="120" rx="12" fill="#E3F0EE"/>
+    <text x="410" y="158" text-anchor="middle" font-size="15" fill="#0A5F58">지급 금액</text>
+    <text x="410" y="192" text-anchor="middle" font-size="26" font-weight="700" fill="#0E7C72">월 10만원</text>
+    <text x="410" y="218" text-anchor="middle" font-size="14" fill="#4A5856">매월 25일 현금 지급</text>
+
+    <rect x="550" y="120" width="230" height="120" rx="12" fill="#F4EEE2"/>
+    <text x="665" y="158" text-anchor="middle" font-size="15" fill="#C2873B">소득·재산</text>
+    <text x="665" y="192" text-anchor="middle" font-size="26" font-weight="700" fill="#C2873B">기준 없음</text>
+    <text x="665" y="218" text-anchor="middle" font-size="14" fill="#4A5856">누구나 받는 보편지급</text>
+  </g>
+
+  <!-- 중복 수급 -->
+  <text x="40" y="290" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#1A2B2A">세 수당은 동시에 받을 수 있어요</text>
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <rect x="40" y="308" width="215" height="86" rx="12" fill="#F4EEE2" stroke="#0E7C72" stroke-width="2"/>
+    <text x="147" y="342" text-anchor="middle" font-size="16" font-weight="700" fill="#0E7C72">아동수당</text>
+    <text x="147" y="368" text-anchor="middle" font-size="13" fill="#4A5856">만 8세 미만 · 월 10만원</text>
+
+    <text x="272" y="358" text-anchor="middle" font-size="30" font-weight="700" fill="#C2873B">+</text>
+
+    <rect x="290" y="308" width="215" height="86" rx="12" fill="#F4EEE2" stroke="#8A938F" stroke-width="1"/>
+    <text x="397" y="342" text-anchor="middle" font-size="16" font-weight="700" fill="#1A2B2A">부모급여</text>
+    <text x="397" y="368" text-anchor="middle" font-size="13" fill="#4A5856">영아기 대상 · 별도 제도</text>
+
+    <text x="522" y="358" text-anchor="middle" font-size="30" font-weight="700" fill="#C2873B">+</text>
+
+    <rect x="540" y="308" width="240" height="86" rx="12" fill="#F4EEE2" stroke="#8A938F" stroke-width="1"/>
+    <text x="660" y="342" text-anchor="middle" font-size="16" font-weight="700" fill="#1A2B2A">가정양육수당</text>
+    <text x="660" y="368" text-anchor="middle" font-size="13" fill="#4A5856">미이용 아동 · 월정액</text>
+  </g>
+  <text x="40" y="422" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">요건이 서로 달라 조건만 맞으면 겹쳐서 받을 수 있어요.</text>
+
+  <!-- 신청부터 종료까지 흐름 -->
+  <text x="40" y="470" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#1A2B2A">신청부터 종료까지</text>
+  <line x1="90" y1="530" x2="730" y2="530" stroke="#E3DCCF" stroke-width="3"/>
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif" text-anchor="middle">
+    <circle cx="120" cy="530" r="11" fill="#0E7C72"/>
+    <text x="120" y="562" font-size="13" font-weight="700" fill="#1A2B2A">출생신고 원스톱</text>
+    <text x="120" y="582" font-size="12" fill="#4A5856">한 번에 통합 신청</text>
+
+    <circle cx="330" cy="530" r="11" fill="#0E7C72"/>
+    <text x="330" y="562" font-size="13" font-weight="700" fill="#1A2B2A">60일 이내 신청</text>
+    <text x="330" y="582" font-size="12" fill="#4A5856">출생월부터 소급</text>
+
+    <circle cx="540" cy="530" r="11" fill="#0E7C72"/>
+    <text x="540" y="562" font-size="13" font-weight="700" fill="#1A2B2A">매월 25일 지급</text>
+    <text x="540" y="582" font-size="12" fill="#4A5856">아동 1인당 10만원</text>
+
+    <circle cx="710" cy="530" r="11" fill="#B5462F"/>
+    <text x="710" y="562" font-size="13" font-weight="700" fill="#B5462F">만 8세 종료</text>
+    <text x="710" y="582" font-size="12" fill="#4A5856">96개월 도달</text>
+  </g>
+</svg>
