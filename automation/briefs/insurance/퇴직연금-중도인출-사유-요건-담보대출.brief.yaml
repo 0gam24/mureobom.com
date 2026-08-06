@@ -1,0 +1,45 @@
+id: insurance-퇴직연금-중도인출-사유-요건-담보대출
+cluster: insurance
+status: published         # compliance 전 게이트 통과 (2026-08-07)
+
+target_query: "퇴직연금 중도인출 사유 요건 담보대출"
+search_intent: 절차형      # 중도인출·담보대출이 되는 사유와 서류·한도를 확인
+
+signal:                   # 수동 선정(스캐너 큐 stale). 사이트 공백·고수요 추정
+  score: 0.0
+  trend_momentum: 0.0
+  question_volume: 0.0
+  cluster_fit: 0.85
+  freshness: 0.0
+
+must_cover:
+  - 퇴직연금 중도인출의 법적 근거(근로자퇴직급여보장법 시행령 제14조)와 DC·IRP만 가능한 이유
+  - 중도인출 허용 사유(무주택자 주택구입, 전세보증금, 6개월 이상 요양, 파산·개인회생, 천재지변 등)
+  - DB형은 중도인출 불가, 대신 담보대출로 가능한 경우와 그 사유·한도
+  - 담보대출 사유·한도(적립금의 50% 등) 및 인출과 담보대출의 차이
+  - 중도인출 시 퇴직소득세 과세 이슈(연금 아닌 일시금 인출의 세금 영향 개념)
+  - 흔한 오해 바로잡기(생활비 목적 자유인출 불가, 사유 증빙 필요, 노후재원 감소 유의)
+
+required_sources:         # 공식 1차 출처만. WebFetch 검증 가능한 화이트리스트 도메인
+  - "근로자퇴직급여 보장법 (국가법령정보센터 law.go.kr)"
+  - "근로자퇴직급여 보장법 시행령 제14조(중도인출 사유) (국가법령정보센터 law.go.kr)"
+  - "고용노동부 퇴직연금 제도 안내 (moel.go.kr)"
+
+internal_links:
+  - insurance/퇴직연금-db-dc-irp-차이
+  - insurance/연금저축-irp-세액공제-한도
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: '중도인출 되는 사유'와 '담보대출만 되는 경우'를 DB·DC·IRP 유형별로 교차 표로
+  정리. 각 사유별 증빙서류를 목록화. "퇴직연금은 내 돈이니 아무 때나 뺀다"는 통념을
+  법정 사유 한정으로 반박하고, 중도인출 시 노후재원·세금 손실을 함께 고지.
+  인포그래픽: 유형(DB/DC/IRP) × 인출·담보대출 가능 여부 매트릭스.
+  단정적 표현 금지(가능 여부는 제도유형·사유·규약에 따름). 외부 커뮤니티 원문 저장 금지.

@@ -1,0 +1,50 @@
+<svg viewBox="0 0 820 720" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="보이스피싱 피해금 지급정지에서 환급까지 시간축 흐름">
+  <rect x="0" y="0" width="820" height="720" fill="#FBF7F0"/>
+  <text x="40" y="52" font-size="27" font-weight="700" fill="#1A2B2A">보이스피싱 피해금, 지급정지에서 환급까지</text>
+  <text x="40" y="82" font-size="16" fill="#4A5856">통신사기피해환급법 기준 시간축 (2026년 기준)</text>
+
+  <!-- vertical spine -->
+  <line x1="70" y1="120" x2="70" y2="650" stroke="#E3DCCF" stroke-width="4"/>
+
+  <!-- step 1 -->
+  <circle cx="70" cy="150" r="15" fill="#0E7C72"/>
+  <text x="70" y="156" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+  <rect x="110" y="120" width="670" height="88" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="132" y="150" font-size="19" font-weight="700" fill="#0A5F58">사고 직후 (골든타임)</text>
+  <text x="132" y="176" font-size="15" fill="#1A2B2A">112 신고 + 금융회사 콜센터로 즉시 지급정지 요청</text>
+  <text x="132" y="197" font-size="13" fill="#8A938F">근거: 특별법 제3조(피해구제 신청) 제4조(지급정지)</text>
+
+  <!-- step 2 -->
+  <circle cx="70" cy="270" r="15" fill="#0E7C72"/>
+  <text x="70" y="276" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+  <rect x="110" y="240" width="670" height="88" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="132" y="270" font-size="19" font-weight="700" fill="#0A5F58">신청일부터 3영업일 이내</text>
+  <text x="132" y="296" font-size="15" fill="#1A2B2A">피해구제신청서·서류 제출 (전화·구술 선접수 가능)</text>
+  <text x="132" y="317" font-size="13" fill="#8A938F">근거: 시행령 제3조 (최대 14일 연장)</text>
+
+  <!-- step 3 -->
+  <circle cx="70" cy="390" r="15" fill="#0E7C72"/>
+  <text x="70" y="396" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+  <rect x="110" y="360" width="670" height="88" rx="10" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="132" y="390" font-size="19" font-weight="700" fill="#0A5F58">지급정지 후 지체 없이</text>
+  <text x="132" y="416" font-size="15" fill="#1A2B2A">금융감독원이 채권소멸절차 개시 공고 (2개월간)</text>
+  <text x="132" y="437" font-size="13" fill="#8A938F">근거: 특별법 제5조, 시행령 제6조</text>
+
+  <!-- step 4 -->
+  <circle cx="70" cy="510" r="15" fill="#C2873B"/>
+  <text x="70" y="516" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">4</text>
+  <rect x="110" y="480" width="670" height="88" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="132" y="510" font-size="19" font-weight="700" fill="#C2873B">공고일부터 2개월 경과</text>
+  <text x="132" y="536" font-size="15" fill="#1A2B2A">명의인 이의가 없으면 계좌 채권 소멸</text>
+  <text x="132" y="557" font-size="13" fill="#8A938F">근거: 특별법 제9조 (이의제기는 2개월 내, 제7조)</text>
+
+  <!-- step 5 -->
+  <circle cx="70" cy="630" r="15" fill="#0E7C72"/>
+  <text x="70" y="636" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">5</text>
+  <rect x="110" y="600" width="670" height="88" rx="10" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="132" y="630" font-size="19" font-weight="700" fill="#0A5F58">소멸일부터 14일 이내</text>
+  <text x="132" y="656" font-size="15" fill="#1A2B2A">금감원이 환급금 결정, 금융회사가 피해자에게 지급</text>
+  <text x="132" y="677" font-size="13" fill="#8A938F">남은 잔액 범위에서 피해액 비례 지급 (제10조)</text>
+
+  <text x="40" y="712" font-size="13" fill="#B5462F">주의: 이미 인출·재이전된 자금은 잔액이 없어 환급 대상에서 빠질 수 있어요.</text>
+</svg>
