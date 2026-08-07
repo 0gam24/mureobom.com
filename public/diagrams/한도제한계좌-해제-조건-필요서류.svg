@@ -1,0 +1,50 @@
+<svg viewBox="0 0 820 760" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="한도제한계좌 해제 4단계 절차와 목적별 증빙서류 예시">
+  <rect x="0" y="0" width="820" height="760" fill="#FBF7F0"/>
+  <text x="40" y="52" font-size="27" font-weight="700" fill="#1A2B2A">한도제한계좌, 이렇게 해제해요</text>
+  <text x="40" y="82" font-size="16" fill="#4A5856">금융거래 목적 증빙 제출 후 은행 심사로 한도 상향 (2026년 기준)</text>
+
+  <!-- vertical spine -->
+  <line x1="70" y1="120" x2="70" y2="560" stroke="#E3DCCF" stroke-width="4"/>
+
+  <!-- step 1 -->
+  <circle cx="70" cy="150" r="15" fill="#0E7C72"/>
+  <text x="70" y="156" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+  <rect x="110" y="120" width="670" height="88" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="132" y="150" font-size="19" font-weight="700" fill="#0A5F58">왜 걸렸는지 확인</text>
+  <text x="132" y="176" font-size="15" fill="#1A2B2A">신규 통장 목적확인 제도로 자동 적용, 신용불량과 무관</text>
+  <text x="132" y="197" font-size="13" fill="#8A938F">근거: 대포통장 근절 목적확인 제도(2012년), 한도제한계좌(2016년)</text>
+
+  <!-- step 2 -->
+  <circle cx="70" cy="270" r="15" fill="#0E7C72"/>
+  <text x="70" y="276" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+  <rect x="110" y="240" width="670" height="88" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="132" y="270" font-size="19" font-weight="700" fill="#0A5F58">목적별 증빙서류 준비</text>
+  <text x="132" y="296" font-size="15" fill="#1A2B2A">급여, 사업매출, 연금수급 등 거래 목적을 보여주는 서류</text>
+  <text x="132" y="317" font-size="13" fill="#8A938F">예: 재직증명서·급여명세표 / 부가세증명원·납세증명서 / 연금증서</text>
+
+  <!-- step 3 -->
+  <circle cx="70" cy="390" r="15" fill="#0E7C72"/>
+  <text x="70" y="396" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+  <rect x="110" y="360" width="670" height="88" rx="10" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="132" y="390" font-size="19" font-weight="700" fill="#0A5F58">은행에 제출</text>
+  <text x="132" y="416" font-size="15" fill="#1A2B2A">영업점 방문이 통상, 비대면 상향 가능 여부는 은행마다 달라요</text>
+  <text x="132" y="437" font-size="13" fill="#8A938F">동의 기반 정보 자동수집으로 서류 제출을 줄이는 흐름도 있어요</text>
+
+  <!-- step 4 -->
+  <circle cx="70" cy="510" r="15" fill="#C2873B"/>
+  <text x="70" y="516" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">4</text>
+  <rect x="110" y="480" width="670" height="88" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="132" y="510" font-size="19" font-weight="700" fill="#C2873B">은행 심사 후 한도 상향</text>
+  <text x="132" y="536" font-size="15" fill="#1A2B2A">증빙이 충분하면 일반 입출금 통장 수준으로 한도가 풀려요</text>
+  <text x="132" y="557" font-size="13" fill="#8A938F">무조건 해제가 아니라 은행 심사 사항, 미흡 시 상향이 어려워요</text>
+
+  <!-- limit comparison box -->
+  <rect x="40" y="600" width="740" height="120" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="62" y="630" font-size="16" font-weight="700" fill="#0A5F58">1일 이체·출금 한도 통상 예시 (상향 전 → 2024.5.2 상향, 은행별 상이)</text>
+  <text x="62" y="662" font-size="15" fill="#1A2B2A">창구 100만원 → 300만원</text>
+  <text x="320" y="662" font-size="15" fill="#1A2B2A">ATM 30만원 → 100만원</text>
+  <text x="580" y="662" font-size="15" fill="#1A2B2A">인터넷뱅킹 30만원 → 100만원</text>
+  <text x="62" y="694" font-size="13" fill="#8A938F">금융위원회 자료 기준 통상 예시로, 법정 확정치가 아니라 은행마다 달라요.</text>
+
+  <text x="40" y="748" font-size="13" fill="#B5462F">참고: '20영업일 다수계좌 개설 제한'은 신규 개설을 막는 별개 제도예요.</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 690" role="img" aria-label="종합소득세 분납 기준과 신청 방법. 세 단계 흐름: 문턱은 납부할 세액이 1천만원을 초과할 때, 기한은 납부기한이 지난 후 2개월 이내(종전 45일에서 개정), 신청은 별도 승인 없이 확정신고서 분납란에 금액을 기재. 분납 가능액은 두 구간. 납부세액 2천만원 이하는 1천만원을 초과하는 금액만 분납, 예로 1,500만원이면 500만원을 분납하고 1,000만원은 기한 내 납부. 납부세액 2천만원 초과는 세액의 50퍼센트 이하를 분납, 예로 3,000만원이면 1,500만원까지 분납. 개인지방소득세는 따로, 납부세액 100만원 초과 시 위택스로 관할 지자체에 별도 분납하며 기한도 2개월. 분납은 나눠 내는 것일 뿐 기한 내 안 내면 납부지연가산세가 붙음. 2026년 기준, 소득세법 제77조와 시행령 제140조 근거.">
+  <rect x="0" y="0" width="900" height="690" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="36" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#1A2B2A">종합소득세 분납, 1천만원 넘으면 나눠 내요</text>
+  <text x="36" y="74" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">2026년 기준 · 소득세법 제77조·시행령 제140조 근거 · 세금이 없어지는 게 아니라 기한을 나눠 냅니다</text>
+
+  <!-- 3단계 흐름 -->
+  <rect x="36" y="98" width="256" height="104" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <rect x="322" y="98" width="256" height="104" rx="10" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.8"/>
+  <rect x="608" y="98" width="256" height="104" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+
+  <polygon points="296,150 314,141 314,159" fill="#8A938F"/>
+  <polygon points="582,150 600,141 600,159" fill="#8A938F"/>
+
+  <!-- 박스1 -->
+  <text x="52" y="128" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">① 문턱</text>
+  <text x="52" y="156" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">납부할 세액이</text>
+  <text x="52" y="178" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#1A2B2A">1천만원 초과일 때</text>
+
+  <!-- 박스2 -->
+  <text x="338" y="128" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#C2873B">② 기한</text>
+  <text x="338" y="156" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">납부기한이 지난 후</text>
+  <text x="338" y="178" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#1A2B2A">2개월 이내에 납부</text>
+
+  <!-- 박스3 -->
+  <text x="624" y="128" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">③ 신청</text>
+  <text x="624" y="156" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">별도 승인 없이</text>
+  <text x="624" y="178" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#1A2B2A">신고서 분납란에 기재</text>
+
+  <!-- 분납 가능액 섹션 제목 -->
+  <text x="36" y="248" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1A2B2A">얼마까지 나눠 낼 수 있나요? (두 구간)</text>
+
+  <!-- 좌: 2천만원 이하 -->
+  <rect x="36" y="266" width="405" height="170" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="36" y="266" width="405" height="34" rx="10" fill="#0E7C72"/>
+  <rect x="36" y="282" width="405" height="18" fill="#0E7C72"/>
+  <text x="56" y="289" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#FBF7F0">납부세액 2천만원 이하</text>
+  <text x="56" y="328" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">1천만원을 <tspan font-weight="700" fill="#0A5F58">초과하는 금액</tspan>만 분납</text>
+  <text x="56" y="366" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">예) 납부세액 1,500만원인 경우</text>
+  <text x="56" y="392" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1A2B2A">500만원 분납, 1,000만원 기한 내</text>
+  <text x="56" y="418" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">1천만원까지는 원래 기한에 내야 해요</text>
+
+  <!-- 우: 2천만원 초과 -->
+  <rect x="459" y="266" width="405" height="170" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="459" y="266" width="405" height="34" rx="10" fill="#C2873B"/>
+  <rect x="459" y="282" width="405" height="18" fill="#C2873B"/>
+  <text x="479" y="289" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#FBF7F0">납부세액 2천만원 초과</text>
+  <text x="479" y="328" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">세액의 <tspan font-weight="700" fill="#B5462F">50% 이하</tspan> 금액을 분납</text>
+  <text x="479" y="366" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">예) 납부세액 3,000만원인 경우</text>
+  <text x="479" y="392" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1A2B2A">1,500만원까지 분납 가능</text>
+  <text x="479" y="418" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">나머지 1,500만원은 기한 내 납부</text>
+
+  <!-- 하단 안내 패널 -->
+  <rect x="36" y="454" width="828" height="200" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.3"/>
+  <text x="56" y="484" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">함께 기억할 점</text>
+
+  <text x="56" y="516" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">· 지방소득세(소득분)는 따로예요. <tspan font-weight="700" fill="#0A5F58">100만원 초과</tspan> 시 위택스로 관할 지자체에 별도 분납(기한도 2개월).</text>
+  <text x="56" y="546" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">· 중간예납세액도 1천만원을 초과하면 같은 기준으로 분납할 수 있어요.</text>
+  <text x="56" y="576" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">· 분납은 <tspan font-weight="700" fill="#1A2B2A">나눠 내는 것</tspan>일 뿐, 기한 내 안 내면 <tspan font-weight="700" fill="#B5462F">납부지연가산세</tspan>가 붙어요.</text>
+  <text x="56" y="606" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">· 납부기한 연장·징수유예, 상속·증여세 연부연납과는 다른 제도예요.</text>
+  <text x="56" y="636" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">개별 세액은 사람마다 달라요. 홈택스(손택스)·관할 세무서에서 확인하세요.</text>
+</svg>

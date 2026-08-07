@@ -1,0 +1,57 @@
+<svg viewBox="0 0 760 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="출산전후휴가 기간, 유급 구간, 2026년 급여 상한, 신청 기한 요약 인포그래픽" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="560" fill="#FBF7F0"/>
+  <text x="32" y="46" font-size="24" font-weight="700" fill="#1A2B2A">출산전후휴가 한눈에 보기</text>
+  <text x="32" y="72" font-size="14" fill="#4A5856">2026년 기준 · 근로기준법 제74조 · 고용보험법 제75·76조</text>
+
+  <!-- Section 1: 기간 -->
+  <rect x="32" y="92" width="696" height="120" rx="10" fill="#F4EEE2"/>
+  <text x="52" y="120" font-size="16" font-weight="700" fill="#0A5F58">1. 휴가 기간과 출산 후 확보일수</text>
+
+  <rect x="52" y="134" width="210" height="62" rx="8" fill="#E3F0EE"/>
+  <text x="157" y="160" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">단태아 90일</text>
+  <text x="157" y="182" font-size="13" fill="#4A5856" text-anchor="middle">출산 후 45일 이상</text>
+
+  <rect x="275" y="134" width="210" height="62" rx="8" fill="#E3F0EE"/>
+  <text x="380" y="160" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">다태아 120일</text>
+  <text x="380" y="182" font-size="13" fill="#4A5856" text-anchor="middle">출산 후 60일 이상</text>
+
+  <rect x="498" y="134" width="210" height="62" rx="8" fill="#E3F0EE"/>
+  <text x="603" y="160" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">미숙아 100일</text>
+  <text x="603" y="182" font-size="13" fill="#4A5856" text-anchor="middle">출산 후 45일 이상</text>
+
+  <!-- Section 2: 유급 -->
+  <rect x="32" y="228" width="696" height="118" rx="10" fill="#F4EEE2"/>
+  <text x="52" y="256" font-size="16" font-weight="700" fill="#0A5F58">2. 유급 구간과 고용보험 지원 (단태아 90일)</text>
+
+  <rect x="52" y="272" width="308" height="52" rx="6" fill="#0E7C72"/>
+  <text x="206" y="296" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">최초 60일</text>
+  <text x="206" y="315" font-size="12" fill="#E3F0EE" text-anchor="middle">사업주 유급 원칙</text>
+
+  <rect x="368" y="272" width="340" height="52" rx="6" fill="#C2873B"/>
+  <text x="538" y="296" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">이후 30일</text>
+  <text x="538" y="315" font-size="12" fill="#FBF7F0" text-anchor="middle">고용보험 지원</text>
+
+  <text x="52" y="340" font-size="12" fill="#8A938F">우선지원대상기업은 90일 전체를 고용보험이 지원 · 대규모기업은 최초 60일 사업주 부담</text>
+
+  <!-- Section 3: 상한 -->
+  <rect x="32" y="362" width="338" height="122" rx="10" fill="#F4EEE2"/>
+  <text x="52" y="390" font-size="16" font-weight="700" fill="#0A5F58">3. 2026년 급여 상한·하한</text>
+  <text x="52" y="418" font-size="14" fill="#1A2B2A">월 상한액</text>
+  <text x="350" y="418" font-size="15" font-weight="700" fill="#B5462F" text-anchor="end">220만원</text>
+  <line x1="52" y1="430" x2="350" y2="430" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="52" y="452" font-size="14" fill="#1A2B2A">90일 총 상한</text>
+  <text x="350" y="452" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="end">660만원</text>
+  <line x1="52" y1="464" x2="350" y2="464" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="52" y="478" font-size="13" fill="#4A5856">하한 = 최저임금(시급 10,320원)</text>
+
+  <!-- Section 4: 신청 -->
+  <rect x="390" y="362" width="338" height="122" rx="10" fill="#F4EEE2"/>
+  <text x="410" y="390" font-size="16" font-weight="700" fill="#0A5F58">4. 자격과 신청 기한</text>
+  <text x="410" y="416" font-size="13" fill="#1A2B2A">자격: 피보험 단위기간 180일 이상</text>
+  <text x="410" y="440" font-size="13" fill="#1A2B2A">기한: 휴가 시작 1개월 후부터</text>
+  <text x="410" y="460" font-size="13" fill="#1A2B2A">종료 후 12개월 이내 (넘기면 소멸)</text>
+  <text x="410" y="478" font-size="12" fill="#8A938F">창구: 고용24 또는 관할 고용센터</text>
+
+  <text x="32" y="524" font-size="12" fill="#8A938F">통상임금 전액이 아니라 월 상한(220만원)이 적용됩니다. 넘는 부분은 사업주 유급분으로 처리돼요.</text>
+  <text x="32" y="546" font-size="11" fill="#8A938F">출처: 고용노동부고시 제2025-124호 · 정부24 출산전후휴가 급여 신청 안내</text>
+</svg>
