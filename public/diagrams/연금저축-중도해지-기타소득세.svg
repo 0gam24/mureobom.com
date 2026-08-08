@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 660" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="연금저축 중도해지 시 과세 구분: 세액공제 받은 납입액과 운용수익은 기타소득세 16.5% 분리과세, 세액공제 안 받은 납입액(한도 초과분·해지연도 납입분)은 과세 제외. 일반 중도해지는 16.5%, 부득이한 사유 해지는 연금소득세 3.3에서 5.5%로 저율 과세되며 사유 확인일부터 6개월 내 서류를 신청해야 한다">
+  <rect x="0" y="0" width="760" height="660" fill="#FBF7F0"/>
+  <text x="30" y="44" font-size="24" font-weight="700" fill="#1A2B2A">연금저축 중도해지 시 과세 구분</text>
+  <text x="30" y="70" font-size="14" fill="#4A5856">2026년 8월 소득세법 기준 (기타소득세·연금소득세는 지방소득세 포함)</text>
+
+  <!-- Section 1 label -->
+  <text x="30" y="106" font-size="16" font-weight="700" fill="#0A5F58">1. 인출액을 두 갈래로 나눠 과세해요</text>
+
+  <!-- Left box: taxed -->
+  <rect x="30" y="120" width="340" height="128" rx="12" fill="#0E7C72"/>
+  <text x="50" y="150" font-size="15" font-weight="700" fill="#FBF7F0">과세 대상</text>
+  <text x="50" y="176" font-size="13" fill="#E3F0EE">세액공제 받은 납입액 + 운용수익</text>
+  <text x="50" y="212" font-size="26" font-weight="700" fill="#FBF7F0">기타소득세 16.5%</text>
+  <text x="50" y="236" font-size="12.5" fill="#E3F0EE">분리과세로 종결 (다른 소득과 합산 안 함)</text>
+
+  <!-- Right box: not taxed -->
+  <rect x="390" y="120" width="340" height="128" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="410" y="150" font-size="15" font-weight="700" fill="#0A5F58">과세 제외 (비과세)</text>
+  <text x="410" y="176" font-size="13" fill="#4A5856">세액공제 안 받은 납입액</text>
+  <text x="410" y="204" font-size="12.5" fill="#4A5856">한도 초과 납입분, 해지연도 납입분 등</text>
+  <text x="410" y="230" font-size="15" font-weight="700" fill="#0A5F58">세금 없이 그대로 인출</text>
+
+  <!-- Section 2 label -->
+  <text x="30" y="300" font-size="16" font-weight="700" fill="#0A5F58">2. 인출 사유에 따라 세율이 달라져요</text>
+
+  <!-- Left: normal cancel -->
+  <rect x="30" y="314" width="340" height="164" rx="12" fill="#F4EEE2" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="50" y="344" font-size="15" font-weight="700" fill="#B5462F">일반 중도해지</text>
+  <text x="50" y="386" font-size="30" font-weight="700" fill="#B5462F">16.5%</text>
+  <text x="50" y="414" font-size="12.5" fill="#4A5856">기타소득세로 원천징수</text>
+  <text x="50" y="436" font-size="12.5" fill="#4A5856">적립 때 받은 세액공제를</text>
+  <text x="50" y="454" font-size="12.5" fill="#4A5856">사실상 되돌려 내는 셈이에요</text>
+
+  <!-- Right: unavoidable reason -->
+  <rect x="390" y="314" width="340" height="164" rx="12" fill="#F4EEE2" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="410" y="344" font-size="15" font-weight="700" fill="#0A5F58">부득이한 사유 해지</text>
+  <text x="410" y="386" font-size="30" font-weight="700" fill="#0A5F58">3.3~5.5%</text>
+  <text x="410" y="414" font-size="12.5" fill="#4A5856">연금소득세 저율 분리과세</text>
+  <text x="410" y="436" font-size="12.5" fill="#4A5856">천재지변·사망·해외이주·질병·파산 등</text>
+  <text x="410" y="454" font-size="12.5" fill="#C2873B" font-weight="700">사유 확인일부터 6개월 내 서류 신청</text>
+
+  <!-- divider -->
+  <line x1="30" y1="516" x2="730" y2="516" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- alternatives strip -->
+  <text x="30" y="548" font-size="14" font-weight="700" fill="#1A2B2A">해지 대신 세제를 지키는 길</text>
+  <rect x="30" y="562" width="222" height="60" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="141" y="588" font-size="13" font-weight="700" fill="#0A5F58" text-anchor="middle">납입 중지</text>
+  <text x="141" y="608" font-size="11.5" fill="#4A5856" text-anchor="middle">계좌 유지, 부담만 잠시 멈춤</text>
+
+  <rect x="269" y="562" width="222" height="60" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="380" y="588" font-size="13" font-weight="700" fill="#0A5F58" text-anchor="middle">담보대출</text>
+  <text x="380" y="608" font-size="11.5" fill="#4A5856" text-anchor="middle">적립금 담보로 자금 마련</text>
+
+  <rect x="508" y="562" width="222" height="60" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="619" y="588" font-size="13" font-weight="700" fill="#0A5F58" text-anchor="middle">계좌이전</text>
+  <text x="619" y="608" font-size="11.5" fill="#4A5856" text-anchor="middle">이전은 인출 아님, 과세 없음</text>
+
+  <text x="30" y="646" font-size="11.5" fill="#8A938F">최종 세액과 부득이한 사유 해당 여부는 가입한 금융회사와 국세청 안내로 확인하세요. 이 도표는 일반 정보예요.</text>
+</svg>

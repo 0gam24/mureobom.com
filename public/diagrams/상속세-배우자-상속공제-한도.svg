@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="배우자 상속공제 한도 계산 구조: 실제 상속받은 금액, 배우자 법정상속분 상당액, 30억 원 이 세 가지 중 가장 작은 금액이 공제 한도가 되고, 그 값이 5억 미만이거나 상속액이 없으면 최소 5억 원이 보장된다">
+  <rect x="0" y="0" width="760" height="500" fill="#FBF7F0"/>
+  <text x="30" y="40" font-size="23" font-weight="700" fill="#1A2B2A">배우자 상속공제 한도 계산 구조</text>
+  <text x="30" y="66" font-size="13.5" fill="#4A5856">상속세 및 증여세법 제19조 (2026년 8월 현행 기준)</text>
+
+  <!-- three inputs -->
+  <rect x="30" y="88" width="220" height="92" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="140" y="118" font-size="14.5" font-weight="700" fill="#0A5F58" text-anchor="middle">실제 상속받은 금액</text>
+  <text x="140" y="142" font-size="12" fill="#4A5856" text-anchor="middle">배우자가 실제로 나눠</text>
+  <text x="140" y="160" font-size="12" fill="#4A5856" text-anchor="middle">받은 재산의 가액</text>
+
+  <rect x="270" y="88" width="220" height="92" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="380" y="118" font-size="14.5" font-weight="700" fill="#0A5F58" text-anchor="middle">법정상속분 상당액</text>
+  <text x="380" y="142" font-size="12" fill="#4A5856" text-anchor="middle">상속재산 × 배우자</text>
+  <text x="380" y="160" font-size="12" fill="#4A5856" text-anchor="middle">법정상속분(1.5 몫)</text>
+
+  <rect x="510" y="88" width="220" height="92" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="620" y="118" font-size="14.5" font-weight="700" fill="#C2873B" text-anchor="middle">30억 원</text>
+  <text x="620" y="142" font-size="12" fill="#4A5856" text-anchor="middle">법으로 정한</text>
+  <text x="620" y="160" font-size="12" fill="#4A5856" text-anchor="middle">최대 공제 한도</text>
+
+  <!-- bus lines -->
+  <line x1="140" y1="180" x2="140" y2="210" stroke="#8A938F" stroke-width="2"/>
+  <line x1="380" y1="180" x2="380" y2="210" stroke="#8A938F" stroke-width="2"/>
+  <line x1="620" y1="180" x2="620" y2="210" stroke="#8A938F" stroke-width="2"/>
+  <line x1="140" y1="210" x2="620" y2="210" stroke="#8A938F" stroke-width="2"/>
+  <line x1="380" y1="210" x2="380" y2="238" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="380,244 374,233 386,233" fill="#8A938F"/>
+
+  <!-- Min node -->
+  <rect x="220" y="246" width="320" height="66" rx="10" fill="#0E7C72"/>
+  <text x="380" y="274" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">셋 중 가장 작은 금액이 공제 한도</text>
+  <text x="380" y="297" font-size="12.5" fill="#E3F0EE" text-anchor="middle">Min(실제 상속액, 법정상속분 상당액, 30억)</text>
+
+  <line x1="380" y1="312" x2="380" y2="340" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="380,346 374,335 386,335" fill="#8A938F"/>
+
+  <!-- floor guarantee -->
+  <rect x="170" y="348" width="420" height="64" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="380" y="376" font-size="14.5" font-weight="700" fill="#0A5F58" text-anchor="middle">실제 상속액이 없거나 5억 원 미만이면</text>
+  <text x="380" y="398" font-size="14.5" font-weight="700" fill="#0A5F58" text-anchor="middle">최소 5억 원은 보장</text>
+
+  <!-- caption -->
+  <text x="30" y="446" font-size="12" fill="#8A938F">주의: 5억 원을 넘는 공제는 신고기한 다음 날부터 9개월(배우자상속재산분할기한) 안에</text>
+  <text x="30" y="466" font-size="12" fill="#8A938F">배우자 몫을 실제로 분할해 신고해야 적용돼요. 기한을 넘겨 미분할이면 5억 원만 공제돼요.</text>
+</svg>
