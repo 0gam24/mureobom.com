@@ -1,0 +1,41 @@
+<svg viewBox="0 0 760 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="대출 청약철회권 행사 4단계: 14일 기간 확인, 철회 의사표시, 원리금과 제3자 비용 반환, 중도상환수수료 면제와 신용기록 삭제">
+  <rect x="0" y="0" width="760" height="520" fill="#FBF7F0"/>
+  <text x="40" y="48" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#1A2B2A">대출 청약철회권, 14일 안에 이렇게 취소해요</text>
+  <text x="40" y="78" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">금융소비자보호법 제46조가 보장하는 소비자 권리 (수수료 없이 취소)</text>
+
+  <!-- Step 1 -->
+  <g>
+    <rect x="40" y="104" width="680" height="86" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <circle cx="82" cy="147" r="22" fill="#0E7C72"/>
+    <text x="82" y="155" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+    <text x="122" y="138" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">기간 확인</text>
+    <text x="122" y="164" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">계약서류 받은 날 또는 대출금 받은 날 중 나중 날부터 14일 이내</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g>
+    <rect x="40" y="204" width="680" height="86" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <circle cx="82" cy="247" r="22" fill="#0E7C72"/>
+    <text x="82" y="255" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+    <text x="122" y="238" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">철회 의사표시</text>
+    <text x="122" y="264" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">영업점 방문·우편·콜센터·홈페이지로 철회 의사 발송 (발송한 때 표시)</text>
+  </g>
+
+  <!-- Step 3 -->
+  <g>
+    <rect x="40" y="304" width="680" height="86" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <circle cx="82" cy="347" r="22" fill="#0E7C72"/>
+    <text x="82" y="355" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+    <text x="122" y="338" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">원리금·비용 반환</text>
+    <text x="122" y="364" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">원금 + 대출일부터의 약정이자 + 인지세·근저당설정 등 제3자 비용 반환</text>
+  </g>
+
+  <!-- Step 4 -->
+  <g>
+    <rect x="40" y="404" width="680" height="86" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <circle cx="82" cy="447" r="22" fill="#C2873B"/>
+    <text x="82" y="455" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#FBF7F0" text-anchor="middle">4</text>
+    <text x="122" y="438" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">완료: 이런 효과가 있어요</text>
+    <text x="122" y="464" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">중도상환수수료·위약금 면제 + 신용정보원·CB사 대출기록 삭제</text>
+  </g>
+</svg>
