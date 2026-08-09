@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="720" height="560" fill="#FBF7F0"/>
+  <text x="36" y="46" font-size="24" font-weight="700" fill="#1A2B2A">동거주택 상속공제 한눈에 보기</text>
+  <text x="36" y="72" font-size="14" fill="#4A5856">상속세 및 증여세법 제23조의2 · 시행령 제20조의2 (2026년 기준)</text>
+
+  <text x="36" y="112" font-size="16" font-weight="700" fill="#0A5F58">요건 네 가지, 모두 충족해야 적용</text>
+
+  <!-- req 1 -->
+  <rect x="36" y="128" width="316" height="88" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="64" cy="152" r="11" fill="#0E7C72"/>
+  <text x="64" y="157" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+  <text x="84" y="156" font-size="15" font-weight="700" fill="#1A2B2A">10년 계속 동거</text>
+  <text x="84" y="180" font-size="13" fill="#4A5856">상속개시일부터 소급 10년 이상</text>
+  <text x="84" y="200" font-size="13" fill="#4A5856">피상속인과 한집에서 계속 동거</text>
+
+  <!-- req 2 -->
+  <rect x="368" y="128" width="316" height="88" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="396" cy="152" r="11" fill="#0E7C72"/>
+  <text x="396" y="157" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+  <text x="416" y="156" font-size="15" font-weight="700" fill="#1A2B2A">10년 계속 1세대 1주택</text>
+  <text x="416" y="180" font-size="13" fill="#4A5856">그 기간 내내 1세대 1주택 유지</text>
+  <text x="416" y="200" font-size="13" fill="#4A5856">무주택 기간도 포함해 계산</text>
+
+  <!-- req 3 -->
+  <rect x="36" y="228" width="316" height="88" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="64" cy="252" r="11" fill="#0E7C72"/>
+  <text x="64" y="257" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+  <text x="84" y="256" font-size="15" font-weight="700" fill="#1A2B2A">상속인 무주택</text>
+  <text x="84" y="280" font-size="13" fill="#4A5856">상속개시일 현재 무주택인 상속인</text>
+  <text x="84" y="300" font-size="13" fill="#4A5856">(공동 1세대 1주택 보유자 포함)</text>
+
+  <!-- req 4 -->
+  <rect x="368" y="228" width="316" height="88" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="396" cy="252" r="11" fill="#0E7C72"/>
+  <text x="396" y="257" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">4</text>
+  <text x="416" y="256" font-size="15" font-weight="700" fill="#1A2B2A">대상은 직계비속</text>
+  <text x="416" y="280" font-size="13" fill="#4A5856">자녀 등 직계비속(및 그 배우자)</text>
+  <text x="416" y="300" font-size="13" fill="#4A5856">이 상속받은 주택일 것</text>
+
+  <!-- 10년 계산 주의 -->
+  <rect x="36" y="332" width="648" height="60" rx="10" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="52" y="358" font-size="14" font-weight="700" fill="#0A5F58">10년 계산 주의</text>
+  <text x="52" y="380" font-size="13" fill="#4A5856">미성년자였던 기간은 제외 · 군복무·취학·질병요양 등 부득이한 사유 기간은 중단 아님(단 기간 불산입)</text>
+
+  <!-- 공제액 구조 -->
+  <text x="36" y="432" font-size="16" font-weight="700" fill="#0A5F58">공제액은 이렇게 정해져요</text>
+  <rect x="36" y="446" width="648" height="86" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+
+  <text x="60" y="482" font-size="14" fill="#1A2B2A">주택가액</text>
+  <text x="60" y="502" font-size="12" fill="#8A938F">(부수토지 포함)</text>
+  <text x="168" y="490" font-size="20" fill="#4A5856" text-anchor="middle">−</text>
+  <text x="238" y="482" font-size="14" fill="#1A2B2A">담보채무</text>
+  <text x="238" y="502" font-size="12" fill="#8A938F">피상속인 채무</text>
+  <text x="360" y="490" font-size="20" fill="#4A5856" text-anchor="middle">=</text>
+
+  <rect x="404" y="462" width="264" height="52" rx="8" fill="#0E7C72"/>
+  <text x="536" y="486" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">순액의 100% 공제</text>
+  <text x="536" y="505" font-size="13" fill="#E3F0EE" text-anchor="middle">한도 6억 원</text>
+
+  <text x="36" y="552" font-size="12" fill="#8A938F">예) 주택 7억, 담보채무 1억 → 순액 6억 전액 공제. 순액이 6억을 넘으면 6억까지만 공제.</text>
+</svg>

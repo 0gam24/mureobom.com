@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 690" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="가사간병 방문지원사업 대상, A형 24시간·B형 27시간·C형 40시간 서비스시간과 본인부담금, 신청 4단계 요약 (2025년 기준)">
+  <rect x="0" y="0" width="760" height="690" fill="#FBF7F0"/>
+
+  <text x="40" y="52" font-size="27" font-weight="700" fill="#1A2B2A">가사간병 방문지원사업 한눈에 보기</text>
+  <text x="40" y="80" font-size="15" fill="#8A938F">보건복지부 사회서비스 전자바우처 · 수치는 2025년 기준</text>
+
+  <!-- 대상 패널 -->
+  <rect x="40" y="102" width="680" height="96" rx="12" fill="#E3F0EE"/>
+  <text x="60" y="132" font-size="17" font-weight="700" fill="#0A5F58">지원 대상</text>
+  <text x="60" y="160" font-size="14.5" fill="#1A2B2A">기준 중위소득 70% 이하 · 만 65세 미만 취약계층</text>
+  <text x="60" y="183" font-size="13.5" fill="#4A5856">중증·희귀난치질환자, 장애정도가 심한 장애인, 소년소녀·조손·한부모가정 등</text>
+
+  <!-- A/B/C 카드 -->
+  <text x="40" y="238" font-size="18" font-weight="700" fill="#1A2B2A">서비스시간과 본인부담금 (2025년 기준)</text>
+
+  <!-- A형 -->
+  <rect x="40" y="256" width="216" height="176" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="40" y="256" width="216" height="40" rx="12" fill="#0E7C72"/>
+  <text x="148" y="283" font-size="17" font-weight="700" fill="#FBF7F0" text-anchor="middle">A형</text>
+  <text x="148" y="332" font-size="30" font-weight="700" fill="#0A5F58" text-anchor="middle">월 24시간</text>
+  <text x="60" y="366" font-size="13.5" fill="#1A2B2A">생계·의료·주거·교육</text>
+  <text x="60" y="386" font-size="13.5" fill="#1A2B2A">급여 수급자: 면제</text>
+  <text x="60" y="410" font-size="13.5" fill="#4A5856">중위 70% 이하: 월</text>
+  <text x="60" y="428" font-size="13.5" fill="#4A5856">25,630원</text>
+
+  <!-- B형 -->
+  <rect x="272" y="256" width="216" height="176" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="272" y="256" width="216" height="40" rx="12" fill="#0E7C72"/>
+  <text x="380" y="283" font-size="17" font-weight="700" fill="#FBF7F0" text-anchor="middle">B형</text>
+  <text x="380" y="332" font-size="30" font-weight="700" fill="#0A5F58" text-anchor="middle">월 27시간</text>
+  <text x="292" y="366" font-size="13.5" fill="#1A2B2A">수급자: 월 14,420원</text>
+  <text x="292" y="392" font-size="13.5" fill="#4A5856">중위 70% 이하: 월</text>
+  <text x="292" y="410" font-size="13.5" fill="#4A5856">28,840원</text>
+
+  <!-- C형 -->
+  <rect x="504" y="256" width="216" height="176" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="504" y="256" width="216" height="40" rx="12" fill="#C2873B"/>
+  <text x="612" y="283" font-size="17" font-weight="700" fill="#FBF7F0" text-anchor="middle">C형</text>
+  <text x="612" y="332" font-size="30" font-weight="700" fill="#0A5F58" text-anchor="middle">월 40시간</text>
+  <text x="524" y="366" font-size="13.5" fill="#1A2B2A">의료급여 장기입원</text>
+  <text x="524" y="386" font-size="13.5" fill="#1A2B2A">퇴원자 대상</text>
+  <text x="524" y="410" font-size="13.5" fill="#4A5856">본인부담: 면제</text>
+
+  <!-- 신청 4단계 -->
+  <text x="40" y="486" font-size="18" font-weight="700" fill="#1A2B2A">신청 절차 4단계</text>
+
+  <g>
+    <rect x="40" y="506" width="150" height="120" rx="12" fill="#E3F0EE"/>
+    <text x="115" y="540" font-size="22" font-weight="700" fill="#0E7C72" text-anchor="middle">1</text>
+    <text x="115" y="572" font-size="13.5" fill="#1A2B2A" text-anchor="middle">읍면동</text>
+    <text x="115" y="592" font-size="13.5" fill="#1A2B2A" text-anchor="middle">행정복지센터</text>
+    <text x="115" y="612" font-size="13.5" fill="#1A2B2A" text-anchor="middle">신청</text>
+  </g>
+  <text x="200" y="573" font-size="22" fill="#8A938F" text-anchor="middle">▶</text>
+  <g>
+    <rect x="217" y="506" width="150" height="120" rx="12" fill="#E3F0EE"/>
+    <text x="292" y="540" font-size="22" font-weight="700" fill="#0E7C72" text-anchor="middle">2</text>
+    <text x="292" y="572" font-size="13.5" fill="#1A2B2A" text-anchor="middle">소득·욕구</text>
+    <text x="292" y="592" font-size="13.5" fill="#1A2B2A" text-anchor="middle">조사</text>
+  </g>
+  <text x="377" y="573" font-size="22" fill="#8A938F" text-anchor="middle">▶</text>
+  <g>
+    <rect x="394" y="506" width="150" height="120" rx="12" fill="#E3F0EE"/>
+    <text x="469" y="540" font-size="22" font-weight="700" fill="#0E7C72" text-anchor="middle">3</text>
+    <text x="469" y="572" font-size="13.5" fill="#1A2B2A" text-anchor="middle">바우처</text>
+    <text x="469" y="592" font-size="13.5" fill="#1A2B2A" text-anchor="middle">자격 결정</text>
+  </g>
+  <text x="554" y="573" font-size="22" fill="#8A938F" text-anchor="middle">▶</text>
+  <g>
+    <rect x="571" y="506" width="149" height="120" rx="12" fill="#E3F0EE"/>
+    <text x="645" y="540" font-size="22" font-weight="700" fill="#0E7C72" text-anchor="middle">4</text>
+    <text x="645" y="572" font-size="13.5" fill="#1A2B2A" text-anchor="middle">제공기관</text>
+    <text x="645" y="592" font-size="13.5" fill="#1A2B2A" text-anchor="middle">선택·계약</text>
+  </g>
+
+  <text x="40" y="666" font-size="12.5" fill="#8A938F">자격은 소득·재산과 욕구 조사로 결정되며, 2026년 값은 달라질 수 있어요. 신청 전 읍면동·복지로에서 확인하세요.</text>
+</svg>
