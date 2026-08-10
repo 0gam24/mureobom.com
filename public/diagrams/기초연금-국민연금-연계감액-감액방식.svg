@@ -1,0 +1,40 @@
+<svg viewBox="0 0 760 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="국민연금 연계감액 구조: 국민연금 급여액이 기준연금액의 150퍼센트 이하면 감액 없음, 150퍼센트 초과 200퍼센트 이하면 시행령 제10조 산식으로 일부 감액, 감액해도 기준연금액의 최소 50퍼센트 월 174850원은 보장">
+  <rect x="0" y="0" width="760" height="560" fill="#FBF7F0"/>
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#1A2B2A">국민연금 연계감액, 이렇게 정해져요 (2026년 기준)</text>
+  <text x="40" y="74" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">기준연금액 월 349,700원 · 감액 시작선은 그 150%인 약 52.5만원</text>
+
+  <!-- band 1 -->
+  <g>
+    <rect x="40" y="98" width="680" height="82" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="64" y="128" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">국민연금 급여액이 기준연금액의 150% 이하</text>
+    <text x="64" y="154" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">약 52.5만원 이하면 연계감액 없이 기준연금액 전액(349,700원)까지 받을 수 있어요</text>
+    <text x="640" y="146" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#0A5F58" text-anchor="middle">감액 없음</text>
+  </g>
+
+  <!-- band 2 -->
+  <g>
+    <rect x="40" y="192" width="680" height="82" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="64" y="222" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">150% 초과 200% 이하</text>
+    <text x="64" y="248" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">기초연금법 시행령 제10조 산식으로 일부만 감액돼요 (전액에서 조금씩 줄어듦)</text>
+    <text x="640" y="240" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#C2873B" text-anchor="middle">일부 감액</text>
+  </g>
+
+  <!-- band 3 -->
+  <g>
+    <rect x="40" y="286" width="680" height="82" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="64" y="316" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">국민연금이 아주 많은 경우</text>
+    <text x="64" y="342" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">감액폭이 커지지만 아래 바닥선 밑으로는 절대 깎이지 않아요</text>
+    <text x="640" y="334" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#C2873B" text-anchor="middle">최대 감액</text>
+  </g>
+
+  <!-- floor -->
+  <g>
+    <rect x="40" y="392" width="680" height="96" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+    <text x="64" y="424" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">바닥선: 최소 지급 보장</text>
+    <text x="64" y="452" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">아무리 국민연금이 많아도 기준연금액의 50%, 즉 부가연금액 월 174,850원은 남아요</text>
+    <text x="64" y="474" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">그래서 "국민연금 많으면 기초연금 한 푼도 못 받는다"는 오해예요</text>
+  </g>
+
+  <text x="40" y="522" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#8A938F">산식: 기초연금액 = (기준연금액 - 2/3 x A급여) + 부가연금액</text>
+  <text x="40" y="544" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#8A938F">출처: 보건복지부 기초연금 제도안내 · 국민연금공단 · 법제처 찾기쉬운 생활법령정보 (2026)</text>
+</svg>

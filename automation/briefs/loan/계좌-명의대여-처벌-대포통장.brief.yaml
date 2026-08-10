@@ -1,0 +1,43 @@
+id: loan-계좌-명의대여-처벌-대포통장
+cluster: loan
+status: published
+
+target_query: "통장 명의 빌려주면 처벌 받나요 대포통장 명의대여 벌금"
+search_intent: 정보형
+
+signal:
+  score: 71.0
+  trend_momentum: 0.58
+  question_volume: 0.44
+  cluster_fit: 0.9
+  freshness: 0.7
+
+must_cover:
+  - 접근매체(통장·카드·비밀번호·OTP) 양도·대여·보관 금지 원칙(전자금융거래법 제6조)
+  - 위반 시 형사처벌 수위(전자금융거래법 벌칙 조항의 징역·벌금 상한)
+  - 대포통장 연루 시 추가 책임(사기방조·전기통신금융사기 특별법)과 금융질서문란정보 등록 불이익
+  - 명의인 본인 계좌 지급정지·비대면거래 제한 등 실제 불이익
+  - "잠깐 빌려줬을 뿐"·"아르바이트로 통장 제공" 통념 반박(무상·단기도 처벌 대상)
+  - 실수로 넘겼거나 보이스피싱에 이용당한 경우 초기 대응(즉시 지급정지 신고·경찰 신고)
+
+required_sources:
+  - "전자금융거래법 (국가법령정보센터 law.go.kr)"
+  - "금융감독원 보이스피싱지킴이 / 불법금융 대응 안내 (fss.or.kr)"
+
+internal_links:
+  - loan/보이스피싱-피해금-지급정지-환급-신청
+  - loan/한도제한계좌-해제-조건-필요서류
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: "무상·단기 대여도 처벌"이라는 핵심 오해를 정면 반박하고, 명의인이 지는
+  형사책임과 금융질서문란정보 등록 불이익을 표로 구분 정리. 보이스피싱 피해자
+  글(지급정지)과 달리 '명의 제공자(가해로 취급되는 명의인)' 관점에 초점.
+  단정적 법률자문 표현 금지, 사안별 판단은 수사기관·법률구조 안내로 연결.

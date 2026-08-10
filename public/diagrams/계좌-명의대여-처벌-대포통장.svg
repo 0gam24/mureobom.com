@@ -1,0 +1,47 @@
+<svg viewBox="0 0 760 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="접근매체를 남에게 넘기면 전자금융거래법 제6조 위반으로 제49조 5년 이하 징역 또는 3천만원 이하 벌금, 대포통장 연루 시 계좌 지급정지와 벌금형 3년·징역형 5년간 전자금융거래 제한으로 이어짐">
+  <rect x="0" y="0" width="760" height="600" fill="#FBF7F0"/>
+  <text x="40" y="48" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#1A2B2A">통장·카드·OTP를 넘기면 벌어지는 일</text>
+  <text x="40" y="77" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">전자금융거래법 제6조·제49조, 통신사기피해환급법 기준 (무상·단기 대여도 대상)</text>
+
+  <!-- Step 1: 금지 행위 -->
+  <g>
+    <rect x="40" y="104" width="680" height="96" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <circle cx="82" cy="152" r="22" fill="#0E7C72"/>
+    <text x="82" y="160" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+    <text x="122" y="140" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">금지된 행위 (제6조 제3항)</text>
+    <text x="122" y="167" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">접근매체(통장·카드·비밀번호·OTP) 양도·대여·보관·전달·알선</text>
+    <text x="122" y="189" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#4A5856">내 명의 계좌라도 넘기는 행위 자체가 위반</text>
+  </g>
+
+  <text x="82" y="222" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#8A938F" text-anchor="middle">↓</text>
+
+  <!-- Step 2: 형사처벌 -->
+  <g>
+    <rect x="40" y="236" width="680" height="96" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <circle cx="82" cy="284" r="22" fill="#0E7C72"/>
+    <text x="82" y="292" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+    <text x="122" y="272" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">형사처벌 (제49조)</text>
+    <text x="122" y="299" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">5년 이하 징역 또는 3천만원 이하 벌금</text>
+    <text x="122" y="321" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#4A5856">과거 3년·2천만원에서 상향된 현행 법정형</text>
+  </g>
+
+  <text x="82" y="354" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#8A938F" text-anchor="middle">↓</text>
+
+  <!-- Step 3: 대포통장 연루 시 금융 불이익 -->
+  <g>
+    <rect x="40" y="368" width="680" height="118" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <circle cx="82" cy="427" r="22" fill="#C2873B"/>
+    <text x="82" y="435" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+    <text x="122" y="400" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">대포통장 연루 시 금융 불이익</text>
+    <text x="122" y="427" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">내 계좌 전부 즉시 지급정지 (통신사기피해환급법 제4조)</text>
+    <text x="122" y="449" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">전자금융거래제한대상자 지정, 비대면 거래 차단</text>
+    <text x="122" y="471" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#4A5856">벌금형 3년·징역형 5년 경과 전까지 제한 지속</text>
+  </g>
+
+  <!-- 이용당했다면 -->
+  <g>
+    <rect x="40" y="506" width="680" height="66" rx="12" fill="#F4EEE2" stroke="#B5462F" stroke-width="1.5"/>
+    <text x="60" y="534" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#B5462F">속았거나 이용당했다면</text>
+    <text x="60" y="557" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">즉시 금융회사 콜센터 지급정지 요청 · 경찰(112) · 금융감독원(1332) 신고</text>
+  </g>
+</svg>

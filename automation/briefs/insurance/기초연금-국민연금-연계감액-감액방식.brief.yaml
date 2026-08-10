@@ -1,0 +1,44 @@
+id: insurance-기초연금-국민연금-연계감액-감액방식
+cluster: insurance
+status: published
+
+target_query: "국민연금 많이 받으면 기초연금 감액 되나요 연계감액 계산"
+search_intent: 정보형
+
+signal:
+  score: 70.0
+  trend_momentum: 0.55
+  question_volume: 0.47
+  cluster_fit: 1.0
+  freshness: 0.62
+
+must_cover:
+  - 기초연금 개요와 선정기준액(단독·부부가구 소득인정액 기준) 요약
+  - 국민연금 연계감액(A급여 연계 감액) 원리 - 왜 국민연금 수급액이 기초연금에 영향을 주는가
+  - 감액 대상 기준(국민연금 급여액이 기준연금액의 일정 배수를 넘을 때 감액 시작)
+  - 감액 산식과 하한(기초연금이 기준연금액의 최소 50%까지만 감액되고 그 아래로는 안 깎임)
+  - 부가연금액 등 소득역전방지 감액과 국민연금 연계감액의 구분
+  - "국민연금 많으면 기초연금 한 푼도 못 받는다"는 오해 반박(최소 지급 보장)
+
+required_sources:
+  - "기초연금법 및 시행령 (국가법령정보센터 law.go.kr)"
+  - "보건복지부·복지로 기초연금 제도 안내 (bokjiro.go.kr / gov.kr)"
+  - "국민연금공단 기초연금 연계 안내 (nps.or.kr)"
+
+internal_links:
+  - insurance/기초연금-수급자격-소득인정액
+  - insurance/국민연금-수령나이-출생연도별
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: "국민연금 많으면 기초연금 못 받는다"는 통념을 연계감액 산식+하한(최대 50%
+  감액, 최소 지급 보장)으로 정면 반박. 기발행 기초연금-수급자격(선정기준액 관점)과
+  달리 '국민연금과의 연계로 얼마나 깎이는가'에만 초점. 연도별로 바뀌는 기준연금액·
+  선정기준액은 2026 최신값 명시하되 단정적 수령액 약속 금지, 복지로 모의계산 연결.

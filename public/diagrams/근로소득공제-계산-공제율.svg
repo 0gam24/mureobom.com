@@ -1,0 +1,73 @@
+<svg viewBox="0 0 760 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="근로소득공제 구간별 공제율표와 계산 흐름: 500만원 이하 70%, 1,500만원 이하 40%, 4,500만원 이하 15%, 1억원 이하 5%, 1억원 초과 2%, 공제 한도 2천만원, 총급여 4천만원이면 공제 1,125만원 근로소득금액 2,875만원">
+  <rect x="0" y="0" width="760" height="560" fill="#FBF7F0"/>
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#1A2B2A">근로소득공제, 총급여 구간별 공제율</text>
+  <text x="40" y="74" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">소득세법 제47조 (총급여액에서 빼 근로소득금액을 구하는 개산공제)</text>
+
+  <!-- Bracket rows -->
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <!-- header -->
+    <rect x="40" y="94" width="680" height="34" rx="8" fill="#0A5F58"/>
+    <text x="60" y="116" font-size="14.5" font-weight="700" fill="#FBF7F0">총급여 구간</text>
+    <text x="470" y="116" font-size="14.5" font-weight="700" fill="#FBF7F0">공제율 / 계산식</text>
+
+    <!-- row 1 -->
+    <rect x="40" y="132" width="680" height="40" rx="6" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="60" y="157" font-size="14.5" fill="#1A2B2A">500만원 이하</text>
+    <text x="470" y="157" font-size="14.5" font-weight="700" fill="#0E7C72">총급여액 × 70%</text>
+
+    <!-- row 2 -->
+    <rect x="40" y="176" width="680" height="40" rx="6" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="60" y="201" font-size="14.5" fill="#1A2B2A">500만원 초과 ~ 1,500만원</text>
+    <text x="470" y="201" font-size="14.5" fill="#1A2B2A">350만원 + 초과분 × 40%</text>
+
+    <!-- row 3 highlighted (예시 구간) -->
+    <rect x="40" y="220" width="680" height="40" rx="6" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="60" y="245" font-size="14.5" font-weight="700" fill="#1A2B2A">1,500만원 초과 ~ 4,500만원</text>
+    <text x="470" y="245" font-size="14.5" font-weight="700" fill="#0A5F58">750만원 + 초과분 × 15%</text>
+
+    <!-- row 4 -->
+    <rect x="40" y="264" width="680" height="40" rx="6" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="60" y="289" font-size="14.5" fill="#1A2B2A">4,500만원 초과 ~ 1억원</text>
+    <text x="470" y="289" font-size="14.5" fill="#1A2B2A">1,200만원 + 초과분 × 5%</text>
+
+    <!-- row 5 -->
+    <rect x="40" y="308" width="680" height="40" rx="6" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="60" y="333" font-size="14.5" fill="#1A2B2A">1억원 초과</text>
+    <text x="470" y="333" font-size="14.5" fill="#1A2B2A">1,475만원 + 초과분 × 2%</text>
+  </g>
+
+  <!-- limit note -->
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <rect x="40" y="360" width="680" height="36" rx="8" fill="#FBF7F0" stroke="#C2873B" stroke-width="1.5"/>
+    <circle cx="66" cy="378" r="8" fill="#C2873B"/>
+    <text x="66" y="383" font-size="12" font-weight="700" fill="#FBF7F0" text-anchor="middle">!</text>
+    <text x="86" y="383" font-size="14.5" font-weight="700" fill="#B5462F">공제 한도: 급여가 아무리 높아도 근로소득공제는 최대 2천만원</text>
+  </g>
+
+  <!-- Example flow -->
+  <text x="40" y="432" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">계산 예시: 총급여 4,000만원</text>
+
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <!-- box 1 -->
+    <rect x="40" y="448" width="200" height="72" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="140" y="478" font-size="13.5" fill="#4A5856" text-anchor="middle">총급여액</text>
+    <text x="140" y="502" font-size="18" font-weight="700" fill="#1A2B2A" text-anchor="middle">4,000만원</text>
+
+    <text x="252" y="490" font-size="24" font-weight="700" fill="#0E7C72" text-anchor="middle">-</text>
+
+    <!-- box 2 -->
+    <rect x="272" y="448" width="200" height="72" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="372" y="474" font-size="13.5" fill="#4A5856" text-anchor="middle">근로소득공제</text>
+    <text x="372" y="496" font-size="18" font-weight="700" fill="#0A5F58" text-anchor="middle">1,125만원</text>
+    <text x="372" y="513" font-size="11.5" fill="#8A938F" text-anchor="middle">750만 + 2,500만×15%</text>
+
+    <text x="484" y="490" font-size="24" font-weight="700" fill="#0E7C72" text-anchor="middle">=</text>
+
+    <!-- box 3 -->
+    <rect x="504" y="448" width="216" height="72" rx="10" fill="#0A5F58"/>
+    <text x="612" y="474" font-size="13.5" fill="#E3F0EE" text-anchor="middle">근로소득금액</text>
+    <text x="612" y="500" font-size="19" font-weight="700" fill="#FBF7F0" text-anchor="middle">2,875만원</text>
+  </g>
+
+  <text x="40" y="546" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">일용근로자는 이 표 대신 1일 15만원 공제 (소득세법 제47조 제2항). 2026년 8월 기준.</text>
+</svg>
