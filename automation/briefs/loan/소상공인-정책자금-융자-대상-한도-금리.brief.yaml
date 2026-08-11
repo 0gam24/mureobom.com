@@ -1,0 +1,44 @@
+id: loan-소상공인-정책자금-융자-대상-한도-금리
+cluster: loan
+status: published        # compliance 게이트 통과 (2026-08-11 KST) — 오케스트레이터가 _published_slugs 일괄 추가
+
+target_query: "소상공인 정책자금 대출 대상 한도 금리 어떻게 신청하나요"
+search_intent: 절차형     # 자격 확인 + 신청 절차·한도·금리
+
+signal:                  # 수동 선정(큐 stale) — gap-fill 추정치, 집계값만
+  score: 63.0
+  trend_momentum: 0.68
+  question_volume: 0.60
+  cluster_fit: 1.0
+  freshness: 0.66
+
+must_cover:
+  - 소상공인 정책자금이란(소상공인시장진흥공단 융자, 시중 대출과 차이)
+  - 지원 대상(소상공인 정의, 상시근로자·업종 기준, 신청 제외 대상)
+  - 자금 종류(직접대출 vs 대리대출, 일반경영안정·성장기반 등 주요 자금 구분)
+  - 대출 한도와 금리 구조(정책자금 기준금리 연동, 자금별 한도 차이)
+  - 신청 절차와 필요 서류(소상공인정책자금 누리집·확인서 발급·심사 흐름)
+  - 흔한 오해(무조건 저금리인지, 신용점수·기존 대출과의 관계, 상환 방식)
+
+required_sources:        # 공식 1차 출처만. 0건이면 발행 차단
+  - "소상공인시장진흥공단 소상공인 정책자금 안내 (semas.or.kr / ols.sbiz.or.kr)"
+  - "중소벤처기업부 소상공인 정책자금 관련 안내·보도자료"
+  - "소상공인 보호 및 지원에 관한 법률 (국가법령정보센터, 조문 렌더 URL만)"
+
+internal_links:
+  - loan/신용대출-금리-한도-비교
+  - loan/새출발기금-채무조정
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: 직접대출·대리대출 구분과 자금 종류별 한도·용도를 하나의 표로 정리해
+  "나는 어떤 자금 트랙"인지 판단하게 하고, "정책자금=무조건 저금리·쉬운 승인"이라는
+  통념을 심사·기준금리 연동으로 반박. 금리·한도는 연도·공고별 변동이라 단정 금지,
+  당해 공고·소상공인정책자금 누리집 확인 고지. 비공식 커뮤니티·블로그 인용 금지.

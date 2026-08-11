@@ -1,0 +1,73 @@
+<svg viewBox="0 0 760 672" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="비과세종합저축 가입 대상 7가지, 원금 5천만원 한도와 이자·배당 비과세, 2028년 12월 31일 가입기한, ISA와의 차이 요약">
+  <rect x="0" y="0" width="760" height="672" fill="#FBF7F0"/>
+
+  <!-- header -->
+  <rect x="0" y="0" width="760" height="64" fill="#0A5F58"/>
+  <text x="30" y="34" fill="#FBF7F0" font-size="23" font-weight="700">비과세종합저축 한눈에 보기</text>
+  <text x="30" y="54" fill="#E3F0EE" font-size="13">조세특례제한법 제88조의2 · 2026년 기준</text>
+
+  <!-- section A: 가입 대상 -->
+  <text x="30" y="102" fill="#0A5F58" font-size="17" font-weight="700">가입 대상 (7가지 중 하나 해당)</text>
+
+  <g font-size="13.5" fill="#1A2B2A">
+    <rect x="30" y="114" width="344" height="40" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+    <text x="48" y="139">65세 이상 기초연금 수급자</text>
+    <rect x="386" y="114" width="344" height="40" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+    <text x="404" y="139">등록 장애인</text>
+
+    <rect x="30" y="166" width="344" height="40" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+    <text x="48" y="191">국민기초생활보장 수급자</text>
+    <rect x="386" y="166" width="344" height="40" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+    <text x="404" y="191">독립유공자·그 유족·가족</text>
+
+    <rect x="30" y="218" width="344" height="40" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+    <text x="48" y="243">국가유공상이자</text>
+    <rect x="386" y="218" width="344" height="40" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+    <text x="404" y="243">고엽제후유의증환자</text>
+
+    <rect x="30" y="270" width="344" height="40" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+    <text x="48" y="295">5·18민주화운동 부상자</text>
+  </g>
+
+  <!-- section B: 한도·비과세·기한 -->
+  <text x="30" y="352" fill="#0A5F58" font-size="17" font-weight="700">한도 · 비과세 · 가입기한</text>
+
+  <g>
+    <rect x="30" y="366" width="222" height="96" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="141" y="410" fill="#C2873B" font-size="27" font-weight="700" text-anchor="middle">5천만원</text>
+    <text x="141" y="436" fill="#4A5856" font-size="12.5" text-anchor="middle">전 금융기관 합산 원금</text>
+
+    <rect x="274" y="366" width="222" height="96" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="385" y="410" fill="#0E7C72" font-size="24" font-weight="700" text-anchor="middle">이자·배당</text>
+    <text x="385" y="436" fill="#4A5856" font-size="12.5" text-anchor="middle">소득세 전액 비과세</text>
+
+    <rect x="518" y="366" width="222" height="96" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="629" y="410" fill="#C2873B" font-size="24" font-weight="700" text-anchor="middle">2028.12.31</text>
+    <text x="629" y="436" fill="#4A5856" font-size="12.5" text-anchor="middle">가입 가능 기한(일몰)</text>
+  </g>
+
+  <!-- section C: 비교 -->
+  <text x="30" y="512" fill="#0A5F58" font-size="17" font-weight="700">비슷한 제도와의 차이</text>
+
+  <rect x="30" y="526" width="700" height="112" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="30" y1="560" x2="730" y2="560" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="30" y1="599" x2="730" y2="599" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="250" y1="526" x2="250" y2="638" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="490" y1="526" x2="490" y2="638" stroke="#E3DCCF" stroke-width="1"/>
+
+  <g font-size="12.5">
+    <text x="46" y="549" fill="#8A938F">제도</text>
+    <text x="266" y="549" fill="#8A938F">세제 혜택</text>
+    <text x="506" y="549" fill="#8A938F">주요 대상</text>
+
+    <text x="46" y="585" fill="#1A2B2A" font-weight="700">비과세종합저축</text>
+    <text x="266" y="585" fill="#1A2B2A">이자·배당 전액 비과세</text>
+    <text x="506" y="585" fill="#1A2B2A">고령·장애 등 특정 대상</text>
+
+    <text x="46" y="624" fill="#1A2B2A" font-weight="700">ISA</text>
+    <text x="266" y="624" fill="#1A2B2A">200/400만 비과세, 초과 9.9%</text>
+    <text x="506" y="624" fill="#1A2B2A">19세 이상 거주자 등</text>
+  </g>
+
+  <text x="30" y="662" fill="#8A938F" font-size="11">출처: 조세특례제한법 제88조의2 · 국세청 안내 (2026년 기준)</text>
+</svg>

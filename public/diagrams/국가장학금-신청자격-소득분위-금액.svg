@@ -1,0 +1,100 @@
+<svg viewBox="0 0 820 720" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="국가장학금 소득분위 산정 구조, 유형 구분, 신청 일정 정리">
+  <rect x="0" y="0" width="820" height="720" fill="#FBF7F0"/>
+
+  <!-- Title -->
+  <text x="40" y="46" font-size="24" font-weight="700" fill="#1A2B2A">국가장학금 한눈에 보기</text>
+  <text x="40" y="72" font-size="14" fill="#4A5856">소득분위(학자금 지원구간) 산정 구조 · 유형 · 2026학년도 2학기 일정</text>
+  <line x1="40" y1="86" x2="780" y2="86" stroke="#E3DCCF" stroke-width="2"/>
+
+  <!-- Section 1: 소득인정액 산정 -->
+  <text x="40" y="120" font-size="17" font-weight="700" fill="#0A5F58">1. 소득인정액(월) 이렇게 계산돼요</text>
+
+  <!-- 소득평가액 box -->
+  <rect x="40" y="136" width="150" height="66" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="115" y="164" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">소득평가액</text>
+  <text x="115" y="186" font-size="12" fill="#4A5856" text-anchor="middle">근로·사업 소득 등</text>
+
+  <text x="205" y="176" font-size="26" font-weight="700" fill="#C2873B" text-anchor="middle">+</text>
+
+  <!-- 재산환산액 box -->
+  <rect x="228" y="136" width="180" height="66" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="318" y="160" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">재산의 소득환산액</text>
+  <text x="318" y="182" font-size="12" fill="#4A5856" text-anchor="middle">집·예금·자동차 반영</text>
+  <text x="318" y="197" font-size="11" fill="#8A938F" text-anchor="middle">일반 1.39% · 금융 2.09%</text>
+
+  <text x="424" y="176" font-size="24" font-weight="700" fill="#B5462F" text-anchor="middle">−</text>
+
+  <!-- 공제 box -->
+  <rect x="446" y="136" width="150" height="66" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="521" y="164" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">형제·자매 공제</text>
+  <text x="521" y="186" font-size="12" fill="#4A5856" text-anchor="middle">가구원 수 반영</text>
+
+  <text x="612" y="176" font-size="22" font-weight="700" fill="#1A2B2A" text-anchor="middle">=</text>
+
+  <!-- 결과 box -->
+  <rect x="634" y="136" width="146" height="66" rx="8" fill="#0E7C72"/>
+  <text x="707" y="164" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">소득인정액</text>
+  <text x="707" y="186" font-size="12" fill="#E3F0EE" text-anchor="middle">→ 1~10구간 결정</text>
+
+  <text x="40" y="228" font-size="12" fill="#8A938F">재산이 소득으로 환산돼 더해지기 때문에, 소득이 적어도 분위가 높게 나올 수 있어요.</text>
+
+  <line x1="40" y1="248" x2="780" y2="248" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- Section 2: 유형 구분 -->
+  <text x="40" y="282" font-size="17" font-weight="700" fill="#0A5F58">2. 한 번 신청으로 4개 유형 통합 심사</text>
+
+  <!-- Ⅰ유형 -->
+  <rect x="40" y="298" width="355" height="120" rx="10" fill="#F4EEE2" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="60" y="326" font-size="15" font-weight="700" fill="#0A5F58">Ⅰ유형 (학생직접지원형)</text>
+  <text x="60" y="350" font-size="13" fill="#1A2B2A">재단이 학생에게 직접 지급</text>
+  <text x="60" y="372" font-size="13" fill="#4A5856">1~3구간 연 600만 · 4~6구간 440만</text>
+  <text x="60" y="392" font-size="13" fill="#4A5856">7~8구간 360만 · 9구간 100만 원</text>
+  <text x="60" y="411" font-size="11" fill="#8A938F">2026학년도 기준 · 당해 학년도 재단 공고 확인</text>
+
+  <!-- Ⅱ유형 -->
+  <rect x="425" y="298" width="355" height="120" rx="10" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="445" y="326" font-size="15" font-weight="700" fill="#C2873B">Ⅱ유형 (대학연계지원형)</text>
+  <text x="445" y="350" font-size="13" fill="#1A2B2A">대학 자체노력과 연계해 지급</text>
+  <text x="445" y="372" font-size="13" fill="#4A5856">지급액·기준은 대학마다 달라요</text>
+  <text x="445" y="392" font-size="13" fill="#4A5856">1~9구간 + 신청절차 완료자 대상</text>
+  <text x="445" y="411" font-size="11" fill="#8A938F">다자녀·지역인재 장학금도 함께 통합 신청</text>
+
+  <line x1="40" y1="440" x2="780" y2="440" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- Section 3: 일정 -->
+  <text x="40" y="474" font-size="17" font-weight="700" fill="#0A5F58">3. 신청 절차 (2026학년도 2학기 예시)</text>
+
+  <!-- timeline -->
+  <line x1="90" y1="540" x2="730" y2="540" stroke="#E3DCCF" stroke-width="3"/>
+
+  <!-- step 1 -->
+  <circle cx="120" cy="540" r="14" fill="#0E7C72"/>
+  <text x="120" y="545" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+  <text x="120" y="576" font-size="13" font-weight="700" fill="#1A2B2A" text-anchor="middle">재단 누리집</text>
+  <text x="120" y="594" font-size="12" fill="#4A5856" text-anchor="middle">통합 신청</text>
+  <text x="120" y="614" font-size="11" fill="#8A938F" text-anchor="middle">8/12~9/9</text>
+
+  <!-- step 2 -->
+  <circle cx="325" cy="540" r="14" fill="#0E7C72"/>
+  <text x="325" y="545" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+  <text x="325" y="576" font-size="13" font-weight="700" fill="#1A2B2A" text-anchor="middle">가구원 동의</text>
+  <text x="325" y="594" font-size="12" fill="#4A5856" text-anchor="middle">서류 제출</text>
+  <text x="325" y="614" font-size="11" fill="#8A938F" text-anchor="middle">~9/16</text>
+
+  <!-- step 3 -->
+  <circle cx="530" cy="540" r="14" fill="#0E7C72"/>
+  <text x="530" y="545" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+  <text x="530" y="576" font-size="13" font-weight="700" fill="#1A2B2A" text-anchor="middle">소득·재산 조사</text>
+  <text x="530" y="594" font-size="12" fill="#4A5856" text-anchor="middle">지원구간 확정</text>
+  <text x="530" y="614" font-size="11" fill="#8A938F" text-anchor="middle">약 8주 내외</text>
+
+  <!-- step 4 -->
+  <circle cx="720" cy="540" r="14" fill="#C2873B"/>
+  <text x="720" y="545" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">4</text>
+  <text x="720" y="576" font-size="13" font-weight="700" fill="#1A2B2A" text-anchor="middle">장학금 지급</text>
+  <text x="720" y="594" font-size="12" fill="#4A5856" text-anchor="middle">등록금 차감</text>
+
+  <rect x="40" y="644" width="740" height="48" rx="8" fill="#E3F0EE"/>
+  <text x="60" y="668" font-size="12" fill="#0A5F58" font-weight="700">놓쳤다면?</text>
+  <text x="60" y="686" font-size="12" fill="#4A5856">1차 미신청자는 2차 통합신청 기간을 노려요. 정확한 날짜·금액은 한국장학재단 공고에서 확인하세요.</text>
+</svg>
