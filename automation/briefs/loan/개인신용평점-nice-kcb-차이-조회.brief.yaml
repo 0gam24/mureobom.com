@@ -1,6 +1,6 @@
 id: loan-개인신용평점-nice-kcb-차이-조회
 cluster: loan
-status: approved          # 스케줄 자동 발행 지시 = 운영자 즉석 승인 (KST 2026-08-13)
+status: published         # compliance 게이트 통과 (KST 2026-08-13)
 
 target_query: "신용점수 NICE KCB 왜 다른가 무료 조회"
 search_intent: 정보형      # 두 평가사 점수 차이 이유 + 무료 조회 방법

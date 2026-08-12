@@ -1,6 +1,6 @@
 id: tax-부녀자공제-한부모공제-요건
 cluster: tax
-status: approved          # 스케줄 자동 발행 지시 = 운영자 즉석 승인 (KST 2026-08-13)
+status: published         # compliance 게이트 통과 (KST 2026-08-13)
 
 target_query: "연말정산 부녀자공제 한부모공제 요건 중복"
 search_intent: 정보형      # 두 추가공제 자격 확인 + 중복 적용 여부

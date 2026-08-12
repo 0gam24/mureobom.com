@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="620" fill="#FBF7F0"/>
+
+  <text x="30" y="44" font-size="26" font-weight="700" fill="#1A2B2A">부녀자공제 vs 한부모공제</text>
+  <text x="30" y="72" font-size="15" fill="#4A5856">2026년 신고분 기준, 소득세법 제51조(추가공제) 제1항 제3호·제6호</text>
+
+  <!-- 부녀자공제 panel -->
+  <rect x="30" y="96" width="360" height="300" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="50" y="132" font-size="19" font-weight="700" fill="#0A5F58">부녀자공제 (제3호)</text>
+  <text x="50" y="164" font-size="15" fill="#1A2B2A">대상: 여성만</text>
+  <text x="50" y="196" font-size="15" fill="#1A2B2A">소득: 종합소득금액 3천만원 이하</text>
+  <text x="50" y="228" font-size="15" fill="#1A2B2A">요건 (둘 중 하나)</text>
+  <text x="66" y="252" font-size="14" fill="#4A5856">1) 배우자가 있는 여성</text>
+  <text x="66" y="274" font-size="14" fill="#4A5856">2) 배우자 없고 부양가족 있는</text>
+  <text x="82" y="294" font-size="14" fill="#4A5856">세대주 여성</text>
+  <rect x="50" y="316" width="200" height="52" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="150" y="349" font-size="22" font-weight="700" fill="#0A5F58" text-anchor="middle">연 50만원</text>
+
+  <!-- 한부모공제 panel -->
+  <rect x="430" y="96" width="360" height="300" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="450" y="132" font-size="19" font-weight="700" fill="#0A5F58">한부모공제 (제6호)</text>
+  <text x="450" y="164" font-size="15" fill="#1A2B2A">대상: 성별 무관</text>
+  <text x="450" y="196" font-size="15" fill="#1A2B2A">소득: 제한 없음</text>
+  <text x="450" y="228" font-size="15" fill="#1A2B2A">요건 (모두 충족)</text>
+  <text x="466" y="252" font-size="14" fill="#4A5856">1) 배우자가 없을 것</text>
+  <text x="466" y="274" font-size="14" fill="#4A5856">2) 기본공제 대상 직계비속</text>
+  <text x="482" y="294" font-size="14" fill="#4A5856">또는 입양자가 있을 것</text>
+  <rect x="450" y="316" width="200" height="52" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="550" y="349" font-size="22" font-weight="700" fill="#0A5F58" text-anchor="middle">연 100만원</text>
+
+  <line x1="30" y1="424" x2="790" y2="424" stroke="#E3DCCF" stroke-width="1"/>
+
+  <!-- 중복배제 -->
+  <rect x="30" y="446" width="760" height="140" rx="12" fill="#FBF7F0" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="50" y="482" font-size="18" font-weight="700" fill="#B5462F">두 공제에 모두 해당하면? 중복 적용 안 돼요</text>
+  <text x="50" y="514" font-size="15" fill="#1A2B2A">제3호와 제6호에 모두 해당하는 경우에는 제6호(한부모)를 적용해요.</text>
+  <rect x="50" y="530" width="330" height="40" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="215" y="556" font-size="15" fill="#4A5856" text-anchor="middle">부녀자 50만원 + 한부모 100만원 (X)</text>
+  <rect x="400" y="530" width="330" height="40" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="565" y="556" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">더 큰 한부모 100만원만 적용 (O)</text>
+</svg>

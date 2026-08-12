@@ -1,6 +1,6 @@
 id: insurance-산재보험-휴업급여-평균임금-지급기간
 cluster: insurance
-status: approved          # 스케줄 자동 발행 지시 = 운영자 즉석 승인 (KST 2026-08-13)
+status: published         # compliance 전 게이트 통과 (KST 2026-08-13)
 
 target_query: "산재 휴업급여 평균임금 70% 지급기간 계산"
 search_intent: 정보형      # 지급 기준·금액·기간 확인
