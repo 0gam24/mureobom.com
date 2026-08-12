@@ -1,0 +1,43 @@
+id: loan-개인신용평점-nice-kcb-차이-조회
+cluster: loan
+status: approved          # 스케줄 자동 발행 지시 = 운영자 즉석 승인 (KST 2026-08-13)
+
+target_query: "신용점수 NICE KCB 왜 다른가 무료 조회"
+search_intent: 정보형      # 두 평가사 점수 차이 이유 + 무료 조회 방법
+
+signal:
+  score: 61.0
+  trend_momentum: 0.40
+  question_volume: 0.55
+  cluster_fit: 1.0
+  freshness: 0.50
+
+must_cover:
+  - 개인신용평점(신용점수제) 개념 — 2021년 등급제 폐지 후 1~1000점 점수제 전환
+  - 신용평가회사(개인CB) 개념과 국내 양대 CB(NICE평가정보·KCB 코리아크레딧뷰로)
+  - 두 회사 점수가 다른 이유 — 평가 항목·가중치·데이터 반영 시점 차이(어느 게 맞다가 아님)
+  - 금융사마다 조회·활용하는 CB가 달라 한쪽 점수만으로 대출 결과를 단정 못 함
+  - 무료 조회 방법 — 각 CB사 홈페이지(연 3회 무료 열람권)·핀테크 앱, 본인 조회는 점수에 영향 없음(연성조회 vs 경성조회 구분)
+  - 흔한 오해 바로잡기 — "조회하면 점수 떨어진다"는 통념 반박, "한 회사 점수가 진짜"라는 오해
+
+required_sources:
+  - "신용정보의 이용 및 보호에 관한 법률(신용정보법), 국가법령정보센터"
+  - "금융감독원 금융소비자 정보포털 파인 — 개인신용평점 관련 안내"
+  - "금융위원회 신용점수제 전환 관련 자료"
+
+internal_links:
+  - loan/신용점수-올리는-법
+  - loan/금리인하요구권-신청-조건
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: "NICE와 KCB 점수가 왜 다른가"를 정면으로 다루고, 어느 쪽이 맞다가 아니라
+  평가 방식 차이임을 표로 정리 + 무료 조회 경로와 조회가 점수에 영향 없다는 점(연성/경성 구분)을 명확히.
+  단정적 표현 금지(점수 오르는 법 약속 X). 특정 앱·상품명 홍보 금지, 일반정보로만.
