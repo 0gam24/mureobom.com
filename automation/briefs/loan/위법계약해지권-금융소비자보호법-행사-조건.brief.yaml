@@ -1,6 +1,6 @@
 id: loan-위법계약해지권-금융소비자보호법-행사-조건
 cluster: loan
-status: approved          # 운영자 즉석 승인 (KST 2026-08-14, 스케줄 발행 지시)
+status: published         # compliance 게이트 통과 (KST 2026-08-14)
 
 target_query: "위법계약해지권 금융소비자보호법 대출 해지 조건"
 search_intent: 절차형      # 언제 어떻게 행사하는지 요건 + 절차

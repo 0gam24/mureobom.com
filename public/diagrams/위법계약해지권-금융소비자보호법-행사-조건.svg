@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 600" role="img" aria-label="청약철회권과 위법계약해지권 비교: 청약철회는 기간 내 무조건, 위법계약해지는 판매규제 5개 위반 전제" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="780" height="600" fill="#FBF7F0"/>
+
+  <text x="40" y="48" font-size="25" font-weight="700" fill="#1A2B2A">계약에서 빠져나오는 두 권리, 뭐가 다를까요</text>
+  <text x="40" y="76" font-size="15" fill="#4A5856">금융소비자보호법 제46조(청약철회) vs 제47조(위법계약해지)</text>
+
+  <!-- Left panel: 청약철회권 -->
+  <rect x="40" y="98" width="340" height="384" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="40" y="98" width="340" height="52" rx="14" fill="#C2873B"/>
+  <rect x="40" y="128" width="340" height="22" fill="#C2873B"/>
+  <text x="60" y="131" font-size="19" font-weight="700" fill="#FBF7F0">청약철회권 (제46조)</text>
+  <text x="60" y="180" font-size="15" font-weight="700" fill="#1A2B2A">핵심: 기간 안이면 무조건</text>
+
+  <text x="60" y="214" font-size="14" fill="#4A5856">발동 조건</text>
+  <text x="60" y="236" font-size="15" fill="#1A2B2A">하자 없어도 이유 없이 철회</text>
+
+  <text x="60" y="270" font-size="14" fill="#4A5856">행사 기간</text>
+  <text x="60" y="292" font-size="15" fill="#1A2B2A">대출성 14일 · 투자성 7일</text>
+  <text x="60" y="313" font-size="15" fill="#1A2B2A">보장성 15일 또는 30일</text>
+
+  <text x="60" y="347" font-size="14" fill="#4A5856">위반 입증</text>
+  <text x="60" y="369" font-size="15" fill="#1A2B2A">필요 없음</text>
+
+  <text x="60" y="403" font-size="14" fill="#4A5856">비용 부담</text>
+  <text x="60" y="425" font-size="15" fill="#1A2B2A">손해배상·위약금 청구 금지</text>
+
+  <text x="60" y="459" font-size="14" fill="#4A5856">계약 효력</text>
+  <text x="150" y="459" font-size="15" fill="#1A2B2A">청약 자체를 없던 것으로</text>
+
+  <!-- Right panel: 위법계약해지권 -->
+  <rect x="400" y="98" width="340" height="384" rx="14" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <rect x="400" y="98" width="340" height="52" rx="14" fill="#0A5F58"/>
+  <rect x="400" y="128" width="340" height="22" fill="#0A5F58"/>
+  <text x="420" y="131" font-size="19" font-weight="700" fill="#FBF7F0">위법계약해지권 (제47조)</text>
+  <text x="420" y="180" font-size="15" font-weight="700" fill="#0A5F58">핵심: 판매규제 위반이 전제</text>
+
+  <text x="420" y="214" font-size="14" fill="#4A5856">발동 조건</text>
+  <text x="420" y="236" font-size="15" fill="#1A2B2A">판매규제 5개 위반이 있어야</text>
+
+  <text x="420" y="270" font-size="14" fill="#4A5856">행사 기간</text>
+  <text x="420" y="292" font-size="15" fill="#1A2B2A">위반 안 날부터 1년</text>
+  <text x="420" y="313" font-size="15" fill="#1A2B2A">(계약체결 5년 이내)</text>
+
+  <text x="420" y="347" font-size="14" fill="#4A5856">위반 입증</text>
+  <text x="420" y="369" font-size="15" fill="#1A2B2A">위반사실 증명 서류 필요</text>
+
+  <text x="420" y="403" font-size="14" fill="#4A5856">비용 부담</text>
+  <text x="420" y="425" font-size="15" fill="#1A2B2A">수수료·위약금·중도상환수수료 금지</text>
+
+  <text x="420" y="459" font-size="14" fill="#4A5856">계약 효력</text>
+  <text x="510" y="459" font-size="15" fill="#1A2B2A">해지 이후 종료(장래효)</text>
+
+  <!-- bottom note: 대상 판매규제 5개 -->
+  <rect x="40" y="504" width="700" height="72" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="60" y="532" font-size="15" font-weight="700" fill="#0A5F58">위법계약해지 대상 판매규제 5개 (광고규제는 제외)</text>
+  <text x="60" y="558" font-size="14" fill="#1A2B2A">적합성 · 적정성 · 설명의무 · 불공정영업 · 부당권유</text>
+</svg>

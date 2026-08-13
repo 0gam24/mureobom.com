@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" width="100%" height="auto" role="img" aria-label="상속세 분납과 연부연납 비교: 분납은 세액 1천만원 초과 시 2개월 이내 2회 분할, 연부연납은 세액 2천만원 초과 시 담보 제공하고 최대 10년 나눠 내되 가산금이 붙는다">
+  <rect x="0" y="0" width="820" height="520" fill="#FBF7F0"/>
+  <text x="410" y="46" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#1A2B2A">상속세를 한 번에 못 낼 때, 두 갈래</text>
+  <text x="410" y="76" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">분납과 연부연납은 요건도 기간도 다른 별개 제도예요</text>
+
+  <!-- 분납 패널 -->
+  <rect x="40" y="104" width="350" height="360" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="40" y="104" width="350" height="52" rx="14" fill="#E3F0EE"/>
+  <rect x="40" y="140" width="350" height="16" fill="#E3F0EE"/>
+  <text x="215" y="138" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#0A5F58">분납</text>
+
+  <text x="66" y="196" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#4A5856">요건</text>
+  <text x="66" y="222" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">납부세액 1,000만원 초과</text>
+
+  <text x="66" y="264" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#4A5856">기간</text>
+  <text x="66" y="290" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">기한 지난 후 2개월 이내</text>
+
+  <text x="66" y="332" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#4A5856">담보</text>
+  <text x="66" y="358" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">필요 없음</text>
+
+  <text x="66" y="400" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#4A5856">가산금</text>
+  <text x="66" y="426" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#0E7C72">없음 (짧게 2회 분할)</text>
+
+  <!-- 연부연납 패널 -->
+  <rect x="430" y="104" width="350" height="360" rx="14" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+  <rect x="430" y="104" width="350" height="52" rx="14" fill="#E3F0EE"/>
+  <rect x="430" y="140" width="350" height="16" fill="#E3F0EE"/>
+  <text x="605" y="138" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#0A5F58">연부연납</text>
+
+  <text x="456" y="196" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#4A5856">요건</text>
+  <text x="456" y="222" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">납부세액 2,000만원 초과</text>
+
+  <text x="456" y="264" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#4A5856">기간</text>
+  <text x="456" y="290" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">원칙 최대 10년 (가업상속 특례 더 길게)</text>
+
+  <text x="456" y="332" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#4A5856">담보</text>
+  <text x="456" y="358" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">납세담보 제공 필수</text>
+
+  <text x="456" y="400" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#4A5856">가산금</text>
+  <text x="456" y="426" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#B5462F">붙음 (국세청 고시 이자율)</text>
+
+  <text x="410" y="500" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">출처: 상속세 및 증여세법 제71조, 국세청 상속세 납부 안내 (2026년 기준)</text>
+</svg>

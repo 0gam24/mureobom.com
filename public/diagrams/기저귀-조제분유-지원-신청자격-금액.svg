@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 640" role="img"
+     aria-label="기저귀·조제분유 지원은 만 2세 미만 영아 가구 국민행복카드 바우처. 대상은 저소득·다자녀·장애인 특정 자격 2트랙, 조제분유는 모유수유 곤란 사유 필요, 신청은 복지로 온라인 또는 보건소·주민센터 방문">
+  <rect x="0" y="0" width="820" height="640" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="40" y="50" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#1A2B2A">기저귀·조제분유 지원 한눈에 보기</text>
+  <text x="40" y="78" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">보건복지부 저소득층 영아 지원 사업 (국민행복카드 바우처)</text>
+  <line x1="40" y1="96" x2="780" y2="96" stroke="#E3DCCF" stroke-width="2"/>
+
+  <!-- 개요 카드 3개 -->
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <rect x="40" y="116" width="230" height="112" rx="12" fill="#E3F0EE"/>
+    <text x="155" y="152" text-anchor="middle" font-size="15" fill="#0A5F58">지원 연령</text>
+    <text x="155" y="186" text-anchor="middle" font-size="25" font-weight="700" fill="#0E7C72">만 2세 미만</text>
+    <text x="155" y="210" text-anchor="middle" font-size="13" fill="#4A5856">출생 후 24개월까지</text>
+
+    <rect x="295" y="116" width="230" height="112" rx="12" fill="#E3F0EE"/>
+    <text x="410" y="152" text-anchor="middle" font-size="15" fill="#0A5F58">지급 방식</text>
+    <text x="410" y="186" text-anchor="middle" font-size="25" font-weight="700" fill="#0E7C72">국민행복카드</text>
+    <text x="410" y="210" text-anchor="middle" font-size="13" fill="#4A5856">바우처 포인트로 구매</text>
+
+    <rect x="550" y="116" width="230" height="112" rx="12" fill="#F4EEE2"/>
+    <text x="665" y="152" text-anchor="middle" font-size="15" fill="#C2873B">월 지원액</text>
+    <text x="665" y="186" text-anchor="middle" font-size="25" font-weight="700" fill="#C2873B">연도별 고시</text>
+    <text x="665" y="210" text-anchor="middle" font-size="13" fill="#4A5856">복지로·정부24 확인</text>
+  </g>
+
+  <!-- 대상 2트랙 -->
+  <text x="40" y="272" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#1A2B2A">지원 대상은 두 갈래로 나뉘어요</text>
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <rect x="40" y="288" width="360" height="118" rx="12" fill="#F4EEE2" stroke="#0E7C72" stroke-width="2"/>
+    <text x="60" y="318" font-size="16" font-weight="700" fill="#0E7C72">저소득 수급 가구</text>
+    <text x="60" y="346" font-size="14" fill="#4A5856">기초생활보장 수급</text>
+    <text x="60" y="370" font-size="14" fill="#4A5856">차상위계층</text>
+    <text x="60" y="394" font-size="14" fill="#4A5856">한부모가족 수급 가구</text>
+
+    <rect x="420" y="288" width="360" height="118" rx="12" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+    <text x="440" y="318" font-size="16" font-weight="700" fill="#C2873B">기준중위소득 이하 특정 자격</text>
+    <text x="440" y="346" font-size="14" fill="#4A5856">장애인 가구</text>
+    <text x="440" y="370" font-size="14" fill="#4A5856">다자녀(2인 이상) 가구</text>
+    <text x="440" y="394" font-size="13" fill="#8A938F">소득 기준선은 연도 고시로 확인</text>
+  </g>
+
+  <!-- 조제분유 조건 -->
+  <text x="40" y="452" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#1A2B2A">조제분유는 조건이 하나 더 있어요</text>
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <rect x="40" y="468" width="360" height="76" rx="12" fill="#E3F0EE"/>
+    <text x="60" y="498" font-size="15" font-weight="700" fill="#0A5F58">기저귀</text>
+    <text x="60" y="524" font-size="13" fill="#4A5856">대상 가구면 지원</text>
+
+    <rect x="420" y="468" width="360" height="76" rx="12" fill="#F4EEE2" stroke="#B5462F" stroke-width="1.5"/>
+    <text x="440" y="498" font-size="15" font-weight="700" fill="#B5462F">기저귀 + 조제분유</text>
+    <text x="440" y="524" font-size="13" fill="#4A5856">모유수유 곤란 사유 있을 때만 추가</text>
+  </g>
+
+  <!-- 신청 흐름 -->
+  <text x="40" y="588" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1A2B2A">신청 흐름</text>
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif" text-anchor="middle">
+    <circle cx="120" cy="612" r="9" fill="#0E7C72"/>
+    <text x="120" y="636" font-size="12" fill="#4A5856">출생신고</text>
+    <circle cx="330" cy="612" r="9" fill="#0E7C72"/>
+    <text x="330" y="636" font-size="12" fill="#4A5856">복지로·보건소 신청</text>
+    <circle cx="540" cy="612" r="9" fill="#0E7C72"/>
+    <text x="540" y="636" font-size="12" fill="#4A5856">국민행복카드 발급</text>
+    <circle cx="720" cy="612" r="9" fill="#C2873B"/>
+    <text x="720" y="636" font-size="12" fill="#4A5856">바우처로 구매</text>
+    <line x1="129" y1="612" x2="321" y2="612" stroke="#E3DCCF" stroke-width="2"/>
+    <line x1="339" y1="612" x2="531" y2="612" stroke="#E3DCCF" stroke-width="2"/>
+    <line x1="549" y1="612" x2="711" y2="612" stroke="#E3DCCF" stroke-width="2"/>
+  </g>
+</svg>
