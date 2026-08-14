@@ -1,0 +1,60 @@
+<svg viewBox="0 0 760 660" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="혼인·출산 증여재산공제 한도 구조: 기존 5천만원 공제와 별도로 혼인·출산 합산 1억원, 결혼 시 최대 1억5천만원">
+  <rect x="0" y="0" width="760" height="660" fill="#FBF7F0"/>
+
+  <text x="40" y="52" font-size="26" font-weight="700" fill="#1A2B2A">혼인·출산 증여재산공제 한도 구조</text>
+  <text x="40" y="80" font-size="15" fill="#4A5856">상증법 제53조의2 · 2024년 1월 1일 이후 증여분부터 적용</text>
+
+  <!-- 합산 공식 -->
+  <g>
+    <rect x="40" y="110" width="200" height="110" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+    <text x="140" y="145" font-size="14" fill="#4A5856" text-anchor="middle">기존 일반공제</text>
+    <text x="140" y="176" font-size="24" font-weight="700" fill="#1A2B2A" text-anchor="middle">5천만원</text>
+    <text x="140" y="202" font-size="13" fill="#8A938F" text-anchor="middle">직계존속 10년 합산</text>
+
+    <text x="262" y="176" font-size="30" font-weight="700" fill="#C2873B" text-anchor="middle">+</text>
+
+    <rect x="285" y="110" width="200" height="110" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+    <text x="385" y="145" font-size="14" fill="#0A5F58" text-anchor="middle">혼인·출산 공제</text>
+    <text x="385" y="176" font-size="24" font-weight="700" fill="#0A5F58" text-anchor="middle">1억원</text>
+    <text x="385" y="202" font-size="13" fill="#4A5856" text-anchor="middle">혼인+출산 합산 상한</text>
+
+    <text x="507" y="176" font-size="26" font-weight="700" fill="#C2873B" text-anchor="middle">=</text>
+
+    <rect x="530" y="110" width="190" height="110" rx="12" fill="#0E7C72"/>
+    <text x="625" y="145" font-size="14" fill="#E3F0EE" text-anchor="middle">결혼 시 최대</text>
+    <text x="625" y="178" font-size="26" font-weight="700" fill="#FBF7F0" text-anchor="middle">1억5천만원</text>
+    <text x="625" y="202" font-size="13" fill="#E3F0EE" text-anchor="middle">두 공제는 별도</text>
+  </g>
+
+  <!-- 혼인 증여공제 타임라인 -->
+  <text x="40" y="278" font-size="17" font-weight="700" fill="#1A2B2A">혼인 증여공제: 혼인신고일 전후 각 2년, 총 4년</text>
+  <line x1="60" y1="330" x2="700" y2="330" stroke="#E3DCCF" stroke-width="3"/>
+  <line x1="380" y1="305" x2="380" y2="355" stroke="#C2873B" stroke-width="3"/>
+  <circle cx="60" cy="330" r="7" fill="#0E7C72"/>
+  <circle cx="700" cy="330" r="7" fill="#0E7C72"/>
+  <circle cx="380" cy="330" r="9" fill="#C2873B"/>
+  <text x="60" y="380" font-size="14" fill="#4A5856" text-anchor="middle">혼인신고 2년 전</text>
+  <text x="380" y="298" font-size="14" font-weight="700" fill="#C2873B" text-anchor="middle">혼인신고일</text>
+  <text x="700" y="380" font-size="14" fill="#4A5856" text-anchor="middle">혼인신고 2년 후</text>
+  <text x="220" y="380" font-size="13" fill="#8A938F" text-anchor="middle">이 기간 안 증여 → 공제</text>
+  <text x="540" y="380" font-size="13" fill="#8A938F" text-anchor="middle">이 기간 안 증여 → 공제</text>
+
+  <!-- 출산 증여공제 -->
+  <rect x="40" y="410" width="330" height="90" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="60" y="442" font-size="16" font-weight="700" fill="#1A2B2A">출산 증여공제</text>
+  <text x="60" y="468" font-size="14" fill="#4A5856">자녀 출생일 또는 입양신고일부터</text>
+  <text x="60" y="490" font-size="14" fill="#4A5856">2년 이내 증여, 1억원 한도</text>
+
+  <!-- 통합한도 경고 -->
+  <rect x="390" y="410" width="330" height="90" rx="12" fill="#FBF7F0" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="410" y="442" font-size="16" font-weight="700" fill="#B5462F">통합한도 주의</text>
+  <text x="410" y="468" font-size="14" fill="#4A5856">혼인 1억 + 출산 1억 = 2억 아님</text>
+  <text x="410" y="490" font-size="14" fill="#4A5856">둘을 합쳐 1억원이 상한</text>
+
+  <!-- 하단 요건 박스 -->
+  <rect x="40" y="524" width="680" height="104" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <text x="60" y="554" font-size="15" font-weight="700" fill="#0A5F58">함께 기억할 점</text>
+  <text x="60" y="580" font-size="13.5" fill="#1A2B2A">· 증여자는 직계존속(부모·조부모). 여럿에게 받아도 모두 합해 1억원까지만 공제</text>
+  <text x="60" y="602" font-size="13.5" fill="#1A2B2A">· 현금·부동산 등 재산 종류 제한 없음. 수증자는 거주자 본인</text>
+  <text x="60" y="622" font-size="13.5" fill="#1A2B2A">· 공제 넘는 금액과 신고 대상 여부는 관할 세무서·홈택스로 확인</text>
+</svg>

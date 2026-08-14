@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 660" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="개인채무자보호법 추심 연락 횟수 제한 기준: 각 채권별 7일 7회, 제외 연락 3종, 유형 제한 요청권, 추심 유예 및 채무조정 중 금지, 신고 1332">
+  <rect x="0" y="0" width="820" height="660" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="40" y="52" font-size="27" font-weight="700" fill="#1A2B2A">개인채무자보호법 추심 연락 제한 기준</text>
+  <text x="40" y="80" font-size="15" fill="#4A5856">2024년 10월 17일 시행 · 금융회사 개인금융채권에 적용</text>
+  <line x1="40" y1="98" x2="780" y2="98" stroke="#E3DCCF" stroke-width="2"/>
+
+  <!-- 핵심 총량 박스 -->
+  <rect x="40" y="120" width="740" height="118" rx="14" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="64" y="158" font-size="18" font-weight="700" fill="#0A5F58">추심총량제</text>
+  <text x="64" y="192" font-size="40" font-weight="700" fill="#0E7C72">각 채권별 7일에 7회</text>
+  <text x="64" y="222" font-size="15" fill="#4A5856">방문·전화·문자로 연락하는 횟수를 합산. 채무가 여러 건이면 건별로 각각 적용돼요.</text>
+
+  <!-- 제외 연락 -->
+  <rect x="40" y="258" width="360" height="196" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="64" y="292" font-size="17" font-weight="700" fill="#1A2B2A">7회에서 빠지는 연락</text>
+  <circle cx="72" cy="322" r="4" fill="#0E7C72"/>
+  <text x="86" y="327" font-size="14.5" fill="#4A5856">법령에 따른 의무적 통지</text>
+  <circle cx="72" cy="352" r="4" fill="#0E7C72"/>
+  <text x="86" y="357" font-size="14.5" fill="#4A5856">채무자 문의에 대한 답변</text>
+  <circle cx="72" cy="382" r="4" fill="#0E7C72"/>
+  <text x="86" y="387" font-size="14.5" fill="#4A5856">추심이 채무자에게 도달하지 않은 경우</text>
+  <text x="64" y="428" font-size="13" fill="#8A938F">이 세 가지는 횟수 산정에서 제외돼요.</text>
+
+  <!-- 유형 제한 요청권 -->
+  <rect x="420" y="258" width="360" height="196" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="444" y="292" font-size="17" font-weight="700" fill="#1A2B2A">채무자의 유형 제한 요청권</text>
+  <circle cx="452" cy="322" r="4" fill="#C2873B"/>
+  <text x="466" y="327" font-size="14.5" fill="#4A5856">특정 시간대(1주 28시간 범위) 지정 거부</text>
+  <circle cx="452" cy="352" r="4" fill="#C2873B"/>
+  <text x="466" y="357" font-size="14.5" fill="#4A5856">연락 수단 최대 2가지 제한 요청</text>
+  <circle cx="452" cy="382" r="4" fill="#C2873B"/>
+  <text x="466" y="387" font-size="14.5" fill="#4A5856">방문·전화·문자·이메일·팩스 중 선택</text>
+  <text x="444" y="428" font-size="13" fill="#B5462F">단, 방문과 전화를 동시에 막을 수는 없어요.</text>
+
+  <!-- 유예 / 금지 -->
+  <rect x="40" y="474" width="360" height="118" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="64" y="508" font-size="17" font-weight="700" fill="#1A2B2A">추심 유예</text>
+  <text x="64" y="536" font-size="14.5" fill="#4A5856">재난, 본인·가족의 수술·입원·혼인·사망 등</text>
+  <text x="64" y="560" font-size="20" font-weight="700" fill="#0E7C72">3개월 이내 유예</text>
+  <text x="64" y="582" font-size="13" fill="#8A938F">채권자와 합의한 기간 동안</text>
+
+  <rect x="420" y="474" width="360" height="118" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="444" y="508" font-size="17" font-weight="700" fill="#1A2B2A">채무조정 중인 채권</text>
+  <text x="444" y="542" font-size="20" font-weight="700" fill="#B5462F">추심 자체 금지</text>
+  <text x="444" y="570" font-size="14.5" fill="#4A5856">조정 대상 채권은 연락 횟수와 무관하게</text>
+  <text x="444" y="588" font-size="14.5" fill="#4A5856">추심을 할 수 없어요.</text>
+
+  <!-- 신고 -->
+  <rect x="40" y="612" width="740" height="34" rx="10" fill="#0A5F58"/>
+  <text x="410" y="634" font-size="15.5" font-weight="700" fill="#FBF7F0" text-anchor="middle">위반·불법추심 신고: 금융감독원 불법사금융 피해신고센터 1332</text>
+</svg>
