@@ -1,6 +1,6 @@
 id: tax-간이과세자-부가가치세-납부면제-기준
 cluster: tax
-status: approved          # 스케줄 실행 = 운영자 즉석 승인 (KST 2026-08-16)
+status: published        # 발행 완료 (KST 2026-08-16)
 
 target_query: "간이과세자 부가가치세 납부면제 기준"
 search_intent: 정보형      # 납부의무 면제 대상·금액 요건 확인

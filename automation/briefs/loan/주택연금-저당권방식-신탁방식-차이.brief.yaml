@@ -1,6 +1,6 @@
 id: loan-주택연금-저당권방식-신탁방식-차이
 cluster: loan
-status: approved          # 스케줄 실행 = 운영자 즉석 승인 (KST 2026-08-16)
+status: published        # 발행 완료 (KST 2026-08-16)
 
 target_query: "주택연금 저당권방식 신탁방식 차이"
 search_intent: 정보형      # 가입 유형 선택을 위한 비교 이해

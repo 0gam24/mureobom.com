@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 650" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="퇴직연금 사전지정운용제도(디폴트옵션) 구조 도표. 적용 대상은 확정기여형 DC와 개인형퇴직연금 IRP이며 확정급여형 DB는 제외된다. 발동은 운용지시 만기 후 4주 통지, 통지 후 2주 미지시 시 적용된다. 승인 상품은 원리금보장형과 펀드 TDF 등 실적배당형으로 위험등급이 구분된다. 지정 뒤에도 언제든 직접 운용지시로 변경할 수 있다.">
+  <rect x="0" y="0" width="820" height="650" fill="#FBF7F0"/>
+
+  <!-- Title -->
+  <text x="40" y="52" font-size="27" font-weight="700" fill="#1A2B2A">퇴직연금 사전지정운용제도(디폴트옵션)</text>
+  <text x="40" y="82" font-size="15" fill="#4A5856">운용지시가 없을 때 미리 정한 방법으로 적립금을 운용하는 기본값이에요</text>
+  <line x1="40" y1="98" x2="780" y2="98" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- Block 1: 적용 대상 -->
+  <rect x="40" y="118" width="350" height="240" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="62" y="152" font-size="18" font-weight="700" fill="#0A5F58">① 적용 대상</text>
+  <text x="62" y="180" font-size="14" fill="#4A5856">운용지시가 필요한 두 유형만 대상이에요</text>
+
+  <rect x="62" y="196" width="140" height="44" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="132" y="223" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">DC 확정기여형</text>
+  <rect x="216" y="196" width="152" height="44" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="292" y="223" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">IRP 개인형퇴직연금</text>
+
+  <rect x="62" y="256" width="306" height="46" rx="8" fill="#FBF7F0" stroke="#B5462F" stroke-width="1.5"/>
+  <circle cx="86" cy="279" r="5" fill="#B5462F"/>
+  <text x="100" y="284" font-size="15" font-weight="700" fill="#B5462F">DB 확정급여형은 제외</text>
+  <text x="62" y="330" font-size="13" fill="#8A938F">DB는 받을 급여가 근속·임금으로 확정,</text>
+  <text x="62" y="348" font-size="13" fill="#8A938F">운용 책임을 회사가 져서 지시 개념이 없어요</text>
+
+  <!-- Block 2: 발동 시점 -->
+  <rect x="430" y="118" width="350" height="240" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="452" y="152" font-size="18" font-weight="700" fill="#0A5F58">② 발동 시점</text>
+  <text x="452" y="180" font-size="14" fill="#4A5856">지시가 없을 때만, 통지와 대기를 거쳐요</text>
+
+  <rect x="452" y="196" width="306" height="34" rx="7" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <circle cx="474" cy="213" r="5" fill="#C2873B"/>
+  <text x="488" y="218" font-size="13.5" fill="#1A2B2A">운용지시 만기일이 지남</text>
+
+  <rect x="452" y="240" width="306" height="34" rx="7" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <circle cx="474" cy="257" r="5" fill="#0E7C72"/>
+  <text x="488" y="262" font-size="13.5" fill="#1A2B2A">만기 후 4주 경과 시 사업자가 통지</text>
+
+  <rect x="452" y="284" width="306" height="34" rx="7" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <circle cx="474" cy="301" r="5" fill="#0E7C72"/>
+  <text x="488" y="306" font-size="13.5" fill="#1A2B2A">통지 후 2주 안에 직접 선정 안 하면</text>
+
+  <rect x="452" y="326" width="306" height="20" rx="6" fill="#E3F0EE"/>
+  <text x="474" y="340" font-size="13.5" font-weight="700" fill="#0A5F58">사전지정운용방법으로 자동 운용</text>
+
+  <!-- Block 3: 상품 유형과 위험등급 -->
+  <rect x="40" y="378" width="350" height="240" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="62" y="412" font-size="18" font-weight="700" fill="#0A5F58">③ 승인 상품 유형과 위험등급</text>
+  <text x="62" y="440" font-size="14" fill="#4A5856">고용노동부 승인을 받은 방법만 제공돼요</text>
+
+  <rect x="62" y="456" width="306" height="52" rx="8" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <circle cx="86" cy="482" r="5" fill="#0E7C72"/>
+  <text x="100" y="479" font-size="14" font-weight="700" fill="#1A2B2A">원리금보장형</text>
+  <text x="100" y="497" font-size="12.5" fill="#8A938F">예금·이율보증보험 등, 낮은 위험등급</text>
+
+  <rect x="62" y="516" width="306" height="52" rx="8" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <circle cx="86" cy="542" r="5" fill="#C2873B"/>
+  <text x="100" y="539" font-size="14" font-weight="700" fill="#1A2B2A">펀드형(TDF 등 실적배당)</text>
+  <text x="100" y="557" font-size="12.5" fill="#8A938F">운용 성과 따라 손익 변동, 중·고 위험등급</text>
+
+  <text x="62" y="596" font-size="13" fill="#B5462F">실적배당형은 원금 손실이 날 수 있어요</text>
+
+  <!-- Block 4: 언제든 변경 가능 -->
+  <rect x="430" y="378" width="350" height="240" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="452" y="412" font-size="18" font-weight="700" fill="#0A5F58">④ 언제든 변경 가능</text>
+  <text x="452" y="440" font-size="14" fill="#4A5856">지정은 기본값일 뿐 선택권을 뺏지 않아요</text>
+
+  <rect x="452" y="456" width="306" height="44" rx="8" fill="#FBF7F0" stroke="#0E7C72" stroke-width="1.5"/>
+  <circle cx="476" cy="478" r="5" fill="#0E7C72"/>
+  <text x="490" y="483" font-size="13.5" fill="#1A2B2A">직접 운용지시를 하면 그 지시가 우선</text>
+
+  <rect x="452" y="508" width="306" height="44" rx="8" fill="#FBF7F0" stroke="#0E7C72" stroke-width="1.5"/>
+  <circle cx="476" cy="530" r="5" fill="#0E7C72"/>
+  <text x="490" y="535" font-size="13.5" fill="#1A2B2A">기본값으로 둘 방법도 가입자가 선택</text>
+
+  <rect x="452" y="562" width="306" height="40" rx="8" fill="#FBF7F0" stroke="#B5462F" stroke-width="1.5"/>
+  <circle cx="476" cy="582" r="5" fill="#B5462F"/>
+  <text x="490" y="587" font-size="13.5" font-weight="700" fill="#B5462F">수익·원금을 보장하는 자동수익 아님</text>
+
+  <!-- Footer -->
+  <text x="40" y="640" font-size="12" fill="#8A938F">근거: 근로자퇴직급여 보장법 제21조의2·제21조의3·제21조의4</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" role="img" aria-label="주택연금 저당권방식과 신탁방식을 세 축으로 비교. 첫째 소유권 구조는 저당권방식이 가입자가 소유권을 유지하며 근저당권을 설정하고 신탁방식은 소유권을 공사에 신탁등기하되 가입자가 거주·수익권을 가져요. 둘째 배우자 승계는 저당권방식이 소유권 이전등기와 공동상속인 동의가 필요하고 신탁방식은 상속등기 없이 채무인수만으로 자동승계돼요. 셋째 임대는 저당권방식이 보증금 없는 월세만 제한적으로 가능하고 신탁방식은 공사 동의로 보증금 있는 임대가 가능해요. 월지급금은 가입연령·주택가격·지급방식으로 정해져 방식과 무관하게 동일하게 산정돼요." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="560" fill="#FBF7F0"/>
+  <text x="32" y="46" font-size="27" font-weight="700" fill="#1A2B2A">저당권방식 vs 신탁방식, 세 축 비교</text>
+  <text x="32" y="74" font-size="15" fill="#4A5856">2026년 8월 기준, 한국주택금융공사 안내 · 한국주택금융공사법 제2조</text>
+  <line x1="32" y1="90" x2="788" y2="90" stroke="#E3DCCF" stroke-width="1"/>
+
+  <!-- Column headers -->
+  <rect x="230" y="104" width="270" height="40" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="365" y="130" font-size="16" font-weight="700" fill="#4A5856" text-anchor="middle">저당권방식</text>
+  <rect x="518" y="104" width="270" height="40" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="653" y="130" font-size="16" font-weight="700" fill="#0A5F58" text-anchor="middle">신탁방식</text>
+
+  <!-- Axis 1: 소유권 구조 -->
+  <circle cx="44" cy="182" r="6" fill="#0E7C72"/>
+  <text x="60" y="180" font-size="15" font-weight="700" fill="#1A2B2A">소유권 구조</text>
+  <text x="60" y="200" font-size="12" fill="#8A938F">담보를 맡기는 형태</text>
+  <rect x="230" y="160" width="270" height="56" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="245" y="184" font-size="13" fill="#4A5856">가입자가 소유권 유지</text>
+  <text x="245" y="204" font-size="13" fill="#4A5856">주택에 근저당권 설정</text>
+  <rect x="518" y="160" width="270" height="56" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="533" y="184" font-size="13" fill="#1A2B2A">소유권 공사에 신탁등기</text>
+  <text x="533" y="204" font-size="13" fill="#1A2B2A">가입자는 거주·수익권 보유</text>
+
+  <!-- Axis 2: 배우자 승계 -->
+  <circle cx="44" cy="256" r="6" fill="#0E7C72"/>
+  <text x="60" y="254" font-size="15" font-weight="700" fill="#1A2B2A">배우자 승계</text>
+  <text x="60" y="274" font-size="12" fill="#8A938F">가입자 사망 시</text>
+  <rect x="230" y="234" width="270" height="56" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="245" y="258" font-size="13" fill="#4A5856">소유권 이전등기 필요</text>
+  <text x="245" y="278" font-size="13" fill="#B5462F">공동상속인 동의 필요</text>
+  <rect x="518" y="234" width="270" height="56" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="533" y="258" font-size="13" fill="#1A2B2A">상속등기 없이 채무인수만으로</text>
+  <text x="533" y="278" font-size="13" font-weight="700" fill="#0A5F58">자동승계</text>
+
+  <!-- Axis 3: 임대 가능 범위 -->
+  <circle cx="44" cy="330" r="6" fill="#0E7C72"/>
+  <text x="60" y="328" font-size="15" font-weight="700" fill="#1A2B2A">임대 가능 범위</text>
+  <text x="60" y="348" font-size="12" fill="#8A938F">보증금 유무 기준</text>
+  <rect x="230" y="308" width="270" height="56" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="245" y="332" font-size="13" fill="#B5462F">보증금 있는 임대 불가</text>
+  <text x="245" y="352" font-size="13" fill="#4A5856">보증금 없는 월세만 제한적</text>
+  <rect x="518" y="308" width="270" height="56" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="533" y="332" font-size="13" fill="#1A2B2A">공사 동의로 보증금 임대 가능</text>
+  <text x="533" y="352" font-size="13" fill="#4A5856">보증금은 공사가 관리·예치</text>
+
+  <!-- 잔여재산 축 (compact row) -->
+  <circle cx="44" cy="404" r="6" fill="#C2873B"/>
+  <text x="60" y="402" font-size="15" font-weight="700" fill="#1A2B2A">잔여재산 귀속</text>
+  <text x="60" y="422" font-size="12" fill="#8A938F">부부 모두 사망 후</text>
+  <rect x="230" y="382" width="270" height="44" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="245" y="410" font-size="13" fill="#4A5856">민법상 법정상속인에게 귀속</text>
+  <rect x="518" y="382" width="270" height="44" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="533" y="410" font-size="13" fill="#1A2B2A">지정한 귀속권리자에게 귀속</text>
+
+  <!-- 오해 바로잡기 강조 박스 -->
+  <rect x="32" y="446" width="756" height="86" rx="12" fill="#FBF7F0" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="52" y="476" font-size="15" font-weight="700" fill="#0A5F58">월지급금은 방식과 무관하게 같아요</text>
+  <text x="52" y="500" font-size="13" fill="#1A2B2A">월지급금은 가입연령·주택가격·지급방식으로 산정돼요. 저당권이든 신탁이든 같은 조건이면 매월 받는 금액은 동일해요.</text>
+  <text x="52" y="520" font-size="13" fill="#4A5856">방식 선택은 수령액이 아니라 배우자 승계·임대·잔여재산 지정 같은 운용상의 차이로 보는 게 정확해요.</text>
+</svg>
