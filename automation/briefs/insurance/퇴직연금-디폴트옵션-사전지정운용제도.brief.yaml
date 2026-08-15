@@ -1,0 +1,44 @@
+id: insurance-퇴직연금-디폴트옵션-사전지정운용제도
+cluster: insurance
+status: approved          # 스케줄 실행 = 운영자 즉석 승인 (KST 2026-08-16)
+
+target_query: "퇴직연금 디폴트옵션 사전지정운용제도"
+search_intent: 정보형      # 제도 개념·적용 대상·상품 유형 이해
+
+signal:                   # 수동 선정(큐 stale) — 집계 추정치
+  score: 63.5
+  trend_momentum: 0.34
+  question_volume: 0.43
+  cluster_fit: 1.0
+  freshness: 0.70
+
+must_cover:
+  - 사전지정운용제도(디폴트옵션)의 개념 — 가입자가 운용지시를 하지 않을 때 미리 정한 방법으로 운용
+  - 적용 대상 — 확정기여형(DC)·개인형퇴직연금(IRP), 확정급여형(DB) 제외
+  - 디폴트옵션이 발동되는 시점(운용지시 없이 일정 기간 경과 등)과 통지 절차
+  - 사전지정운용방법 상품 유형(원리금보장·펀드 등 승인된 포트폴리오)과 위험등급 구분
+  - 디폴트옵션을 지정해도 언제든 직접 운용지시로 변경 가능하다는 점
+  - 흔한 오해(자동으로 무조건 손실/수익 보장, DB형도 대상) 바로잡기
+
+required_sources:
+  - "근로자퇴직급여 보장법 제21조의2 (사전지정운용제도, 국가법령정보센터)"
+  - "근로자퇴직급여 보장법 시행령 (사전지정운용방법 관련, 국가법령정보센터)"
+  - "고용노동부 퇴직연금 사전지정운용제도(디폴트옵션) 안내 (moel.go.kr)"
+
+internal_links:
+  - insurance/퇴직연금-db-dc-irp-차이
+  - insurance/연금저축-irp-세액공제-한도
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: "디폴트옵션 = 방치해도 알아서 굴러가는 자동수익"이라는 오해를 정면 반박하고,
+  DC·IRP만 대상(DB 제외)·발동 시점·언제든 변경 가능이라는 세 축을 명확히.
+  기존 퇴직연금 글(DB/DC/IRP 차이·중도인출)과 겹치지 않게 '사전지정운용제도'에만 집중.
+  단정적 수익률·상품 추천 금지 — 제도 구조와 승인상품 유형 설명으로만(금융표현 가드).
