@@ -1,0 +1,45 @@
+id: support-희망저축계좌-가입조건-지원금-만기
+cluster: support
+status: approved
+
+target_query: "희망저축계좌 가입조건 정부지원금 만기 수령"
+search_intent: 절차형     # 대상 여부 확인 + 지원금·만기 조건 확인
+
+signal:                  # 운영자 수동 선정(스캐너 큐 stale) — 사이트 공백 보완
+  score: 0.0
+  trend_momentum: 0.0
+  question_volume: 0.0
+  cluster_fit: 1.0
+  freshness: 0.6
+
+must_cover:
+  - 희망저축계좌 Ⅰ(생계·의료급여 수급 근로가구)과 Ⅱ(주거·교육급여·차상위) 구분
+  - 가입 자격(가구소득·근로소득 요건)과 본인 저축액
+  - 근로소득장려금 등 정부 지원 매칭 방식(적립 구조)
+  - 3년 만기 수령 요건(가입기간 유지, 자립역량교육 이수, 사용계획서 등)
+  - 중도 지급해지·환수 사유(자격 상실, 근로 중단 등)
+  - 청년내일저축계좌 등 다른 자산형성 사업과의 차이(중복 가입 제한)
+
+required_sources:        # 공식 1차 출처만. whitelist 도메인.
+  - "복지로 자산형성지원(희망저축계좌Ⅰ·Ⅱ) 안내 — bokjiro.go.kr"
+  - "국민기초생활 보장법 / 자활 관련 근거 — 국가법령정보센터 law.go.kr"
+  - "보건복지부 자산형성지원사업 안내 — gov.kr / bokjiro.go.kr"
+
+internal_links:
+  - support/청년내일저축계좌-자격-신청
+  - support/기초생활수급자-신청자격-생계급여
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: 기발행 '청년내일저축계좌'는 청년 대상 자산형성. 이 글은 생계·의료급여
+  근로가구(Ⅰ)와 주거·교육급여·차상위(Ⅱ)를 대상으로 한 희망저축계좌 전용. 두 계좌를
+  헷갈리는 검색 수요를 정면으로 잡되, 자격·매칭지원·만기요건이 다르다는 점을 표로 분리.
+  '무조건 3배 준다'식 단정 금지, 지원금은 예산·연도 기준에 따라 달라질 수 있음을 명시,
+  일반정보 고지 유지.

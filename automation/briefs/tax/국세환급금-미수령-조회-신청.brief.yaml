@@ -1,0 +1,45 @@
+id: tax-국세환급금-미수령-조회-신청
+cluster: tax
+status: approved
+
+target_query: "국세 환급금 미수령 조회 찾는 방법"
+search_intent: 절차형     # 내 환급금이 있는지 확인 + 지급 신청 절차
+
+signal:                  # 운영자 수동 선정(스캐너 큐 stale) — 사이트 공백 보완
+  score: 0.0
+  trend_momentum: 0.0
+  question_volume: 0.0
+  cluster_fit: 1.0
+  freshness: 0.6
+
+must_cover:
+  - 미수령 국세 환급금이 생기는 이유(주소 변경·계좌 미등록·상속 등)
+  - 홈택스/손택스/정부24/위택스에서 환급금 조회하는 경로
+  - 환급금 지급 신청(계좌 신고) 방법과 지급 시기
+  - 환급금 소멸시효 5년(국세기본법)과 시효 완성 시 국고 귀속
+  - 상속인·대리인이 대신 조회·수령하는 경우
+  - 국세와 지방세(지방소득세 등) 환급금 창구가 다르다는 점
+
+required_sources:        # 공식 1차 출처만. whitelist 도메인.
+  - "국세기본법(국세환급금·소멸시효) — 국가법령정보센터 law.go.kr"
+  - "국세청 홈택스 환급금 조회 안내 — hometax.go.kr / nts.go.kr"
+  - "정부24 미환급금 찾기 안내 — gov.kr"
+
+internal_links:
+  - tax/종합소득세-환급금-조회-시기
+  - tax/연말정산-경정청구-환급
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: 기발행 '종합소득세 환급금 조회'는 종소세 신고분 환급 타이밍 중심.
+  이 글은 '이미 발생했는데 못 받고 잠자는' 미수령 환급금을 여러 창구(홈택스·정부24·
+  손택스·위택스)에서 찾아 되찾는 방법 + 소멸시효 5년 경과 시 국고 귀속이라는 시한성에
+  초점. 상속인 수령·국세 vs 지방세 창구 분리를 표로.
+  단정적 금액 약속 금지, 일반정보 고지 유지.

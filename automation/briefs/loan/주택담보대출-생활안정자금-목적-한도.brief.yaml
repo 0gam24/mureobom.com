@@ -1,0 +1,45 @@
+id: loan-주택담보대출-생활안정자금-목적-한도
+cluster: loan
+status: approved
+
+target_query: "주택담보대출 생활안정자금 목적 한도 주택구입 차이"
+search_intent: 정보형     # 목적별 주담대 한도·용도 제한 이해
+
+signal:                  # 운영자 수동 선정(스캐너 큐 stale) — 사이트 공백 보완
+  score: 0.0
+  trend_momentum: 0.0
+  question_volume: 0.0
+  cluster_fit: 1.15
+  freshness: 0.55
+
+must_cover:
+  - 주택담보대출의 자금 목적 구분(주택구입 vs 생활안정자금 vs 기존 임차보증금 반환)
+  - 생활안정자금 목적 주담대의 별도 한도 규제 취지(투기·갭투자 우회 차단)
+  - LTV·DSR 규제가 목적과 무관하게 공통 적용된다는 점
+  - 다주택자·규제지역에서 목적별 취급 차이
+  - 용도 증빙·사후 관리(자금 용도 외 유용 시 회수) 개념
+  - 실무상 흔한 오해(생활안정자금이면 규제를 피한다는 오해) 바로잡기
+
+required_sources:        # 공식 1차 출처만. whitelist 도메인.
+  - "은행업감독규정(주택담보대출 관련 조항) — 국가법령정보센터 law.go.kr"
+  - "금융위원회 가계부채 관리·주택담보대출 규제 안내 — fsc.go.kr"
+  - "금융감독원 금융소비자 정보(대출 한도·DSR) — fss.or.kr"
+
+internal_links:
+  - loan/주택담보대출-ltv-한도-규제지역
+  - loan/스트레스-dsr-3단계-한도
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: 기발행 주담대 글들은 LTV·DSR·규제지역 '구입자금' 중심. 이 글은 같은 주담대라도
+  '생활안정자금 목적'일 때 별도 한도·용도 제한이 붙는 이유와 구입자금과의 차이에 초점.
+  검색자가 흔히 오해하는 '생활안정자금이면 규제 우회 가능'을 정면 반박.
+  단정적 금리·한도 약속 금지(규정·금융회사·연도별로 달라짐), 일반정보 고지 유지.
+  출처가 whitelist에서 실렌더 검증 안 되면 이 편은 폐기하고 보고.
