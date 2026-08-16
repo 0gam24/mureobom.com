@@ -1,6 +1,6 @@
 id: tax-국세환급금-미수령-조회-신청
 cluster: tax
-status: approved
+status: published
 
 target_query: "국세 환급금 미수령 조회 찾는 방법"
 search_intent: 절차형     # 내 환급금이 있는지 확인 + 지급 신청 절차

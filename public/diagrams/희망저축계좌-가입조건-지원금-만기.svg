@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="520" fill="#FBF7F0"/>
+
+  <text x="40" y="46" font-size="26" font-weight="700" fill="#1A2B2A">희망저축계좌 Ⅰ·Ⅱ와 청년내일저축계좌 비교</text>
+  <text x="40" y="72" font-size="15" fill="#4A5856">대상·소득요건·적립 구조가 서로 다른 별개의 자산형성 사업이에요</text>
+
+  <!-- Column 1: 희망저축계좌 Ⅰ -->
+  <rect x="40" y="96" width="240" height="360" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="40" y="96" width="240" height="52" rx="10" fill="#0A5F58"/>
+  <rect x="40" y="130" width="240" height="18" fill="#0A5F58"/>
+  <text x="160" y="129" font-size="18" font-weight="700" fill="#FBF7F0" text-anchor="middle">희망저축계좌 Ⅰ</text>
+
+  <text x="60" y="184" font-size="13" fill="#8A938F">대상</text>
+  <text x="60" y="206" font-size="15" fill="#1A2B2A">생계·의료급여</text>
+  <text x="60" y="226" font-size="15" fill="#1A2B2A">수급 근로가구</text>
+
+  <text x="60" y="262" font-size="13" fill="#8A938F">소득요건</text>
+  <text x="60" y="284" font-size="15" fill="#1A2B2A">기준 중위소득</text>
+  <text x="60" y="304" font-size="15" fill="#1A2B2A">40% 이하</text>
+
+  <text x="60" y="342" font-size="13" fill="#8A938F">본인 적립</text>
+  <text x="60" y="366" font-size="18" font-weight="700" fill="#0E7C72">월 10만원</text>
+
+  <text x="60" y="404" font-size="13" fill="#8A938F">정부 매칭</text>
+  <text x="60" y="430" font-size="20" font-weight="700" fill="#C2873B">월 30만원</text>
+
+  <!-- Column 2: 희망저축계좌 Ⅱ -->
+  <rect x="292" y="96" width="240" height="360" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="292" y="96" width="240" height="52" rx="10" fill="#0E7C72"/>
+  <rect x="292" y="130" width="240" height="18" fill="#0E7C72"/>
+  <text x="412" y="129" font-size="18" font-weight="700" fill="#FBF7F0" text-anchor="middle">희망저축계좌 Ⅱ</text>
+
+  <text x="312" y="184" font-size="13" fill="#8A938F">대상</text>
+  <text x="312" y="206" font-size="15" fill="#1A2B2A">주거·교육급여</text>
+  <text x="312" y="226" font-size="15" fill="#1A2B2A">수급·차상위</text>
+
+  <text x="312" y="262" font-size="13" fill="#8A938F">소득요건</text>
+  <text x="312" y="284" font-size="15" fill="#1A2B2A">기준 중위소득</text>
+  <text x="312" y="304" font-size="15" fill="#1A2B2A">50% 이하</text>
+
+  <text x="312" y="342" font-size="13" fill="#8A938F">본인 적립</text>
+  <text x="312" y="366" font-size="18" font-weight="700" fill="#0E7C72">월 10만원</text>
+
+  <text x="312" y="404" font-size="13" fill="#8A938F">정부 매칭</text>
+  <text x="312" y="430" font-size="20" font-weight="700" fill="#C2873B">월 10만원</text>
+
+  <!-- Column 3: 청년내일저축계좌 -->
+  <rect x="544" y="96" width="240" height="360" rx="10" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <rect x="544" y="96" width="240" height="52" rx="10" fill="#4A5856"/>
+  <rect x="544" y="130" width="240" height="18" fill="#4A5856"/>
+  <text x="664" y="129" font-size="18" font-weight="700" fill="#FBF7F0" text-anchor="middle">청년내일저축계좌</text>
+
+  <text x="564" y="184" font-size="13" fill="#8A938F">대상</text>
+  <text x="564" y="206" font-size="15" fill="#1A2B2A">만 15~39세</text>
+  <text x="564" y="226" font-size="15" fill="#1A2B2A">근로 청년</text>
+
+  <text x="564" y="262" font-size="13" fill="#8A938F">소득요건</text>
+  <text x="564" y="284" font-size="15" fill="#1A2B2A">기준 중위소득</text>
+  <text x="564" y="304" font-size="15" fill="#1A2B2A">50% 이하</text>
+
+  <text x="564" y="342" font-size="13" fill="#8A938F">본인 적립</text>
+  <text x="564" y="366" font-size="18" font-weight="700" fill="#0E7C72">월 10만원</text>
+
+  <text x="564" y="404" font-size="13" fill="#8A938F">정부 매칭</text>
+  <text x="564" y="430" font-size="20" font-weight="700" fill="#C2873B">월 30만원</text>
+
+  <text x="40" y="492" font-size="13" fill="#8A938F">본인 적립액·정부 매칭액은 연도·예산에 따라 달라질 수 있어요. 신청 전 복지로·주민센터에서 확인하세요.</text>
+</svg>

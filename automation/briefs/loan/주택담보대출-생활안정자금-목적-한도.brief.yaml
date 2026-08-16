@@ -1,6 +1,6 @@
 id: loan-주택담보대출-생활안정자금-목적-한도
 cluster: loan
-status: approved
+status: published
 
 target_query: "주택담보대출 생활안정자금 목적 한도 주택구입 차이"
 search_intent: 정보형     # 목적별 주담대 한도·용도 제한 이해

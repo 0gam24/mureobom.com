@@ -1,6 +1,6 @@
 id: support-희망저축계좌-가입조건-지원금-만기
 cluster: support
-status: approved
+status: published
 
 target_query: "희망저축계좌 가입조건 정부지원금 만기 수령"
 search_intent: 절차형     # 대상 여부 확인 + 지원금·만기 조건 확인
