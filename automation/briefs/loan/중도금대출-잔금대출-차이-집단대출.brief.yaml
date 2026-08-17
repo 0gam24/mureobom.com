@@ -1,6 +1,6 @@
 id: loan-중도금대출-잔금대출-차이-집단대출
 cluster: loan
-status: approved         # 즉석 승인 (KST 2026-08-18) — 운영자 일일 발행 지시
+status: published        # 즉석 승인 (KST 2026-08-18) — 운영자 일일 발행 지시
 
 target_query: "중도금대출 잔금대출 차이"
 search_intent: 정보형      # 분양 아파트 대출 단계 이해 + 전환 시점 판단

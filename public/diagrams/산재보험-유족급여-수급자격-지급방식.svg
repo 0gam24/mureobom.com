@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 640" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="산재 유족급여 지급구조와 수급 순위 인포그래픽">
+  <rect x="0" y="0" width="820" height="640" fill="#FBF7F0"/>
+
+  <text x="40" y="52" font-size="27" font-weight="700" fill="#1A2B2A">산재 유족급여, 지급구조와 수급 순위</text>
+  <text x="40" y="82" font-size="15" fill="#4A5856">업무상 재해로 근로자가 사망한 경우 (산재보험법 제62조·제63조)</text>
+
+  <!-- 유족보상연금 패널 -->
+  <rect x="40" y="108" width="360" height="286" rx="14" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="60" y="142" font-size="18" font-weight="700" fill="#0A5F58">유족보상연금 (원칙)</text>
+  <text x="60" y="167" font-size="13" fill="#8A938F">급여기초연액 = 평균임금 × 365</text>
+
+  <!-- 기본금액 47% 막대 -->
+  <text x="60" y="200" font-size="14" fill="#1A2B2A">기본금액</text>
+  <rect x="60" y="210" width="220" height="34" rx="6" fill="#0E7C72"/>
+  <text x="170" y="232" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">급여기초연액의 47%</text>
+
+  <!-- 가산금액 -->
+  <text x="60" y="278" font-size="14" fill="#1A2B2A">가산금액</text>
+  <rect x="60" y="288" width="60" height="34" rx="6" fill="#C2873B"/>
+  <rect x="126" y="288" width="60" height="34" rx="6" fill="#C2873B"/>
+  <rect x="192" y="288" width="60" height="34" rx="6" fill="#C2873B"/>
+  <text x="90" y="310" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">+5%</text>
+  <text x="156" y="310" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">+5%</text>
+  <text x="222" y="310" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">+5%</text>
+  <text x="268" y="310" font-size="20" fill="#8A938F">…</text>
+  <text x="60" y="344" font-size="13" fill="#4A5856">수급자격자 1명당 5%, 합산 최대 20%</text>
+  <text x="60" y="378" font-size="15" font-weight="700" fill="#0A5F58">최대 급여기초연액의 67% 수준</text>
+
+  <!-- 유족보상일시금 패널 -->
+  <rect x="420" y="108" width="360" height="286" rx="14" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="440" y="142" font-size="18" font-weight="700" fill="#0A5F58">유족보상일시금</text>
+  <text x="440" y="170" font-size="14" fill="#4A5856">연금 받을 자격자가 없을 때 지급</text>
+
+  <rect x="440" y="192" width="320" height="52" rx="8" fill="#0E7C72"/>
+  <text x="600" y="225" font-size="19" font-weight="700" fill="#FBF7F0" text-anchor="middle">평균임금 1,300일분</text>
+
+  <text x="440" y="282" font-size="14" fill="#1A2B2A">일부 일시금 선택 (연금 수급권자)</text>
+  <rect x="440" y="294" width="320" height="30" rx="6" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="452" y="314" font-size="13" fill="#4A5856">일시금 50% 선지급 + 연금 50% 감액</text>
+
+  <text x="440" y="356" font-size="14" fill="#B5462F">청구 소멸시효: 사망 다음 날부터 5년</text>
+  <text x="440" y="380" font-size="13" fill="#8A938F">신청 창구: 근로복지공단</text>
+
+  <!-- 수급 순위 -->
+  <text x="40" y="446" font-size="18" font-weight="700" fill="#1A2B2A">수급 순위 (생계를 같이하던 유족)</text>
+
+  <g font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">
+    <rect x="40" y="466" width="120" height="46" rx="8" fill="#0A5F58"/>
+    <text x="100" y="494">배우자</text>
+    <rect x="182" y="466" width="120" height="46" rx="8" fill="#0E7C72"/>
+    <text x="242" y="494">자녀</text>
+    <rect x="324" y="466" width="120" height="46" rx="8" fill="#0E7C72"/>
+    <text x="384" y="494">부모</text>
+    <rect x="466" y="466" width="150" height="46" rx="8" fill="#0E7C72"/>
+    <text x="541" y="494">손자녀·조부모</text>
+    <rect x="638" y="466" width="142" height="46" rx="8" fill="#0E7C72"/>
+    <text x="709" y="494">형제자매</text>
+  </g>
+  <g fill="#C2873B" font-size="18" text-anchor="middle">
+    <text x="171" y="497">›</text>
+    <text x="313" y="497">›</text>
+    <text x="455" y="497">›</text>
+    <text x="627" y="497">›</text>
+  </g>
+
+  <text x="40" y="546" font-size="13" fill="#4A5856">배우자는 연령 요건 없음 · 자녀·손자녀 25세 미만 · 부모·조부모 60세 이상 · 형제자매 19세 미만 또는 60세 이상</text>
+  <text x="40" y="568" font-size="13" fill="#4A5856">장애인복지법상 정해진 장애 정도에 해당하는 유족도 수급자격자에 포함</text>
+
+  <rect x="40" y="588" width="740" height="32" rx="8" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="56" y="609" font-size="13" fill="#8A938F">산재 유족급여와 국민연금 유족연금은 근거법이 다른 별개 제도 · 출처: 국가법령정보센터, 법제처, 고용노동부</text>
+</svg>

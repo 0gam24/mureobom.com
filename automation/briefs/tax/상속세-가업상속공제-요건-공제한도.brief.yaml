@@ -1,6 +1,6 @@
 id: tax-상속세-가업상속공제-요건-공제한도
 cluster: tax
-status: approved         # 즉석 승인 (KST 2026-08-18) — 운영자 일일 발행 지시
+status: published        # compliance 게이트 통과 (KST 2026-08-18) — 발행 확정
 
 target_query: "상속세 가업상속공제 요건 한도"
 search_intent: 정보형      # 가업 승계 시 공제 자격·한도·사후관리 이해

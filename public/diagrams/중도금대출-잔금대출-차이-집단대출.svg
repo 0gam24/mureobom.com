@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 500" role="img" aria-label="분양 아파트 대출 3단계 타임라인. 계약금은 자기자금, 중도금은 중도금대출(집단대출·HF 보증·한도 규제 미적용), 잔금은 잔금대출(주택담보대출·LTV와 DSR 재심사·규제지역 한도 적용)." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="500" fill="#FBF7F0"/>
+  <text x="30" y="44" font-size="24" font-weight="700" fill="#1A2B2A">분양 아파트 대출 3단계 타임라인</text>
+  <text x="30" y="70" font-size="14" fill="#4A5856">계약금 · 중도금 · 잔금으로 진행되며 단계마다 대출 성격과 규제가 달라져요</text>
+
+  <!-- Stage 1: 계약금 -->
+  <rect x="30" y="92" width="230" height="286" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="30" y="92" width="230" height="44" rx="10" fill="#8A938F"/>
+  <rect x="30" y="118" width="230" height="18" fill="#8A938F"/>
+  <text x="46" y="120" font-size="17" font-weight="700" fill="#FBF7F0">1. 계약금</text>
+  <text x="46" y="172" font-size="14" fill="#1A2B2A">분양가의 약 10%</text>
+  <text x="46" y="198" font-size="14" fill="#1A2B2A">자기자금으로 납부</text>
+  <text x="46" y="224" font-size="14" fill="#4A5856">대출 없이 준비</text>
+
+  <!-- Stage 2: 중도금 -->
+  <rect x="295" y="92" width="230" height="286" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="295" y="92" width="230" height="44" rx="10" fill="#0E7C72"/>
+  <rect x="295" y="118" width="230" height="18" fill="#0E7C72"/>
+  <text x="311" y="120" font-size="17" font-weight="700" fill="#FBF7F0">2. 중도금</text>
+  <text x="311" y="172" font-size="14" font-weight="700" fill="#0A5F58">중도금대출 실행</text>
+  <text x="311" y="198" font-size="14" fill="#1A2B2A">집단대출(HF 보증)</text>
+  <text x="311" y="224" font-size="14" fill="#1A2B2A">사업장 단위 취급</text>
+  <text x="311" y="250" font-size="14" fill="#1A2B2A">분양대금 10% 이상 납부</text>
+  <rect x="311" y="268" width="198" height="28" rx="6" fill="#E3F0EE"/>
+  <text x="323" y="287" font-size="13" font-weight="700" fill="#0A5F58">6억 한도 규제 미적용</text>
+
+  <!-- Stage 3: 잔금 -->
+  <rect x="560" y="92" width="230" height="286" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="560" y="92" width="230" height="44" rx="10" fill="#C2873B"/>
+  <rect x="560" y="118" width="230" height="18" fill="#C2873B"/>
+  <text x="576" y="120" font-size="17" font-weight="700" fill="#FBF7F0">3. 잔금 / 입주</text>
+  <text x="576" y="172" font-size="14" font-weight="700" fill="#B5462F">잔금대출 = 주담대</text>
+  <text x="576" y="198" font-size="14" fill="#1A2B2A">차주별 LTV·DSR 재심사</text>
+  <text x="576" y="224" font-size="14" fill="#1A2B2A">규제지역 한도 적용</text>
+  <text x="576" y="250" font-size="14" fill="#1A2B2A">규제지역 LTV 40%</text>
+  <rect x="576" y="268" width="198" height="28" rx="6" fill="#E3F0EE"/>
+  <text x="588" y="287" font-size="13" font-weight="700" fill="#B5462F">전환 시 6억 한도 적용</text>
+
+  <!-- Arrows between stages -->
+  <path d="M264 235 L289 235" stroke="#8A938F" stroke-width="2" fill="none"/>
+  <path d="M289 235 l-9 -5 l0 10 z" fill="#8A938F"/>
+  <path d="M529 235 L554 235" stroke="#8A938F" stroke-width="2" fill="none"/>
+  <path d="M554 235 l-9 -5 l0 10 z" fill="#8A938F"/>
+
+  <!-- Bottom note band -->
+  <rect x="30" y="404" width="760" height="66" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="50" y="434" font-size="14" font-weight="700" fill="#1A2B2A">전환 포인트</text>
+  <text x="50" y="456" font-size="13.5" fill="#4A5856">중도금대출을 증액 없이 잔금대출로 전환하면 중도금 취급시점 LTV를 적용받을 수 있어요(사업장 공고 시점 기준).</text>
+</svg>
