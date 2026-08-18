@@ -1,6 +1,6 @@
 id: loan-신용카드-분실-도난-부정사용-보상-책임
 cluster: loan
-status: approved          # 오케스트레이터 즉석 승인 (2026-08-19 일일 발행)
+status: published         # compliance 게이트 통과 (2026-08-19 발행)
 
 target_query: "신용카드 분실 도난 부정사용 누가 보상 책임"
 search_intent: 절차형      # 책임 소재 확인 + 신고·보상 신청 절차를 함께 원함

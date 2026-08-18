@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 500" role="img" aria-label="기초생활보장 해산급여와 장제급여 요약 도표. 공통 대상은 생계·주거·의료급여 중 하나 이상을 받는 수급자예요(국민기초생활보장법 제7조제1항제1호부터 제3호). 해산급여는 출산·조산 때 출생영아 1인당 70만원을 수급자에게 지급해요(제13조). 장제급여는 수급자가 사망한 경우 사망자 1구당 80만원을 실제로 장제를 실시하는 사람에게 지급해요(제14조). 신청처는 주소지 관할 읍·면·동 행정복지센터예요. 긴급복지 장제비는 별개 제도예요.">
+  <rect x="0" y="0" width="820" height="500" fill="#FBF7F0"/>
+
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#1A2B2A">기초생활보장 해산급여·장제급여</text>
+  <text x="40" y="74" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">출산과 사망 때 받는 기초생활보장 급여예요 (국민기초생활보장법 제13·14조)</text>
+
+  <!-- 공통 대상 박스 -->
+  <rect x="40" y="92" width="740" height="70" rx="16" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="64" y="122" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">공통 대상 (제7조제1항제1호~제3호)</text>
+  <text x="64" y="147" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">생계·주거·의료급여 중 하나 이상을 받는 수급자</text>
+
+  <!-- 해산급여 카드 -->
+  <rect x="40" y="182" width="360" height="196" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.3"/>
+  <text x="62" y="214" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1A2B2A">해산급여 (제13조)</text>
+  <text x="62" y="240" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">출산·조산 때 지원</text>
+  <text x="62" y="286" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#0A5F58">70만원</text>
+  <text x="200" y="286" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">출생영아 1인당</text>
+  <circle cx="66" cy="322" r="3.5" fill="#0E7C72"/>
+  <text x="78" y="327" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">수급자에게 지급 (물품 지급 가능)</text>
+  <circle cx="66" cy="348" r="3.5" fill="#0E7C72"/>
+  <text x="78" y="353" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">'1인당' 기준이라 영아 수만큼 산정</text>
+
+  <!-- 장제급여 카드 -->
+  <rect x="420" y="182" width="360" height="196" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.3"/>
+  <text x="442" y="214" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1A2B2A">장제급여 (제14조)</text>
+  <text x="442" y="240" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">수급자 사망 때 지원</text>
+  <text x="442" y="286" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#0A5F58">80만원</text>
+  <text x="580" y="286" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">사망자 1구당</text>
+  <circle cx="446" cy="322" r="3.5" fill="#0E7C72"/>
+  <text x="458" y="327" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">실제로 장제를 실시하는 사람에게 지급</text>
+  <circle cx="446" cy="348" r="3.5" fill="#0E7C72"/>
+  <text x="458" y="353" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#4A5856">장제에 필요한 비용 (물품 지급 가능)</text>
+
+  <!-- 신청처 -->
+  <rect x="40" y="392" width="740" height="46" rx="12" fill="#FBF7F0" stroke="#0E7C72" stroke-width="1.3"/>
+  <circle cx="66" cy="415" r="4" fill="#0E7C72"/>
+  <text x="82" y="420" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#1A2B2A">신청처: 주소지 관할 읍·면·동 행정복지센터 (구체 서류·기한은 관할 읍면동·복지로에서 확인)</text>
+
+  <text x="40" y="466" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">※ 긴급복지지원의 장제비는 기초생활보장 장제급여와 다른 별개 제도예요.</text>
+  <text x="40" y="486" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">※ 금액은 보건복지부 급여수준 안내 기준이며, 세부 요건은 변동될 수 있어요.</text>
+</svg>

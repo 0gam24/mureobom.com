@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="신용카드 분실·도난 부정사용 보상 책임 구분: 신고 접수시점부터 카드사 책임, 신고 전 60일 소급 보상, 50만원 초과분 보상처리수수료, 고의·중과실이면 회원 부담. 카드사 보상 사례와 회원 부담 사례 비교 및 신고 3단계">
+  <rect x="0" y="0" width="820" height="620" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="40" y="52" font-size="26" font-weight="700" fill="#1A2B2A">카드 분실·도난 부정사용, 누가 보상하나요</text>
+  <text x="40" y="80" font-size="15" fill="#4A5856">2026년 기준 · 여신전문금융업법 등 관련 법령과 신용카드 표준약관 기준</text>
+  <line x1="40" y1="98" x2="780" y2="98" stroke="#E3DCCF" stroke-width="2"/>
+
+  <!-- 원칙 박스 -->
+  <rect x="40" y="118" width="740" height="112" rx="14" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="64" y="154" font-size="17" font-weight="700" fill="#0A5F58">보상 원칙</text>
+  <text x="64" y="188" font-size="30" font-weight="700" fill="#0E7C72">신고 접수시점부터 카드사 책임</text>
+  <text x="64" y="216" font-size="14.5" fill="#4A5856">신고 접수시점으로부터 60일 전 이후 발생한 제3자 부정사용액도 보상 신청 대상이에요.</text>
+
+  <!-- 타임라인 -->
+  <text x="40" y="270" font-size="16" font-weight="700" fill="#1A2B2A">신고 접수시점 기준 보상 범위</text>
+  <line x1="64" y1="300" x2="756" y2="300" stroke="#E3DCCF" stroke-width="4"/>
+  <circle cx="180" cy="300" r="7" fill="#C2873B"/>
+  <circle cx="620" cy="300" r="9" fill="#0E7C72"/>
+  <text x="180" y="332" font-size="13.5" fill="#4A5856" text-anchor="middle">60일 전</text>
+  <text x="620" y="332" font-size="13.5" font-weight="700" fill="#0A5F58" text-anchor="middle">신고 접수</text>
+  <rect x="180" y="286" width="440" height="0" />
+  <text x="400" y="286" font-size="13" fill="#8A938F" text-anchor="middle">소급 보상 신청 구간 (신고 전 60일)</text>
+  <text x="690" y="286" font-size="13" fill="#8A938F" text-anchor="middle">신고 후 전액</text>
+  <text x="64" y="360" font-size="13" fill="#B5462F">신고 전 발생분 중 50만원 초과액은 카드사가 보상처리수수료를 청구할 수 있어요.</text>
+
+  <!-- 카드사 보상 -->
+  <rect x="40" y="382" width="360" height="176" rx="14" fill="#F4EEE2" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="64" y="414" font-size="16" font-weight="700" fill="#0A5F58">카드사가 보상하는 쪽</text>
+  <circle cx="72" cy="442" r="4" fill="#0E7C72"/>
+  <text x="86" y="447" font-size="14" fill="#4A5856">신고 후 발생한 제3자 부정사용</text>
+  <circle cx="72" cy="470" r="4" fill="#0E7C72"/>
+  <text x="86" y="475" font-size="14" fill="#4A5856">신고 전 60일 이내 부정사용</text>
+  <circle cx="72" cy="498" r="4" fill="#0E7C72"/>
+  <text x="86" y="503" font-size="14" fill="#4A5856">카드정보 도용·위변조 부정사용</text>
+  <circle cx="72" cy="526" r="4" fill="#0E7C72"/>
+  <text x="86" y="531" font-size="14" fill="#4A5856">가족카드도 약관 따라 보상 대상</text>
+
+  <!-- 회원 부담 -->
+  <rect x="420" y="382" width="360" height="176" rx="14" fill="#F4EEE2" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="444" y="414" font-size="16" font-weight="700" fill="#B5462F">회원이 부담할 수 있는 쪽</text>
+  <circle cx="452" cy="442" r="4" fill="#B5462F"/>
+  <text x="466" y="447" font-size="14" fill="#4A5856">회원 고의로 인한 부정사용</text>
+  <circle cx="452" cy="470" r="4" fill="#B5462F"/>
+  <text x="466" y="475" font-size="14" fill="#4A5856">비밀번호 누설·관리소홀</text>
+  <circle cx="452" cy="498" r="4" fill="#B5462F"/>
+  <text x="466" y="503" font-size="14" fill="#4A5856">카드 대여·양도·담보제공</text>
+  <circle cx="452" cy="526" r="4" fill="#B5462F"/>
+  <text x="466" y="531" font-size="14" fill="#4A5856">카드 뒷면 서명 미기재 등</text>
+
+  <!-- 신고 -->
+  <rect x="40" y="574" width="740" height="34" rx="10" fill="#0A5F58"/>
+  <text x="410" y="596" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">분실·도난 즉시 카드사 신고 → 접수번호 확보 → 이의 시 금융감독원 분쟁조정 1332</text>
+</svg>
