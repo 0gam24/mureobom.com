@@ -1,6 +1,6 @@
 id: tax-사업용계좌-신고-대상-미신고-가산세
 cluster: tax
-status: approved            # 운영자 스케줄 지시(오늘 3편 발행) = 즉석 승인
+status: published           # compliance 게이트 전항목 통과 (2026-08-20 KST)
 
 target_query: "사업용계좌 신고 대상 미신고 가산세"
 search_intent: 절차형        # 신고 대상 여부 확인 + 신고 방법·불이익

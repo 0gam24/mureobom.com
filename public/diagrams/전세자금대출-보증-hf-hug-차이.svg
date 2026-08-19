@@ -1,0 +1,88 @@
+<svg viewBox="0 0 840 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="전세자금대출 보증 구조와 HF·HUG 비교: 대출 실행용 보증과 전세보증금반환보증의 목적 차이">
+  <rect x="0" y="0" width="840" height="720" fill="#FBF7F0"/>
+
+  <!-- Title -->
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#1A2B2A">전세자금대출 보증, HF와 HUG는 이렇게 달라요</text>
+  <text x="40" y="74" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">보증서를 담보로 은행이 대출을 실행하는 구조부터 보증의 두 목적까지</text>
+
+  <!-- Section 1: 대출 실행 구조 흐름 -->
+  <text x="40" y="118" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">1. 보증서를 담보로 은행이 대출을 실행하는 구조</text>
+
+  <!-- flow boxes -->
+  <rect x="40" y="134" width="150" height="64" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="115" y="162" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1A2B2A">임차인(신청)</text>
+  <text x="115" y="182" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">보증 신청</text>
+
+  <rect x="230" y="134" width="170" height="64" rx="10" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="315" y="162" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1A2B2A">보증기관</text>
+  <text x="315" y="182" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">HF · HUG (보증서 발급)</text>
+
+  <rect x="440" y="134" width="150" height="64" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="515" y="162" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1A2B2A">은행</text>
+  <text x="515" y="182" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">보증서 담보로 실행</text>
+
+  <rect x="630" y="134" width="170" height="64" rx="10" fill="#F4EEE2" stroke="#0A5F58" stroke-width="1.5"/>
+  <text x="715" y="162" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1A2B2A">전세대출 실행</text>
+  <text x="715" y="182" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12" fill="#4A5856">임대인 계좌 입금</text>
+
+  <!-- arrows -->
+  <line x1="190" y1="166" x2="228" y2="166" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="228,166 220,162 220,170" fill="#8A938F"/>
+  <line x1="400" y1="166" x2="438" y2="166" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="438,166 430,162 430,170" fill="#8A938F"/>
+  <line x1="590" y1="166" x2="628" y2="166" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="628,166 620,162 620,170" fill="#8A938F"/>
+
+  <!-- Section 2: 보증의 두 목적 -->
+  <text x="40" y="256" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">2. 목적이 다른 두 보증을 헷갈리지 마세요</text>
+
+  <rect x="40" y="272" width="370" height="120" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="60" y="300" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">대출 실행용 보증</text>
+  <text x="60" y="326" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">은행이 전세대출을 내주도록 하는 담보</text>
+  <text x="60" y="348" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">HF 전세자금보증</text>
+  <text x="60" y="368" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">HUG 전세금안심대출보증(대출용)</text>
+
+  <rect x="430" y="272" width="370" height="120" rx="12" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="450" y="300" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#B5462F">전세보증금 반환보증</text>
+  <text x="450" y="326" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">보증금을 못 돌려받을 때 대신 반환</text>
+  <text x="450" y="348" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">HUG 전세보증금반환보증</text>
+  <text x="450" y="368" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">안심대출은 반환보증특약을 결합</text>
+
+  <!-- Section 3: HF vs HUG 비교표 -->
+  <text x="40" y="440" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">3. HF와 HUG 한눈에 비교</text>
+
+  <!-- table -->
+  <rect x="40" y="456" width="760" height="230" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <!-- header row -->
+  <rect x="40" y="456" width="760" height="44" rx="10" fill="#0E7C72"/>
+  <rect x="40" y="480" width="760" height="20" fill="#0E7C72"/>
+  <text x="150" y="484" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">구분</text>
+  <text x="410" y="484" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">HF 전세자금보증</text>
+  <text x="655" y="484" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">HUG 전세금안심대출보증</text>
+
+  <!-- column dividers -->
+  <line x1="260" y1="456" x2="260" y2="686" stroke="#E3DCCF" stroke-width="1.5"/>
+  <line x1="530" y1="456" x2="530" y2="686" stroke="#E3DCCF" stroke-width="1.5"/>
+  <!-- row dividers -->
+  <line x1="40" y1="546" x2="800" y2="546" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="592" x2="800" y2="592" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="638" x2="800" y2="638" stroke="#E3DCCF" stroke-width="1"/>
+
+  <text x="55" y="528" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#1A2B2A">운영 주체</text>
+  <text x="275" y="528" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">한국주택금융공사</text>
+  <text x="545" y="528" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">주택도시보증공사</text>
+
+  <text x="55" y="574" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#1A2B2A">성격</text>
+  <text x="275" y="574" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">대출 실행용 보증</text>
+  <text x="545" y="574" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">대출용 보증 + 반환보증특약</text>
+
+  <text x="55" y="620" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#1A2B2A">한도</text>
+  <text x="275" y="620" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">지역·주택수별 차등</text>
+  <text x="545" y="620" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">보증금·담보유형별 산정</text>
+
+  <text x="55" y="666" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#1A2B2A">보증료</text>
+  <text x="275" y="666" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">보증금 구간별 요율 조정</text>
+  <text x="545" y="666" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">보증금·기간·신용 고려 산정</text>
+
+  <text x="40" y="708" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="11" fill="#8A938F">출처: 한국주택금융공사(hf.go.kr), 주택도시보증공사(khug.or.kr) 상품안내. 수치는 조건에 따라 달라져요.</text>
+</svg>

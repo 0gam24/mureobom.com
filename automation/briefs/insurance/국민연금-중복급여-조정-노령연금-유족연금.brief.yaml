@@ -1,6 +1,6 @@
 id: insurance-국민연금-중복급여-조정-노령연금-유족연금
 cluster: insurance
-status: approved            # 운영자 스케줄 지시(오늘 3편 발행) = 즉석 승인
+status: published           # compliance 게이트 통과(2026-08-20 KST) — 발행 확정
 
 target_query: "국민연금 중복급여 조정 노령연금 유족연금 동시 수령"
 search_intent: 정보형        # 두 급여 동시 발생 시 어떻게 조정되는지 확인

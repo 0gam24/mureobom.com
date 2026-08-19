@@ -1,0 +1,49 @@
+id: loan-전세자금대출-보증-hf-hug-차이
+cluster: loan
+status: published           # compliance 게이트 통과(2026-08-20 KST). 발행 확정.
+# NOTE: 원래 'HF·HUG·SGI 3기관' 브리프로 승인했으나, 리서치 단계에서 SGI(sgic.co.kr)가
+# 조직 egress 정책으로 접근 불가 + law.go.kr 조문 미렌더. 비공식 출처 인용 금지 원칙(절대원칙 2)에
+# 따라 SGI 상세 주장은 배제하고, 공적 보증기관 HF·HUG(5건 실렌더 검증)로 범위를 재설정.
+
+target_query: "전세자금대출 보증 HF HUG 차이"
+search_intent: 정보형
+
+signal:
+  score: 0
+  trend_momentum: 0
+  question_volume: 0
+  cluster_fit: 1.15
+  freshness: 0.5
+
+must_cover:
+  - 전세자금대출은 대부분 보증기관 보증서를 담보로 실행된다는 구조
+  - HF(한국주택금융공사) 전세자금보증의 성격(보증대상·한도·보증료 개념)
+  - HUG(주택도시보증공사) 전세금안심대출보증(대출용 보증) 구조
+  - '대출 실행용 보증'과 'HUG 전세보증금반환보증(보증금 떼임 방지)'의 구분
+  - HF·HUG 비교표(보증대상·한도·보증료 개념, 조건별 변동)
+  - 흔한 오해(어떤 보증이 적용되는지는 소비자 임의 선택이 아니라 상품·소득·주택 조건으로 정해진다)
+
+required_sources:           # 공식 1차 출처만(5건 실렌더 검증 완료)
+  - "한국주택금융공사(HF) 일반전세자금보증 (hf.go.kr)"
+  - "한국주택금융공사(HF) 전세자금보증 상품개요 (hf.go.kr)"
+  - "주택도시보증공사(HUG) 전세금안심대출보증 (khug.or.kr)"
+  - "주택도시보증공사(HUG) 전세보증금반환보증 (khug.or.kr)"
+
+internal_links:
+  - "loan/전세자금대출-조건-한도"
+  - "loan/전세보증금-반환보증-hug-가입조건"
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: '전세대출 보증(대출 실행용)'과 '전세보증금 반환보증(떼임 방지)'을 혼동하는 독자 교정 표 필수.
+  같은 HUG 안에서도 전세금안심대출보증(대출+반환 결합)과 순수 반환보증이 구분됨을 명확히.
+  SGI서울보증 등 민간 보증은 '존재한다' 수준의 일반 언급만(공식 출처 미확보로 구체 수치·요건 주장 금지).
+  보증료·한도는 '보증금·기간·신용·지역·주택수에 따라 산정/조정'이라는 원문 근거로 단정 회피.
+  브랜드 팔레트 인포그래픽 1개 필수(대출용 보증 vs 반환보증 구분 흐름도).
