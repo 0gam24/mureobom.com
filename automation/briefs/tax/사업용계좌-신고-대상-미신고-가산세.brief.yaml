@@ -1,0 +1,43 @@
+id: tax-사업용계좌-신고-대상-미신고-가산세
+cluster: tax
+status: approved            # 운영자 스케줄 지시(오늘 3편 발행) = 즉석 승인
+
+target_query: "사업용계좌 신고 대상 미신고 가산세"
+search_intent: 절차형        # 신고 대상 여부 확인 + 신고 방법·불이익
+
+signal:
+  score: 0
+  trend_momentum: 0
+  question_volume: 0
+  cluster_fit: 1.10
+  freshness: 0.5
+
+must_cover:
+  - 사업용계좌 제도의 취지(복식부기의무자의 사업 관련 거래 투명화)
+  - 신고 의무 대상(복식부기의무자)과 신고 기한
+  - 사업용계좌로 처리해야 하는 거래 범위(대금 결제·인건비·임차료 등)
+  - 미신고·미사용 시 가산세 계산 방식
+  - 사업용계좌 신고 방법(홈택스·세무서)
+  - 흔한 오해(간편장부대상자는 의무 아님, 개인용 계좌와의 구분)
+
+required_sources:
+  - "소득세법 제160조의5 사업용계좌의 신고·사용 (국가법령정보센터)"
+  - "소득세법 제81조의6 사업용계좌 신고·사용 불성실 가산세 (국가법령정보센터)"
+  - "국세청 사업용계좌 신고 안내 (nts.go.kr)"
+
+internal_links:
+  - "tax/간편장부-복식부기-차이-대상"
+  - "tax/사업자등록-신청-절차-종류"
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: 복식부기의무자만 의무라는 점 + 미신고 가산세와 미사용 가산세를 나눠 계산식으로 제시.
+  간편장부대상자는 의무 없음을 명확히(대상 오해 교정). 가산세율은 법령 조문 기준으로 정확히,
+  단정적 표현 대신 '해당 과세기간 기준' 명시. 브랜드 팔레트 인포그래픽 1개 필수(가산세 계산 흐름도).

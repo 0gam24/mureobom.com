@@ -1,0 +1,44 @@
+id: insurance-국민연금-중복급여-조정-노령연금-유족연금
+cluster: insurance
+status: approved            # 운영자 스케줄 지시(오늘 3편 발행) = 즉석 승인
+
+target_query: "국민연금 중복급여 조정 노령연금 유족연금 동시 수령"
+search_intent: 정보형        # 두 급여 동시 발생 시 어떻게 조정되는지 확인
+
+signal:
+  score: 0
+  trend_momentum: 0
+  question_volume: 0
+  cluster_fit: 1.0
+  freshness: 0.5
+
+must_cover:
+  - 중복급여 조정(병급 조정) 원칙(한 사람에게 둘 이상 급여 발생 시 하나만 선택)
+  - 대표 사례(본인 노령연금 + 배우자 사망 유족연금 동시 발생)
+  - 유족연금을 선택하지 않고 노령연금을 택할 때 유족연금 일부(30%) 추가 지급 규정
+  - 국민연금과 타 공적연금·산재보험 등 다른 법에 따른 급여와의 조정
+  - 선택 시 유의점(총 수령액 비교, 취소·변경 가능 여부)
+  - 흔한 오해(둘 다 100% 받는다는 통념 교정)
+
+required_sources:
+  - "국민연금법 제56조 중복급여의 조정 (국가법령정보센터)"
+  - "국민연금법 제113조 등 다른 법률에 따른 급여와의 조정 (국가법령정보센터)"
+  - "국민연금공단 중복급여 조정 안내 (nps.or.kr)"
+
+internal_links:
+  - "insurance/유족연금-수급요건-금액"
+  - "insurance/국민연금-수령나이-출생연도별"
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: '노령연금+유족연금 둘 다 받나?'라는 실제 최다 질문에 정면으로 답 —
+  하나만 선택하되 유족연금 미선택 시 유족연금액의 30% 추가 지급이라는 핵심 규정을 강조.
+  중복급여 조정은 국민연금 내부 조정(제56조)과 타법 급여 조정(제113조 등)을 구분.
+  금액은 '개인별 가입이력에 따라 다름' 고지. 브랜드 팔레트 인포그래픽 1개 필수(선택 흐름도).

@@ -1,0 +1,45 @@
+id: loan-전세자금대출-보증기관-hf-hug-sgi-차이
+cluster: loan
+status: approved            # 운영자 스케줄 지시(오늘 3편 발행) = 즉석 승인
+
+target_query: "전세자금대출 보증기관 HF HUG SGI 차이"
+search_intent: 정보형        # 세 보증기관의 차이·선택 기준을 함께 원함
+
+signal:                     # 스캐너 미측정(수동 갭선정). 사이트 공백 보강
+  score: 0
+  trend_momentum: 0
+  question_volume: 0
+  cluster_fit: 1.0
+  freshness: 0.5
+
+must_cover:
+  - 전세자금대출은 대부분 보증기관 보증서 담보로 실행된다는 구조
+  - HF(한국주택금융공사) 전세자금보증의 성격·특징
+  - HUG(주택도시보증공사) 전세보증금반환보증과 대출용 보증의 구분
+  - SGI서울보증 전세자금대출 보증의 성격(고가주택·한도 특성)
+  - 세 기관 보증 비교표(보증대상·한도·보증료 개념)
+  - 흔한 오해(보증기관은 내가 고르는 게 아니라 상품·조건에 따라 정해진다) 바로잡기
+
+required_sources:           # 공식 1차 출처만. 0건이면 발행 차단
+  - "한국주택금융공사(HF) 전세자금보증 안내 (hf.go.kr)"
+  - "주택도시보증공사(HUG) 전세보증 안내 (khug.or.kr)"
+  - "SGI서울보증 전세자금 보증 안내 (sgic.co.kr)"
+  - "주택도시기금 / 주택금융 관련 근거 법령 (국가법령정보센터)"
+
+internal_links:
+  - "loan/전세자금대출-조건-한도"
+  - "loan/전세보증금-반환보증-hug-가입조건"
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 4
+  llms_txt: true
+
+human_notes: |
+  차별화: '전세자금대출 보증'과 '전세보증금 반환보증(HUG)'을 혼동하는 독자가 많음 —
+  대출 실행용 보증 vs 보증금 떼임 방지 보증을 명확히 구분하는 표를 반드시 넣는다.
+  보증기관은 소비자가 임의 선택하는 게 아니라 상품·소득·주택가격에 따라 정해진다는 점 강조.
+  단정적 금리·한도 약속 금지(연도·상품별 변동). 브랜드 팔레트 인포그래픽 1개 필수.
