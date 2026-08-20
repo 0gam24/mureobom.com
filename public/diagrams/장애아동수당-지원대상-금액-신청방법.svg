@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-label="장애아동수당은 만 18세 미만 등록 장애아동 중 국민기초생활보장 수급자 또는 차상위계층에게 지급해요. 조회일 2026년 8월 정부24 기준 월 지급액은 중증의 경우 생계 의료급여 22만원, 주거 교육급여와 차상위 17만원, 보장시설 9만원이고, 경증의 경우 생계 의료급여와 주거 교육급여 차상위 11만원, 보장시설 3만원이에요. 금액은 매년 고시로 변동되니 복지로에서 최신 값을 확인하세요. 신청은 신분증과 신청서, 소득재산 신고서, 금융정보 동의서, 통장사본을 준비해 읍면동 주민센터 방문 또는 복지로 온라인으로 접수하면 소득재산 조사와 장애정도 심사를 거쳐 신청한 달부터 매월 계좌로 지급돼요." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="600" fill="#FBF7F0"/>
+  <text x="32" y="44" font-size="24" font-weight="700" fill="#1A2B2A">장애아동수당 지급액과 신청 흐름</text>
+  <text x="32" y="72" font-size="13" fill="#4A5856">만 18세 미만 등록 장애아동 + 기초수급자·차상위 / 장애인복지법 제50조</text>
+
+  <!-- 지급액 표 헤더 -->
+  <text x="32" y="108" font-size="15" font-weight="700" fill="#1A2B2A">수급자격별 월 지급액 (조회일 2026년 8월 정부24 기준)</text>
+
+  <!-- 표: 헤더 행 -->
+  <rect x="32" y="122" width="330" height="40" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="362" y="122" width="183" height="40" fill="#E3F0EE" stroke="#0E7C72"/>
+  <rect x="545" y="122" width="183" height="40" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="52" y="147" font-size="12" font-weight="700" fill="#4A5856">수급자격</text>
+  <text x="453" y="147" font-size="13" font-weight="700" fill="#0A5F58" text-anchor="middle">중증(심한 장애)</text>
+  <text x="636" y="147" font-size="13" font-weight="700" fill="#1A2B2A" text-anchor="middle">경증</text>
+
+  <!-- 행 1 -->
+  <rect x="32" y="162" width="330" height="44" fill="#FBF7F0" stroke="#E3DCCF"/>
+  <rect x="362" y="162" width="183" height="44" fill="#FBF7F0" stroke="#E3DCCF"/>
+  <rect x="545" y="162" width="183" height="44" fill="#FBF7F0" stroke="#E3DCCF"/>
+  <text x="52" y="189" font-size="12" fill="#1A2B2A">생계·의료급여 수급자</text>
+  <text x="453" y="190" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">월 22만 원</text>
+  <text x="636" y="190" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">월 11만 원</text>
+
+  <!-- 행 2 -->
+  <rect x="32" y="206" width="330" height="44" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="362" y="206" width="183" height="44" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <rect x="545" y="206" width="183" height="44" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="52" y="227" font-size="12" fill="#1A2B2A">주거·교육급여 수급자,</text>
+  <text x="52" y="243" font-size="12" fill="#1A2B2A">차상위계층</text>
+  <text x="453" y="234" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">월 17만 원</text>
+  <text x="636" y="234" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">월 11만 원</text>
+
+  <!-- 행 3 -->
+  <rect x="32" y="250" width="330" height="44" fill="#FBF7F0" stroke="#E3DCCF"/>
+  <rect x="362" y="250" width="183" height="44" fill="#FBF7F0" stroke="#E3DCCF"/>
+  <rect x="545" y="250" width="183" height="44" fill="#FBF7F0" stroke="#E3DCCF"/>
+  <text x="52" y="277" font-size="12" fill="#1A2B2A">보장시설 입소 수급자</text>
+  <text x="453" y="278" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">월 9만 원</text>
+  <text x="636" y="278" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">월 3만 원</text>
+
+  <text x="32" y="316" font-size="11" fill="#8A938F">금액은 매년 고시로 변동돼요. 신청 전 복지로(bokjiro.go.kr)에서 최신 값을 확인하세요.</text>
+
+  <!-- 신청 흐름 -->
+  <text x="32" y="356" font-size="15" font-weight="700" fill="#1A2B2A">신청 흐름</text>
+
+  <rect x="32" y="370" width="168" height="60" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="116" y="394" font-size="11" fill="#4A5856" text-anchor="middle">서류 준비</text>
+  <text x="116" y="410" font-size="10" fill="#8A938F" text-anchor="middle">신청서·소득재산신고서</text>
+  <text x="116" y="424" font-size="10" fill="#8A938F" text-anchor="middle">동의서·통장사본</text>
+  <polygon points="206,400 218,394 218,406" fill="#8A938F"/>
+
+  <rect x="224" y="370" width="168" height="60" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="308" y="394" font-size="11" fill="#4A5856" text-anchor="middle">접수</text>
+  <text x="308" y="410" font-size="10" fill="#8A938F" text-anchor="middle">읍·면·동 주민센터 방문</text>
+  <text x="308" y="424" font-size="10" fill="#8A938F" text-anchor="middle">또는 복지로 온라인</text>
+  <polygon points="398,400 410,394 410,406" fill="#8A938F"/>
+
+  <rect x="416" y="370" width="168" height="60" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="500" y="394" font-size="11" fill="#4A5856" text-anchor="middle">조사·심사</text>
+  <text x="500" y="410" font-size="10" fill="#8A938F" text-anchor="middle">소득·재산 조사</text>
+  <text x="500" y="424" font-size="10" fill="#8A938F" text-anchor="middle">장애 정도 심사</text>
+  <polygon points="590,400 602,394 602,406" fill="#8A938F"/>
+
+  <rect x="608" y="370" width="120" height="60" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="668" y="394" font-size="12" font-weight="700" fill="#0A5F58" text-anchor="middle">매월 지급</text>
+  <text x="668" y="410" font-size="10" fill="#4A5856" text-anchor="middle">현금·계좌입금</text>
+  <text x="668" y="424" font-size="10" fill="#4A5856" text-anchor="middle">신청한 달부터</text>
+
+  <!-- 유의 배너 -->
+  <rect x="32" y="452" width="696" height="112" rx="10" fill="#FBF7F0" stroke="#C2873B"/>
+  <text x="52" y="480" font-size="13" font-weight="700" fill="#C2873B">함께 알아두기</text>
+  <text x="52" y="504" font-size="11" fill="#4A5856">장애 등록만으로는 지급되지 않고, 기초수급자·차상위 소득 요건을 함께 채워야 해요.</text>
+  <text x="52" y="524" font-size="11" fill="#4A5856">장애수당(만 18세 이상 경증, 제49조)·장애인연금과는 근거·대상이 다른 별개 제도예요.</text>
+  <text x="52" y="544" font-size="11" fill="#4A5856">만 18세 도달 시 경증은 장애수당 전환, 중증은 장애인연금을 별도 신청해야 해요.</text>
+</svg>

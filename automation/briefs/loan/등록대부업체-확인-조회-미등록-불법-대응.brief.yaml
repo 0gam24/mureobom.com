@@ -1,6 +1,6 @@
 id: loan-등록대부업체-확인-조회-미등록-불법-대응
 cluster: loan
-status: approved         # 스케줄 실행 = 운영자 '오늘 3편 발행' 즉석 승인 (2026-08-21 KST)
+status: published         # compliance 게이트 통과, 발행 (2026-08-21 KST)
 
 target_query: "등록 대부업체 확인 방법 합법 대부업체 조회 미등록 불법 사채 대응"
 search_intent: 절차형      # 이 업체가 등록된 합법 대부업체인지 확인하는 절차 + 미등록 시 대응

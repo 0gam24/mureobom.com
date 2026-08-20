@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" role="img" aria-label="등록 대부업체 확인 4단계와 확인 항목 체크리스트, 미등록 의심 시 서민금융1332 신고 흐름">
+  <rect x="0" y="0" width="760" height="620" fill="#FBF7F0"/>
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#1A2B2A">등록 대부업체 확인 흐름</text>
+  <text x="40" y="72" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">금융감독원 등록대부업체 통합조회로 합법 등록 여부를 확인하세요</text>
+
+  <!-- Step 1 -->
+  <rect x="40" y="96" width="330" height="96" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <circle cx="72" cy="128" r="16" fill="#0E7C72"/>
+  <text x="72" y="133" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+  <text x="100" y="126" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">통합조회 접속</text>
+  <text x="100" y="150" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">금융감독원 등록대부업체</text>
+  <text x="100" y="169" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">통합조회(fss.or.kr)</text>
+
+  <!-- Step 2 -->
+  <rect x="390" y="96" width="330" height="96" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <circle cx="422" cy="128" r="16" fill="#0E7C72"/>
+  <text x="422" y="133" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+  <text x="450" y="126" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">4개 항목 중 하나로 검색</text>
+  <text x="450" y="150" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">등록증번호 · 업체명 · 대표자</text>
+  <text x="450" y="169" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">전화번호(하이픈 공백 제외)</text>
+
+  <!-- Step 3 -->
+  <rect x="40" y="216" width="330" height="96" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <circle cx="72" cy="248" r="16" fill="#0E7C72"/>
+  <text x="72" y="253" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+  <text x="100" y="246" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">상세 항목 대조</text>
+  <text x="100" y="270" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">등록번호 · 등록기관 · 유효기간</text>
+  <text x="100" y="289" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">운영 상태 · 소재지 · 연락처</text>
+
+  <!-- Step 4 -->
+  <rect x="390" y="216" width="330" height="96" rx="12" fill="#E3F0EE" stroke="#0A5F58" stroke-width="1.5"/>
+  <circle cx="422" cy="248" r="16" fill="#0A5F58"/>
+  <text x="422" y="253" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">4</text>
+  <text x="450" y="246" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">결과 판단</text>
+  <text x="450" y="270" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">조회되면 등록업체, 목록에</text>
+  <text x="450" y="289" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">없거나 정보 불일치면 미등록 의심</text>
+
+  <!-- connectors -->
+  <path d="M205 192 L205 209" stroke="#C2873B" stroke-width="2" fill="none"/>
+  <path d="M555 192 L555 209" stroke="#C2873B" stroke-width="2" fill="none"/>
+  <path d="M370 144 L387 144" stroke="#C2873B" stroke-width="2" fill="none"/>
+  <path d="M370 264 L387 264" stroke="#C2873B" stroke-width="2" fill="none"/>
+
+  <!-- checklist panel -->
+  <rect x="40" y="340" width="680" height="160" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="64" y="372" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">미등록(불법) 의심 신호</text>
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">
+    <text x="64" y="402">· 등록번호를 밝히지 않거나 조회 결과와 다름</text>
+    <text x="64" y="428">· 광고 전화번호가 등록업체 연락처와 불일치</text>
+    <text x="64" y="454">· 신용조회 없이 즉시 대출, 선이자를 먼저 요구</text>
+    <text x="64" y="480">· 연 20%를 넘는 이자, 계약서를 주지 않음</text>
+    <text x="400" y="402">· 유효기간이 지난 등록증을 제시</text>
+    <text x="400" y="428">· 대표자 이름이 조회 정보와 다름</text>
+    <text x="400" y="454">· 시세보다 크게 낮은 금리로 유인</text>
+    <text x="400" y="480">· 개인 계좌로 입금 유도, 문자로만 접촉</text>
+  </g>
+
+  <!-- report bar -->
+  <rect x="40" y="524" width="680" height="64" rx="12" fill="#E3F0EE" stroke="#0A5F58" stroke-width="1.5"/>
+  <text x="64" y="552" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#B5462F">미등록 대부·불법추심 피해</text>
+  <text x="64" y="575" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">서민금융 1332(국번없이) 신고 상담, 채무자대리인 및 소송변호사 무료지원 신청</text>
+</svg>

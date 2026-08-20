@@ -1,6 +1,6 @@
 id: support-장애아동수당-지원대상-금액-신청방법
 cluster: support
-status: approved         # 스케줄 실행 = 운영자 '오늘 3편 발행' 즉석 승인 (2026-08-21 KST)
+status: published        # compliance 게이트 통과 (2026-08-21 KST). 스케줄 실행 = 운영자 '오늘 3편 발행' 즉석 승인
 
 target_query: "장애아동수당 지원대상 금액 신청방법 소득기준 중증 경증 2026"
 search_intent: 절차형      # 만 18세 미만 장애아동 수당 대상·금액·신청 절차 확인

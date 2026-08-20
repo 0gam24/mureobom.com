@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" role="img" aria-label="사업장현황신고 한눈에 보기: 대상은 부가가치세 면세 개인사업자(병의원 학원 농축수산물 연예인 주택임대), 과세사업자와 법인은 부가세 신고로 갈음돼 비대상. 기한은 해당 과세기간 다음 해 2월 10일까지, 홈택스 전자신고 또는 세무서 서면. 신고항목은 업종별 수입금액 명세, 시설현황, 매입 매출처별 계산서합계표. 가산세는 의료 수의 약사업 무신고 과소신고 수입금액의 0.5퍼센트, 계산서합계표 미제출 공급가액의 0.5퍼센트. 신고한 수입금액은 5월 종합소득세 신고의 기초자료.">
+  <rect x="0" y="0" width="880" height="640" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#1A2B2A">사업장현황신고 한눈에 보기</text>
+  <text x="40" y="74" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">부가가치세 면세 개인사업자가 전년도 수입금액을 미리 신고하는 절차예요 (소득세법 제78조)</text>
+
+  <!-- 대상 판단 박스 -->
+  <rect x="220" y="94" width="440" height="52" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="440" y="126" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">부가가치세 면세 개인사업자인가요?</text>
+
+  <!-- 갈림 화살표 -->
+  <line x1="360" y1="146" x2="240" y2="172" stroke="#0E7C72" stroke-width="2"/>
+  <polygon points="240,172 251,166 249,177" fill="#0E7C72"/>
+  <line x1="520" y1="146" x2="640" y2="172" stroke="#8A938F" stroke-width="2"/>
+  <polygon points="640,172 629,166 631,177" fill="#8A938F"/>
+  <text x="292" y="167" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#0E7C72">예 (신고 대상)</text>
+  <text x="588" y="167" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#8A938F">아니오 (비대상)</text>
+
+  <!-- 왼쪽 대상 패널 -->
+  <rect x="40" y="180" width="380" height="150" rx="12" fill="#F4EEE2"/>
+  <text x="60" y="208" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">신고 대상 예시</text>
+  <text x="60" y="234" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">· 병의원, 치과, 한의원 등 의료업</text>
+  <text x="60" y="257" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">· 입시, 외국어, 예체능 학원</text>
+  <text x="60" y="280" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">· 농축수산물 도소매업</text>
+  <text x="60" y="303" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">· 가수, 모델, 배우 등 연예인</text>
+  <text x="60" y="322" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">· 주택임대사업자</text>
+
+  <!-- 오른쪽 비대상 패널 -->
+  <rect x="440" y="180" width="400" height="150" rx="12" fill="#F4EEE2"/>
+  <text x="460" y="208" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#4A5856">비대상</text>
+  <text x="460" y="234" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">· 부가가치세 과세사업자</text>
+  <text x="460" y="257" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">· 법인사업자</text>
+  <text x="460" y="290" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">부가세 신고(제48·49·66·67조)를 하면</text>
+  <text x="460" y="310" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">현황신고를 한 것으로 봐요 (별도 신고 X)</text>
+
+  <!-- 기한 / 방법 / 항목 3열 -->
+  <rect x="40" y="352" width="256" height="132" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <text x="60" y="380" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">기한</text>
+  <text x="60" y="408" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">다음 해 2월 10일</text>
+  <text x="60" y="432" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">해당 과세기간의 다음 연도</text>
+  <text x="60" y="452" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">2월 10일까지 신고</text>
+  <text x="60" y="474" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">사업장 소재지 관할 세무서</text>
+
+  <rect x="312" y="352" width="256" height="132" rx="12" fill="#F4EEE2"/>
+  <text x="332" y="380" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">신고 방법</text>
+  <text x="332" y="408" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">홈택스 전자신고</text>
+  <text x="332" y="430" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">(hometax.go.kr)</text>
+  <text x="332" y="456" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">또는 세무서 방문 서면</text>
+
+  <rect x="584" y="352" width="256" height="132" rx="12" fill="#F4EEE2"/>
+  <text x="604" y="380" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">신고 항목</text>
+  <text x="604" y="406" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">· 업종별 수입금액 명세</text>
+  <text x="604" y="430" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">· 시설현황(면적·설비 등)</text>
+  <text x="604" y="454" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">· 매입 매출처별</text>
+  <text x="604" y="473" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">&#160;&#160;계산서합계표</text>
+
+  <!-- 가산세 경고 박스 -->
+  <rect x="40" y="500" width="800" height="66" rx="12" fill="#FBF7F0" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="60" y="527" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#B5462F">신고 안 하면 가산세</text>
+  <text x="60" y="550" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">의료·수의·약사업 무신고·과소신고: 수입금액의 0.5% · 계산서합계표 미제출: 공급가액의 0.5%</text>
+
+  <!-- 하단 캡션 -->
+  <text x="40" y="600" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">여기서 신고한 수입금액이 5월 종합소득세 신고의 기초자료가 돼요. 연도·세부 요건은 국세청 안내(nts.go.kr)에서 확인하세요.</text>
+</svg>
