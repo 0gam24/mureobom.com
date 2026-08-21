@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="DSR 산정 제외 대출과 포함 대출 비교, 그리고 스트레스 DSR과의 관계">
+  <rect x="0" y="0" width="880" height="620" fill="#FBF7F0"/>
+
+  <text x="40" y="46" font-size="26" font-weight="700" fill="#1A2B2A">DSR 산정, 빠지는 대출 vs 잡히는 대출</text>
+  <text x="40" y="74" font-size="15" fill="#4A5856">규제 근거: 은행업감독규정·시행세칙 별표18 (감독원장 위임 세부기준). 목록은 규정 개정으로 바뀔 수 있어요.</text>
+
+  <!-- 제외 패널 -->
+  <rect x="40" y="98" width="390" height="300" rx="14" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="60" y="132" font-size="19" font-weight="700" fill="#0A5F58">DSR 산정에서 제외</text>
+  <text x="60" y="156" font-size="13" fill="#4A5856">상환부담 계산에 원리금을 넣지 않아요</text>
+
+  <g font-size="15" fill="#1A2B2A">
+    <circle cx="66" cy="185" r="4" fill="#0E7C72"/><text x="80" y="190">전세자금대출 (다른 대출 신청 땐 이자만 반영)</text>
+    <circle cx="66" cy="215" r="4" fill="#0E7C72"/><text x="80" y="220">분양주택 중도금대출</text>
+    <circle cx="66" cy="245" r="4" fill="#0E7C72"/><text x="80" y="250">재건축·재개발 이주비대출</text>
+    <circle cx="66" cy="275" r="4" fill="#0E7C72"/><text x="80" y="280">서민금융 (햇살론·새희망홀씨 등)</text>
+    <circle cx="66" cy="305" r="4" fill="#0E7C72"/><text x="80" y="310">300만원 이하 소액신용대출</text>
+    <circle cx="66" cy="335" r="4" fill="#0E7C72"/><text x="80" y="340">지자체 협약대출·유공자 저금리대출</text>
+    <circle cx="66" cy="365" r="4" fill="#0E7C72"/><text x="80" y="370">정책·재난·생계 관련 대출</text>
+  </g>
+
+  <!-- 포함 패널 -->
+  <rect x="450" y="98" width="390" height="300" rx="14" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+  <text x="470" y="132" font-size="19" font-weight="700" fill="#B5462F">DSR 산정에 포함 (헷갈리기 쉬움)</text>
+  <text x="470" y="156" font-size="13" fill="#4A5856">이름이 비슷해도 계산에 잡혀요</text>
+
+  <g font-size="15" fill="#1A2B2A">
+    <rect x="472" y="180" width="8" height="8" fill="#C2873B"/><text x="490" y="190">전세보증금담보대출</text>
+    <rect x="472" y="210" width="8" height="8" fill="#C2873B"/><text x="490" y="220">예·적금담보대출</text>
+    <rect x="472" y="240" width="8" height="8" fill="#C2873B"/><text x="490" y="250">유가증권담보대출</text>
+    <rect x="472" y="270" width="8" height="8" fill="#C2873B"/><text x="490" y="280">주택담보대출·신용대출 등 일반 가계대출</text>
+  </g>
+  <text x="470" y="322" font-size="13" fill="#4A5856">순자산이 줄 수 있는 담보대출은</text>
+  <text x="470" y="342" font-size="13" fill="#4A5856">신규로 DSR에 반영돼요.</text>
+  <text x="470" y="374" font-size="13" font-weight="700" fill="#B5462F">전세자금대출(제외) ≠ 전세보증금담보대출(포함)</text>
+
+  <!-- 스트레스 DSR 관계 -->
+  <rect x="40" y="418" width="800" height="86" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="60" y="450" font-size="17" font-weight="700" fill="#0A5F58">스트레스 DSR과의 관계</text>
+  <text x="60" y="478" font-size="14" fill="#1A2B2A">스트레스 금리(3단계 1.5%p, 지방 주담대 0.75%p, 2025.7.1 시행)는 'DSR이 적용되는 대출'에만 붙어요.</text>
+  <text x="60" y="497" font-size="14" fill="#4A5856">그래서 DSR 제외 대출(중도금·이주비 등)에는 스트레스 가산도 자동으로 빠져요.</text>
+
+  <!-- 주의 배너 -->
+  <rect x="40" y="524" width="800" height="66" rx="14" fill="#FBF7F0" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="60" y="552" font-size="15" font-weight="700" fill="#B5462F">'DSR 제외'가 '무조건 대출 가능'은 아니에요</text>
+  <text x="60" y="576" font-size="13.5" fill="#4A5856">LTV·은행 내부심사는 별개예요. 제외라도 한도·승인은 은행 심사에 따라 달라져요.</text>
+</svg>
