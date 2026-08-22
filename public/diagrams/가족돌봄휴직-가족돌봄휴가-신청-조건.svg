@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="가족돌봄휴직 연 90일과 가족돌봄휴가 연 10일 비교, 둘 다 무급, 사업주는 원칙적으로 허용해야 함" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect width="800" height="520" fill="#FBF7F0"/>
+  <text x="40" y="52" font-size="26" font-weight="700" fill="#1A2B2A">가족돌봄휴직 vs 가족돌봄휴가</text>
+  <text x="40" y="80" font-size="15" fill="#4A5856">같은 법(제22조의2)에서 나온 두 제도, 둘 다 무급이 원칙이에요</text>
+
+  <!-- 휴직 패널 -->
+  <rect x="40" y="104" width="345" height="196" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="64" y="140" font-size="19" font-weight="700" fill="#0A5F58">가족돌봄휴직</text>
+  <text x="64" y="174" font-size="40" font-weight="700" fill="#0E7C72">연 최장 90일</text>
+  <text x="64" y="206" font-size="15" fill="#1A2B2A">나눠 쓸 수 있어요 (분할 1회 30일 이상)</text>
+  <text x="64" y="232" font-size="15" fill="#1A2B2A">긴 돌봄에 적합</text>
+  <rect x="64" y="250" width="120" height="30" rx="15" fill="#E3F0EE"/>
+  <text x="124" y="270" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">무급</text>
+
+  <!-- 휴가 패널 -->
+  <rect x="415" y="104" width="345" height="196" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="439" y="140" font-size="19" font-weight="700" fill="#0A5F58">가족돌봄휴가</text>
+  <text x="439" y="174" font-size="40" font-weight="700" fill="#0E7C72">연 최장 10일</text>
+  <text x="439" y="206" font-size="15" fill="#1A2B2A">하루 단위로 쓸 수 있어요</text>
+  <text x="439" y="232" font-size="15" fill="#1A2B2A">이 10일은 휴직 90일에 포함</text>
+  <rect x="439" y="250" width="120" height="30" rx="15" fill="#E3F0EE"/>
+  <text x="499" y="270" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">무급</text>
+
+  <!-- 대상 가족 -->
+  <rect x="40" y="320" width="720" height="76" rx="14" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="64" y="352" font-size="15" font-weight="700" fill="#0A5F58">돌볼 수 있는 가족</text>
+  <text x="64" y="380" font-size="16" fill="#1A2B2A">조부모 · 부모 · 배우자 · 배우자의 부모 · 자녀 · 손자녀 (질병 · 사고 · 노령 등)</text>
+
+  <!-- 사업주 의무 -->
+  <rect x="40" y="416" width="720" height="76" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="64" y="448" font-size="15" font-weight="700" fill="#C2873B">사업주는 원칙적으로 허용해야 해요</text>
+  <text x="64" y="476" font-size="15" fill="#1A2B2A">법정 예외사유(대체인력 채용 불가 등)가 없으면 거부 못 해요. 미허용 시 과태료 대상</text>
+</svg>

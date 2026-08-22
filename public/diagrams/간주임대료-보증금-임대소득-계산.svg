@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="간주임대료 과세 대상 주택 vs 상가 구분과 계산식">
+  <rect width="800" height="620" fill="#FBF7F0"/>
+  <text x="40" y="52" font-size="27" font-weight="700" fill="#1A2B2A">간주임대료, 주택과 상가는 이렇게 달라요</text>
+  <text x="40" y="82" font-size="15" fill="#4A5856">보증금·전세금을 임대료로 환산해 총수입금액에 넣는 제도 (소득세법 제25조)</text>
+
+  <!-- 주택 패널 -->
+  <rect x="40" y="108" width="350" height="220" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="40" y="108" width="350" height="44" rx="14" fill="#0E7C72"/>
+  <rect x="40" y="138" width="350" height="14" fill="#0E7C72"/>
+  <text x="64" y="137" font-size="19" font-weight="700" fill="#FBF7F0">주택 (전세보증금)</text>
+  <text x="64" y="185" font-size="15" fill="#1A2B2A">· 부부합산 비소형 3주택 이상</text>
+  <text x="64" y="215" font-size="15" fill="#1A2B2A">· 보증금 합계 3억원 초과</text>
+  <text x="64" y="245" font-size="15" fill="#0A5F58" font-weight="700">→ 3억원 초과분만 과세</text>
+  <text x="64" y="283" font-size="14" fill="#4A5856">소형주택(전용 40㎡ 이하이면서</text>
+  <text x="64" y="305" font-size="14" fill="#4A5856">기준시가 2억원 이하)은 주택 수 제외</text>
+
+  <!-- 상가 패널 -->
+  <rect x="410" y="108" width="350" height="220" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="410" y="108" width="350" height="44" rx="14" fill="#C2873B"/>
+  <rect x="410" y="138" width="350" height="14" fill="#C2873B"/>
+  <text x="434" y="137" font-size="19" font-weight="700" fill="#FBF7F0">상가 등 비주거용</text>
+  <text x="434" y="185" font-size="15" fill="#1A2B2A">· 3주택 요건 없음 (1채여도 대상)</text>
+  <text x="434" y="215" font-size="15" fill="#1A2B2A">· 3억원 기준 없음</text>
+  <text x="434" y="245" font-size="15" fill="#B5462F" font-weight="700">→ 받은 보증금 전체가 대상</text>
+  <text x="434" y="283" font-size="14" fill="#4A5856">주택 기준을 상가에 그대로</text>
+  <text x="434" y="305" font-size="14" fill="#4A5856">적용하면 안 돼요</text>
+
+  <!-- 계산식 -->
+  <rect x="40" y="352" width="720" height="228" rx="14" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="64" y="388" font-size="18" font-weight="700" fill="#0A5F58">주택 간주임대료 계산식 (시행령 제53조 제3항)</text>
+  <text x="64" y="428" font-size="16" fill="#1A2B2A">(보증금 - 3억원)의 적수 × 60% × 정기예금이자율 ÷ 365</text>
+  <text x="64" y="454" font-size="16" fill="#1A2B2A">   - 임대사업 금융수익(수입이자·배당금)</text>
+
+  <line x1="64" y1="478" x2="736" y2="478" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="64" y="506" font-size="14" fill="#4A5856">예시 · 보증금 8억원, 3억 차감 후 5억 유지 시</text>
+  <text x="64" y="532" font-size="15" fill="#1A2B2A">5억 × 60% × 3.1%(2025년 귀속) = 930만원, 금융수익 200만 차감 → </text>
+  <text x="686" y="532" font-size="15" fill="#0A5F58" font-weight="700">730만</text>
+  <text x="64" y="562" font-size="13" fill="#8A938F">정기예금이자율은 기획재정부령으로 매년 고시·변동 (2025년 귀속 3.1%)</text>
+</svg>
