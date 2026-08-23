@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" role="img" aria-label="상속세 사전증여재산 합산 기준: 상속인은 상속개시일 전 10년 이내 증여재산, 상속인 아닌 자는 5년 이내 증여재산을 상속세 과세가액에 가산하고, 이미 낸 증여세는 증여세액공제로 조정" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="500" fill="#FBF7F0"/>
+  <text x="40" y="42" font-size="22" font-weight="700" fill="#1A2B2A">미리 증여한 재산, 상속세에 얼마나 합산되나요?</text>
+  <text x="40" y="68" font-size="13" fill="#4A5856">받은 사람에 따라 합산 기간이 달라요 · 합산액은 증여 당시 가액 기준</text>
+
+  <!-- 타임라인 축 -->
+  <line x1="60" y1="120" x2="700" y2="120" stroke="#E3DCCF" stroke-width="2"/>
+  <circle cx="700" cy="120" r="7" fill="#B5462F"/>
+  <text x="700" y="104" font-size="12.5" font-weight="700" fill="#B5462F" text-anchor="end">상속개시일(사망)</text>
+  <text x="60" y="104" font-size="12.5" fill="#8A938F">과거 증여 시점</text>
+
+  <!-- 10년 구간 (상속인) -->
+  <rect x="300" y="128" width="400" height="52" rx="8" fill="#0E7C72"/>
+  <text x="500" y="150" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">상속인에게 증여 → 10년 이내분 합산</text>
+  <text x="500" y="170" font-size="12" fill="#E3F0EE" text-anchor="middle">배우자 · 자녀 등 (제13조 제1항 제1호)</text>
+
+  <!-- 5년 구간 (비상속인) -->
+  <rect x="500" y="190" width="200" height="52" rx="8" fill="#0A5F58"/>
+  <text x="600" y="212" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">상속인 아닌 자 → 5년 이내</text>
+  <text x="600" y="230" font-size="12" fill="#E3F0EE" text-anchor="middle">며느리 · 손자녀 등 (제2호)</text>
+
+  <!-- 특례 -->
+  <rect x="60" y="252" width="640" height="46" rx="8" fill="#C2873B"/>
+  <text x="380" y="280" font-size="13.5" font-weight="700" fill="#FBF7F0" text-anchor="middle">창업자금 · 가업승계주식 등 특례 증여 → 기한 무관 전액 합산</text>
+
+  <!-- 합산 흐름 박스 -->
+  <text x="40" y="340" font-size="15" font-weight="700" fill="#0A5F58">상속세 과세가액 계산 흐름</text>
+  <rect x="40" y="352" width="150" height="56" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="115" y="376" font-size="13" font-weight="700" fill="#1A2B2A" text-anchor="middle">상속재산</text>
+  <text x="115" y="395" font-size="11.5" fill="#4A5856" text-anchor="middle">공과금·채무 차감</text>
+  <text x="205" y="384" font-size="20" font-weight="700" fill="#0E7C72" text-anchor="middle">+</text>
+  <rect x="220" y="352" width="150" height="56" rx="8" fill="#E3F0EE"/>
+  <text x="295" y="376" font-size="13" font-weight="700" fill="#0A5F58" text-anchor="middle">사전증여재산</text>
+  <text x="295" y="395" font-size="11.5" fill="#4A5856" text-anchor="middle">증여 당시 가액</text>
+  <text x="385" y="384" font-size="20" font-weight="700" fill="#0E7C72" text-anchor="middle">=</text>
+  <rect x="400" y="352" width="150" height="56" rx="8" fill="#0E7C72"/>
+  <text x="475" y="376" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">상속세 과세가액</text>
+  <text x="475" y="395" font-size="11.5" fill="#E3F0EE" text-anchor="middle">합산 후 세액 산출</text>
+  <text x="565" y="384" font-size="18" font-weight="700" fill="#B5462F" text-anchor="middle">−</text>
+  <rect x="580" y="352" width="150" height="56" rx="8" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="655" y="376" font-size="13" font-weight="700" fill="#C2873B" text-anchor="middle">증여세액공제</text>
+  <text x="655" y="395" font-size="11.5" fill="#4A5856" text-anchor="middle">이미 낸 증여세</text>
+
+  <!-- 하단 안내 -->
+  <rect x="40" y="428" width="690" height="52" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="56" y="452" font-size="12.5" fill="#4A5856">증여세액공제 한도 = 상속세 산출세액 × (가산 증여재산 과세표준 ÷ 상속세 과세표준) · 제28조</text>
+  <text x="56" y="471" font-size="12.5" fill="#B5462F">세율·공제액은 개정으로 바뀌어요. 구체적 계산은 국세청 안내와 관할 세무서에서 확인하세요.</text>
+</svg>

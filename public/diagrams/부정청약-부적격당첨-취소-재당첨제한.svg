@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" role="img" aria-label="부적격 당첨과 부정청약의 제재 비교: 부적격 당첨은 요건 착오로 당첨 취소와 청약 제한(수도권 1년·수도권 외 6개월), 부정청약은 고의 위반으로 계약 취소·주택환수, 재당첨 제한 최대 10년, 3년 이하 징역 또는 3천만원 이하 벌금" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="540" fill="#FBF7F0"/>
+  <text x="40" y="42" font-size="22" font-weight="700" fill="#1A2B2A">부적격 당첨 vs 부정청약, 제재가 이렇게 달라요</text>
+  <text x="40" y="68" font-size="13" fill="#4A5856">같은 '당첨 취소'라도 요건 착오(부적격)와 고의 위반(부정청약)은 뒤따르는 불이익 수위가 크게 달라요</text>
+
+  <!-- 열 헤더 -->
+  <rect x="230" y="88" width="240" height="40" rx="8" fill="#E3F0EE"/>
+  <text x="350" y="114" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">부적격 당첨 (요건 착오)</text>
+  <rect x="480" y="88" width="240" height="40" rx="8" fill="#0A5F58"/>
+  <text x="600" y="114" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">부정청약 (고의 위반)</text>
+
+  <!-- 행1: 성격 -->
+  <rect x="40" y="136" width="180" height="66" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="130" y="166" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">성격</text>
+  <text x="130" y="187" font-size="11.5" fill="#4A5856" text-anchor="middle">고의성 여부</text>
+  <rect x="230" y="136" width="240" height="66" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="350" y="166" font-size="13.5" fill="#1A2B2A" text-anchor="middle">무주택기간·소득 등</text>
+  <text x="350" y="185" font-size="13.5" fill="#1A2B2A" text-anchor="middle">요건 착오·과실</text>
+  <rect x="480" y="136" width="240" height="66" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="600" y="166" font-size="13.5" fill="#1A2B2A" text-anchor="middle">위장전입·통장 매매·</text>
+  <text x="600" y="185" font-size="13.5" fill="#1A2B2A" text-anchor="middle">서류 위조 등 고의</text>
+
+  <!-- 행2: 당첨/계약 -->
+  <rect x="40" y="210" width="180" height="66" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="130" y="240" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">당첨·계약</text>
+  <text x="130" y="261" font-size="11.5" fill="#4A5856" text-anchor="middle">주택 환수 여부</text>
+  <rect x="230" y="210" width="240" height="66" rx="8" fill="#E3F0EE"/>
+  <text x="350" y="240" font-size="13.5" fill="#1A2B2A" text-anchor="middle">당첨 취소</text>
+  <text x="350" y="259" font-size="11.5" fill="#4A5856" text-anchor="middle">소명 후 정당하면 유지</text>
+  <rect x="480" y="210" width="240" height="66" rx="8" fill="#0E7C72"/>
+  <text x="600" y="240" font-size="13.5" font-weight="700" fill="#FBF7F0" text-anchor="middle">계약 취소·주택 환수</text>
+  <text x="600" y="259" font-size="11.5" fill="#E3F0EE" text-anchor="middle">계약 취소하여야 한다</text>
+
+  <!-- 행3: 청약/재당첨 제한 -->
+  <rect x="40" y="284" width="180" height="66" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="130" y="314" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">청약 제한</text>
+  <text x="130" y="335" font-size="11.5" fill="#4A5856" text-anchor="middle">향후 청약 차단</text>
+  <rect x="230" y="284" width="240" height="66" rx="8" fill="#E3F0EE"/>
+  <text x="350" y="313" font-size="13.5" fill="#1A2B2A" text-anchor="middle">수도권 1년</text>
+  <text x="350" y="332" font-size="11.5" fill="#4A5856" text-anchor="middle">수도권 외 6개월·위축 3개월</text>
+  <rect x="480" y="284" width="240" height="66" rx="8" fill="#C2873B"/>
+  <text x="600" y="313" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">입주자자격 제한 최대 10년</text>
+  <text x="600" y="332" font-size="11.5" fill="#FBF7F0" text-anchor="middle">적발일부터 범위 내 지정</text>
+
+  <!-- 행4: 형사처벌 -->
+  <rect x="40" y="358" width="180" height="66" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="130" y="388" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">형사처벌</text>
+  <text x="130" y="409" font-size="11.5" fill="#4A5856" text-anchor="middle">징역·벌금</text>
+  <rect x="230" y="358" width="240" height="66" rx="8" fill="#E3F0EE"/>
+  <text x="350" y="396" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">원칙적으로 없음</text>
+  <rect x="480" y="358" width="240" height="66" rx="8" fill="#B5462F"/>
+  <text x="600" y="387" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">3년 이하 징역 또는</text>
+  <text x="600" y="407" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">3천만원 이하 벌금</text>
+
+  <!-- 행5: 근거 -->
+  <rect x="40" y="432" width="180" height="52" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="130" y="463" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">근거</text>
+  <rect x="230" y="432" width="240" height="52" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="350" y="463" font-size="12.5" fill="#4A5856" text-anchor="middle">주택공급규칙 제57조·제58조</text>
+  <rect x="480" y="432" width="240" height="52" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="600" y="463" font-size="12.5" fill="#4A5856" text-anchor="middle">주택법 제65조·제101조</text>
+
+  <!-- 하단 안내 -->
+  <rect x="40" y="496" width="680" height="32" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="56" y="516" font-size="12" fill="#B5462F">제한 기간은 규칙 개정·지역 지정 변동으로 바뀌어요. 청약Home·관할 확인이 정확해요.</text>
+</svg>

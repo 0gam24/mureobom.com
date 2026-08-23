@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" role="img" aria-label="노무제공자 산재보험 적용 구조: 특고·플랫폼 종사자도 산재보험 대상, 2023년 7월 전속성 요건 폐지로 여러 사업장 종사자까지 확대, 보험료는 사업주와 노무제공자가 각 50% 부담, 적용제외 신청 가능" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="500" fill="#FBF7F0"/>
+  <text x="40" y="42" font-size="22" font-weight="700" fill="#1A2B2A">특고·플랫폼 노무제공자 산재보험, 어떻게 적용되나요?</text>
+  <text x="40" y="68" font-size="13" fill="#4A5856">시행령이 정한 직종에 해당하면 사업소득 형태로 일해도 산재보험 대상 (산재보험법 제91조의15)</text>
+
+  <!-- 누가 대상 -->
+  <rect x="40" y="90" width="680" height="72" rx="8" fill="#E3F0EE"/>
+  <text x="60" y="118" font-size="15" font-weight="700" fill="#0A5F58">누가 대상인가요?</text>
+  <text x="60" y="142" font-size="13" fill="#1A2B2A">보험설계사 · 택배원 · 퀵서비스 · 대리운전기사 · 골프장 캐디 · 학습지 교사 · 방문판매원 ·</text>
+  <text x="60" y="160" font-size="13" fill="#1A2B2A">배달 라이더(플랫폼 종사자) 등 시행령·고시 지정 직종 (전체 직종은 근로복지공단 확인)</text>
+
+  <!-- 2023.7 전속성 폐지 -->
+  <rect x="40" y="178" width="680" height="72" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <rect x="40" y="178" width="150" height="72" rx="8" fill="#C2873B"/>
+  <text x="115" y="210" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">2023.7.1</text>
+  <text x="115" y="232" font-size="12" fill="#FBF7F0" text-anchor="middle">전속성 폐지</text>
+  <text x="208" y="208" font-size="13.5" fill="#1A2B2A">'주로 하나의 사업에 노무 제공' 요건이 사라졌어요.</text>
+  <text x="208" y="230" font-size="13.5" fill="#1A2B2A">여러 업체·여러 플랫폼에서 동시에 일해도 적용 (약 92만 5천명 신규 수혜 전망)</text>
+
+  <!-- 보험료 분담 -->
+  <text x="40" y="288" font-size="15" font-weight="700" fill="#0A5F58">보험료는 누가 내나요? 사업주와 노무제공자가 절반씩 (징수법 제48조의6)</text>
+  <rect x="40" y="300" width="335" height="56" rx="8" fill="#0E7C72"/>
+  <text x="207" y="326" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">사업주 1/2 (50%)</text>
+  <text x="207" y="346" font-size="11.5" fill="#E3F0EE" text-anchor="middle">근로자 산재는 사업주 전액 부담</text>
+  <rect x="385" y="300" width="335" height="56" rx="8" fill="#0A5F58"/>
+  <text x="552" y="326" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">노무제공자 1/2 (50%)</text>
+  <text x="552" y="346" font-size="11.5" fill="#E3F0EE" text-anchor="middle">월 보수액에 직종별 요율 적용</text>
+
+  <!-- 플랫폼 원천공제 -->
+  <rect x="40" y="372" width="680" height="52" rx="8" fill="#E3F0EE"/>
+  <text x="60" y="396" font-size="13.5" font-weight="700" fill="#0A5F58">플랫폼 종사자</text>
+  <text x="60" y="416" font-size="12.5" fill="#1A2B2A">플랫폼 운영자가 보수 지급을 중개하면 운영자가 보험료를 원천공제해 납부해요 (징수법 제48조의7)</text>
+
+  <!-- 하단 안내 -->
+  <rect x="40" y="440" width="680" height="44" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="56" y="459" font-size="12.5" fill="#B5462F">적용 직종·보험료율은 시행령·고시로 바뀌고, 적용제외 신청 제도도 있어요.</text>
+  <text x="56" y="477" font-size="12.5" fill="#B5462F">본인 직종·요율·적용 여부는 근로복지공단(1588-0075)에서 확인하세요.</text>
+</svg>

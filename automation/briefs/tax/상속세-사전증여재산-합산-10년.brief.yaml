@@ -1,6 +1,6 @@
 id: tax-상속세-사전증여재산-합산-10년
 cluster: tax
-status: approved          # 스케줄 실행 = 운영자 즉석 승인 (2026-08-24)
+status: published          # 스케줄 실행 = 운영자 즉석 승인 (2026-08-24)
 
 target_query: "상속세 사전증여 합산 10년 5년 증여재산 가산"
 search_intent: 정보형      # 미리 증여한 재산의 상속세 합산 여부·기간
