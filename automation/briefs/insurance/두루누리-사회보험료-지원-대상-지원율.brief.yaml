@@ -1,0 +1,44 @@
+id: insurance-두루누리-사회보험료-지원-대상-지원율
+cluster: insurance
+status: approved          # 스케줄 실행 = 운영자 즉석 승인 (2026-08-24)
+
+target_query: "두루누리 사회보험료 지원 대상 지원율 신청방법"
+search_intent: 절차형      # 지원 대상 확인 + 신청 방법을 함께 원함
+
+signal:
+  score: 0.0
+  trend_momentum: 0.0
+  question_volume: 0.0
+  cluster_fit: 1.0
+  freshness: 1.0
+
+must_cover:
+  - 두루누리 사회보험료 지원 제도 개념(국민연금·고용보험 보험료 일부 지원)
+  - 지원 대상(근로자 수 10명 미만 사업, 월평균 보수 상한 요건)
+  - 지원 수준(신규가입자 등 보험료의 일정 비율 지원)과 지원 기간(최대 36개월)
+  - 지원 제외 요건(재산·종합소득 기준 등)
+  - 신청 방법(공단 신고·건설일용 등)과 지원금 반영 방식
+  - 흔한 오해(모든 사업장 지원? 4대보험 전부 지원?) 바로잡기
+
+required_sources:
+  - "고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률 시행령(국가법령정보센터)"
+  - "고용노동부 두루누리 사회보험 안내(공식)"
+  - "근로복지공단 / 국민연금공단 두루누리 지원 공식 기준"
+
+internal_links:
+  - insurance/4대보험-가입조건-요율
+  - insurance/국민연금-임의가입-신청자격-보험료
+
+compliance:
+  medical_legal_financial_advice_disclaimer: true
+
+geo:
+  faq_schema: true
+  faq_pairs_min: 5
+  llms_txt: true
+
+human_notes: |
+  차별화: 두루누리가 '국민연금 + 고용보험'만 지원하고 건강보험·산재보험은
+  대상이 아니라는 점을 명확히(대부분 '4대보험 다 지원'으로 오해). 지원율·상한
+  보수·재산/소득 제외 기준은 연도별로 바뀌므로 2026 기준 최신 조문·고시 확인,
+  구체 금액은 못 박지 말고 공단 확인 안내. 단정적 표현 금지.
