@@ -1,6 +1,6 @@
 id: loan-채무자대리인-무료지원-불법추심-신청
 cluster: loan
-status: approved         # 스케줄 자동 발행 = 운영자 즉석 승인(큐 stale)
+status: published        # compliance 게이트 통과 (2026-08-24)
 
 target_query: "채무자대리인 무료 지원 신청 대상 불법추심 대부업 대응 변호사"
 search_intent: 절차형     # 지원 대상 확인 + 신청 절차를 함께 원함

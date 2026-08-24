@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-label="채무자대리인 제도 흐름: 불법추심 피해자가 무료 변호사를 대리인으로 선임하고 채권추심자에게 서면 통지하면 채무자에게 직접 연락할 수 없고 대리인을 통해야 함. 무료 지원 3종은 채무자대리·소송대리·법률상담, 신청은 1332·132" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="560" fill="#FBF7F0"/>
+  <text x="40" y="42" font-size="22" font-weight="700" fill="#1A2B2A">채무자대리인 제도, 어떻게 추심을 막나요?</text>
+  <text x="40" y="68" font-size="13" fill="#4A5856">국가가 무료로 붙여 준 변호사가 대리인이 되면, 채권추심자는 채무자에게 직접 연락할 수 없어요</text>
+
+  <!-- 흐름 4단계 -->
+  <text x="40" y="104" font-size="15" font-weight="700" fill="#0A5F58">제도 흐름 4단계</text>
+
+  <!-- 1 -->
+  <rect x="40" y="118" width="160" height="86" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <circle cx="66" cy="144" r="13" fill="#0E7C72"/>
+  <text x="66" y="149" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+  <text x="88" y="149" font-size="14" font-weight="700" fill="#1A2B2A">피해자 신청</text>
+  <text x="56" y="176" font-size="12" fill="#4A5856">불법추심·최고금리</text>
+  <text x="56" y="193" font-size="12" fill="#4A5856">초과 대출 피해자</text>
+
+  <!-- arrow -->
+  <path d="M204 161 L228 161" stroke="#8A938F" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+
+  <!-- 2 -->
+  <rect x="232" y="118" width="160" height="86" rx="10" fill="#E3F0EE"/>
+  <circle cx="258" cy="144" r="13" fill="#0E7C72"/>
+  <text x="258" y="149" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+  <text x="280" y="149" font-size="14" font-weight="700" fill="#1A2B2A">무료 변호사</text>
+  <text x="248" y="176" font-size="12" fill="#4A5856">공단 변호사를</text>
+  <text x="248" y="193" font-size="12" fill="#4A5856">대리인으로 선임</text>
+
+  <path d="M396 161 L420 161" stroke="#8A938F" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+
+  <!-- 3 -->
+  <rect x="424" y="118" width="160" height="86" rx="10" fill="#E3F0EE"/>
+  <circle cx="450" cy="144" r="13" fill="#0E7C72"/>
+  <text x="450" y="149" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+  <text x="472" y="149" font-size="14" font-weight="700" fill="#1A2B2A">서면 통지</text>
+  <text x="440" y="176" font-size="12" fill="#4A5856">채권추심자에게</text>
+  <text x="440" y="193" font-size="12" fill="#4A5856">선임 서면 통지</text>
+
+  <path d="M588 161 L612 161" stroke="#8A938F" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+
+  <!-- 4 -->
+  <rect x="616" y="118" width="120" height="86" rx="10" fill="#0A5F58"/>
+  <circle cx="642" cy="144" r="13" fill="#FBF7F0"/>
+  <text x="642" y="149" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">4</text>
+  <text x="664" y="149" font-size="14" font-weight="700" fill="#FBF7F0">연락 차단</text>
+  <text x="628" y="176" font-size="12" fill="#E3F0EE">채무자 직접</text>
+  <text x="628" y="193" font-size="12" fill="#E3F0EE">연락 금지</text>
+
+  <text x="40" y="228" font-size="12" fill="#8A938F">근거: 채권의 공정한 추심에 관한 법률 제8조의2 (대리인 선임 통지 후 채무자 직접 연락 금지)</text>
+
+  <!-- 지원 3종 -->
+  <text x="40" y="268" font-size="15" font-weight="700" fill="#0A5F58">무료 지원 3종 (완전 무료)</text>
+  <rect x="40" y="282" width="220" height="72" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="150" y="312" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">채무자대리</text>
+  <text x="150" y="336" font-size="12" fill="#4A5856" text-anchor="middle">채권자 직접 연락 차단</text>
+  <rect x="270" y="282" width="220" height="72" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="380" y="312" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">소송대리</text>
+  <text x="380" y="336" font-size="12" fill="#4A5856" text-anchor="middle">부당이득·채무부존재 등</text>
+  <rect x="500" y="282" width="220" height="72" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="610" y="312" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">법률상담</text>
+  <text x="610" y="336" font-size="12" fill="#4A5856" text-anchor="middle">피해 대응 무료 상담</text>
+
+  <!-- 소득요건 -->
+  <rect x="40" y="372" width="680" height="52" rx="10" fill="#E3F0EE"/>
+  <text x="60" y="396" font-size="14" font-weight="700" fill="#0A5F58">소득요건</text>
+  <text x="60" y="416" font-size="13" fill="#1A2B2A">중위소득 125% 이하 (2025년 1인 가구 기준 월 약 299만원). '소득요건 없음'은 오해예요.</text>
+
+  <!-- 신청 경로 -->
+  <text x="40" y="464" font-size="15" font-weight="700" fill="#0A5F58">신청 경로</text>
+  <rect x="40" y="478" width="335" height="58" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="60" y="504" font-size="16" font-weight="700" fill="#C2873B">1332</text>
+  <text x="120" y="504" font-size="13" fill="#1A2B2A">금융감독원 불법사금융 신고센터</text>
+  <text x="60" y="525" font-size="12" fill="#4A5856">전화 또는 금감원 홈페이지 온라인</text>
+  <rect x="385" y="478" width="335" height="58" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="405" y="504" font-size="16" font-weight="700" fill="#C2873B">132</text>
+  <text x="452" y="504" font-size="13" fill="#1A2B2A">대한법률구조공단</text>
+  <text x="405" y="525" font-size="12" fill="#4A5856">전국 서민금융통합지원센터 방문도 가능</text>
+
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#8A938F"/>
+    </marker>
+  </defs>
+</svg>

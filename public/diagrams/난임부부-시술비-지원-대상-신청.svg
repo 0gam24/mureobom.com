@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" role="img" aria-label="난임부부 시술비 지원 금액과 횟수: 체외수정 신선배아 회당 110만원, 동결배아 50만원, 인공수정 30만원, 지원 횟수는 체외수정 20회·인공수정 5회" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="760" height="470" fill="#FBF7F0"/>
+  <text x="40" y="44" font-size="22" font-weight="700" fill="#1A2B2A">난임부부 시술비 지원, 시술별 상한과 횟수</text>
+  <text x="40" y="70" font-size="13" fill="#4A5856">건강보험 급여가 적용되는 보조생식술의 본인부담금·비급여 일부를 회당 상한 안에서 보충 지원</text>
+
+  <!-- 열 헤더 -->
+  <text x="230" y="112" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">시술 종류</text>
+  <text x="470" y="112" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">회당 지원 상한</text>
+  <text x="655" y="112" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">지원 횟수</text>
+
+  <!-- 행1: 신선배아 -->
+  <rect x="40" y="128" width="300" height="66" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="60" y="158" font-size="15" font-weight="700" fill="#1A2B2A">체외수정 (신선배아)</text>
+  <text x="60" y="180" font-size="12" fill="#4A5856">신선한 배아를 이식하는 체외수정</text>
+  <rect x="352" y="128" width="230" height="66" rx="8" fill="#0E7C72"/>
+  <text x="467" y="169" font-size="22" font-weight="700" fill="#FBF7F0" text-anchor="middle">최대 110만원</text>
+  <rect x="594" y="128" width="126" height="66" rx="8" fill="#E3F0EE"/>
+  <text x="657" y="169" font-size="17" font-weight="700" fill="#0A5F58" text-anchor="middle">20회</text>
+
+  <!-- 행2: 동결배아 -->
+  <rect x="40" y="202" width="300" height="66" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="60" y="232" font-size="15" font-weight="700" fill="#1A2B2A">체외수정 (동결배아)</text>
+  <text x="60" y="254" font-size="12" fill="#4A5856">얼려둔 배아를 해동해 이식</text>
+  <rect x="352" y="202" width="230" height="66" rx="8" fill="#0A5F58"/>
+  <text x="467" y="243" font-size="22" font-weight="700" fill="#FBF7F0" text-anchor="middle">최대 50만원</text>
+  <rect x="594" y="202" width="126" height="66" rx="8" fill="#E3F0EE"/>
+  <text x="657" y="243" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">체외 합산</text>
+
+  <!-- 행3: 인공수정 -->
+  <rect x="40" y="276" width="300" height="66" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="60" y="306" font-size="15" font-weight="700" fill="#1A2B2A">인공수정</text>
+  <text x="60" y="328" font-size="12" fill="#4A5856">자궁내 정자주입</text>
+  <rect x="352" y="276" width="230" height="66" rx="8" fill="#C2873B"/>
+  <text x="467" y="317" font-size="22" font-weight="700" fill="#FBF7F0" text-anchor="middle">최대 30만원</text>
+  <rect x="594" y="276" width="126" height="66" rx="8" fill="#E3F0EE"/>
+  <text x="657" y="317" font-size="17" font-weight="700" fill="#0A5F58" text-anchor="middle">5회</text>
+
+  <!-- 절차 띠 -->
+  <text x="40" y="378" font-size="14" font-weight="700" fill="#0A5F58">신청 흐름</text>
+  <rect x="40" y="390" width="150" height="34" rx="8" fill="#E3F0EE"/>
+  <text x="115" y="412" font-size="12.5" fill="#1A2B2A" text-anchor="middle">보건소·온라인 신청</text>
+  <text x="200" y="412" font-size="15" fill="#8A938F" text-anchor="middle">→</text>
+  <rect x="214" y="390" width="130" height="34" rx="8" fill="#E3F0EE"/>
+  <text x="279" y="412" font-size="12.5" fill="#1A2B2A" text-anchor="middle">지원 결정 통지</text>
+  <text x="354" y="412" font-size="15" fill="#8A938F" text-anchor="middle">→</text>
+  <rect x="368" y="390" width="110" height="34" rx="8" fill="#E3F0EE"/>
+  <text x="423" y="412" font-size="12.5" fill="#1A2B2A" text-anchor="middle">시술 진행</text>
+
+  <!-- 하단 안내 -->
+  <rect x="40" y="434" width="680" height="30" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="56" y="454" font-size="12" fill="#B5462F">전액 무료가 아니라 상한 내 보충 지원 · 소득기준·금액·횟수는 거주 지자체 보건소와 129에서 확인하세요.</text>
+</svg>

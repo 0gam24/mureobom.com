@@ -1,6 +1,6 @@
 id: tax-스톡옵션-주식매수선택권-행사이익-과세
 cluster: tax
-status: approved         # 스케줄 자동 발행 = 운영자 즉석 승인(큐 stale)
+status: published        # compliance 게이트 통과(2026-08-24) — 발행 승인
 
 target_query: "스톡옵션 주식매수선택권 행사이익 세금 근로소득 양도소득 벤처기업 비과세 특례"
 search_intent: 정보형     # 과세 구조와 적용 요건을 이해하고자 함

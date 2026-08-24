@@ -1,6 +1,6 @@
 id: support-난임부부-시술비-지원-대상-신청
 cluster: support
-status: approved         # 스케줄 자동 발행 = 운영자 즉석 승인(큐 stale)
+status: published        # compliance gate PASS (2026-08-24 KST)
 
 target_query: "난임부부 시술비 지원 대상 소득기준 지원금액 신청방법 체외수정 인공수정 횟수"
 search_intent: 절차형     # 지원 대상·금액 확인 + 신청 절차를 함께 원함

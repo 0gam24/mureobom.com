@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" role="img" aria-label="스톡옵션 2단계 과세 흐름: 부여 시점은 세금 없음, 행사 시점은 행사이익 과세(재직 중 근로소득·퇴직 후 기타소득), 처분 시점은 양도소득세. 벤처기업은 조특법 16조의2 비과세·16조의3 5년 분할납부·16조의4 양도소득 과세특례 선택 가능" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="560" fill="#FBF7F0"/>
+  <text x="40" y="44" font-size="23" font-weight="700" fill="#1A2B2A">스톡옵션은 언제 세금을 낼까요? (2단계 과세)</text>
+  <text x="40" y="70" font-size="13" fill="#4A5856">부여 시점은 과세 없음 · 행사이익과 처분(양도)에서 두 번 과세돼요</text>
+
+  <!-- 3단계 흐름 박스 -->
+  <rect x="40" y="94" width="210" height="94" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="145" y="128" font-size="16" font-weight="700" fill="#1A2B2A" text-anchor="middle">1. 부여</text>
+  <text x="145" y="152" font-size="12.5" fill="#4A5856" text-anchor="middle">옵션을 받는 시점</text>
+  <text x="145" y="172" font-size="13" font-weight="700" fill="#0A5F58" text-anchor="middle">세금 없음</text>
+
+  <rect x="305" y="94" width="210" height="94" rx="10" fill="#0E7C72"/>
+  <text x="410" y="128" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">2. 행사</text>
+  <text x="410" y="152" font-size="12.5" fill="#E3F0EE" text-anchor="middle">싸게 사서 생긴 차익</text>
+  <text x="410" y="172" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">행사이익 과세</text>
+
+  <rect x="570" y="94" width="210" height="94" rx="10" fill="#0A5F58"/>
+  <text x="675" y="128" font-size="16" font-weight="700" fill="#FBF7F0" text-anchor="middle">3. 처분</text>
+  <text x="675" y="152" font-size="12.5" fill="#E3F0EE" text-anchor="middle">주식을 파는 시점</text>
+  <text x="675" y="172" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">양도소득세</text>
+
+  <!-- 화살표 -->
+  <polygon points="252,141 292,141 292,133 302,145 292,157 292,149 252,149" fill="#8A938F"/>
+  <polygon points="517,141 557,141 557,133 567,145 557,157 557,149 517,149" fill="#8A938F"/>
+
+  <!-- 행사이익 소득구분 분기 -->
+  <text x="410" y="222" font-size="13.5" font-weight="700" fill="#1A2B2A" text-anchor="middle">행사이익은 언제 행사했는지로 소득이 갈려요</text>
+  <line x1="410" y1="188" x2="410" y2="204" stroke="#8A938F" stroke-width="2"/>
+
+  <rect x="120" y="240" width="270" height="92" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <text x="255" y="270" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">재직 중 행사</text>
+  <text x="255" y="294" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">근로소득</text>
+  <text x="255" y="316" font-size="11.5" fill="#4A5856" text-anchor="middle">소득세법 시행령 §38①17 · 회사 원천징수</text>
+
+  <rect x="430" y="240" width="270" height="92" rx="10" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.2"/>
+  <text x="565" y="270" font-size="15" font-weight="700" fill="#C2873B" text-anchor="middle">퇴직 후·고용관계 없이 행사</text>
+  <text x="565" y="294" font-size="14" font-weight="700" fill="#1A2B2A" text-anchor="middle">기타소득</text>
+  <text x="565" y="316" font-size="11.5" fill="#4A5856" text-anchor="middle">소득세법 §21①22 · 본인 종합소득세 신고</text>
+
+  <!-- 벤처특례 3종 -->
+  <text x="40" y="378" font-size="14" font-weight="700" fill="#1A2B2A">벤처기업이면 요건 충족 시 선택할 수 있는 특례 (조세특례제한법)</text>
+
+  <rect x="40" y="392" width="240" height="94" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="160" y="420" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">제16조의2 비과세</text>
+  <text x="160" y="443" font-size="12" fill="#4A5856" text-anchor="middle">연 2억원 이내</text>
+  <text x="160" y="463" font-size="12" fill="#4A5856" text-anchor="middle">누적 5억원 한도(조문 확인)</text>
+
+  <rect x="290" y="392" width="240" height="94" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="410" y="420" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">제16조의3 납부특례</text>
+  <text x="410" y="443" font-size="12" fill="#4A5856" text-anchor="middle">행사 시 원천징수 제외</text>
+  <text x="410" y="463" font-size="12" fill="#4A5856" text-anchor="middle">5년에 걸쳐 분할납부</text>
+
+  <rect x="540" y="392" width="240" height="94" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="660" y="420" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="middle">제16조의4 양도특례</text>
+  <text x="660" y="443" font-size="12" fill="#4A5856" text-anchor="middle">행사 시 근로소득 대신</text>
+  <text x="660" y="463" font-size="12" fill="#4A5856" text-anchor="middle">처분 시 양도소득 선택</text>
+
+  <!-- 하단 안내 -->
+  <rect x="40" y="504" width="740" height="38" rx="8" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="56" y="528" font-size="12" fill="#B5462F">한도·요건·적용시한은 개정될 수 있어요. 현행 조문(국가법령정보센터)과 국세청 안내로 꼭 확인하세요.</text>
+</svg>
