@@ -35,6 +35,11 @@ const answers = defineCollection({
     /* OG/Twitter Card 이미지(선택). 절대경로 권장(`/og/{slug}.png` 또는 외부 URL).
      * 미지정 시 [slug].astro가 `/og-default.png` 사용. */
     image: z.string().optional(),
+    /* 대표 이미지(선택) — `/img/{slug}.webp` 1200×900(4:3) WebP. scripts/gen_post_hero.mjs가
+     * 본문 인포그래픽을 래스터화해 생성·삽입한다. 지정 시 og:image·JSON-LD Article.image·
+     * primaryImageOfPage·이미지 사이트맵·RSS enclosure의 1순위가 된다(검색 썸네일용).
+     * `image`(OG PNG)는 SNS 공유 호환 폴백으로 2순위 유지. 신규 글은 compliance V-05가 강제. */
+    hero: z.string().optional(),
     /* E-E-A-T 작성 주체(정직한 편집 조직 라벨만). 기본 "물어봄 편집부".
      * 섹션 편집팀 라벨(예: "물어봄 세금팀")까지만 허용 — 실재하지 않는 개인 전문가·
      * 자격(세무사·변호사 등) 사칭 금지(compliance E-02가 차단). */

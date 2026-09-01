@@ -87,6 +87,10 @@ tools: Read, Grep, Glob, Edit, Bash
   alt 텍스트에 도표 핵심 정보 미포함 시 **경고** (V-03).
 - 인포그래픽이 정보 전달용(흐름·비교·타임라인·체크리스트)이 아닌 순수 장식이면
   **경고** (V-04).
+- **대표 이미지 존재 검증** (V-05): `test -f public/img/{slug}.webp` + 프론트매터에
+  `hero: "/img/{slug}.webp"` + 파일 크기 ≥ 5,000B. 셋 중 하나라도 아니면 **차단**
+  (publish-daily 4단계 `node scripts/gen_post_hero.mjs --slug {slug}`로 생성). OG PNG
+  (`public/og/{slug}.png` + `image:`)도 같이 확인. (기존 글 소급 예외 — 백필은 2026-09-02 완료.)
 
 ## 10. 문체 — AI 생성 티 가드 (W-01~02)
 - **긴 줄표 검증** (W-01): **신규 글**의 발행 노출 텍스트(md 프론트매터
@@ -98,6 +102,11 @@ tools: Read, Grep, Glob, Edit, Bash
   않는다(재색인 손해).
 - **상투구 반복** (W-02): `핵심은 N가지`·`정리하면`·`결론부터 말하면`·`한눈에 정리`
   류 문구가 이번 글에서 기존 코퍼스와 똑같은 패턴으로 반복되면 **경고**(문장 다양화 권고).
+- **화살표 남발** (W-03): 본문(마크다운 본문 텍스트, 표 포함)에 `→`가 **2회 이상**이면
+  **차단**(신규 글). `grep -o '→' src/content/answers/{slug}.md | wc -l`. 과정·인과는 문장으로.
+- **중복 블록** (W-04): 체크리스트·확인사항·핵심 정리·마지막 점검 성격의 블록이 2개
+  이상이거나, 결론 섹션이 본문의 금액·기관명을 재나열하거나, FAQ Q가 본문 H2와 같은
+  질문이면 **경고** + 통합 권고 (google-content-master-prompt-v4 PART 18~21·31).
 
 # 통과 시
 1. `automation/briefs/{cluster}/{slug}.brief.yaml`의 `status`를 `published`로 변경.

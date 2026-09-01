@@ -3,6 +3,8 @@
  * /feeds/ 허브와 각 피드 라우트가 공유한다.
  */
 import { getCollection } from "astro:content";
+import { statSync } from "node:fs";
+import { join } from "node:path";
 
 export const SITE_TITLE = "물어봄 — 공식 자료 기반 금융·생활 답변";
 export const SITE_DESC =
@@ -43,7 +45,20 @@ export type FeedItem = {
   cluster: string;
   clusterLabel: string;
   updated: Date;
+  /* 대표 이미지(hero WebP) — RSS enclosure / Atom link rel=enclosure / JSON Feed image */
+  hero?: { url: string; length: number; type: string };
 };
+
+/* frontmatter hero 경로 → 절대 URL + 파일 크기(RSS enclosure length 필수). 파일 없으면 생략. */
+export function heroOf(siteUrl: string, hero?: string): FeedItem["hero"] | undefined {
+  if (!hero) return undefined;
+  try {
+    const size = statSync(join(process.cwd(), "public", decodeURI(hero))).size;
+    return { url: `${siteUrl}${encodeURI(hero)}`, length: size, type: "image/webp" };
+  } catch {
+    return undefined;
+  }
+}
 
 /* 발행 글 → 피드 아이템(최신순). cluster 지정 시 해당 클러스터만. */
 export async function loadItems(site: URL, cluster?: string): Promise<FeedItem[]> {
@@ -58,6 +73,7 @@ export async function loadItems(site: URL, cluster?: string): Promise<FeedItem[]
     cluster: p.data.cluster,
     clusterLabel: CLUSTER_LABEL[p.data.cluster] ?? p.data.cluster,
     updated: new Date(p.data.updated),
+    hero: heroOf(siteUrl, p.data.hero),
   }));
 }
 
@@ -72,7 +88,10 @@ export function rssBody(items: FeedItem[], o: ChannelMeta): string {
       <guid isPermaLink="true">${it.url}</guid>
       <pubDate>${rfc822(it.updated)}</pubDate>
       <category>${xmlEscape(it.clusterLabel)}</category>
-      <description>${xmlEscape(it.summary)}</description>
+      <description>${xmlEscape(it.summary)}</description>${
+        it.hero ? `
+      <enclosure url="${it.hero.url}" length="${it.hero.length}" type="${it.hero.type}" />` : ""
+      }
     </item>`
     )
     .join("\n");
@@ -105,7 +124,10 @@ export function atomBody(
     <id>${it.url}</id>
     <updated>${iso(it.updated)}</updated>
     <category term="${it.cluster}" label="${xmlEscape(it.clusterLabel)}" />
-    <summary>${xmlEscape(it.summary)}</summary>
+    <summary>${xmlEscape(it.summary)}</summary>${
+      it.hero ? `
+    <link rel="enclosure" type="${it.hero.type}" length="${it.hero.length}" href="${it.hero.url}" />` : ""
+    }
   </entry>`
     )
     .join("\n");
@@ -140,6 +162,7 @@ export function jsonBody(items: FeedItem[], o: ChannelMeta): string {
         content_text: it.summary,
         date_modified: iso(it.updated),
         tags: [it.clusterLabel],
+        ...(it.hero ? { image: it.hero.url } : {}),
       })),
     },
     null,

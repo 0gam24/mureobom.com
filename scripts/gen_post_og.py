@@ -9,7 +9,7 @@
 
 재실행 시 PNG 덮어쓰기. 글 제목·요약 변경 후 본 스크립트 재실행하면 OG도 갱신.
 
-실행: python scripts/gen_post_og.py
+실행: python scripts/gen_post_og.py --slug {slug}   (전체: --all)
 """
 from __future__ import annotations
 from PIL import Image, ImageDraw, ImageFont
@@ -33,10 +33,13 @@ CLUSTER_LABEL = {
     "insurance": "보험·연금",
 }
 
-FONT_BRAND  = "C:/Windows/Fonts/batang.ttc"
-FONT_BRAND_B = "C:/Windows/Fonts/batang.ttc"
-FONT_BODY   = "C:/Windows/Fonts/malgun.ttf"
-FONT_BODY_B = "C:/Windows/Fonts/malgunbd.ttf"
+# 폰트: 레포에 동봉한 OFL 폰트(scripts/fonts) — 로컬 Windows·클라우드 Linux 출력 동일.
+# (구 버전은 C:/Windows/Fonts 바탕·맑은고딕에 의존해 클라우드에서 폴백 렌더가 갈렸다.)
+FONT_DIR = Path(__file__).resolve().parent / "fonts"
+FONT_BRAND   = str(FONT_DIR / "GowunBatang-Regular.ttf")
+FONT_BRAND_B = str(FONT_DIR / "GowunBatang-Bold.ttf")
+FONT_BODY    = str(FONT_DIR / "IBMPlexSansKR-Regular.ttf")
+FONT_BODY_B  = str(FONT_DIR / "IBMPlexSansKR-Bold.ttf")
 
 def font(path: str, size: int) -> ImageFont.FreeTypeFont:
     try:
@@ -157,11 +160,23 @@ def ensure_image_field(md_path: Path, slug: str) -> bool:
 
 
 def main() -> None:
-    answers_dir = Path("src/content/answers")
-    out_dir = Path("public/og")
+    import argparse
+    ap = argparse.ArgumentParser(description="글별 OG PNG 생성 (public/og/{slug}.png)")
+    ap.add_argument("--slug", action="append", default=[], help="대상 슬러그 (여러 번 지정 가능)")
+    ap.add_argument("--all", action="store_true", help="전체 글 재생성 (290편 PNG가 모두 바뀌므로 신중히)")
+    args = ap.parse_args()
+    if not args.slug and not args.all:
+        ap.error("--slug {slug} 또는 --all 을 지정하세요 (publish-daily는 --slug 사용)")
+
+    root = Path(__file__).resolve().parent.parent
+    answers_dir = root / "src" / "content" / "answers"
+    out_dir = root / "public" / "og"
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    files = sorted(answers_dir.glob("*.md"))
+    files = sorted(answers_dir.glob("*.md")) if args.all else [answers_dir / f"{s}.md" for s in args.slug]
+    missing = [f for f in files if not f.exists()]
+    if missing:
+        raise SystemExit(f"  ✗ 없는 글: {', '.join(str(m) for m in missing)}")
     print(f"  scanning {len(files)} posts...")
     for md in files:
         slug = md.stem

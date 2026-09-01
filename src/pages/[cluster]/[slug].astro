@@ -34,6 +34,23 @@ const related = (p.data.internalLinks ?? [])
   })
   .filter((x): x is { href: string; title: string } => x !== null);
 
+/* 내부 링크 보강 — internalLinks가 3개 미만이면 같은 클러스터 최신 글로 3개까지 채운다.
+ * 고아 페이지 방지 + 크롤 경로 확보(Google "발견됨/크롤링됨 - 색인 생성되지 않음" 대응:
+ * 페이지 중요도는 내부 링크로 전달된다). 자기 자신·이미 포함된 글은 제외. */
+if (related.length < 3) {
+  const have = new Set(related.map((r) => r.href));
+  const sameCluster = allPosts
+    .filter((a) => a.data.cluster === p.data.cluster && a.slug !== p.slug)
+    .sort((a, b) => +new Date(b.data.updated) - +new Date(a.data.updated));
+  for (const a of sameCluster) {
+    const href = `/${a.data.cluster}/${a.slug}/`;
+    if (have.has(href)) continue;
+    related.push({ href, title: a.data.title });
+    have.add(href);
+    if (related.length >= 3) break;
+  }
+}
+
 /* FAQ 답변의 마크다운 링크/강조를 HTML로 — 평문 노출 방지 (Google FAQ rich result는 <a>·<strong> 허용) */
 function faqHtml(text: string): string {
   return text
@@ -48,9 +65,17 @@ const siteBase = Astro.site?.toString().replace(/\/$/, "") ?? "";
 /* 한글 슬러그 percent-encoding (canonical·@id·BreadcrumbList item 모두 통일) */
 const pageUrl  = `${siteBase}/${p.data.cluster}/${encodeURIComponent(p.slug)}/`;
 const clusterUrl = `${siteBase}/${p.data.cluster}/`;
-const ogImage  = p.data.image
-  ? `${siteBase}${p.data.image}`
-  : `${siteBase}/og-default.png`;
+/* 대표 이미지 — hero WebP(1200×900, scripts/gen_post_hero.mjs)가 1순위, OG PNG(1200×630)는
+ * 메신저 스크래퍼 호환 폴백. Base에는 raw 경로를 넘기고(Base가 encodeURI), JSON-LD에는
+ * 직접 인코딩한 절대 URL을 쓴다(한글 슬러그). */
+const ogPngPath  = p.data.image ?? "/og-default.png";
+const ogPngUrl   = `${siteBase}${encodeURI(ogPngPath)}`;
+const heroPath   = p.data.hero;
+const heroUrl    = heroPath ? `${siteBase}${encodeURI(heroPath)}` : undefined;
+const ogImage    = heroPath ? `${siteBase}${heroPath}` : `${siteBase}${ogPngPath}`;
+const ogImageFallback = heroPath ? `${siteBase}${ogPngPath}` : undefined;
+const imageList  = heroUrl ? [heroUrl, ogPngUrl] : [ogPngUrl];
+const wordCount  = (p.body ?? "").replace(/\s/g, "").length;
 
 /* datePublished/dateModified 분리 — published 미지정 글은 updated로 폴백 (SEO-04) */
 const publishedDate = p.data.published ?? p.data.updated;
@@ -91,7 +116,12 @@ const articleNode = {
   "isAccessibleForFree": true,
   "datePublished": publishedIso,
   "dateModified":  modifiedIso,
-  "image": [ogImage],
+  /* Google Article 권장: 가로 1200px 이상·복수 비율. hero 4:3(1200×900) + OG 16:9 근사(1200×630) */
+  "image": imageList,
+  "thumbnailUrl": imageList[0],
+  "articleSection": CL[p.data.cluster],
+  "keywords": p.data.targetQuery,
+  "wordCount": wordCount,
   "author":    { "@type": "Organization", "name": p.data.author, "url": siteBase ? `${siteBase}/about/` : undefined },
   "publisher": {
     "@type": "Organization",
@@ -100,8 +130,27 @@ const articleNode = {
     "url": siteBase || undefined,
     "logo": { "@type": "ImageObject", "url": `${siteBase}/apple-touch-icon.png` },
   },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": pageUrl },
+  "mainEntityOfPage": { "@id": pageUrl },
   ...(citations.length ? { "citation": citations } : {}),
+};
+
+/* WebPage 노드 — primaryImageOfPage로 검색 썸네일 선호 이미지 지정
+ * (Google google-images.md "메타데이터를 사용하여 선호하는 이미지 지정"). 홈 WebSite 노드 참조. */
+const webPageNode = {
+  "@type": "WebPage",
+  "@id": pageUrl,
+  "url": pageUrl,
+  "name": p.data.title,
+  "description": p.data.summary,
+  "inLanguage": "ko",
+  "isPartOf": { "@id": `${siteBase}/#website` },
+  "datePublished": publishedIso,
+  "dateModified":  modifiedIso,
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": imageList[0],
+    ...(heroUrl ? { "width": 1200, "height": 900 } : { "width": 1200, "height": 630 }),
+  },
 };
 
 /* BreadcrumbList — 네이버·구글 겸용:
@@ -127,7 +176,7 @@ const faqNode = p.data.faq.length ? {
 
 const jsonld = {
   "@context": "https://schema.org",
-  "@graph": [articleNode, breadcrumbNode, ...(faqNode ? [faqNode] : [])],
+  "@graph": [webPageNode, articleNode, breadcrumbNode, ...(faqNode ? [faqNode] : [])],
 };
 
 /* AdSense slot IDs (compliance AD-04: 출처/FAQ 직접 인접 금지)
@@ -142,9 +191,15 @@ const slotBottom = import.meta.env.PUBLIC_ADSENSE_SLOT_BOTTOM ?? "";
   jsonld={jsonld}
   ogType="article"
   ogImage={ogImage}
+  ogImageType={heroPath ? "image/webp" : "image/png"}
+  ogImageWidth={1200}
+  ogImageHeight={heroPath ? 900 : 630}
+  ogImageFallback={ogImageFallback}
   canonical={pageUrl}
   articlePublished={publishedIso}
   articleModified={modifiedIso}
+  articleSection={CL[p.data.cluster]}
+  articleTags={[p.data.targetQuery]}
 >
   <article class="post">
     <p class="crumb"><a href={`/${p.data.cluster}/`}>{CL[p.data.cluster]}</a></p>

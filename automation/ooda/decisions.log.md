@@ -27,6 +27,35 @@
 
 ---
 
+## D-2026-09-02-1: Google 노출 회복 — 하루 3편 → 1편(07:00 KST), master prompt v4, 대표 이미지 WebP
+
+- **층위**: 긴급(즉시) — 운영자 지시(2026-09-02)
+- **변경**:
+  - 클라우드 루틴 `06 mureobom (07:00)` 신설(cron `0 22 * * *` UTC, 하루 정확히 1편). 구 `#6 mureobom
+    (06:00)`(trig_01Fe8HhS6HSHFrCqWv9zdyyK)은 이미 삭제된 상태(404)였음. `/publish-daily` 기본 N=1 +
+    §0 중복 실행 차단 + 카니발리제이션·1차 출처 사전 검사 + 0편 종료 허용.
+  - `docs/prompts/google-content-master-prompt-v4.md` 도입 → writer 전면 개정(정보 이득 2개·사실/해석
+    구분·정보 기준일·체크리스트 1개·화살표 1회·결론=행동계획·FAQ=후속질문·구조 유형별),
+    QUALITY_RUBRIC 개정, compliance W-03/W-04/V-05 추가, geo FAQ 규칙 개정(faq_pairs_min 3, 복사형 금지).
+  - 대표 이미지: `scripts/gen_post_hero.mjs`(sharp + 동봉 OFL 폰트)로 290편 전체 `public/img/{slug}.webp`
+    1200×900 백필(인포그래픽 없는 148편은 제목·불릿 카드 폴백). og:image 1순위 WebP + PNG 폴백,
+    Article.image/thumbnailUrl, WebPage.primaryImageOfPage, 이미지 사이트맵, RSS/Atom enclosure, JSON Feed image.
+  - 기술: 같은 클러스터 최신 글로 "함께 보면 좋은 글" 3개 자동 보강, article:section/tag, `<title>`
+    구분자 `—`→`|`, `/img/*` 캐시 헤더, `gen_post_og.py` 폰트 동봉화 + `--slug`.
+- **근거 (Orient)**: GSC 28일 노출 174(07-25) → 99(08-29), 클릭 0, 발행은 218→290편. 코퍼스 패턴:
+  H2 "흔한 오해"류 189회·"정리 — 한 줄로" 72회·화살표 2회+ 90편. Google 스팸 정책 §확장된 콘텐츠 악용
+  + 2026-03/05 코어·06 스팸 업데이트 + 2026-07-16 Search Relations(크롤링됨-색인 안 됨 대량 = 사이트 품질
+  의심). 상세: docs/GOOGLE_RECOVERY_PLAN.md.
+- **기대 효과**:
+  - 2주: 신규 글 7일 내 색인, "크롤링됨-색인 안 됨" 증가 정지
+  - 4주: 28일 노출 ≥ 300, 클릭 > 0
+- **롤백 기준**: 4주 내 네이버 노출 30%↑ 하락 시 og:image 1순위를 PNG로 복귀. 발행 편수는 회복 확인
+  후에도 2편까지만 검토(3편 복귀 금지).
+- **연관 커밋**: (본 세션 커밋)
+- **Outcome (1주 후 작성)**:
+
+---
+
 ## D-2026-07-24-2: 로컬 세션에서 보류분 4편 수동 발행 + 스케줄 트리거 정상 확정(egress만이 유일 병목)
 
 - **층위**: 긴급(즉시) — 운영자(로컬) 개입으로 3일 공백 해소

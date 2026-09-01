@@ -8,8 +8,9 @@
  *    변경 추적이 없는 정적 페이지(about·privacy·feeds)는 lastmod 자체를 생략.
  *    (매 빌드 today를 찍는 lastmod 인플레이션은 Google의 lastmod 신뢰를 깎는다.)
  *  - <loc>은 percent-encoding된 절대 URL(new URL이 처리) + XML 엔티티 escape.
- *  - 이미지 sitemap 확장: 각 글의 본문 인포그래픽(/diagrams/*.svg)을 <image:image>로
- *    노출해 Google 이미지 검색 색인을 돕는다 (sitemaps/image-sitemaps.md).
+ *  - 이미지 sitemap 확장: 각 글의 대표 이미지(/img/{slug}.webp)와 본문 인포그래픽
+ *    (/diagrams/*.svg)을 <image:image>로 노출해 Google 이미지 검색 색인을 돕는다
+ *    (sitemaps/image-sitemaps.md).
  */
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
@@ -74,9 +75,11 @@ export const GET: APIRoute = async ({ site }) => {
     ...posts.map((p) => ({
       loc: new URL(`/${p.data.cluster}/${p.slug}/`, site).toString(),
       lastmod: toW3CDate(p.data.updated),
-      images: extractDiagrams(p.body ?? "").map((path) =>
-        new URL(encodeURI(path), site).toString()
-      ),
+      /* 대표 이미지(hero WebP)를 먼저, 본문 인포그래픽 SVG를 이어서 */
+      images: [
+        ...(p.data.hero ? [p.data.hero] : []),
+        ...extractDiagrams(p.body ?? ""),
+      ].map((path) => new URL(encodeURI(path), site).toString()),
     })),
   ];
 

@@ -53,7 +53,15 @@
       "Bash(npm run dev)",
       "Bash(npm install)",
       "Bash(npx astro:*)",
-      "Bash(python -m pytest:*)"
+      "Bash(python -m pytest:*)",
+      "Bash(node scripts/gen_post_hero.mjs:*)",
+      "Bash(python scripts/gen_post_og.py:*)",
+      "Bash(python -X utf8 scripts/gen_post_og.py:*)",
+      "Bash(git fetch:*)",
+      "Bash(git rebase:*)",
+      "Bash(git pull:*)",
+      "Bash(npm ci)",
+      "Bash(npm run build:fast)"
     ],
     "deny": [
       "WebFetch(domain:kin.naver.com)",

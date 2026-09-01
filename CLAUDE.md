@@ -20,6 +20,11 @@
 4. **컴플라이언스 게이트 우회 금지**. AdSense 정책(원본 콘텐츠·금지 카테고리·
    일반정보 고지)·금융표현(단정적 약속 금지)·자체 코퍼스+웹 유사도 검사를
    통과하지 못한 글은 머지하지 않는다.
+5. **자동 발행은 하루 1편** (D-2026-09-02-1). 하루 3편 × 90일 = 290편 발행 뒤 Google 노출이
+   28일 99회·클릭 0으로 붕괴했다(스팸 정책 "확장된 콘텐츠 악용" 패턴). 추가 발행은 운영자가
+   세션에서 명시 지시할 때만(`/publish-daily 2`). 통과 후보가 없으면 0편이 정상이다.
+   본문 품질 기준은 [docs/prompts/google-content-master-prompt-v4.md](docs/prompts/google-content-master-prompt-v4.md),
+   배경·회복 판정은 [docs/GOOGLE_RECOVERY_PLAN.md](docs/GOOGLE_RECOVERY_PLAN.md).
 
 운영자 슬래시 명령어 사용 순서는 [WORKFLOW.md](WORKFLOW.md) 참조.
 의사결정 루프(주간 OODA·브리프 검수·에이전트 핸드오프)는 [OODA.md](OODA.md) 참조.
@@ -36,10 +41,10 @@
   - (로컬 윈도우의 시스템 `date`는 `+0900`이라 우연히 맞지만, 스크립트는 위 안전식으로 통일.)
 - (실측 이력: D-2026-07-11 클라우드 첫 런이 UTC로 찍혀 7/10로 하루 밀림 → KST 강제 후 7/12부터
   정상. D-2026-07-16 로컬에서 `TZ=Asia/Seoul date`가 UTC로 폴백해 시각 오독 발생 → 안전식 확정.)
-- 자동 배포 스케줄은 매일 **06:00 KST**(claude.ai routine `#6 mureobom (06:00)`,
-  cron `0 21 * * *` UTC — 2026-07-23 04:30에서 변경). 한국은 서머타임이 없어 이 매핑은
-  연중 고정. 파이프라인은 발화 후 약 30~60분 걸리므로
-  완료(커밋·라이브)는 대략 06:30~07:00 KST. 그 전에 확인하면 "아직 안 됨"이 정상이다.
+- 자동 배포 스케줄은 매일 **07:00 KST**(claude.ai routine `06 mureobom (07:00)`,
+  cron `0 22 * * *` UTC — 2026-09-02 06:00에서 변경, 하루 1편). 한국은 서머타임이 없어
+  이 매핑은 연중 고정. 파이프라인은 발화 후 약 30~60분 걸리므로
+  완료(커밋·라이브)는 대략 07:30~08:00 KST. 그 전에 확인하면 "아직 안 됨"이 정상이다.
   → 스케줄 정의는 [.claude/skills/publish-daily/SKILL.md](.claude/skills/publish-daily/SKILL.md)
   「날짜·시간 기준」 절과 동일하게 유지.
 
@@ -101,6 +106,9 @@ mureobom/                       ← 레포 루트 = Astro 프로젝트 루트
 │  ├─ agents/                   6개 파이프라인 에이전트
 │  └─ skills/publish-daily/     일 3편 발행 원커맨드 체인
 ├─ scripts/
+│  ├─ gen_post_hero.mjs         대표 이미지 WebP 생성 (sharp + 동봉 폰트) — publish-daily 4단계
+│  ├─ gen_post_og.py            OG PNG 생성 (--slug 단건 / --all)
+│  ├─ fonts/                    OFL 폰트(Gowun Batang·IBM Plex Sans KR) + fonts.conf — 이미지 렌더 전용
 │  ├─ gen_llms_posts.py         llms.txt POSTS 블록 재생성 (geo가 호출)
 │  ├─ backfill_published.py     published: 백필 (updated 캡)
 │  └─ hooks/
@@ -110,6 +118,8 @@ mureobom/                       ← 레포 루트 = Astro 프로젝트 루트
 ├─ templates/post.md            본문 구조 템플릿
 ├─ public/
 │  ├─ llms.txt                  GEO 에이전트가 갱신
+│  ├─ img/{slug}.webp           글별 대표 이미지 1200×900 WebP (검색 썸네일, scripts/gen_post_hero.mjs)
+│  ├─ og/{slug}.png             글별 OG PNG 1200×630 (SNS 폴백, scripts/gen_post_og.py --slug)
 │  ├─ ads.txt                   Google AdSense publisher 검증
 │  ├─ robots.txt                크롤러 허용 + sitemap 위치
 │  ├─ favicon.svg               브랜드 아이콘 (워터틸 + ?)
@@ -134,10 +144,13 @@ mureobom/                       ← 레포 루트 = Astro 프로젝트 루트
 
 ```
 cron 스캐너 → automation/topic-queue.json → brief 초안 → 사람 15분 검수(approved)
-  → researcher → writer(src/content/answers/{slug}.md 직접 작성)
-  → quality-gate(85점 게이트, REVISE 1회) → GEO → compliance
-  → auto-PR → CI 통과 시 auto-merge
+  → researcher → writer(src/content/answers/{slug}.md 직접 작성, master prompt v4)
+  → quality-gate(85점 게이트, REVISE 1회) → GEO
+  → 이미지(gen_post_hero.mjs WebP + gen_post_og.py PNG) → compliance(V-05 포함)
+  → llms.txt → build → main 직접 커밋·푸시 (하루 1편)
 ```
+
+발행 체인의 단일 정의는 [.claude/skills/publish-daily/SKILL.md](.claude/skills/publish-daily/SKILL.md).
 
 각 단계 에이전트의 입출력 계약은 [.claude/agents/](.claude/agents/) 내 정의 참조.
 프론트매터 스키마는 [src/content/config.ts](src/content/config.ts) Zod로 강제됨.
@@ -247,6 +260,11 @@ score = 100 * ( 0.40·trend_momentum
 - **brief 단계와 본문 단계 분리**. `automation/`(brief·signal·research)과
   `src/`(발행 본문)는 형제. 자동화 산출은 Astro 빌드에 들어가지 않고,
   발행 본문은 자동화 메타를 노출하지 않는다.
+- **대표 이미지 WebP 1개 필수**. 신규 글은 `public/img/{slug}.webp`(1200×900, 본문 첫
+  인포그래픽을 `scripts/gen_post_hero.mjs --slug`로 래스터화) + 프론트매터 `hero`를 가진다.
+  이 이미지가 og:image 1순위·Article.image·primaryImageOfPage·이미지 사이트맵·RSS enclosure로
+  나가 Google·네이버 검색 썸네일이 된다. OG PNG(`image`)는 메신저 스크래퍼 폴백.
+  compliance V-05가 강제. 근거·요건은 [docs/GOOGLE_RECOVERY_PLAN.md](docs/GOOGLE_RECOVERY_PLAN.md) §2-3.
 - **인포그래픽 1개 이상 필수**. 신규 글은 `public/diagrams/{slug}.svg` 인포그래픽을
   **최소 1개** 본문에 `![alt](/diagrams/{slug}.svg)`로 포함한다. 정보 전달용
   (수치·절차·비교 시각화)이며 장식용 이미지는 금지. **브랜드 팔레트 hex만** 사용
@@ -279,7 +297,8 @@ score = 100 * ( 0.40·trend_momentum
 | (writer 신규) | `keyPoints` | "한눈에 핵심" 불릿 3~6개(선택, 신규 글은 작성). 상세 페이지가 요약 아래 박스로 자동 렌더. 목차(H2 수집)·읽기시간은 페이지가 자동 생성 |
 | (writer 신규) | `updated` | 발행 일자 (ISO date) |
 | (writer 신규) | `disclaimer` | 기본 true — 일반정보 고지 노출 |
-| (writer 선택) | `image` | OG/Twitter 이미지 절대경로. 미지정 시 `/og-default.png` |
+| (publish-daily 4단계) | `image` | OG PNG `/og/{slug}.png` (`scripts/gen_post_og.py --slug`가 삽입). 메신저 공유 폴백 |
+| (publish-daily 4단계) | `hero` | 대표 이미지 `/img/{slug}.webp` 1200×900 (`scripts/gen_post_hero.mjs --slug`가 삽입). 검색 썸네일 1순위. writer는 비워 둔다 |
 | (writer 선택) | `author` | 작성 주체 바이라인. 기본 `"물어봄 편집부"` — **정직한 편집팀 라벨만**. 실재하지 않는 개인 전문가·자격 사칭 금지(compliance E-02) |
 
 엔드포인트 스키마 정의: [src/content/config.ts](src/content/config.ts).
@@ -334,6 +353,11 @@ mureobom은 **AdSense 광고 수익만** 운영한다. **계산기 딥링크·�
 | [docs/references/](docs/references/) (7) | 바이브코딩 방법론·하네스 엔지니어링·SEO 종합 | 핵심 룰만 발췌 (유사문서 회피 → brief-generator + compliance, 검색엔진 등록 → WORKFLOW §6.5). 미반영 항목은 "Phase 3 자동화" 또는 "운영자 분기 리뷰" 대상 |
 | [docs/calculator-spec/](docs/calculator-spec/) (19) | 외부 프로젝트(calculatorhost) 계산기 스펙 | **mureobom 본문에서 사용하지 않음**. 수익화를 AdSense 단독으로 전환하면서 폐기. 폴더는 다른 프로젝트 참고용으로 보존 — 본 레포는 무관 |
 | [docs/google-seo/](docs/google-seo/) (2) | Google SEO Fundamentals + 즉시 적용 템플릿 | OG/Twitter/Canonical → [src/layouts/Base.astro](src/layouts/Base.astro), robots.txt → [public/robots.txt](public/robots.txt), sitemap → [src/pages/sitemap.xml.ts](src/pages/sitemap.xml.ts), Article+BreadcrumbList+FAQPage @graph → [src/pages/\[cluster\]/\[slug\].astro](src/pages/[cluster]/[slug].astro), 제목/description 길이 검증 → [src/content/config.ts](src/content/config.ts) Zod, compliance M-01~M-09 |
+
+| [docs/prompts/google-content-master-prompt-v4.md](docs/prompts/google-content-master-prompt-v4.md) | Google 검색 프리미엄 콘텐츠 마스터 프롬프트 v4 (원본: Y:/00 작업진행/04 프롬프트/#0 포스팅/#1-2 GOOGLE_CONTENT_PROMPT_260826.txt) | writer·quality-gate·geo 에이전트 + [docs/QUALITY_RUBRIC.md](docs/QUALITY_RUBRIC.md) + compliance W-03·W-04에 인코딩. 원본 개정 시 사본 통째 교체 |
+| [docs/GOOGLE_RECOVERY_PLAN.md](docs/GOOGLE_RECOVERY_PLAN.md) | Google 노출 붕괴 진단·조치·운영자 GSC 수동 작업·회복 판정 | 절대 원칙 5, publish-daily N=1, hero WebP, decisions.log D-2026-09-02-1 |
+| [docs/QUALITY_RUBRIC.md](docs/QUALITY_RUBRIC.md) | quality-gate 100점 루브릭 (2026-09-02 정보 이득·중복·문체 항목 개정) | quality-gate 에이전트가 매 채점 시 로드 |
+| [docs/references/](docs/references/) | 범용 웹사이트 개발 레퍼런스 라이브러리(G 구글 공식 174·H 네이버 공식 55·A~F 요약). 여러 프로젝트 공용 사본 | SEO·구조화데이터·크롤링 스펙은 G/H 원문에서 확인. 구 `docs/google-seo/`·`docs/references/0N-*.md`는 이 라이브러리로 흡수됨 |
 
 새 docs/ 파일이 추가되면 본 표에 한 줄로 추가하고 어디에 인코딩됐는지 적어라.
 인코딩되지 않은 파일은 미래 세션이 매번 다시 읽어야 하므로 비용이 든다.

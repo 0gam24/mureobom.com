@@ -11,6 +11,7 @@
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
 import { createMarkdownProcessor } from "@astrojs/markdown-remark";
+import { heroOf } from "../lib/feeds";
 
 const CLUSTER_LABEL: Record<string, string> = {
   tax: "세금",
@@ -71,13 +72,19 @@ export const GET: APIRoute = async ({ site }) => {
     const bodyHtml = absolutize(String(rendered.code), siteUrl);
     /* 요약 한 문장 + 본문 전문 — 전체 공개 요건 충족 */
     const full = `<p>${xmlEscape(p.data.summary)}</p>\n${bodyHtml}`;
+    /* 대표 이미지(hero WebP)를 enclosure로 — 피드 리더·수집기 썸네일용 */
+    const hero = heroOf(siteUrl, p.data.hero);
+    const enclosure = hero
+      ? `
+      <enclosure url="${hero.url}" length="${hero.length}" type="${hero.type}" />`
+      : "";
     return `    <item>
       <title>${xmlEscape(p.data.title)}</title>
       <link>${url}</link>
       <guid isPermaLink="true">${url}</guid>
       <pubDate>${toRfc822(p.data.updated)}</pubDate>
       <category>${xmlEscape(cluster)}</category>
-      <description>${cdata(full)}</description>
+      <description>${cdata(full)}</description>${enclosure}
     </item>`;
   }));
 

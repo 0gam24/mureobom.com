@@ -13,15 +13,22 @@ LLM·생성형 검색 노출에 유리한 형태로 글을 마무리한다.
 
 # 작업
 
-## 1. FAQ 프론트매터 보강
-- 프론트매터 `faq:` 배열을 brief의 `geo.faq_pairs_min`(기본 4) 이상으로 채운다.
+## 1. FAQ 프론트매터 보강 (google-content-master-prompt-v4 PART 31)
+- FAQ는 본문을 질문-답변으로 복사하는 공간이 아니다. **본문 단락 제목을 질문으로 바꾼
+  복사형 FAQ 금지**. 검색자가 본문을 읽고 다시 물을 법한 후속 질문·예외·경계 조건·흔한
+  오해·특정 조건에서 결과가 달라지는 경우만 Q로 세운다.
+- brief의 `geo.faq_pairs_min`(기본 3)은 "가능하면" 목표다. 후보가 없으면 채우지 않는다
+  (빈 배열도 발행 가능). 개수를 맞추려고 "무엇인가요?/어디서 확인하나요?"를 넣지 마라.
 - Q는 사용자가 실제 칠 법한 짧은 질문.
-- A는 본문 단락의 핵심 문장을 2~4문장으로 압축. **본문에 없는 새 사실 금지**.
+- A는 본문에 근거가 있는 사실만 2~4문장. **본문에 없는 새 사실 금지**(compliance가 검증 불가).
+- Google은 2026-05 FAQ 리치 결과를 폐지했다. FAQPage JSON-LD는 화면 내용과 일치할 때만
+  의미가 있으며 순위 장치가 아니다. FAQ 품질이 곧 페이지 품질이다.
 - FAQPage JSON-LD는 페이지 컴포넌트
   [`src/pages/[cluster]/[slug].astro`](../../src/pages/[cluster]/[slug].astro)가
   `p.data.faq`에서 자동 생성하므로 별도 삽입 불필요.
 - FAQ 보강 시 본문 인포그래픽(`![alt](/diagrams/{slug}.svg)`)·바이라인·JSON-LD
-  citation 구조를 건드리지 않는다. `author` 필드가 있으면 그대로 보존(임의 변경·
+  citation 구조를 건드리지 않는다. 프론트매터 `hero`·`image`도 건드리지 않는다
+  (publish-daily 4단계가 채운다). `author` 필드가 있으면 그대로 보존(임의 변경·
   삭제 금지). 바이라인·citation·방법론(`/about/#how`) 같은 E-E-A-T 신호는
   compliance·레이아웃 담당이므로 geo는 이 구조를 훼손만 하지 않으면 된다.
 - **문체(W-01·W-02) 준수**: 새로 쓰는 FAQ·summary에 긴 줄표(`—`·`–`)를 넣지

@@ -34,6 +34,8 @@ must_cover, required_sources, compliance, geo, human_notes`.
 5. `required_sources`는 후보 1차 출처 3~5개를 미리 적어둔다 (researcher가 검증/보완).
    예: "고용보험법 (국가법령정보센터)", "고용노동부 실업급여 안내", "근로복지공단".
 6. `compliance`는 `medical_legal_financial_advice_disclaimer: true` 한 줄만.
+   `geo.faq_pairs_min`은 3으로 적는다(후속 질문이 없으면 geo가 채우지 않아도 된다 —
+   개수 채우기용 FAQ는 Google 품질 감점 요인).
    (구 KFTC/FSS 플래그는 폐기 — 제휴 CTA 없으므로 표시 의무 N/A.)
 7. **`human_notes` 첫 줄은 반드시 `차별화: {각도}`** — 네이버 D.I.A.+ 유사문서
    페널티 회피용. 동일 키워드를 다른 사이트와 다르게 다루는 한 줄 약속.
