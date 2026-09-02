@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" role="img" aria-label="2027년 가구원수별 기준 중위소득과 급여별 선정기준 표(월, 원): 1인 가구 중위소득 2,736,042원(생계 875,533·의료 1,094,417·주거 1,313,300·교육 1,368,021원), 4인 가구 6,929,885원(생계 2,217,563·의료 2,771,954·주거 3,326,345·교육 3,464,943원). 전 가구 2026년 대비 6.70% 인상, 2027년부터 적용.">
+  <rect x="0" y="0" width="1000" height="720" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="500" y="58" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="28" font-weight="700" fill="#1A2B2A">2027년 기준 중위소득과 급여별 선정기준 (월, 원)</text>
+  <text x="500" y="92" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">2026년 대비 1~6인 가구 모두 <tspan font-weight="700" fill="#C2873B">6.70% 인상</tspan> (2015년 이후 최대) · 2027년부터 적용</text>
+  <line x1="40" y1="110" x2="960" y2="110" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 표 머리 -->
+  <rect x="40" y="128" width="920" height="48" rx="8" fill="#E3F0EE"/>
+  <text x="95" y="159" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">가구원수</text>
+  <text x="245" y="159" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">기준 중위소득 100%</text>
+  <text x="417" y="159" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">생계급여 32%</text>
+  <text x="572" y="159" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">의료급여 40%</text>
+  <text x="727" y="159" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">주거급여 48%</text>
+  <text x="882" y="159" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">교육급여 50%</text>
+
+  <!-- 행 배경 (짝수 행) -->
+  <rect x="40" y="176" width="920" height="50" fill="#F4EEE2"/>
+  <rect x="40" y="276" width="920" height="50" fill="#F4EEE2"/>
+  <rect x="40" y="376" width="920" height="50" fill="#F4EEE2"/>
+
+  <!-- 행 구분선 -->
+  <line x1="40" y1="226" x2="960" y2="226" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="276" x2="960" y2="276" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="326" x2="960" y2="326" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="376" x2="960" y2="376" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="426" x2="960" y2="426" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="476" x2="960" y2="476" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 열 구분선 -->
+  <line x1="150" y1="176" x2="150" y2="476" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="340" y1="176" x2="340" y2="476" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="495" y1="176" x2="495" y2="476" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="650" y1="176" x2="650" y2="476" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="805" y1="176" x2="805" y2="476" stroke="#E3DCCF" stroke-width="1"/>
+
+  <!-- 1인 -->
+  <text x="95" y="208" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">1인</text>
+  <text x="326" y="208" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">2,736,042</text>
+  <text x="481" y="208" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0E7C72">875,533</text>
+  <text x="636" y="208" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">1,094,417</text>
+  <text x="791" y="208" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">1,313,300</text>
+  <text x="946" y="208" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">1,368,021</text>
+
+  <!-- 2인 -->
+  <text x="95" y="258" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">2인</text>
+  <text x="326" y="258" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">4,480,645</text>
+  <text x="481" y="258" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0E7C72">1,433,806</text>
+  <text x="636" y="258" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">1,792,258</text>
+  <text x="791" y="258" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">2,150,710</text>
+  <text x="946" y="258" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">2,240,323</text>
+
+  <!-- 3인 -->
+  <text x="95" y="308" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">3인</text>
+  <text x="326" y="308" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">5,718,091</text>
+  <text x="481" y="308" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0E7C72">1,829,789</text>
+  <text x="636" y="308" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">2,287,236</text>
+  <text x="791" y="308" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">2,744,684</text>
+  <text x="946" y="308" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">2,859,046</text>
+
+  <!-- 4인 -->
+  <text x="95" y="358" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">4인</text>
+  <text x="326" y="358" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">6,929,885</text>
+  <text x="481" y="358" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0E7C72">2,217,563</text>
+  <text x="636" y="358" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">2,771,954</text>
+  <text x="791" y="358" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">3,326,345</text>
+  <text x="946" y="358" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">3,464,943</text>
+
+  <!-- 5인 -->
+  <text x="95" y="408" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">5인</text>
+  <text x="326" y="408" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">8,063,019</text>
+  <text x="481" y="408" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0E7C72">2,580,166</text>
+  <text x="636" y="408" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">3,225,208</text>
+  <text x="791" y="408" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">3,870,249</text>
+  <text x="946" y="408" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">4,031,510</text>
+
+  <!-- 6인 -->
+  <text x="95" y="458" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">6인</text>
+  <text x="326" y="458" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">9,129,201</text>
+  <text x="481" y="458" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0E7C72">2,921,344</text>
+  <text x="636" y="458" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">3,651,680</text>
+  <text x="791" y="458" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">4,382,016</text>
+  <text x="946" y="458" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">4,564,601</text>
+
+  <!-- 판단 기준 패널 -->
+  <rect x="40" y="500" width="920" height="112" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="64" y="534" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">소득인정액이 각 급여의 선정기준 이하이면 그 급여의 수급 구간이에요</text>
+  <text x="64" y="562" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">소득인정액 = 소득평가액 + 재산의 소득환산액 (국민기초생활 보장법 제2조 제9호). 월급 그대로가 아니에요</text>
+  <text x="64" y="590" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">제80차 중앙생활보장위원회 의결 2026. 7. 28 · 보건복지부 고시 제2026-157호 · 교육급여 50% 선은 차상위계층 상한과 같은 금액</text>
+
+  <line x1="40" y1="640" x2="960" y2="640" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="500" y="668" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">출처: 보건복지부 보도자료 「내년 기준 중위소득 6.70% 역대 최대 인상」(2026-07-28) 수치를 물어봄이 표로 옮김</text>
+</svg>
