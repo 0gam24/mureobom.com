@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-label="소상공인 특화 신용평가 SCB의 2026년 4월 계획과 9월 실제 대조: 4월 도입방안은 7개 은행·약 1.8조원·2026년 하반기(8월 예상), 9월 보도자료는 8월 31일 8개 은행 개시에 연말까지 8개 추가로 합계 16개 은행·2.2조원. 성장등급은 우수 S1·S2, 양호 S3·S4, 보통 S5·S6, 미흡 S7~S9, 취약 S10의 10단계. 등급별 금리·한도 기준표와 별도 신청 절차 안내는 두 보도자료에 없음.">
+  <rect x="0" y="0" width="1000" height="700" fill="#FBF7F0"/>
+
+  <text x="500" y="52" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#1A2B2A">소상공인 특화 신용평가(SCB), 4월 계획과 9월 시행</text>
+  <text x="500" y="84" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">금융위원회 보도자료 2026. 4. 9 · 2026. 9. 2 기준 · 정보 기준일 2026년 9월 3일</text>
+  <line x1="40" y1="100" x2="960" y2="100" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 왼쪽 패널: 4월 계획 -->
+  <rect x="40" y="118" width="440" height="240" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="62" y="151" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#4A5856">2026. 4. 9  도입방안 (계획)</text>
+  <line x1="62" y1="164" x2="458" y2="164" stroke="#E3DCCF" stroke-width="1"/>
+
+  <text x="62" y="197" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">참여 은행</text>
+  <text x="458" y="197" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#1A2B2A">7개</text>
+  <text x="62" y="223" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">기업·농협·하나·신한·우리·국민·제주</text>
+
+  <text x="62" y="261" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">공급 규모</text>
+  <text x="458" y="261" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#1A2B2A">약 1.8조원</text>
+
+  <text x="62" y="297" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">시점</text>
+  <text x="458" y="297" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">2026년 하반기 (8월 예상)</text>
+
+  <text x="62" y="333" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">4월 명단에 부산은행은 들어 있지 않음</text>
+
+  <!-- 오른쪽 패널: 9월 실제 -->
+  <rect x="520" y="118" width="440" height="240" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="542" y="151" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">2026. 9. 2  보도자료 (실제)</text>
+  <line x1="542" y1="164" x2="938" y2="164" stroke="#0E7C72" stroke-width="1"/>
+
+  <text x="542" y="197" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">8월 31일 개시</text>
+  <text x="938" y="197" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">8개</text>
+  <text x="542" y="223" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">국민·기업·농협·부산·신한·우리·제주·하나</text>
+
+  <text x="542" y="259" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">연말까지 추가 예정</text>
+  <text x="938" y="259" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">8개</text>
+  <text x="542" y="285" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">경남·광주·수협·iM·전북·카카오·케이·토스</text>
+
+  <line x1="542" y1="302" x2="938" y2="302" stroke="#0E7C72" stroke-width="1"/>
+  <text x="542" y="331" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">합계 · 목표 공급규모</text>
+  <text x="938" y="331" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#C2873B">16개 은행 · 2.2조원</text>
+
+  <!-- 성장등급 10단계 -->
+  <rect x="40" y="386" width="920" height="124" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="62" y="418" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">성장등급 10단계 (S등급)</text>
+  <text x="938" y="418" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">신용정보원 계량모형이 S등급 산출, CB사 비계량모형이 가점</text>
+
+  <rect x="62" y="434" width="164" height="56" rx="8" fill="#0E7C72"/>
+  <text x="144" y="458" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#FBF7F0">우수</text>
+  <text x="144" y="479" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#FBF7F0">S1 · S2</text>
+
+  <rect x="240" y="434" width="164" height="56" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1"/>
+  <text x="322" y="458" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">양호</text>
+  <text x="322" y="479" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">S3 · S4</text>
+
+  <rect x="418" y="434" width="164" height="56" rx="8" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="500" y="458" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0A5F58">보통</text>
+  <text x="500" y="479" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">S5 · S6</text>
+
+  <rect x="596" y="434" width="164" height="56" rx="8" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="678" y="458" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#4A5856">미흡</text>
+  <text x="678" y="479" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">S7 · S8 · S9</text>
+
+  <rect x="774" y="434" width="164" height="56" rx="8" fill="#B5462F"/>
+  <text x="856" y="458" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#FBF7F0">취약</text>
+  <text x="856" y="479" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#FBF7F0">S10</text>
+
+  <!-- 미확인 영역 -->
+  <rect x="40" y="530" width="920" height="86" rx="12" fill="#FBF7F0" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="64" y="562" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#B5462F">두 보도자료에 들어 있지 않은 것</text>
+  <text x="64" y="590" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">등급별 금리·한도 연동 기준표 · 소상공인이 직접 신청하는 절차 안내 · 은행별 적용 상품명 · 등급 조회 경로</text>
+
+  <line x1="40" y1="644" x2="960" y2="644" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="500" y="670" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">출처: 금융위원회 보도자료 2026-04-09 및 2026-09-02 수치를 물어봄이 항목별로 대조해 정리</text>
+</svg>
