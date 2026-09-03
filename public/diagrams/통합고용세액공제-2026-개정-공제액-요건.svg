@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="통합고용세액공제 2026년 개정 판정 기준과 중소기업 1명당 공제액" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="900" height="620" fill="#FBF7F0"/>
+
+  <text x="30" y="44" font-size="27" font-weight="700" fill="#1A2B2A">통합고용세액공제 2026년 개정 판정 기준</text>
+  <text x="30" y="72" font-size="15" fill="#4A5856">조세특례제한법 제29조의8 제1항 (법률 제21223호, 2025. 12. 23. 일부개정)</text>
+
+  <!-- 왼쪽 패널: 제29조의7 -->
+  <rect x="30" y="92" width="400" height="40" fill="#4A5856"/>
+  <text x="50" y="119" font-size="16" font-weight="700" fill="#FBF7F0">제29조의7 고용증대세액공제</text>
+  <rect x="30" y="132" width="400" height="140" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="50" y="162" font-size="14" fill="#8A938F">적용 한계</text>
+  <text x="50" y="185" font-size="15" fill="#1A2B2A">2024년 12월 31일이 속하는</text>
+  <text x="50" y="205" font-size="15" fill="#1A2B2A">과세연도까지</text>
+  <text x="50" y="232" font-size="14" fill="#8A938F">증가 판정</text>
+  <text x="50" y="256" font-size="17" font-weight="700" fill="#4A5856">직전 과세연도 대비 증가</text>
+
+  <!-- 오른쪽 패널: 제29조의8 -->
+  <rect x="470" y="92" width="400" height="40" fill="#0E7C72"/>
+  <text x="490" y="119" font-size="16" font-weight="700" fill="#FBF7F0">제29조의8 통합고용세액공제</text>
+  <rect x="470" y="132" width="400" height="140" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="490" y="162" font-size="14" fill="#8A938F">적용 기간</text>
+  <text x="490" y="185" font-size="15" fill="#1A2B2A">2026년 12월 31일이 속하는 과세연도부터</text>
+  <text x="490" y="205" font-size="15" fill="#1A2B2A">2028년 12월 31일이 속하는 과세연도까지</text>
+  <text x="490" y="232" font-size="14" fill="#8A938F">증가 판정</text>
+  <text x="490" y="256" font-size="17" font-weight="700" fill="#0A5F58">직전 3개 과세연도 중 1개 이상 대비</text>
+  <text x="470" y="292" font-size="13" fill="#8A938F">2024년 12월 31일 이전에 개시한 과세연도는 비교 대상에서 제외</text>
+
+  <!-- 공제액 표 -->
+  <text x="30" y="336" font-size="19" font-weight="700" fill="#1A2B2A">중소기업 증가 인원 1명당 공제액</text>
+  <text x="30" y="358" font-size="13" fill="#8A938F">괄호는 조문 문언 '수도권 밖의 지역에서 증가한 경우'</text>
+
+  <rect x="30" y="372" width="180" height="40" fill="#0A5F58"/>
+  <rect x="210" y="372" width="210" height="40" fill="#0A5F58"/>
+  <rect x="420" y="372" width="210" height="40" fill="#0A5F58"/>
+  <rect x="630" y="372" width="240" height="40" fill="#0A5F58"/>
+  <text x="120" y="398" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">구분</text>
+  <text x="315" y="398" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">직전 과세연도 대비</text>
+  <text x="525" y="398" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">전전 과세연도 대비</text>
+  <text x="750" y="398" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">전전전 과세연도 대비</text>
+
+  <rect x="30" y="412" width="180" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="120" y="450" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">청년등상시근로자</text>
+  <rect x="210" y="412" width="210" height="64" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="315" y="442" font-size="21" font-weight="700" fill="#0E7C72" text-anchor="middle">700만원</text>
+  <text x="315" y="464" font-size="13" fill="#4A5856" text-anchor="middle">(수도권 밖 1,000만원)</text>
+  <rect x="420" y="412" width="210" height="64" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="525" y="442" font-size="21" font-weight="700" fill="#0E7C72" text-anchor="middle">1,600만원</text>
+  <text x="525" y="464" font-size="13" fill="#4A5856" text-anchor="middle">(수도권 밖 1,900만원)</text>
+  <rect x="630" y="412" width="240" height="64" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="750" y="442" font-size="21" font-weight="700" fill="#0E7C72" text-anchor="middle">1,700만원</text>
+  <text x="750" y="464" font-size="13" fill="#4A5856" text-anchor="middle">(수도권 밖 2,000만원)</text>
+
+  <rect x="30" y="476" width="180" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="120" y="514" font-size="15" font-weight="700" fill="#1A2B2A" text-anchor="middle">청년등외상시근로자</text>
+  <rect x="210" y="476" width="210" height="64" fill="#FBF7F0" stroke="#E3DCCF"/>
+  <text x="315" y="506" font-size="21" font-weight="700" fill="#0A5F58" text-anchor="middle">400만원</text>
+  <text x="315" y="528" font-size="13" fill="#4A5856" text-anchor="middle">(수도권 밖 700만원)</text>
+  <rect x="420" y="476" width="210" height="64" fill="#FBF7F0" stroke="#E3DCCF"/>
+  <text x="525" y="506" font-size="21" font-weight="700" fill="#0A5F58" text-anchor="middle">900만원</text>
+  <text x="525" y="528" font-size="13" fill="#4A5856" text-anchor="middle">(수도권 밖 1,200만원)</text>
+  <rect x="630" y="476" width="240" height="64" fill="#FBF7F0" stroke="#E3DCCF"/>
+  <text x="750" y="506" font-size="21" font-weight="700" fill="#0A5F58" text-anchor="middle">1,000만원</text>
+  <text x="750" y="528" font-size="13" fill="#4A5856" text-anchor="middle">(수도권 밖 1,300만원)</text>
+
+  <text x="30" y="568" font-size="13" fill="#4A5856">중견기업·그 밖의 기업은 금액이 다르고, 중소기업이 아닌 내국인은 최소고용증가인원수를</text>
+  <text x="30" y="588" font-size="13" fill="#4A5856">초과해 증가한 경우에만 공제 (중견기업 5명, 중견기업이 아닌 경우 10명)</text>
+  <text x="30" y="608" font-size="12" fill="#8A938F">2026년 9월 기준. 개별 적용 여부는 관할 세무서 또는 세무대리인 확인.</text>
+</svg>
