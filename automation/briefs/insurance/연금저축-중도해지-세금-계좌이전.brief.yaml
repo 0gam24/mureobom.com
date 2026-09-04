@@ -1,6 +1,6 @@
 id: insurance-연금저축-중도해지-세금-계좌이전
 cluster: insurance
-status: approved         # 운영자 일일 자동 발행 지시(스케줄 실행) = 즉석 승인 (2026-07-23 KST). 단, egress 차단으로 발행 보류
+status: rejected         # 2026-09-05 KST 카니발리제이션으로 기각. 2026-07-23 승인 후 egress 차단으로 보류된 사이, 동일 검색의도가 insurance/연금저축-중도해지-기타소득세(2026-08-09 발행)로 이미 해소됨 — targetQuery·must_cover(기타소득세 16.5%·부득이한 사유·계좌이전 대안)가 그 글의 H2·FAQ와 전면 중복. 재활성화 금지.
 
 target_query: "연금저축 중도해지 세금 기타소득세 16.5% 세액공제 반환 계좌이전 불이익"
 search_intent: 정보형      # 연금저축 중도해지 시 세부담과 대안(계좌이전·중도인출) 확인 목적

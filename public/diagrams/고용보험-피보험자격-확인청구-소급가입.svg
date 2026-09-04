@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-label="고용보험 피보험자격 확인청구 절차 5단계와 서로 다른 3년 규정 세 가지 비교. 고용보험법 제50조 제5항 산입 상한, 보험료징수법 제41조 시효, 고용보험법 제50조 제4항 합산 요건" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="900" height="720" fill="#FBF7F0"/>
+
+  <text x="30" y="42" font-size="26" font-weight="700" fill="#1A2B2A">고용보험 피보험자격 확인청구 절차와 '3년'의 구분</text>
+  <text x="30" y="68" font-size="14" fill="#4A5856">고용보험법 제17조 · 시행령 제11조 · 시행규칙 제12조 별지 제20호서식 (2026년 9월 기준)</text>
+
+  <!-- 절차 5단계 -->
+  <rect x="30" y="88" width="158" height="152" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="54" cy="116" r="15" fill="#0E7C72"/>
+  <text x="54" y="122" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+  <text x="44" y="156" font-size="16" font-weight="700" fill="#1A2B2A">가입 이력 조회</text>
+  <text x="44" y="184" font-size="14" fill="#4A5856">고용·산재보험</text>
+  <text x="44" y="204" font-size="14" fill="#4A5856">토탈서비스</text>
+
+  <rect x="200" y="88" width="158" height="152" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="224" cy="116" r="15" fill="#0E7C72"/>
+  <text x="224" y="122" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+  <text x="214" y="156" font-size="16" font-weight="700" fill="#1A2B2A">누락·오류 확인</text>
+  <text x="214" y="184" font-size="14" fill="#4A5856">취득일 상실일</text>
+  <text x="214" y="204" font-size="14" fill="#4A5856">상실사유 대조</text>
+
+  <rect x="370" y="88" width="158" height="152" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="394" cy="116" r="15" fill="#0E7C72"/>
+  <text x="394" y="122" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+  <text x="384" y="156" font-size="16" font-weight="700" fill="#1A2B2A">청구서 제출</text>
+  <text x="384" y="184" font-size="14" fill="#4A5856">별지 제20호서식</text>
+  <text x="384" y="204" font-size="14" fill="#4A5856">관할</text>
+  <text x="384" y="224" font-size="14" fill="#4A5856">근로복지공단</text>
+
+  <rect x="540" y="88" width="158" height="152" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <circle cx="564" cy="116" r="15" fill="#0E7C72"/>
+  <text x="564" y="122" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">4</text>
+  <text x="554" y="156" font-size="16" font-weight="700" fill="#1A2B2A">공단 확인</text>
+  <text x="554" y="184" font-size="14" fill="#4A5856">처리기간 14일</text>
+  <text x="554" y="204" font-size="14" fill="#4A5856">수수료 없음</text>
+
+  <rect x="710" y="88" width="158" height="152" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <circle cx="734" cy="116" r="15" fill="#0A5F58"/>
+  <text x="734" y="122" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">5</text>
+  <text x="724" y="156" font-size="16" font-weight="700" fill="#1A2B2A">결과 통지</text>
+  <text x="724" y="184" font-size="14" fill="#4A5856">청구인과 사업주</text>
+  <text x="724" y="208" font-size="14" fill="#B5462F">이의 있으면</text>
+  <text x="724" y="228" font-size="14" font-weight="700" fill="#B5462F">90일 심사청구</text>
+
+  <!-- 3년 세 갈래 -->
+  <text x="30" y="284" font-size="19" font-weight="700" fill="#1A2B2A">'3년'은 청구 기한이 아니라 피보험기간이 잡히는 한도예요</text>
+  <text x="30" y="306" font-size="13" fill="#8A938F">확인청구와 직접 연결되는 3년은 왼쪽 첫 칸이에요</text>
+
+  <rect x="30" y="320" width="268" height="34" fill="#0A5F58"/>
+  <text x="48" y="343" font-size="15" font-weight="700" fill="#FBF7F0">고용보험법 제50조 제5항</text>
+  <rect x="30" y="354" width="268" height="186" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="48" y="382" font-size="15" font-weight="700" fill="#1A2B2A">미신고 기간의 산입 상한</text>
+  <text x="48" y="404" font-size="14" fill="#4A5856">확인청구로 취득이 확인된</text>
+  <text x="48" y="426" font-size="14" fill="#4A5856">날부터 소급 3년이 되는 날이</text>
+  <text x="48" y="448" font-size="14" fill="#4A5856">속하는 보험연도 첫날 기준</text>
+  <text x="48" y="476" font-size="13" font-weight="700" fill="#B5462F">단서 · 사업주가 그 전부터</text>
+  <text x="48" y="496" font-size="13" fill="#4A5856">보험료를 계속 납부한 사실이</text>
+  <text x="48" y="516" font-size="13" fill="#4A5856">증명되면 납부 기간으로 계산</text>
+
+  <rect x="316" y="320" width="268" height="34" fill="#4A5856"/>
+  <text x="334" y="343" font-size="15" font-weight="700" fill="#FBF7F0">보험료징수법 제41조</text>
+  <rect x="316" y="354" width="268" height="186" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="334" y="382" font-size="15" font-weight="700" fill="#1A2B2A">징수·반환 권리의 시효</text>
+  <text x="334" y="404" font-size="14" fill="#4A5856">보험료와 그 밖의 징수금을</text>
+  <text x="334" y="426" font-size="14" fill="#4A5856">징수하거나 반환받을 권리는</text>
+  <text x="334" y="448" font-size="14" fill="#4A5856">3년간 행사하지 않으면 소멸</text>
+  <text x="334" y="476" font-size="13" font-weight="700" fill="#4A5856">확인청구 기간을 정한</text>
+  <text x="334" y="496" font-size="13" fill="#4A5856">규정은 아니에요</text>
+
+  <rect x="602" y="320" width="268" height="34" fill="#4A5856"/>
+  <text x="620" y="343" font-size="15" font-weight="700" fill="#FBF7F0">고용보험법 제50조 제4항</text>
+  <rect x="602" y="354" width="268" height="186" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="620" y="382" font-size="15" font-weight="700" fill="#1A2B2A">사업장 간 기간 합산</text>
+  <text x="620" y="404" font-size="14" fill="#4A5856">종전 사업장에서 자격을</text>
+  <text x="620" y="426" font-size="14" fill="#4A5856">상실한 날부터 3년 이내에</text>
+  <text x="620" y="448" font-size="14" fill="#4A5856">새 자격을 취득하면 합산</text>
+  <text x="620" y="476" font-size="13" font-weight="700" fill="#4A5856">여러 사업장 경력을</text>
+  <text x="620" y="496" font-size="13" fill="#4A5856">이어 붙일 때의 요건</text>
+
+  <rect x="30" y="560" width="840" height="64" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="50" y="590" font-size="16" font-weight="700" fill="#0A5F58">청구 기한(제17조 '언제든지')과 피보험기간 산입 상한(제50조 제5항)은 다른 층위예요</text>
+  <text x="50" y="614" font-size="14" fill="#4A5856">'피보험자였던 사람'도 청구할 수 있지만, 오래된 기간이 그대로 산입되는 것은 아니에요</text>
+
+  <text x="30" y="652" font-size="14" fill="#4A5856">접수처 사업장 관할 근로복지공단 · 신청 방법 인터넷, 방문, 팩스, 우편 · 처리기간 14일 · 수수료 없음</text>
+  <text x="30" y="674" font-size="14" fill="#4A5856">적용 제외 근로자(법 제10조, 시행령 제3조)는 확인청구로도 피보험자격이 생기지 않아요</text>
+  <text x="30" y="700" font-size="13" fill="#8A938F">2026년 9월 기준. 개별 사안의 처리 가능 범위는 근로복지공단 확인.</text>
+</svg>
