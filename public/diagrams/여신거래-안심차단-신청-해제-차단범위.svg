@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" role="img" aria-label="여신거래 안심차단 신청 채널은 2024년 8월 23일 영업점 방문만에서 2024년 9월 30일 인터넷전문은행 비대면, 2025년 5월 16일 발표 기준 농협조합 등 상호금융 모바일앱 5월말 예정으로 넓어졌지만 해제는 계속 금융회사 영업점 방문으로만 가능하다. 여신거래 안심차단은 신규 여신거래를 막고 비대면 계좌개설 안심차단은 수시입출식 계좌의 비대면 신규 개설을 막는 별개 서비스다.">
+  <rect x="0" y="0" width="1000" height="700" fill="#FBF7F0"/>
+
+  <text x="48" y="56" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#1A2B2A">여신거래 안심차단: 신청은 넓어지고, 해제는 그대로</text>
+  <text x="48" y="88" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">금융위원회 보도자료·보도참고 표기 기준 (2024.08.23 ~ 2025.05.16 발표)</text>
+
+  <rect x="40" y="112" width="920" height="206" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="64" y="146" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">신청 채널</text>
+
+  <line x1="90" y1="212" x2="910" y2="212" stroke="#E3DCCF" stroke-width="4"/>
+
+  <circle cx="200" cy="212" r="10" fill="#0E7C72"/>
+  <text x="200" y="192" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">2024.08.23 시행</text>
+  <text x="200" y="244" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">거래 중인 금융회사</text>
+  <text x="200" y="268" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">영업점 방문만</text>
+
+  <circle cx="500" cy="212" r="10" fill="#0E7C72"/>
+  <text x="500" y="192" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">2024.09.30</text>
+  <text x="500" y="244" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">인터넷전문은행 비대면</text>
+  <text x="500" y="268" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">(케이뱅크는 10.08부터)</text>
+
+  <circle cx="800" cy="212" r="10" fill="#C2873B"/>
+  <text x="800" y="192" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#C2873B">2025.05.16 발표</text>
+  <text x="800" y="244" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">농협조합 등 상호금융</text>
+  <text x="800" y="268" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">모바일앱 5월말 예정</text>
+
+  <text x="800" y="296" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">발표 시점의 예정 일정</text>
+
+  <rect x="40" y="336" width="920" height="88" rx="14" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="64" y="370" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">해제: 시행 때부터 지금까지 영업점 방문만</text>
+  <text x="64" y="400" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">거래하던 곳이 아니어도 가까운 금융회사에서 가능. 사기범 등의 무단 해제를 막기 위한 절차.</text>
+
+  <rect x="40" y="450" width="445" height="200" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="64" y="486" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">여신거래 안심차단</text>
+  <text x="64" y="512" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">2024.08.23 시행</text>
+  <text x="64" y="548" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">차단 대상: 본인 명의의 신규 여신거래</text>
+  <text x="64" y="575" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">신용대출·카드론·담보대출 등</text>
+  <text x="64" y="602" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">신용카드 신규 발급은 2025.05.16</text>
+  <text x="64" y="629" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#B5462F">발표로 필수에서 선택 항목으로</text>
+
+  <rect x="515" y="450" width="445" height="200" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="539" y="486" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">비대면 계좌개설 안심차단</text>
+  <text x="539" y="512" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">2025.03.12 시행</text>
+  <text x="539" y="548" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">차단 대상: 수시입출식 계좌의</text>
+  <text x="539" y="575" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">비대면 신규 개설 (대출 차단 아님)</text>
+  <text x="539" y="602" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">신청은 영업점 외에 은행 앱과</text>
+  <text x="539" y="629" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">어카운트인포로도 가능</text>
+
+  <text x="48" y="678" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">출처: 금융위원회 보도자료(2024.08.23·2024.09.30·2025.03.12)·보도참고(2025.04.29·2025.05.16)</text>
+</svg>
