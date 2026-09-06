@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860" role="img" aria-label="개선 전에는 사망자 정보 공유가 월 1회이고 활용 금융회사가 은행 등 일부여서 금융회사가 사망 사실을 확인하기까지 최대 2개월이 걸렸으나, 2026년 9월 11일부터는 매일 1회 공유와 모든 금융권 4,890개사 확대로 사망신고 접수 다음 날부터 거래가 정지된다. 고인 계좌로 넣는 입금은 그대로 열려 있고, 입금 등 필수적인 거래를 제외한 모든 금융거래는 정지되며 자동이체도 중단될 수 있다. 치료비와 장례비는 가족관계증명서 등 서류를 제출하면 병원·요양원·장례식장에 직접 이체하는 예외 인출로 처리된다.">
+  <rect x="0" y="0" width="1200" height="860" fill="#FBF7F0"/>
+
+  <text x="56" y="64" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="34" font-weight="700" fill="#1A2B2A">사망신고 다음 날, 고인 계좌는 이렇게 나뉘어요</text>
+  <text x="56" y="99" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">「사망자 명의 금융거래 신속차단 시스템」 2026년 9월 11일 정식 가동 기준</text>
+
+  <rect x="48" y="124" width="546" height="204" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="72" y="162" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#4A5856">개선 전</text>
+  <text x="72" y="200" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">사망자 정보 공유: 월 1회</text>
+  <text x="72" y="230" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">활용 금융회사: 은행 등 일부</text>
+  <text x="72" y="266" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#B5462F">사망 사실 확인까지 최대 2개월</text>
+  <text x="72" y="300" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">사망신고 기한 1개월과 공유 주기가 맞물릴 때</text>
+
+  <rect x="618" y="124" width="534" height="204" rx="14" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="642" y="162" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#0A5F58">2026년 9월 11일부터</text>
+  <text x="642" y="200" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">사망자 정보 공유: 매일 1회</text>
+  <text x="642" y="230" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">활용 금융회사: 모든 금융권 4,890개사</text>
+  <text x="642" y="266" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">사망신고 접수 다음 날 거래 정지</text>
+  <text x="642" y="300" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">유가족의 별도 신청 없이 자동 처리</text>
+
+  <text x="56" y="382" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#1A2B2A">차단의 경계선</text>
+
+  <rect x="48" y="404" width="352" height="380" rx="14" fill="#F4EEE2" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="72" y="448" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#0A5F58">그대로 열려 있는 것</text>
+  <text x="72" y="490" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#0E7C72">입금</text>
+  <text x="72" y="528" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">고인 명의 계좌로 돈을</text>
+  <text x="72" y="556" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">넣는 거래는 막히지</text>
+  <text x="72" y="584" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">않아요.</text>
+  <text x="72" y="628" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">상속인이 별도의 채권</text>
+  <text x="72" y="656" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">회수 절차를 밟아야 하는</text>
+  <text x="72" y="684" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">불편을 고려한 예외예요.</text>
+
+  <rect x="424" y="404" width="352" height="380" rx="14" fill="#F4EEE2" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="448" y="448" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#B5462F">즉시 정지되는 것</text>
+  <text x="448" y="490" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">그 밖의 금융거래</text>
+  <text x="448" y="528" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">입금 등 필수적인 거래를</text>
+  <text x="448" y="556" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">제외한 모든 금융거래가</text>
+  <text x="448" y="584" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">즉시 차단돼요.</text>
+  <text x="448" y="628" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">고인 계좌에서 나가던</text>
+  <text x="448" y="656" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">자동이체도 중단될 수</text>
+  <text x="448" y="684" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">있어 공과금·보험료</text>
+  <text x="448" y="712" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">납부방법을 미리 옮겨</text>
+  <text x="448" y="740" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">두는 편이 좋아요.</text>
+
+  <rect x="800" y="404" width="352" height="380" rx="14" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="824" y="448" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#0A5F58">예외로 인출되는 것</text>
+  <text x="824" y="490" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">치료비·장례비</text>
+  <text x="824" y="528" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">긴급·불가피한 경우</text>
+  <text x="824" y="556" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">가족관계증명서 등</text>
+  <text x="824" y="584" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">서류를 금융회사에</text>
+  <text x="824" y="612" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">제출하면 인출 가능해요.</text>
+  <text x="824" y="656" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">유가족에게 현금을 주는</text>
+  <text x="824" y="684" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">방식이 아니라 병원·</text>
+  <text x="824" y="712" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">요양원·장례식장에</text>
+  <text x="824" y="740" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">직접 이체해요.</text>
+
+  <text x="56" y="826" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">출처: 행정안전부·금융위원회·금융감독원·한국신용정보원 공동 보도자료(2026.09.06)</text>
+</svg>
