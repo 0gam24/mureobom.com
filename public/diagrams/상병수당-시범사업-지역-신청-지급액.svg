@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" role="img" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="1000" height="700" fill="#FBF7F0"/>
+
+  <text x="48" y="52" font-size="30" font-weight="700" fill="#1A2B2A">상병수당 시범사업, 지금 신청되는 지역과 지급액</text>
+  <text x="48" y="82" font-size="16" fill="#4A5856">정보 기준일 2026년 9월 9일 · 보건복지부 정책안내와 2026년 6월 건정심 자료 기준</text>
+
+  <!-- 좌: 운영 중 8개 시군구 -->
+  <rect x="48" y="104" width="424" height="252" rx="14" fill="#E3F0EE"/>
+  <text x="72" y="142" font-size="20" font-weight="700" fill="#0A5F58">지금 신청 가능한 8개 시군구</text>
+  <text x="72" y="180" font-size="17" font-weight="700" fill="#0E7C72">2단계 (2023년 7월 시작)</text>
+  <text x="72" y="209" font-size="18" fill="#1A2B2A">안양 · 용인 · 대구 달서구 · 익산</text>
+  <text x="72" y="248" font-size="17" font-weight="700" fill="#0E7C72">3단계 (2024년 7월 시작)</text>
+  <text x="72" y="277" font-size="18" fill="#1A2B2A">충주 · 홍성 · 전주 · 원주</text>
+  <line x1="72" y1="302" x2="448" y2="302" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="72" y="330" font-size="15" fill="#4A5856">거주지 또는 근무 사업장이 이 지역이면 대상</text>
+
+  <!-- 좌: 종료된 1단계 -->
+  <rect x="48" y="376" width="424" height="154" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="72" y="412" font-size="19" font-weight="700" fill="#B5462F">2024년 12월 종료된 1단계 6곳</text>
+  <text x="72" y="444" font-size="17" fill="#4A5856">종로구 · 부천 · 천안 · 순천</text>
+  <text x="72" y="470" font-size="17" fill="#4A5856">포항 · 창원</text>
+  <text x="72" y="504" font-size="15" fill="#8A938F">2022년 7월부터 운영, 지금은 신청 불가</text>
+
+  <!-- 우: 2단계 정액 -->
+  <rect x="500" y="104" width="452" height="206" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="524" y="142" font-size="20" font-weight="700" fill="#1A2B2A">2단계 지역: 정액 모형</text>
+  <text x="524" y="184" font-size="30" font-weight="700" fill="#0A5F58">일 49,540원</text>
+  <text x="524" y="212" font-size="15" fill="#4A5856">2026년 최저임금의 60%, 임금과 무관하게 동일</text>
+  <text x="524" y="245" font-size="16" fill="#1A2B2A">소득 요건: 기준중위소득 120% 이하</text>
+  <text x="524" y="272" font-size="16" fill="#1A2B2A">재산 요건: 7억원 이하</text>
+  <text x="524" y="295" font-size="13" fill="#8A938F">재산 기준은 2024년 1월 보도자료 표기</text>
+
+  <!-- 우: 3단계 정률 -->
+  <rect x="500" y="330" width="452" height="200" rx="14" fill="#E3F0EE"/>
+  <text x="524" y="368" font-size="20" font-weight="700" fill="#1A2B2A">3단계 지역: 정률 모형</text>
+  <text x="524" y="410" font-size="30" font-weight="700" fill="#0A5F58">일 49,540 ~ 68,100원</text>
+  <text x="524" y="438" font-size="15" fill="#4A5856">직장가입자는 직전 3개월 평균임금의 60%</text>
+  <text x="524" y="466" font-size="16" fill="#1A2B2A">소득기준에 따른 제한 없음</text>
+  <text x="524" y="494" font-size="15" fill="#C2873B">지역가입자는 정률이 아닌 정액으로 지급</text>
+
+  <!-- 하단 공통 -->
+  <rect x="48" y="552" width="904" height="100" rx="14" fill="#0A5F58"/>
+  <text x="72" y="592" font-size="19" font-weight="700" fill="#FBF7F0">두 단계 공통: 대기기간 7일, 8일 이상 연속으로 일을 못 한 경우부터 신청</text>
+  <text x="72" y="624" font-size="18" fill="#E3F0EE">최대 150일 지급 · 업무 외 질병·부상만 대상 · 진단서 발급일로부터 14일 이내 신청</text>
+
+  <text x="48" y="682" font-size="13" fill="#8A938F">출처: 보건복지부 상병수당 시범사업 정책안내, 제10차 건강보험정책심의위원회 결과(2026.06.05), 국민건강보험공단 용인·익산 운영 변경 공지(2025.03.12)</text>
+</svg>
