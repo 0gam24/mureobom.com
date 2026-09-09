@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860" role="img" aria-label="신탁등기 된 집에서 위탁자는 수탁자 앞으로 소유권이전등기가 되면 소유권이 유보되지 않아 기본적으로 임대할 지위가 아니고, 수탁자인 신탁회사가 등기사항증명서 갑구의 소유자여서 국토교통부는 신탁회사의 동의를 받고 직접 계약하라고 안내한다. 등기사항증명서에서는 갑구 소유자와 신탁 표시, 신탁원부 번호, 거래 주의사항, 을구 제한물권만 보이고 임대 권한 조건은 보이지 않으며, 위탁자·수탁자·수익자와 신탁의 목적, 신탁재산의 관리·운용 방법, 신탁종료의 사유, 그 밖의 신탁 조항은 신탁원부에서 확인한다. 신탁원부는 부동산등기법 제81조 제3항에 따라 등기기록의 일부로 본다. 인도와 주민등록을 마치면 그 다음 날 생기는 대항력은 임대차가 유효할 때 작동하므로 계약 상대방의 임대 권한이 그 앞단의 문제다.">
+  <rect x="0" y="0" width="1200" height="860" fill="#FBF7F0"/>
+
+  <text x="56" y="64" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="34" font-weight="700" fill="#1A2B2A">신탁등기 된 집, 계약 상대방과 확인 서류</text>
+  <text x="56" y="99" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">부동산등기법 제81조와 대법원 2000다70460 판결 기준 · 정보 기준일 2026년 9월 10일</text>
+
+  <rect x="48" y="124" width="546" height="212" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="72" y="163" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#4A5856">위탁자 (원래 집주인)</text>
+  <text x="72" y="200" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">수탁자 앞으로 소유권이전등기가 되면</text>
+  <text x="72" y="228" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">소유권이 위탁자에게 유보되지 않아요.</text>
+  <text x="72" y="266" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#B5462F">기본적으로 임대할 지위가 아니에요</text>
+  <text x="72" y="302" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">대법원 2002. 4. 12. 선고 2000다70460 판결</text>
+
+  <rect x="618" y="124" width="534" height="212" rx="14" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="642" y="163" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#0A5F58">수탁자 (신탁회사)</text>
+  <text x="642" y="200" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">등기사항증명서 갑구에 현재 소유자로</text>
+  <text x="642" y="228" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">적혀 있는 당사자예요.</text>
+  <text x="642" y="266" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">동의를 받고 직접 계약하라는 안내</text>
+  <text x="642" y="302" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">국토교통부 정책브리핑 안내</text>
+
+  <text x="56" y="386" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#1A2B2A">등기사항증명서에서 보이는 것과 신탁원부에서만 보이는 것</text>
+
+  <rect x="48" y="406" width="546" height="288" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="72" y="444" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#4A5856">등기사항증명서</text>
+  <text x="72" y="484" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">갑구의 현재 소유자와 신탁등기 표시</text>
+  <text x="72" y="514" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">신탁원부의 번호</text>
+  <text x="72" y="544" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">신탁재산 거래에 관한 주의사항</text>
+  <text x="72" y="574" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">을구의 저당권 등 제한물권</text>
+  <text x="72" y="620" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#B5462F">임대 권한과 동의 요건은 여기 없어요</text>
+  <text x="72" y="656" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">주의사항 기록은 2024. 12. 21. 시행</text>
+
+  <rect x="618" y="406" width="534" height="288" rx="14" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="642" y="444" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#0A5F58">신탁원부</text>
+  <text x="642" y="484" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">위탁자·수탁자·수익자</text>
+  <text x="642" y="514" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">신탁의 목적</text>
+  <text x="642" y="544" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">신탁재산의 관리·운용 방법</text>
+  <text x="642" y="574" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">신탁종료의 사유, 그 밖의 신탁 조항</text>
+  <text x="642" y="620" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#C2873B">임대 권한과 동의 요건을 여기서 확인</text>
+  <text x="642" y="656" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">신탁원부는 등기기록의 일부로 봐요 (제81조 제3항)</text>
+
+  <rect x="48" y="716" width="1104" height="90" rx="14" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="72" y="754" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#1A2B2A">인도와 주민등록을 마치면 그 다음 날 대항력 (주택임대차보호법 제3조)</text>
+  <text x="72" y="786" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">대항력은 임대차가 유효할 때 작동해요. 계약 상대방에게 임대 권한이 있는지가 그 앞단의 문제예요.</text>
+
+  <text x="56" y="838" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">출처: 부동산등기법 제81조, 주택임대차보호법 제3조, 법제처 찾기쉬운 생활법령정보, 대한민국 정책브리핑(국토교통부)</text>
+</svg>
