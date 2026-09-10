@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 782" role="img" aria-label="종합부동산세 9월 신고에서 갈리는 세 제도의 대상, 신고서, 효과 비교. 일정은 세 제도가 같습니다. 과세기준일은 6월 1일이고, 합산배제와 과세특례 신고 및 신청은 9월 16일부터 9월 30일까지이며, 그 결과가 반영된 세액이 12월 1일부터 12월 15일까지 고지되고 납부됩니다. 합산배제는 임대주택(종합부동산세법 시행령 제3조)과 사원용주택등(시행령 제4조)을 대상으로 하고, 합산배제 변동신고서(시행규칙 별지 제4호부터 제23호 서식)를 제출하며, 주택분 과세표준 합산 대상 주택 범위에서 제외됩니다. 주택 수 산정 제외는 상속주택, 소형 신축주택, 준공후 미분양주택, 인구감소지역 주택을 대상으로 하고, 세율 적용 시에는 별지 제27호 서식, 1세대 1주택자 판단 시에는 별지 제24호 서식을 제출하며, 세율을 정할 때와 1세대 1주택자 판정에서만 주택 수에서 제외됩니다. 공동명의 1주택자 특례는 거주자인 부부가 1주택만 공동으로 소유하고 다른 세대원은 주택이 없을 때 대상이 되며, 공동명의 1주택자 특례 변경신청서(별지 제30호 서식)를 제출하고, 합의로 정한 1인이 납세의무자가 되어 1세대 1주택자로 계산됩니다. 공통 규칙으로 최초 신고를 한 다음 연도부터는 변동이 없으면 별도 신고 없이 계속 적용되지만, 향교와 종교단체 과세특례 신고서는 매년 제출합니다. 의무임대기간이나 임대료 증가율 5% 제한을 지키지 못하면 경감받은 세액과 이자상당가산액이 추징됩니다." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="1080" height="782" fill="#FBF7F0"/>
+
+  <text x="44" y="52" font-size="28" font-weight="700" fill="#1A2B2A">종합부동산세 9월 신고, 세 갈래로 갈리는 신고서</text>
+  <text x="44" y="78" font-size="14" fill="#8A938F">합산배제, 주택 수 산정 제외, 공동명의 1주택자 특례의 대상·신고서·효과 비교 (정보 기준일 2026년 9월 11일)</text>
+  <text x="44" y="98" font-size="13" fill="#8A938F">종합부동산세법 법률 제21224호, 2025.12.23. 일부개정, 시행 2026.1.1. / 국세청 합산배제·과세특례 신고 안내</text>
+
+  <text x="44" y="132" font-size="17" font-weight="700" fill="#0A5F58">일정은 세 제도가 같아요</text>
+
+  <rect x="44" y="144" width="290" height="54" rx="8" fill="#E3F0EE"/>
+  <text x="64" y="168" font-size="15" font-weight="700" fill="#0A5F58">6월 1일 과세기준일</text>
+  <text x="64" y="188" font-size="13" fill="#4A5856">이 날의 보유 현황으로 판단</text>
+
+  <rect x="350" y="144" width="290" height="54" rx="8" fill="#0E7C72"/>
+  <text x="370" y="168" font-size="15" font-weight="700" fill="#FBF7F0">9월 16일 ~ 9월 30일</text>
+  <text x="370" y="188" font-size="13" fill="#E3F0EE">합산배제·과세특례 신고와 신청</text>
+
+  <rect x="656" y="144" width="380" height="54" rx="8" fill="#E3F0EE"/>
+  <text x="676" y="168" font-size="15" font-weight="700" fill="#0A5F58">12월 1일 ~ 12월 15일</text>
+  <text x="676" y="188" font-size="13" fill="#4A5856">신고가 반영된 세액으로 고지·납부</text>
+
+  <text x="44" y="232" font-size="17" font-weight="700" fill="#0A5F58">무엇을 계산에서 빼는지에 따라 서식이 달라져요</text>
+
+  <!-- 1. 합산배제 -->
+  <rect x="44" y="248" width="322" height="330" rx="12" fill="#F4EEE2"/>
+  <rect x="44" y="248" width="322" height="44" rx="12" fill="#0E7C72"/>
+  <rect x="44" y="272" width="322" height="20" fill="#0E7C72"/>
+  <text x="62" y="277" font-size="17" font-weight="700" fill="#FBF7F0">1. 합산배제</text>
+  <text x="62" y="318" font-size="13" fill="#8A938F">대상</text>
+  <text x="62" y="340" font-size="14" fill="#1A2B2A">임대주택 (시행령 제3조)</text>
+  <text x="62" y="360" font-size="14" fill="#1A2B2A">사원용주택등 (시행령 제4조)</text>
+  <text x="62" y="414" font-size="13" fill="#8A938F">신고서</text>
+  <text x="62" y="436" font-size="14" fill="#1A2B2A">합산배제 (변동)신고서</text>
+  <text x="62" y="456" font-size="14" fill="#4A5856">별지 제4호부터 제23호 서식</text>
+  <text x="62" y="490" font-size="13" fill="#8A938F">효과</text>
+  <text x="62" y="512" font-size="14" fill="#1A2B2A">주택분 과세표준 합산</text>
+  <text x="62" y="532" font-size="14" fill="#1A2B2A">대상 주택 범위에서 제외</text>
+  <text x="62" y="552" font-size="14" fill="#0A5F58">과세표준 자체가 줄어요</text>
+
+  <!-- 2. 주택 수 산정 제외 -->
+  <rect x="379" y="248" width="322" height="330" rx="12" fill="#F4EEE2"/>
+  <rect x="379" y="248" width="322" height="44" rx="12" fill="#0A5F58"/>
+  <rect x="379" y="272" width="322" height="20" fill="#0A5F58"/>
+  <text x="397" y="277" font-size="17" font-weight="700" fill="#FBF7F0">2. 주택 수 산정 제외</text>
+  <text x="397" y="318" font-size="13" fill="#8A938F">대상</text>
+  <text x="397" y="340" font-size="14" fill="#1A2B2A">상속주택, 소형 신축주택,</text>
+  <text x="397" y="360" font-size="14" fill="#1A2B2A">준공후 미분양주택,</text>
+  <text x="397" y="380" font-size="14" fill="#1A2B2A">인구감소지역 주택</text>
+  <text x="397" y="414" font-size="13" fill="#8A938F">신청서</text>
+  <text x="397" y="436" font-size="14" fill="#1A2B2A">세율 적용 시 별지 제27호</text>
+  <text x="397" y="456" font-size="14" fill="#1A2B2A">1세대 1주택 판단 시 제24호</text>
+  <text x="397" y="490" font-size="13" fill="#8A938F">효과</text>
+  <text x="397" y="512" font-size="14" fill="#1A2B2A">세율을 정할 때와</text>
+  <text x="397" y="532" font-size="14" fill="#1A2B2A">1세대 1주택 판정에서만</text>
+  <text x="397" y="552" font-size="14" fill="#0A5F58">주택 수에서 제외</text>
+
+  <!-- 3. 공동명의 1주택자 특례 -->
+  <rect x="714" y="248" width="322" height="330" rx="12" fill="#F4EEE2"/>
+  <rect x="714" y="248" width="322" height="44" rx="12" fill="#C2873B"/>
+  <rect x="714" y="272" width="322" height="20" fill="#C2873B"/>
+  <text x="732" y="277" font-size="17" font-weight="700" fill="#FBF7F0">3. 공동명의 1주택자 특례</text>
+  <text x="732" y="318" font-size="13" fill="#8A938F">대상</text>
+  <text x="732" y="340" font-size="14" fill="#1A2B2A">거주자인 부부가 1주택만</text>
+  <text x="732" y="360" font-size="14" fill="#1A2B2A">공동으로 소유하고,</text>
+  <text x="732" y="380" font-size="14" fill="#1A2B2A">다른 세대원은 무주택</text>
+  <text x="732" y="414" font-size="13" fill="#8A938F">신청서</text>
+  <text x="732" y="436" font-size="14" fill="#1A2B2A">공동명의 1주택자 특례</text>
+  <text x="732" y="456" font-size="14" fill="#1A2B2A">(변경)신청서 별지 제30호</text>
+  <text x="732" y="490" font-size="13" fill="#8A938F">효과</text>
+  <text x="732" y="512" font-size="14" fill="#1A2B2A">합의로 정한 1인이</text>
+  <text x="732" y="532" font-size="14" fill="#1A2B2A">납세의무자가 되고,</text>
+  <text x="732" y="552" font-size="14" fill="#0A5F58">1세대 1주택자로 계산</text>
+
+  <rect x="44" y="596" width="992" height="62" rx="10" fill="#E3F0EE"/>
+  <text x="68" y="624" font-size="15" font-weight="700" fill="#0A5F58">공통 규칙: 최초 신고를 한 다음 연도부터는 변동이 없으면 별도 신고 없이 계속 적용돼요</text>
+  <text x="68" y="646" font-size="14" fill="#4A5856">다만 향교·종교단체 과세특례 신고서는 소유관계에 변동이 없어도 매년 제출해요.</text>
+
+  <rect x="44" y="672" width="992" height="62" rx="10" fill="#F4EEE2" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="68" y="700" font-size="15" font-weight="700" fill="#B5462F">의무임대기간이나 임대료 증가율 5% 제한을 지키지 못하면</text>
+  <text x="68" y="722" font-size="14" fill="#4A5856">경감받은 세액과 이자상당가산액을 추징해요 (종합부동산세법 제17조 제5항).</text>
+
+  <text x="44" y="762" font-size="13" fill="#8A938F">국세청 신고 안내와 종합부동산세법·시행령 조문을 대조해 정리했어요. 유형·등록시점별 세부 요건은 관할세무서에서 확인할 수 있어요.</text>
+</svg>
