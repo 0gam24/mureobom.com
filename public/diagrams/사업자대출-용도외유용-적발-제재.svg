@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 800" role="img" aria-label="사업자대출 용도외유용 제재의 현행 기준과 2026년 4월 1일 발표된 강화안 비교입니다. 신규여신 제한기간은 현행 1차 적발 1년, 2차 적발 5년이고, 강화안은 1차 적발 3년, 2차 적발 10년입니다. 제한되는 대출의 범위는 현행이 해당 금융회사 사업자대출이고, 강화안은 전 금융권 모든 대출입니다. 가계대출 포함 여부는 현행이 사업자대출 취급 제한으로만 기재돼 있고, 강화안은 개인사업자의 경우 가계대출을 포함합니다. 강화안의 적용 시점은 점검준칙 등 개정 후 2026년 2분기 중으로 기재됐으며, 가계대출 제한은 점검준칙 개정과 시행 후 신규 대출의 적발 건부터 적용됩니다. 이 글이 대조한 금융위원회 공표 자료인 2026년 7월 9일 자 가계대출 동향까지에서는 준칙 개정 완료와 시행을 알리는 발표를 찾지 못했습니다. 적발 이후는 두 갈래로 나뉩니다. 한 갈래는 2021년 이후 취급된 사업자대출에 대한 금융회사와 금융감독원의 전면 점검이며, 적발 시 즉각적인 대출 회수와 수사기관 통보 등의 조치가 따르고 2025년 하반기에 127건 587.5억원이 적발됐습니다. 다른 갈래는 신규대출 제한 강화로, 금융업권별 점검준칙 개정과 시행이 전제이며 시행 후 적발 건부터 적용될 예정입니다." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="1080" height="800" fill="#FBF7F0"/>
+
+  <text x="44" y="52" font-size="28" font-weight="700" fill="#1A2B2A">사업자대출 용도외유용, 지금 기준과 발표된 강화안</text>
+  <text x="44" y="78" font-size="14" fill="#8A938F">신규대출 제한 기간·범위 비교와 적용 시점 (정보 기준일 2026년 9월 13일)</text>
+  <text x="44" y="98" font-size="13" fill="#8A938F">금융위원회 보도자료 2025.10.30. / 2026.4.1. 가계부채 관리방안 및 동일자 FAQ / 2026.5.18.</text>
+
+  <text x="44" y="136" font-size="17" font-weight="700" fill="#0A5F58">같은 제재를 다룬 두 개의 숫자, 기준이 달라요</text>
+
+  <!-- 표 본문 배경 -->
+  <rect x="44" y="150" width="220" height="276" fill="#F4EEE2"/>
+  <rect x="274" y="150" width="380" height="276" fill="#FBF7F0"/>
+  <rect x="664" y="150" width="372" height="276" fill="#E3F0EE"/>
+
+  <!-- 헤더 -->
+  <rect x="44" y="150" width="220" height="44" fill="#E3DCCF"/>
+  <rect x="274" y="150" width="380" height="44" fill="#4A5856"/>
+  <rect x="664" y="150" width="372" height="44" fill="#0E7C72"/>
+  <text x="64" y="178" font-size="15" font-weight="700" fill="#1A2B2A">구분</text>
+  <text x="294" y="178" font-size="15" font-weight="700" fill="#FBF7F0">현행 기준</text>
+  <text x="684" y="178" font-size="15" font-weight="700" fill="#FBF7F0">2026년 4월 1일 발표 강화안</text>
+
+  <!-- 행 구분선 -->
+  <line x1="44" y1="252" x2="1036" y2="252" stroke="#E3DCCF" stroke-width="1.5"/>
+  <line x1="44" y1="310" x2="1036" y2="310" stroke="#E3DCCF" stroke-width="1.5"/>
+  <line x1="44" y1="368" x2="1036" y2="368" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 1행 -->
+  <text x="64" y="229" font-size="14" fill="#1A2B2A">1차 적발 제한기간</text>
+  <text x="294" y="232" font-size="24" font-weight="700" fill="#4A5856">1년</text>
+  <text x="684" y="232" font-size="24" font-weight="700" fill="#0A5F58">3년</text>
+
+  <!-- 2행 -->
+  <text x="64" y="287" font-size="14" fill="#1A2B2A">2차 적발 제한기간</text>
+  <text x="294" y="290" font-size="24" font-weight="700" fill="#4A5856">5년</text>
+  <text x="684" y="290" font-size="24" font-weight="700" fill="#0A5F58">10년</text>
+
+  <!-- 3행 -->
+  <text x="64" y="345" font-size="14" fill="#1A2B2A">제한되는 대출</text>
+  <text x="294" y="345" font-size="15" fill="#1A2B2A">해당 금융회사 사업자대출</text>
+  <text x="684" y="345" font-size="15" font-weight="700" fill="#0A5F58">전 금융권 모든 대출</text>
+
+  <!-- 4행 -->
+  <text x="64" y="403" font-size="14" fill="#1A2B2A">가계대출 포함</text>
+  <text x="294" y="403" font-size="15" fill="#1A2B2A">사업자대출 취급 제한으로 기재</text>
+  <text x="684" y="403" font-size="15" fill="#1A2B2A">개인사업자의 경우 포함</text>
+
+  <!-- 적용 시점 -->
+  <rect x="44" y="446" width="992" height="76" rx="10" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="68" y="476" font-size="15" font-weight="700" fill="#C2873B">강화안 적용 시점: 점검준칙 등 개정 후 2026년 2분기 중 (2026년 4월 1일 추진일정 기재)</text>
+  <text x="68" y="500" font-size="14" fill="#4A5856">가계대출 제한은 점검준칙 개정·시행 후 신규 대출의 적발 건부터 적용돼요. 이 글이 대조한 금융위원회</text>
+  <text x="68" y="518" font-size="14" fill="#4A5856">공표 자료(2026년 7월 9일 자까지)에서는 준칙 개정 완료·시행 발표를 찾지 못했어요.</text>
+
+  <text x="44" y="558" font-size="17" font-weight="700" fill="#0A5F58">적발 이후는 성격이 다른 두 갈래로 나뉘어요</text>
+
+  <!-- 트랙 1 -->
+  <rect x="44" y="572" width="492" height="158" rx="12" fill="#F4EEE2"/>
+  <rect x="44" y="572" width="492" height="40" rx="12" fill="#0A5F58"/>
+  <rect x="44" y="592" width="492" height="20" fill="#0A5F58"/>
+  <text x="66" y="599" font-size="16" font-weight="700" fill="#FBF7F0">기존 대출 점검과 회수</text>
+  <text x="66" y="640" font-size="14" fill="#1A2B2A">2021년 이후 취급된 사업자대출을</text>
+  <text x="66" y="662" font-size="14" fill="#1A2B2A">금융회사와 금융감독원이 전면 점검</text>
+  <text x="66" y="690" font-size="14" fill="#4A5856">적발 시 즉각적인 대출 회수 및</text>
+  <text x="66" y="712" font-size="14" fill="#4A5856">수사기관 통보 등의 조치</text>
+
+  <!-- 트랙 2 -->
+  <rect x="556" y="572" width="480" height="158" rx="12" fill="#F4EEE2"/>
+  <rect x="556" y="572" width="480" height="40" rx="12" fill="#C2873B"/>
+  <rect x="556" y="592" width="480" height="20" fill="#C2873B"/>
+  <text x="578" y="599" font-size="16" font-weight="700" fill="#FBF7F0">신규대출 제한 강화</text>
+  <text x="578" y="640" font-size="14" fill="#1A2B2A">제한 기간과 범위를 넓히는 방안</text>
+  <text x="578" y="662" font-size="14" fill="#1A2B2A">금융업권별 점검준칙 개정이 전제</text>
+  <text x="578" y="690" font-size="14" fill="#4A5856">준칙 시행 후 적발 건부터 적용 예정</text>
+  <text x="578" y="712" font-size="14" fill="#4A5856">기존 대출 소급 적용 언급은 없음</text>
+
+  <text x="44" y="762" font-size="13" fill="#8A938F">2025년 하반기 적발 규모는 사업자대출 용도외유용 127건(587.5억원)으로 공표됐어요 (2026년 4월 1일 기준).</text>
+  <text x="44" y="784" font-size="13" fill="#8A938F">개별 대출의 약정 조건과 사후관리 방식은 대출을 취급한 금융회사에서 확인할 수 있어요.</text>
+</svg>
