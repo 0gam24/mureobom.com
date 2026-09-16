@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-label="새도약기금 대상 채권 요건 3가지(개인 채무, 2018.6.19. 이전 7년 이상 연체, 무담보 원금 합계 5천만원 이하)와 상환능력 심사 3항목(중위소득 60% 이하, 생계형 재산 외 보유재산 없음, 최근 5년 출입국 기록 2회 이하)에 따라 1년 이내 소각(1인 최대 5천만원)과 신용회복위원회 강화된 채무조정(감면 30~80%, 최장 10년 분할상환)으로 갈리는 구조. 사회 취약계층은 심사 없이 우선 소각" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="960" height="720" fill="#FBF7F0"/>
+
+  <text x="44" y="50" font-size="27" font-weight="700" fill="#1A2B2A">새도약기금, 소각과 분할상환은 어디서 갈리나</text>
+  <text x="44" y="78" font-size="13.5" fill="#4A5856">새도약기금 제도안내(자격 &#39;25.6.19. 기준)와 금융위원회 3차 소각 보도자료(2026.6.30.) 기준</text>
+
+  <text x="44" y="110" font-size="16" font-weight="700" fill="#1A2B2A">1단계. 대상 채권 요건, 셋을 모두 충족해야 매입 대상</text>
+
+  <g>
+    <rect x="44" y="120" width="282" height="104" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="44" y="120" width="282" height="28" rx="10" fill="#0E7C72"/>
+    <text x="185" y="139" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">누구의 채무인가</text>
+    <text x="62" y="172" font-size="13.5" fill="#1A2B2A">개인(개인사업자 포함)이</text>
+    <text x="62" y="192" font-size="13.5" fill="#1A2B2A">금융회사별로 연체 중인 채무</text>
+    <text x="62" y="212" font-size="12" fill="#8A938F">개인사업자도 개인으로 포함</text>
+  </g>
+
+  <g>
+    <rect x="339" y="120" width="282" height="104" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="339" y="120" width="282" height="28" rx="10" fill="#0E7C72"/>
+    <text x="480" y="139" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">연체 기간</text>
+    <text x="357" y="172" font-size="13.5" fill="#1A2B2A">7년 이상 연체 중</text>
+    <text x="357" y="192" font-size="13.5" font-weight="700" fill="#0A5F58">&#39;18.6.19. 이전(당일 포함)</text>
+    <text x="357" y="212" font-size="12" fill="#C2873B">날짜가 박힌 기준, 오늘부터 세지 않음</text>
+  </g>
+
+  <g>
+    <rect x="634" y="120" width="282" height="104" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="634" y="120" width="282" height="28" rx="10" fill="#0E7C72"/>
+    <text x="775" y="139" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">채무 성격</text>
+    <text x="652" y="172" font-size="13.5" fill="#1A2B2A">무담보 채무 계좌의</text>
+    <text x="652" y="192" font-size="13.5" fill="#1A2B2A">원금 합계 5천만원 이하</text>
+    <text x="652" y="212" font-size="12" fill="#B5462F">담보 설정된 채무는 요건 미충족</text>
+  </g>
+
+  <polygon points="470,228 490,228 480,240" fill="#8A938F"/>
+
+  <rect x="44" y="244" width="872" height="56" rx="10" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="66" y="268" font-size="15.5" font-weight="700" fill="#0A5F58">2단계. 대상 채권을 일괄 매입하고, 매입 즉시 추심이 중단됩니다</text>
+  <text x="66" y="290" font-size="13" fill="#4A5856">채무자가 접수하는 신청 절차는 없고, 홈페이지 조회 메뉴(채무현황 조회 / 심사현황 및 소각조회)로 확인</text>
+
+  <polygon points="470,306 490,306 480,318" fill="#8A938F"/>
+
+  <text x="44" y="338" font-size="16" font-weight="700" fill="#1A2B2A">3단계. 상환능력 심사 3항목 (정부 행정데이터 활용)</text>
+
+  <g>
+    <rect x="44" y="348" width="282" height="84" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="44" y="348" width="282" height="28" rx="10" fill="#0A5F58"/>
+    <text x="185" y="367" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">소득</text>
+    <text x="62" y="400" font-size="15" font-weight="700" fill="#1A2B2A">중위소득 60% 이하</text>
+    <text x="62" y="420" font-size="12" fill="#8A938F">가구 기준 소득 판정</text>
+  </g>
+
+  <g>
+    <rect x="339" y="348" width="282" height="84" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="339" y="348" width="282" height="28" rx="10" fill="#0A5F58"/>
+    <text x="480" y="367" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">재산</text>
+    <text x="357" y="400" font-size="15" font-weight="700" fill="#1A2B2A">생계형 재산 외</text>
+    <text x="357" y="420" font-size="15" font-weight="700" fill="#1A2B2A">보유재산 없음</text>
+  </g>
+
+  <g>
+    <rect x="634" y="348" width="282" height="84" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="634" y="348" width="282" height="28" rx="10" fill="#0A5F58"/>
+    <text x="775" y="367" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">출입국</text>
+    <text x="652" y="400" font-size="15" font-weight="700" fill="#1A2B2A">최근 5년간</text>
+    <text x="652" y="420" font-size="15" font-weight="700" fill="#1A2B2A">출입국 기록 2회 이하</text>
+  </g>
+
+  <polygon points="470,436 490,436 480,448" fill="#8A938F"/>
+
+  <rect x="44" y="452" width="872" height="50" rx="10" fill="#E3F0EE" stroke="#C2873B"/>
+  <text x="66" y="476" font-size="14" font-weight="700" fill="#0A5F58">심사를 건너뛰는 경로</text>
+  <text x="66" y="494" font-size="13" fill="#1A2B2A">기초생활수급자, 장애인연금수급자, 보훈대상자(생활조정수당·생계지원금 수급자)는 상환능력 심사 없이 우선 소각</text>
+
+  <polygon points="470,506 490,506 480,516" fill="#8A938F"/>
+
+  <g>
+    <rect x="44" y="520" width="430" height="124" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="44" y="520" width="430" height="30" rx="10" fill="#0A5F58"/>
+    <text x="259" y="541" font-size="14.5" font-weight="700" fill="#FBF7F0" text-anchor="middle">상환능력 없음으로 판별</text>
+    <text x="66" y="578" font-size="19" font-weight="700" fill="#0A5F58">1년 이내 소각</text>
+    <text x="66" y="604" font-size="14" fill="#1A2B2A">1인 최대 5천만원 한도</text>
+    <text x="66" y="628" font-size="12" fill="#4A5856">개인파산에 준하는 수준으로 상환능력을 상실한 경우</text>
+  </g>
+
+  <g>
+    <rect x="486" y="520" width="430" height="124" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="486" y="520" width="430" height="30" rx="10" fill="#C2873B"/>
+    <text x="701" y="541" font-size="14.5" font-weight="700" fill="#FBF7F0" text-anchor="middle">상환능력 있음으로 판별</text>
+    <text x="508" y="578" font-size="16.5" font-weight="700" fill="#C2873B">신용회복위원회 강화된 채무조정</text>
+    <text x="508" y="604" font-size="14" fill="#1A2B2A">원금 감면 30~80%, 최장 10년 분할상환</text>
+    <text x="508" y="628" font-size="12" fill="#4A5856">상환능력이 현저히 부족한 경우</text>
+  </g>
+
+  <rect x="44" y="652" width="872" height="40" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="66" y="677" font-size="13" fill="#1A2B2A">누적 소각 약 2조 2,583억원 · 26.9만명 (2026.6.30. 기준)</text>
+  <text x="480" y="677" font-size="13" fill="#4A5856">2026.8.13. 개정 신용정보법 시행 후 심사 착수, 4분기 추가 소각 계획</text>
+
+  <text x="44" y="712" font-size="11.5" fill="#8A938F">출처: 새도약기금 제도안내, 한국자산관리공사 새도약기금 안내, 금융위원회 소각 보도자료(2025.12.8.·2026.6.30.). 물어봄 정리.</text>
+</svg>
