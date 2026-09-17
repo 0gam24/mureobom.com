@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 880" width="1200" height="880" role="img" aria-label="세금포인트 1점의 가치 비교: 문화·여가 쿠폰은 1점당 1천원 남짓이지만 납세담보 면제는 1점당 10만원을 대신한다. 포인트는 자진납부세액 10만원당 1점, 1년에 인당 1,000포인트 한도, 유효기간 5년이고 담보면제는 체납액 없음과 납부기한 등의 연장 승인 요건 충족을 함께 요구한다">
+  <rect x="0" y="0" width="1200" height="880" fill="#FBF7F0"/>
+
+  <text x="50" y="60" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="38" font-weight="700" fill="#1A2B2A">세금포인트 1점이 움직이는 금액</text>
+  <text x="50" y="96" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" fill="#4A5856">쿠폰으로 쓰면 1천원 남짓, 납세담보 면제로 쓰면 10만원을 대신합니다</text>
+
+  <!-- 좌측: 문화·여가 할인 쿠폰 -->
+  <rect x="50" y="124" width="535" height="332" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="50" y="124" width="535" height="6" rx="3" fill="#C2873B"/>
+  <text x="82" y="172" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#0A5F58">문화·여가 할인 쿠폰</text>
+  <text x="82" y="202" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#8A938F">확인된 사례 기준 1점당 1천원 전후</text>
+
+  <text x="82" y="246" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#4A5856">넷마블게임박물관</text>
+  <text x="82" y="276" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" fill="#1A2B2A">1포인트로 1천원 할인</text>
+  <text x="82" y="302" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#8A938F">본인 한정 1일 1회, 10월 1일 시행</text>
+
+  <text x="82" y="344" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#4A5856">부산·코엑스 아쿠아리움</text>
+  <text x="82" y="374" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" fill="#1A2B2A">10포인트로 입장료 30% 할인</text>
+  <text x="82" y="400" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#8A938F">코엑스 35,000원이 24,500원으로</text>
+  <text x="82" y="426" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#8A938F">본인 포함 4인, 9월 11일 시행</text>
+
+  <!-- 우측: 납세담보 면제 -->
+  <rect x="615" y="124" width="535" height="332" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="615" y="124" width="535" height="6" rx="3" fill="#0E7C72"/>
+  <text x="647" y="172" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#0A5F58">납세담보 면제</text>
+  <text x="647" y="202" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#8A938F">연장 신청 때 담보를 대신하는 한도</text>
+
+  <text x="647" y="246" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#4A5856">신청가능금액</text>
+  <rect x="647" y="262" width="471" height="66" rx="10" fill="#E3F0EE"/>
+  <text x="669" y="306" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="28" font-weight="700" fill="#0A5F58">보유 포인트 × 10만원</text>
+
+  <text x="647" y="362" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" fill="#1A2B2A">10포인트면 100만원</text>
+  <text x="647" y="392" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" fill="#1A2B2A">100포인트면 1,000만원</text>
+  <text x="647" y="426" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#B5462F">세액은 그대로, 담보만 면제</text>
+
+  <!-- 중앙 대비 밴드 -->
+  <rect x="50" y="474" width="1100" height="72" rx="12" fill="#E3F0EE"/>
+  <text x="78" y="518" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#0A5F58">같은 1포인트인데 쓰는 곳에 따라 1천원과 10만원으로 갈립니다</text>
+
+  <!-- 부여 기준 3열 -->
+  <text x="50" y="588" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#1A2B2A">포인트가 쌓이는 기준</text>
+  <rect x="50" y="606" width="1100" height="104" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <line x1="416" y1="626" x2="416" y2="690" stroke="#E3DCCF" stroke-width="2"/>
+  <line x1="783" y1="626" x2="783" y2="690" stroke="#E3DCCF" stroke-width="2"/>
+
+  <text x="80" y="648" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#8A938F">부여 기준</text>
+  <text x="80" y="682" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">자진납부세액 10만원당 1점</text>
+
+  <text x="446" y="648" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#8A938F">연간 한도</text>
+  <text x="446" y="682" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">1년에 인당 1,000포인트</text>
+
+  <text x="813" y="648" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#8A938F">소멸 시점</text>
+  <text x="813" y="682" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">유효기간 5년</text>
+
+  <!-- 담보면제 선행조건 -->
+  <rect x="50" y="730" width="1100" height="104" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="50" y="730" width="7" height="104" rx="3" fill="#B5462F"/>
+  <text x="84" y="772" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#B5462F">포인트가 있어도 세 요건을 함께 충족해야 담보면제가 열립니다</text>
+  <text x="84" y="806" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">체납액 없음 · 최근 2년 체납 등 조세 일실 우려 없음 · 납부기한 등의 연장 승인 요건 충족</text>
+
+  <text x="50" y="864" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#8A938F">2026년 9월 18일 기준, 국세청 세금포인트 제도 안내와 9월 17일 보도자료 대조. 개별 사안은 관할 세무서 확인.</text>
+</svg>
