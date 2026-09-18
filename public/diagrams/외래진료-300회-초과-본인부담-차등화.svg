@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="연 300회 초과 외래진료 본인부담 90% 적용 구조. 2026년 12월 31일까지 진료분은 연 365회 초과분 90%, 2027년 1월 1일 진료분부터 연 300회 초과분 90%가 301회째부터 적용된다. 2025년 외래 이용자 약 4,840만 명 중 300회 초과는 7,765명으로 약 0.016%. 90%로 낸 부담분은 본인부담상한제 산정에서 제외되고, 아동과 임산부, 산정특례 대상 중증장애인, 중증 희귀 중증난치질환 치료 환자는 제외 대상이다">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <text x="50" y="58" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="38" font-weight="700" fill="#1A2B2A">외래진료 횟수에 따른 본인부담 90% 적용</text>
+  <text x="50" y="94" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" fill="#4A5856">기준선이 365회에서 300회로 내려가는 시점은 2027년 1월 1일 진료분부터입니다</text>
+
+  <!-- 좌: 현행 2026년 진료분 -->
+  <rect x="50" y="118" width="545" height="158" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="50" y="118" width="545" height="6" rx="3" fill="#C2873B"/>
+  <text x="82" y="160" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#4A5856">2026년 12월 31일까지 진료분</text>
+  <text x="82" y="206" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#1A2B2A">연 365회 초과분 90%</text>
+  <text x="82" y="246" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#8A938F">2024년 7월 1일 시행, 지금 적용되는 기준</text>
+
+  <!-- 우: 개정 2027년 진료분 -->
+  <rect x="605" y="118" width="545" height="158" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="605" y="118" width="545" height="6" rx="3" fill="#0E7C72"/>
+  <text x="637" y="160" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#4A5856">2027년 1월 1일 진료분부터</text>
+  <text x="637" y="206" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#0A5F58">연 300회 초과분 90%</text>
+  <text x="637" y="246" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#8A938F">2026년 9월 8일 국무회의 의결, 공포 예정</text>
+
+  <!-- 횟수 축 -->
+  <text x="50" y="316" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#1A2B2A">적용은 301회째 외래진료부터</text>
+  <rect x="50" y="332" width="760" height="64" rx="10" fill="#E3F0EE"/>
+  <text x="78" y="372" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#0A5F58">1회부터 300회까지는 평소 본인부담률</text>
+  <rect x="830" y="332" width="320" height="64" rx="10" fill="#0E7C72"/>
+  <text x="990" y="372" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#FBF7F0">301회째부터 90%</text>
+  <text x="50" y="424" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#8A938F">횟수는 매해 1월 1일부터 12월 31일까지 세고, 해가 바뀌면 다시 0부터 시작합니다</text>
+
+  <!-- 대상 규모 -->
+  <text x="50" y="466" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#1A2B2A">2025년에 연 300회를 넘긴 사람</text>
+  <rect x="50" y="482" width="1100" height="110" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <line x1="416" y1="504" x2="416" y2="570" stroke="#E3DCCF" stroke-width="2"/>
+  <line x1="783" y1="504" x2="783" y2="570" stroke="#E3DCCF" stroke-width="2"/>
+
+  <text x="80" y="520" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#8A938F">외래진료 이용자</text>
+  <text x="80" y="562" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#1A2B2A">약 4,840만 명</text>
+
+  <text x="446" y="520" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#8A938F">연 300회 초과</text>
+  <text x="446" y="562" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#0A5F58">7,765명, 약 0.016%</text>
+
+  <text x="813" y="520" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#8A938F">초과자 연평균 이용</text>
+  <text x="813" y="562" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#1A2B2A">약 344.7회</text>
+
+  <!-- 상한제 제외 -->
+  <rect x="50" y="610" width="1100" height="118" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="50" y="610" width="7" height="118" rx="3" fill="#B5462F"/>
+  <text x="84" y="652" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#B5462F">90%로 더 낸 부담분은 본인부담상한제 산정에서 제외됩니다</text>
+  <text x="84" y="686" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">2026년 상한액은 1분위 90만원, 10분위 843만원이지만 이 진료분은 환급 계산에서 빠집니다</text>
+  <text x="84" y="714" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#8A938F">공단 안내 문구는 현행 기준인 연간 외래 365회 초과로 표기돼 있습니다</text>
+
+  <!-- 예외 -->
+  <rect x="50" y="744" width="1100" height="114" rx="14" fill="#E3F0EE"/>
+  <text x="84" y="784" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#0A5F58">부담률이 오르지 않는 경우</text>
+  <text x="84" y="816" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">아동 · 임산부 · 산정특례 대상 중증장애인 · 중증, 희귀, 중증난치질환으로 해당 질환 치료</text>
+  <text x="84" y="844" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">여기에 없어도 공단 과다의료이용심의위원회가 의학적 필요성을 심의해 예외를 인정할 수 있습니다</text>
+
+  <text x="50" y="884" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#8A938F">2026년 9월 19일 기준. 보건복지부 2026년 9월 8일·2024년 6월 30일 보도자료, 국민건강보험공단 본인부담상한제 안내 대조.</text>
+</svg>
