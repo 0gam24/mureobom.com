@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" role="img" aria-label="정식 대출모집인 확인 기준: 상담 초반 고지 5가지와 등록기관 발급 증표, 그리고 중개수수료는 금융회사가 모집인에게 주는 것이 적법하고 소비자가 내는 돈은 명칭 불문 금지" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="600" fill="#FBF7F0"/>
+
+  <text x="36" y="46" font-size="25" font-weight="700" fill="#1A2B2A">정식 대출모집인인지 가르는 두 장면</text>
+  <text x="36" y="74" font-size="14" fill="#4A5856">금소법 제26조 고지의무 · 대부업법 제11조의2제2항 중개수수료 금지 · 2026년 9월 기준</text>
+
+  <!-- 왼쪽: 상담 초반에 나와야 하는 말 -->
+  <rect x="36" y="96" width="390" height="380" rx="14" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <rect x="36" y="96" width="390" height="46" rx="14" fill="#0A5F58"/>
+  <rect x="36" y="124" width="390" height="18" fill="#0A5F58"/>
+  <text x="56" y="127" font-size="18" font-weight="700" fill="#FBF7F0">상담 초반에 나와야 하는 말</text>
+  <text x="56" y="168" font-size="14" fill="#0A5F58">금소법 제26조제1항 각 호 + 시행령 제24조</text>
+
+  <circle cx="60" cy="193" r="4" fill="#0E7C72"/>
+  <text x="74" y="198" font-size="15" fill="#1A2B2A">대리·중개하는 금융회사의 명칭</text>
+  <circle cx="60" cy="231" r="4" fill="#0E7C72"/>
+  <text x="74" y="236" font-size="15" fill="#1A2B2A">한 곳만 대리·중개하는지 여부</text>
+  <circle cx="60" cy="269" r="4" fill="#0E7C72"/>
+  <text x="74" y="274" font-size="15" fill="#1A2B2A">계약을 체결할 권한이 없다는 사실</text>
+  <circle cx="60" cy="307" r="4" fill="#0E7C72"/>
+  <text x="74" y="312" font-size="15" fill="#1A2B2A">손해배상책임에 관한 사항</text>
+  <circle cx="60" cy="345" r="4" fill="#0E7C72"/>
+  <text x="74" y="350" font-size="15" fill="#1A2B2A">개인정보는 금융회사가 보유·관리</text>
+
+  <rect x="56" y="376" width="350" height="80" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="74" y="406" font-size="15" font-weight="700" fill="#0A5F58">증표는 등록기관이 발급한 것</text>
+  <text x="74" y="432" font-size="14" fill="#4A5856">직접 만든 명함·사원증은 증표가 아니에요</text>
+
+  <!-- 오른쪽: 중개수수료가 흐르는 방향 -->
+  <rect x="442" y="96" width="342" height="380" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <rect x="442" y="96" width="342" height="46" rx="14" fill="#C2873B"/>
+  <rect x="442" y="124" width="342" height="18" fill="#C2873B"/>
+  <text x="462" y="127" font-size="18" font-weight="700" fill="#FBF7F0">중개수수료가 흐르는 방향</text>
+
+  <text x="462" y="170" font-size="14" font-weight="700" fill="#0A5F58">적법한 보수</text>
+  <rect x="462" y="182" width="120" height="44" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="522" y="210" font-size="15" fill="#1A2B2A" text-anchor="middle">금융회사</text>
+  <line x1="592" y1="204" x2="626" y2="204" stroke="#0E7C72" stroke-width="3"/>
+  <polygon points="626,197 640,204 626,211" fill="#0E7C72"/>
+  <rect x="644" y="182" width="120" height="44" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="704" y="210" font-size="15" fill="#1A2B2A" text-anchor="middle">대출모집인</text>
+  <text x="462" y="250" font-size="14" fill="#1A2B2A">직접판매업자가 주는 정해진 수수료</text>
+  <text x="462" y="272" font-size="14" fill="#4A5856">그 밖의 금품 요구는 금지 (제25조제2항)</text>
+
+  <text x="462" y="306" font-size="14" font-weight="700" fill="#B5462F">금지되는 흐름</text>
+  <rect x="462" y="318" width="120" height="44" rx="8" fill="#FBF7F0" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="522" y="346" font-size="15" fill="#1A2B2A" text-anchor="middle">소비자</text>
+  <line x1="592" y1="340" x2="626" y2="340" stroke="#B5462F" stroke-width="3"/>
+  <polygon points="626,333 640,340 626,347" fill="#B5462F"/>
+  <rect x="644" y="318" width="120" height="44" rx="8" fill="#FBF7F0" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="704" y="346" font-size="15" fill="#1A2B2A" text-anchor="middle">대출모집인</text>
+  <text x="462" y="386" font-size="14" fill="#B5462F">수수료·사례금·착수금, 명칭 불문 금지</text>
+  <text x="462" y="408" font-size="14" fill="#4A5856">현장 명목: 소개비·작업비·전산비</text>
+  <text x="462" y="442" font-size="15" font-weight="700" fill="#B5462F">소비자에게서 받으면 형사처벌 대상</text>
+
+  <!-- 하단: 확인 경로 두 층 -->
+  <rect x="36" y="500" width="748" height="68" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="58" y="528" font-size="15" font-weight="700" fill="#0A5F58">등록 확인 경로는 두 층으로 나뉘어요</text>
+  <text x="58" y="554" font-size="14" fill="#1A2B2A">개인 모집인은 통합조회에서, 법인은 금융감독원 조회에서 (금감원 목록은 법인 한정)</text>
+</svg>
