@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 726" width="1000" height="726" role="img" aria-label="착오송금 반환지원 대상 판단. 송금한 금융회사 반환청구가 선행 요건이고 그 단계에서 돌려받으면 회수 관련 비용 차감이 없다. 신청 요건은 건당 5만원 이상 1억원 이하, 착오송금일로부터 1년 이내(착오송금일 제외), 소송이나 채권보전 절차를 진행하거나 완료하지 않았을 것. 제외 사유는 수취인 사망이나 국내 주소 없음, 계좌 가압류와 지급정지, 송금인이 정부나 지방자치단체인 경우 등 세 방향으로 나뉜다. 지급액은 공사가 회수한 금액에서 회수 관련 비용을 뺀 잔액이며 회수되지 않으면 지급액도 없다.">
+  <rect x="0" y="0" width="1000" height="726" fill="#FBF7F0"/>
+
+  <text x="48" y="56" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#1A2B2A">착오송금 반환지원, 내 건이 대상인가</text>
+  <text x="48" y="86" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">예금자보호법·예금보험공사 안내 기준 / 정보 기준일 2026년 9월 21일</text>
+
+  <rect x="40" y="108" width="920" height="76" rx="14" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="64" y="140" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">먼저 송금한 금융회사에 반환청구. 이 단계에서 돌려받으면 비용 차감 없이 전액</text>
+  <text x="64" y="167" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">금융회사에 반환신청을 하지 않은 송금인은 예금보험공사 반환지원 대상에서 빠져요</text>
+
+  <rect x="40" y="200" width="294" height="156" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="64" y="236" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">금액</text>
+  <text x="64" y="272" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">건당 5만원 이상</text>
+  <text x="64" y="298" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">1억원 이하</text>
+  <text x="64" y="328" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">합산이 아니라 건당 기준</text>
+
+  <rect x="353" y="200" width="294" height="156" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="377" y="236" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">기간</text>
+  <text x="377" y="272" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">착오송금일로부터</text>
+  <text x="377" y="298" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">1년 이내</text>
+  <text x="377" y="328" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">착오송금일은 산입하지 않음</text>
+
+  <rect x="666" y="200" width="294" height="156" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="690" y="236" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">상태</text>
+  <text x="690" y="272" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">소송·채권보전 절차를</text>
+  <text x="690" y="298" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">진행하거나 완료하지</text>
+  <text x="690" y="324" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">않았을 것</text>
+
+  <rect x="40" y="378" width="920" height="176" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="64" y="412" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">제외 사유는 세 방향에서 걸려요</text>
+
+  <text x="64" y="448" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0E7C72">수취인</text>
+  <text x="64" y="476" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">사망 또는 국내 주소 없음</text>
+  <text x="64" y="500" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">휴업·폐업 법인, 회생·파산</text>
+  <text x="64" y="524" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">실지명의 확인 불가</text>
+
+  <text x="376" y="448" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0E7C72">수취인 계좌</text>
+  <text x="376" y="476" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">가압류·압류 등 법적제한</text>
+  <text x="376" y="500" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">지급정지 계좌</text>
+  <text x="376" y="524" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">범죄 이용(의심) 계좌</text>
+
+  <text x="688" y="448" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0E7C72">송금인</text>
+  <text x="688" y="476" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">정부·지방자치단체</text>
+  <text x="688" y="500" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">한국은행·금감원·예보</text>
+  <text x="688" y="524" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">착오송금 이후 사망한 자</text>
+
+  <rect x="40" y="574" width="920" height="116" rx="14" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="64" y="608" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">지급액은 보상이 아니라 회수한 돈에서 나와요</text>
+  <text x="64" y="638" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">공사가 부당이득반환채권을 매입해 자진반환을 권유하고, 미반환 시 법원 지급명령으로 회수해요</text>
+  <text x="64" y="666" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#B5462F">회수액에서 회수 관련 비용을 뺀 잔액을 지급. 회수되지 않으면 지급액도 없어요</text>
+
+  <text x="48" y="710" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">출처: 예금자보호법 제2조·제39조의2·제39조의3, 같은 법 시행령 제3조의2, 예금보험공사 금융안심포털</text>
+</svg>
