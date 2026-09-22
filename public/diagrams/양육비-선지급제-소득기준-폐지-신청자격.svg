@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" role="img" aria-label="양육비 선지급 신청요건이 2026년 10월 29일 전후로 어떻게 달라지는지 비교한 표. 집행권원 보유, 직전 3개월 미이행 또는 연속 3회 이상 미이행, 양육비 채권 확보 노력 세 가지는 10월 28일까지와 10월 29일부터 모두 그대로 필요하다. 반면 소득인정액이 기준 중위소득 150퍼센트 이하여야 한다는 요건만 2026년 10월 29일 시행으로 폐지된다. 지급액은 미성년 자녀 1인당 월 20만 원이 한도이고, 집행권원에 적힌 월 양육비가 20만 원보다 적으면 그 금액이 상한이 된다. 성평등가족부 2026년 9월 18일 발표와 양육비이행관리원 안내 기준이며 정보 기준일은 2026년 9월 23일이다.">
+  <rect x="0" y="0" width="960" height="660" fill="#FBF7F0"/>
+
+  <text x="48" y="52" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#1A2B2A">양육비 선지급, 10월 29일부터 소득기준만 사라집니다</text>
+  <text x="48" y="82" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">집행권원·미지급 사실·채권 확보 노력 세 가지는 폐지 뒤에도 그대로 남는 요건이에요</text>
+
+  <rect x="48" y="112" width="864" height="40" rx="8" fill="#F4EEE2"/>
+  <text x="66" y="139" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#4A5856">신청요건</text>
+  <text x="651" y="139" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#4A5856">2026-10-28까지</text>
+  <text x="821" y="139" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">2026-10-29부터</text>
+
+  <rect x="48" y="160" width="864" height="92" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <rect x="48" y="160" width="8" height="92" fill="#0E7C72"/>
+  <text x="72" y="196" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">집행권원 보유</text>
+  <text x="72" y="224" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">판결문, 조정조서, 화해권고결정문,</text>
+  <text x="72" y="243" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">협의이혼은 양육비부담조서 중 1개</text>
+  <rect x="586" y="189" width="130" height="34" rx="17" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="651" y="211" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#4A5856">필요</text>
+  <rect x="756" y="189" width="130" height="34" rx="17" fill="#0E7C72"/>
+  <text x="821" y="211" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">그대로 필요</text>
+
+  <rect x="48" y="262" width="864" height="92" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <rect x="48" y="262" width="8" height="92" fill="#0E7C72"/>
+  <text x="72" y="298" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">양육비 미지급 사실</text>
+  <text x="72" y="326" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">신청일이 속한 달의 직전 3개월,</text>
+  <text x="72" y="345" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">또는 연속 3회 이상 이행받지 못한 경우</text>
+  <rect x="586" y="291" width="130" height="34" rx="17" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="651" y="313" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#4A5856">필요</text>
+  <rect x="756" y="291" width="130" height="34" rx="17" fill="#0E7C72"/>
+  <text x="821" y="313" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">그대로 필요</text>
+
+  <rect x="48" y="364" width="864" height="92" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <rect x="48" y="364" width="8" height="92" fill="#0E7C72"/>
+  <text x="72" y="400" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">양육비 채권 확보 노력</text>
+  <text x="72" y="428" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">법률지원·채권추심지원 신청, 이행명령 등이</text>
+  <text x="72" y="447" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">진행 중이거나 종료된 경우</text>
+  <rect x="586" y="393" width="130" height="34" rx="17" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="651" y="415" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#4A5856">필요</text>
+  <rect x="756" y="393" width="130" height="34" rx="17" fill="#0E7C72"/>
+  <text x="821" y="415" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">그대로 필요</text>
+
+  <rect x="48" y="466" width="864" height="92" rx="10" fill="#F4EEE2" stroke="#B5462F" stroke-width="1.2"/>
+  <rect x="48" y="466" width="8" height="92" fill="#B5462F"/>
+  <text x="72" y="502" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#B5462F">소득인정액 기준 중위소득 150% 이하</text>
+  <text x="72" y="530" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">성평등가족부 2026년 9월 18일 발표,</text>
+  <text x="72" y="549" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">2026년 10월 29일 시행으로 완전 폐지</text>
+  <rect x="586" y="495" width="130" height="34" rx="17" fill="#FBF7F0" stroke="#C2873B" stroke-width="1.2"/>
+  <text x="651" y="517" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#C2873B">필요</text>
+  <rect x="756" y="495" width="130" height="34" rx="17" fill="#B5462F"/>
+  <text x="821" y="517" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBF7F0">폐지</text>
+
+  <text x="48" y="600" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#1A2B2A">지급액은 자녀 1인당 월 20만 원 한도예요. 집행권원상 월 양육비가 그보다 적으면 그 금액이 상한이 됩니다.</text>
+  <text x="48" y="632" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">성평등가족부 보도자료(2026-09-18)·양육비이행관리원 안내 기준. 정보 기준일 2026년 9월 23일.</text>
+</svg>
