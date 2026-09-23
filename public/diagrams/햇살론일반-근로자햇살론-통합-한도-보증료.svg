@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="근로자햇살론과 햇살론뱅크가 2026년 1월 2일 햇살론일반으로 통합된 구조와 한도·금리 변화">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <text x="60" y="78" font-size="44" font-weight="700" fill="#1A2B2A">햇살론일반 통합, 한도와 금리의 맞교환</text>
+    <text x="60" y="118" font-size="24" fill="#4A5856">근로자햇살론과 햇살론뱅크가 2026년 1월 2일 한 상품으로 합쳐졌습니다</text>
+    <text x="60" y="150" font-size="19" fill="#8A938F">정보 기준일 2026년 9월 24일 · 출처 서민금융진흥원 상품 안내, 금융위원회 2025년 12월 30일 보도자료</text>
+    <line x1="60" y1="168" x2="1140" y2="168" stroke="#E3DCCF" stroke-width="2"/>
+
+    <text x="60" y="200" font-size="20" font-weight="600" fill="#8A938F">통합 전 (2025년 12월 31일 보증 종료)</text>
+
+    <rect x="60" y="214" width="525" height="168" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="88" y="256" font-size="30" font-weight="700" fill="#1A2B2A">근로자햇살론</text>
+    <text x="88" y="296" font-size="24" fill="#4A5856">보증한도 2,000만원</text>
+    <text x="88" y="330" font-size="24" fill="#4A5856">대출금리 11.5% 이하</text>
+    <text x="88" y="364" font-size="24" fill="#4A5856">원금균등분할상환</text>
+
+    <rect x="615" y="214" width="525" height="168" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="643" y="256" font-size="30" font-weight="700" fill="#1A2B2A">햇살론뱅크</text>
+    <text x="643" y="296" font-size="24" fill="#4A5856">보증한도 2,500만원</text>
+    <text x="643" y="330" font-size="24" fill="#4A5856">대출기간 3년 또는 5년</text>
+    <text x="643" y="364" font-size="24" fill="#4A5856">거치기간 최대 1년</text>
+
+    <polygon points="322,392 352,392 337,412" fill="#0A5F58"/>
+    <polygon points="877,392 907,392 892,412" fill="#0A5F58"/>
+
+    <rect x="60" y="418" width="1080" height="54" rx="12" fill="#0A5F58"/>
+    <text x="600" y="453" font-size="26" font-weight="700" fill="#FBF7F0" text-anchor="middle">2026년 1월 2일 햇살론일반으로 통합 시행</text>
+
+    <rect x="60" y="492" width="1080" height="216" rx="18" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+    <text x="88" y="536" font-size="32" font-weight="700" fill="#0A5F58">햇살론일반</text>
+    <text x="88" y="572" font-size="21" fill="#4A5856">지원대상 연소득 3,500만원 이하(신용점수 무관) 또는 4,500만원 이하이면서 신용점수 하위 20%</text>
+
+    <text x="240" y="620" font-size="20" fill="#4A5856" text-anchor="middle">보증한도</text>
+    <text x="240" y="660" font-size="32" font-weight="700" fill="#0A5F58" text-anchor="middle">1,500만원</text>
+    <text x="600" y="620" font-size="20" fill="#4A5856" text-anchor="middle">대출금리</text>
+    <text x="600" y="660" font-size="32" font-weight="700" fill="#0A5F58" text-anchor="middle">연 10% 이내</text>
+    <text x="960" y="620" font-size="20" fill="#4A5856" text-anchor="middle">보증료</text>
+    <text x="960" y="660" font-size="32" font-weight="700" fill="#0A5F58" text-anchor="middle">연 2.5% 이내</text>
+
+    <text x="600" y="694" font-size="21" fill="#4A5856" text-anchor="middle">대출기간 5년 이내(1년 단위 신청) · 원리금균등분할상환</text>
+
+    <rect x="60" y="728" width="525" height="156" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="88" y="766" font-size="26" font-weight="700" fill="#B5462F">줄어든 것</text>
+    <text x="88" y="802" font-size="24" fill="#1A2B2A">한도 2,000·2,500만원에서</text>
+    <text x="88" y="836" font-size="24" fill="#1A2B2A">1,500만원으로 축소</text>
+    <text x="88" y="870" font-size="24" fill="#1A2B2A">보증료 인하폭 1.0%p에서 0.5%p</text>
+
+    <rect x="615" y="728" width="525" height="156" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="643" y="766" font-size="26" font-weight="700" fill="#0E7C72">좋아진 것</text>
+    <text x="643" y="802" font-size="24" fill="#1A2B2A">금리 상한 11.5%에서 10%로</text>
+    <text x="643" y="836" font-size="24" fill="#1A2B2A">취급 금융업권 전체로 확대</text>
+    <text x="643" y="870" font-size="24" fill="#1A2B2A">중도상환수수료 없음</text>
+  </g>
+</svg>
