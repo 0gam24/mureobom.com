@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="결혼세액공제 50만원의 실제 차감액이 종합소득산출세액에 따라 세 갈래로 갈리는 구조. 산출세액이 50만원보다 크면 전액 차감, 50만원 미만이면 산출세액 범위까지만, 0원이면 차감할 세액이 없다. 기준일은 결혼식이 아니라 혼인신고일이며 미공제액 이월 규정이 없다.">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <text x="60" y="72" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="40" font-weight="700" fill="#1A2B2A">결혼세액공제 50만원, 실제로 얼마가 빠지나</text>
+  <text x="60" y="112" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" fill="#4A5856">조세특례제한법 제92조 · 종합소득산출세액 기준 세 갈래 (2026년 9월 기준)</text>
+
+  <rect x="60" y="140" width="1080" height="78" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="600" y="176" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#0A5F58">산출세액 - 세액감면 - 세액공제 = 결정세액</text>
+  <text x="600" y="204" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">국세청 연말정산 세액계산방법. 공제는 산출세액 안에서만 빠진다</text>
+
+  <!-- card 1 -->
+  <rect x="60" y="252" width="340" height="330" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <path d="M60 266 a14 14 0 0 1 14 -14 h312 a14 14 0 0 1 14 14 v42 h-340 z" fill="#0E7C72"/>
+  <text x="230" y="296" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#FBF7F0">산출세액 50만원 초과</text>
+  <text x="230" y="352" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#0A5F58">50만원 전액 차감</text>
+  <text x="90" y="404" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">공제 50만원이 그대로</text>
+  <text x="90" y="432" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">결정세액에서 빠져요</text>
+  <text x="90" y="484" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">부부 두 사람 모두</text>
+  <text x="90" y="512" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">이 경우일 때만</text>
+  <text x="90" y="540" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">합계 100만원 성립</text>
+
+  <!-- card 2 -->
+  <rect x="430" y="252" width="340" height="330" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <path d="M430 266 a14 14 0 0 1 14 -14 h312 a14 14 0 0 1 14 14 v42 h-340 z" fill="#C2873B"/>
+  <text x="600" y="296" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#FBF7F0">산출세액 50만원 미만</text>
+  <text x="600" y="352" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#C2873B">남은 세액만큼만</text>
+  <text x="460" y="404" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">차감이 산출세액</text>
+  <text x="460" y="432" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">범위에서 멈춰요</text>
+  <text x="460" y="484" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">쓰지 못한 금액은</text>
+  <text x="460" y="512" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">다음 해로 넘기는</text>
+  <text x="460" y="540" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">근거가 없어요</text>
+
+  <!-- card 3 -->
+  <rect x="800" y="252" width="340" height="330" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <path d="M800 266 a14 14 0 0 1 14 -14 h312 a14 14 0 0 1 14 14 v42 h-340 z" fill="#B5462F"/>
+  <text x="970" y="296" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#FBF7F0">산출세액 0원</text>
+  <text x="970" y="352" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#B5462F">차감할 세액 없음</text>
+  <text x="830" y="404" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">과세표준이 0이면</text>
+  <text x="830" y="432" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">산출세액도 0이에요</text>
+  <text x="830" y="484" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">이쪽 배우자는</text>
+  <text x="830" y="512" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">공제 효과가 남지</text>
+  <text x="830" y="540" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">않습니다</text>
+
+  <!-- 기준일 패널 -->
+  <rect x="60" y="612" width="1080" height="118" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="60" y="612" width="10" height="118" rx="5" fill="#0A5F58"/>
+  <text x="96" y="652" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#0A5F58">기준일은 결혼식이 아니라 혼인신고일</text>
+  <text x="96" y="686" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">조문 문구는 "혼인신고를 한 날이 속하는 과세기간"이에요. 12월 예식·이듬해 1월 신고면 귀속 연도가 달라져요.</text>
+  <text x="96" y="714" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">현행 조문의 대상은 2026년 12월 31일 이전에 한 혼인신고까지입니다.</text>
+
+  <!-- 1회 한정 패널 -->
+  <rect x="60" y="752" width="1080" height="80" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="96" y="784" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#0A5F58">"1회에 한정하여" 공제 · 미공제액의 이월이나 환급 규정은 조문에 없음</text>
+  <text x="96" y="812" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">소득세법 제60조의 적용순위에서 "이월공제가 인정되지 아니하는 세액공제"에 해당하는 구조로 읽혀요.</text>
+
+  <text x="60" y="872" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#8A938F">근거: 조세특례제한법 제92조, 소득세법 제55조·제60조, 국세청 연말정산 세액계산방법 (mureobom.com)</text>
+</svg>
