@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="1000" height="680" role="img" aria-label="가족휴가제 확대 일정: 2025년 11월 4일 보건복지부 발표, 2025년 12월 30일 고시 제2025-247호 발령, 2026년 1월 1일 시행. 단기보호 연 11일에서 12일, 종일 방문요양 연 22회에서 24회로 확대">
+  <rect x="0" y="0" width="1000" height="680" fill="#FBF7F0"/>
+
+  <text x="60" y="56" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="28" font-weight="700" fill="#1A2B2A">가족휴가제 연 12일은 2026년 1월 1일부터 적용</text>
+  <text x="60" y="90" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#4A5856">발표일 · 발령일 · 시행일 구분</text>
+
+  <!-- 타임라인 -->
+  <line x1="120" y1="176" x2="880" y2="176" stroke="#E3DCCF" stroke-width="4"/>
+  <circle cx="160" cy="176" r="13" fill="#C2873B"/>
+  <circle cx="500" cy="176" r="13" fill="#C2873B"/>
+  <circle cx="840" cy="176" r="13" fill="#0E7C72"/>
+
+  <text x="160" y="146" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#1A2B2A">2025.11.04</text>
+  <text x="160" y="214" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">보건복지부 보도자료로</text>
+  <text x="160" y="238" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">확대 계획 발표</text>
+
+  <text x="500" y="146" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#1A2B2A">2025.12.30</text>
+  <text x="500" y="214" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">고시 제2025-247호</text>
+  <text x="500" y="238" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">일부개정 발령</text>
+
+  <text x="840" y="146" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">2026.01.01</text>
+  <text x="840" y="214" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#0A5F58">시행, 이날부터</text>
+  <text x="840" y="238" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#0A5F58">연 12일 적용</text>
+
+  <!-- 전후 비교 -->
+  <rect x="60" y="286" width="420" height="180" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="84" y="322" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#4A5856">개정 전</text>
+  <text x="84" y="366" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#1A2B2A">단기보호 연 11일 이내</text>
+  <text x="84" y="404" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#1A2B2A">종일 방문요양 연 22회</text>
+  <text x="84" y="442" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#8A938F">고시 신구대비표 기준</text>
+
+  <rect x="520" y="286" width="420" height="180" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="544" y="322" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">개정 후 (2026년)</text>
+  <text x="544" y="366" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#1A2B2A">단기보호 연 12일 이내</text>
+  <text x="544" y="404" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#1A2B2A">종일 방문요양 연 24회</text>
+  <text x="544" y="442" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#8A938F">고시 제36조의2 제1항</text>
+
+  <!-- 같은 시점 한도액 변화 -->
+  <rect x="60" y="494" width="880" height="110" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="84" y="528" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">같은 시점, 재가급여 월 이용 한도액도 인상</text>
+  <text x="84" y="562" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">등급별 인상 폭 1만 8,920원부터 24만 7,800원까지</text>
+  <text x="84" y="590" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#4A5856">1등급 3시간 방문요양은 월 최대 41회에서 44회로 (등급별 한도액 금액은 공단 확인)</text>
+
+  <text x="60" y="648" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#8A938F">출처: 보건복지부 보도자료(2025-11-04), 고시 제2025-247호 발령 공고, 국민건강보험공단 고시 신구대비표</text>
+</svg>
