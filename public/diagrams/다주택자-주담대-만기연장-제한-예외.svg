@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="다주택자 주담대 만기연장 제한의 3요건(주택 2채 이상 보유, 수도권·규제지역 아파트 담보, 2026년 4월 17일 이후 만기연장)이 모두 맞을 때만 원칙적 불허가 적용되며, 발표일 2026년 4월 1일과 시행일 2026년 4월 17일의 역할이 다름을 보여주는 도표">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <text x="60" y="74" font-size="40" font-weight="700" fill="#1A2B2A">만기연장 제한, 세 조건이 겹칠 때만 적용돼요</text>
+    <text x="60" y="114" font-size="23" fill="#4A5856">다주택자 수도권·규제지역 아파트 주담대 만기연장 원칙적 불허의 적용 요건</text>
+    <text x="60" y="146" font-size="19" fill="#8A938F">정보 기준일 2026년 9월 27일 · 출처 금융위원회 가계부채 관리방안 보도자료(2026년 4월 1일)</text>
+    <line x1="60" y1="164" x2="1140" y2="164" stroke="#E3DCCF" stroke-width="2"/>
+
+    <text x="60" y="196" font-size="20" font-weight="600" fill="#8A938F">제한 대상 3요건 (셋 다 충족해야 적용)</text>
+
+    <rect x="60" y="212" width="340" height="212" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="88" y="252" font-size="21" font-weight="600" fill="#0E7C72">(가) 주택 보유 수</text>
+    <text x="88" y="308" font-size="30" font-weight="700" fill="#1A2B2A">2채 이상</text>
+    <text x="88" y="352" font-size="20" fill="#4A5856">소재지 무관으로 산정</text>
+    <text x="88" y="382" font-size="20" fill="#4A5856">개인과 임대사업자</text>
+    <text x="88" y="412" font-size="20" fill="#4A5856">(개인·법인) 모두 포함</text>
+
+    <rect x="430" y="212" width="340" height="212" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="458" y="252" font-size="21" font-weight="600" fill="#0E7C72">(나) 담보주택</text>
+    <text x="458" y="308" font-size="30" font-weight="700" fill="#1A2B2A">수도권·규제지역</text>
+    <text x="458" y="352" font-size="20" fill="#4A5856">아파트</text>
+    <text x="458" y="382" font-size="20" fill="#4A5856">아파트가 아닌 주택은</text>
+    <text x="458" y="412" font-size="20" fill="#4A5856">문언상 대상 아님</text>
+
+    <rect x="800" y="212" width="340" height="212" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="828" y="252" font-size="21" font-weight="600" fill="#0E7C72">(다) 만기연장 시점</text>
+    <text x="828" y="308" font-size="30" font-weight="700" fill="#1A2B2A">2026년 4월 17일</text>
+    <text x="828" y="352" font-size="20" fill="#4A5856">이 날짜 이후 만기연장</text>
+    <text x="828" y="382" font-size="20" fill="#4A5856">4월 16일까지 도래분은</text>
+    <text x="828" y="412" font-size="20" fill="#4A5856">종전 규정으로 심사</text>
+
+    <polygon points="215,434 245,434 230,452" fill="#0A5F58"/>
+    <polygon points="585,434 615,434 600,452" fill="#0A5F58"/>
+    <polygon points="955,434 985,434 970,452" fill="#0A5F58"/>
+
+    <rect x="60" y="458" width="1080" height="62" rx="14" fill="#0A5F58"/>
+    <text x="600" y="498" font-size="28" font-weight="700" fill="#FBF7F0" text-anchor="middle">세 조건이 모두 맞을 때 원칙적으로 만기연장 불허</text>
+
+    <rect x="60" y="548" width="525" height="160" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="88" y="588" font-size="25" font-weight="700" fill="#0E7C72">하나라도 어긋나면</text>
+    <text x="88" y="626" font-size="21" fill="#1A2B2A">이 제한의 적용 대상이 아니에요</text>
+    <text x="88" y="656" font-size="21" fill="#4A5856">예: 비수도권 2주택 보유에</text>
+    <text x="88" y="686" font-size="21" fill="#4A5856">비수도권 비규제지역 아파트 담보</text>
+
+    <rect x="615" y="548" width="525" height="160" rx="16" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+    <text x="643" y="588" font-size="25" font-weight="700" fill="#C2873B">예외로 허용되는 경우</text>
+    <text x="643" y="626" font-size="21" fill="#1A2B2A">발표일 기준 유효한 임대차계약의</text>
+    <text x="643" y="656" font-size="21" fill="#1A2B2A">종료일까지 연장 허용</text>
+    <text x="643" y="686" font-size="21" fill="#4A5856">법령상 의무·공익적 목적 등 불가피한 경우</text>
+
+    <text x="60" y="742" font-size="20" font-weight="600" fill="#8A938F">기준일 두 개는 역할이 다릅니다</text>
+
+    <line x1="140" y1="778" x2="1060" y2="778" stroke="#E3DCCF" stroke-width="4"/>
+    <rect x="430" y="775" width="340" height="6" fill="#C2873B"/>
+    <circle cx="200" cy="778" r="10" fill="#0E7C72"/>
+    <circle cx="1000" cy="778" r="10" fill="#0A5F58"/>
+
+    <text x="200" y="818" font-size="24" font-weight="700" fill="#0A5F58" text-anchor="middle">2026년 4월 1일</text>
+    <text x="600" y="818" font-size="24" font-weight="700" fill="#C2873B" text-anchor="middle">4월 1일부터 16일까지</text>
+    <text x="1000" y="818" font-size="24" font-weight="700" fill="#0A5F58" text-anchor="middle">2026년 4월 17일</text>
+
+    <text x="200" y="850" font-size="20" fill="#4A5856" text-anchor="middle">관리방안 발표일</text>
+    <text x="600" y="850" font-size="20" fill="#4A5856" text-anchor="middle">이 기간 만기 도래분은</text>
+    <text x="1000" y="850" font-size="20" fill="#4A5856" text-anchor="middle">제한 시행일</text>
+
+    <text x="200" y="878" font-size="20" fill="#4A5856" text-anchor="middle">임차인 예외 판정 기준</text>
+    <text x="600" y="878" font-size="20" fill="#4A5856" text-anchor="middle">종전 규정으로 심사</text>
+    <text x="1000" y="878" font-size="20" fill="#4A5856" text-anchor="middle">이후 만기연장부터 적용</text>
+  </g>
+</svg>
