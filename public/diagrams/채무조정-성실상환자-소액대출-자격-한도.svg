@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" width="1200" height="820" role="img" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="1200" height="820" fill="#FBF7F0"/>
+
+  <text x="60" y="54" font-size="30" font-weight="700" fill="#1A2B2A">채무조정 성실상환자 소액대출, 무엇이 갈리나</text>
+  <text x="60" y="86" font-size="16" fill="#4A5856">2026년 9월 기준 · 신용회복위원회 소액금융 소액대출 상품안내</text>
+
+  <!-- (1) 타임라인 -->
+  <rect x="60" y="110" width="1080" height="170" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="88" y="148" font-size="19" font-weight="700" fill="#0A5F58">① 언제부터 신청할 수 있나 (변제금 성실상환 기간)</text>
+  <line x1="110" y1="212" x2="1090" y2="212" stroke="#E3DCCF" stroke-width="5"/>
+  <line x1="455" y1="212" x2="1015" y2="212" stroke="#0E7C72" stroke-width="5"/>
+
+  <circle cx="175" cy="212" r="9" fill="#8A938F"/>
+  <text x="175" y="192" font-size="17" font-weight="700" fill="#1A2B2A" text-anchor="middle">0개월</text>
+  <text x="175" y="246" font-size="15" fill="#4A5856" text-anchor="middle">신청 불가</text>
+
+  <circle cx="455" cy="212" r="9" fill="#0E7C72"/>
+  <text x="455" y="192" font-size="17" font-weight="700" fill="#0A5F58" text-anchor="middle">6개월</text>
+  <text x="455" y="246" font-size="15" fill="#4A5856" text-anchor="middle">신청 가능</text>
+
+  <circle cx="735" cy="212" r="9" fill="#0E7C72"/>
+  <text x="735" y="192" font-size="17" font-weight="700" fill="#0A5F58" text-anchor="middle">12개월</text>
+  <text x="735" y="246" font-size="15" fill="#4A5856" text-anchor="middle">비대면 한도 상향</text>
+
+  <circle cx="1015" cy="212" r="9" fill="#0E7C72"/>
+  <text x="1015" y="192" font-size="17" font-weight="700" fill="#0A5F58" text-anchor="middle">상환 완료 후 3년</text>
+  <text x="1015" y="246" font-size="15" fill="#4A5856" text-anchor="middle">기간 안이면 신청 가능</text>
+
+  <!-- (2) 용도별 한도·금리 -->
+  <text x="60" y="322" font-size="19" font-weight="700" fill="#0A5F58">② 용도에 따라 한도와 금리가 갈려요</text>
+
+  <rect x="60" y="340" width="534" height="222" rx="14" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="90" y="382" font-size="21" font-weight="700" fill="#0A5F58">생활안정자금</text>
+  <text x="90" y="426" font-size="27" font-weight="700" fill="#1A2B2A">1,500만원 이내</text>
+  <text x="90" y="460" font-size="20" font-weight="700" fill="#0E7C72">연 4% 이내</text>
+  <text x="90" y="496" font-size="15" fill="#4A5856">사고·질병·재난 등으로 인한 긴급 생활안정 용도</text>
+  <text x="90" y="526" font-size="15" fill="#8A938F">5년 이내 원리금균등분할</text>
+
+  <rect x="606" y="340" width="534" height="222" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="636" y="382" font-size="19" font-weight="700" fill="#0A5F58">고금리차환 · 시설개선 · 운영 · 학자금</text>
+  <text x="636" y="426" font-size="27" font-weight="700" fill="#1A2B2A">각 1,000만원 이내</text>
+  <text x="636" y="460" font-size="20" font-weight="700" fill="#0E7C72">연 2% 이내</text>
+  <text x="636" y="496" font-size="15" fill="#4A5856">고금리차환은 신청일 기준 6개월 이전에 발생한</text>
+  <text x="636" y="522" font-size="15" fill="#4A5856">연 18% 이상 신용대출 상환 용도만 해당</text>
+
+  <!-- (3) 순서 함정 -->
+  <text x="60" y="604" font-size="19" font-weight="700" fill="#0A5F58">③ 순서를 놓치면 창구가 닫혀요</text>
+  <rect x="60" y="622" width="1080" height="140" rx="14" fill="#FBF7F0" stroke="#B5462F" stroke-width="2"/>
+  <text x="90" y="666" font-size="20" font-weight="700" fill="#B5462F">최근 6개월 이내 신규 채무 발생자는 신청 제한</text>
+  <text x="90" y="700" font-size="16" fill="#4A5856">급전 때문에 카드론이나 신규 대출을 먼저 쓰면, 그 6개월이 지날 때까지 이 창구를 쓸 수 없어요.</text>
+  <text x="90" y="732" font-size="15" fill="#8A938F">그 밖의 제한: 연체정보 등록자, 보유재산 과다자, 채무조정 이후 신규 채무 과다 발생자, 상환능력 부족</text>
+
+  <text x="60" y="796" font-size="14" fill="#8A938F">출처: 신용회복위원회 소액대출 상품안내·소액금융 제도소개. 한도는 개인별 상환기간·용도·상환여력에 따라 결정돼요.</text>
+</svg>
