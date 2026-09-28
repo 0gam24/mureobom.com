@@ -1,0 +1,61 @@
+<svg viewBox="0 0 780 640" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Sans KR', system-ui, sans-serif" role="img" aria-label="증여추정에서 허용되는 미입증액은 취득재산 가액의 100분의 20과 2억원 중 적은 금액이다. 취득가액 10억원까지는 20% 쪽이 작아 한도가 비례해 커지고, 10억원을 넘으면 2억원으로 고정된다. 미입증액이 한도와 같은 금액이면 미달이 아니어서 배제 대상이 아니다.">
+  <rect x="0" y="0" width="780" height="640" fill="#FBF7F0"/>
+
+  <text x="40" y="48" font-size="25" font-weight="700" fill="#1A2B2A">증여추정에서 빠지는 미입증액의 한도</text>
+  <text x="40" y="76" font-size="14.5" fill="#4A5856">상속세 및 증여세법 시행령 제34조 제1항 단서 · 정보 기준일 2026년 9월 29일</text>
+
+  <!-- 규칙 -->
+  <rect x="40" y="100" width="200" height="98" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="140" y="134" font-size="14" fill="#4A5856" text-anchor="middle">취득재산 가액의</text>
+  <text x="140" y="170" font-size="23" font-weight="700" fill="#1A2B2A" text-anchor="middle">100분의 20</text>
+
+  <text x="256" y="158" font-size="17" font-weight="700" fill="#C2873B" text-anchor="middle">와</text>
+
+  <rect x="272" y="100" width="170" height="98" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="357" y="134" font-size="14" fill="#4A5856" text-anchor="middle">정액 상한</text>
+  <text x="357" y="170" font-size="23" font-weight="700" fill="#1A2B2A" text-anchor="middle">2억원</text>
+
+  <text x="458" y="158" font-size="24" font-weight="700" fill="#C2873B" text-anchor="middle">=</text>
+
+  <rect x="474" y="100" width="266" height="98" rx="12" fill="#0E7C72"/>
+  <text x="607" y="134" font-size="14" fill="#E3F0EE" text-anchor="middle">둘 중 적은 금액이</text>
+  <text x="607" y="166" font-size="21" font-weight="700" fill="#FBF7F0" text-anchor="middle">허용 미입증 한도</text>
+  <text x="607" y="188" font-size="12.5" fill="#E3F0EE" text-anchor="middle">이 금액에 미달하면 추정에서 제외</text>
+
+  <!-- 두 구간 그래프 -->
+  <text x="40" y="238" font-size="17" font-weight="700" fill="#1A2B2A">취득가액이 커져도 한도는 2억원에서 멈춰요</text>
+
+  <text x="90" y="266" font-size="13" fill="#8A938F">허용 미입증 한도</text>
+  <line x1="90" y1="276" x2="90" y2="452" stroke="#E3DCCF" stroke-width="2"/>
+  <line x1="90" y1="452" x2="726" y2="452" stroke="#E3DCCF" stroke-width="2"/>
+
+  <line x1="90" y1="292" x2="395" y2="292" stroke="#E3DCCF" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="395" y1="292" x2="395" y2="452" stroke="#C2873B" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <polyline points="90,452 395,292 700,292" fill="none" stroke="#0E7C72" stroke-width="3.5"/>
+  <circle cx="395" cy="292" r="7" fill="#C2873B"/>
+
+  <text x="82" y="297" font-size="13.5" fill="#4A5856" text-anchor="end">2억원</text>
+  <text x="82" y="457" font-size="13.5" fill="#4A5856" text-anchor="end">0</text>
+
+  <text x="242" y="476" font-size="13.5" fill="#4A5856" text-anchor="middle">5억원</text>
+  <text x="395" y="476" font-size="13.5" font-weight="700" fill="#C2873B" text-anchor="middle">10억원</text>
+  <text x="700" y="476" font-size="13.5" fill="#4A5856" text-anchor="middle">20억원</text>
+  <text x="726" y="440" font-size="13" fill="#8A938F" text-anchor="end">취득재산 가액</text>
+
+  <text x="230" y="412" font-size="13.5" fill="#0A5F58" text-anchor="middle">20% 쪽이 작은 구간</text>
+  <text x="550" y="326" font-size="13.5" fill="#0A5F58" text-anchor="middle">2억원으로 고정되는 구간</text>
+
+  <!-- 경계 주의 -->
+  <rect x="40" y="496" width="350" height="88" rx="12" fill="#FBF7F0" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="58" y="522" font-size="15" font-weight="700" fill="#B5462F">경계에 주의</text>
+  <text x="58" y="546" font-size="13.5" fill="#1A2B2A">조문이 "미달하는 경우"라고 적혀 있어,</text>
+  <text x="58" y="568" font-size="13.5" fill="#1A2B2A">한도와 같은 금액은 제외 대상이 아니에요</text>
+
+  <rect x="406" y="496" width="334" height="88" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <text x="424" y="522" font-size="15" font-weight="700" fill="#0A5F58">금액표는 다른 조항</text>
+  <text x="424" y="546" font-size="13.5" fill="#1A2B2A">연령·세대주별 배제기준 금액은 같은 조</text>
+  <text x="424" y="568" font-size="13.5" fill="#1A2B2A">제2항이 국세청장에게 위임한 별도 기준</text>
+
+  <text x="40" y="616" font-size="13" fill="#8A938F">10억원은 법령에 적힌 숫자가 아니라, 취득가액의 20%가 2억원과 같아지는 계산 지점이에요.</text>
+</svg>
