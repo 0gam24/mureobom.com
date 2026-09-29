@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="실업급여 취업촉진수당 세 가지 비교표. 직업능력개발수당은 고용센터의 장이 지시한 훈련을 받은 날이면서 구직급여 지급대상이 되는 날에 1일 10,320원을 받고 교통비나 식비를 따로 받으면 그만큼 제외되며, 별도 청구서 없이 실업인정일에 수강증명서를 관할 고용센터에 제출한다. 광역 구직활동비는 고용센터 소개로 거주지에서 25km 이상 떨어진 사업장을 방문할 때 운임과 숙박료를 중등급 실비로 받고, 활동이 끝난 날부터 14일 이내에 별지 제98호서식으로 관할 고용센터에 청구한다. 이주비는 취업이나 지시 훈련을 위해 주거를 옮길 때 이주 실비를 받으며 5톤 이하는 전액, 초과분은 50퍼센트를 가산하고, 이주한 날부터 14일 이내에 별지 제99호서식으로 새 거주지 관할 고용센터에 청구한다. 세 수당 모두 구직급여 수급자격 유지가 전제이고 법문은 지급할 수 있다는 재량 표현이다.">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <text x="60" y="66" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="38" font-weight="700" fill="#1A2B2A">실업급여 추가 수당 3종, 요건·금액·기한 비교</text>
+  <text x="60" y="104" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#4A5856">고용보험법 제37조 취업촉진수당 중 조기재취업수당을 뺀 셋 (2026년 9월 30일 확인 기준)</text>
+
+  <!-- header row -->
+  <rect x="60" y="152" width="180" height="66" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="76" y="193" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#4A5856">구분</text>
+
+  <rect x="252" y="152" width="288" height="66" rx="10" fill="#0E7C72"/>
+  <text x="396" y="193" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#FBF7F0">직업능력개발수당</text>
+
+  <rect x="552" y="152" width="288" height="66" rx="10" fill="#0A5F58"/>
+  <text x="696" y="193" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#FBF7F0">광역 구직활동비</text>
+
+  <rect x="852" y="152" width="288" height="66" rx="10" fill="#C2873B"/>
+  <text x="996" y="193" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#FBF7F0">이주비</text>
+
+  <!-- row 1: 대상 -->
+  <rect x="60" y="222" width="180" height="152" rx="10" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="76" y="288" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">언제 대상이</text>
+  <text x="76" y="314" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">되나</text>
+
+  <rect x="252" y="222" width="288" height="152" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="268" y="260" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">고용센터의 장이</text>
+  <text x="268" y="288" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">지시한 훈련을 받은 날</text>
+  <text x="268" y="316" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">이면서 구직급여</text>
+  <text x="268" y="344" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">지급대상이 되는 날</text>
+
+  <rect x="552" y="222" width="288" height="152" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="568" y="260" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">고용센터 소개로</text>
+  <text x="568" y="288" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">거주지에서 25km 이상</text>
+  <text x="568" y="316" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">떨어진 사업장을</text>
+  <text x="568" y="344" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">방문해 구직활동</text>
+
+  <rect x="852" y="222" width="288" height="152" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="868" y="260" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">취업이나 고용센터</text>
+  <text x="868" y="288" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">지시 훈련 때문에</text>
+  <text x="868" y="316" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">주거를 옮길 때</text>
+  <text x="868" y="344" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">취업은 1년 이상 계약</text>
+
+  <!-- row 2: 금액 -->
+  <rect x="60" y="378" width="180" height="130" rx="10" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="76" y="450" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">금액</text>
+
+  <rect x="252" y="378" width="288" height="130" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="268" y="424" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#0A5F58">1일 10,320원</text>
+  <text x="268" y="458" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">교통비·식비를 따로</text>
+  <text x="268" y="486" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">받으면 그만큼 제외</text>
+
+  <rect x="552" y="378" width="288" height="130" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="568" y="424" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#0A5F58">운임·숙박료 실비</text>
+  <text x="568" y="458" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">운임은 교통수단별</text>
+  <text x="568" y="486" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">중등급 수준 기준</text>
+
+  <rect x="852" y="378" width="288" height="130" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="868" y="424" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#0A5F58">이주 실비</text>
+  <text x="868" y="458" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">5톤 이하는 전액,</text>
+  <text x="868" y="486" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">초과분은 50% 가산</text>
+
+  <!-- row 3: 청구 시점 -->
+  <rect x="60" y="512" width="180" height="104" rx="10" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="76" y="570" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">청구 시점</text>
+
+  <rect x="252" y="512" width="288" height="104" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="268" y="550" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">별도 청구서 없이</text>
+  <text x="268" y="578" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">실업인정일에</text>
+  <text x="268" y="602" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">수강증명서 제출</text>
+
+  <rect x="552" y="512" width="288" height="104" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="568" y="548" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">기산점: 활동이 끝난 날</text>
+  <text x="568" y="586" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#B5462F">14일 이내</text>
+
+  <rect x="852" y="512" width="288" height="104" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="868" y="548" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">기산점: 이주한 날</text>
+  <text x="868" y="586" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#B5462F">14일 이내</text>
+
+  <!-- row 4: 서식·제출처 -->
+  <rect x="60" y="620" width="180" height="104" rx="10" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="76" y="666" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">서식과</text>
+  <text x="76" y="692" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">제출처</text>
+
+  <rect x="252" y="620" width="288" height="104" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="268" y="662" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">수강증명서</text>
+  <text x="268" y="694" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">관할 고용센터</text>
+
+  <rect x="552" y="620" width="288" height="104" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="568" y="662" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">별지 제98호서식</text>
+  <text x="568" y="694" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">관할 고용센터</text>
+
+  <rect x="852" y="620" width="288" height="104" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="868" y="662" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">별지 제99호서식</text>
+  <text x="868" y="694" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#C2873B">새 거주지 관할 센터</text>
+
+  <!-- 공통 조건 패널 -->
+  <rect x="60" y="736" width="1080" height="100" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <rect x="60" y="736" width="10" height="100" rx="5" fill="#0A5F58"/>
+  <text x="96" y="772" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#0A5F58">공통: 구직급여 수급자격을 유지한 상태여야 하고, 법문은 "지급할 수 있다"는 재량 표현이에요</text>
+  <text x="96" y="800" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">광역 구직활동비·이주비는 사업주가 같은 비용을 전액 지급하면 대상에서 빠져요.</text>
+  <text x="96" y="826" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">부득이한 사유가 있으면 그 사유가 없어진 날부터 7일 이내에 제출하는 예외가 있어요.</text>
+
+  <text x="60" y="862" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">근거: 고용보험법 제37조·제65조~제67조, 시행령 제88조~제90조, 시행규칙 제113조·제114조</text>
+  <text x="60" y="884" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">찾기쉬운 생활법령정보(기준일자 2026-08-31) · 확인 기준일 2026년 9월 30일 · 금액은 고시 개정 시 변동 (mureobom.com)</text>
+</svg>
