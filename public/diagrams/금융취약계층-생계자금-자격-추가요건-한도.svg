@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="불법사금융예방대출 100만원에서 금융취약계층 생계자금 500만원으로 올라가는 경로와 기본요건·추가요건 이중 자격 구조">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <text x="50" y="56" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="33" font-weight="700" fill="#1A2B2A">정책서민금융 사다리: 100만원에서 500만원으로</text>
+  <text x="50" y="90" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#4A5856">불법사금융예방대출 완제가 금융취약계층 생계자금으로 올라가는 계단이 됩니다</text>
+
+  <!-- 1단계 카드 -->
+  <rect x="50" y="120" width="400" height="240" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="76" y="156" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">1단계</text>
+  <text x="76" y="188" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#0A5F58">불법사금융예방대출</text>
+  <text x="76" y="224" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">한도 1인당 최대 100만원</text>
+  <text x="76" y="250" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">금리 일반 연 12.5%</text>
+  <text x="76" y="276" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">사회적배려대상자 연 9.9%</text>
+  <text x="76" y="302" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">2년 원리금균등분할상환</text>
+  <text x="76" y="330" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">창구 서민금융통합지원센터 50곳</text>
+
+  <!-- 계단 조건 -->
+  <line x1="452" y1="240" x2="466" y2="240" stroke="#0E7C72" stroke-width="3"/>
+  <polygon points="464,232 478,240 464,248" fill="#0E7C72"/>
+  <rect x="480" y="175" width="200" height="130" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="580" y="215" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">6개월 이상</text>
+  <text x="580" y="243" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">이용 후 완제</text>
+  <text x="580" y="275" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#B5462F">완제 방식 주의</text>
+  <line x1="682" y1="240" x2="696" y2="240" stroke="#0E7C72" stroke-width="3"/>
+  <polygon points="694,232 708,240 694,248" fill="#0E7C72"/>
+
+  <!-- 2단계 카드 -->
+  <rect x="710" y="120" width="440" height="240" rx="14" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="738" y="156" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">2단계</text>
+  <text x="738" y="188" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#0A5F58">금융취약계층 생계자금</text>
+  <text x="738" y="224" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">한도 최대 500만원</text>
+  <text x="738" y="250" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">금리 연 4.5% 이내</text>
+  <text x="738" y="276" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">기간 최대 6년 (거치 1년 + 상환 5년)</text>
+  <text x="738" y="302" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">원리금균등분할상환</text>
+  <text x="738" y="330" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">창구 전국 미소금융지점</text>
+
+  <!-- 자격 2겹 -->
+  <rect x="50" y="400" width="520" height="250" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="76" y="437" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#0A5F58">기본요건 (미소금융 이용대상자)</text>
+  <text x="76" y="463" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#8A938F">다음 중 하나</text>
+  <text x="76" y="493" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">개인신용평점 하위 100분의 20 이내</text>
+  <text x="76" y="519" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">기초생활수급자 및 차상위계층 이하</text>
+  <text x="76" y="545" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">근로장려금 신청자격 요건 해당자</text>
+  <line x1="76" y1="566" x2="544" y2="566" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="76" y="594" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#C2873B">예외 통로</text>
+  <text x="76" y="620" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">개인신용평점 하위 50% 이하 + 연소득 3,500만원 이하</text>
+
+  <circle cx="600" cy="520" r="34" fill="#0E7C72"/>
+  <text x="600" y="527" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#FBF7F0">AND</text>
+
+  <rect x="630" y="400" width="520" height="250" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="656" y="437" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#0A5F58">추가요건 (셋 중 하나)</text>
+  <text x="656" y="463" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#8A938F">본인이 들어가는 트랙</text>
+  <text x="656" y="493" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">불법사금융예방대출 완제자</text>
+  <text x="656" y="519" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">미소금융 12회차 이상 성실상환자</text>
+  <text x="656" y="545" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">취약계층</text>
+  <line x1="656" y1="566" x2="1124" y2="566" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="656" y="594" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#C2873B">취약계층 구분</text>
+  <text x="656" y="620" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">사회적 배려 대상자 8종 · 특별취약계층 4종</text>
+
+  <!-- 경고 -->
+  <rect x="50" y="685" width="1100" height="120" rx="12" fill="#F4EEE2" stroke="#B5462F" stroke-width="2"/>
+  <text x="78" y="723" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#B5462F">완제의 방식이 인센티브를 가릅니다</text>
+  <text x="78" y="753" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">불법사금융예방대출 채권이 개인회생·신용회복·서금원 채무조정·매각 등의 방법으로 상환되거나</text>
+  <text x="78" y="779" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">면책 처리되면 연 4.5% 재대출과 상환 축하금(납입 이자의 50%)이 모두 제공되지 않습니다</text>
+
+  <text x="50" y="850" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">정보 기준일 2026년 10월 1일 · 서민금융진흥원 상품 안내 기준 · 대상에 해당해도 최종 대출 여부는 여신심사 결과에 따라 결정됩니다</text>
+</svg>
