@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 600" role="img" aria-label="적격증빙 미수취 가산세의 두 관문 구조: 관문 1은 소득세법 제27조의 필요경비 인정, 관문 2는 제160조의2 제2항의 적격증빙 수취. 기준금액은 거래건당 3만원 초과(부가가치세 포함), 가산세는 세액이 아니라 필요경비 산입이 인정되는 금액의 2%이며 산출세액이 없어도 적용. 소규모사업자와 추계신고자는 제외. 지출 100만원을 적용세율 15% 가정으로 비교하면 경비에서 빼면 세금 약 15만원 증가, 경비에 넣으면 가산세 2만원." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="860" height="600" fill="#FBF7F0"/>
+
+  <text x="40" y="50" font-size="27" fill="#1A2B2A" font-weight="700">3만원 초과 지출에 간이영수증만 받았다면</text>
+  <text x="40" y="80" font-size="15" fill="#4A5856">경비 인정과 증빙 가산세는 서로 다른 조문이 정하는, 서로 다른 관문이에요</text>
+
+  <!-- 관문 1 -->
+  <rect x="40" y="100" width="380" height="168" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <rect x="40" y="100" width="380" height="40" rx="12" fill="#0E7C72"/>
+  <text x="230" y="127" font-size="17" fill="#FBF7F0" font-weight="700" text-anchor="middle">관문 1 · 필요경비로 인정되는가</text>
+  <text x="62" y="168" font-size="15" fill="#1A2B2A">총수입금액에 대응하는</text>
+  <text x="62" y="192" font-size="15" fill="#1A2B2A">통상적인 비용인지 판단</text>
+  <text x="62" y="222" font-size="14" fill="#4A5856">사업 관련성이 소명되면 간이영수증</text>
+  <text x="62" y="242" font-size="14" fill="#4A5856">만으로 경비가 곧 부인되진 않아요</text>
+  <text x="62" y="262" font-size="12" fill="#8A938F">소득세법 제27조 제1항</text>
+
+  <!-- 관문 2 -->
+  <rect x="440" y="100" width="380" height="168" rx="12" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+  <rect x="440" y="100" width="380" height="40" rx="12" fill="#C2873B"/>
+  <text x="630" y="127" font-size="17" fill="#FBF7F0" font-weight="700" text-anchor="middle">관문 2 · 적격증빙을 받았는가</text>
+  <text x="462" y="168" font-size="15" fill="#1A2B2A">계산서, 세금계산서,</text>
+  <text x="462" y="192" font-size="15" fill="#1A2B2A">신용카드매출전표, 현금영수증</text>
+  <text x="462" y="222" font-size="14" fill="#B5462F">받지 않거나 사실과 다르게 받으면</text>
+  <text x="462" y="242" font-size="14" fill="#B5462F">증명서류 수취 불성실 가산세</text>
+  <text x="462" y="262" font-size="12" fill="#8A938F">소득세법 제160조의2 제2항, 제81조의6</text>
+
+  <!-- 3개 조건 박스 -->
+  <rect x="40" y="292" width="250" height="166" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="58" y="322" font-size="16" fill="#1A2B2A" font-weight="700">기준금액</text>
+  <text x="58" y="352" font-size="15" fill="#0A5F58" font-weight="700">거래건당 3만원 초과</text>
+  <text x="58" y="374" font-size="13" fill="#4A5856">(부가가치세를 포함한 금액)</text>
+  <text x="58" y="404" font-size="14" fill="#4A5856">3만원 이하인 거래는</text>
+  <text x="58" y="424" font-size="14" fill="#4A5856">수취 의무 자체가 없어요</text>
+  <text x="58" y="446" font-size="12" fill="#8A938F">시행령 제208조의2 제1항 제1호</text>
+
+  <rect x="305" y="292" width="250" height="166" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="323" y="322" font-size="16" fill="#1A2B2A" font-weight="700">2%의 계산 대상</text>
+  <text x="323" y="352" font-size="15" fill="#0A5F58" font-weight="700">세액이 아니라 금액</text>
+  <text x="323" y="374" font-size="13" fill="#4A5856">필요경비 산입이 인정되는</text>
+  <text x="323" y="394" font-size="13" fill="#4A5856">금액의 100분의 2</text>
+  <text x="323" y="424" font-size="14" fill="#4A5856">산출세액이 없어도 적용</text>
+  <text x="323" y="446" font-size="12" fill="#8A938F">법 제81조의6 제1항, 제2항</text>
+
+  <rect x="570" y="292" width="250" height="166" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="588" y="322" font-size="16" fill="#1A2B2A" font-weight="700">적용에서 빠지는 쪽</text>
+  <text x="588" y="352" font-size="15" fill="#0A5F58" font-weight="700">소규모사업자</text>
+  <text x="588" y="374" font-size="13" fill="#4A5856">신규 개시, 직전 과세기간</text>
+  <text x="588" y="394" font-size="13" fill="#4A5856">수입금액 4,800만원 미만 등</text>
+  <text x="588" y="424" font-size="14" fill="#4A5856">추계로 신고하는 사업자</text>
+  <text x="588" y="446" font-size="12" fill="#8A938F">시행령 제147조, 제132조 제4항</text>
+
+  <line x1="40" y1="482" x2="820" y2="482" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <text x="40" y="510" font-size="16" fill="#1A2B2A" font-weight="700">지출 100만원에 간이영수증만 있다면 (적용세율 15% 가정)</text>
+  <text x="40" y="538" font-size="14" fill="#4A5856">경비에서 빼면: 과세표준 100만원 증가로 세금이 약 15만원 늘어요</text>
+  <text x="40" y="562" font-size="14" fill="#4A5856">경비에 넣으면: 가산세는 100만원의 2%인 2만원</text>
+  <text x="40" y="586" font-size="12" fill="#8A938F">정보 기준일: 2026년 10월 1일 시행 소득세법 시행령 기준 (세율은 가정값)</text>
+</svg>
