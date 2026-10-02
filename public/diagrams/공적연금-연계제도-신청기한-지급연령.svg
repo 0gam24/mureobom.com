@@ -1,0 +1,90 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="연계급여 지급연령 비교: 연계노령연금은 출생연도별로 1952년 이전 60세부터 1969년 이후 65세, 공무원연금 퇴직연금수급연령은 퇴직연도별로 2016~2021년 60세부터 2033년 이후 65세이며, 직역 쪽 수급연령이 더 높으면 연계퇴직연금만 그 연령 도달 다음 달부터 따로 시작된다">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <text x="50" y="64" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="40" font-weight="700" fill="#1A2B2A">연계급여는 몇 살부터 시작되나요</text>
+  <text x="50" y="106" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#4A5856">국민연금 몫은 출생연도로, 직역 몫은 직역연금 수급연령으로 정해져요 (2026년 10월 기준)</text>
+
+  <!-- 왼쪽: 연계노령연금 -->
+  <g>
+    <rect x="50" y="136" width="530" height="480" rx="16" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+    <text x="78" y="182" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#0A5F58">연계노령연금 (국민연금 몫)</text>
+    <text x="78" y="212" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">연금연계법 부칙 제3조 본문</text>
+
+    <text x="78" y="254" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#4A5856">출생연도</text>
+    <text x="552" y="254" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#4A5856" text-anchor="end">지급연령</text>
+    <line x1="78" y1="268" x2="552" y2="268" stroke="#0E7C72" stroke-width="1.5"/>
+
+    <text x="78" y="308" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#1A2B2A">1952년 이전</text>
+    <text x="552" y="308" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#0A5F58" text-anchor="end">60세</text>
+    <line x1="78" y1="330" x2="552" y2="330" stroke="#E3DCCF" stroke-width="1"/>
+
+    <text x="78" y="358" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#1A2B2A">1953~1956년</text>
+    <text x="552" y="358" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#0A5F58" text-anchor="end">61세</text>
+    <line x1="78" y1="380" x2="552" y2="380" stroke="#E3DCCF" stroke-width="1"/>
+
+    <text x="78" y="408" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#1A2B2A">1957~1960년</text>
+    <text x="552" y="408" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#0A5F58" text-anchor="end">62세</text>
+    <line x1="78" y1="430" x2="552" y2="430" stroke="#E3DCCF" stroke-width="1"/>
+
+    <text x="78" y="458" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#1A2B2A">1961~1964년</text>
+    <text x="552" y="458" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#0A5F58" text-anchor="end">63세</text>
+    <line x1="78" y1="480" x2="552" y2="480" stroke="#E3DCCF" stroke-width="1"/>
+
+    <text x="78" y="508" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#1A2B2A">1965~1968년</text>
+    <text x="552" y="508" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#0A5F58" text-anchor="end">64세</text>
+    <line x1="78" y1="530" x2="552" y2="530" stroke="#E3DCCF" stroke-width="1"/>
+
+    <text x="78" y="558" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#1A2B2A">1969년 이후</text>
+    <text x="552" y="558" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#0A5F58" text-anchor="end">65세</text>
+
+    <text x="78" y="594" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">국민연금 노령연금 개시연령과 같은 구간표예요</text>
+  </g>
+
+  <!-- 오른쪽: 연계퇴직연금 -->
+  <g>
+    <rect x="620" y="136" width="530" height="480" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+    <text x="648" y="182" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#0A5F58">연계퇴직연금 (직역 몫)</text>
+    <text x="648" y="212" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">공무원연금법 부칙 제11조, 1996년 이후 임용자</text>
+
+    <text x="648" y="254" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#4A5856">퇴직연도</text>
+    <text x="1122" y="254" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#4A5856" text-anchor="end">수급연령</text>
+    <line x1="648" y1="268" x2="1122" y2="268" stroke="#C2873B" stroke-width="1.5"/>
+
+    <text x="648" y="308" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#1A2B2A">2016~2021년</text>
+    <text x="1122" y="308" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#C2873B" text-anchor="end">60세</text>
+    <line x1="648" y1="330" x2="1122" y2="330" stroke="#E3DCCF" stroke-width="1"/>
+
+    <text x="648" y="358" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#1A2B2A">2022~2023년</text>
+    <text x="1122" y="358" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#C2873B" text-anchor="end">61세</text>
+    <line x1="648" y1="380" x2="1122" y2="380" stroke="#E3DCCF" stroke-width="1"/>
+
+    <text x="648" y="408" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#1A2B2A">2024~2026년</text>
+    <text x="1122" y="408" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#C2873B" text-anchor="end">62세</text>
+    <line x1="648" y1="430" x2="1122" y2="430" stroke="#E3DCCF" stroke-width="1"/>
+
+    <text x="648" y="458" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#1A2B2A">2027~2029년</text>
+    <text x="1122" y="458" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#C2873B" text-anchor="end">63세</text>
+    <line x1="648" y1="480" x2="1122" y2="480" stroke="#E3DCCF" stroke-width="1"/>
+
+    <text x="648" y="508" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#1A2B2A">2030~2032년</text>
+    <text x="1122" y="508" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#C2873B" text-anchor="end">64세</text>
+    <line x1="648" y1="530" x2="1122" y2="530" stroke="#E3DCCF" stroke-width="1"/>
+
+    <text x="648" y="558" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" fill="#1A2B2A">2033년 이후</text>
+    <text x="1122" y="558" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#C2873B" text-anchor="end">65세</text>
+
+    <text x="648" y="594" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">사학·군인·별정우체국연금은 규정이 달라요</text>
+  </g>
+
+  <!-- 단서 설명 -->
+  <g>
+    <rect x="50" y="642" width="1100" height="176" rx="16" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+    <text x="78" y="690" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#0A5F58">직역 쪽 수급연령이 더 높으면 두 급여의 시작 시점이 갈려요</text>
+    <text x="78" y="730" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" fill="#1A2B2A">연계노령연금은 출생연도별 연령이 되는 달의 다음 달부터 먼저 시작되고,</text>
+    <text x="78" y="762" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" fill="#1A2B2A">연계퇴직연금은 직역연금 수급연령에 이른 날이 속하는 다음 달부터 따로 시작돼요.</text>
+    <text x="78" y="798" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#B5462F">부칙 제3조 단서. 왼쪽은 출생연도, 오른쪽은 퇴직연도 기준이라 둘을 함께 대조해야 해요.</text>
+  </g>
+
+  <text x="50" y="856" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#8A938F">적용 조건: 연계기간 10년 이상 (군인연금 복무기간을 포함해 계산하면 20년 이상)</text>
+  <text x="50" y="882" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#8A938F">출처: 국민연금과 직역연금의 연계에 관한 법률 부칙 제3조 · 공무원연금법 부칙 제11조 (국가법령정보센터)</text>
+</svg>
