@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <text x="60" y="64" font-size="40" font-weight="700" fill="#1A2B2A">상장주식 대주주 판정 요건과 기준일</text>
+  <text x="60" y="104" font-size="22" fill="#4A5856">소득세법 시행령 제157조 [시행 2026.10.1.] 기준, 비상장 기준선은 같은 영 제167조의8</text>
+  <line x1="60" y1="126" x2="1140" y2="126" stroke="#E3DCCF" stroke-width="2"/>
+
+  <text x="78" y="172" font-size="23" font-weight="700" fill="#0A5F58">시장 구분</text>
+  <text x="330" y="172" font-size="23" font-weight="700" fill="#0A5F58">지분율 요건</text>
+  <text x="750" y="172" font-size="23" font-weight="700" fill="#0A5F58">종목당 시가총액 요건</text>
+
+  <!-- 코스피 -->
+  <rect x="60" y="188" width="1080" height="100" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="78" y="206" width="200" height="64" rx="8" fill="#0E7C72"/>
+  <text x="178" y="248" font-size="28" font-weight="700" fill="#FBF7F0" text-anchor="middle">코스피</text>
+  <text x="330" y="234" font-size="28" font-weight="700" fill="#1A2B2A">지분율 1% 이상</text>
+  <text x="330" y="266" font-size="21" fill="#4A5856">본인 기준, 최대주주면 특수관계인 합산</text>
+  <rect x="620" y="214" width="92" height="48" rx="24" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="666" y="246" font-size="23" font-weight="700" fill="#0A5F58" text-anchor="middle">또는</text>
+  <text x="750" y="234" font-size="28" font-weight="700" fill="#1A2B2A">50억원 이상</text>
+  <text x="750" y="266" font-size="21" fill="#4A5856">한 종목(해당 법인) 보유분 기준</text>
+
+  <!-- 코스닥 -->
+  <rect x="60" y="300" width="1080" height="100" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="78" y="318" width="200" height="64" rx="8" fill="#0E7C72"/>
+  <text x="178" y="360" font-size="28" font-weight="700" fill="#FBF7F0" text-anchor="middle">코스닥</text>
+  <text x="330" y="346" font-size="28" font-weight="700" fill="#1A2B2A">지분율 2% 이상</text>
+  <text x="330" y="378" font-size="21" fill="#4A5856">시행령 제157조 제2항 제1호</text>
+  <rect x="620" y="326" width="92" height="48" rx="24" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="666" y="358" font-size="23" font-weight="700" fill="#0A5F58" text-anchor="middle">또는</text>
+  <text x="750" y="346" font-size="28" font-weight="700" fill="#1A2B2A">50억원 이상</text>
+  <text x="750" y="378" font-size="21" fill="#4A5856">지분율에 미달해도 단독으로 성립</text>
+
+  <!-- 코넥스 -->
+  <rect x="60" y="412" width="1080" height="100" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="78" y="430" width="200" height="64" rx="8" fill="#0E7C72"/>
+  <text x="178" y="472" font-size="28" font-weight="700" fill="#FBF7F0" text-anchor="middle">코넥스</text>
+  <text x="330" y="458" font-size="28" font-weight="700" fill="#1A2B2A">지분율 4% 이상</text>
+  <text x="330" y="490" font-size="21" fill="#4A5856">시행령 제157조 제2항 제2호</text>
+  <rect x="620" y="438" width="92" height="48" rx="24" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="666" y="470" font-size="23" font-weight="700" fill="#0A5F58" text-anchor="middle">또는</text>
+  <text x="750" y="458" font-size="28" font-weight="700" fill="#1A2B2A">50억원 이상</text>
+  <text x="750" y="490" font-size="21" fill="#4A5856">세 시장 모두 같은 금액 기준선</text>
+
+  <!-- 비상장 -->
+  <rect x="60" y="524" width="1080" height="100" rx="10" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+  <rect x="78" y="542" width="200" height="64" rx="8" fill="#C2873B"/>
+  <text x="178" y="584" font-size="28" font-weight="700" fill="#FBF7F0" text-anchor="middle">비상장</text>
+  <text x="330" y="570" font-size="28" font-weight="700" fill="#1A2B2A">지분율 4% 이상</text>
+  <text x="330" y="602" font-size="21" fill="#4A5856">대주주가 아니어도 원칙적으로 과세</text>
+  <rect x="620" y="550" width="92" height="48" rx="24" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="666" y="582" font-size="23" font-weight="700" fill="#0A5F58" text-anchor="middle">또는</text>
+  <text x="750" y="570" font-size="28" font-weight="700" fill="#1A2B2A">10억원 이상</text>
+  <text x="750" y="602" font-size="21" fill="#4A5856">벤처기업은 40억원, 세율 적용 기준</text>
+
+  <!-- 기준일 패널 -->
+  <rect x="60" y="652" width="1080" height="228" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="88" y="698" font-size="28" font-weight="700" fill="#0A5F58">판정 기준일: 직전 사업연도 종료일 현재 보유 상태</text>
+  <text x="88" y="740" font-size="23" fill="#1A2B2A">시가는 그 날의 최종시세가액, 그 날 시세가 없으면 직전 거래일 최종시세가액</text>
+  <text x="88" y="778" font-size="23" fill="#1A2B2A">지분율 요건은 기준일에 미달해도 이후 취득으로 닿으면 취득일부터 대주주(제157조 제9항)</text>
+  <text x="88" y="816" font-size="23" fill="#1A2B2A">합산은 본인 기준이 원칙, 최대주주인 경우에만 특수관계인 지분을 더해 판정</text>
+  <text x="88" y="856" font-size="22" fill="#8A938F">정보 기준일 2026년 10월 6일, 개별 보유 현황 판정은 국세상담센터 126 문의</text>
+</svg>
