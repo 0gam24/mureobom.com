@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-label="도산대지급금 6개월 확대 후 연령별 산술 총액 한도와 간이대지급금 총액 상한 비교. 고용노동부 상한액 고시의 임금 월 상한은 30세 미만 220만원, 30세 이상 40세 미만 310만원, 40세 이상 50세 미만 350만원, 50세 이상 60세 미만 330만원, 60세 이상 230만원이고 여기에 6개월을 곱하면 각각 1320만원, 1860만원, 2100만원, 1980만원, 1380만원이 된다. 퇴직급여등은 1년분 상한에 3년을 곱해 660만원, 930만원, 1050만원, 990만원, 690만원이며, 두 항목을 더한 산술 총액 한도는 1980만원, 2790만원, 3150만원, 2970만원, 2070만원이다. 월 상한액 고시는 2021년 10월 14일 시행본이 최신이므로 바뀐 것은 월 상한액이 아니라 적용 개월 수 3개월에서 6개월이다. 간이대지급금은 연령 구분 없이 임금과 휴업수당, 출산전후휴가 급여가 700만원, 퇴직급여등이 700만원, 총 상한이 1000만원이고 임금 범위는 최종 3개월분으로 유지된다. 확대 적용 기준은 퇴직일이 아니라 2026년 8월 20일 이후의 회생절차개시 결정, 파산선고, 도산등사실인정 날짜다.">
+  <rect x="0" y="0" width="960" height="720" fill="#FBF7F0"/>
+
+  <text x="40" y="50" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#1A2B2A">도산대지급금 6개월 확대, 연령별 한도는 이렇게 바뀝니다</text>
+  <text x="40" y="80" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#4A5856">월 상한액은 그대로이고 적용 개월 수가 최종 3개월분에서 최종 6개월분으로 늘었어요 (2026-08-20 시행)</text>
+
+  <text x="40" y="115" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">도산대지급금 · 연령별 월 상한에 개월 수를 곱한 산술 한도</text>
+  <text x="920" y="115" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">단위: 만원</text>
+
+  <rect x="40" y="126" width="880" height="36" rx="8" fill="#F4EEE2"/>
+  <text x="56" y="150" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#4A5856">연령</text>
+  <text x="325" y="150" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#4A5856">임금 월 상한</text>
+  <text x="480" y="150" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#4A5856">임금 6개월분</text>
+  <text x="650" y="150" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#4A5856">퇴직급여등 3년분</text>
+  <text x="830" y="150" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0A5F58">산술 총액 한도</text>
+
+  <text x="56" y="191" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">30세 미만</text>
+  <text x="325" y="191" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">220</text>
+  <text x="480" y="191" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">1,320</text>
+  <text x="650" y="191" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">660</text>
+  <text x="830" y="191" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">1,980</text>
+  <line x1="40" y1="208" x2="920" y2="208" stroke="#E3DCCF" stroke-width="1"/>
+
+  <text x="56" y="237" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">30세 이상 40세 미만</text>
+  <text x="325" y="237" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">310</text>
+  <text x="480" y="237" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">1,860</text>
+  <text x="650" y="237" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">930</text>
+  <text x="830" y="237" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">2,790</text>
+  <line x1="40" y1="254" x2="920" y2="254" stroke="#E3DCCF" stroke-width="1"/>
+
+  <rect x="40" y="254" width="880" height="46" fill="#E3F0EE"/>
+  <rect x="40" y="254" width="6" height="46" fill="#0E7C72"/>
+  <text x="56" y="283" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">40세 이상 50세 미만</text>
+  <text x="325" y="283" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">350</text>
+  <text x="480" y="283" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">2,100</text>
+  <text x="650" y="283" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">1,050</text>
+  <text x="830" y="283" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">3,150</text>
+  <line x1="40" y1="300" x2="920" y2="300" stroke="#E3DCCF" stroke-width="1"/>
+
+  <text x="56" y="329" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">50세 이상 60세 미만</text>
+  <text x="325" y="329" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">330</text>
+  <text x="480" y="329" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">1,980</text>
+  <text x="650" y="329" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">990</text>
+  <text x="830" y="329" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">2,970</text>
+  <line x1="40" y1="346" x2="920" y2="346" stroke="#E3DCCF" stroke-width="1"/>
+
+  <text x="56" y="375" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">60세 이상</text>
+  <text x="325" y="375" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">230</text>
+  <text x="480" y="375" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">1,380</text>
+  <text x="650" y="375" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">690</text>
+  <text x="830" y="375" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">2,070</text>
+  <line x1="40" y1="392" x2="920" y2="392" stroke="#E3DCCF" stroke-width="1"/>
+
+  <text x="40" y="420" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">임금 상한은 1월분, 퇴직급여등 상한은 1년분 기준이에요. 표의 금액은 상한을 곱한 산술 한도이고 실제 지급액은 미지급액과 상한 중 낮은 쪽입니다.</text>
+
+  <text x="40" y="458" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">간이대지급금 · 연령 구분 없는 총액 상한 (임금 범위 최종 3개월분 유지)</text>
+
+  <rect x="40" y="472" width="880" height="118" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <rect x="60" y="490" width="266" height="82" rx="8" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="193" y="516" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">임금 · 휴업수당 · 출산전후휴가 급여</text>
+  <text x="193" y="546" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#1A2B2A">700만원</text>
+  <text x="193" y="565" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">재직자도 청구 가능</text>
+
+  <rect x="347" y="490" width="266" height="82" rx="8" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="480" y="516" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#4A5856">퇴직급여등</text>
+  <text x="480" y="546" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#1A2B2A">700만원</text>
+  <text x="480" y="565" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">퇴직 근로자만 적용</text>
+
+  <rect x="634" y="490" width="266" height="82" rx="8" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <text x="767" y="516" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" fill="#0A5F58">두 항목을 합한 총 상한</text>
+  <text x="767" y="546" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#0A5F58">1,000만원</text>
+  <text x="767" y="565" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">연령과 무관하게 고정</text>
+
+  <rect x="40" y="608" width="880" height="54" rx="8" fill="#FBF7F0" stroke="#C2873B" stroke-width="1.2"/>
+  <rect x="40" y="608" width="6" height="54" fill="#C2873B"/>
+  <text x="64" y="632" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#B5462F">확대 적용 기준은 퇴직일이 아니에요</text>
+  <text x="64" y="652" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#1A2B2A">2026년 8월 20일 이후에 회생절차개시 결정·파산선고 결정·도산등사실인정이 있은 경우부터 6개월분이 적용됩니다.</text>
+
+  <text x="40" y="694" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">고용노동부 체불 임금등 대지급금 상한액 고시(2021-10-14 시행) · 임금채권보장법 제7조 및 부칙 제2조 기준. 정보 기준일 2026년 10월 7일.</text>
+</svg>
