@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="HF 일반전세자금보증과 특례전세자금보증의 한도·보증비율 비교. 최대 보증한도는 일반 무주택 기준 4억원, 특례는 임차권등기 세입자 4억원, 주택연금 가입자 3억원, 무주택 청년 2억원, 전세사기피해자 1억원, 영세자영업자 6천만원, 신용회복지원자 5천만원. 일반 1주택 보유자는 수도권·규제지역 1.8억원으로 줄어든다. 보증비율은 반대로 일반이 대출금액의 90%(수도권·규제지역 80%) 부분보증, 특례 다수 유형이 100%.">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <text x="60" y="72" font-size="40" font-weight="700" fill="#1A2B2A">특례는 한도를 키우는 제도가 아니에요</text>
+    <text x="60" y="112" font-size="23" fill="#4A5856">한국주택금융공사 일반전세자금보증과 특례전세자금보증의 최대 보증한도·보증비율 비교</text>
+    <text x="60" y="144" font-size="19" fill="#8A938F">정보 기준일 2026년 10월 8일 · 출처 한국주택금융공사 일반전세자금보증·특례전세자금보증 상품안내</text>
+    <line x1="60" y1="162" x2="1140" y2="162" stroke="#E3DCCF" stroke-width="2"/>
+
+    <text x="60" y="196" font-size="20" font-weight="600" fill="#8A938F">최대 보증한도 비교 · 짙은 색이 일반, 밝은 색이 특례</text>
+
+    <rect x="410" y="215" width="620" height="36" rx="6" fill="#0A5F58"/>
+    <text x="60" y="241" font-size="21" font-weight="600" fill="#1A2B2A">일반 (무주택 기준 상한)</text>
+    <text x="1140" y="241" font-size="22" font-weight="700" fill="#0A5F58" text-anchor="end">4억원</text>
+
+    <rect x="410" y="267" width="620" height="36" rx="6" fill="#0E7C72"/>
+    <text x="60" y="293" font-size="21" fill="#1A2B2A">특례 · 임차권등기 세입자</text>
+    <text x="1140" y="293" font-size="22" font-weight="700" fill="#0E7C72" text-anchor="end">4억원</text>
+
+    <rect x="410" y="319" width="465" height="36" rx="6" fill="#0E7C72"/>
+    <text x="60" y="345" font-size="21" fill="#1A2B2A">특례 · 주택연금 가입자</text>
+    <text x="1140" y="345" font-size="22" font-weight="700" fill="#0E7C72" text-anchor="end">3억원</text>
+
+    <rect x="410" y="371" width="310" height="36" rx="6" fill="#0E7C72"/>
+    <text x="60" y="397" font-size="21" fill="#1A2B2A">특례 · 무주택 청년</text>
+    <text x="1140" y="397" font-size="22" font-weight="700" fill="#0E7C72" text-anchor="end">2억원</text>
+
+    <rect x="410" y="423" width="279" height="36" rx="6" fill="#C2873B"/>
+    <text x="60" y="449" font-size="21" font-weight="600" fill="#1A2B2A">일반 (1주택·수도권 규제지역)</text>
+    <text x="1140" y="449" font-size="22" font-weight="700" fill="#C2873B" text-anchor="end">1.8억원</text>
+
+    <rect x="410" y="475" width="155" height="36" rx="6" fill="#0E7C72"/>
+    <text x="60" y="501" font-size="21" fill="#1A2B2A">특례 · 전세사기피해자</text>
+    <text x="1140" y="501" font-size="22" font-weight="700" fill="#0E7C72" text-anchor="end">1억원</text>
+
+    <rect x="410" y="527" width="93" height="36" rx="6" fill="#0E7C72"/>
+    <text x="60" y="553" font-size="21" fill="#1A2B2A">특례 · 영세자영업자</text>
+    <text x="1140" y="553" font-size="22" font-weight="700" fill="#0E7C72" text-anchor="end">6천만원</text>
+
+    <rect x="410" y="579" width="78" height="36" rx="6" fill="#0E7C72"/>
+    <text x="60" y="605" font-size="21" fill="#1A2B2A">특례 · 신용회복지원자</text>
+    <text x="1140" y="605" font-size="22" font-weight="700" fill="#0E7C72" text-anchor="end">5천만원</text>
+
+    <text x="60" y="651" font-size="20" fill="#4A5856">특례 16개 유형 가운데 일반 상한과 같은 4억원은 임차권등기 세입자 하나뿐이에요.</text>
+
+    <text x="60" y="687" font-size="20" font-weight="600" fill="#8A938F">보증비율은 방향이 반대예요</text>
+
+    <rect x="60" y="700" width="525" height="152" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="88" y="736" font-size="22" font-weight="600" fill="#0A5F58">일반전세자금보증</text>
+    <text x="88" y="782" font-size="32" font-weight="700" fill="#1A2B2A">대출금액의 90%</text>
+    <text x="88" y="820" font-size="20" fill="#4A5856">수도권·규제지역은 80% 부분보증</text>
+
+    <rect x="615" y="700" width="525" height="152" rx="16" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+    <text x="643" y="736" font-size="22" font-weight="600" fill="#0E7C72">특례전세자금보증 (다수 유형)</text>
+    <text x="643" y="782" font-size="32" font-weight="700" fill="#1A2B2A">대출금액의 100%</text>
+    <text x="643" y="820" font-size="20" fill="#4A5856">일부 유형은 공사 안내에 미표기</text>
+
+    <text x="60" y="880" font-size="19" fill="#8A938F">4억원은 상한선이며, 실제 한도는 보증과목별·소요자금별·상환능력별 산출액 중 가장 적은 금액으로 정해져요.</text>
+  </g>
+</svg>
