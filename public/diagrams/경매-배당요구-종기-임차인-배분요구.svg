@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 810" width="1120" height="810" role="img" aria-label="법원 경매의 배당요구 종기와 세무서 공매의 배분요구 종기 비교">
+  <rect x="0" y="0" width="1120" height="810" fill="#FBF7F0"/>
+
+  <text x="48" y="64" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="36" font-weight="700" fill="#1A2B2A">배당요구 종기는 경매와 공매가 다릅니다</text>
+  <text x="48" y="100" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">2026년 10월 기준 · 민사집행법 · 민사집행규칙 · 국세징수법 조문 대조</text>
+
+  <!-- 좌: 법원 경매 -->
+  <rect x="48" y="132" width="500" height="540" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="48" y="132" width="500" height="58" rx="14" fill="#0E7C72"/>
+  <rect x="48" y="176" width="500" height="14" fill="#0E7C72"/>
+  <text x="72" y="171" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#FBF7F0">법원 경매 (배당요구)</text>
+
+  <text x="76" y="218" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">① 종기를 공고하는 곳</text>
+  <text x="76" y="246" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#1A2B2A">집행법원</text>
+  <text x="76" y="270" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">경매개시결정 취지와 종기를 공고 (제84조 제2항)</text>
+
+  <text x="76" y="302" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">② 종기를 정하는 기한</text>
+  <text x="76" y="330" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#1A2B2A">압류 효력 발생부터 1주 이내</text>
+  <text x="76" y="354" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">결정과 공고를 모두 그 안에 (제84조 제3항)</text>
+
+  <text x="76" y="386" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">③ 종기 마감 기준</text>
+  <text x="76" y="414" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#0A5F58">첫 매각기일 이전</text>
+  <text x="76" y="438" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">(제84조 제1항)</text>
+
+  <text x="76" y="470" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">④ 제출처와 형식</text>
+  <text x="76" y="498" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#1A2B2A">집행법원에 서면으로</text>
+  <text x="76" y="522" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">채권의 원인·액수를 적은 서면에</text>
+  <text x="76" y="544" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">자격 소명 서면 첨부 (민사집행규칙 제48조)</text>
+
+  <text x="76" y="580" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">⑤ 종기를 놓쳤을 때</text>
+  <text x="76" y="608" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#B5462F">배당받을 채권자에서 제외</text>
+  <text x="76" y="632" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">(제148조 제2호)</text>
+
+  <!-- 우: 세무서 공매 -->
+  <rect x="572" y="132" width="500" height="540" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="572" y="132" width="500" height="58" rx="14" fill="#C2873B"/>
+  <rect x="572" y="176" width="500" height="14" fill="#C2873B"/>
+  <text x="596" y="171" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="26" font-weight="700" fill="#FBF7F0">세무서 공매 (배분요구)</text>
+
+  <text x="600" y="218" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">① 종기를 공고하는 곳</text>
+  <text x="600" y="246" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#1A2B2A">관할 세무서장</text>
+  <text x="600" y="270" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">공매공고에 종기를 적는다 (제72조 제1항)</text>
+
+  <text x="600" y="302" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">② 종기를 정하는 기한</text>
+  <text x="600" y="330" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#1A2B2A">공매공고 때 함께 정함</text>
+  <text x="600" y="354" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">종기까지 요구해야 받는 채권도 공고 (제1항 제7·8호)</text>
+
+  <text x="600" y="386" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">③ 종기 마감 기준</text>
+  <text x="600" y="414" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#0A5F58">최초 입찰서 제출 시작일 이전</text>
+  <text x="600" y="438" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">(제72조 제4항)</text>
+
+  <text x="600" y="470" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">④ 제출처와 대상 채권</text>
+  <text x="600" y="498" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#1A2B2A">관할 세무서장에게</text>
+  <text x="600" y="522" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">우선변제권 있는 임차보증금 반환채권도</text>
+  <text x="600" y="544" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">배분요구 대상 (제76조 제1항 제4호)</text>
+
+  <text x="600" y="580" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">⑤ 종기를 놓쳤을 때</text>
+  <text x="600" y="608" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#B5462F">배분요구한 채권에만 배분</text>
+  <text x="600" y="632" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">(제96조 제1항 단서)</text>
+
+  <!-- 하단 강조 -->
+  <rect x="48" y="692" width="1024" height="104" rx="14" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="76" y="726" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#0A5F58">법원이 신고하라고 최고하는 상대는 등기된 권리자입니다</text>
+  <text x="76" y="754" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">채권신고 최고 대상은 제148조 제3·4호(등기된 가압류·저당권·전세권 등)와 조세·공과금 주관 기관 (제84조 제4항).</text>
+  <text x="76" y="780" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#B5462F">등기 없는 확정일자 임차인은 제148조 제2호여서 최고 대상이 아니고, 공고에서 종기를 직접 찾아야 합니다.</text>
+</svg>
