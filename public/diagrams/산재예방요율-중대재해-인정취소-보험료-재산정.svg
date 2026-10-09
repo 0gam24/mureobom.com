@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="재해예방활동 인정 취소 사유 3가지와 사유별 산재보험료 처리 결과 비교">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <text x="48" y="66" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="40" font-weight="700" fill="#1A2B2A">재해예방활동 인정 취소, 사유마다 결과가 다릅니다</text>
+  <text x="48" y="108" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" fill="#4A5856">2026년 10월 10일 기준 · 고용산재보험료징수법 제15조 제8항·제9항·제10항 대조</text>
+
+  <!-- 제1호 -->
+  <rect x="48" y="150" width="352" height="490" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="48" y="150" width="352" height="64" rx="14" fill="#0A5F58"/>
+  <rect x="48" y="200" width="352" height="14" fill="#0A5F58"/>
+  <text x="72" y="192" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#FBF7F0">제1호 거짓·부정 인정</text>
+
+  <text x="72" y="250" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">취소 사유</text>
+  <text x="72" y="282" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">거짓이나 그 밖의</text>
+  <text x="72" y="308" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">부정한 방법으로</text>
+  <text x="72" y="334" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">인정을 받은 경우</text>
+
+  <line x1="72" y1="378" x2="376" y2="378" stroke="#E3DCCF" stroke-width="2"/>
+
+  <text x="72" y="412" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">보험료 처리</text>
+  <text x="72" y="446" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#B5462F">할인받은 기간 보험료</text>
+  <text x="72" y="476" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#B5462F">소급 재산정·부과</text>
+  <text x="72" y="510" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">징수법 제15조 제9항</text>
+
+  <text x="72" y="552" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">개정 전과 비교</text>
+  <text x="72" y="582" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">종전에도 재산정</text>
+  <text x="72" y="608" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">대상이었습니다</text>
+
+  <!-- 제2호 -->
+  <rect x="424" y="150" width="352" height="490" rx="14" fill="#F4EEE2" stroke="#B5462F" stroke-width="3"/>
+  <rect x="424" y="150" width="352" height="64" rx="14" fill="#B5462F"/>
+  <rect x="424" y="200" width="352" height="14" fill="#B5462F"/>
+  <text x="448" y="192" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#FBF7F0">제2호 중대재해 발생</text>
+
+  <text x="448" y="250" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">취소 사유</text>
+  <text x="448" y="282" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">인정기간 중 산업안전</text>
+  <text x="448" y="308" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">보건법 제2조 제2호의</text>
+  <text x="448" y="334" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">중대재해가 발생</text>
+
+  <line x1="448" y1="378" x2="752" y2="378" stroke="#E3DCCF" stroke-width="2"/>
+
+  <text x="448" y="412" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">보험료 처리</text>
+  <text x="448" y="446" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#B5462F">할인받은 기간 보험료</text>
+  <text x="448" y="476" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#B5462F">소급 재산정·부과</text>
+  <text x="448" y="510" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">징수법 제15조 제9항</text>
+
+  <text x="448" y="552" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">2026년 10월 8일 신설</text>
+  <text x="448" y="582" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">종전에는 재산정</text>
+  <text x="448" y="608" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">대상이 아니었습니다</text>
+
+  <!-- 제3호 -->
+  <rect x="800" y="150" width="352" height="490" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="800" y="150" width="352" height="64" rx="14" fill="#C2873B"/>
+  <rect x="800" y="200" width="352" height="14" fill="#C2873B"/>
+  <text x="824" y="192" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#FBF7F0">제3호 그 밖의 사유</text>
+
+  <text x="824" y="250" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">취소 사유</text>
+  <text x="824" y="282" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">산업재해 발생건수 등이</text>
+  <text x="824" y="308" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">공표된 사업장, 또는</text>
+  <text x="824" y="334" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">위험성평가 조치가</text>
+  <text x="824" y="360" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">고시 기준 미충족</text>
+
+  <line x1="824" y1="378" x2="1128" y2="378" stroke="#E3DCCF" stroke-width="2"/>
+
+  <text x="824" y="412" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">보험료 처리</text>
+  <text x="824" y="446" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#0A5F58">소급 재산정 아님</text>
+  <text x="824" y="476" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#0A5F58">인정기간비율로 다음</text>
+  <text x="824" y="502" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#0A5F58">보험연도 요율 산정</text>
+  <text x="824" y="534" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">징수법 제15조 제10항</text>
+
+  <text x="824" y="574" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">결과의 성격</text>
+  <text x="824" y="604" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">이미 받은 할인을</text>
+  <text x="824" y="628" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">되돌리지는 않습니다</text>
+
+  <!-- 하단 강조 -->
+  <rect x="48" y="672" width="1104" height="180" rx="14" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="76" y="714" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#0A5F58">부칙이 그은 선은 2026년 10월 8일입니다</text>
+  <text x="76" y="750" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">제15조 제9항 개정규정은 시행 이후 인정기간 중 중대재해가 발생한 경우부터 적용 (법률 제21532호 부칙 제2조).</text>
+  <text x="76" y="788" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">중대재해라도 출퇴근·행사 중·요양 중·제3자 행위·특수장소 사고는 취소 대상에서 제외 (시행령 제18조의5 제1항).</text>
+  <text x="76" y="822" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">방화·폭행, 도로 교통사고, 천재지변, 진폐증, 야유회·휴식 중 사고도 제외 (산재예방요율제 운영에 관한 규정 제11조 제2항).</text>
+</svg>
