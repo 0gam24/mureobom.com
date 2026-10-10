@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 810" width="1120" height="810" role="img" aria-label="개인정보 유출 통보를 받은 뒤 신청할 창구는 두 갈래다. 금융감독원의 개인정보노출자 사고예방시스템은 파인 또는 pd.fss.or.kr 온라인이나 거래은행 영업점에 등록하고, 1차 출처는 효과를 신규 계좌개설·신용카드 발급·휴대전화 단말기 할부구입시 보증보험 가입·오픈뱅킹 등의 제한으로 적으며, 해제는 온라인으로 가능하되 등록 당시 휴대전화 번호가 바뀌면 시중은행을 방문한다. 안심차단 3종은 거래 금융회사 영업점과 은행앱에 신청하고, 비대면 계좌개설과 오픈뱅킹은 금융결제원 어카운트인포로도 신청할 수 있으며, 효과는 차단이고 해제는 자료가 영업점 방문으로 안내한다. 여신거래는 2024년 8월 23일, 비대면 계좌개설은 2025년 3월 12일, 오픈뱅킹은 2025년 11월 14일 시행이다. 노출자 등록·해제 정보는 최소 30초에서 최대 1시간마다 전파되고 전파 목록에 없는 금융회사에는 전파되지 않는다.">
+  <rect x="0" y="0" width="1120" height="810" fill="#FBF7F0"/>
+
+  <text x="48" y="58" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="34" font-weight="700" fill="#1A2B2A">유출 통보를 받았다면 신청처가 두 갈래로 갈려요</text>
+  <text x="48" y="92" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#4A5856">금융위원회 2026.10.06 보도자료와 금융감독원 운영 안내 기준 · 2026년 10월 11일 정리</text>
+
+  <rect x="40" y="120" width="516" height="520" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="64" y="158" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#0A5F58">1. 금융감독원</text>
+  <text x="64" y="192" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">개인정보노출자 사고예방시스템</text>
+  <text x="64" y="222" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">명의도용 금융거래사고 예방 목적으로 운영</text>
+
+  <rect x="60" y="240" width="476" height="96" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="84" y="268" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">신청</text>
+  <text x="84" y="294" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">파인(fine.fss.or.kr) 경유 또는 pd.fss.or.kr</text>
+  <text x="84" y="318" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">온라인 등록, 거래은행 영업점 등록 요청</text>
+
+  <rect x="60" y="352" width="476" height="132" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="84" y="380" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#0A5F58">1차 출처가 적은 효과</text>
+  <text x="84" y="412" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#0A5F58">제한</text>
+  <text x="84" y="440" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">신규 계좌개설, 신용카드 발급, 휴대전화</text>
+  <text x="84" y="463" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">단말기 할부구입시 보증보험 가입, 오픈뱅킹 등</text>
+
+  <rect x="60" y="500" width="476" height="110" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="84" y="528" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">해제</text>
+  <text x="84" y="554" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">온라인 해제 가능. 등록 당시 휴대전화 번호가</text>
+  <text x="84" y="577" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">바뀌었으면 시중은행 방문</text>
+
+  <rect x="576" y="120" width="504" height="520" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="600" y="158" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#0A5F58">2. 거래 금융회사 · 금융결제원</text>
+  <text x="600" y="192" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">안심차단 3종</text>
+
+  <rect x="596" y="208" width="464" height="58" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="620" y="232" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">여신거래 안심차단</text>
+  <text x="1040" y="232" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">2024.08.23 시행</text>
+  <text x="620" y="254" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">신용대출, 카드론, 할부금융 등 신규 여신거래</text>
+
+  <rect x="596" y="274" width="464" height="58" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="620" y="298" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">비대면 계좌개설 안심차단</text>
+  <text x="1040" y="298" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">2025.03.12 시행</text>
+  <text x="620" y="320" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">수시입출식 계좌의 비대면 신규 개설</text>
+
+  <rect x="596" y="340" width="464" height="58" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="620" y="364" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">오픈뱅킹 안심차단</text>
+  <text x="1040" y="364" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#8A938F">2025.11.14 시행</text>
+  <text x="620" y="386" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">오픈뱅킹 등록과 이체·조회</text>
+
+  <rect x="596" y="414" width="464" height="66" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="620" y="440" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#0A5F58">1차 출처가 적은 효과</text>
+  <text x="620" y="468" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#0A5F58">차단</text>
+
+  <rect x="596" y="496" width="464" height="60" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="620" y="520" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">신청</text>
+  <text x="620" y="544" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">영업점 방문, 은행앱 (여신거래 기준)</text>
+  <text x="620" y="562" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">비대면 계좌개설·오픈뱅킹은 금융결제원 어카운트인포도 가능</text>
+
+  <rect x="596" y="566" width="464" height="60" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="620" y="590" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">해제</text>
+  <text x="620" y="614" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#B5462F">자료는 영업점 방문으로 안내</text>
+
+  <rect x="40" y="660" width="1040" height="104" rx="14" fill="#F4EEE2" stroke="#B5462F" stroke-width="1.5"/>
+  <text x="64" y="694" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#B5462F">등록했다고 곧바로 전부 반영되는 구조가 아니에요</text>
+  <text x="64" y="722" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">노출자 등록·해제 정보는 금감원 운영 안내 기준 최소 30초에서 최대 1시간에 한 번씩 금융기관에 전파되고,</text>
+  <text x="64" y="746" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">전파 목록에 없는 금융회사에는 전파되지 않아요. 안심차단은 가입 즉시 한국신용정보원에 차단 정보가 등록돼요.</text>
+
+  <text x="48" y="792" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">출처: 금융위원회 보도자료(2024.08.23 · 2025.03.12 · 2025.11.14 · 2026.10.06), 금융감독원 개인정보노출자 사고예방시스템 이용 유의사항</text>
+</svg>
