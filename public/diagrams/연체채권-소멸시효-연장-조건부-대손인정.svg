@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" role="img" aria-label="상각 연체채권 소멸시효 관행의 전후 비교. 종전은 시효의 원칙적 연장과 예외적 완성으로, 상각해 법인세법상 비용처리를 받고도 추심과 시효 연장이 계속되는 구조. 조건부 대손인정 이후는 시효의 원칙적 완성과 예외적 연장으로, 최초 소멸시효 완성 예정일에 시효를 완성하는 조건으로만 대손인정. 대상 금액 기준은 은행과 보험 5천만원 이하, 저축은행과 상호금융과 여신전문금융회사 3천만원 이하이며 담보채권과 기준 초과분은 대상이 아니고 계좌수 기준 전체의 90% 이상이 포함. 예외는 은닉재산 발견, 파산과 회생 등 법상 시효중단, 신용회복위원회나 자체 채무조정 이행 중" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="960" height="680" fill="#FBF7F0"/>
+
+  <text x="44" y="50" font-size="27" font-weight="700" fill="#1A2B2A">상각 연체채권 소멸시효, 무엇이 뒤집혔나</text>
+  <text x="44" y="78" font-size="13.5" fill="#4A5856">금융위원회 2026.2.26.·2026.6.10. 보도자료, 금융감독원 2026.10.12. 보도자료 기준. 정보 기준일 2026년 10월 12일</text>
+
+  <text x="44" y="112" font-size="16" font-weight="700" fill="#1A2B2A">1. 시효 연장의 유인이 어디서 끊기나</text>
+
+  <g>
+    <rect x="44" y="122" width="420" height="152" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="44" y="122" width="420" height="30" rx="10" fill="#B5462F"/>
+    <text x="254" y="143" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">종전 관행 (2026.2.26. 진단)</text>
+    <text x="64" y="182" font-size="15.5" font-weight="700" fill="#1A2B2A">시효의 원칙적 연장, 예외적 완성</text>
+    <text x="64" y="210" font-size="13.5" fill="#4A5856">상각으로 법인세법상 비용처리는 받고</text>
+    <text x="64" y="232" font-size="13.5" fill="#4A5856">추심과 시효 연장은 그대로 이어지는 구조</text>
+    <text x="64" y="258" font-size="13" fill="#B5462F">연체 5년이 지나도 연장이 반복될 수 있었음</text>
+  </g>
+
+  <polygon points="474,190 494,198 474,206" fill="#8A938F"/>
+
+  <g>
+    <rect x="496" y="122" width="420" height="152" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="496" y="122" width="420" height="30" rx="10" fill="#0E7C72"/>
+    <text x="706" y="143" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">조건부 대손인정 (2026.10.12. 시행 알림)</text>
+    <text x="516" y="182" font-size="15.5" font-weight="700" fill="#0A5F58">시효의 원칙적 완성, 예외적 연장</text>
+    <text x="516" y="210" font-size="13.5" fill="#4A5856">최초 소멸시효 완성 예정일에</text>
+    <text x="516" y="232" font-size="13.5" fill="#4A5856">시효를 완성하는 조건으로만 대손 인정</text>
+    <text x="516" y="258" font-size="13" fill="#0A5F58">대상은 상각한 개인 무담보 연체채권</text>
+  </g>
+
+  <text x="44" y="306" font-size="16" font-weight="700" fill="#1A2B2A">2. 내 채권이 대상인지는 금액 기준에서 갈린다</text>
+
+  <g>
+    <rect x="44" y="316" width="282" height="116" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="44" y="316" width="282" height="28" rx="10" fill="#0E7C72"/>
+    <text x="185" y="335" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">은행 · 보험</text>
+    <text x="62" y="378" font-size="20" font-weight="700" fill="#0A5F58">5천만원 이하</text>
+    <text x="62" y="406" font-size="12.5" fill="#8A938F">상각한 개인 무담보 채권 기준</text>
+  </g>
+
+  <g>
+    <rect x="339" y="316" width="282" height="116" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="339" y="316" width="282" height="28" rx="10" fill="#0E7C72"/>
+    <text x="480" y="335" font-size="13" font-weight="700" fill="#FBF7F0" text-anchor="middle">저축은행 · 상호금융 · 여신전문금융</text>
+    <text x="357" y="378" font-size="20" font-weight="700" fill="#0A5F58">3천만원 이하</text>
+    <text x="357" y="406" font-size="12.5" fill="#8A938F">업권에 따라 기준이 다르다</text>
+  </g>
+
+  <g>
+    <rect x="634" y="316" width="282" height="116" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="634" y="316" width="282" height="28" rx="10" fill="#B5462F"/>
+    <text x="775" y="335" font-size="14" font-weight="700" fill="#FBF7F0" text-anchor="middle">대상에서 빠지는 것</text>
+    <text x="652" y="368" font-size="13.5" fill="#1A2B2A">담보가 설정된 채권</text>
+    <text x="652" y="390" font-size="13.5" fill="#1A2B2A">금액 기준을 넘는 부분</text>
+    <text x="652" y="412" font-size="12.5" fill="#8A938F">법인 명의 채권은 범위 밖으로 해석</text>
+  </g>
+
+  <rect x="44" y="442" width="872" height="48" rx="10" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="66" y="464" font-size="14" font-weight="700" fill="#0A5F58">두 금액 기준 안에 들어오는 채권이 계좌수 기준으로 전체의 90% 이상</text>
+  <text x="66" y="483" font-size="13" fill="#4A5856">운영 경과를 보아 기준을 점진적으로 올리는 방안은 검토 단계로만 발표됐다</text>
+
+  <text x="44" y="520" font-size="16" font-weight="700" fill="#1A2B2A">3. 그래도 연장이 허용되는 예외 세 가지</text>
+
+  <g>
+    <rect x="44" y="530" width="282" height="88" rx="10" fill="#F4EEE2" stroke="#C2873B"/>
+    <text x="62" y="556" font-size="14" font-weight="700" fill="#1A2B2A">은닉재산 발견</text>
+    <text x="62" y="580" font-size="12.5" fill="#4A5856">금융회사에 귀책사유가 없는</text>
+    <text x="62" y="600" font-size="12.5" fill="#4A5856">불가피한 사유로 설명됨</text>
+  </g>
+
+  <g>
+    <rect x="339" y="530" width="282" height="88" rx="10" fill="#F4EEE2" stroke="#C2873B"/>
+    <text x="357" y="556" font-size="14" font-weight="700" fill="#1A2B2A">법상 시효중단</text>
+    <text x="357" y="580" font-size="12.5" fill="#4A5856">파산 · 회생 등 절차로 인한 중단</text>
+    <text x="357" y="600" font-size="12.5" fill="#4A5856">(채무자회생법 제32조)</text>
+  </g>
+
+  <g>
+    <rect x="634" y="530" width="282" height="88" rx="10" fill="#F4EEE2" stroke="#C2873B"/>
+    <text x="652" y="556" font-size="14" font-weight="700" fill="#1A2B2A">채무조정 이행 중</text>
+    <text x="652" y="580" font-size="12.5" fill="#4A5856">신용회복위원회 또는 금융사</text>
+    <text x="652" y="600" font-size="12.5" fill="#4A5856">자체 채무조정을 이행하는 동안</text>
+  </g>
+
+  <rect x="44" y="628" width="872" height="30" rx="8" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="66" y="648" font-size="13" fill="#1A2B2A">채권을 팔 때도 매각계약서에 소멸시효 완성 예정일과 시효 완성 의무를 적고, 양수인의 이행 여부를 점검 · 보고하도록 했다</text>
+
+  <text x="44" y="674" font-size="11.5" fill="#8A938F">출처: 금융위원회 보도자료(2026.2.26.·2026.6.10.), 금융감독원 보도자료(2026.10.12.). 물어봄 정리.</text>
+</svg>
