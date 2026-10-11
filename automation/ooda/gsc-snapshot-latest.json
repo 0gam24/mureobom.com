@@ -1,15 +1,15 @@
 {
   "site": "https://mureobom.com/\n",
   "period": {
-    "start": "2026-09-06",
-    "end": "2026-10-03",
+    "start": "2026-09-13",
+    "end": "2026-10-10",
     "days": 28
   },
   "total": {
     "clicks": 0,
-    "impressions": 67,
+    "impressions": 52,
     "ctr": 0,
-    "position": 9.253731343283581
+    "position": 9.942307692307692
   },
   "top_queries": [
     {
@@ -37,16 +37,16 @@
         "https://mureobom.com/"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 16.5
+      "position": 11.333333333333334
     },
     {
       "keys": [
         "https://mureobom.com/about/"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
       "position": 5
     },
@@ -57,29 +57,20 @@
       "clicks": 0,
       "impressions": 3,
       "ctr": 0,
-      "position": 6.666666666666667
+      "position": 5.333333333333333
     },
     {
       "keys": [
         "https://mureobom.com/insurance/%EA%B1%B4%EA%B0%95%EA%B2%80%EC%A7%84-%EB%AC%B4%EB%A3%8C-%EB%8C%80%EC%83%81-%ED%95%AD%EB%AA%A9/"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 9
+      "position": 10
     },
     {
       "keys": [
-        "https://mureobom.com/insurance/%EC%9D%98%EB%A3%8C%EA%B8%89%EC%97%AC%EC%A0%9C%EB%8F%84-1%EC%A2%85-2%EC%A2%85/"
-      ],
-      "clicks": 0,
-      "impressions": 8,
-      "ctr": 0,
-      "position": 2
-    },
-    {
-      "keys": [
-        "https://mureobom.com/insurance/4%EB%8C%80%EB%B3%B4%ED%97%98-%EA%B0%80%EC%9E%85%EC%A1%B0%EA%B1%B4-%EC%9A%94%EC%9C%A8/"
+        "https://mureobom.com/insurance/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98-%ED%94%BC%EB%B6%80%EC%96%91%EC%9E%90-%EC%9E%90%EA%B2%A9/"
       ],
       "clicks": 0,
       "impressions": 1,
@@ -88,30 +79,30 @@
     },
     {
       "keys": [
-        "https://mureobom.com/loan/"
+        "https://mureobom.com/insurance/%EC%9D%98%EB%A3%8C%EA%B8%89%EC%97%AC%EC%A0%9C%EB%8F%84-1%EC%A2%85-2%EC%A2%85/"
       ],
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 5,
       "ctr": 0,
-      "position": 6.7272727272727275
+      "position": 2
     },
     {
       "keys": [
-        "https://mureobom.com/loan/%EA%B0%9C%EC%9D%B8%EC%8B%A0%EC%9A%A9%ED%8F%89%EC%A0%90-nice-kcb-%EC%B0%A8%EC%9D%B4-%EC%A1%B0%ED%9A%8C/"
+        "https://mureobom.com/loan/"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 8,
       "ctr": 0,
-      "position": 5
+      "position": 6.75
     },
     {
       "keys": [
         "https://mureobom.com/loan/%EA%B3%84%EC%A2%8C-%EB%AA%85%EC%9D%98%EB%8C%80%EC%97%AC-%EC%B2%98%EB%B2%8C-%EB%8C%80%ED%8F%AC%ED%86%B5%EC%9E%A5/"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 3.6666666666666665
+      "position": 4
     },
     {
       "keys": [
@@ -138,7 +129,7 @@
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
-      "position": 5
+      "position": 3
     },
     {
       "keys": [
@@ -151,28 +142,19 @@
     },
     {
       "keys": [
-        "https://mureobom.com/loan/%EC%A0%84%EC%84%B8%EC%9E%90%EA%B8%88%EB%8C%80%EC%B6%9C-%EC%A1%B0%EA%B1%B4-%ED%95%9C%EB%8F%84/"
-      ],
-      "clicks": 0,
-      "impressions": 4,
-      "ctr": 0,
-      "position": 7
-    },
-    {
-      "keys": [
         "https://mureobom.com/loan/dsr-%EA%B3%84%EC%82%B0-%EB%B0%A9%EB%B2%95/"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 6.5
+      "position": 2
     },
     {
       "keys": [
         "https://mureobom.com/privacy/"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
       "position": 6
     },
@@ -190,7 +172,7 @@
         "https://mureobom.com/tax/"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
       "position": 4
     },
@@ -199,9 +181,9 @@
         "https://mureobom.com/tax/%EA%B8%B0%ED%83%80%EC%86%8C%EB%93%9D-%EC%84%B8%EA%B8%88/"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 9,
       "ctr": 0,
-      "position": 55.25
+      "position": 27.88888888888889
     },
     {
       "keys": [
@@ -226,7 +208,7 @@
         "https://mureobom.com/tax/%EB%B6%80%EB%8F%99%EC%82%B0-%EC%B7%A8%EB%93%9D%EC%84%B8-%EA%B3%84%EC%82%B0-%EC%84%B8%EC%9C%A8/"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
       "position": 8
     },
@@ -235,9 +217,9 @@
         "https://mureobom.com/tax/%EC%83%9D%EC%95%A0%EC%B5%9C%EC%B4%88-%EC%B7%A8%EB%93%9D%EC%84%B8-%EA%B0%90%EB%A9%B4-%EC%A1%B0%EA%B1%B4-%ED%95%9C%EB%8F%84/"
       ],
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 8,
       "ctr": 0,
-      "position": 6
+      "position": 5.25
     },
     {
       "keys": [
@@ -256,6 +238,15 @@
       "impressions": 2,
       "ctr": 0,
       "position": 9
+    },
+    {
+      "keys": [
+        "https://mureobom.com/tax/%EC%9E%AC%EC%82%B0%EC%84%B8-%EC%B9%B4%EB%93%9C%EB%82%A9%EB%B6%80-%EB%AC%B4%EC%9D%B4%EC%9E%90-%ED%98%9C%ED%83%9D/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
     }
   ],
   "devices": [
@@ -264,21 +255,12 @@
         "DESKTOP"
       ],
       "clicks": 0,
-      "impressions": 67,
+      "impressions": 52,
       "ctr": 0,
-      "position": 9.253731343283581
+      "position": 9.942307692307692
     }
   ],
   "countries": [
-    {
-      "keys": [
-        "are"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 10
-    },
     {
       "keys": [
         "arg"
@@ -308,12 +290,21 @@
     },
     {
       "keys": [
-        "hkg"
+        "ind"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 11
+      "position": 4
+    },
+    {
+      "keys": [
+        "kor"
+      ],
+      "clicks": 0,
+      "impressions": 25,
+      "ctr": 0,
+      "position": 15.4
     }
   ]
 }
