@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860" role="img" aria-label="신혼가구 보금자리론 소득요건 판정 흐름. 부부합산 소득이 적용 기준 이내면 종전처럼 부부 합산 소득으로 심사하고 1인 소득으로는 신청할 수 없다. 합산이 기준을 넘고 한 사람의 연소득이 7,000만원 이하면 기준이 된 그 사람이 차주가 되어 신청하고, 두 사람 모두 7,000만원을 초과하면 소득요건을 통과하지 못한다. 1인 소득 경로에서는 상환능력 심사를 차주 1인의 소득과 부채로 하고, 배우자 소득·부채는 우대금리·실수요자 요건과 부채 확인 목적으로 계속 확인하며, 주택보유수는 부부 보유주택 수를 합산한다.">
+  <rect x="0" y="0" width="1200" height="860" fill="#FBF7F0"/>
+
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <text x="56" y="66" font-size="36" font-weight="700" fill="#1A2B2A">합산 기준을 넘긴 신혼가구만 1인 소득 경로</text>
+    <text x="56" y="100" font-size="20" fill="#4A5856">보금자리론 소득요건 판정 순서와 1인 경로를 택할 때 따라오는 것</text>
+    <text x="56" y="128" font-size="16" fill="#8A938F">정보 기준일 2026년 10월 15일 · 출처 한국주택금융공사 보도자료 첨부 참고1·참고2 질의·응답</text>
+    <line x1="56" y1="146" x2="1144" y2="146" stroke="#E3DCCF" stroke-width="2"/>
+
+    <rect x="56" y="162" width="1088" height="72" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="80" y="194" font-size="22" font-weight="700" fill="#1A2B2A">먼저 부부합산 소득이 적용 기준 이내인지 봐요</text>
+    <text x="80" y="220" font-size="17" fill="#4A5856">신혼가구는 신청일이 혼인신고일로부터 7년 이내이거나 결혼예정일로부터 3개월 이내인 경우예요</text>
+
+    <line x1="600" y1="234" x2="600" y2="256" stroke="#0E7C72" stroke-width="2"/>
+    <polygon points="590,256 610,256 600,268" fill="#0E7C72"/>
+
+    <rect x="56" y="272" width="1088" height="96" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+    <line x1="486" y1="272" x2="486" y2="368" stroke="#E3DCCF" stroke-width="1.5"/>
+    <text x="80" y="312" font-size="20" font-weight="600" fill="#1A2B2A">부부합산 소득이 적용 기준 이내</text>
+    <text x="80" y="340" font-size="15" fill="#8A938F">기준은 가구 유형에 따라 7,000만원에서 1억원</text>
+    <polygon points="492,310 508,320 492,330" fill="#8A938F"/>
+    <text x="520" y="310" font-size="21" font-weight="600" fill="#1A2B2A">종전처럼 부부 합산 소득으로 심사해요</text>
+    <text x="520" y="340" font-size="16" fill="#4A5856">1인 소득으로 신청하는 것은 불가예요</text>
+
+    <rect x="56" y="380" width="1088" height="96" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+    <line x1="486" y1="380" x2="486" y2="476" stroke="#E3DCCF" stroke-width="1.5"/>
+    <text x="80" y="418" font-size="20" font-weight="600" fill="#0A5F58">합산이 기준을 넘고</text>
+    <text x="80" y="448" font-size="20" font-weight="600" fill="#0A5F58">한 사람이 7,000만원 이하</text>
+    <polygon points="492,418 508,428 492,438" fill="#0E7C72"/>
+    <text x="520" y="418" font-size="21" font-weight="700" fill="#0A5F58">기준이 된 사람이 차주가 되어 신청해요</text>
+    <text x="520" y="448" font-size="16" fill="#4A5856">차주와 소득입증자를 다르게 할 수 없어요</text>
+
+    <rect x="56" y="488" width="1088" height="92" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+    <line x1="486" y1="488" x2="486" y2="580" stroke="#E3DCCF" stroke-width="1.5"/>
+    <text x="80" y="524" font-size="20" font-weight="600" fill="#1A2B2A">합산이 기준을 넘고</text>
+    <text x="80" y="554" font-size="20" font-weight="600" fill="#1A2B2A">두 사람 모두 7,000만원 초과</text>
+    <polygon points="492,524 508,534 492,544" fill="#B5462F"/>
+    <text x="520" y="524" font-size="21" font-weight="700" fill="#B5462F">두 길이 모두 막혀요</text>
+    <text x="520" y="554" font-size="16" fill="#4A5856">이번 변경으로도 소득요건을 통과하지 못해요</text>
+
+    <rect x="56" y="606" width="1088" height="190" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="80" y="644" font-size="22" font-weight="700" fill="#0A5F58">1인 소득 경로를 택하면 따라오는 것</text>
+
+    <rect x="76" y="660" width="338" height="116" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+    <text x="96" y="696" font-size="19" font-weight="700" fill="#1A2B2A">상환능력(DTI) 심사</text>
+    <text x="96" y="726" font-size="17" fill="#4A5856">차주 1인의 소득과</text>
+    <text x="96" y="752" font-size="17" fill="#4A5856">부채로 심사해요</text>
+
+    <rect x="426" y="660" width="338" height="116" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+    <text x="446" y="696" font-size="19" font-weight="700" fill="#1A2B2A">배우자 소득·부채</text>
+    <text x="446" y="726" font-size="17" fill="#4A5856">우대금리·실수요자 요건과</text>
+    <text x="446" y="752" font-size="17" fill="#4A5856">부채 확인 목적으로 필수</text>
+
+    <rect x="776" y="660" width="338" height="116" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1.5"/>
+    <text x="796" y="696" font-size="19" font-weight="700" fill="#1A2B2A">주택보유수</text>
+    <text x="796" y="726" font-size="17" fill="#4A5856">1인 경로에서도</text>
+    <text x="796" y="752" font-size="17" fill="#4A5856">부부 합산으로 봐요</text>
+
+    <text x="56" y="832" font-size="16" fill="#8A938F">2026년 10월 19일 신규 대출신청 건부터 적용 · 청년 특례전세보증도 같은 날 적용되지만 세부 운영 방식은 별도 자료</text>
+  </g>
+</svg>
