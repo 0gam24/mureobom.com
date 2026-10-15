@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860" role="img" aria-label="2026년 8월에 부동산을 양도했다고 가정한 양도소득분 개인지방소득세 기한 타임라인과 무신고가산세 감면 구간 도표. 양도일이 속한 달의 말일 8월 31일에서 두 달 뒤인 10월 31일이 국세 법문상 예정신고기한이지만 토요일과 일요일이 이어져 11월 2일 월요일이 실제 국세 기한이 되고, 지방소득세 예정신고기한은 여기에 두 달을 더한 12월 31일 목요일이 되어 국세 신고를 마친 뒤 약 두 달이 비어 있다. 법문이 말하는 해당 신고기한이 어느 날짜인지 명시한 조문은 확인하지 못해 정확한 기한은 관할 지방자치단체에서 확인할 수 있다. 아래는 지방세기본법 제57조 제2항 제2호의 무신고가산세 감면 구간으로, 법정신고기한이 지난 뒤 1개월 이내에 기한 후 신고를 하면 100분의 50, 1개월 초과 3개월 이내는 100분의 30, 3개월 초과 6개월 이내는 100분의 20을 감면하고 6개월을 넘기면 이 호의 감면이 적용되지 않는다. 예정신고를 하지 않았더라도 확정신고기한까지 과세표준 신고를 하면 같은 항 제4호 가목에 따라 무신고가산세의 100분의 50이 감면되고, 감면은 신청할 수 있도록 정해져 있다. 양도차익이 없거나 양도차손이 발생한 경우에도 신고 의무가 남으며, 지방자치단체의 납부서 발송은 할 수 있다고 정한 재량 규정이다.">
+  <rect x="0" y="0" width="1200" height="860" fill="#FBF7F0"/>
+
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <text x="56" y="64" font-size="36" font-weight="700" fill="#1A2B2A">국세 신고와 지방소득세 신고 사이의 두 달</text>
+    <text x="56" y="100" font-size="20" fill="#4A5856">기한을 넘겼을 때 무신고가산세가 얼마나 감면되는지는 신고 시점 구간에 따라 달라져요</text>
+    <text x="56" y="128" font-size="16" fill="#8A938F">정보 기준일 2026년 10월 16일 · 출처 지방세법 제103조의5, 국세기본법 제5조, 지방세기본법 제53조·제57조</text>
+    <line x1="56" y1="146" x2="1144" y2="146" stroke="#E3DCCF" stroke-width="2"/>
+
+    <rect x="56" y="162" width="1088" height="212" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="80" y="198" font-size="22" font-weight="700" fill="#0A5F58">2026년 8월에 부동산을 양도했다고 가정하면</text>
+
+    <line x1="150" y1="284" x2="1070" y2="284" stroke="#E3DCCF" stroke-width="4"/>
+    <line x1="660" y1="284" x2="1020" y2="284" stroke="#0E7C72" stroke-width="8"/>
+    <text x="840" y="248" font-size="19" font-weight="700" fill="#0A5F58">비어 있는 2개월</text>
+
+    <circle cx="180" cy="284" r="9" fill="#4A5856"/>
+    <text x="180" y="266" font-size="19" font-weight="700" fill="#1A2B2A" text-anchor="middle">2026.08.31</text>
+    <text x="180" y="314" font-size="15" fill="#4A5856" text-anchor="middle">양도일이 속한</text>
+    <text x="180" y="336" font-size="15" fill="#4A5856" text-anchor="middle">달의 말일</text>
+
+    <circle cx="480" cy="284" r="9" fill="#4A5856"/>
+    <text x="480" y="266" font-size="19" font-weight="700" fill="#1A2B2A" text-anchor="middle">2026.10.31 토</text>
+    <text x="480" y="314" font-size="15" fill="#4A5856" text-anchor="middle">국세 법문상 기한</text>
+    <text x="480" y="336" font-size="15" fill="#8A938F" text-anchor="middle">말일부터 2개월</text>
+
+    <circle cx="660" cy="284" r="9" fill="#C2873B"/>
+    <text x="660" y="266" font-size="19" font-weight="700" fill="#1A2B2A" text-anchor="middle">2026.11.02 월</text>
+    <text x="660" y="314" font-size="15" fill="#4A5856" text-anchor="middle">토·일요일이 지나</text>
+    <text x="660" y="336" font-size="15" fill="#4A5856" text-anchor="middle">국세 기한 특례 적용</text>
+
+    <circle cx="1020" cy="284" r="11" fill="#0E7C72"/>
+    <text x="1020" y="266" font-size="19" font-weight="700" fill="#0A5F58" text-anchor="middle">2026.12.31 목</text>
+    <text x="1020" y="314" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">지방소득세</text>
+    <text x="1020" y="336" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">예정신고기한</text>
+
+    <text x="80" y="362" font-size="15" fill="#8A938F">법문이 말하는 해당 신고기한이 어느 날짜인지 명시한 조문은 확인하지 못했어요. 정확한 본인 기한은 관할 지방자치단체에서 확인할 수 있어요.</text>
+
+    <rect x="56" y="394" width="1088" height="252" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="80" y="430" font-size="22" font-weight="700" fill="#0A5F58">기한을 넘긴 뒤 언제 신고하느냐에 따라 감면율이 달라져요</text>
+    <text x="80" y="458" font-size="16" fill="#4A5856">지방세기본법 제53조 무신고가산세(100분의 20)에 적용되는 제57조 제2항 제2호 기한 후 신고 감면율</text>
+
+    <rect x="76" y="482" width="256" height="84" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+    <text x="204" y="514" font-size="16" fill="#4A5856" text-anchor="middle">1개월 이내</text>
+    <text x="204" y="546" font-size="22" font-weight="700" fill="#0A5F58" text-anchor="middle">100분의 50 감면</text>
+
+    <rect x="340" y="482" width="256" height="84" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="468" y="514" font-size="16" fill="#4A5856" text-anchor="middle">1개월 초과 3개월 이내</text>
+    <text x="468" y="546" font-size="22" font-weight="700" fill="#1A2B2A" text-anchor="middle">100분의 30</text>
+
+    <rect x="604" y="482" width="256" height="84" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="732" y="514" font-size="16" fill="#4A5856" text-anchor="middle">3개월 초과 6개월 이내</text>
+    <text x="732" y="546" font-size="22" font-weight="700" fill="#1A2B2A" text-anchor="middle">100분의 20</text>
+
+    <rect x="868" y="482" width="256" height="84" rx="10" fill="#FBF7F0" stroke="#B5462F" stroke-width="2"/>
+    <text x="996" y="514" font-size="16" fill="#4A5856" text-anchor="middle">6개월 초과</text>
+    <text x="996" y="546" font-size="22" font-weight="700" fill="#B5462F" text-anchor="middle">이 호의 감면 없음</text>
+
+    <circle cx="86" cy="595" r="6" fill="#C2873B"/>
+    <text x="104" y="601" font-size="17" fill="#0A5F58">예정신고를 하지 않았어도 확정신고기한까지 과세표준 신고를 하면 무신고가산세의 100분의 50 감면 (제57조 제2항 제4호 가목)</text>
+    <text x="104" y="628" font-size="15" fill="#8A938F">감면은 대통령령으로 정하는 바에 따라 신청할 수 있도록 정해져 있어요 (같은 조 제3항)</text>
+
+    <rect x="56" y="666" width="536" height="100" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+    <text x="80" y="708" font-size="20" font-weight="700" fill="#0A5F58">양도차익이 없어도 신고 의무는 남아요</text>
+    <text x="80" y="738" font-size="16" fill="#4A5856">양도차손이 발생한 경우에도 적용 (지방세법 제103조의5 제2항)</text>
+
+    <rect x="608" y="666" width="536" height="100" rx="12" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="632" y="708" font-size="20" font-weight="700" fill="#B5462F">납부서 발송은 재량 규정이에요</text>
+    <text x="632" y="738" font-size="16" fill="#4A5856">받아서 기한까지 납부하면 신고 간주 (같은 조 제4항·제5항)</text>
+
+    <text x="56" y="812" font-size="16" fill="#8A938F">기한 특례는 국세기본법 제5조·지방세기본법 제24조, 표준세율은 지방세법 제103조의3에서 확인할 수 있어요</text>
+  </g>
+</svg>
