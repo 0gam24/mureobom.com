@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860" role="img" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="1200" height="860" fill="#FBF7F0"/>
+
+  <!-- header -->
+  <rect x="0" y="0" width="1200" height="96" fill="#0A5F58"/>
+  <text x="48" y="48" font-size="32" font-weight="700" fill="#FBF7F0">비거주 1주택자 전세대출보증 제한</text>
+  <text x="48" y="78" font-size="16" fill="#E3F0EE">금융위원회 2026년 8월 13일 대책, 시행 2027년 1월 1일 (정보 기준 2026년 10월)</text>
+
+  <!-- section A label -->
+  <text x="48" y="136" font-size="20" font-weight="700" fill="#1A2B2A">규제 대상은 아래 세 요건에 모두 해당하는 자</text>
+
+  <!-- requirement panels -->
+  <g>
+    <rect x="48" y="158" width="354" height="186" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+    <rect x="68" y="178" width="104" height="30" rx="15" fill="#0E7C72"/>
+    <text x="120" y="198" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">요건 ⑴</text>
+    <text x="68" y="238" font-size="19" font-weight="700" fill="#0A5F58">수도권·규제지역 아파트</text>
+    <text x="68" y="268" font-size="15.5" fill="#4A5856">1주택자 (부부합산 기준)</text>
+    <text x="68" y="292" font-size="15.5" fill="#4A5856">아파트(APT) 보유에 한정</text>
+    <text x="68" y="316" font-size="15.5" fill="#4A5856">비아파트는 문면에 없음</text>
+  </g>
+  <g>
+    <rect x="422" y="158" width="354" height="186" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+    <rect x="442" y="178" width="104" height="30" rx="15" fill="#0E7C72"/>
+    <text x="494" y="198" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">요건 ⑵</text>
+    <text x="442" y="238" font-size="19" font-weight="700" fill="#0A5F58">그 주택을 임대차 중</text>
+    <text x="442" y="268" font-size="15.5" fill="#4A5856">임차인이 들어가 있는 상태</text>
+    <text x="442" y="292" font-size="15.5" fill="#4A5856">본인·배우자의 직계존비속에게</text>
+    <text x="442" y="316" font-size="15.5" fill="#4A5856">임대한 경우는 제외</text>
+  </g>
+  <g>
+    <rect x="796" y="158" width="354" height="186" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+    <rect x="816" y="178" width="104" height="30" rx="15" fill="#0E7C72"/>
+    <text x="868" y="198" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">요건 ⑶</text>
+    <text x="816" y="238" font-size="19" font-weight="700" fill="#0A5F58">실거주 이력 없음</text>
+    <text x="816" y="268" font-size="15.5" fill="#4A5856">본인도 배우자도 그 주택에</text>
+    <text x="816" y="292" font-size="15.5" fill="#4A5856">실거주한 적이 없는 경우</text>
+    <text x="816" y="316" font-size="15.5" fill="#4A5856">판정 기간 기준은 미공개</text>
+  </g>
+
+  <!-- AND band -->
+  <rect x="48" y="360" width="1102" height="56" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="599" y="384" font-size="16" font-weight="700" fill="#0A5F58" text-anchor="middle">셋 중 하나라도 어긋나면 제한 대상이 아님</text>
+  <text x="599" y="406" font-size="15" fill="#4A5856" text-anchor="middle">예: 가족에게 임대, 과거 실거주 이력 있음, 비아파트 보유, 지방 소재 아파트</text>
+
+  <!-- section B label -->
+  <text x="48" y="448" font-size="20" font-weight="700" fill="#1A2B2A">같은 대책, 서로 다른 두 항목</text>
+
+  <!-- left panel -->
+  <rect x="48" y="464" width="546" height="286" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <path d="M48 476 a12 12 0 0 1 12 -12 h522 a12 12 0 0 1 12 12 v30 h-546 z" fill="#0E7C72"/>
+  <text x="68" y="495" font-size="17" font-weight="700" fill="#FBF7F0">Ⅳ-1-나  전세대출보증 제한 대상 확대</text>
+  <text x="68" y="534" font-size="15" font-weight="700" fill="#0A5F58">현행</text>
+  <text x="112" y="534" font-size="15" fill="#1A2B2A">다주택자, 투기·투기과열지역 아파트</text>
+  <text x="112" y="556" font-size="15" fill="#1A2B2A">(3억원 초과) 취득자 등</text>
+  <text x="68" y="588" font-size="15" font-weight="700" fill="#0A5F58">개선</text>
+  <text x="112" y="588" font-size="15" fill="#1A2B2A">투기적 목적의 비거주 1주택자</text>
+  <text x="112" y="610" font-size="15" fill="#1A2B2A">등을 대상에 추가</text>
+  <text x="68" y="642" font-size="15" font-weight="700" fill="#0A5F58">내용</text>
+  <text x="112" y="642" font-size="15" fill="#1A2B2A">신규취급·만기연장 원칙적 금지,</text>
+  <text x="112" y="664" font-size="15" fill="#1A2B2A">예외적으로만 허용</text>
+  <text x="68" y="696" font-size="15" font-weight="700" fill="#0A5F58">예외</text>
+  <text x="112" y="696" font-size="15" fill="#1A2B2A">신규취급까지 허용 2건,</text>
+  <text x="112" y="718" font-size="15" fill="#1A2B2A">만기연장만 허용 3건</text>
+  <text x="68" y="740" font-size="14" fill="#8A938F">조치: 행정지도 + 보증기관 내규개정</text>
+
+  <!-- right panel -->
+  <rect x="604" y="464" width="546" height="286" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <path d="M604 476 a12 12 0 0 1 12 -12 h522 a12 12 0 0 1 12 12 v30 h-546 z" fill="#C2873B"/>
+  <text x="624" y="495" font-size="17" font-weight="700" fill="#FBF7F0">Ⅳ-1-다  전세대출 보증비율 축소</text>
+
+  <rect x="624" y="520" width="506" height="30" fill="#E3F0EE"/>
+  <text x="640" y="540" font-size="15" font-weight="700" fill="#0A5F58">구분</text>
+  <text x="960" y="540" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">현행</text>
+  <text x="1080" y="540" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">2027.1.1</text>
+
+  <rect x="624" y="550" width="506" height="32" fill="#FBF7F0"/>
+  <text x="640" y="571" font-size="15" fill="#1A2B2A">1주택자 수도권·규제지역</text>
+  <text x="960" y="571" font-size="15" fill="#4A5856" text-anchor="middle">80%</text>
+  <text x="1080" y="571" font-size="15" font-weight="700" fill="#B5462F" text-anchor="middle">70%</text>
+
+  <rect x="624" y="582" width="506" height="32" fill="#F4EEE2"/>
+  <text x="640" y="603" font-size="15" fill="#1A2B2A">1주택자 그 외 지역</text>
+  <text x="960" y="603" font-size="15" fill="#4A5856" text-anchor="middle">90%</text>
+  <text x="1080" y="603" font-size="15" font-weight="700" fill="#B5462F" text-anchor="middle">80%</text>
+
+  <rect x="624" y="614" width="506" height="32" fill="#FBF7F0"/>
+  <text x="640" y="635" font-size="15" fill="#1A2B2A">무주택자</text>
+  <text x="960" y="635" font-size="15" fill="#4A5856" text-anchor="middle">80% / 90%</text>
+  <text x="1080" y="635" font-size="15" font-weight="700" fill="#0A5F58" text-anchor="middle">현행 유지</text>
+  <rect x="624" y="520" width="506" height="126" fill="none" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <text x="624" y="678" font-size="15" fill="#1A2B2A">보증비율은 보증기관이 대출금의 몇 %를</text>
+  <text x="624" y="700" font-size="15" fill="#1A2B2A">부분보증하느냐이고, 보증한도 산식과는 별개</text>
+  <text x="624" y="740" font-size="14" fill="#8A938F">조치: 보증기관 내규개정 (행정지도 항목 아님)</text>
+
+  <!-- footer -->
+  <line x1="48" y1="778" x2="1150" y2="778" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="48" y="804" font-size="14.5" fill="#4A5856">보증기관 3곳: 주금공·HUG·SGI서울보증. 참고치: 수도권·규제지역 아파트 보유 1주택자가 받은 전세대출 약 9.3조원(6.0만건)</text>
+  <text x="48" y="828" font-size="14" fill="#8A938F">출처: 금융위원회 「부동산 시장 안정을 위한 금융 종합대책」(2026.8.13) Ⅳ-1-나·다 / 한국주택금융공사 일반전세자금보증 상품안내</text>
+</svg>
