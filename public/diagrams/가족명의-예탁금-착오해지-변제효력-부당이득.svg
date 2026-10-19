@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <text x="60" y="62" font-size="38" font-weight="700" fill="#1A2B2A">가족 명의 예금 착오해지, 두 조문이 막힌 이유</text>
+  <text x="60" y="100" font-size="21" fill="#4A5856">금융분쟁조정위원회 2026-10-07 조정결정 (금융감독원 2026-10-08 보도자료 및 첨부 본문) 기준</text>
+  <line x1="60" y1="124" x2="1140" y2="124" stroke="#E3DCCF" stroke-width="2"/>
+
+  <text x="60" y="166" font-size="26" font-weight="700" fill="#0A5F58">제3자에게 지급한 돈을 변제로 인정받는 두 통로</text>
+
+  <!-- 제470조 -->
+  <rect x="60" y="186" width="520" height="210" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="80" y="206" width="230" height="40" rx="8" fill="#0E7C72"/>
+  <text x="195" y="234" font-size="22" font-weight="700" fill="#FBF7F0" text-anchor="middle">민법 제470조</text>
+  <text x="326" y="234" font-size="20" fill="#4A5856">준점유자에 대한 변제</text>
+  <text x="80" y="288" font-size="21" font-weight="700" fill="#1A2B2A">막힌 지점 1. 권한 있는 외관을 갖추지 못함</text>
+  <text x="80" y="316" font-size="19" fill="#4A5856">본인 성명으로 본인 계좌 해지를 요청했을 뿐</text>
+  <text x="80" y="352" font-size="21" font-weight="700" fill="#1A2B2A">막힌 지점 2. 준점유자로 가정해도 무과실 불인정</text>
+  <text x="80" y="380" font-size="19" fill="#4A5856">직원이 잘못 해지한 과실로 선의·무과실이 깨짐</text>
+
+  <!-- 제472조 -->
+  <rect x="60" y="416" width="520" height="210" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="80" y="436" width="230" height="40" rx="8" fill="#0E7C72"/>
+  <text x="195" y="464" font-size="22" font-weight="700" fill="#FBF7F0" text-anchor="middle">민법 제472조</text>
+  <text x="326" y="464" font-size="20" fill="#4A5856">권한없는 자에 대한 변제</text>
+  <text x="80" y="518" font-size="21" font-weight="700" fill="#1A2B2A">막힌 지점. 채권자 B가 받은 이익이 없음</text>
+  <text x="80" y="546" font-size="19" fill="#4A5856">A가 수표를 사기범에게 곧바로 전달해</text>
+  <text x="80" y="574" font-size="19" fill="#4A5856">B에게 금전이 귀속된 바 없다고 판단</text>
+  <text x="80" y="606" font-size="18" fill="#8A938F">연쇄적 부당이득 관계를 피하려는 조문 취지</text>
+
+  <!-- 금액 + 흐름 -->
+  <rect x="608" y="186" width="532" height="440" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="634" y="226" font-size="25" font-weight="700" fill="#0A5F58">금융회사가 아들 B에게 부담한 반환채무</text>
+  <rect x="630" y="246" width="488" height="100" rx="10" fill="#E3F0EE"/>
+  <text x="874" y="298" font-size="40" font-weight="700" fill="#0A5F58" text-anchor="middle">51,649,425원</text>
+  <text x="874" y="330" font-size="20" fill="#4A5856" text-anchor="middle">예탁원금 5천만원 + 약정이자 1,649,425원</text>
+  <text x="634" y="378" font-size="20" font-weight="700" fill="#1A2B2A">연 3.250% 월복리, 2024-09-30부터 2025-09-30까지</text>
+  <line x1="630" y1="396" x2="1118" y2="396" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="634" y="430" font-size="22" font-weight="700" fill="#0A5F58">사건 흐름</text>
+  <text x="634" y="464" font-size="20" fill="#1A2B2A">2024-09-30  가족 4개 계좌 개설, 확인서류 미징구</text>
+  <text x="634" y="496" font-size="20" fill="#1A2B2A">2024-11-04  직원 착오로 아들 명의 계좌 해지</text>
+  <text x="634" y="528" font-size="20" fill="#1A2B2A">2024-11-06  남은 본인 예탁금도 해지, 수표 전달</text>
+  <text x="634" y="560" font-size="20" fill="#1A2B2A">2024-11-21  보이스피싱 인지, 신고와 민원 제기</text>
+  <text x="634" y="592" font-size="20" fill="#1A2B2A">2026-10-07  금융분쟁조정위원회 조정결정</text>
+
+  <!-- 대칭 구조 -->
+  <rect x="360" y="650" width="480" height="62" rx="10" fill="#1A2B2A"/>
+  <text x="600" y="690" font-size="24" font-weight="700" fill="#FBF7F0" text-anchor="middle">사실 하나. 돈은 사기범에게 갔다</text>
+  <path d="M520 712 L520 726 L320 726 L320 740" fill="none" stroke="#8A938F" stroke-width="2"/>
+  <path d="M680 712 L680 726 L880 726 L880 740" fill="none" stroke="#8A938F" stroke-width="2"/>
+
+  <rect x="60" y="740" width="520" height="140" rx="12" fill="#FBF7F0" stroke="#0E7C72" stroke-width="2"/>
+  <text x="84" y="778" font-size="23" font-weight="700" fill="#0A5F58">제472조에서 쓰일 때</text>
+  <text x="84" y="812" font-size="20" fill="#1A2B2A">채권자 B가 받은 이익이 없다</text>
+  <text x="84" y="846" font-size="20" font-weight="700" fill="#1A2B2A">금융회사의 예탁금 반환채무 인정</text>
+
+  <rect x="620" y="740" width="520" height="140" rx="12" fill="#FBF7F0" stroke="#C2873B" stroke-width="2"/>
+  <text x="644" y="778" font-size="23" font-weight="700" fill="#C2873B">제741조에서 쓰일 때</text>
+  <text x="644" y="812" font-size="20" fill="#1A2B2A">A는 실질적 이득자가 아니다</text>
+  <text x="644" y="846" font-size="20" font-weight="700" fill="#1A2B2A">고객의 부당이득 반환의무 부정</text>
+</svg>
