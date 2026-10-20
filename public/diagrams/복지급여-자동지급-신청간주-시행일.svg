@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 770" role="img" aria-label="신청주의 개선 6법 법률별 시행일 지도: 공포일은 2026년 10월 20일. 사회보장기본법(법률 제22100호)·사회보장급여법(제22099호)·아동수당법(제22101호)은 2027년 1월 21일 시행이고 조문 단위 예외가 없음. 국민기초생활 보장법(제22087호)은 본문 2027년 1월 21일, 제11조만 2028년 1월 1일. 장애인연금법(제22108호)은 본문 2027년 1월 21일, 제2조제1호와 제6조만 2027년 7월 1일. 기초연금법(제22097호)은 본문이 공포 후 6개월인 2027년 4월 21일이고 신청 간주를 담은 제10조제4항·제11조제6항만 2027년 1월 21일.">
+  <rect x="0" y="0" width="1000" height="770" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="500" y="56" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#1A2B2A">신청주의 개선 6법, 법률별 시행일 지도</text>
+  <text x="500" y="88" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">공포일 2026년 10월 20일 · 정부 안내문은 '공포 후 3개월'로 일괄 표기</text>
+  <text x="500" y="114" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">법령 원문 시행일은 <tspan font-weight="700" fill="#C2873B">2027. 1. 21 · 2027. 4. 21 · 2027. 7. 1 · 2028. 1. 1</tspan> 네 갈래</text>
+  <line x1="40" y1="134" x2="960" y2="134" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 표 머리 -->
+  <rect x="40" y="150" width="920" height="46" rx="8" fill="#E3F0EE"/>
+  <text x="220" y="179" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">법률 (법률번호)</text>
+  <text x="500" y="179" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">본문 시행일</text>
+  <text x="780" y="179" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">조문 단위 예외 시행일</text>
+
+  <!-- 행 배경 -->
+  <rect x="40" y="254" width="920" height="58" fill="#F4EEE2"/>
+  <rect x="40" y="370" width="920" height="58" fill="#F4EEE2"/>
+  <rect x="40" y="486" width="920" height="58" fill="#E3F0EE"/>
+  <rect x="40" y="486" width="920" height="58" fill="none" stroke="#0E7C72" stroke-width="1.5"/>
+
+  <!-- 행 구분선 -->
+  <line x1="40" y1="254" x2="960" y2="254" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="312" x2="960" y2="312" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="370" x2="960" y2="370" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="428" x2="960" y2="428" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="544" x2="960" y2="544" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 열 구분선 -->
+  <line x1="400" y1="196" x2="400" y2="544" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="600" y1="196" x2="600" y2="544" stroke="#E3DCCF" stroke-width="1"/>
+
+  <!-- 1행 사회보장기본법 -->
+  <text x="60" y="231" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">사회보장기본법 (제22100호)</text>
+  <text x="500" y="231" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">2027. 1. 21</text>
+  <text x="620" y="231" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#8A938F">없음 (부칙에 단서 없음)</text>
+
+  <!-- 2행 사회보장급여법 -->
+  <text x="60" y="289" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">사회보장급여법 (제22099호)</text>
+  <text x="500" y="289" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">2027. 1. 21</text>
+  <text x="620" y="289" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#8A938F">없음 (부칙에 단서 없음)</text>
+
+  <!-- 3행 아동수당법 -->
+  <text x="60" y="347" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">아동수당법 (제22101호)</text>
+  <text x="500" y="347" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">2027. 1. 21</text>
+  <text x="620" y="347" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#8A938F">없음 (부칙에 단서 없음)</text>
+
+  <!-- 4행 국민기초생활 보장법 -->
+  <text x="60" y="405" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">국민기초생활 보장법 (제22087호)</text>
+  <text x="500" y="405" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">2027. 1. 21</text>
+  <text x="620" y="405" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">제11조 2028. 1. 1</text>
+
+  <!-- 5행 장애인연금법 -->
+  <text x="60" y="463" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">장애인연금법 (제22108호)</text>
+  <text x="500" y="463" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">2027. 1. 21</text>
+  <text x="620" y="463" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#C2873B">제2조제1호·제6조 2027. 7. 1</text>
+
+  <!-- 6행 기초연금법 (강조) -->
+  <text x="60" y="521" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">기초연금법 (제22097호)</text>
+  <text x="500" y="511" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0E7C72">2027. 4. 21</text>
+  <text x="500" y="533" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">(공포 후 6개월)</text>
+  <text x="620" y="511" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">제10조제4항·제11조제6항</text>
+  <text x="620" y="535" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#0E7C72">2027. 1. 21</text>
+
+  <!-- 해석 패널 -->
+  <rect x="40" y="568" width="920" height="116" rx="12" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="64" y="601" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#0A5F58">'공포 후 3개월' 한 줄로 뭉뚱그릴 수 없는 곳이 기초연금법이에요</text>
+  <text x="64" y="631" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">기초연금법 부칙 제1조는 본문을 공포 후 6개월(2027. 4. 21)로 정했어요.</text>
+  <text x="64" y="658" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">신청 간주를 담은 제10조제4항·제11조제6항만 공포 후 3개월(2027. 1. 21)로 앞당겼어요.</text>
+
+  <line x1="40" y1="712" x2="960" y2="712" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="500" y="738" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">출처: 국가법령정보센터 각 법률 부칙 제1조(2026년 10월 20일 공포)와 시행일법령 조회 결과를 물어봄이 대조 정리</text>
+</svg>
