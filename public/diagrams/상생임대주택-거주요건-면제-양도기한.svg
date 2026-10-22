@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" role="img" aria-label="상생임대주택 거주요건 면제의 양도 기한 판정 두 갈래. 2026년 10월 1일 시행 대통령령 제36737호 기준. 임대기간이 2026년 12월 31일 이전에 종료되면 예외가 적용돼 양도 기한이 2027년 12월 31일이고, 2027년 1월 1일 이후에 종료되면 원칙에 따라 임대기간 종료일부터 1년이 되는 날과 2029년 12월 31일 중 빠른 날이 기한이 된다. 임대 종료일별 환산 예시는 2026년 11월 30일 종료는 2027년 12월 31일, 2026년 12월 31일 종료는 조문이 '이전'이라 당일도 예외에 포함돼 2027년 12월 31일, 2027년 1월 15일 종료는 2028년 1월 15일, 2028년 12월 31일 종료는 두 날짜가 일치해 2029년 12월 31일, 2029년 3월 31일 종료는 상한이 작동해 2029년 12월 31일이다. 2026년 12월 31일은 파는 날이 아니라 상생임대차계약을 맺을 수 있는 마지막 날이며, 올해 말에 체결하면 2년 임대 뒤 종료가 2028년 말 이후여서 예외가 아니라 원칙으로 계산된다.">
+  <rect x="0" y="0" width="1000" height="800" fill="#FBF7F0"/>
+
+  <!-- 제목 -->
+  <text x="500" y="54" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#1A2B2A">상생임대주택 거주요건 면제, 양도 기한 판정</text>
+  <text x="500" y="86" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">2026년 10월 1일 시행 (대통령령 제36737호) · 정보 기준일 2026년 10월 23일</text>
+  <line x1="40" y1="108" x2="960" y2="108" stroke="#E3DCCF" stroke-width="1.5"/>
+
+  <!-- 예외 갈래 -->
+  <rect x="40" y="124" width="440" height="188" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1.5"/>
+  <text x="60" y="154" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#8A938F">예외</text>
+  <text x="60" y="184" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1A2B2A">임대기간이 2026. 12. 31 이전 종료</text>
+  <line x1="60" y1="204" x2="460" y2="204" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="60" y="232" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">양도 기한</text>
+  <text x="60" y="268" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#0E7C72">2027. 12. 31</text>
+  <text x="60" y="296" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">조문의 "이전"은 2026. 12. 31 당일도 포함해요</text>
+
+  <!-- 원칙 갈래 -->
+  <rect x="520" y="124" width="440" height="188" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="540" y="154" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#0A5F58">원칙</text>
+  <text x="540" y="184" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1A2B2A">임대기간이 2027. 1. 1 이후 종료</text>
+  <line x1="540" y1="204" x2="940" y2="204" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="540" y="232" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">양도 기한</text>
+  <text x="540" y="264" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">종료일 더하기 1년과</text>
+  <text x="540" y="292" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">2029. 12. 31 중 빠른 날</text>
+
+  <!-- 환산표 -->
+  <text x="40" y="348" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">임대 종료 시점별 양도 기한 환산 (계산 규칙을 적용한 예시)</text>
+
+  <rect x="40" y="364" width="920" height="44" rx="8" fill="#E3F0EE"/>
+  <text x="70" y="392" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">임대기간 종료일</text>
+  <text x="530" y="392" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">적용 갈래</text>
+  <text x="810" y="392" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">양도 기한</text>
+
+  <rect x="40" y="456" width="920" height="48" fill="#F4EEE2"/>
+  <rect x="40" y="552" width="920" height="48" fill="#F4EEE2"/>
+
+  <line x1="40" y1="456" x2="960" y2="456" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="504" x2="960" y2="504" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="552" x2="960" y2="552" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="600" x2="960" y2="600" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="40" y1="648" x2="960" y2="648" stroke="#E3DCCF" stroke-width="1.5"/>
+  <line x1="400" y1="364" x2="400" y2="648" stroke="#E3DCCF" stroke-width="1"/>
+  <line x1="660" y1="364" x2="660" y2="648" stroke="#E3DCCF" stroke-width="1"/>
+
+  <text x="70" y="439" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">2026. 11. 30</text>
+  <text x="530" y="439" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">예외</text>
+  <text x="810" y="439" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">2027. 12. 31</text>
+
+  <text x="70" y="487" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">2026. 12. 31</text>
+  <text x="530" y="487" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">예외, 당일 포함</text>
+  <text x="810" y="487" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">2027. 12. 31</text>
+
+  <text x="70" y="535" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">2027. 1. 15</text>
+  <text x="530" y="535" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">원칙</text>
+  <text x="810" y="535" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">2028. 1. 15</text>
+
+  <text x="70" y="583" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">2028. 12. 31</text>
+  <text x="530" y="583" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">원칙, 두 날짜 일치</text>
+  <text x="810" y="583" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#1A2B2A">2029. 12. 31</text>
+
+  <text x="70" y="631" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#1A2B2A">2029. 3. 31</text>
+  <text x="530" y="631" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">원칙, 상한 작동</text>
+  <text x="810" y="631" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#C2873B">2029. 12. 31</text>
+
+  <!-- 해석 패널 -->
+  <rect x="40" y="670" width="920" height="80" rx="12" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="64" y="702" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0A5F58">2026년 12월 31일은 파는 날이 아니라 계약을 맺을 수 있는 마지막 날이에요</text>
+  <text x="64" y="730" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">올해 말에 체결하면 2년 임대 뒤 종료가 2028년 말 이후라, 예외가 아니라 원칙으로 계산해요</text>
+
+  <line x1="40" y1="766" x2="960" y2="766" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="500" y="788" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#8A938F">출처: 국가법령정보센터 소득세법 시행령 제정·개정이유(대통령령 제36737호)의 계산 규칙을 물어봄이 날짜로 환산</text>
+</svg>
