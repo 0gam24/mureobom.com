@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-labelledby="t d" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <title id="t">신용카드 발급 평점 기준의 3층 구조와 평점 기준을 적용하지 않는 3가지</title>
+  <desc id="d">시행령 제6조의7은 금융위원회 고시 기준 충족을 요구하고, 감독규정 제24조는 개인신용평점 상위 100분의 93 또는 장기연체가능성 1만분의 65 이하 중 어느 하나를 요구하며, 같은 조문 후단의 카드사 공시 기준이 한 겹 더 얹힌다. 평점 기준을 적용하지 않는 경우는 결제능력 입증, 직불겸용 소액한도 카드(월 최고 30만원), 성년 연령 미만 예외 발급 세 가지다.</desc>
+
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <text x="60" y="62" font-size="38" font-weight="700" fill="#1A2B2A">신용카드 발급 기준, 점수가 아니라 3층 구조</text>
+  <text x="60" y="100" font-size="20" fill="#4A5856">여신전문금융업법 시행령 제6조의7 · 여신전문금융업감독규정 제24조 (시행 2026-05-06) 기준</text>
+  <line x1="60" y1="124" x2="1140" y2="124" stroke="#E3DCCF" stroke-width="2"/>
+
+  <text x="60" y="168" font-size="26" font-weight="700" fill="#0A5F58">평점 기준이 정해지는 3층 구조</text>
+
+  <!-- 1층 -->
+  <rect x="60" y="188" width="560" height="132" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="84" y="210" width="48" height="48" rx="24" fill="#0E7C72"/>
+  <text x="108" y="243" font-size="26" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+  <text x="150" y="232" font-size="22" font-weight="700" fill="#1A2B2A">여신전문금융업법 시행령 제6조의7</text>
+  <text x="150" y="262" font-size="19" fill="#4A5856">발급신청일 현재 개인신용평점이 금융위원회가</text>
+  <text x="150" y="288" font-size="19" fill="#4A5856">정하여 고시하는 기준을 충족할 것</text>
+
+  <!-- 2층 -->
+  <rect x="60" y="336" width="560" height="172" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="84" y="358" width="48" height="48" rx="24" fill="#0E7C72"/>
+  <text x="108" y="391" font-size="26" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+  <text x="150" y="380" font-size="22" font-weight="700" fill="#1A2B2A">여신전문금융업감독규정 제24조</text>
+  <text x="150" y="410" font-size="19" fill="#4A5856">다음 두 기준 중 어느 하나를 충족할 것</text>
+  <rect x="150" y="424" width="446" height="36" rx="8" fill="#E3F0EE"/>
+  <text x="166" y="449" font-size="19" font-weight="700" fill="#0A5F58">개인신용평점 상위 100분의 93</text>
+  <rect x="150" y="466" width="446" height="36" rx="8" fill="#E3F0EE"/>
+  <text x="166" y="491" font-size="19" font-weight="700" fill="#0A5F58">장기연체가능성 1만분의 65 이하</text>
+
+  <!-- 3층 -->
+  <rect x="60" y="524" width="560" height="132" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="84" y="546" width="48" height="48" rx="24" fill="#C2873B"/>
+  <text x="108" y="579" font-size="26" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+  <text x="150" y="568" font-size="22" font-weight="700" fill="#1A2B2A">같은 조문 후단, 카드사 공시 기준</text>
+  <text x="150" y="598" font-size="19" fill="#4A5856">여신전문금융회사가 정하여 공시하는</text>
+  <text x="150" y="624" font-size="19" fill="#4A5856">기준이 한 겹 더 얹혀요</text>
+
+  <!-- 별개 요건 -->
+  <text x="648" y="168" font-size="24" font-weight="700" fill="#0A5F58">평점과 별개로 남는 요건</text>
+  <rect x="648" y="188" width="492" height="140" rx="12" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="672" y="228" font-size="20" fill="#1A2B2A">연령: 민법 제4조 성년 연령 이상이 원칙</text>
+  <text x="672" y="262" font-size="20" fill="#1A2B2A">본인확인: 신용정보법 시행령</text>
+  <text x="672" y="290" font-size="20" fill="#1A2B2A">제30조 제3항 후단에 따른 방법</text>
+  <text x="672" y="316" font-size="17" fill="#8A938F">시행령 제6조의7 제2항, 제3항 제2호</text>
+
+  <!-- 예외 3가지 -->
+  <rect x="648" y="344" width="492" height="312" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="672" y="384" font-size="23" font-weight="700" fill="#0A5F58">평점 기준을 적용하지 않는 3가지</text>
+  <text x="672" y="422" font-size="20" fill="#1A2B2A">가. 결제능력을 객관적 자료로 확인</text>
+  <text x="694" y="448" font-size="20" fill="#1A2B2A">하거나 본인이 증명한 경우</text>
+  <text x="672" y="486" font-size="20" fill="#1A2B2A">나. 직불·신용 겸용 카드에 금융위가</text>
+  <text x="694" y="512" font-size="20" fill="#1A2B2A">정하는 범위의 한도를 부여한 경우</text>
+  <rect x="672" y="526" width="444" height="42" rx="8" fill="#FBF7F0" stroke="#0E7C72" stroke-width="2"/>
+  <text x="894" y="554" font-size="21" font-weight="700" fill="#0A5F58" text-anchor="middle">소액 신용결제 월 최고 30만원</text>
+  <text x="672" y="600" font-size="20" fill="#1A2B2A">다. 성년 연령 미만 예외 발급에</text>
+  <text x="694" y="626" font-size="20" fill="#1A2B2A">해당하는 경우</text>
+
+  <!-- 택일 구조 -->
+  <rect x="60" y="682" width="1080" height="92" rx="12" fill="#1A2B2A"/>
+  <text x="600" y="718" font-size="25" font-weight="700" fill="#FBF7F0" text-anchor="middle">2층의 두 기준은 어느 하나만 충족하면 되는 구조</text>
+  <text x="600" y="752" font-size="20" fill="#E3F0EE" text-anchor="middle">어느 한쪽에 걸리면 평점 기준의 숫자 요건 쪽은 충족한 것으로 읽혀요</text>
+
+  <rect x="60" y="790" width="530" height="90" rx="12" fill="#F4EEE2" stroke="#0E7C72" stroke-width="2"/>
+  <text x="84" y="824" font-size="22" font-weight="700" fill="#0A5F58">상위 100분의 93</text>
+  <text x="84" y="856" font-size="19" fill="#1A2B2A">점수가 아니라 분포상 위치로 정한 상대 기준</text>
+
+  <rect x="610" y="790" width="530" height="90" rx="12" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+  <text x="634" y="824" font-size="22" font-weight="700" fill="#C2873B">1만분의 65 이하</text>
+  <text x="634" y="856" font-size="19" fill="#1A2B2A">장기연체가능성 0.65% 이하를 뜻해요</text>
+</svg>
