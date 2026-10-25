@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 884" width="1200" height="884" role="img" aria-label="국민연금 보험료율 연도별 계단과 가입자 유형별 본인부담 대비. 2027년 적용 비율은 10.0%이고 사업장가입자 본인부담은 0.25%p, 지역·임의·임의계속가입자는 0.5%p 늘어난다">
+  <rect x="0" y="0" width="1200" height="884" fill="#FBF7F0"/>
+
+  <text x="48" y="58" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="36" font-weight="700" fill="#1A2B2A">국민연금 보험료율, 2027년은 10.0%</text>
+  <text x="48" y="94" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">정보 기준일 2026년 10월 26일 · 2026년부터 매년 0.5%p씩 인상 (법률 제20903호 부칙 제4조)</text>
+
+  <!-- 2027년 적용 비율 밴드 -->
+  <rect x="48" y="118" width="1104" height="76" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="72" y="150" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#0A5F58">2027년 적용 비율 10.0%</text>
+  <text x="72" y="180" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">사업장가입자 기여금·부담금 각 1만분의 500(5.0%) · 지역·임의·임의계속가입자 1천분의 100(10.0%)</text>
+
+  <!-- 시점 불일치 메모 -->
+  <rect x="64" y="236" width="404" height="136" rx="10" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+  <text x="88" y="272" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">바뀌는 달이 서로 다릅니다</text>
+  <text x="88" y="304" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">요율은 연도 단위로 (부칙 제4조)</text>
+  <text x="88" y="330" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#1A2B2A">기준소득월액 상·하한은 7월부터</text>
+  <text x="88" y="358" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">(시행령 제5조 제3항·제4항)</text>
+
+  <!-- 연도별 요율 계단 -->
+  <rect x="64" y="502" width="96" height="58" fill="#E3DCCF"/>
+  <rect x="184" y="473" width="96" height="87" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="304" y="444" width="96" height="116" fill="#0E7C72"/>
+  <rect x="424" y="415" width="96" height="145" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="544" y="386" width="96" height="174" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="664" y="357" width="96" height="203" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="784" y="328" width="96" height="232" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="904" y="299" width="96" height="261" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="1024" y="270" width="96" height="290" fill="#0A5F58"/>
+
+  <line x1="48" y1="560" x2="1152" y2="560" stroke="#1A2B2A" stroke-width="2"/>
+
+  <text x="112" y="488" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">9.0%</text>
+  <text x="232" y="459" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">9.5%</text>
+  <text x="352" y="430" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#0A5F58">10.0%</text>
+  <text x="472" y="401" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">10.5%</text>
+  <text x="592" y="372" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">11.0%</text>
+  <text x="712" y="343" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">11.5%</text>
+  <text x="832" y="314" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">12.0%</text>
+  <text x="952" y="285" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">12.5%</text>
+  <text x="1072" y="256" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#0A5F58">13.0%</text>
+
+  <text x="112" y="588" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#8A938F">2025</text>
+  <text x="232" y="588" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">2026</text>
+  <text x="352" y="588" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">2027</text>
+  <text x="472" y="588" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">2028</text>
+  <text x="592" y="588" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">2029</text>
+  <text x="712" y="588" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">2030</text>
+  <text x="832" y="588" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">2031</text>
+  <text x="952" y="588" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">2032</text>
+  <text x="1072" y="588" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">2033</text>
+  <rect x="304" y="598" width="96" height="4" fill="#C2873B"/>
+
+  <text x="48" y="628" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#8A938F">막대는 전체 요율(사업장가입자는 본인·사용자 합계) · 2033년부터는 본칙 제88조의 13%가 적용됩니다</text>
+
+  <!-- 가입자 유형별 본인부담 대비 -->
+  <rect x="48" y="650" width="536" height="206" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="48" y="650" width="536" height="44" fill="#0A5F58"/>
+  <text x="72" y="680" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#FBF7F0">사업장가입자 (직장)</text>
+  <text x="72" y="726" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#4A5856">요율의 절반만 본인 부담 (나머지는 사용자)</text>
+  <text x="72" y="762" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">본인 부담률 4.75%에서 5.00%로</text>
+  <text x="72" y="806" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="32" font-weight="700" fill="#0E7C72">+0.25%p</text>
+  <text x="72" y="840" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">기준소득월액 300만원이면 월 7,500원 증가</text>
+
+  <rect x="616" y="650" width="536" height="206" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+  <rect x="616" y="650" width="536" height="44" fill="#0A5F58"/>
+  <text x="640" y="680" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#FBF7F0">지역·임의·임의계속가입자</text>
+  <text x="640" y="726" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#4A5856">요율 전액을 본인 부담</text>
+  <text x="640" y="762" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">본인 부담률 9.5%에서 10.0%로</text>
+  <text x="640" y="806" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="32" font-weight="700" fill="#C2873B">+0.50%p</text>
+  <text x="640" y="840" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">기준소득월액 300만원이면 월 15,000원 증가</text>
+</svg>
