@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 660" role="img" aria-label="2026년 9월 1일 고용보험위원회가 심의한 고용보험 제도개편 방안의 실업급여 항목은 법률 개정 사항과 하위법령등 개정 사항으로 갈린다. 법률 개정 사항은 국회 통과 전까지 확정이 아니며, 구직급여 지급방식 주 7일에서 주 6일로 변경(총 지급액과 총 지급일수 120~270일 유지, 시행일 미정)과 가칭 일·가정 양립 계정 신설(2028년 신설, 실업급여 계정의 육아휴직급여 등 모성보호 지출 이전)이 해당한다. 하위법령등 개정 사항은 국회 동의 없이 정부 절차로 바꿀 수 있으며, 구직급여 상한액을 하한액의 103%에 연동(시행령 제68조 정액 113,500원 구조 변경, 시행일 미정), 조기재취업수당 지급제외 기준 월 300만원 이상으로 하향(현행 고시 월 574만원, 유효기간 2027년 12월 31일, 시행일 미정), 실업급여 계정 보험료율 1.8%에서 2.0%로 인상(노동자·사용자 각 0.1%p, 2027년)이 해당한다. 주 6일 전환은 지급 리듬만 바꾸고 보도자료는 총 지급액과 총 지급일수 유지를 명시했다.">
+  <rect x="0" y="0" width="880" height="660" fill="#FBF7F0"/>
+  <text x="40" y="46" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="25" font-weight="700" fill="#1A2B2A">실업급여 개편, 법률 개정과 하위법령 개정으로 갈려요</text>
+  <text x="40" y="74" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#4A5856">2026년 9월 1일 고용보험위원회 심의 「고용보험 제도개편 방안」의 실업급여 항목</text>
+
+  <!-- 블록 1: 법률 개정 사항 -->
+  <rect x="40" y="104" width="800" height="174" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="64" y="136" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">법률 개정 사항</text>
+  <text x="202" y="136" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">국회 통과 전까지 확정이 아니에요</text>
+
+  <rect x="64" y="152" width="752" height="52" rx="8" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="84" y="176" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">구직급여 지급방식 주 7일에서 주 6일로 (무급휴일 제외)</text>
+  <text x="84" y="196" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">총 지급액과 총 지급일수 120~270일은 그대로 유지</text>
+  <rect x="666" y="165" width="134" height="26" rx="13" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <text x="733" y="183" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#0A5F58">시행일 미정</text>
+
+  <rect x="64" y="212" width="752" height="52" rx="8" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="84" y="236" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">(가칭)일·가정 양립 계정 신설</text>
+  <text x="84" y="256" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">실업급여 계정의 육아휴직급여 등 모성보호 지출을 이 계정으로 이전</text>
+  <rect x="666" y="225" width="134" height="26" rx="13" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.2"/>
+  <text x="733" y="243" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#C2873B">2028년 신설</text>
+
+  <!-- 블록 2: 하위법령등 개정 사항 -->
+  <rect x="40" y="294" width="800" height="234" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <text x="64" y="326" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" font-weight="700" fill="#0A5F58">하위법령등 개정 사항</text>
+  <text x="256" y="326" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">국회 동의 없이 정부 절차로 바꿀 수 있어요</text>
+
+  <rect x="64" y="342" width="752" height="52" rx="8" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="84" y="366" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">구직급여 상한액을 하한액의 103%에 연동</text>
+  <text x="84" y="386" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">고용보험법 시행령 제68조의 정액 113,500원 구조를 바꾸는 개정</text>
+  <rect x="666" y="355" width="134" height="26" rx="13" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <text x="733" y="373" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#0A5F58">시행일 미정</text>
+
+  <rect x="64" y="402" width="752" height="52" rx="8" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="84" y="426" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">조기재취업수당 지급제외 기준 월 300만원 이상으로 하향</text>
+  <text x="84" y="446" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">현행 고용노동부 고시 금액은 월 574만원 (유효기간 2027년 12월 31일)</text>
+  <rect x="666" y="415" width="134" height="26" rx="13" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.2"/>
+  <text x="733" y="433" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#0A5F58">시행일 미정</text>
+
+  <rect x="64" y="462" width="752" height="52" rx="8" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="84" y="486" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" font-weight="700" fill="#1A2B2A">실업급여 계정 보험료율 1.8%에서 2.0%로 인상</text>
+  <text x="84" y="506" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">노동자·사용자가 각각 0.1%p 부담 (각 0.9%에서 1.0%)</text>
+  <rect x="666" y="475" width="134" height="26" rx="13" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.2"/>
+  <text x="733" y="493" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" font-weight="700" fill="#C2873B">2027년</text>
+
+  <!-- 정정 밴드 -->
+  <rect x="40" y="548" width="800" height="58" rx="10" fill="#F4EEE2" stroke="#C2873B" stroke-width="1.5"/>
+  <text x="62" y="572" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" font-weight="700" fill="#C2873B">언론 요약과 다른 점</text>
+  <text x="62" y="594" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#1A2B2A">주 6일 전환은 지급 리듬만 바꾸고, 보도자료는 총 지급액과 총 지급일수 유지를 명시했어요</text>
+
+  <!-- 캡션 -->
+  <text x="40" y="630" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">근거: 고용노동부 「고용보험 제도개편 방안」(2026.9.1. 고용보험위원회 심의). 정보 기준일 2026년 10월 28일.</text>
+  <text x="40" y="650" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">항목별 확정 시행일은 자료에 없어요. 정부는 연내 법률 및 하위법령 개정을 목표로 적었어요.</text>
+</svg>

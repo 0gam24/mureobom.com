@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580" role="img" aria-label="2026년 구직급여 상한액은 1일 68,100원으로 기초일액 상한 113,500원에 60%를 적용한 금액이며 근거는 고용보험법 시행령 제68조와 법 제46조제1항제1호다. 하한액은 1일 66,048원으로 최저임금 10,320원에 8시간과 80%를 적용한 금액이며 근거는 법 제45조제4항과 제46조제1항제2호다. 두 금액의 격차는 68,100원 나누기 66,048원 = 1.0311, 약 3.1%이고 보도자료가 103%의 근거로 든 수치다. 심의된 방안은 구직급여 상한액을 하한액의 103%로 정하는 것이며, 2026년 하한액 66,048원에 적용하면 약 68,029원이라는 가정 계산이 나온다. 확정 금액은 아니며 시행령 개정안 문안과 적용 시점은 2026년 10월 28일 기준 공개되지 않았다.">
+  <rect x="0" y="0" width="880" height="580" fill="#FBF7F0"/>
+  <text x="40" y="44" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#1A2B2A">2026년 구직급여 상·하한액과 연동비율 103%의 산술</text>
+  <text x="40" y="70" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14.5" fill="#4A5856">현행 금액은 고시·시행령 기준, 103% 연동은 2026년 9월 1일 심의된 방안 (미시행)</text>
+
+  <!-- 상한액 카드 -->
+  <rect x="40" y="100" width="380" height="156" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="62" y="130" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">2026년 구직급여 상한액 (1일)</text>
+  <text x="62" y="170" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#0A5F58">68,100원</text>
+  <text x="62" y="200" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">기초일액 상한 113,500원 × 60%</text>
+  <text x="62" y="224" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">시행령 제68조 · 법 제46조제1항제1호</text>
+  <text x="62" y="244" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">2025년 12월 시행령 개정으로 상향된 정액</text>
+
+  <!-- 하한액 카드 -->
+  <rect x="460" y="100" width="380" height="156" rx="12" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="1"/>
+  <text x="482" y="130" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="14" fill="#4A5856">2026년 구직급여 하한액 (1일)</text>
+  <text x="482" y="170" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#0A5F58">66,048원</text>
+  <text x="482" y="200" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#1A2B2A">최저임금 10,320원 × 8시간 × 80%</text>
+  <text x="482" y="224" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">법 제45조제4항 · 제46조제1항제2호</text>
+  <text x="482" y="244" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">최저임금 고시에 따라 매년 바뀌어요</text>
+
+  <!-- 격차 밴드 -->
+  <rect x="40" y="276" width="800" height="66" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="1.5"/>
+  <text x="62" y="302" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#0A5F58">두 금액의 격차</text>
+  <text x="62" y="328" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1A2B2A">68,100원 ÷ 66,048원 = 1.0311 (약 3.1%)</text>
+  <text x="818" y="328" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#4A5856">보도자료가 103%의 근거로 든 수치</text>
+
+  <!-- 심의된 방안 카드 -->
+  <rect x="40" y="362" width="800" height="112" rx="12" fill="#0A5F58"/>
+  <text x="62" y="392" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#E3F0EE">심의된 방안 (2026년 9월 1일, 미시행)</text>
+  <text x="62" y="428" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#FBF7F0">구직급여 상한액 = 하한액 × 103%</text>
+  <text x="62" y="456" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="13" fill="#E3F0EE">2026년 하한액 66,048원에 적용하면 약 68,029원 (가정 계산, 확정 금액 아님)</text>
+
+  <!-- 캡션 -->
+  <text x="40" y="504" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">정액 상한이 연동으로 바뀌면 상한액도 최저임금 변동에 따라 매년 함께 움직이는 구조가 돼요.</text>
+  <text x="40" y="526" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">시행령 개정안 문안과 적용 시점은 2026년 10월 28일 기준 공개되지 않았어요.</text>
+  <text x="40" y="550" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="12.5" fill="#8A938F">근거: 고용노동부 보도자료(2026.9.1. · 2025.12.16. · 2025.10.10. · 2025.8.5.) · 국가법령정보센터</text>
+</svg>
