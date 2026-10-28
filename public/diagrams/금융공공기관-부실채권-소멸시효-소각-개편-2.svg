@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 690" role="img" aria-label="오래된 빚을 정리하는 세 갈래 트랙 비교. 금융공공기관 부실채권 관리 개선 방안은 금융공공기관이 직접 보유한 채권을 대상으로 연체 5년과 5년 이상 7년 이하 5천만원 이하와 15년 구간으로 나눠 시효 완성이나 소각, 캠코 매각 정리를 하며 26년 4분기부터 순차 시행한다. 새도약기금은 기금이 채권을 매입해 보유하며 7년 이상 연체 무담보 원금 합계 5천만원 이하가 대상이고 상환능력이 없으면 소각, 있으면 신용회복위원회 강화된 채무조정으로 간다. 조건부 대손인정은 금융회사가 상각 후 보유한 채권이 대상이며 은행 보험 5천만원 이하, 저축은행 여전사 등 3천만원 이하로 최초 소멸시효 완성을 조건으로 대손인정하고 2026년 10월 12일 세칙이 시행됐다." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="940" height="690" fill="#FBF7F0"/>
+
+  <text x="44" y="52" font-size="26" font-weight="700" fill="#1A2B2A">내 채권은 어느 트랙인가, 기준은 '지금 누가 들고 있나'</text>
+  <text x="44" y="80" font-size="14" fill="#4A5856">금융위원회 보도자료(2026.10.28. · 2026.10.12.)와 한국자산관리공사 새도약기금 안내 대조</text>
+
+  <text x="44" y="118" font-size="13" fill="#8A938F">세 제도는 대상 채권이 겹치지 않는다. 연체 기간이 같아도 보유 주체가 다르면 적용되는 규칙이 달라진다.</text>
+
+  <g>
+    <rect x="44" y="140" width="270" height="460" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="44" y="140" width="270" height="56" rx="10" fill="#0A5F58"/>
+    <text x="179" y="166" font-size="14.5" font-weight="700" fill="#FBF7F0" text-anchor="middle">금융공공기관</text>
+    <text x="179" y="186" font-size="14.5" font-weight="700" fill="#FBF7F0" text-anchor="middle">부실채권 관리 개선 방안</text>
+
+    <text x="62" y="220" font-size="12" fill="#8A938F">채권을 들고 있는 곳</text>
+    <text x="62" y="242" font-size="14" fill="#1A2B2A">금융공공기관이</text>
+    <text x="62" y="264" font-size="14" fill="#1A2B2A">직접 보유</text>
+    <line x1="62" y1="280" x2="296" y2="280" stroke="#E3DCCF"/>
+
+    <text x="62" y="304" font-size="12" fill="#8A938F">연체 · 금액 기준</text>
+    <text x="62" y="326" font-size="14" fill="#1A2B2A">연체 5년 · 15년 구간</text>
+    <text x="62" y="348" font-size="14" fill="#1A2B2A">5년 이상 7년 이하는</text>
+    <text x="62" y="370" font-size="14" fill="#1A2B2A">5천만원 이하</text>
+    <line x1="62" y1="386" x2="296" y2="386" stroke="#E3DCCF"/>
+
+    <text x="62" y="410" font-size="12" fill="#8A938F">처리 결과</text>
+    <text x="62" y="432" font-size="14" fill="#1A2B2A">시효 완성 또는 소각,</text>
+    <text x="62" y="454" font-size="14" fill="#1A2B2A">캠코 매각 · 정리</text>
+    <line x1="62" y1="492" x2="296" y2="492" stroke="#E3DCCF"/>
+
+    <text x="62" y="516" font-size="12" fill="#8A938F">시점</text>
+    <text x="62" y="538" font-size="14" font-weight="700" fill="#0A5F58">'26년 4분기부터</text>
+    <text x="62" y="560" font-size="14" font-weight="700" fill="#0A5F58">순차 시행 예정</text>
+    <text x="62" y="582" font-size="12.5" fill="#8A938F">기관별 내규개정 선행</text>
+  </g>
+
+  <g>
+    <rect x="335" y="140" width="270" height="460" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="335" y="140" width="270" height="56" rx="10" fill="#0E7C72"/>
+    <text x="470" y="166" font-size="14.5" font-weight="700" fill="#FBF7F0" text-anchor="middle">새도약기금</text>
+    <text x="470" y="186" font-size="14.5" font-weight="700" fill="#FBF7F0" text-anchor="middle">(매입형)</text>
+
+    <text x="353" y="220" font-size="12" fill="#8A938F">채권을 들고 있는 곳</text>
+    <text x="353" y="242" font-size="14" fill="#1A2B2A">기금이 채권을</text>
+    <text x="353" y="264" font-size="14" fill="#1A2B2A">매입해 보유</text>
+    <line x1="353" y1="280" x2="587" y2="280" stroke="#E3DCCF"/>
+
+    <text x="353" y="304" font-size="12" fill="#8A938F">연체 · 금액 기준</text>
+    <text x="353" y="326" font-size="14" fill="#1A2B2A">7년 이상 연체,</text>
+    <text x="353" y="348" font-size="14" fill="#1A2B2A">무담보 원금 합계</text>
+    <text x="353" y="370" font-size="14" fill="#1A2B2A">5천만원 이하</text>
+    <line x1="353" y1="386" x2="587" y2="386" stroke="#E3DCCF"/>
+
+    <text x="353" y="410" font-size="12" fill="#8A938F">처리 결과</text>
+    <text x="353" y="432" font-size="14" fill="#1A2B2A">상환능력 없으면 소각,</text>
+    <text x="353" y="454" font-size="14" fill="#1A2B2A">있으면 신용회복위원회</text>
+    <text x="353" y="476" font-size="14" fill="#1A2B2A">강화된 채무조정</text>
+    <line x1="353" y1="492" x2="587" y2="492" stroke="#E3DCCF"/>
+
+    <text x="353" y="516" font-size="12" fill="#8A938F">시점</text>
+    <text x="353" y="538" font-size="14" font-weight="700" fill="#0A5F58">운영 중</text>
+    <text x="353" y="560" font-size="12.5" fill="#8A938F">매입 뒤 심사하는 구조라</text>
+    <text x="353" y="580" font-size="12.5" fill="#8A938F">접수 창구가 없다</text>
+  </g>
+
+  <g>
+    <rect x="626" y="140" width="270" height="460" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="626" y="140" width="270" height="56" rx="10" fill="#C2873B"/>
+    <text x="761" y="166" font-size="14.5" font-weight="700" fill="#FBF7F0" text-anchor="middle">조건부 대손인정</text>
+    <text x="761" y="186" font-size="14.5" font-weight="700" fill="#FBF7F0" text-anchor="middle">(금융회사 트랙)</text>
+
+    <text x="644" y="220" font-size="12" fill="#8A938F">채권을 들고 있는 곳</text>
+    <text x="644" y="242" font-size="14" fill="#1A2B2A">금융회사가</text>
+    <text x="644" y="264" font-size="14" fill="#1A2B2A">상각한 뒤 보유</text>
+    <line x1="644" y1="280" x2="878" y2="280" stroke="#E3DCCF"/>
+
+    <text x="644" y="304" font-size="12" fill="#8A938F">연체 · 금액 기준</text>
+    <text x="644" y="326" font-size="14" fill="#1A2B2A">은행 · 보험 5천만원 이하</text>
+    <text x="644" y="348" font-size="14" fill="#1A2B2A">저축은행 · 여전사 등</text>
+    <text x="644" y="370" font-size="14" fill="#1A2B2A">3천만원 이하</text>
+    <line x1="644" y1="386" x2="878" y2="386" stroke="#E3DCCF"/>
+
+    <text x="644" y="410" font-size="12" fill="#8A938F">처리 결과</text>
+    <text x="644" y="432" font-size="14" fill="#1A2B2A">최초 소멸시효 완성을</text>
+    <text x="644" y="454" font-size="14" fill="#1A2B2A">조건으로 대손인정</text>
+    <line x1="644" y1="492" x2="878" y2="492" stroke="#E3DCCF"/>
+
+    <text x="644" y="516" font-size="12" fill="#8A938F">시점</text>
+    <text x="644" y="538" font-size="14" font-weight="700" fill="#0A5F58">'26.10.12. 세칙 시행</text>
+    <text x="644" y="560" font-size="12.5" fill="#8A938F">대손상각 신청은</text>
+    <text x="644" y="580" font-size="12.5" fill="#8A938F">'26년 4분기부터 적용</text>
+  </g>
+
+  <rect x="44" y="616" width="852" height="44" rx="8" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="66" y="644" font-size="14" fill="#1A2B2A">같은 '연체 7년'이라도 채권을 기관이 보유 중인지, 기금이 매입했는지, 금융회사가 상각해 들고 있는지에 따라 규칙이 달라진다</text>
+
+  <text x="44" y="680" font-size="12" fill="#8A938F">출처: 금융위원회 보도자료(2026.10.28. · 2026.10.12.), 한국자산관리공사 새도약기금 안내. 물어봄 정리.</text>
+</svg>

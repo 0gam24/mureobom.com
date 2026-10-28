@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 660" role="img" aria-label="금융공공기관이 보유한 부실채권의 연체 구간별 처리. 연체 5년 최초 소멸시효 도래 시점에는 상환능력을 평가해 능력이 없으면 소멸시효 완성을 원칙으로 한다. 연체 5년 이상 7년 이하이면서 5천만원 이하인 1차 시효 도과 채권은 기관별 계획에 따라 심사를 거쳐 자체 소각하거나 캠코로 매각 정리하며 회수 실익 있는 재산 보유나 은닉은 제외된다. 연체 15년 2차 소멸시효 도래 채권은 재산 은닉 등 특별한 사유가 없으면 소각한다. 기초생활수급자, 장애인연금수급자, 국가유공자로서 생계지원금 수급자는 연체 금액과 관계없이 별도 심사 없이 시효를 완성한다. 시행은 26년 4분기부터 순차적이며 연체 15년 이상 장기 부실채권은 내년 하반기까지 단계적으로 정리한다." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="920" height="660" fill="#FBF7F0"/>
+
+  <text x="44" y="52" font-size="27" font-weight="700" fill="#1A2B2A">금융공공기관이 보유한 빚, 연체 구간에서 갈려요</text>
+  <text x="44" y="80" font-size="14" fill="#4A5856">금융위원회 · 금융감독원 2026.10.28. 보도자료 본문 기준. 정보 기준일 2026년 10월 29일</text>
+
+  <text x="44" y="118" font-size="16" font-weight="700" fill="#1A2B2A">1. 연체 기간에 따라 적용되는 규칙</text>
+
+  <g>
+    <rect x="44" y="130" width="264" height="230" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="44" y="130" width="264" height="34" rx="10" fill="#0E7C72"/>
+    <text x="176" y="153" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">연체 5년</text>
+    <text x="176" y="184" font-size="12.5" fill="#8A938F" text-anchor="middle">최초 소멸시효 도래</text>
+    <text x="64" y="212" font-size="14" fill="#4A5856">시효가 도래하는 시점에</text>
+    <text x="64" y="234" font-size="14" fill="#4A5856">상환능력을 평가</text>
+    <text x="64" y="264" font-size="15" font-weight="700" fill="#1A2B2A">상환능력이 없으면</text>
+    <text x="64" y="288" font-size="15" font-weight="700" fill="#0A5F58">시효 완성을 원칙으로</text>
+    <text x="64" y="320" font-size="12.5" fill="#8A938F">문장 끝이 '원칙으로 한다'</text>
+    <text x="64" y="340" font-size="12.5" fill="#8A938F">방향이 확정된 항목</text>
+  </g>
+
+  <g>
+    <rect x="328" y="130" width="264" height="230" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="328" y="130" width="264" height="34" rx="10" fill="#0E7C72"/>
+    <text x="460" y="153" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">연체 5년 이상 7년 이하</text>
+    <text x="460" y="184" font-size="12.5" fill="#8A938F" text-anchor="middle">5천만원 이하 · 1차 시효 도과</text>
+    <text x="348" y="212" font-size="14" fill="#4A5856">기관별 계획에 따라</text>
+    <text x="348" y="234" font-size="14" fill="#4A5856">심사를 거쳐</text>
+    <text x="348" y="264" font-size="15" font-weight="700" fill="#1A2B2A">자체 소각하거나</text>
+    <text x="348" y="288" font-size="15" font-weight="700" fill="#0A5F58">캠코로 매각 · 정리</text>
+    <text x="348" y="320" font-size="12.5" fill="#B5462F">회수 실익 있는 재산 보유 ·</text>
+    <text x="348" y="340" font-size="12.5" fill="#B5462F">은닉은 제외</text>
+  </g>
+
+  <g>
+    <rect x="612" y="130" width="264" height="230" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="612" y="130" width="264" height="34" rx="10" fill="#0E7C72"/>
+    <text x="744" y="153" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">연체 15년</text>
+    <text x="744" y="184" font-size="12.5" fill="#8A938F" text-anchor="middle">2차 소멸시효 도래</text>
+    <text x="632" y="212" font-size="14" fill="#4A5856">2차 소멸시효가</text>
+    <text x="632" y="234" font-size="14" fill="#4A5856">도래한 채권</text>
+    <text x="632" y="264" font-size="15" font-weight="700" fill="#1A2B2A">재산 은닉 등</text>
+    <text x="632" y="288" font-size="15" font-weight="700" fill="#0A5F58">특별한 사유 없으면 소각</text>
+    <text x="632" y="320" font-size="12.5" fill="#8A938F">세 구간 중 유일하게</text>
+    <text x="632" y="340" font-size="12.5" fill="#8A938F">'소각'으로 표기된 구간</text>
+  </g>
+
+  <text x="44" y="396" font-size="16" font-weight="700" fill="#1A2B2A">2. 구간과 무관하게 심사를 건너뛰는 범위</text>
+
+  <rect x="44" y="408" width="832" height="96" rx="10" fill="#E3F0EE" stroke="#E3DCCF"/>
+  <text x="68" y="440" font-size="17" font-weight="700" fill="#0A5F58">기초생활수급자 · 장애인연금수급자 · 국가유공자로서 생계지원금 수급자</text>
+  <text x="68" y="468" font-size="14" fill="#1A2B2A">연체 금액과 관계없이 별도 심사 없이 시효를 완성한다 (보도자료 문장)</text>
+  <text x="68" y="491" font-size="12.5" fill="#4A5856">다른 구간에 붙는 5천만원 상한이 이 범위에는 걸리지 않는 것으로 읽힌다</text>
+
+  <text x="44" y="540" font-size="16" font-weight="700" fill="#1A2B2A">3. 적용이 시작되는 시점</text>
+
+  <rect x="44" y="552" width="832" height="76" rx="10" fill="#F4EEE2" stroke="#C2873B"/>
+  <text x="68" y="582" font-size="15" font-weight="700" fill="#1A2B2A">관계기관 협의와 기관별 내규개정을 거쳐 '26년 4분기부터 순차적으로 시행</text>
+  <text x="68" y="610" font-size="14" fill="#4A5856">연체 15년 이상 장기 부실채권은 '내년 하반기'까지 단계적으로 정리 (보도자료 표현, 연도 표기 없음)</text>
+
+  <text x="44" y="650" font-size="12" fill="#8A938F">출처: 금융위원회 · 금융감독원 보도자료(2026.10.28.) 본문. 물어봄 정리.</text>
+</svg>
