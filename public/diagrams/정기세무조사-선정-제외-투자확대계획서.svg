@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="정기 세무조사 선정 제외 타임라인: 2025사업연도 수입금액으로 대상 판정, 2026년 11월 2일부터 30일까지 계획서 제출, 2027년 이행, 2025사업연도분 정기조사 선정 제외, 미이행 시 2028년 추가 선정">
+  <rect x="0" y="0" width="1200" height="800" fill="#FBF7F0"/>
+
+  <text x="48" y="66" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="36" font-weight="700" fill="#1A2B2A">세무조사 선정 제외, 네 개의 연도가 따로 움직여요</text>
+  <text x="48" y="104" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#4A5856">대상 판정과 계획 기준연도, 혜택 귀속연도, 미이행 제재 시점이 모두 다른 해예요</text>
+
+  <line x1="48" y1="132" x2="1152" y2="132" stroke="#E3DCCF" stroke-width="2"/>
+
+  <!-- card 1 -->
+  <rect x="48" y="156" width="258" height="222" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <circle cx="84" cy="192" r="18" fill="#0E7C72"/>
+  <text x="84" y="199" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#FBF7F0">1</text>
+  <text x="114" y="199" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#0A5F58">대상 판정</text>
+  <text x="72" y="244" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">’25사업연도 수입금액</text>
+  <text x="72" y="274" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">1,800억 원 이하 중소기업</text>
+  <text x="72" y="310" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">업종별로 400억 원까지</text>
+  <text x="72" y="336" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">내려가는 차등 기준</text>
+
+  <!-- card 2 -->
+  <rect x="330" y="156" width="258" height="222" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <circle cx="366" cy="192" r="18" fill="#0E7C72"/>
+  <text x="366" y="199" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#FBF7F0">2</text>
+  <text x="396" y="199" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#0A5F58">계획서 제출</text>
+  <text x="354" y="244" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">2026년 11월 2일(월)부터</text>
+  <text x="354" y="274" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">11월 30일(월)까지</text>
+  <text x="354" y="310" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">홈택스, 우편, 세무서</text>
+  <text x="354" y="336" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">민원실 방문 접수</text>
+
+  <!-- card 3 -->
+  <rect x="612" y="156" width="258" height="222" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <circle cx="648" cy="192" r="18" fill="#0E7C72"/>
+  <text x="648" y="199" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#FBF7F0">3</text>
+  <text x="678" y="199" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#0A5F58">계획 이행</text>
+  <text x="636" y="244" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">’27년 금액을 ’26년과 비교</text>
+  <text x="636" y="274" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">고용 2~3%(최소 1명)</text>
+  <text x="636" y="304" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">투자 5~20% 증가</text>
+  <text x="636" y="340" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">둘 중 하나만 제출 가능</text>
+
+  <!-- card 4 -->
+  <rect x="894" y="156" width="258" height="222" rx="14" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <circle cx="930" cy="192" r="18" fill="#C2873B"/>
+  <text x="930" y="199" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#FBF7F0">4</text>
+  <text x="960" y="199" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="23" font-weight="700" fill="#C2873B">제외 범위</text>
+  <text x="918" y="244" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">공식 문언은 '정기 세무조사</text>
+  <text x="918" y="274" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#1A2B2A">선정 제외'로 한정</text>
+  <text x="918" y="310" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">탈루혐의 등 비정기조사</text>
+  <text x="918" y="336" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">사유는 법에 따로 있음</text>
+
+  <!-- branch panels -->
+  <text x="48" y="432" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">’27년 결과에 따라 갈리는 두 갈래</text>
+
+  <rect x="48" y="452" width="540" height="196" rx="14" fill="#E3F0EE" stroke="#0A5F58" stroke-width="2"/>
+  <text x="80" y="498" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#0A5F58">계획대로 늘린 경우</text>
+  <text x="80" y="542" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#1A2B2A">’25사업연도 법인세와 ’25년 귀속</text>
+  <text x="80" y="574" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#1A2B2A">종합소득세 정기 세무조사</text>
+  <text x="80" y="606" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#1A2B2A">대상 선정에서 제외</text>
+
+  <rect x="612" y="452" width="540" height="196" rx="14" fill="#F4EEE2" stroke="#B5462F" stroke-width="2"/>
+  <text x="644" y="498" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="24" font-weight="700" fill="#B5462F">계획대로 늘리지 않은 경우</text>
+  <text x="644" y="542" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#1A2B2A">세정지원에서 배제되고,</text>
+  <text x="644" y="574" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#1A2B2A">’28년에 ’25사업연도 정기 세무조사</text>
+  <text x="644" y="606" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#1A2B2A">대상자로 추가 선정</text>
+
+  <line x1="48" y1="688" x2="1152" y2="688" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="48" y="722" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">제출기간은 해마다 바뀌어요. 2025년 안내는 11월 3일부터 12월 1일까지였어요.</text>
+  <text x="48" y="756" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#8A938F">자료: 국세청 2026년 10월 28일 보도자료 및 세정지원 공지사항 (정보 기준일 2026년 10월 30일)</text>
+</svg>

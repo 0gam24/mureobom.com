@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" width="1200" height="820" role="img" aria-label="2026년분 세정지원 기준비율 매트릭스: 수입금액 500억 원 미만은 수도권 투자 10퍼센트, 지방 투자 5퍼센트, 고용 2퍼센트, 500억 원부터 1800억 원은 수도권 투자 20퍼센트, 지방 투자 15퍼센트, 고용 3퍼센트">
+  <rect x="0" y="0" width="1200" height="820" fill="#FBF7F0"/>
+
+  <text x="48" y="66" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="34" font-weight="700" fill="#1A2B2A">수입금액 구간과 사업장 위치로 갈리는 기준비율</text>
+  <text x="48" y="104" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#4A5856">모두 ’27년 금액을 ’26년과 비교한 증가율이에요 (2026년분 국세청 공지 기준)</text>
+
+  <!-- header row -->
+  <rect x="48" y="140" width="400" height="80" fill="#0A5F58"/>
+  <rect x="448" y="140" width="352" height="80" fill="#0A5F58"/>
+  <rect x="800" y="140" width="352" height="80" fill="#0A5F58"/>
+  <text x="80" y="188" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#FBF7F0">구분</text>
+  <text x="624" y="176" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#FBF7F0">’25사업연도 수입금액</text>
+  <text x="624" y="204" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#FBF7F0">500억 원 미만</text>
+  <text x="976" y="176" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#FBF7F0">500억 원부터</text>
+  <text x="976" y="204" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#FBF7F0">1,800억 원까지</text>
+
+  <!-- row 1 -->
+  <rect x="48" y="220" width="400" height="96" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="448" y="220" width="352" height="96" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="800" y="220" width="352" height="96" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="80" y="262" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">투자 확대 (수도권 사업장)</text>
+  <text x="80" y="292" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">서울, 인천, 경기</text>
+  <text x="624" y="280" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#0A5F58">10% 이상</text>
+  <text x="976" y="280" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#0A5F58">20% 이상</text>
+
+  <!-- row 2 -->
+  <rect x="48" y="316" width="400" height="96" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="448" y="316" width="352" height="96" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="800" y="316" width="352" height="96" fill="#E3F0EE" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="80" y="358" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">투자 확대 (지방 사업장)</text>
+  <text x="80" y="388" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">수도권보다 5%p 낮은 기준</text>
+  <text x="624" y="376" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#0E7C72">5% 이상</text>
+  <text x="976" y="376" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#0E7C72">15% 이상</text>
+
+  <!-- row 3 -->
+  <rect x="48" y="412" width="400" height="96" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="448" y="412" width="352" height="96" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="800" y="412" width="352" height="96" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="80" y="454" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#1A2B2A">상시근로자 증가</text>
+  <text x="80" y="484" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">비율과 함께 최소 1명 요건</text>
+  <text x="624" y="472" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#C2873B">2% 이상</text>
+  <text x="976" y="472" text-anchor="middle" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#C2873B">3% 이상</text>
+
+  <!-- notes -->
+  <rect x="48" y="548" width="1104" height="100" rx="14" fill="#E3F0EE" stroke="#0A5F58" stroke-width="2"/>
+  <text x="80" y="590" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#0A5F58">수도권과 지방에 동시 투자하는 경우</text>
+  <text x="80" y="624" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#1A2B2A">지방 사업장 투자비율이 80% 이상이면 지방 사업장 기준비율을 적용해요.</text>
+
+  <rect x="48" y="664" width="1104" height="100" rx="14" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+  <text x="80" y="706" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#C2873B">고용 가중치</text>
+  <text x="80" y="740" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" fill="#1A2B2A">일반 중소기업이 청년(15~34세), 고령자(60세 이상), 장애인을 고용하면 1명을 2명으로 봐요.</text>
+
+  <text x="48" y="796" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#8A938F">자료: 국세청 2026년 10월 28일 투자확대기업 및 일자리창출기업 세정지원 공지, 같은 날 보도자료</text>
+</svg>
