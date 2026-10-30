@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="2027년 장기요양보험료율의 두 가지 표기와 재가급여 월 한도액 인상 비교. 소득 대비 요율은 0.9448%에서 0.9994%로, 고지 계산에 쓰는 건강보험료 대비 요율은 13.14%에서 13.90%로 올랐고 건강보험료율 7.19%는 동결됐다. 보험료 요율 인상률 5.78%에 비해 1·2등급 재가급여 월 한도액 인상률은 약 15.1%다">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <text x="48" y="56" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="34" font-weight="700" fill="#1A2B2A">2027년 장기요양보험료율, 숫자가 두 개인 이유</text>
+  <text x="48" y="92" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">정보 기준일 2026년 10월 30일 장기요양위원회 의결 · 보건복지부 보도자료</text>
+
+  <!-- 2026년 패널 -->
+  <rect x="48" y="116" width="528" height="200" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <rect x="48" y="116" width="528" height="42" rx="10" fill="#E3DCCF"/>
+  <text x="72" y="146" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#1A2B2A">2026년</text>
+  <text x="72" y="192" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">발표되는 값 (소득 대비)</text>
+  <text x="72" y="228" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#4A5856">0.9448%</text>
+  <text x="72" y="264" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">고지 계산에 쓰는 값 (건강보험료 대비)</text>
+  <text x="72" y="298" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#4A5856">13.14%</text>
+
+  <!-- 2027년 패널 -->
+  <rect x="624" y="116" width="528" height="200" rx="10" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <rect x="624" y="116" width="528" height="42" rx="10" fill="#0A5F58"/>
+  <text x="648" y="146" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="20" font-weight="700" fill="#FBF7F0">2027년</text>
+  <text x="648" y="192" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">발표되는 값 (소득 대비)</text>
+  <text x="648" y="228" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="30" font-weight="700" fill="#0A5F58">0.9994%</text>
+  <text x="648" y="264" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">고지 계산에 쓰는 값 (건강보험료 대비)</text>
+  <text x="648" y="298" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="27" font-weight="700" fill="#C2873B">13.90%</text>
+
+  <!-- 환산 전제 밴드 -->
+  <rect x="48" y="336" width="1104" height="76" rx="10" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+  <text x="72" y="366" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#1A2B2A">건강보험료율 7.19%는 2026년·2027년 모두 동결 (2026년 9월 8일 건강보험정책심의위원회)</text>
+  <text x="72" y="394" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#4A5856">그래서 0.9994 ÷ 7.19 = 13.90, 0.9448 ÷ 7.19 = 13.14 (직접 나눠 본 검산값)</text>
+
+  <text x="48" y="440" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="17" fill="#4A5856">보도자료 예시: 건강보험료가 월 10만 원이면 2027년 장기요양보험료는 1만 3,900원</text>
+
+  <!-- 인상률 대비 -->
+  <text x="48" y="486" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="21" font-weight="700" fill="#1A2B2A">같은 회의에서 결정된 두 인상률</text>
+
+  <text x="48" y="539" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#4A5856">장기요양보험료 요율 (소득 대비)</text>
+  <rect x="440" y="512" width="243" height="40" fill="#E3DCCF"/>
+  <text x="699" y="541" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#4A5856">+5.78%</text>
+
+  <text x="48" y="609" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="18" fill="#1A2B2A">1·2등급 재가급여 월 한도액</text>
+  <rect x="440" y="582" width="634" height="40" fill="#0E7C72"/>
+  <text x="1058" y="611" text-anchor="end" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="22" font-weight="700" fill="#FBF7F0">+15.1%</text>
+
+  <text x="48" y="650" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#8A938F">보험료 5.78%는 보도자료 명시값, 한도액 인상률은 보도자료 금액으로 직접 계산</text>
+
+  <!-- 한도액 표 -->
+  <rect x="48" y="666" width="1104" height="140" rx="10" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+  <text x="72" y="698" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">등급</text>
+  <text x="260" y="698" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">2026년 월 한도액</text>
+  <text x="600" y="698" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">2027년 월 한도액</text>
+  <text x="940" y="698" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#8A938F">인상액</text>
+
+  <text x="72" y="738" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#1A2B2A">1등급</text>
+  <text x="260" y="738" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">251만 2,900원</text>
+  <text x="600" y="738" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">289만 1,400원</text>
+  <text x="940" y="738" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#C2873B">+37만 8,500원</text>
+
+  <text x="72" y="778" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#1A2B2A">2등급</text>
+  <text x="260" y="778" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" fill="#4A5856">233만 1,200원</text>
+  <text x="600" y="778" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#0A5F58">268만 2,300원</text>
+  <text x="940" y="778" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="19" font-weight="700" fill="#C2873B">+35만 1,100원</text>
+
+  <text x="48" y="832" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#4A5856">방문요양(3시간) 월 이용 가능 횟수는 1등급 44회에서 48회, 2등급 40회에서 45회</text>
+  <text x="48" y="860" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="16" fill="#B5462F">재가급여 본인부담률 15%는 그대로여서 한도액을 다 쓰면 본인부담도 함께 늘어납니다</text>
+  <text x="48" y="886" font-family="'IBM Plex Sans KR', system-ui, sans-serif" font-size="15" fill="#8A938F">3등급 이하 금액은 보도자료 본문에 없어 생략 · 등급별 인상폭은 2만 3,880원에서 37만 8,500원</text>
+</svg>
