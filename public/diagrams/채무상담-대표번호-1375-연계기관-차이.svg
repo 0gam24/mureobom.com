@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-label="채무상담 대표번호 1375의 연계 지도. 1375는 신용회복위원회 종합채무상담 창구로 2026년 10월 29일 정식 개통, 통화료는 수신자인 신용회복위원회가 부담하고 운영시간은 평일 09시부터 18시까지. 서민금융진흥원 1397(정책서민금융), 금융감독원 1332(금융소비자보호), 대한법률구조공단 132(법률지원)와는 양방향 연계로 통화 종료 없이 서로 연결되고, 자살예방상담전화 109와 보건복지상담센터 129는 운영시간 중 1375 쪽으로만 연결되는 단방향 연계. 통화료는 1375가 수신자 부담, 1332는 유료로 발신자 부담" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="960" height="720" fill="#FBF7F0"/>
+
+  <text x="44" y="50" font-size="27" font-weight="700" fill="#1A2B2A">채무 상담, 어느 번호를 누르면 무엇이 이어지나</text>
+  <text x="44" y="78" font-size="13.5" fill="#4A5856">금융위원회 보도자료(2026.10.29.·2026.7.14.)와 금융감독원 금융민원상담 안내 기준 · 정보 기준일 2026.11.1.</text>
+
+  <text x="44" y="112" font-size="16" font-weight="700" fill="#1A2B2A">양방향 연계 3곳 · 통화를 끊지 않고 서로 연결</text>
+
+  <g>
+    <rect x="44" y="122" width="282" height="110" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="44" y="122" width="282" height="30" rx="10" fill="#0E7C72"/>
+    <text x="185" y="143" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">전화 1397</text>
+    <text x="62" y="176" font-size="14.5" font-weight="700" fill="#1A2B2A">서민금융진흥원</text>
+    <text x="62" y="199" font-size="13.5" fill="#4A5856">정책서민금융 상품 상담</text>
+    <text x="62" y="220" font-size="12" fill="#8A938F">신규 지원 상품이 쟁점일 때</text>
+  </g>
+
+  <g>
+    <rect x="339" y="122" width="282" height="110" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="339" y="122" width="282" height="30" rx="10" fill="#0E7C72"/>
+    <text x="480" y="143" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">전화 1332</text>
+    <text x="357" y="176" font-size="14.5" font-weight="700" fill="#1A2B2A">금융감독원</text>
+    <text x="357" y="199" font-size="13.5" fill="#4A5856">금융소비자보호 민원 상담</text>
+    <text x="357" y="220" font-size="12" fill="#8A938F">은행·보험·증권 권역별 자동 연결</text>
+  </g>
+
+  <g>
+    <rect x="634" y="122" width="282" height="110" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="634" y="122" width="282" height="30" rx="10" fill="#0E7C72"/>
+    <text x="775" y="143" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">전화 132</text>
+    <text x="652" y="176" font-size="14.5" font-weight="700" fill="#1A2B2A">대한법률구조공단</text>
+    <text x="652" y="199" font-size="13.5" fill="#4A5856">법률지원 상담</text>
+    <text x="652" y="220" font-size="12" fill="#8A938F">소송·법률구조가 필요할 때</text>
+  </g>
+
+  <g stroke="#0E7C72" stroke-width="2">
+    <line x1="175" y1="236" x2="175" y2="258"/>
+    <line x1="195" y1="236" x2="195" y2="258"/>
+    <line x1="470" y1="236" x2="470" y2="258"/>
+    <line x1="490" y1="236" x2="490" y2="258"/>
+    <line x1="765" y1="236" x2="765" y2="258"/>
+    <line x1="785" y1="236" x2="785" y2="258"/>
+  </g>
+  <g fill="#0E7C72">
+    <polygon points="169,252 181,252 175,264"/>
+    <polygon points="189,242 201,242 195,230"/>
+    <polygon points="464,252 476,252 470,264"/>
+    <polygon points="484,242 496,242 490,230"/>
+    <polygon points="759,252 771,252 765,264"/>
+    <polygon points="779,242 791,242 785,230"/>
+  </g>
+
+  <rect x="44" y="268" width="872" height="132" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="76" y="316" font-size="36" font-weight="700" fill="#0A5F58">전화 1375</text>
+  <text x="76" y="346" font-size="14" fill="#4A5856">신용회복위원회 종합채무상담</text>
+  <text x="76" y="368" font-size="14" fill="#4A5856">2026.10.29. 정식 개통 (별칭 일상치료)</text>
+  <line x1="316" y1="286" x2="316" y2="382" stroke="#0E7C72" stroke-width="1"/>
+  <text x="344" y="302" font-size="15.5" font-weight="700" fill="#0A5F58">통화료 수신자(신용회복위원회) 부담</text>
+  <text x="344" y="328" font-size="15.5" font-weight="700" fill="#1A2B2A">운영시간 평일 09:00 ~ 18:00</text>
+  <text x="344" y="354" font-size="13" fill="#4A5856">채무조정(금융채무 및 통신·전기요금 등), 개인회생·파산 신청지원(Fast-track)·신속면책,</text>
+  <text x="344" y="375" font-size="13" fill="#4A5856">불법사금융 원스톱 피해 신고, 금융·고용·복지 복합지원을 상담·안내</text>
+
+  <g stroke="#C2873B" stroke-width="2">
+    <line x1="259" y1="430" x2="259" y2="414"/>
+    <line x1="701" y1="430" x2="701" y2="414"/>
+  </g>
+  <g fill="#C2873B">
+    <polygon points="253,416 265,416 259,404"/>
+    <polygon points="695,416 707,416 701,404"/>
+  </g>
+  <text x="44" y="424" font-size="16" font-weight="700" fill="#1A2B2A">단방향 연계 2곳</text>
+
+  <g>
+    <rect x="44" y="436" width="430" height="78" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="44" y="436" width="430" height="30" rx="10" fill="#C2873B"/>
+    <text x="259" y="457" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">전화 109</text>
+    <text x="66" y="490" font-size="14.5" font-weight="700" fill="#1A2B2A">자살예방상담전화</text>
+    <text x="66" y="507" font-size="12" fill="#8A938F">채무상담을 원하면 1375 쪽으로 연결</text>
+  </g>
+
+  <g>
+    <rect x="486" y="436" width="430" height="78" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="486" y="436" width="430" height="30" rx="10" fill="#C2873B"/>
+    <text x="701" y="457" font-size="15" font-weight="700" fill="#FBF7F0" text-anchor="middle">전화 129</text>
+    <text x="508" y="490" font-size="14.5" font-weight="700" fill="#1A2B2A">보건복지상담센터</text>
+    <text x="508" y="507" font-size="12" fill="#8A938F">채무상담을 원하면 1375 쪽으로 연결</text>
+  </g>
+
+  <rect x="44" y="524" width="872" height="46" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="66" y="545" font-size="13" font-weight="700" fill="#1A2B2A">109·129 이용자 중 과중 채무, 소득활동 제한 등 경제적 어려움을 겪는 사람이 채무상담을 원하는 경우</text>
+  <text x="66" y="563" font-size="13" fill="#4A5856">통화를 끊지 않고 1375로 바로 연결됩니다. 연결 방향은 한쪽이고, 운영시간 중에만 이어집니다</text>
+
+  <rect x="44" y="576" width="430" height="80" rx="10" fill="#E3F0EE" stroke="#0E7C72"/>
+  <text x="66" y="602" font-size="14.5" font-weight="700" fill="#0A5F58">1375 통화료</text>
+  <text x="66" y="628" font-size="17" font-weight="700" fill="#0A5F58">수신자(신용회복위원회) 부담</text>
+  <text x="66" y="648" font-size="12" fill="#4A5856">2026.7.14. 발표 때부터 수신자 부담으로 설계</text>
+
+  <rect x="486" y="576" width="430" height="80" rx="10" fill="#F4EEE2" stroke="#B5462F"/>
+  <text x="508" y="602" font-size="14.5" font-weight="700" fill="#B5462F">1332 통화료</text>
+  <text x="508" y="628" font-size="17" font-weight="700" fill="#1A2B2A">유료, 발신자 부담</text>
+  <text x="508" y="648" font-size="12" fill="#4A5856">금융감독원 금융민원상담 안내 표기</text>
+
+  <text x="44" y="694" font-size="11.5" fill="#8A938F">출처: 금융위원회 보도자료(2026.10.29. 채무상담 대표번호 1375 개통식, 2026.7.14. 경제적 위기자 자살예방대책), 금융감독원 금융민원상담 안내. 물어봄 정리.</text>
+</svg>
