@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" width="1200" height="840" role="img" aria-label="보금자리론의 기준일 세 개와 2026년 11월 금리 인상 구조. 신청일은 공사 사전심사(u·아낌e)에서는 고객이 신청시스템에서 신청 완료한 날, 금융기관 심사(t)에서는 금융기관이 공사에 신청내역을 전산 통지한 날이며 금리 비교 구간의 시작점, 우대금리 요건 전 항목 판정, 신혼가구 혼인신고 7년 판정이 걸려 있다. 승인일은 담보주택 6억원 초과 여부 판정 기준이고 사전심사 건은 확약통지에 적힌 금리를 적용한다는 단서가 있다. 실행일은 금융기관이 대출금을 지급하는 날로 금리가 확정되고 고정금리가 기산되며 비교 구간이 끝난다. 2026년 11월 9일 월요일 공시분부터 전 상품 전 만기 0.10%p 인상되어 아낌e는 4.90~5.20%에서 5.00~5.30%, u와 t는 5.00~5.30%에서 5.10~5.40%가 된다. 마감일 11월 8일은 일요일이고 마지막 평일은 11월 6일 금요일. 마감 시각과 신청 완료 단계의 경계는 공고와 규정에 적혀 있지 않고 확인 경로는 고객센터 1688-8114 월요일부터 금요일 09시부터 18시" font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="1200" height="840" fill="#FBF7F0"/>
+
+  <text x="48" y="58" font-size="30" font-weight="700" fill="#1A2B2A">보금자리론, 날짜 하나가 아니라 기준일 세 개</text>
+  <text x="48" y="88" font-size="15" fill="#4A5856">공사 업무처리기준(일부개정 2024.01.29)·상품안내·금리공시 대조 · 정보 기준일 2026년 11월 5일</text>
+
+  <text x="48" y="126" font-size="17" font-weight="700" fill="#1A2B2A">기준일 세 개에 서로 다른 조건이 매달려 있어요</text>
+
+  <g>
+    <rect x="48" y="142" width="352" height="306" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="48" y="142" width="352" height="46" rx="12" fill="#0E7C72"/>
+    <text x="224" y="173" font-size="20" font-weight="700" fill="#FBF7F0" text-anchor="middle">신청일</text>
+    <text x="72" y="214" font-size="13.5" font-weight="700" fill="#0A5F58">공사 사전심사 (u·아낌e)</text>
+    <text x="72" y="236" font-size="13.5" fill="#4A5856">고객이 신청시스템에서</text>
+    <text x="72" y="256" font-size="13.5" fill="#4A5856">신청 완료한 날</text>
+    <text x="72" y="288" font-size="13.5" font-weight="700" fill="#0A5F58">금융기관 심사 (t)</text>
+    <text x="72" y="310" font-size="13.5" fill="#4A5856">금융기관이 공사에 고객의</text>
+    <text x="72" y="330" font-size="13.5" fill="#4A5856">신청내역을 전산 통지한 날</text>
+    <line x1="72" y1="350" x2="376" y2="350" stroke="#E3DCCF" stroke-width="1"/>
+    <circle cx="78" cy="369" r="4" fill="#0E7C72"/>
+    <text x="94" y="374" font-size="14.5" fill="#1A2B2A">금리 비교 구간의 시작점</text>
+    <circle cx="78" cy="395" r="4" fill="#0E7C72"/>
+    <text x="94" y="400" font-size="14.5" fill="#1A2B2A">우대금리 요건 전 항목 판정</text>
+    <circle cx="78" cy="421" r="4" fill="#0E7C72"/>
+    <text x="94" y="426" font-size="14.5" fill="#1A2B2A">신혼가구 혼인신고 7년 판정</text>
+  </g>
+
+  <g>
+    <rect x="424" y="142" width="352" height="306" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="424" y="142" width="352" height="46" rx="12" fill="#0E7C72"/>
+    <text x="600" y="173" font-size="20" font-weight="700" fill="#FBF7F0" text-anchor="middle">승인일</text>
+    <text x="448" y="214" font-size="13.5" font-weight="700" fill="#0A5F58">공사 사전심사 (u·아낌e)</text>
+    <text x="448" y="236" font-size="13.5" fill="#4A5856">사전심사가 끝나 공사가</text>
+    <text x="448" y="256" font-size="13.5" fill="#4A5856">확약통지서를 보낼 수 있는 날</text>
+    <text x="448" y="288" font-size="13.5" font-weight="700" fill="#0A5F58">금융기관 심사 (t)</text>
+    <text x="448" y="310" font-size="13.5" fill="#4A5856">대출 심사가 끝나 실행</text>
+    <text x="448" y="330" font-size="13.5" fill="#4A5856">절차만 남게 된 날</text>
+    <line x1="448" y1="350" x2="752" y2="350" stroke="#E3DCCF" stroke-width="1"/>
+    <circle cx="454" cy="369" r="4" fill="#0E7C72"/>
+    <text x="470" y="374" font-size="14.5" fill="#1A2B2A">담보주택 6억원 초과 판정</text>
+    <circle cx="454" cy="395" r="4" fill="#0E7C72"/>
+    <text x="470" y="400" font-size="13.5" fill="#1A2B2A">사전심사 건은 확약통지에</text>
+    <text x="470" y="420" font-size="13.5" fill="#1A2B2A">적힌 금리를 적용한다는 단서</text>
+  </g>
+
+  <g>
+    <rect x="800" y="142" width="352" height="306" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="800" y="142" width="352" height="46" rx="12" fill="#0E7C72"/>
+    <text x="976" y="173" font-size="20" font-weight="700" fill="#FBF7F0" text-anchor="middle">실행일</text>
+    <text x="824" y="214" font-size="13.5" font-weight="700" fill="#0A5F58">공통</text>
+    <text x="824" y="236" font-size="13.5" fill="#4A5856">금융기관이 대출금을</text>
+    <text x="824" y="256" font-size="13.5" fill="#4A5856">고객에게 지급하는 날</text>
+    <text x="824" y="288" font-size="13.5" font-weight="700" fill="#0A5F58">금리가 확정되는 시점</text>
+    <text x="824" y="310" font-size="13.5" fill="#4A5856">신청일부터 실행일까지 중</text>
+    <text x="824" y="330" font-size="13.5" fill="#4A5856">가장 낮은 금리를 적용</text>
+    <line x1="824" y1="350" x2="1128" y2="350" stroke="#E3DCCF" stroke-width="1"/>
+    <circle cx="830" cy="369" r="4" fill="#0E7C72"/>
+    <text x="846" y="374" font-size="14.5" fill="#1A2B2A">고정금리 기산점</text>
+    <circle cx="830" cy="395" r="4" fill="#0E7C72"/>
+    <text x="846" y="400" font-size="14.5" fill="#1A2B2A">만기까지 같은 금리 유지</text>
+    <circle cx="830" cy="421" r="4" fill="#0E7C72"/>
+    <text x="846" y="426" font-size="14.5" fill="#1A2B2A">금리 비교 구간의 끝</text>
+  </g>
+
+  <rect x="48" y="468" width="1104" height="118" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="80" y="508" font-size="23" font-weight="700" fill="#0A5F58">2026년 11월 9일(월) 공시분부터 전 상품·전 만기 0.10%p 인상</text>
+  <text x="80" y="540" font-size="15" fill="#4A5856">공시일 2026.11.1.   아낌e 4.90~5.20%   ·   u·t 5.00~5.30%</text>
+  <text x="80" y="566" font-size="15" fill="#4A5856">공시일 2026.11.9.   아낌e 5.00~5.30%   ·   u·t 5.10~5.40%        만기 10·15·20·30·40·50년 기준</text>
+
+  <rect x="48" y="604" width="540" height="110" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="76" y="638" font-size="17" font-weight="700" fill="#1A2B2A">마감일 2026년 11월 8일은 일요일</text>
+  <text x="76" y="666" font-size="13.5" fill="#4A5856">인상 적용 개시일 11월 9일은 월요일이고, 마감 직전</text>
+  <text x="76" y="688" font-size="13.5" fill="#4A5856">마지막 평일은 11월 6일 금요일이에요</text>
+
+  <rect x="612" y="604" width="540" height="110" rx="12" fill="#F4EEE2" stroke="#B5462F"/>
+  <text x="640" y="638" font-size="17" font-weight="700" fill="#B5462F">공고·규정에 적혀 있지 않은 것</text>
+  <text x="640" y="666" font-size="13.5" fill="#4A5856">마감 시각(몇 시까지), 그리고 신청 절차 중 어디까지</text>
+  <text x="640" y="688" font-size="13.5" fill="#4A5856">끝내야 완료로 보는지의 경계</text>
+
+  <rect x="48" y="730" width="1104" height="54" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+  <text x="76" y="754" font-size="14" font-weight="700" fill="#1A2B2A">확인 경로: 공사 고객센터 1688-8114 (월~금 09:00~18:00, 서비스코드 1번 보금자리론)</text>
+  <text x="76" y="774" font-size="13" fill="#4A5856">고객상담은 접수일로부터 3영업일 이내 회신 기준이라, 상담 단계가 당일에 끝난다고 전제하기는 어려워요</text>
+
+  <text x="48" y="814" font-size="11.5" fill="#8A938F">출처: 한국주택금융공사 보금자리론 금리안내(공시일 2026.11.1.·2026.11.9.), 보도자료(2026.11.2.), 상품안내, 신청절차, 업무처리기준, 설명서(시행 2026.4.17.), 핵심서비스 이행표준. 물어봄 정리.</text>
+</svg>
