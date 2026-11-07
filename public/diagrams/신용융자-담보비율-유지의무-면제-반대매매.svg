@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="신용융자 담보비율을 금융투자업규정 제4-25조의 항 단위로 가른 그림. 2026년 11월 6일 관계기관 합동 시장상황점검회의가 3개월간 면제하고 11월 9일 시행하기로 한 대상은 제4-25조 제1항의 담보 징구의무이며, 신용공여금액의 100분의 140 이상, 신용거래대주는 대주 시가상당액의 100분의 105 이상으로 규정이 수치를 직접 적어 둔 조항이다. 그대로 남는 것은 같은 조 제3항의 담보유지비율로, 투자매매업자 또는 투자중개업자가 정한 일정비율이라고만 적혀 있어 규정에 수치가 없고 반대매매를 직접 당기는 기준이다. 보도자료에는 3개월간과 11월 9일 시행만 적혀 있고 종료 날짜와 증권사별 담보유지비율 수치는 없다. 담보가 모자랄 때의 순서는 담보 평가금액 비율이 담보유지비율에 미달하면 제4-25조 제3항과 제7항에 따라 증권사가 지체 없이 내용증명 우편이나 통화 녹취 등 입증되는 방법으로 추가담보 납부를 요구하고, 증권사가 정한 납입기일까지 미납되면 제4-28조 제1항 제2호에 따라 그 다음 영업일에 예탁 현금, 담보증권, 그 밖에 예탁한 증권 순서로 임의처분하며, 처분대금은 제4-28조 제5항에 따라 처분제비용, 연체이자, 이자, 채무원금 순서로 충당된다. 예외로 제4-28조 제2항은 사전 합의가 있고 시세 급변으로 채권회수가 현저히 위험하면 추가담보 요구 없이 바로 처분할 수 있도록 정한다." font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <text x="48" y="52" font-size="31" font-weight="700" fill="#1A2B2A">신용융자 담보비율, 면제된 항과 그대로인 항</text>
+  <text x="48" y="82" font-size="15" fill="#4A5856">금융투자업규정 제4-25조를 항 단위로 분해 · 금융위 발표 2026년 11월 6일, 시행 11월 9일 · 정보 기준일 2026년 11월 8일</text>
+
+  <g>
+    <rect x="48" y="110" width="540" height="250" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="48" y="110" width="540" height="46" rx="12" fill="#C2873B"/>
+    <text x="318" y="141" font-size="20" font-weight="700" fill="#FBF7F0" text-anchor="middle">3개월간 면제 (11월 9일 시행)</text>
+    <text x="76" y="192" font-size="18" font-weight="700" fill="#0A5F58">제4-25조 제1항 담보 징구의무</text>
+    <text x="76" y="224" font-size="16" fill="#1A2B2A">신용공여금액의 100분의 140 이상</text>
+    <text x="76" y="250" font-size="14.5" fill="#4A5856">신용거래대주는 대주 시가상당액의</text>
+    <text x="76" y="272" font-size="14.5" fill="#4A5856">100분의 105 이상</text>
+    <line x1="76" y1="296" x2="560" y2="296" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="76" y="322" font-size="15" fill="#1A2B2A">규정이 수치를 직접 적어 둔 조항</text>
+    <text x="76" y="346" font-size="13" fill="#8A938F">개정 2022. 11. 9. · 2024. 10. 2.</text>
+  </g>
+
+  <g>
+    <rect x="612" y="110" width="540" height="250" rx="12" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <rect x="612" y="110" width="540" height="46" rx="12" fill="#0E7C72"/>
+    <text x="882" y="141" font-size="20" font-weight="700" fill="#FBF7F0" text-anchor="middle">그대로 남아 있는 것</text>
+    <text x="640" y="192" font-size="18" font-weight="700" fill="#0A5F58">제4-25조 제3항 담보유지비율</text>
+    <text x="640" y="224" font-size="16" fill="#1A2B2A">투자매매업자 또는 투자중개업자가</text>
+    <text x="640" y="250" font-size="16" fill="#1A2B2A">정한 일정비율</text>
+    <line x1="640" y1="296" x2="1124" y2="296" stroke="#E3DCCF" stroke-width="1"/>
+    <text x="640" y="322" font-size="15" fill="#1A2B2A">규정에 수치가 없고 증권사가 정합니다</text>
+    <text x="640" y="346" font-size="13.5" font-weight="700" fill="#B5462F">반대매매를 직접 당기는 기준</text>
+  </g>
+
+  <rect x="48" y="380" width="1104" height="66" rx="12" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+  <text x="76" y="410" font-size="19" font-weight="700" fill="#0A5F58">보도자료에 적힌 것은 '3개월간'과 '11.9일 시행'입니다</text>
+  <text x="76" y="434" font-size="14.5" fill="#4A5856">종료 날짜는 기재되어 있지 않고, 증권사별 담보유지비율 수치도 보도자료에 없습니다</text>
+
+  <text x="48" y="486" font-size="19" font-weight="700" fill="#1A2B2A">담보가 모자랄 때 규정이 정한 순서</text>
+
+  <g>
+    <rect x="48" y="502" width="1104" height="58" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <circle cx="80" cy="531" r="16" fill="#0E7C72"/>
+    <text x="80" y="537" font-size="17" font-weight="700" fill="#FBF7F0" text-anchor="middle">1</text>
+    <text x="112" y="537" font-size="16" fill="#1A2B2A">담보 평가금액 비율이 담보유지비율에 미달</text>
+    <text x="1128" y="537" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="end">제4-25조 제3항</text>
+    <polygon points="72,563 88,563 80,572" fill="#8A938F"/>
+  </g>
+
+  <g>
+    <rect x="48" y="570" width="1104" height="58" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <circle cx="80" cy="599" r="16" fill="#0E7C72"/>
+    <text x="80" y="605" font-size="17" font-weight="700" fill="#FBF7F0" text-anchor="middle">2</text>
+    <text x="112" y="605" font-size="15.5" fill="#1A2B2A">지체 없이 추가담보 납부를 요구 (내용증명 우편·통화 녹취 등 입증되는 방법)</text>
+    <text x="1128" y="605" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="end">제4-25조 제3항·제7항</text>
+    <polygon points="72,631 88,631 80,640" fill="#8A938F"/>
+  </g>
+
+  <g>
+    <rect x="48" y="638" width="1104" height="58" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <circle cx="80" cy="667" r="16" fill="#0E7C72"/>
+    <text x="80" y="673" font-size="17" font-weight="700" fill="#FBF7F0" text-anchor="middle">3</text>
+    <text x="112" y="673" font-size="16" fill="#1A2B2A">증권사가 정한 납입기일까지 미납</text>
+    <text x="1128" y="673" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="end">제4-28조 제1항 제2호</text>
+    <polygon points="72,699 88,699 80,708" fill="#8A938F"/>
+  </g>
+
+  <g>
+    <rect x="48" y="706" width="1104" height="58" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <circle cx="80" cy="735" r="16" fill="#0A5F58"/>
+    <text x="80" y="741" font-size="17" font-weight="700" fill="#FBF7F0" text-anchor="middle">4</text>
+    <text x="112" y="741" font-size="15.5" fill="#1A2B2A">그 다음 영업일에 예탁 현금, 담보증권, 그 밖에 예탁한 증권 순서로 임의처분</text>
+    <text x="1128" y="741" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="end">제4-28조 제1항</text>
+    <polygon points="72,767 88,767 80,776" fill="#8A938F"/>
+  </g>
+
+  <g>
+    <rect x="48" y="774" width="1104" height="58" rx="10" fill="#F4EEE2" stroke="#E3DCCF"/>
+    <circle cx="80" cy="803" r="16" fill="#0A5F58"/>
+    <text x="80" y="809" font-size="17" font-weight="700" fill="#FBF7F0" text-anchor="middle">5</text>
+    <text x="112" y="809" font-size="15.5" fill="#1A2B2A">처분대금은 처분제비용, 연체이자, 이자, 채무원금 순서로 충당</text>
+    <text x="1128" y="809" font-size="14" font-weight="700" fill="#0A5F58" text-anchor="end">제4-28조 제5항</text>
+  </g>
+
+  <rect x="48" y="842" width="1104" height="32" rx="8" fill="#F4EEE2" stroke="#B5462F"/>
+  <text x="68" y="863" font-size="14.5" font-weight="700" fill="#B5462F">예외 (제4-28조 제2항)</text>
+  <text x="330" y="863" font-size="14.5" fill="#1A2B2A">사전 합의가 있고 시세 급변으로 채권회수가 현저히 위험하면 추가담보 요구 없이 바로 처분</text>
+
+  <text x="48" y="890" font-size="11.5" fill="#8A938F">출처: 금융위원회 보도자료(2026.11.6.), 금융투자업규정 제4-25조·제4-26조·제4-28조·제4-31조·제4-33조. 물어봄 정리.</text>
+</svg>
