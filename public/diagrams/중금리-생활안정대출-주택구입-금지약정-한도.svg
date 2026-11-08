@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="중금리 생활안정대출 약정의 두 조건. 한도는 전 금융기관 합산 1,000만원이고 최종 한도는 잔여한도와 금융회사 자체 산출 한도 중 적은 금액. 약정은 1년 또는 대출 전액 상환 시기까지 주택 구입 금지이며 위반 시 즉시 상환과 향후 3년간 주택 관련 대출 제한.">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <text x="60" y="76" font-size="42" font-weight="700" fill="#1A2B2A">중금리 생활안정대출, 약정서의 두 조건</text>
+    <text x="60" y="116" font-size="23" fill="#4A5856">요약에는 금리와 1,000만원만 남지만 약정에 들어가는 조건은 두 개입니다</text>
+    <text x="60" y="148" font-size="18" fill="#8A938F">정보 기준일 2026년 11월 9일 · 출처 금융위원회 2026년 6월 29일 보도자료</text>
+    <line x1="60" y1="168" x2="1140" y2="168" stroke="#E3DCCF" stroke-width="2"/>
+
+    <rect x="60" y="190" width="525" height="270" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="88" y="232" font-size="20" font-weight="600" fill="#8A938F">조건 1 · 한도</text>
+    <text x="88" y="274" font-size="29" font-weight="700" fill="#1A2B2A">전 금융기관 합산 1,000만원</text>
+    <text x="88" y="316" font-size="21" fill="#4A5856">잔여한도 = 1,000만원 빼기 기존 잔액</text>
+    <text x="88" y="348" font-size="21" fill="#4A5856">최종 한도 = 잔여한도와 금융회사 자체</text>
+    <text x="88" y="378" font-size="21" fill="#4A5856">산출 한도 중 적은 금액</text>
+    <rect x="88" y="400" width="469" height="44" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="106" y="428" font-size="19" fill="#0A5F58">가정 예시: 기존 600만원이면 잔여 400만원</text>
+
+    <rect x="615" y="190" width="525" height="270" rx="16" fill="#F4EEE2" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="643" y="232" font-size="20" font-weight="600" fill="#8A938F">조건 2 · 약정</text>
+    <text x="643" y="274" font-size="29" font-weight="700" fill="#1A2B2A">주택 구입 금지 약정</text>
+    <text x="643" y="316" font-size="21" fill="#4A5856">대출시 1년 또는 대출 전액 상환</text>
+    <text x="643" y="348" font-size="21" fill="#4A5856">시기까지 주택을 구입하지 않겠다는</text>
+    <text x="643" y="378" font-size="21" fill="#4A5856">약정을 체결하여야 한다</text>
+    <rect x="643" y="400" width="469" height="44" rx="10" fill="#FBF7F0" stroke="#E3DCCF" stroke-width="2"/>
+    <text x="661" y="428" font-size="19" fill="#B5462F">두 시점의 관계는 약정서에서 확인 필요</text>
+
+    <text x="60" y="500" font-size="20" font-weight="600" fill="#8A938F">약정 위반 시 (보도자료에 명시된 결과)</text>
+
+    <rect x="60" y="516" width="340" height="150" rx="16" fill="#F4EEE2" stroke="#B5462F" stroke-width="2"/>
+    <text x="88" y="568" font-size="26" font-weight="700" fill="#B5462F">대출금 즉시 상환</text>
+    <text x="88" y="606" font-size="20" fill="#4A5856">남은 기간과 무관</text>
+
+    <rect x="430" y="516" width="340" height="150" rx="16" fill="#F4EEE2" stroke="#B5462F" stroke-width="2"/>
+    <text x="458" y="568" font-size="26" font-weight="700" fill="#B5462F">향후 3년간</text>
+    <text x="458" y="604" font-size="26" font-weight="700" fill="#B5462F">주택 관련 대출 제한</text>
+    <text x="458" y="642" font-size="20" fill="#4A5856">범위는 보도자료에 없음</text>
+
+    <rect x="800" y="516" width="340" height="150" rx="16" fill="#F4EEE2" stroke="#B5462F" stroke-width="2"/>
+    <text x="828" y="568" font-size="26" font-weight="700" fill="#B5462F">향후 3년간</text>
+    <text x="828" y="604" font-size="26" font-weight="700" fill="#B5462F">이 대출 이용 제한</text>
+    <text x="828" y="642" font-size="20" fill="#4A5856">재신청도 막히는 구조</text>
+
+    <rect x="60" y="696" width="1080" height="172" rx="18" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+    <text x="88" y="734" font-size="20" font-weight="700" fill="#0A5F58">기준 정보</text>
+
+    <text x="240" y="782" font-size="20" fill="#4A5856" text-anchor="middle">대상</text>
+    <text x="240" y="818" font-size="25" font-weight="700" fill="#0A5F58" text-anchor="middle">신용평점 하위 50% 이하</text>
+    <text x="600" y="782" font-size="20" fill="#4A5856" text-anchor="middle">금리</text>
+    <text x="600" y="818" font-size="25" font-weight="700" fill="#0A5F58" text-anchor="middle">5.9~15.27%</text>
+    <text x="960" y="782" font-size="20" fill="#4A5856" text-anchor="middle">출시</text>
+    <text x="960" y="818" font-size="25" font-weight="700" fill="#0A5F58" text-anchor="middle">2026년 6월 29일</text>
+    <text x="600" y="852" font-size="17" fill="#4A5856" text-anchor="middle">참고치 NICE 889점·KCB 875점(2026년 6월 29일 기준, 변동 가능) · 1차 출시기관 6개 저축은행</text>
+  </g>
+</svg>
