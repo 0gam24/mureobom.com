@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="주식 양도소득 기본공제 누락분을 되돌리는 두 경로 도표. 2026년 11월 3일 국세청 직권 환급의 검토 범위와 경정청구 5년 기한, 귀속연도별 시한(2021년 귀속 2027년 5월 31일부터 2025년 귀속 2031년 5월 31일 기준), 양도소득금액과 과세표준의 차이로 누락과 중복을 구분하는 기준을 담았다.">
+  <rect x="0" y="0" width="1200" height="900" fill="#FBF7F0"/>
+
+  <g font-family="'IBM Plex Sans KR', system-ui, sans-serif">
+    <text x="60" y="74" font-size="42" font-weight="700" fill="#1A2B2A">기본공제 누락 환급, 두 경로와 남은 기한</text>
+    <text x="60" y="114" font-size="23" fill="#4A5856">국세청이 먼저 돌려준 범위와, 거기서 빠졌을 때 남는 청구 기한은 다른 층이에요</text>
+    <text x="60" y="146" font-size="18" fill="#8A938F">정보 기준일 2026년 11월 10일 · 국세청 2026년 11월 3일 보도자료, 국세기본법 제45조의2 기준</text>
+    <line x1="60" y1="168" x2="1140" y2="168" stroke="#E3DCCF" stroke-width="2"/>
+
+    <rect x="60" y="190" width="525" height="196" rx="16" fill="#F4EEE2" stroke="#C2873B" stroke-width="2"/>
+    <text x="88" y="228" font-size="20" font-weight="600" fill="#C2873B">국세청이 먼저 한 조치</text>
+    <text x="88" y="268" font-size="27" font-weight="700" fill="#1A2B2A">2026년 11월 3일 직권 환급</text>
+    <text x="88" y="306" font-size="21" fill="#4A5856">2021~2025년 귀속 신고내용 검토</text>
+    <text x="88" y="338" font-size="21" fill="#4A5856">별도의 환급신청 없이 누락분 반영</text>
+    <text x="88" y="370" font-size="21" fill="#4A5856">통지서는 모바일 또는 우편으로 발송</text>
+
+    <rect x="615" y="190" width="525" height="196" rx="16" fill="#F4EEE2" stroke="#0E7C72" stroke-width="2"/>
+    <text x="643" y="228" font-size="20" font-weight="600" fill="#0A5F58">거기서 빠졌다면</text>
+    <text x="643" y="268" font-size="27" font-weight="700" fill="#1A2B2A">경정청구</text>
+    <text x="643" y="306" font-size="21" fill="#4A5856">법정신고기한이 지난 후 5년 이내</text>
+    <text x="643" y="338" font-size="21" fill="#4A5856">관할 세무서장에게 청구</text>
+    <text x="643" y="370" font-size="21" fill="#4A5856">거부되면 불복 절차로 이어져요</text>
+
+    <rect x="60" y="408" width="1080" height="200" rx="18" fill="#E3F0EE" stroke="#0E7C72" stroke-width="2"/>
+    <text x="88" y="448" font-size="20" font-weight="700" fill="#0A5F58">귀속연도별 경정청구 시한 (확정신고기한 5월 31일을 법정신고기한으로 본 자체 계산)</text>
+
+    <text x="168" y="498" font-size="21" fill="#4A5856" text-anchor="middle">2021년 귀속</text>
+    <text x="384" y="498" font-size="21" fill="#4A5856" text-anchor="middle">2022년 귀속</text>
+    <text x="600" y="498" font-size="21" fill="#4A5856" text-anchor="middle">2023년 귀속</text>
+    <text x="816" y="498" font-size="21" fill="#4A5856" text-anchor="middle">2024년 귀속</text>
+    <text x="1032" y="498" font-size="21" fill="#4A5856" text-anchor="middle">2025년 귀속</text>
+
+    <text x="168" y="546" font-size="26" font-weight="700" fill="#0A5F58" text-anchor="middle">2027. 5. 31</text>
+    <text x="384" y="546" font-size="26" font-weight="700" fill="#0A5F58" text-anchor="middle">2028. 5. 31</text>
+    <text x="600" y="546" font-size="26" font-weight="700" fill="#0A5F58" text-anchor="middle">2029. 5. 31</text>
+    <text x="816" y="546" font-size="26" font-weight="700" fill="#0A5F58" text-anchor="middle">2030. 5. 31</text>
+    <text x="1032" y="546" font-size="26" font-weight="700" fill="#0A5F58" text-anchor="middle">2031. 5. 31</text>
+
+    <text x="600" y="586" font-size="18" fill="#4A5856" text-anchor="middle">말일이 토요일이나 공휴일일 때의 연장은 확인하지 않았으니 기준일로 읽어 주세요</text>
+
+    <text x="88" y="658" font-size="20" font-weight="700" fill="#8A938F">신고서의 양도소득금액과 과세표준 차이로 보는 진단</text>
+
+    <rect x="60" y="676" width="340" height="156" rx="16" fill="#F4EEE2" stroke="#B5462F" stroke-width="2"/>
+    <text x="88" y="722" font-size="26" font-weight="700" fill="#B5462F">차이 0원</text>
+    <text x="88" y="762" font-size="23" font-weight="700" fill="#1A2B2A">공제 누락</text>
+    <text x="88" y="798" font-size="20" fill="#4A5856">세금을 더 낸 상태</text>
+
+    <rect x="430" y="676" width="340" height="156" rx="16" fill="#F4EEE2" stroke="#0E7C72" stroke-width="2"/>
+    <text x="458" y="722" font-size="26" font-weight="700" fill="#0A5F58">차이 250만원</text>
+    <text x="458" y="762" font-size="23" font-weight="700" fill="#1A2B2A">공제 한 번 반영</text>
+    <text x="458" y="798" font-size="20" fill="#4A5856">합산 적용된 상태</text>
+
+    <rect x="800" y="676" width="340" height="156" rx="16" fill="#F4EEE2" stroke="#B5462F" stroke-width="2"/>
+    <text x="828" y="722" font-size="26" font-weight="700" fill="#B5462F">차이 500만원</text>
+    <text x="828" y="762" font-size="23" font-weight="700" fill="#1A2B2A">공제 두 번</text>
+    <text x="828" y="798" font-size="20" fill="#4A5856">과소신고 상태, 정산 필요</text>
+
+    <text x="600" y="866" font-size="18" fill="#8A938F" text-anchor="middle">주식등 양도소득금액에서 기본공제는 국내와 국외를 합해 연 1회 적용</text>
+  </g>
+</svg>
