@@ -1,15 +1,15 @@
 {
   "site": "https://mureobom.com/\n",
   "period": {
-    "start": "2026-10-11",
-    "end": "2026-11-07",
+    "start": "2026-10-18",
+    "end": "2026-11-14",
     "days": 28
   },
   "total": {
     "clicks": 0,
-    "impressions": 23,
+    "impressions": 13,
     "ctr": 0,
-    "position": 7.217391304347826
+    "position": 8.23076923076923
   },
   "top_queries": [],
   "top_pages": [
@@ -18,18 +18,18 @@
         "https://mureobom.com/"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 4,
       "ctr": 0,
-      "position": 3.6666666666666665
+      "position": 1
     },
     {
       "keys": [
         "https://mureobom.com/about/"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0,
-      "position": 5.4
+      "position": 5
     },
     {
       "keys": [
@@ -54,18 +54,18 @@
         "https://mureobom.com/loan/"
       ],
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 8,
       "ctr": 0,
-      "position": 10.2
+      "position": 11
     },
     {
       "keys": [
         "https://mureobom.com/loan/%EC%8B%A0%EC%9A%A9%ED%9A%8C%EB%B3%B5%EC%9C%84%EC%9B%90%ED%9A%8C-%EC%B1%84%EB%AC%B4%EC%A1%B0%EC%A0%95/"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 5.75
+      "position": 5.666666666666667
     },
     {
       "keys": [
@@ -81,27 +81,27 @@
         "https://mureobom.com/privacy/"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0,
-      "position": 5.8
+      "position": 6
     },
     {
       "keys": [
         "https://mureobom.com/tax/"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0,
-      "position": 4.8
+      "position": 4
     },
     {
       "keys": [
         "https://mureobom.com/tax/%EA%B8%B0%ED%83%80%EC%86%8C%EB%93%9D-%EC%84%B8%EA%B8%88/"
       ],
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 6,
       "ctr": 0,
-      "position": 5.454545454545454
+      "position": 5.666666666666667
     },
     {
       "keys": [
@@ -119,47 +119,47 @@
         "DESKTOP"
       ],
       "clicks": 0,
-      "impressions": 23,
+      "impressions": 13,
       "ctr": 0,
-      "position": 7.217391304347826
+      "position": 8.23076923076923
     }
   ],
   "countries": [
     {
       "keys": [
-        "bra"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 4.5
-    },
-    {
-      "keys": [
-        "ind"
+        "bol"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 3
+      "position": 1
+    },
+    {
+      "keys": [
+        "bra"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
     },
     {
       "keys": [
         "kor"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 3,
       "ctr": 0,
-      "position": 13
+      "position": 24.333333333333332
     },
     {
       "keys": [
         "usa"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 8,
       "ctr": 0,
-      "position": 4.166666666666666
+      "position": 4
     }
   ]
 }
