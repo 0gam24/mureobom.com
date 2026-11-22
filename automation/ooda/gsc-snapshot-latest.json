@@ -1,15 +1,15 @@
 {
   "site": "https://mureobom.com/\n",
   "period": {
-    "start": "2026-10-18",
-    "end": "2026-11-14",
+    "start": "2026-10-25",
+    "end": "2026-11-21",
     "days": 28
   },
   "total": {
     "clicks": 0,
-    "impressions": 13,
+    "impressions": 10,
     "ctr": 0,
-    "position": 8.23076923076923
+    "position": 8.4
   },
   "top_queries": [],
   "top_pages": [
@@ -54,18 +54,18 @@
         "https://mureobom.com/loan/"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 6,
       "ctr": 0,
-      "position": 11
+      "position": 12.666666666666666
     },
     {
       "keys": [
         "https://mureobom.com/loan/%EC%8B%A0%EC%9A%A9%ED%9A%8C%EB%B3%B5%EC%9C%84%EC%9B%90%ED%9A%8C-%EC%B1%84%EB%AC%B4%EC%A1%B0%EC%A0%95/"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 5.666666666666667
+      "position": 3
     },
     {
       "keys": [
@@ -119,9 +119,9 @@
         "DESKTOP"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 10,
       "ctr": 0,
-      "position": 8.23076923076923
+      "position": 8.4
     }
   ],
   "countries": [
@@ -157,9 +157,9 @@
         "usa"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 5,
       "ctr": 0,
-      "position": 4
+      "position": 1.8
     }
   ]
 }
